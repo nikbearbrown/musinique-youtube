@@ -1,6 +1,6 @@
 # Musinique YouTube Production Library
 
-This repository contains the non-MP3, non-MP4 production materials collected under `books/musinique/youtube`. It preserves the beat sheets, visual assets, scripts, manifests, research notes, rendered stills, and quality-control artifacts used across Claude-focused and independent video projects.
+This repository contains non-MP3, non-MP4 production materials for two subjects only: Claude/Anthropic and independent music. It preserves beat sheets, visual assets, scripts, manifests, research notes, rendered stills, and quality-control artifacts for those projects.
 
 The archive is designed for project discovery, editorial review, visual reuse, and reconstruction of video builds. Finished MP3 and MP4 media is intentionally excluded from version control.
 
@@ -8,23 +8,25 @@ The archive is designed for project discovery, editorial review, visual reuse, a
 
 ### `claude/`
 
-The main Claude and AI production archive. It includes consolidated projects gathered from multiple books and production areas, while preserving their original relative paths beneath `claude/_collected/`. It also contains selected first-class Claude project folders maintained directly under `claude/`.
+The Claude-specific production archive. It includes collections explicitly about Claude, Claude Code, Claude Cowork, Anthropic, Claude prompt engineering, and Claude-related creative workflows. Content merely produced with Claude does not qualify when its subject is unrelated.
 
-This collection contains approximately 155,000 files and more than 5,600 beat-sheet variants.
+Broad AI, Codex, science, medicine, finance, mathematics, courses, and unrelated Claude-generated projects are outside this repository's scope. The collection currently contains 857 project folders and 1,237 beat-sheet files.
 
 ### `indie/`
 
-Independent Musinique video concepts and builds, including series-level documentation and individual production folders. This smaller collection contains roughly 525 files and 21 beat-sheet variants.
+Independent-music video concepts and builds, including series-level documentation and individual production folders. This collection contains 14 project folders and 21 beat-sheet files.
 
 ## Directory conventions
 
-The archive favors provenance over a flat directory layout. A typical collected path looks like:
+The archive has exactly two top-level content collections. Claude projects retain a clearly named Claude source collection when needed for provenance:
 
 ```text
-claude/_collected/<source-book-or-project>/youtube/<video-slug>/
+claude/<claude-source-collection>/youtube/<video-slug>/
 ```
 
-Preserving this hierarchy prevents same-named projects from overwriting one another and makes it possible to trace an asset back to the workspace that produced it.
+This hierarchy prevents same-named projects from overwriting one another and makes it possible to trace an asset back to the workspace that produced it.
+
+General courses and educational projects belong in the Humanitarians YouTube repository. Medhavy holds its science collections.
 
 ## Typical project contents
 
@@ -66,10 +68,10 @@ The root `.gitignore` excludes all `.mp3` and `.mp4` files. JSON or text metadat
 2. Read fact-check, source, pedagogy, and prompt documents before editing content.
 3. Use manifests and timing files to map beats to assets.
 4. Review QC frames and audit reports at full resolution.
-5. Preserve source-relative paths when importing additional projects.
+5. Import only projects explicitly about Claude/Anthropic or independent music.
 6. Do not commit final MP3 or MP4 renders to this repository.
+7. Do not add general AI or course material solely because Claude helped produce it.
 
 ## Repository scope
 
-This repository mirrors `books/musinique/youtube` from the Bear Textbooks workspace. It is a production-material archive, not a finished-media feed or the Musinique public website.
-
+This repository mirrors `books/musinique/youtube` from the Bear Textbooks workspace. Unrelated material belongs elsewhere, even when Claude was used to produce it. This is a production-material archive, not a finished-media feed or the Musinique public website.
