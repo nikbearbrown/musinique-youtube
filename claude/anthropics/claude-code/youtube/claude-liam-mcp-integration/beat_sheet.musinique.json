@@ -64,7 +64,7 @@
     }
    },
    "audio_file": "mp3/beat-B00.mp3",
-   "actual_duration_s": 44.48,
+   "actual_duration_s": 43.97,
    "build": {
     "status": "VIDEO",
     "src": "media/B00.mp4",
@@ -126,7 +126,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 16.77
   },
   {
    "beat_id": "B02",
@@ -288,7 +290,7 @@
     }
    },
    "audio_file": "mp3/beat-BOUT.mp3",
-   "actual_duration_s": 3.41,
+   "actual_duration_s": 2.82,
    "build": {
     "status": "VIDEO",
     "src": "media/BOUT.mp4",
