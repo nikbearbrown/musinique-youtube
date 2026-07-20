@@ -48,7 +48,7 @@
     "B06: palette=claude but the outro is 'un-annotated' — OUTRO LAW wants ClaudeTitleOutro"
    ]
   },
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "voice": "am_puck"
  },
@@ -56,7 +56,7 @@
   {
    "beat_id": "B00",
    "act": "ASK",
-   "narration_text": "This is Musinique. Three hours into the build. The context window is full of the failed first attempt, the corrected version, a thousand lines of test output, and two approaches they talked themselves out of. Quality is dropping. Claude is referencing a constraint they dropped two rows ago. The student thinks the model is getting worse. The model is fine. The context is not. This is Cześć, Liam — in for Bear.",
+   "narration_text": "This is Musinique. Three hours into the build. The context window is full of the failed first attempt, the corrected version, a thousand lines of test output, and two approaches they talked themselves out of. Quality is dropping. Claude is referencing a constraint they dropped two rows ago. The student thinks the model is getting worse. The model is fine. The context is not. This is Cześć, Musinique —.",
    "shot": {
     "type": "REMOTION",
     "source": "own",
@@ -76,7 +76,7 @@
    },
    "estimated_duration_s": 15,
    "audio_file": "mp3/beat-B00.mp3",
-   "actual_duration_s": 19.2,
+   "actual_duration_s": 18.86,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -100,7 +100,7 @@
    "spark_line": "Stale context biases output.",
    "estimated_duration_s": 13,
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 22.04,
+   "actual_duration_s": 19.67,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -136,7 +136,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 18.92
   },
   {
    "beat_id": "B02",
@@ -151,7 +153,7 @@
    "spark_line": "Chat gone. Code stays.",
    "estimated_duration_s": 13,
    "audio_file": "mp3/beat-B02.mp3",
-   "actual_duration_s": 23.17,
+   "actual_duration_s": 20.5,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -175,7 +177,7 @@
    "spark_line": "Load-bearing: compact. Done: clear.",
    "estimated_duration_s": 13,
    "audio_file": "mp3/beat-B03.mp3",
-   "actual_duration_s": 22.08,
+   "actual_duration_s": 20.27,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -199,7 +201,7 @@
    "spark_line": "Progress is on disk.",
    "estimated_duration_s": 13,
    "audio_file": "mp3/beat-B04.mp3",
-   "actual_duration_s": 22.4,
+   "actual_duration_s": 20.16,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -233,7 +235,7 @@
    },
    "estimated_duration_s": 9,
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 5.08,
+   "actual_duration_s": 5.01,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -264,7 +266,7 @@
    },
    "estimated_duration_s": 5,
    "audio_file": "mp3/beat-B06.mp3",
-   "actual_duration_s": 5.72,
+   "actual_duration_s": 5.1,
    "build": {
     "status": "SLATE",
     "src": null,

@@ -43,7 +43,7 @@
    ]
   },
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique"
  },
@@ -59,7 +59,7 @@
     "motion": "hold"
    },
    "audio_file": "mp3/beat-B00.mp3",
-   "actual_duration_s": 7.81,
+   "actual_duration_s": 7.53,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -82,7 +82,7 @@
     "motion": "hold"
    },
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 15.74,
+   "actual_duration_s": 16.55,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -119,7 +119,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 17.71
   },
   {
    "beat_id": "B02",
@@ -131,10 +133,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Assemble the status section of the weekly operations packet from this project status file. Include: project name, current phase, key decisions since last week (with dates), blockers, and next actions. Add a source: tag after each data point.\" < status.md",
-      "topic": "CLAUDE COWORK",
+      "topic": "MUSINIQUE · CLAUDE COWORK",
       "segment": "WEEKLY OPS PACKET",
       "runningText": "assembling packet…"
      },
@@ -145,7 +147,7 @@
     }
    },
    "audio_file": "mp3/beat-B02.mp3",
-   "actual_duration_s": 13.48,
+   "actual_duration_s": 14.85,
    "build": {
     "status": "VIDEO",
     "src": "media/B02.mp4",
@@ -165,12 +167,12 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownCodeBlock",
+     "pattern": "ClaudeCodeBeat",
      "props": {
-      "filename": "ops_packet.py",
       "code": "SOURCES = {\n    \"status\": \"status.md\",\n    \"metrics\": \"metrics.csv\",\n    \"calendar\": \"calendar.ics\",\n    \"email\": \"email_digest.md\"\n}\n\ndef assemble_section(section: str, source_path: str) -> dict:\n    \"\"\"Run one Claude pass per section; tag every claim with source.\"\"\"\n    content = open(source_path).read()\n    prompt = f\"Assemble the {section} section. After every claim, append [source: {source_path}].\"\n    # Claude call here returns tagged content\n    return {\"section\": section, \"source\": source_path, \"content\": \"...\"}\n\ndef detect_conflicts(sections: list[dict]) -> list[dict]:\n    \"\"\"Flag claims that appear in multiple sources with contradictory values.\"\"\"\n    conflicts = []\n    claim_map = {}\n    for s in sections:\n        for claim in s.get(\"claims\", []):\n            key = claim[\"key\"]\n            if key in claim_map and claim_map[key][\"value\"] != claim[\"value\"]:\n                conflicts.append({\"key\": key, \"sources\": [claim_map[key], claim]})\n            claim_map[key] = claim\n    return conflicts",
       "topic": "CLAUDE COWORK",
-      "segment": "WEEKLY OPS PACKET"
+      "segment": "WEEKLY OPS PACKET",
+      "title": "ops_packet.py"
      },
      "rendered": {
       "out": "media/B03.mp4",
@@ -179,7 +181,7 @@
     }
    },
    "audio_file": "mp3/beat-B03.mp3",
-   "actual_duration_s": 9.58,
+   "actual_duration_s": 10.5,
    "build": {
     "status": "VIDEO",
     "src": "media/B03.mp4",
@@ -200,7 +202,7 @@
     "motion": "hold"
    },
    "audio_file": "mp3/beat-B04.mp3",
-   "actual_duration_s": 17.15,
+   "actual_duration_s": 17.94,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -222,10 +224,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "python3 ops_packet.py --sources status.md email_digest.md --detect-conflicts",
-      "topic": "CLAUDE COWORK",
+      "topic": "MUSINIQUE · CLAUDE COWORK",
       "segment": "WEEKLY OPS PACKET",
       "runningText": "testing conflict detection…"
      },
@@ -236,7 +238,7 @@
     }
    },
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 7.64,
+   "actual_duration_s": 8.34,
    "build": {
     "status": "VIDEO",
     "src": "media/B05.mp4",
@@ -257,7 +259,7 @@
     "motion": "hold"
    },
    "audio_file": "mp3/beat-B06.mp3",
-   "actual_duration_s": 18.39,
+   "actual_duration_s": 18.79,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -280,7 +282,7 @@
     "motion": "hold"
    },
    "audio_file": "mp3/beat-B07.mp3",
-   "actual_duration_s": 16.77,
+   "actual_duration_s": 17.66,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -303,7 +305,7 @@
     "motion": "hold"
    },
    "audio_file": "mp3/beat-B08.mp3",
-   "actual_duration_s": 5.21,
+   "actual_duration_s": 4.95,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -319,17 +321,17 @@
    "beat_id": "B09",
    "t_start": 110.0,
    "estimated_duration_s": 8.0,
-   "narration_text": "Nik Bear Brown. Brutalist and Educational AI. nikbearbrown.com.",
+   "narration_text": "Musinique. Brutalist and Educational AI. nikbearbrown.com.",
    "shot": {
     "type": "SLATE",
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOutro",
+     "pattern": "ClaudeTitleOutro",
      "props": {
       "brand": "Nik Bear Brown",
       "tagline": "Brutalist + Educational AI",
-      "handle": "@NikBearBrown",
+      "handle": "@Musinique",
       "url": "nikbearbrown.com"
      },
      "rendered": {
@@ -339,7 +341,7 @@
     }
    },
    "audio_file": "mp3/beat-B09.mp3",
-   "actual_duration_s": 4.93,
+   "actual_duration_s": 4.78,
    "build": {
     "status": "VIDEO",
     "src": "media/B09.mp4",

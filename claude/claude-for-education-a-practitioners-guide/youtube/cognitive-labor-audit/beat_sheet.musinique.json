@@ -3,7 +3,7 @@
   "slug": "cognitive-labor-audit",
   "title": "Audit a Prompt for Cognitive Labor Transfer with Claude",
   "topic": "CLAUDE FOR EDUCATION",
-  "voice": "am_onyx",
+  "voice": "am_puck",
   "voice_id": "TyW6NH39JcFb5M3xdIIk",
   "style": "cli",
   "palette": "claude",
@@ -13,41 +13,45 @@
   "ground": "#FFFFFF",
   "total_estimated_duration_seconds": 113.0,
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "register": "Baldwin",
   "folderLabel": "@Musinique",
   "engine": "kokoro",
-  "voice_kokoro": "am_onyx",
+  "voice_kokoro": "am_puck",
   "derived_from": "beat_sheet.json"
  },
  "beats": [
   {
    "beat_id": "B00",
    "act": "INTRO",
-   "narration_text": "This is Liam for Musinique. Nik Bear Brown. Brutalist and Educational AI. Build it with Claude — then take it apart.",
+   "narration_text": "This is Musinique. Musinique. Brutalist and Educational AI. Build it with Claude — then take it apart.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOpen",
+     "pattern": "ClaudeComposerAsk",
      "props": {
-      "topic": "CLAUDE FOR EDUCATION",
-      "lines": [
-       "Nik Bear Brown",
+      "command": "Audit a Prompt for Cognitive Labor Transfer with Claude",
+      "topic": "MUSINIQUE · CLAUDE FOR EDUCATION",
+      "segment": "Audit a Prompt for Cognitive Labor Transfer with Claude",
+      "greeting": "This is Musinique.",
+      "runningText": "working…",
+      "output": [
        "Brutalist + Educational AI",
        "Cognitive Labor Audit",
        "Who Does the Thinking?",
        "Build with Claude CLI"
-      ],
-      "greeting": "Sawubona, Musinique"
+      ]
      }
     }
    },
    "estimated_duration_s": 10.0,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B00.mp3",
+   "actual_duration_s": 7.34
   },
   {
    "beat_id": "B01",
@@ -61,14 +65,16 @@
    "visual_intent": "Slate: hook statement. 'Ask Claude to explain X and summarize' — who is doing the thinking? No CLI yet.",
    "estimated_duration_s": 12.0,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 14.7
   },
   {
    "beat_id": "B01B",
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "Prompt design is the skill the platform doesn't want you to have, because a musician who can write a precise prompt is a musician who doesn't need to buy someone else's pre-packaged workflow. Every prompt in this video is a template you can adapt — paste it, swap the specifics, run it on your own catalog. The instruction is the tool.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -88,7 +94,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 17.15
   },
   {
    "beat_id": "B02",
@@ -99,10 +107,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Audit this instructional prompt for cognitive labor distribution. For each learning objective implied by the prompt, classify the cognitive operation as: (a) student-performed, (b) AI-performed, or (c) shared. Return a labor ratio: % of cognitive operations that are student-performed.\" < prompt.txt",
-      "topic": "CLAUDE FOR EDUCATION",
+      "topic": "MUSINIQUE · CLAUDE FOR EDUCATION",
       "segment": "COGNITIVE LABOR",
       "runningText": "running cognitive audit…"
      }
@@ -110,7 +118,9 @@
    },
    "estimated_duration_s": 15.0,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 14.63
   },
   {
    "beat_id": "B03",
@@ -121,18 +131,20 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownCodeBlock",
+     "pattern": "ClaudeCodeBeat",
      "props": {
-      "filename": "cognitive_audit.py",
       "segment": "COGNITIVE LABOR",
       "topic": "CLAUDE FOR EDUCATION",
-      "code": "import subprocess, re\nfrom pathlib import Path\n\ndef audit_cognitive_labor(prompt_file):\n    text = Path(prompt_file).read_text()\n    instruction = (\n        \"Audit for cognitive labor distribution.\\n\"\n        \"For each learning objective, classify:\\n\"\n        \"(a) student-performed (b) AI-performed (c) shared.\\n\"\n        \"Return: ratio of student-performed operations.\"\n    )\n    result = subprocess.run(\n        [\"claude\", instruction],\n        input=text, capture_output=True, text=True\n    )\n    output = result.stdout\n    ratios = re.findall(r'(\\d+)%.*student', output, re.I)\n    ratio = ratios[0] if ratios else 'unknown'\n    print(f\"Cognitive labor ratio: {ratio}% student-performed\")\n    print(output)"
+      "code": "import subprocess, re\nfrom pathlib import Path\n\ndef audit_cognitive_labor(prompt_file):\n    text = Path(prompt_file).read_text()\n    instruction = (\n        \"Audit for cognitive labor distribution.\\n\"\n        \"For each learning objective, classify:\\n\"\n        \"(a) student-performed (b) AI-performed (c) shared.\\n\"\n        \"Return: ratio of student-performed operations.\"\n    )\n    result = subprocess.run(\n        [\"claude\", instruction],\n        input=text, capture_output=True, text=True\n    )\n    output = result.stdout\n    ratios = re.findall(r'(\\d+)%.*student', output, re.I)\n    ratio = ratios[0] if ratios else 'unknown'\n    print(f\"Cognitive labor ratio: {ratio}% student-performed\")\n    print(output)",
+      "title": "cognitive_audit.py"
      }
     }
    },
    "estimated_duration_s": 15.0,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 16.9
   },
   {
    "beat_id": "B04",
@@ -149,7 +161,9 @@
    },
    "estimated_duration_s": 14.0,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 19.8
   },
   {
    "beat_id": "B05",
@@ -160,10 +174,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Rewrite this instructional prompt to shift cognitive labor to the student — for example, require them to predict the answer before asking Claude, then compare. Re-audit and show the new labor ratio.\" < prompt.txt",
-      "topic": "CLAUDE FOR EDUCATION",
+      "topic": "MUSINIQUE · CLAUDE FOR EDUCATION",
       "segment": "COGNITIVE LABOR",
       "runningText": "shifting labor to student…"
      }
@@ -171,7 +185,9 @@
    },
    "estimated_duration_s": 15.0,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 10.18
   },
   {
    "beat_id": "B06",
@@ -185,7 +201,9 @@
    "visual_intent": "Slate: ratio comparison. Before: 40% student. After: 75% student. Same topic, different prompt structure. The shift highlighted.",
    "estimated_duration_s": 10.0,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 16.43
   },
   {
    "beat_id": "B07",
@@ -199,7 +217,9 @@
    "visual_intent": "Slate: teardown summary. 'AI-performed cognitive work = student learning foregone.' The ratio as a diagnostic, not a verdict.",
    "estimated_duration_s": 12.0,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B07.mp3",
+   "actual_duration_s": 13.72
   },
   {
    "beat_id": "B08",
@@ -213,18 +233,20 @@
    "visual_intent": "Slate: next reel teaser. 'assessment-vulnerability-map' slug.",
    "estimated_duration_s": 6.0,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B08.mp3",
+   "actual_duration_s": 8.3
   },
   {
    "beat_id": "B09",
    "act": "OUTRO",
-   "narration_text": "Nik Bear Brown. Brutalist and Educational AI. At NikBearBrown, nikbearbrown dot com.",
+   "narration_text": "Musinique. Brutalist and Educational AI. At NikBearBrown, nikbearbrown dot com.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOutro",
+     "pattern": "ClaudeTitleOutro",
      "props": {
       "brand": "Nik Bear Brown",
       "tagline": "Brutalist + Educational AI",
@@ -235,7 +257,9 @@
    },
    "estimated_duration_s": 8.0,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B09.mp3",
+   "actual_duration_s": 6.14
   }
  ]
 }

@@ -6,7 +6,7 @@
   "topic": "CLAUDE CODE FOR TEACHERS",
   "audience": "NikBearBrown",
   "engine": "kokoro",
-  "voice": "am_onyx",
+  "voice": "am_puck",
   "palette": "claude",
   "register": "Baldwin",
   "derived_from": "beat_sheet.json",
@@ -28,10 +28,10 @@
   "old_outro_beats": [],
   "built_at": "2026-07-16T22:52:48.574796",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
-  "voice_kokoro": "am_onyx"
+  "voice_kokoro": "am_puck"
  },
  "beats": [
   {
@@ -39,8 +39,8 @@
    "act": "COLD OPEN",
    "title": "Liam cold open — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "This is Liam for Musinique. The syllabus link that passed 'looks good' and still broke in production shook me, and I want every gate I write to be specific, testable, and binary. For my next About-page push: (1) help me replace 'looks good' with conditions that name the artifact and the exact property; (2) write the check that every link resolves on the actual deployment URL, not local dev; (3) add conditions for 375px mobile width with no horizontal scroll and changes appearing only in the expected files.",
+   "voice": "am_puck",
+   "narration_text": "This is Musinique. The syllabus link that passed 'looks good' and still broke in production shook me, and I want every gate I write to be specific, testable, and binary. For my next About-page push: (1) help me replace 'looks good' with conditions that name the artifact and the exact property; (2) write the check that every link resolves on the actual deployment URL, not local dev; (3) add conditions for 375px mobile width with no horizontal scroll and changes appearing only in the expected files.",
    "shot": {
     "type": "CARD",
     "source": "remotion",
@@ -51,7 +51,7 @@
      "version": "1",
      "props": {
       "command": "The syllabus link that passed 'looks good' and still broke in production shook me, and I want every gate I write to be specific, testable, and binary. For my next About-page push: (1) help me replace 'looks good' with conditions that name the artifact and the exact property; (2) write the check that every link resolves on the actual deployment URL, not local dev; (3) add conditions for 375px mobile width with no horizontal scroll and changes appearing only in the expected files.",
-      "topic": "CLAUDE CODE FOR TEACHERS",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR TEACHERS",
       "segment": "Why 'Looks Good' Fails as a",
       "greeting": "Halo, Musinique",
       "runningText": "explaining the mechanism…",
@@ -68,7 +68,7 @@
    },
    "estimated_duration_s": 9.0,
    "audio_file": "mp3/beat-NBB00.mp3",
-   "actual_duration_s": 7.275
+   "actual_duration_s": 29.48
   },
   {
    "beat_id": "B01",
@@ -86,20 +86,20 @@
     "eyebrow": "CLAUDE CODE FOR TEACHERS"
    },
    "new_visual_element": "[TITLE] looks good fails as a gate",
-   "audio_file": "../vox-handoff-conditions/mp3/beat-B01.mp3",
-   "actual_duration_s": 10.68,
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 10.09,
    "locked": true,
    "source_clip": "../vox-handoff-conditions/clips/B01.mp4",
    "source_audio": "../vox-handoff-conditions/mp3/beat-B01.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01B",
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "Prompt design is the skill the platform doesn't want you to have, because a musician who can write a precise prompt is a musician who doesn't need to buy someone else's pre-packaged workflow. Every prompt in this video is a template you can adapt — paste it, swap the specifics, run it on your own catalog. The instruction is the tool.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -119,7 +119,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 17.15
   },
   {
    "beat_id": "B02",
@@ -143,13 +145,13 @@
     }
    },
    "new_visual_element": "[GRAPHIC] local dev passes / school server fails",
-   "audio_file": "../vox-handoff-conditions/mp3/beat-B02.mp3",
-   "actual_duration_s": 18.76,
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 15.25,
    "locked": true,
    "source_clip": "../vox-handoff-conditions/clips/B02.mp4",
    "source_audio": "../vox-handoff-conditions/mp3/beat-B02.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B03",
@@ -166,13 +168,13 @@
     "copy": "Exit 0. Looks good. Link broken three days later. Why?"
    },
    "new_visual_element": "[CARD] the question on screen",
-   "audio_file": "../vox-handoff-conditions/mp3/beat-B03.mp3",
-   "actual_duration_s": 13.19,
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 12.03,
    "locked": true,
    "source_clip": "../vox-handoff-conditions/clips/B03.mp4",
    "source_audio": "../vox-handoff-conditions/mp3/beat-B03.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B04",
@@ -196,13 +198,13 @@
     }
    },
    "new_visual_element": "[GRAPHIC] three properties vs looks good — all fail",
-   "audio_file": "../vox-handoff-conditions/mp3/beat-B04.mp3",
-   "actual_duration_s": 20.09,
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 17.19,
    "locked": true,
    "source_clip": "../vox-handoff-conditions/clips/B04.mp4",
    "source_audio": "../vox-handoff-conditions/mp3/beat-B04.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B05",
@@ -226,13 +228,13 @@
     }
    },
    "new_visual_element": "[GRAPHIC] weak vs strong — bug through left, blocked right",
-   "audio_file": "../vox-handoff-conditions/mp3/beat-B05.mp3",
-   "actual_duration_s": 24.84,
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 21.33,
    "locked": true,
    "source_clip": "../vox-handoff-conditions/clips/B05.mp4",
    "source_audio": "../vox-handoff-conditions/mp3/beat-B05.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B06",
@@ -247,13 +249,13 @@
    "scene_description": "a terminal showing npm run lint-html output with a link resolution check, pinned to newsprint, editorial collage, desaturated",
    "image_prompt": "B06, printed terminal output showing npm run lint-html with a link check result — one line passes, one line shows a 404 resolution failure — pinned to aged newsprint, editorial collage style, highly desaturated, cream and charcoal tones",
    "new_visual_element": "[STILL ai] terminal showing lint-html link check",
-   "audio_file": "../vox-handoff-conditions/mp3/beat-B06.mp3",
-   "actual_duration_s": 21.08,
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 17.62,
    "locked": true,
    "source_clip": "../vox-handoff-conditions/clips/B06.mp4",
    "source_audio": "../vox-handoff-conditions/mp3/beat-B06.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B07",
@@ -276,13 +278,13 @@
     }
    },
    "new_visual_element": "[GRAPHIC] context filling with failure history",
-   "audio_file": "../vox-handoff-conditions/mp3/beat-B07.mp3",
-   "actual_duration_s": 24.97,
+   "audio_file": "mp3/beat-B07.mp3",
+   "actual_duration_s": 20.46,
    "locked": true,
    "source_clip": "../vox-handoff-conditions/clips/B07.mp4",
    "source_audio": "../vox-handoff-conditions/mp3/beat-B07.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B08",
@@ -306,13 +308,13 @@
     }
    },
    "new_visual_element": "[GRAPHIC] revert-and-respecify: two clean steps",
-   "audio_file": "../vox-handoff-conditions/mp3/beat-B08.mp3",
-   "actual_duration_s": 20.79,
+   "audio_file": "mp3/beat-B08.mp3",
+   "actual_duration_s": 17.24,
    "locked": true,
    "source_clip": "../vox-handoff-conditions/clips/B08.mp4",
    "source_audio": "../vox-handoff-conditions/mp3/beat-B08.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B09",
@@ -335,13 +337,13 @@
     }
    },
    "new_visual_element": "[GRAPHIC] three-row practical card",
-   "audio_file": "../vox-handoff-conditions/mp3/beat-B09.mp3",
-   "actual_duration_s": 22.7,
+   "audio_file": "mp3/beat-B09.mp3",
+   "actual_duration_s": 18.28,
    "locked": true,
    "source_clip": "../vox-handoff-conditions/clips/B09.mp4",
    "source_audio": "../vox-handoff-conditions/mp3/beat-B09.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B10",
@@ -359,20 +361,20 @@
     "sub": "CLAUDE CODE FOR TEACHERS"
    },
    "new_visual_element": "[CARD] endcard — specific, testable, binary",
-   "audio_file": "../vox-handoff-conditions/mp3/beat-B10.mp3",
-   "actual_duration_s": 17.44,
+   "audio_file": "mp3/beat-B10.mp3",
+   "actual_duration_s": 13.63,
    "locked": true,
    "source_clip": "../vox-handoff-conditions/clips/B10.mp4",
    "source_audio": "../vox-handoff-conditions/mp3/beat-B10.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "NBB01",
    "act": "VERDICT",
    "title": "Liam verdict — ClaudeVerdictArtifact",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": "Let's recap with Claude. Here's what the body just demonstrated. The practical move: before approving any Claude Code build step, write the handoff condition in one sentence that names the artifact, the verification method, and the threshold. If automated, run it before approving. If the condition fails, use slash-rewind not forward correction. After two failures on the same step, clear and rewrite from scratch. Exit zero is not a handoff condition. Looks good is not a handoff condition. The condition that catches the syllabus link bug is specific, testable, and binary — and it is written before the step runs, not discovered when the student emails.",
    "shot": {
     "type": "CARD",
@@ -399,7 +401,7 @@
    },
    "estimated_duration_s": 30.0,
    "audio_file": "mp3/beat-NBB01.mp3",
-   "actual_duration_s": 31.659,
+   "actual_duration_s": 33.13,
    "lead_silence_s": 0.5
   },
   {
@@ -407,7 +409,7 @@
    "act": "YOUR TURN",
    "title": "Your turn handoff — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": "Take this prompt, run it on your own — pick any cancer type or clinical scenario you know about and ask how this mechanism applies there.",
    "shot": {
     "type": "CARD",
@@ -419,7 +421,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Why 'Looks Good' Fails as a Gate and What to Write Instead] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "CLAUDE CODE FOR TEACHERS",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR TEACHERS",
       "segment": "Why 'Looks Good' Fails as a",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -436,7 +438,7 @@
    },
    "estimated_duration_s": 8.0,
    "audio_file": "mp3/beat-NBB02.mp3",
-   "actual_duration_s": 7.765
+   "actual_duration_s": 7.81
   },
   {
    "beat_id": "NBB03",
@@ -465,10 +467,10 @@
    "estimated_duration_s": 6.0,
    "audio_file": "mp3/beat-NBB03.mp3",
    "silence_s": 6.0,
-   "actual_duration_s": 6.03,
+   "actual_duration_s": 3.71,
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "Why 'Looks Good' Fails as a Gate and What to Write Instead"
+   "voice": "am_puck",
+   "narration_text": "Why 'Looks Good' Fails as a Gate and What to Write Instead. From Musinique."
   }
  ]
 }

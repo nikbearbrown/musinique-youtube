@@ -26,14 +26,14 @@
   "note": "Card exclusions honored: NO full five-question policy check enumeration; NO GDPR international comparison; NO enterprise AI agreement discussion; NO 'what counts as an education record' legal detail; NO discussion of storing outputs. Core mechanism only: pasting identifiable student records is a data-sharing decision; data minimization — describe the pattern, not the person — gives Claude enough to help without crossing the line.",
   "total_estimated_duration_seconds": 102.05,
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "register": "Baldwin",
   "palette": "claude",
   "folderLabel": "@Musinique",
   "engine": "kokoro",
-  "voice": "am_onyx",
-  "voice_kokoro": "am_onyx",
+  "voice": "am_puck",
+  "voice_kokoro": "am_puck",
   "derived_from": "beat_sheet.json"
  },
  "beats": [
@@ -44,14 +44,14 @@
     "type": "CARD",
     "source": "own"
    },
-   "narration_text": "This is Liam for Musinique. A teacher has three struggling students. She pastes their names, grades, IEP documentation, and counselor notes into Claude. Claude produces thoughtful, specific support plans. She saves them to a shared Google Drive. She had good intentions. The risk remains.",
+   "narration_text": "This is Musinique. A teacher has three struggling students. She pastes their names, grades, IEP documentation, and counselor notes into Claude. Claude produces thoughtful, specific support plans. She saves them to a shared Google Drive. She had good intentions. The risk remains.",
    "estimated_duration_s": 13.5,
-   "actual_duration_s": 16.56,
+   "actual_duration_s": 16.21,
    "card_text": "Three students.\nIEP docs. Counselor notes.\nShared Google Drive.",
    "notes": "CARD: the unsafe version compressed. CRIMSON accents on IEP docs / counselor notes.",
    "audio_file": "mp3/beat-B01.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B02",
@@ -62,19 +62,19 @@
    },
    "narration_text": "Using AI to help struggling students should protect them. Here is the case where protecting students created a privacy exposure instead. Why?",
    "estimated_duration_s": 8.5,
-   "actual_duration_s": 8.31,
+   "actual_duration_s": 8.3,
    "card_text": "Using AI to help students\nshould protect them.\nHere it exposed them. Why?",
    "notes": "THE QUESTION beat — named on screen AND narration.",
    "audio_file": "mp3/beat-B02.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01B",
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "Prompt design is the skill the platform doesn't want you to have, because a musician who can write a precise prompt is a musician who doesn't need to buy someone else's pre-packaged workflow. Every prompt in this video is a template you can adapt — paste it, swap the specifics, run it on your own catalog. The instruction is the tool.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -94,7 +94,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 17.15
   },
   {
    "beat_id": "B03",
@@ -106,11 +108,11 @@
    },
    "narration_text": "Version A: the teacher pastes three students' names, IEP labels, and counselor summaries. Identifiable education records — regulated data — cross into an external system without institutional approval. Version B: 'I am working with several high school students struggling with complex texts and time management. Help me draft tiered support strategies.' Same useful output. No regulated data transmitted. The teacher adapts using person-level knowledge that stays in her head.",
    "estimated_duration_s": 24.0,
-   "actual_duration_s": 30.22,
+   "actual_duration_s": 26.07,
    "notes": "Two prompt windows side by side. Version A (CRIMSON border): highlighted identifiers — name, 'dyslexia', 'anxiety', counselor note. Version B (TEAL border): [Student A], [documented accommodation], pattern-level description. TEAL label below: 'same useful output / no regulated data'.",
    "audio_file": "mp3/beat-B03.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B04",
@@ -121,12 +123,12 @@
    },
    "narration_text": "Data minimization: give Claude the pattern, not the person. Claude contributes pattern-level help. The teacher contributes person-level knowledge. No regulated data crosses into an external system.",
    "estimated_duration_s": 9.5,
-   "actual_duration_s": 14.21,
+   "actual_duration_s": 11.2,
    "card_text": "Give Claude the pattern,\nnot the person.",
    "notes": "Quote card — the principle in one line.",
    "audio_file": "mp3/beat-B04.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B05",
@@ -138,11 +140,11 @@
    },
    "narration_text": "Before you send a prompt with student information: read it. Ask — is any individual student identifiable here? If yes, replace names with 'Student A,' diagnoses with 'documented accommodation,' specific dates with 'last month.' If the redacted version still lets Claude help you — use it. If not, describe the pattern across the cohort instead.",
    "estimated_duration_s": 17.5,
-   "actual_duration_s": 23.48,
+   "actual_duration_s": 18.05,
    "notes": "Prompt window. Text appears with CRIMSON highlights on: student name, 'dyslexia', specific date, grade. Each CRIMSON element gets replaced (FadeOut/FadeIn) with: '[Student A]', '[documented accommodation]', '[last month]', '[below target]'. TEAL bracket: 'redaction practice'.",
    "audio_file": "mp3/beat-B05.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B06",
@@ -151,14 +153,14 @@
     "type": "CARD",
     "source": "own"
    },
-   "narration_text": "Pasting student information into Claude is a data-sharing decision, not a text entry. The pause before the prompt is where students are protected or exposed.",
+   "narration_text": "Pasting student information into Claude is a data-sharing decision, not a text entry. The pause before the prompt is where students are protected or exposed. From Musinique.",
    "estimated_duration_s": 7.5,
-   "actual_duration_s": 10.242,
+   "actual_duration_s": 9.41,
    "card_text": "The pause before the prompt\nis where students are\nprotected or exposed.",
    "notes": "Recap endcard. AI IN EDUCATION topic kicker.",
    "audio_file": "mp3/beat-B06.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   }
  ]
 }

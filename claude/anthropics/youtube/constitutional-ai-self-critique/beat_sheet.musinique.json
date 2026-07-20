@@ -10,7 +10,7 @@
   "palette": "claude",
   "register": "Baldwin",
   "aspect_ratio": "16:9",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "folderLabel": "@Musinique",
   "build": {
    "at": "2026-07-16T23:53:20",
@@ -63,7 +63,7 @@
      "props": {
       "greeting": "Ciao, Musinique",
       "command": "Teaching an AI to grade its own homework against a constitution is a bold idea, and I want to trace one full critique-and-revise loop. Take a borderline-harmful response and a single principle from the constitution: (1) walk me through the model critiquing its own draft against that principle, (2) show the revised answer and name what specifically changed, (3) then probe the obvious worry, whether a model can reliably catch flaws it was blind to when it wrote the original, and what stops the critique from just rubber-stamping.",
-      "topic": "AI SAFETY · Constitutional AI",
+      "topic": "MUSINIQUE · AI SAFETY · Constitutional AI",
       "segment": "Cold Open",
       "runningText": "Analyzing: Bai et al. (2022) · arXiv:2212.08073",
       "output": [
@@ -84,7 +84,7 @@
     }
    },
    "audio_file": "mp3/beat-B00.mp3",
-   "actual_duration_s": 17.86,
+   "actual_duration_s": 27.8,
    "build": {
     "status": "VIDEO",
     "src": "media/B00.mp4",
@@ -121,7 +121,7 @@
     }
    },
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 21.08,
+   "actual_duration_s": 19.86,
    "build": {
     "status": "VIDEO",
     "src": "media/B01.mp4",
@@ -157,7 +157,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 16.06
   },
   {
    "beat_id": "B02",
@@ -223,7 +225,7 @@
     }
    },
    "audio_file": "mp3/beat-B03.mp3",
-   "actual_duration_s": 21.55,
+   "actual_duration_s": 20.29,
    "build": {
     "status": "VIDEO",
     "src": "media/B03.mp4",
@@ -260,7 +262,7 @@
     }
    },
    "audio_file": "mp3/beat-B04.mp3",
-   "actual_duration_s": 21.72,
+   "actual_duration_s": 19.8,
    "build": {
     "status": "VIDEO",
     "src": "media/B04.mp4",
@@ -282,7 +284,7 @@
      "props": {
       "greeting": "Your turn.",
       "command": "Here is a prompt: [insert a mildly problematic instruction]. Step 1: write an unconstrained response. Step 2: critique your response against this constitutional principle: 'Choose the response that is least likely to contain information that could be used to harm another person.' Step 3: write a revised response. Show your reasoning at each step.",
-      "topic": "TRY THIS NOW",
+      "topic": "MUSINIQUE · TRY THIS NOW",
       "segment": "Handoff",
       "runningText": "paste this into Claude…",
       "output": [
@@ -302,7 +304,7 @@
     }
    },
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 22.21,
+   "actual_duration_s": 19.35,
    "build": {
     "status": "VIDEO",
     "src": "media/B05.mp4",
@@ -315,7 +317,7 @@
   {
    "beat_id": "B06",
    "beat_type": "outro",
-   "narration_text": "Teaching an AI to Grade Its Own Homework",
+   "narration_text": "Teaching an AI to Grade Its Own Homework. From Musinique.",
    "estimated_duration_s": 6,
    "shot": {
     "scene_type": "ClaudeTitleOutro",
@@ -323,7 +325,7 @@
      "pattern": "ClaudeTitleOutro",
      "props": {
       "title": "Teaching an AI to Grade Its Own Homework",
-      "handle": "@NikBearBrown",
+      "handle": "@Musinique",
       "subline": "Bai et al. (2022) · arXiv:2212.08073"
      },
      "rendered": {
@@ -340,7 +342,8 @@
     "at": "2026-07-16T23:53:20"
    },
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 2.37
   }
  ]
 }

@@ -35,7 +35,7 @@
   ],
   "built_at": "2026-07-16T23:23:52.825986",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
   "voice_kokoro": "am_puck"
@@ -58,7 +58,7 @@
      "version": "1",
      "props": {
       "command": "The mechanism that unsettled me is that nothing was fabricated — the model just promoted modality, turning 'silent auction, tabled, needs board input' into 'Decision: add a silent auction' because coherent prose sounds resolved. I want to catch that drift automatically. Help me: (1) take a real set of meeting notes and have Cowork summarize them, then diff each summary line against its source for modality shifts; (2) flag every hedge that got upgraded from tentative to committed; (3) write a decision rule that forces the summary to preserve the original modality verbatim.",
-      "topic": "CLAUDE COWORK",
+      "topic": "MUSINIQUE · CLAUDE COWORK",
       "segment": "Why \"Maybe We Should\" Becomes \"Decision:",
       "greeting": "Merhaba, Musinique",
       "runningText": "explaining the mechanism…",
@@ -75,7 +75,7 @@
    },
    "estimated_duration_s": 9.0,
    "audio_file": "mp3/beat-NBB00.mp3",
-   "actual_duration_s": 5.376
+   "actual_duration_s": 30.19
   },
   {
    "beat_id": "B01",
@@ -108,8 +108,8 @@
     "sub": "the model smooths toward decisiveness"
    },
    "new_visual_element": "[TITLE] modal upgrade",
-   "audio_file": "../vox-modal-upgrade/mp3/beat-B01.mp3",
-   "actual_duration_s": 7.76,
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 7.64,
    "locked": true,
    "source_clip": "../vox-modal-upgrade/clips/B01.mp4",
    "source_audio": "../vox-modal-upgrade/mp3/beat-B01.mp3",
@@ -140,7 +140,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 16.06
   },
   {
    "beat_id": "B02",
@@ -173,8 +175,8 @@
     0.4
    ],
    "new_visual_element": "[PHOTO] rough meeting notes",
-   "audio_file": "../vox-modal-upgrade/mp3/beat-B02.mp3",
-   "actual_duration_s": 7.47,
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 8.28,
    "locked": true,
    "source_clip": "../vox-modal-upgrade/clips/B02.mp4",
    "source_audio": "../vox-modal-upgrade/mp3/beat-B02.mp3",
@@ -211,8 +213,8 @@
     "highlight_words": "Why?"
    },
    "new_visual_element": "[QUESTION] gap formula on screen",
-   "audio_file": "../vox-modal-upgrade/mp3/beat-B03.mp3",
-   "actual_duration_s": 11.78,
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 9.49,
    "locked": true,
    "source_clip": "../vox-modal-upgrade/clips/B03.mp4",
    "source_audio": "../vox-modal-upgrade/mp3/beat-B03.mp3",
@@ -247,8 +249,8 @@
     "note": "set up before the morph"
    },
    "new_visual_element": "[GRAPHIC] original note (TEAL)",
-   "audio_file": "../vox-modal-upgrade/mp3/beat-B04.mp3",
-   "actual_duration_s": 9.51,
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 8.77,
    "locked": true,
    "source_clip": "../vox-modal-upgrade/clips/B04.mp4",
    "source_audio": "../vox-modal-upgrade/mp3/beat-B04.mp3",
@@ -287,8 +289,8 @@
     "note": "morph move — before and after"
    },
    "new_visual_element": "[GRAPHIC] summary: DECISION (CRIMSON)",
-   "audio_file": "../vox-modal-upgrade/mp3/beat-B05.mp3",
-   "actual_duration_s": 11.36,
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 9.51,
    "locked": true,
    "source_clip": "../vox-modal-upgrade/clips/B05.mp4",
    "source_audio": "../vox-modal-upgrade/mp3/beat-B05.mp3",
@@ -321,8 +323,8 @@
     "sub": "coherence over modality"
    },
    "new_visual_element": "[SECTION] THE MECHANISM",
-   "audio_file": "../vox-modal-upgrade/mp3/beat-B06.mp3",
-   "actual_duration_s": 1.02,
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 0.98,
    "locked": true,
    "source_clip": "../vox-modal-upgrade/clips/B06.mp4",
    "source_audio": "../vox-modal-upgrade/mp3/beat-B06.mp3",
@@ -357,8 +359,8 @@
     "note": "optimization target"
    },
    "new_visual_element": "[GRAPHIC] model pulls toward resolved prose",
-   "audio_file": "../vox-modal-upgrade/mp3/beat-B07.mp3",
-   "actual_duration_s": 10.16,
+   "audio_file": "mp3/beat-B07.mp3",
+   "actual_duration_s": 10.73,
    "locked": true,
    "source_clip": "../vox-modal-upgrade/clips/B07.mp4",
    "source_audio": "../vox-modal-upgrade/mp3/beat-B07.mp3",
@@ -397,8 +399,8 @@
     "note": "the modal upgrade mechanism"
    },
    "new_visual_element": "[GRAPHIC] modality spectrum with upgrade arrow",
-   "audio_file": "../vox-modal-upgrade/mp3/beat-B08.mp3",
-   "actual_duration_s": 11.73,
+   "audio_file": "mp3/beat-B08.mp3",
+   "actual_duration_s": 11.56,
    "locked": true,
    "source_clip": "../vox-modal-upgrade/clips/B08.mp4",
    "source_audio": "../vox-modal-upgrade/mp3/beat-B08.mp3",
@@ -431,8 +433,8 @@
     "highlight_words": "decisions"
    },
    "new_visual_element": "[QUOTE] the model produces decided-sounding prose",
-   "audio_file": "../vox-modal-upgrade/mp3/beat-B09.mp3",
-   "actual_duration_s": 7.97,
+   "audio_file": "mp3/beat-B09.mp3",
+   "actual_duration_s": 8.41,
    "locked": true,
    "source_clip": "../vox-modal-upgrade/clips/B09.mp4",
    "source_audio": "../vox-modal-upgrade/mp3/beat-B09.mp3",
@@ -471,8 +473,8 @@
     "note": "second case: question becomes action item"
    },
    "new_visual_element": "[GRAPHIC] question becomes action item",
-   "audio_file": "../vox-modal-upgrade/mp3/beat-B10.mp3",
-   "actual_duration_s": 6.87,
+   "audio_file": "mp3/beat-B10.mp3",
+   "actual_duration_s": 7.0,
    "locked": true,
    "source_clip": "../vox-modal-upgrade/clips/B10.mp4",
    "source_audio": "../vox-modal-upgrade/mp3/beat-B10.mp3",
@@ -510,8 +512,8 @@
     0.4
    ],
    "new_visual_element": "[PHOTO] polished summary in inbox",
-   "audio_file": "../vox-modal-upgrade/mp3/beat-B11.mp3",
-   "actual_duration_s": 9.43,
+   "audio_file": "mp3/beat-B11.mp3",
+   "actual_duration_s": 10.03,
    "locked": true,
    "source_clip": "../vox-modal-upgrade/clips/B11.mp4",
    "source_audio": "../vox-modal-upgrade/mp3/beat-B11.mp3",
@@ -546,8 +548,8 @@
     "note": "THE EXAMPLE act"
    },
    "new_visual_element": "[GRAPHIC] source vs summary Decisions (illustrative)",
-   "audio_file": "../vox-modal-upgrade/mp3/beat-B12.mp3",
-   "actual_duration_s": 14.45,
+   "audio_file": "mp3/beat-B12.mp3",
+   "actual_duration_s": 12.65,
    "locked": true,
    "source_clip": "../vox-modal-upgrade/clips/B12.mp4",
    "source_audio": "../vox-modal-upgrade/mp3/beat-B12.mp3",
@@ -582,8 +584,8 @@
     "note": "THE EXAMPLE continued"
    },
    "new_visual_element": "[GRAPHIC] question → owner (illustrative)",
-   "audio_file": "../vox-modal-upgrade/mp3/beat-B13.mp3",
-   "actual_duration_s": 7.11,
+   "audio_file": "mp3/beat-B13.mp3",
+   "actual_duration_s": 7.94,
    "locked": true,
    "source_clip": "../vox-modal-upgrade/clips/B13.mp4",
    "source_audio": "../vox-modal-upgrade/mp3/beat-B13.mp3",
@@ -616,8 +618,8 @@
     "sub": "CLAUDE COWORK"
    },
    "new_visual_element": "[ENDCARD] discussed is not agreed",
-   "audio_file": "../vox-modal-upgrade/mp3/beat-B14.mp3",
-   "actual_duration_s": 4.41,
+   "audio_file": "mp3/beat-B14.mp3",
+   "actual_duration_s": 4.14,
    "locked": true,
    "source_clip": "../vox-modal-upgrade/clips/B14.mp4",
    "source_audio": "../vox-modal-upgrade/mp3/beat-B14.mp3",
@@ -656,7 +658,7 @@
    },
    "estimated_duration_s": 30.0,
    "audio_file": "mp3/beat-NBB01.mp3",
-   "actual_duration_s": 13.077,
+   "actual_duration_s": 15.66,
    "lead_silence_s": 0.5
   },
   {
@@ -676,7 +678,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Why \"Maybe We Should\" Becomes \"Decision: We Will\"] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "CLAUDE COWORK",
+      "topic": "MUSINIQUE · CLAUDE COWORK",
       "segment": "Why \"Maybe We Should\" Becomes \"Decision:",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -693,7 +695,7 @@
    },
    "estimated_duration_s": 8.0,
    "audio_file": "mp3/beat-NBB02.mp3",
-   "actual_duration_s": 7.765
+   "actual_duration_s": 8.3
   },
   {
    "beat_id": "NBB03",
@@ -722,10 +724,10 @@
    "estimated_duration_s": 6.0,
    "audio_file": "mp3/beat-NBB03.mp3",
    "silence_s": 6.0,
-   "actual_duration_s": 6.03,
+   "actual_duration_s": 2.56,
    "engine": "kokoro",
    "voice": "am_puck",
-   "narration_text": "Why \"Maybe We Should\" Becomes \"Decision: We Will\""
+   "narration_text": "Why \"Maybe We Should\" Becomes \"Decision: We Will\". From Musinique."
   }
  ]
 }

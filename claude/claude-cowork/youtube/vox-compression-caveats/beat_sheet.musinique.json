@@ -13,7 +13,7 @@
   "note": "Exclusions: NO figure/caption failure-mode subtopic, NO speaker-notes privacy aside, NO citation-rule brief field, NO claims-that-must-not-be-made template, NO Tufte evidence-corruption tangent.",
   "total_estimated_duration_seconds": 122.34,
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "register": "Baldwin",
   "palette": "claude",
@@ -38,7 +38,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Konnichiwa, Musinique",
-      "topic": "CLAUDE COWORK",
+      "topic": "MUSINIQUE · CLAUDE COWORK",
       "segment": "Why Summarizing Deletes Exactly the Caveats",
       "command": "Why Summarizing Deletes Exactly the Caveats",
       "runningText": "reading…",
@@ -50,7 +50,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B00.mp3",
+   "actual_duration_s": 4.22
   },
   {
    "beat_id": "B01",
@@ -70,7 +72,7 @@
    },
    "new_visual_element": "[TITLE] compression caveats",
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 8.8,
+   "actual_duration_s": 8.83,
    "engine": "kokoro",
    "voice": "am_puck"
   },
@@ -99,7 +101,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 19.09
   },
   {
    "beat_id": "B02",
@@ -119,7 +123,7 @@
    ],
    "new_visual_element": "[PHOTO] clean executive summary",
    "audio_file": "mp3/beat-B02.mp3",
-   "actual_duration_s": 9.04,
+   "actual_duration_s": 9.22,
    "engine": "kokoro",
    "voice": "am_puck"
   },
@@ -140,7 +144,7 @@
    },
    "new_visual_element": "[QUESTION] gap formula on screen",
    "audio_file": "mp3/beat-B03.mp3",
-   "actual_duration_s": 9.33,
+   "actual_duration_s": 8.79,
    "engine": "kokoro",
    "voice": "am_puck"
   },
@@ -163,7 +167,7 @@
    },
    "new_visual_element": "[GRAPHIC] source stack — claims + caveats",
    "audio_file": "mp3/beat-B04.mp3",
-   "actual_duration_s": 9.51,
+   "actual_duration_s": 9.41,
    "engine": "kokoro",
    "voice": "am_puck"
   },
@@ -186,7 +190,7 @@
    },
    "new_visual_element": "[GRAPHIC] compression — caveats squeezed out",
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 9.85,
+   "actual_duration_s": 8.94,
    "engine": "kokoro",
    "voice": "am_puck"
   },
@@ -207,7 +211,7 @@
    },
    "new_visual_element": "[SECTION] THE MECHANISM",
    "audio_file": "mp3/beat-B06.mp3",
-   "actual_duration_s": 1.1,
+   "actual_duration_s": 0.98,
    "engine": "kokoro",
    "voice": "am_puck"
   },
@@ -230,7 +234,7 @@
    },
    "new_visual_element": "[GRAPHIC] selection bias — confident survives",
    "audio_file": "mp3/beat-B07.mp3",
-   "actual_duration_s": 14.21,
+   "actual_duration_s": 14.42,
    "engine": "kokoro",
    "voice": "am_puck"
   },
@@ -251,7 +255,7 @@
    },
    "new_visual_element": "[QUOTE] compression not random",
    "audio_file": "mp3/beat-B08.mp3",
-   "actual_duration_s": 10.4,
+   "actual_duration_s": 11.22,
    "engine": "kokoro",
    "voice": "am_puck"
   },
@@ -274,7 +278,7 @@
    },
    "new_visual_element": "[GRAPHIC] source vs summary — caveat removed",
    "audio_file": "mp3/beat-B09.mp3",
-   "actual_duration_s": 8.8,
+   "actual_duration_s": 9.24,
    "engine": "kokoro",
    "voice": "am_puck"
   },
@@ -296,7 +300,7 @@
    ],
    "new_visual_element": "[PHOTO] authoritative-looking summary",
    "audio_file": "mp3/beat-B10.mp3",
-   "actual_duration_s": 6.53,
+   "actual_duration_s": 6.44,
    "engine": "kokoro",
    "voice": "am_puck"
   },
@@ -319,7 +323,7 @@
    },
    "new_visual_element": "[GRAPHIC] projection becomes result",
    "audio_file": "mp3/beat-B11.mp3",
-   "actual_duration_s": 15.28,
+   "actual_duration_s": 15.23,
    "engine": "kokoro",
    "voice": "am_puck"
   },
@@ -342,7 +346,7 @@
    },
    "new_visual_element": "[GRAPHIC] 6 claims 0 caveats",
    "audio_file": "mp3/beat-B12.mp3",
-   "actual_duration_s": 8.96,
+   "actual_duration_s": 8.68,
    "engine": "kokoro",
    "voice": "am_puck"
   },
@@ -363,7 +367,7 @@
    },
    "new_visual_element": "[QUOTE] impressive not accurate",
    "audio_file": "mp3/beat-B13.mp3",
-   "actual_duration_s": 4.0,
+   "actual_duration_s": 4.1,
    "engine": "kokoro",
    "voice": "am_puck"
   },
@@ -384,7 +388,7 @@
    },
    "new_visual_element": "[ENDCARD] kept claims dropped caveats",
    "audio_file": "mp3/beat-B14.mp3",
-   "actual_duration_s": 3.16,
+   "actual_duration_s": 3.31,
    "engine": "kokoro",
    "voice": "am_puck"
   },
@@ -416,7 +420,7 @@
    },
    "estimated_duration_s": 6,
    "audio_file": "mp3/beat-B15.mp3",
-   "actual_duration_s": 1.93,
+   "actual_duration_s": 1.66,
    "engine": "kokoro",
    "voice": "am_puck"
   },
@@ -425,7 +429,7 @@
    "act": "OUTRO",
    "type": "GRAPHIC",
    "name": "OutroCTA",
-   "narration_text": "Like and subscribe for more.",
+   "narration_text": "Like and subscribe for more. From Musinique.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
@@ -448,7 +452,7 @@
    },
    "estimated_duration_s": 5,
    "audio_file": "mp3/beat-B16.mp3",
-   "actual_duration_s": 1.44,
+   "actual_duration_s": 1.58,
    "engine": "kokoro",
    "voice": "am_puck"
   }

@@ -6,7 +6,7 @@
   "topic": "CLAUDE CODE FOR TEACHERS",
   "audience": "NikBearBrown",
   "engine": "kokoro",
-  "voice": "am_onyx",
+  "voice": "am_puck",
   "palette": "claude",
   "register": "Baldwin",
   "derived_from": "beat_sheet.json",
@@ -28,10 +28,10 @@
   "old_outro_beats": [],
   "built_at": "2026-07-16T22:31:40.209266",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
-  "voice_kokoro": "am_onyx"
+  "voice_kokoro": "am_puck"
  },
  "beats": [
   {
@@ -39,8 +39,8 @@
    "act": "COLD OPEN",
    "title": "Liam cold open — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "This is Liam for Musinique. I want to turn my most-repeated teacher workflow, assembling weekly feedback reports, into a reusable Claude Code skill instead of re-explaining it each time. Then: (1) help me pin down the exact steps, inputs, and output location the skill should own; (2) write the frontmatter trigger and decide whether it auto-invokes or waits for a slash command; (3) flag any step that must hold absolutely, like never assigning a final grade, so I can route it to a hook rather than the skill's Never section.",
+   "voice": "am_puck",
+   "narration_text": "This is Musinique. I want to turn my most-repeated teacher workflow, assembling weekly feedback reports, into a reusable Claude Code skill instead of re-explaining it each time. Then: (1) help me pin down the exact steps, inputs, and output location the skill should own; (2) write the frontmatter trigger and decide whether it auto-invokes or waits for a slash command; (3) flag any step that must hold absolutely, like never assigning a final grade, so I can route it to a hook rather than the skill's Never section.",
    "shot": {
     "type": "CARD",
     "source": "remotion",
@@ -51,7 +51,7 @@
      "version": "1",
      "props": {
       "command": "I want to turn my most-repeated teacher workflow, assembling weekly feedback reports, into a reusable Claude Code skill instead of re-explaining it each time. Then: (1) help me pin down the exact steps, inputs, and output location the skill should own; (2) write the frontmatter trigger and decide whether it auto-invokes or waits for a slash command; (3) flag any step that must hold absolutely, like never assigning a final grade, so I can route it to a hook rather than the skill's Never section.",
-      "topic": "CLAUDE CODE FOR TEACHERS",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR TEACHERS",
       "segment": "Define a Reusable Skill for Common",
       "greeting": "Sawubona, Musinique",
       "runningText": "explaining the mechanism…",
@@ -68,7 +68,7 @@
    },
    "estimated_duration_s": 9.0,
    "audio_file": "mp3/beat-NBB00.mp3",
-   "actual_duration_s": 8.256
+   "actual_duration_s": 27.71
   },
   {
    "beat_id": "B00",
@@ -83,10 +83,11 @@
    "locked": true,
    "source_clip": "../grading-skill-definition/clips/B00.mp4",
    "source_audio": "../grading-skill-definition/mp3/beat-B00.mp3",
-   "audio_file": "../grading-skill-definition/mp3/beat-B00.mp3",
+   "audio_file": "mp3/beat-B00.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "This is Musinique."
+   "voice": "am_puck",
+   "narration_text": "This is Musinique.",
+   "actual_duration_s": 1.58
   },
   {
    "beat_id": "B01",
@@ -103,7 +104,7 @@
    "source_audio": "../grading-skill-definition/mp3/beat-B01.mp3",
    "audio_file": "../grading-skill-definition/mp3/beat-B01.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": ""
   },
   {
@@ -111,7 +112,7 @@
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "You don't need a 400-line system prompt to manage your release calendar. You need a 15-line core that knows what the job is, and skill modules it loads when the job gets specific — the release checklist, the pitch template, the playlist-scam detector. Decompose once, and the machine gets cheaper every run. That's the same arithmetic whether you're running inventory for a warehouse or release cycles for a back catalog.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -131,7 +132,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 21.16
   },
   {
    "beat_id": "B02",
@@ -143,10 +146,10 @@
     "source": null,
     "motion": "hold",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Write Claude Code Skill definition:\\n  .claude/skills/grade-pattern-analyzer.md\\n  inputs: submissions_dir, rubric.md\\n  scan each submission for rubric criteria\\n  output per-student report:\\n    strength flags, gap flags,\\n    recommended_focus sentence\\n    NO numeric or letter grade\\n  YAML frontmatter: name, description, params\"",
-      "topic": "CLAUDE CODE FOR TEACHERS",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR TEACHERS",
       "segment": "SKILL DEFINITION",
       "runningText": "defining skill…"
      }
@@ -157,7 +160,7 @@
    "source_audio": "../grading-skill-definition/mp3/beat-B02.mp3",
    "audio_file": "../grading-skill-definition/mp3/beat-B02.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": ""
   },
   {
@@ -170,12 +173,12 @@
     "source": null,
     "motion": "hold",
     "remotion": {
-     "pattern": "NikBearBrownCodeBlock",
+     "pattern": "ClaudeCodeBeat",
      "props": {
-      "filename": "grade-pattern-analyzer.md",
       "segment": "SKILL DEFINITION",
       "topic": "CLAUDE CODE FOR TEACHERS",
-      "code": "---\nname: grade-pattern-analyzer\ndescription: Scans student submissions against\n  rubric criteria. Reports patterns — no grades.\nparameters:\n  submissions_dir: {type: string}\n  rubric_file:     {type: string}\n---\n\n# Grade Pattern Analyzer\n\nFor each file in submissions_dir:\n1. Read submission\n2. For each criterion in rubric_file:\n   flag STRENGTH if criterion met\n   flag GAP if criterion missing\n3. Output per student:\n   strengths: [criterion list]\n   gaps: [criterion list]\n   recommended_focus: <one sentence>\n   !! NO grades — numeric or letter !!"
+      "code": "---\nname: grade-pattern-analyzer\ndescription: Scans student submissions against\n  rubric criteria. Reports patterns — no grades.\nparameters:\n  submissions_dir: {type: string}\n  rubric_file:     {type: string}\n---\n\n# Grade Pattern Analyzer\n\nFor each file in submissions_dir:\n1. Read submission\n2. For each criterion in rubric_file:\n   flag STRENGTH if criterion met\n   flag GAP if criterion missing\n3. Output per student:\n   strengths: [criterion list]\n   gaps: [criterion list]\n   recommended_focus: <one sentence>\n   !! NO grades — numeric or letter !!",
+      "title": "grade-pattern-analyzer.md"
      }
     }
    },
@@ -184,7 +187,7 @@
    "source_audio": "../grading-skill-definition/mp3/beat-B03.mp3",
    "audio_file": "../grading-skill-definition/mp3/beat-B03.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": ""
   },
   {
@@ -202,7 +205,7 @@
    "source_audio": "../grading-skill-definition/mp3/beat-B04.mp3",
    "audio_file": "../grading-skill-definition/mp3/beat-B04.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": ""
   },
   {
@@ -215,10 +218,10 @@
     "source": null,
     "motion": "hold",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Add second skill: feedback-drafter.\\n  Takes pattern-analyzer output.\\n  Drafts per-student feedback sentences.\\n  Chain the two skills — verify workflow runs\\n  without re-specifying either.\"",
-      "topic": "CLAUDE CODE FOR TEACHERS",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR TEACHERS",
       "segment": "SKILL DEFINITION",
       "runningText": "chaining skills…"
      }
@@ -229,7 +232,7 @@
    "source_audio": "../grading-skill-definition/mp3/beat-B05.mp3",
    "audio_file": "../grading-skill-definition/mp3/beat-B05.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": ""
   },
   {
@@ -247,7 +250,7 @@
    "source_audio": "../grading-skill-definition/mp3/beat-B06.mp3",
    "audio_file": "../grading-skill-definition/mp3/beat-B06.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": ""
   },
   {
@@ -265,7 +268,7 @@
    "source_audio": "../grading-skill-definition/mp3/beat-B07.mp3",
    "audio_file": "../grading-skill-definition/mp3/beat-B07.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": ""
   },
   {
@@ -283,7 +286,7 @@
    "source_audio": "../grading-skill-definition/mp3/beat-B08.mp3",
    "audio_file": "../grading-skill-definition/mp3/beat-B08.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": ""
   },
   {
@@ -296,11 +299,11 @@
     "source": null,
     "motion": "hold",
     "remotion": {
-     "pattern": "NikBearBrownOutro",
+     "pattern": "ClaudeTitleOutro",
      "props": {
       "brand": "Nik Bear Brown",
       "tagline": "Brutalist + Educational AI",
-      "handle": "@NikBearBrown",
+      "handle": "@Musinique",
       "url": "nikbearbrown.com"
      }
     }
@@ -310,7 +313,7 @@
    "source_audio": "../grading-skill-definition/mp3/beat-B09.mp3",
    "audio_file": "../grading-skill-definition/mp3/beat-B09.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": ""
   },
   {
@@ -318,7 +321,7 @@
    "act": "VERDICT",
    "title": "Liam verdict — ClaudeVerdictArtifact",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": "Let's recap with Claude. Here's what the body just demonstrated.",
    "shot": {
     "type": "CARD",
@@ -345,7 +348,7 @@
    },
    "estimated_duration_s": 30.0,
    "audio_file": "mp3/beat-NBB01.mp3",
-   "actual_duration_s": 2.88,
+   "actual_duration_s": 4.05,
    "lead_silence_s": 0.5
   },
   {
@@ -353,7 +356,7 @@
    "act": "YOUR TURN",
    "title": "Your turn handoff — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": "Take this prompt, run it on your own — pick any cancer type or clinical scenario you know about and ask how this mechanism applies there.",
    "shot": {
     "type": "CARD",
@@ -365,7 +368,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Define a Reusable Skill for Common Teacher Workflows with Claude Code] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "CLAUDE CODE FOR TEACHERS",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR TEACHERS",
       "segment": "Define a Reusable Skill for Common",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -382,7 +385,7 @@
    },
    "estimated_duration_s": 8.0,
    "audio_file": "mp3/beat-NBB02.mp3",
-   "actual_duration_s": 7.765
+   "actual_duration_s": 7.81
   },
   {
    "beat_id": "NBB03",
@@ -411,10 +414,10 @@
    "estimated_duration_s": 6.0,
    "audio_file": "mp3/beat-NBB03.mp3",
    "silence_s": 6.0,
-   "actual_duration_s": 6.03,
+   "actual_duration_s": 4.63,
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "Define a Reusable Skill for Common Teacher Workflows with Claude Code"
+   "voice": "am_puck",
+   "narration_text": "Define a Reusable Skill for Common Teacher Workflows with Claude Code. From Musinique."
   }
  ]
 }

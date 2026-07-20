@@ -27,7 +27,7 @@
   "old_outro_beats": [],
   "built_at": "2026-07-17T00:49:40.298909",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
   "voice_kokoro": "am_puck"
@@ -50,7 +50,7 @@
      "version": "1",
      "props": {
       "command": "The fifteen-percent-read-as-fifty example convinced me a self-check can't catch what the same mind already got wrong, since it compares output to the agent's own recall. I want to feel that difference. Help me: (1) have an agent summarize a table, misread one figure, then pass its own consistency check; (2) show me how opening the actual PDF catches what the recall-based check could not; (3) give me a rule for how many cited sources I should open independently after each task.",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "Why Self-Checking Is Not Independent Verification",
       "greeting": "Sawadee, Musinique",
       "runningText": "explaining the mechanism…",
@@ -67,7 +67,7 @@
    },
    "estimated_duration_s": 9.0,
    "audio_file": "mp3/beat-NBB00.mp3",
-   "actual_duration_s": 5.632
+   "actual_duration_s": 25.0
   },
   {
    "beat_id": "B01",
@@ -82,8 +82,8 @@
    "scene_description": "a business desk with printed competitive analysis documents and a laptop — editorial collage, newsprint texture, no faces",
    "chosen_media": null,
    "new_visual_element": "[PHOTO] competitive analysis desk scene",
-   "audio_file": "../vox-self-check-loop/mp3/beat-B01.mp3",
-   "actual_duration_s": 10.63,
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 11.48,
    "locked": true,
    "source_clip": "../vox-self-check-loop/clips/B01.mp4",
    "source_audio": "../vox-self-check-loop/mp3/beat-B01.mp3",
@@ -115,7 +115,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 19.54
   },
   {
    "beat_id": "B02",
@@ -130,8 +132,8 @@
    "scene_description": "five report icons — two glow TEAL (read), three remain SLATE (skipped). Agent produces output. Agent reviews output. Check passes. CRIMSON glow on self-check loop.",
    "chosen_media": "B02_AgentLoop",
    "new_visual_element": "[MANIM] agent loop with skipped reports",
-   "audio_file": "../vox-self-check-loop/mp3/beat-B02.mp3",
-   "actual_duration_s": 13.45,
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 13.8,
    "locked": true,
    "source_clip": "../vox-self-check-loop/clips/B02.mp4",
    "source_audio": "../vox-self-check-loop/mp3/beat-B02.mp3",
@@ -151,8 +153,8 @@
    "scene_description": "question card — CARD copy: Why did a self-check pass on fabricated data?",
    "chosen_media": null,
    "new_visual_element": "[CARD] question beat",
-   "audio_file": "../vox-self-check-loop/mp3/beat-B03.mp3",
-   "actual_duration_s": 9.74,
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 10.77,
    "locked": true,
    "source_clip": "../vox-self-check-loop/clips/B03.mp4",
    "source_audio": "../vox-self-check-loop/mp3/beat-B03.mp3",
@@ -172,8 +174,8 @@
    "scene_description": "two overlapping circles: 'Generation Context' and 'Self-Check Context' — nearly identical, both CRIMSON. A third circle far apart labeled 'Source Documents' — TEAL. Overlap zone labeled 'shared blind spots'.",
    "chosen_media": "B04_OverlapCircles",
    "new_visual_element": "[MANIM] overlapping context circles vs source",
-   "audio_file": "../vox-self-check-loop/mp3/beat-B04.mp3",
-   "actual_duration_s": 20.61,
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 18.28,
    "locked": true,
    "source_clip": "../vox-self-check-loop/clips/B04.mp4",
    "source_audio": "../vox-self-check-loop/mp3/beat-B04.mp3",
@@ -193,8 +195,8 @@
    "scene_description": "mechanism card — CARD copy: The same system cannot independently verify itself.",
    "chosen_media": null,
    "new_visual_element": "[CARD] mechanism card",
-   "audio_file": "../vox-self-check-loop/mp3/beat-B05.mp3",
-   "actual_duration_s": 3.11,
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 3.37,
    "locked": true,
    "source_clip": "../vox-self-check-loop/clips/B05.mp4",
    "source_audio": "../vox-self-check-loop/mp3/beat-B05.mp3",
@@ -214,8 +216,8 @@
    "scene_description": "source PDF table cell showing '15%'. Agent reads → recall shows '50%'. Summary shows '50%'. Self-check arrow from summary back to recall: match. Human opens PDF → '15%' revealed in TEAL. CRIMSON path for the recall/summary/check loop.",
    "chosen_media": "B06_JaeExample",
    "new_visual_element": "[MANIM] Jae 15 vs 50 percent example",
-   "audio_file": "../vox-self-check-loop/mp3/beat-B06.mp3",
-   "actual_duration_s": 18.76,
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 17.32,
    "locked": true,
    "source_clip": "../vox-self-check-loop/clips/B06.mp4",
    "source_audio": "../vox-self-check-loop/mp3/beat-B06.mp3",
@@ -235,8 +237,8 @@
    "scene_description": "two columns: left (CRIMSON) shows summary → recall → self-check loop; right (TEAL) shows summary → open source PDF → compare to actual text. Right column: check arrow reaches the external document.",
    "chosen_media": "B07_TwoVerifyPaths",
    "new_visual_element": "[MANIM] self-check vs independent verify compare",
-   "audio_file": "../vox-self-check-loop/mp3/beat-B07.mp3",
-   "actual_duration_s": 18.16,
+   "audio_file": "mp3/beat-B07.mp3",
+   "actual_duration_s": 15.68,
    "locked": true,
    "source_clip": "../vox-self-check-loop/clips/B07.mp4",
    "source_audio": "../vox-self-check-loop/mp3/beat-B07.mp3",
@@ -256,8 +258,8 @@
    "scene_description": "three-step checklist: open cited sources → find the exact claim → compare to source text. Each step a TEAL chip appearing in sequence.",
    "chosen_media": "B08_VerifyChecklist",
    "new_visual_element": "[MANIM] verification checklist",
-   "audio_file": "../vox-self-check-loop/mp3/beat-B08.mp3",
-   "actual_duration_s": 15.49,
+   "audio_file": "mp3/beat-B08.mp3",
+   "actual_duration_s": 16.06,
    "locked": true,
    "source_clip": "../vox-self-check-loop/clips/B08.mp4",
    "source_audio": "../vox-self-check-loop/mp3/beat-B08.mp3",
@@ -277,8 +279,8 @@
    "scene_description": "endcard — CARD copy: The check cannot catch what the generation already got wrong. / sub: AGENTIC AI",
    "chosen_media": null,
    "new_visual_element": "[CARD] endcard",
-   "audio_file": "../vox-self-check-loop/mp3/beat-B09.mp3",
-   "actual_duration_s": 9.22,
+   "audio_file": "mp3/beat-B09.mp3",
+   "actual_duration_s": 8.83,
    "locked": true,
    "source_clip": "../vox-self-check-loop/clips/B09.mp4",
    "source_audio": "../vox-self-check-loop/mp3/beat-B09.mp3",
@@ -317,7 +319,7 @@
    },
    "estimated_duration_s": 30.0,
    "audio_file": "mp3/beat-NBB01.mp3",
-   "actual_duration_s": 22.315,
+   "actual_duration_s": 20.63,
    "lead_silence_s": 0.5
   },
   {
@@ -337,7 +339,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Why Self-Checking Is Not Independent Verification] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "Why Self-Checking Is Not Independent Verification",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -354,7 +356,7 @@
    },
    "estimated_duration_s": 8.0,
    "audio_file": "mp3/beat-NBB02.mp3",
-   "actual_duration_s": 7.765
+   "actual_duration_s": 8.3
   },
   {
    "beat_id": "NBB03",
@@ -383,10 +385,10 @@
    "estimated_duration_s": 6.0,
    "audio_file": "mp3/beat-NBB03.mp3",
    "silence_s": 6.0,
-   "actual_duration_s": 6.03,
+   "actual_duration_s": 2.75,
    "engine": "kokoro",
    "voice": "am_puck",
-   "narration_text": "Why Self-Checking Is Not Independent Verification"
+   "narration_text": "Why Self-Checking Is Not Independent Verification. From Musinique."
   }
  ]
 }

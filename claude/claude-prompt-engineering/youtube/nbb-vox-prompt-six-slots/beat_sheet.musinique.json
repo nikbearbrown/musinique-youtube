@@ -32,7 +32,7 @@
   "old_outro_beats": [],
   "built_at": "2026-07-17T01:23:50.462155",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
   "voice_kokoro": "am_puck"
@@ -55,7 +55,7 @@
      "version": "1",
      "props": {
       "command": "Dr. Osei's problem was that 'improve this' left all six slots — task, context, sources, constraints, format, evaluation — for Claude to guess, and the context guess went wrong for her specialist committee. I have an intro aimed at a specialist review committee too, and I want to stop leaking generic guesses. Help me: (1) write out what each of the six slots should say for my specialist-audience intro; (2) flag which slot, if I fill it wrong, would do the most damage the way context did for her; (3) fold all six into a single tight prompt.",
-      "topic": "PROMPT ENGINEERING",
+      "topic": "MUSINIQUE · PROMPT ENGINEERING",
       "segment": "Why 'Improve This' Is a Wish,",
       "greeting": "Salaam, Musinique",
       "runningText": "explaining the mechanism…",
@@ -72,7 +72,7 @@
    },
    "estimated_duration_s": 9.0,
    "audio_file": "mp3/beat-NBB00.mp3",
-   "actual_duration_s": 6.4
+   "actual_duration_s": 27.31
   },
   {
    "beat_id": "B01",
@@ -90,8 +90,8 @@
     "copy": "Why 'Improve this' is a wish, not an instruction",
     "sub": "six missing decisions, six generic guesses"
    },
-   "audio_file": "../vox-prompt-six-slots/mp3/beat-B01.mp3",
-   "actual_duration_s": 14.86,
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 15.08,
    "locked": true,
    "source_clip": "../vox-prompt-six-slots/clips/B01.mp4",
    "source_audio": "../vox-prompt-six-slots/mp3/beat-B01.mp3",
@@ -111,8 +111,8 @@
    },
    "scene_description": "A researcher at a desk reading a document, looking puzzled at the output, editorial newsprint treatment",
    "image_prompt": "B02, academic researcher at a desk, looking puzzled at a printed document, stacks of papers and books around her, editorial documentary newsprint treatment, desaturated flat print collage",
-   "audio_file": "../vox-prompt-six-slots/mp3/beat-B02.mp3",
-   "actual_duration_s": 14.39,
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 15.51,
    "locked": true,
    "source_clip": "../vox-prompt-six-slots/clips/B02.mp4",
    "source_audio": "../vox-prompt-six-slots/mp3/beat-B02.mp3",
@@ -135,8 +135,8 @@
     "copy": "Why did a well-meaning improvement produce the wrong output?",
     "sub": ""
    },
-   "audio_file": "../vox-prompt-six-slots/mp3/beat-B03.mp3",
-   "actual_duration_s": 9.56,
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 10.07,
    "locked": true,
    "source_clip": "../vox-prompt-six-slots/clips/B03.mp4",
    "source_audio": "../vox-prompt-six-slots/mp3/beat-B03.mp3",
@@ -168,7 +168,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 17.34
   },
   {
    "beat_id": "B04",
@@ -184,8 +186,8 @@
    "graphic": {
     "manim": "B04_SixSlots"
    },
-   "audio_file": "../vox-prompt-six-slots/mp3/beat-B04.mp3",
-   "actual_duration_s": 17.14,
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 15.51,
    "locked": true,
    "source_clip": "../vox-prompt-six-slots/clips/B04.mp4",
    "source_audio": "../vox-prompt-six-slots/mp3/beat-B04.mp3",
@@ -206,8 +208,8 @@
    "graphic": {
     "manim": "B05_GenericGuesses"
    },
-   "audio_file": "../vox-prompt-six-slots/mp3/beat-B05.mp3",
-   "actual_duration_s": 21.26,
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 16.45,
    "locked": true,
    "source_clip": "../vox-prompt-six-slots/clips/B05.mp4",
    "source_audio": "../vox-prompt-six-slots/mp3/beat-B05.mp3",
@@ -228,8 +230,8 @@
    "graphic": {
     "manim": "B06_ContextSlot"
    },
-   "audio_file": "../vox-prompt-six-slots/mp3/beat-B06.mp3",
-   "actual_duration_s": 14.21,
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 13.25,
    "locked": true,
    "source_clip": "../vox-prompt-six-slots/clips/B06.mp4",
    "source_audio": "../vox-prompt-six-slots/mp3/beat-B06.mp3",
@@ -250,8 +252,8 @@
    "graphic": {
     "manim": "B07_TwoOutputs"
    },
-   "audio_file": "../vox-prompt-six-slots/mp3/beat-B07.mp3",
-   "actual_duration_s": 10.58,
+   "audio_file": "mp3/beat-B07.mp3",
+   "actual_duration_s": 11.18,
    "locked": true,
    "source_clip": "../vox-prompt-six-slots/clips/B07.mp4",
    "source_audio": "../vox-prompt-six-slots/mp3/beat-B07.mp3",
@@ -274,8 +276,8 @@
     "copy": "Each filled slot removes a generic guess",
     "sub": ""
    },
-   "audio_file": "../vox-prompt-six-slots/mp3/beat-B08.mp3",
-   "actual_duration_s": 10.29,
+   "audio_file": "mp3/beat-B08.mp3",
+   "actual_duration_s": 10.71,
    "locked": true,
    "source_clip": "../vox-prompt-six-slots/clips/B08.mp4",
    "source_audio": "../vox-prompt-six-slots/mp3/beat-B08.mp3",
@@ -296,8 +298,8 @@
    "graphic": {
     "manim": "B09_FilledSlots"
    },
-   "audio_file": "../vox-prompt-six-slots/mp3/beat-B09.mp3",
-   "actual_duration_s": 22.41,
+   "audio_file": "mp3/beat-B09.mp3",
+   "actual_duration_s": 17.71,
    "locked": true,
    "source_clip": "../vox-prompt-six-slots/clips/B09.mp4",
    "source_audio": "../vox-prompt-six-slots/mp3/beat-B09.mp3",
@@ -318,8 +320,8 @@
    "graphic": {
     "manim": "B10_AnyRequest"
    },
-   "audio_file": "../vox-prompt-six-slots/mp3/beat-B10.mp3",
-   "actual_duration_s": 12.8,
+   "audio_file": "mp3/beat-B10.mp3",
+   "actual_duration_s": 13.03,
    "locked": true,
    "source_clip": "../vox-prompt-six-slots/clips/B10.mp4",
    "source_audio": "../vox-prompt-six-slots/mp3/beat-B10.mp3",
@@ -340,8 +342,8 @@
    "graphic": {
     "manim": "B11_JamieExample"
    },
-   "audio_file": "../vox-prompt-six-slots/mp3/beat-B11.mp3",
-   "actual_duration_s": 21.16,
+   "audio_file": "mp3/beat-B11.mp3",
+   "actual_duration_s": 18.09,
    "locked": true,
    "source_clip": "../vox-prompt-six-slots/clips/B11.mp4",
    "source_audio": "../vox-prompt-six-slots/mp3/beat-B11.mp3",
@@ -362,8 +364,8 @@
    "graphic": {
     "manim": "B12_JamieFixed"
    },
-   "audio_file": "../vox-prompt-six-slots/mp3/beat-B12.mp3",
-   "actual_duration_s": 17.97,
+   "audio_file": "mp3/beat-B12.mp3",
+   "actual_duration_s": 16.17,
    "locked": true,
    "source_clip": "../vox-prompt-six-slots/clips/B12.mp4",
    "source_audio": "../vox-prompt-six-slots/mp3/beat-B12.mp3",
@@ -384,8 +386,8 @@
    "graphic": {
     "manim": "B13_Practice"
    },
-   "audio_file": "../vox-prompt-six-slots/mp3/beat-B13.mp3",
-   "actual_duration_s": 22.15,
+   "audio_file": "mp3/beat-B13.mp3",
+   "actual_duration_s": 15.34,
    "locked": true,
    "source_clip": "../vox-prompt-six-slots/clips/B13.mp4",
    "source_audio": "../vox-prompt-six-slots/mp3/beat-B13.mp3",
@@ -408,8 +410,8 @@
     "copy": "A prompt is a work order with six slots.",
     "sub": "Empty slots become generic guesses."
    },
-   "audio_file": "../vox-prompt-six-slots/mp3/beat-B14.mp3",
-   "actual_duration_s": 8.477,
+   "audio_file": "mp3/beat-B14.mp3",
+   "actual_duration_s": 8.38,
    "locked": true,
    "source_clip": "../vox-prompt-six-slots/clips/B14.mp4",
    "source_audio": "../vox-prompt-six-slots/mp3/beat-B14.mp3",
@@ -449,7 +451,7 @@
    },
    "estimated_duration_s": 30.0,
    "audio_file": "mp3/beat-NBB01.mp3",
-   "actual_duration_s": 30.293,
+   "actual_duration_s": 28.74,
    "lead_silence_s": 0.5
   },
   {
@@ -469,7 +471,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Why 'Improve This' Is a Wish, Not an Instruction] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "PROMPT ENGINEERING",
+      "topic": "MUSINIQUE · PROMPT ENGINEERING",
       "segment": "Why 'Improve This' Is a Wish,",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -486,7 +488,7 @@
    },
    "estimated_duration_s": 8.0,
    "audio_file": "mp3/beat-NBB02.mp3",
-   "actual_duration_s": 7.765
+   "actual_duration_s": 8.3
   },
   {
    "beat_id": "NBB03",
@@ -515,10 +517,10 @@
    "estimated_duration_s": 6.0,
    "audio_file": "mp3/beat-NBB03.mp3",
    "silence_s": 6.0,
-   "actual_duration_s": 6.03,
+   "actual_duration_s": 2.43,
    "engine": "kokoro",
    "voice": "am_puck",
-   "narration_text": "Why 'Improve This' Is a Wish, Not an Instruction"
+   "narration_text": "Why 'Improve This' Is a Wish, Not an Instruction. From Musinique."
   }
  ]
 }

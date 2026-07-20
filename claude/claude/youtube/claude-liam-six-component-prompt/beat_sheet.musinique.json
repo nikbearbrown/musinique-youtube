@@ -7,7 +7,7 @@
   "audience": "Claude",
   "brand": "claude-musinique",
   "engine": "kokoro",
-  "voice_kokoro": "am_onyx",
+  "voice_kokoro": "am_puck",
   "palette": "claude",
   "greeting": "Olá, Liam",
   "folderLabel": "@Musinique",
@@ -49,15 +49,15 @@
     "B07: palette=claude but the outro is 'un-annotated' — OUTRO LAW wants ClaudeTitleOutro"
    ]
   },
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
-  "voice": "am_onyx"
+  "voice": "am_puck"
  },
  "beats": [
   {
    "beat_id": "B00",
    "act": "ASK",
-   "narration_text": "This is Liam for Musinique. 'Improve this intro' is a wish. It is not a work order. The problem is not that Claude ignores vague prompts — the problem is that Claude fills in every gap with a best guess, and its best guess is not your best guess. The six-component table turns any vague ask into an inspectable specification before any draft is generated.",
+   "narration_text": "This is Musinique. 'Improve this intro' is a wish. It is not a work order. The problem is not that Claude ignores vague prompts — the problem is that Claude fills in every gap with a best guess, and its best guess is not your best guess. The six-component table turns any vague ask into an inspectable specification before any draft is generated.",
    "shot": {
     "type": "REMOTION",
     "source": "own",
@@ -77,7 +77,7 @@
    },
    "estimated_duration_s": 14,
    "audio_file": "mp3/beat-B00.mp3",
-   "actual_duration_s": 18.58,
+   "actual_duration_s": 18.75,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -86,7 +86,7 @@
     "needs": "PIPELINE → fill_slates/remotion_scenes for B00"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01",
@@ -110,14 +110,14 @@
     "needs": "PIPELINE → fill_slates/remotion_scenes for B01"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01B",
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "Prompt design is the skill the platform doesn't want you to have, because a musician who can write a precise prompt is a musician who doesn't need to buy someone else's pre-packaged workflow. Every prompt in this video is a template you can adapt — paste it, swap the specifics, run it on your own catalog. The instruction is the tool.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -137,7 +137,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 17.15
   },
   {
    "beat_id": "B02",
@@ -161,7 +163,7 @@
     "needs": "PIPELINE → fill_slates/remotion_scenes for B02"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B03",
@@ -185,7 +187,7 @@
     "needs": "PIPELINE → fill_slates/remotion_scenes for B03"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B04",
@@ -209,7 +211,7 @@
     "needs": "PIPELINE → fill_slates/remotion_scenes for B04"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B05",
@@ -233,7 +235,7 @@
     "needs": "PIPELINE → fill_slates/remotion_scenes for B05"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B06",
@@ -267,7 +269,7 @@
     "needs": "PIPELINE → fill_slates/remotion_scenes for B06"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B07",
@@ -289,7 +291,7 @@
    },
    "estimated_duration_s": 5,
    "audio_file": "mp3/beat-B07.mp3",
-   "actual_duration_s": 4.99,
+   "actual_duration_s": 4.44,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -298,7 +300,7 @@
     "needs": "PIPELINE → fill_slates/remotion_scenes for B07"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   }
  ]
 }

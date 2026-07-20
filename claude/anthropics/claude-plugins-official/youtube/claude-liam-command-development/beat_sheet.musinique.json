@@ -27,7 +27,7 @@
    "slates": [],
    "skin_warnings": []
   },
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "derived_from": "beat_sheet.json"
  },
  "beats": [
@@ -44,7 +44,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Konnichiwa, Musinique",
-      "topic": "COMMAND DEVELOPMENT · CLAUDE PLUGIN",
+      "topic": "MUSINIQUE · COMMAND DEVELOPMENT · CLAUDE PLUGIN",
       "segment": "PLUGIN DEV",
       "command": "Create a slash command to review my code for security issues.",
       "runningText": "reading command-development SKILL.md…",
@@ -64,7 +64,7 @@
     }
    },
    "audio_file": "mp3/beat-B00.mp3",
-   "actual_duration_s": 27.71,
+   "actual_duration_s": 23.32,
    "build": {
     "status": "VIDEO",
     "src": "media/B00.mp4",
@@ -93,7 +93,7 @@
     }
    },
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 65.39,
+   "actual_duration_s": 59.37,
    "build": {
     "status": "VIDEO",
     "src": "media/B01.mp4",
@@ -126,7 +126,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 17.34
   },
   {
    "beat_id": "B02",
@@ -149,7 +151,7 @@
     }
    },
    "audio_file": "mp3/beat-B02.mp3",
-   "actual_duration_s": 74.86,
+   "actual_duration_s": 67.01,
    "build": {
     "status": "VIDEO",
     "src": "media/B02.mp4",
@@ -178,7 +180,7 @@
     }
    },
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 79.55,
+   "actual_duration_s": 75.43,
    "build": {
     "status": "VIDEO",
     "src": "media/B05.mp4",
@@ -216,7 +218,7 @@
     }
    },
    "audio_file": "mp3/beat-BVDT.mp3",
-   "actual_duration_s": 41.94,
+   "actual_duration_s": 40.19,
    "build": {
     "status": "VIDEO",
     "src": "media/BVDT.mp4",
@@ -237,7 +239,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Your Turn",
-      "topic": "COMMAND DEVELOPMENT · HANDOFF",
+      "topic": "MUSINIQUE · COMMAND DEVELOPMENT · HANDOFF",
       "segment": "PLUGIN DEV",
       "command": "Create a slash command review-pr that takes a PR number, reads changed files, and reviews code quality.",
       "runningText": "Watch: for-Claude? $1 or $ARGUMENTS? allowed-tools? bash syntax inline?",
@@ -257,7 +259,7 @@
     }
    },
    "audio_file": "mp3/beat-BHTF.mp3",
-   "actual_duration_s": 40.04,
+   "actual_duration_s": 37.18,
    "build": {
     "status": "VIDEO",
     "src": "media/BHTF.mp4",
@@ -288,7 +290,7 @@
     }
    },
    "audio_file": "mp3/beat-BOUT.mp3",
-   "actual_duration_s": 3.03,
+   "actual_duration_s": 1.88,
    "build": {
     "status": "VIDEO",
     "src": "media/BOUT.mp4",

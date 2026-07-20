@@ -14,23 +14,23 @@
   "note": "Exclusions honored: NO formal verification or proof-based methods, NO extended test coverage metrics, NO fuzzing or property-based testing.",
   "total_estimated_duration_seconds": 203.14,
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "register": "Baldwin",
   "palette": "claude",
   "folderLabel": "@Musinique",
   "engine": "kokoro",
-  "voice": "am_onyx",
-  "voice_kokoro": "am_onyx",
+  "voice": "am_puck",
+  "voice_kokoro": "am_puck",
   "derived_from": "beat_sheet.json"
  },
  "beats": [
   {
    "beat_id": "B00",
    "act": "cold open",
-   "narration_text": "This is Liam for Musinique. Why Code That Looks Correct Can Still Be Wrong.",
+   "narration_text": "This is Musinique. Why Code That Looks Correct Can Still Be Wrong.",
    "tangent": false,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 8,
    "shot": {
@@ -39,7 +39,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Jambo, Musinique",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "Why Code That Looks Correct Can Still Be Wrong",
       "command": "Why Code That Looks Correct Can Still Be Wrong",
       "runningText": "reading…",
@@ -78,14 +78,14 @@
    "audio_file": "mp3/beat-B01.mp3",
    "actual_duration_s": 10.06,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01B",
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "The indie musician who automates their Spotify stats check, their distributor ping, their playlist pitch — that musician gets time back that they would otherwise spend refreshing a dashboard. An agent is not a luxury for the label's data team; it is a tool you can run free, on your own machine, today. The same frontmatter that tells Claude when to fire a code-review agent tells it when to check your streaming anomalies. You just haven't pointed it yet.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -123,7 +123,7 @@
    "audio_file": "mp3/beat-B02.mp3",
    "actual_duration_s": 6.5,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B03",
@@ -143,7 +143,7 @@
    "audio_file": "mp3/beat-B03.mp3",
    "actual_duration_s": 8.44,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B04",
@@ -169,7 +169,7 @@
    "audio_file": "mp3/beat-B04.mp3",
    "actual_duration_s": 9.46,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B05",
@@ -196,7 +196,7 @@
    "audio_file": "mp3/beat-B05.mp3",
    "actual_duration_s": 17.97,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B06",
@@ -223,7 +223,7 @@
    "audio_file": "mp3/beat-B06.mp3",
    "actual_duration_s": 14.81,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B07",
@@ -243,7 +243,7 @@
    "audio_file": "mp3/beat-B07.mp3",
    "actual_duration_s": 11.7,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B08",
@@ -270,7 +270,7 @@
    "audio_file": "mp3/beat-B08.mp3",
    "actual_duration_s": 16.9,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B09",
@@ -297,7 +297,7 @@
    "audio_file": "mp3/beat-B09.mp3",
    "actual_duration_s": 16.3,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B10",
@@ -317,7 +317,7 @@
    "audio_file": "mp3/beat-B10.mp3",
    "actual_duration_s": 11.28,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B11",
@@ -344,7 +344,7 @@
    "audio_file": "mp3/beat-B11.mp3",
    "actual_duration_s": 15.36,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B12",
@@ -371,7 +371,7 @@
    "audio_file": "mp3/beat-B12.mp3",
    "actual_duration_s": 13.79,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B13",
@@ -389,7 +389,7 @@
    "audio_file": "mp3/beat-B13.mp3",
    "actual_duration_s": 15.49,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B14",
@@ -416,7 +416,7 @@
    "audio_file": "mp3/beat-B14.mp3",
    "actual_duration_s": 15.96,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B15",
@@ -436,13 +436,13 @@
    "audio_file": "mp3/beat-B15.mp3",
    "actual_duration_s": 10.16,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B16",
    "t_start": 171.0,
    "estimated_duration_s": 11.0,
-   "narration_text": "Code that looks correct can still be wrong — because correctness is an oracle verdict, not a visual property. Name the oracle before you accept the fix.",
+   "narration_text": "Code that looks correct can still be wrong — because correctness is an oracle verdict, not a visual property. Name the oracle before you accept the fix. From Musinique.",
    "shot": {
     "type": "CARD",
     "source": "own",
@@ -457,7 +457,7 @@
    "audio_file": "mp3/beat-B16.mp3",
    "actual_duration_s": 9.916,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   }
  ]
 }

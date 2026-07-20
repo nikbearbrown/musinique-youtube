@@ -26,7 +26,7 @@
   ],
   "built_at": "2026-07-17T01:10:00.875506",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
   "voice_kokoro": "am_puck"
@@ -49,7 +49,7 @@
      "version": "1",
      "props": {
       "command": "I keep losing details across revisions the way she lost the three statistics and the cautious register without noticing. I have a two-page brief I'm about to revise for clarity. Walk me through the four-step loop on it: (1) help me name the actual failure category instead of saying 'make it better'; (2) write the preservation constraint that freezes my statistics and cautious tone exactly; (3) draft the three-line change-log request so I can see what moved, what changed in language, and what stayed untouched.",
-      "topic": "REVISION LOOPS · CAPS",
+      "topic": "MUSINIQUE · REVISION LOOPS · CAPS",
       "segment": "Revision Change Log: Make Drift Visible",
       "greeting": "Kumusta, Musinique",
       "runningText": "explaining the mechanism…",
@@ -66,7 +66,7 @@
    },
    "estimated_duration_s": 9.0,
    "audio_file": "mp3/beat-NBB00.mp3",
-   "actual_duration_s": 5.141
+   "actual_duration_s": 27.16
   },
   {
    "beat_id": "B00",
@@ -90,8 +90,8 @@
     }
    },
    "estimated_duration_s": 16,
-   "audio_file": "../revision-change-log/mp3/beat-B00.mp3",
-   "actual_duration_s": 20.5,
+   "audio_file": "mp3/beat-B00.mp3",
+   "actual_duration_s": 18.2,
    "locked": true,
    "source_clip": "../revision-change-log/clips/B00.mp4",
    "source_audio": "../revision-change-log/mp3/beat-B00.mp3",
@@ -110,8 +110,8 @@
    "new_visual_element": "Different not better — vague revision / no preservation constraint / change without comparison = drift",
    "spark_line": "Different is not better.",
    "estimated_duration_s": 13,
-   "audio_file": "../revision-change-log/mp3/beat-B01.mp3",
-   "actual_duration_s": 19.11,
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 18.3,
    "locked": true,
    "source_clip": "../revision-change-log/clips/B01.mp4",
    "source_audio": "../revision-change-log/mp3/beat-B01.mp3",
@@ -143,7 +143,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 19.09
   },
   {
    "beat_id": "B02",
@@ -157,8 +159,8 @@
    "new_visual_element": "Diagnose first — name failure / preservation constraint / request change / change log required",
    "spark_line": "Name the failure. Name the wall.",
    "estimated_duration_s": 13,
-   "audio_file": "../revision-change-log/mp3/beat-B02.mp3",
-   "actual_duration_s": 20.16,
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 19.03,
    "locked": true,
    "source_clip": "../revision-change-log/clips/B02.mp4",
    "source_audio": "../revision-change-log/mp3/beat-B02.mp3",
@@ -177,8 +179,8 @@
    "new_visual_element": "Change log format — moved/restructured / language changed / kept exactly / catches implicit overwrites",
    "spark_line": "Three lines. Catches the implicit.",
    "estimated_duration_s": 13,
-   "audio_file": "../revision-change-log/mp3/beat-B03.mp3",
-   "actual_duration_s": 20.29,
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 18.79,
    "locked": true,
    "source_clip": "../revision-change-log/clips/B03.mp4",
    "source_audio": "../revision-change-log/mp3/beat-B03.mp3",
@@ -197,8 +199,8 @@
    "new_visual_element": "Artifact view — revision prompt + change log / drift caught / next revision builds on accountable version",
    "spark_line": "Revision is a second specification.",
    "estimated_duration_s": 13,
-   "audio_file": "../revision-change-log/mp3/beat-B04.mp3",
-   "actual_duration_s": 20.25,
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 18.67,
    "locked": true,
    "source_clip": "../revision-change-log/clips/B04.mp4",
    "source_audio": "../revision-change-log/mp3/beat-B04.mp3",
@@ -227,8 +229,8 @@
     }
    },
    "estimated_duration_s": 9,
-   "audio_file": "../revision-change-log/mp3/beat-B05.mp3",
-   "actual_duration_s": 4.27,
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 3.88,
    "locked": true,
    "source_clip": "../revision-change-log/clips/B05.mp4",
    "source_audio": "../revision-change-log/mp3/beat-B05.mp3",
@@ -267,7 +269,7 @@
    },
    "estimated_duration_s": 30.0,
    "audio_file": "mp3/beat-NBB01.mp3",
-   "actual_duration_s": 25.877,
+   "actual_duration_s": 23.34,
    "lead_silence_s": 0.5
   },
   {
@@ -287,7 +289,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Revision Change Log: Make Drift Visible] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "REVISION LOOPS · CAPS",
+      "topic": "MUSINIQUE · REVISION LOOPS · CAPS",
       "segment": "Revision Change Log: Make Drift Visible",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -304,7 +306,7 @@
    },
    "estimated_duration_s": 8.0,
    "audio_file": "mp3/beat-NBB02.mp3",
-   "actual_duration_s": 7.765
+   "actual_duration_s": 8.3
   },
   {
    "beat_id": "NBB03",
@@ -333,10 +335,10 @@
    "estimated_duration_s": 6.0,
    "audio_file": "mp3/beat-NBB03.mp3",
    "silence_s": 6.0,
-   "actual_duration_s": 6.03,
+   "actual_duration_s": 2.45,
    "engine": "kokoro",
    "voice": "am_puck",
-   "narration_text": "Revision Change Log: Make Drift Visible"
+   "narration_text": "Revision Change Log: Make Drift Visible. From Musinique."
   }
  ]
 }

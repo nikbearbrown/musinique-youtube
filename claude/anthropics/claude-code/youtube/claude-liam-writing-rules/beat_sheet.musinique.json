@@ -27,7 +27,7 @@
    "slates": [],
    "skin_warnings": []
   },
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "derived_from": "beat_sheet.json"
  },
  "beats": [
@@ -44,7 +44,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Konnichiwa, Musinique",
-      "topic": "WRITING HOOKIFY RULES · CLAUDE CODE SKILL",
+      "topic": "MUSINIQUE · WRITING HOOKIFY RULES · CLAUDE CODE SKILL",
       "segment": "HOOKIFY PLUGIN",
       "command": "Create a hookify rule that warns when I try to use rm -rf.",
       "runningText": "reading writing-rules SKILL.md…",
@@ -239,7 +239,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Your Turn",
-      "topic": "WRITING HOOKIFY RULES · HANDOFF",
+      "topic": "MUSINIQUE · WRITING HOOKIFY RULES · HANDOFF",
       "segment": "HOOKIFY PLUGIN",
       "command": "Create a hookify rule that blocks rm -rf commands, and one that warns when editing .env files.",
       "runningText": "Watch: event type correct? pattern right? action block vs warn? naming convention?",

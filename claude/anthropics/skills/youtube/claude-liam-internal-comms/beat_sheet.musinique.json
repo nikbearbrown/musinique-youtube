@@ -27,7 +27,7 @@
    "slates": [],
    "skin_warnings": []
   },
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "derived_from": "beat_sheet.json"
  },
  "beats": [
@@ -44,7 +44,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Ciao, Musinique",
-      "topic": "INTERNAL COMMS · ANTHROPIC SKILL",
+      "topic": "MUSINIQUE · INTERNAL COMMS · ANTHROPIC SKILL",
       "segment": "INTERNAL COMMS",
       "command": "Write a weekly update for the Product Design team covering last week's progress, plans, and blockers.",
       "runningText": "reading internal-comms SKILL.md…",
@@ -64,7 +64,7 @@
     }
    },
    "audio_file": "mp3/beat-B00.mp3",
-   "actual_duration_s": 20.12,
+   "actual_duration_s": 18.58,
    "build": {
     "status": "VIDEO",
     "src": "media/B00.mp4",
@@ -93,7 +93,7 @@
     }
    },
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 29.12,
+   "actual_duration_s": 26.71,
    "build": {
     "status": "VIDEO",
     "src": "media/B01.mp4",
@@ -126,7 +126,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 19.52
   },
   {
    "beat_id": "B02",
@@ -149,7 +151,7 @@
     }
    },
    "audio_file": "mp3/beat-B02.mp3",
-   "actual_duration_s": 32.55,
+   "actual_duration_s": 31.19,
    "build": {
     "status": "VIDEO",
     "src": "media/B02.mp4",
@@ -178,7 +180,7 @@
     }
    },
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 37.89,
+   "actual_duration_s": 35.97,
    "build": {
     "status": "VIDEO",
     "src": "media/B05.mp4",
@@ -216,7 +218,7 @@
     }
    },
    "audio_file": "mp3/beat-BVDT.mp3",
-   "actual_duration_s": 23.85,
+   "actual_duration_s": 21.08,
    "build": {
     "status": "VIDEO",
     "src": "media/BVDT.mp4",
@@ -237,7 +239,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Your Turn",
-      "topic": "INTERNAL COMMS · HANDOFF",
+      "topic": "MUSINIQUE · INTERNAL COMMS · HANDOFF",
       "segment": "INTERNAL COMMS",
       "command": "Write a 3P update for the Product Design team covering last week. Progress: onboarding redesign. Plans: user testing. Problems: blocked on design system approvals. Use the internal-comms skill.",
       "runningText": "Watch: does Claude use the exact 3P format? Emoji first? Max 3 sentences per section?",
@@ -257,7 +259,7 @@
     }
    },
    "audio_file": "mp3/beat-BHTF.mp3",
-   "actual_duration_s": 31.17,
+   "actual_duration_s": 30.1,
    "build": {
     "status": "VIDEO",
     "src": "media/BHTF.mp4",
@@ -288,7 +290,7 @@
     }
    },
    "audio_file": "mp3/beat-BOUT.mp3",
-   "actual_duration_s": 2.94,
+   "actual_duration_s": 1.77,
    "build": {
     "status": "VIDEO",
     "src": "media/BOUT.mp4",

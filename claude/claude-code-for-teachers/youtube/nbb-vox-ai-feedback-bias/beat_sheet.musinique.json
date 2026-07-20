@@ -30,7 +30,7 @@
   "old_outro_beats": [],
   "built_at": "2026-07-16T22:48:28.569066",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
   "voice_kokoro": "am_puck"
@@ -53,7 +53,7 @@
      "version": "1",
      "props": {
       "command": "I'm unsettled that a tool with 0.86 to 0.93 rubric correlation still produced feedback that would harm Sara and Jaden. I want to understand the disagreement zone, not the agreement zone. Using Jaden's AAVE report and Sara's ESL report: (1) explain why the seven to fourteen percent divergence concentrates on non-standard-English writers rather than distributing randomly; (2) draft a CLAUDE.md rule telling Claude to treat AAVE and idiomatic ESL grammar as complete systems; (3) suggest a check that flags when feedback deprioritizes strong arguments over surface markers.",
-      "topic": "CLAUDE CODE FOR TEACHERS",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR TEACHERS",
       "segment": "Why AI Feedback That Passes Every",
       "greeting": "Habari, Musinique",
       "runningText": "explaining the mechanism…",
@@ -70,7 +70,7 @@
    },
    "estimated_duration_s": 9.0,
    "audio_file": "mp3/beat-NBB00.mp3",
-   "actual_duration_s": 6.784
+   "actual_duration_s": 32.98
   },
   {
    "beat_id": "B01",
@@ -88,8 +88,8 @@
     "eyebrow": "CLAUDE CODE FOR TEACHERS"
    },
    "new_visual_element": "[TITLE] feedback passes checks, harms students",
-   "audio_file": "../vox-ai-feedback-bias/mp3/beat-B01.mp3",
-   "actual_duration_s": 9.01,
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 9.09,
    "locked": true,
    "source_clip": "../vox-ai-feedback-bias/clips/B01.mp4",
    "source_audio": "../vox-ai-feedback-bias/mp3/beat-B01.mp3",
@@ -121,7 +121,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 17.39
   },
   {
    "beat_id": "B02",
@@ -144,8 +146,8 @@
     }
    },
    "new_visual_element": "[GRAPHIC] Marcus's accurate flag report",
-   "audio_file": "../vox-ai-feedback-bias/mp3/beat-B02.mp3",
-   "actual_duration_s": 12.02,
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 11.9,
    "locked": true,
    "source_clip": "../vox-ai-feedback-bias/clips/B02.mp4",
    "source_audio": "../vox-ai-feedback-bias/mp3/beat-B02.mp3",
@@ -174,8 +176,8 @@
     }
    },
    "new_visual_element": "[GRAPHIC] Sara's report — surface correct, pedagogically wrong",
-   "audio_file": "../vox-ai-feedback-bias/mp3/beat-B03.mp3",
-   "actual_duration_s": 19.25,
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 17.66,
    "locked": true,
    "source_clip": "../vox-ai-feedback-bias/clips/B03.mp4",
    "source_audio": "../vox-ai-feedback-bias/mp3/beat-B03.mp3",
@@ -195,8 +197,8 @@
    "scene_description": "a printed flag report for a student showing non-standard grammar flags, pinned to newsprint, editorial collage style, desaturated",
    "image_prompt": "B04, printed flag report document showing student feedback with grammar error flags highlighted in red, pinned like a clipping to aged newsprint, editorial collage style, highly desaturated, cream and charcoal tones",
    "new_visual_element": "[STILL ai] Jaden's flag report as printed document",
-   "audio_file": "../vox-ai-feedback-bias/mp3/beat-B04.mp3",
-   "actual_duration_s": 17.92,
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 17.15,
    "locked": true,
    "source_clip": "../vox-ai-feedback-bias/clips/B04.mp4",
    "source_audio": "../vox-ai-feedback-bias/mp3/beat-B04.mp3",
@@ -218,8 +220,8 @@
     "copy": "0.93 accuracy. 25% underperformance for some students. How?"
    },
    "new_visual_element": "[CARD] the question on screen",
-   "audio_file": "../vox-ai-feedback-bias/mp3/beat-B05.mp3",
-   "actual_duration_s": 18.23,
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 17.62,
    "locked": true,
    "source_clip": "../vox-ai-feedback-bias/clips/B05.mp4",
    "source_audio": "../vox-ai-feedback-bias/mp3/beat-B05.mp3",
@@ -248,8 +250,8 @@
     }
    },
    "new_visual_element": "[GRAPHIC] agreement vs. disagreement distribution bar",
-   "audio_file": "../vox-ai-feedback-bias/mp3/beat-B06.mp3",
-   "actual_duration_s": 23.64,
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 19.05,
    "locked": true,
    "source_clip": "../vox-ai-feedback-bias/clips/B06.mp4",
    "source_audio": "../vox-ai-feedback-bias/mp3/beat-B06.mp3",
@@ -278,8 +280,8 @@
     }
    },
    "new_visual_element": "[GRAPHIC] bias in the tail — Sara and Jaden placed in crimson zone",
-   "audio_file": "../vox-ai-feedback-bias/mp3/beat-B07.mp3",
-   "actual_duration_s": 25.68,
+   "audio_file": "mp3/beat-B07.mp3",
+   "actual_duration_s": 19.29,
    "locked": true,
    "source_clip": "../vox-ai-feedback-bias/clips/B07.mp4",
    "source_audio": "../vox-ai-feedback-bias/mp3/beat-B07.mp3",
@@ -308,8 +310,8 @@
     }
    },
    "new_visual_element": "[GRAPHIC] three gates passed, still harmful — the dangerous middle",
-   "audio_file": "../vox-ai-feedback-bias/mp3/beat-B08.mp3",
-   "actual_duration_s": 19.41,
+   "audio_file": "mp3/beat-B08.mp3",
+   "actual_duration_s": 17.75,
    "locked": true,
    "source_clip": "../vox-ai-feedback-bias/clips/B08.mp4",
    "source_audio": "../vox-ai-feedback-bias/mp3/beat-B08.mp3",
@@ -338,8 +340,8 @@
     }
    },
    "new_visual_element": "[GRAPHIC] narrowing principle: Claude flags, teacher writes",
-   "audio_file": "../vox-ai-feedback-bias/mp3/beat-B09.mp3",
-   "actual_duration_s": 19.25,
+   "audio_file": "mp3/beat-B09.mp3",
+   "actual_duration_s": 17.45,
    "locked": true,
    "source_clip": "../vox-ai-feedback-bias/clips/B09.mp4",
    "source_audio": "../vox-ai-feedback-bias/mp3/beat-B09.mp3",
@@ -368,8 +370,8 @@
     }
    },
    "new_visual_element": "[GRAPHIC] neutral flag vs. teacher-authored feedback",
-   "audio_file": "../vox-ai-feedback-bias/mp3/beat-B10.mp3",
-   "actual_duration_s": 29.02,
+   "audio_file": "mp3/beat-B10.mp3",
+   "actual_duration_s": 20.89,
    "locked": true,
    "source_clip": "../vox-ai-feedback-bias/clips/B10.mp4",
    "source_audio": "../vox-ai-feedback-bias/mp3/beat-B10.mp3",
@@ -398,8 +400,8 @@
     }
    },
    "new_visual_element": "[GRAPHIC] equity conditions table — automatable vs. judgment",
-   "audio_file": "../vox-ai-feedback-bias/mp3/beat-B11.mp3",
-   "actual_duration_s": 21.86,
+   "audio_file": "mp3/beat-B11.mp3",
+   "actual_duration_s": 18.13,
    "locked": true,
    "source_clip": "../vox-ai-feedback-bias/clips/B11.mp4",
    "source_audio": "../vox-ai-feedback-bias/mp3/beat-B11.mp3",
@@ -422,8 +424,8 @@
     "sub": "CLAUDE CODE FOR TEACHERS"
    },
    "new_visual_element": "[CARD] endcard — Claude detects, teacher interprets",
-   "audio_file": "../vox-ai-feedback-bias/mp3/beat-B12.mp3",
-   "actual_duration_s": 16.836,
+   "audio_file": "mp3/beat-B12.mp3",
+   "actual_duration_s": 16.26,
    "locked": true,
    "source_clip": "../vox-ai-feedback-bias/clips/B12.mp4",
    "source_audio": "../vox-ai-feedback-bias/mp3/beat-B12.mp3",
@@ -462,7 +464,7 @@
    },
    "estimated_duration_s": 30.0,
    "audio_file": "mp3/beat-NBB01.mp3",
-   "actual_duration_s": 33.472,
+   "actual_duration_s": 35.11,
    "lead_silence_s": 0.5
   },
   {
@@ -482,7 +484,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Why AI Feedback That Passes Every Check Can Still Harm Your Students] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "CLAUDE CODE FOR TEACHERS",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR TEACHERS",
       "segment": "Why AI Feedback That Passes Every",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -499,7 +501,7 @@
    },
    "estimated_duration_s": 8.0,
    "audio_file": "mp3/beat-NBB02.mp3",
-   "actual_duration_s": 7.765
+   "actual_duration_s": 8.3
   },
   {
    "beat_id": "NBB03",
@@ -528,10 +530,10 @@
    "estimated_duration_s": 6.0,
    "audio_file": "mp3/beat-NBB03.mp3",
    "silence_s": 6.0,
-   "actual_duration_s": 6.03,
+   "actual_duration_s": 4.25,
    "engine": "kokoro",
    "voice": "am_puck",
-   "narration_text": "Why AI Feedback That Passes Every Check Can Still Harm Your Students"
+   "narration_text": "Why AI Feedback That Passes Every Check Can Still Harm Your Students. From Musinique."
   }
  ]
 }

@@ -27,7 +27,7 @@
    "slates": [],
    "skin_warnings": []
   },
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "derived_from": "beat_sheet.json"
  },
  "beats": [
@@ -44,7 +44,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Salaam, Musinique",
-      "topic": "PLUGIN SETTINGS · CLAUDE CODE SKILL",
+      "topic": "MUSINIQUE · PLUGIN SETTINGS · CLAUDE CODE SKILL",
       "segment": "PLUGIN DEV",
       "command": "Make this plugin's behavior configurable — store settings per project.",
       "runningText": "reading plugin-settings SKILL.md…",
@@ -239,7 +239,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Your Turn",
-      "topic": "PLUGIN SETTINGS · HANDOFF",
+      "topic": "MUSINIQUE · PLUGIN SETTINGS · HANDOFF",
       "segment": "PLUGIN DEV",
       "command": "Add a settings file to my plugin that controls validation level and allows hooks to be toggled.",
       "runningText": "Watch: .claude/name.local.md? YAML fm? quick-exit? validation_level branch?",

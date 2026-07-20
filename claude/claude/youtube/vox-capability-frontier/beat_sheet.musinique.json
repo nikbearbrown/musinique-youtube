@@ -14,7 +14,7 @@
   "note": "Exclusions honored: NO technical definition of AI capability benchmarks, NO BCG experimental methodology deep-dive, NO extended discussion of specific task taxonomies.",
   "total_estimated_duration_seconds": 216.7,
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "register": "Baldwin",
   "palette": "claude",
@@ -39,7 +39,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Merhaba, Musinique",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "Why AI Makes You Better At Exactly the Tasks It Makes You Dangerously Worse At",
       "command": "Why AI Makes You Better At Exactly the Tasks It Makes You Dangerously Worse At",
       "runningText": "reading…",
@@ -447,7 +447,7 @@
    "beat_id": "B16",
    "t_start": 173.0,
    "estimated_duration_s": 11.0,
-   "narration_text": "AI did not make them worse by being broken. It made them worse by being trusted in the wrong zone. The capability frontier is real. The output never shows you where you are standing on it.",
+   "narration_text": "AI did not make them worse by being broken. It made them worse by being trusted in the wrong zone. The capability frontier is real. The output never shows you where you are standing on it. From Musinique.",
    "shot": {
     "type": "CARD",
     "source": "own",

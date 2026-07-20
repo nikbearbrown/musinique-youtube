@@ -27,7 +27,7 @@
    "slates": [],
    "skin_warnings": []
   },
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "derived_from": "beat_sheet.json"
  },
  "beats": [
@@ -44,7 +44,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Hej, Musinique",
-      "topic": "MCP BUILDER · ANTHROPIC SKILL",
+      "topic": "MUSINIQUE · MCP BUILDER · ANTHROPIC SKILL",
       "segment": "MCP SERVER",
       "command": "Build an MCP server for the GitHub API. Cover issues, pull requests, and repository operations.",
       "runningText": "reading mcp-builder SKILL.md…",
@@ -64,7 +64,7 @@
     }
    },
    "audio_file": "mp3/beat-B00.mp3",
-   "actual_duration_s": 20.63,
+   "actual_duration_s": 18.69,
    "build": {
     "status": "VIDEO",
     "src": "media/B00.mp4",
@@ -93,7 +93,7 @@
     }
    },
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 35.16,
+   "actual_duration_s": 33.22,
    "build": {
     "status": "VIDEO",
     "src": "media/B01.mp4",
@@ -126,7 +126,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 17.43
   },
   {
    "beat_id": "B02",
@@ -149,7 +151,7 @@
     }
    },
    "audio_file": "mp3/beat-B02.mp3",
-   "actual_duration_s": 41.58,
+   "actual_duration_s": 38.51,
    "build": {
     "status": "VIDEO",
     "src": "media/B02.mp4",
@@ -178,7 +180,7 @@
     }
    },
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 42.28,
+   "actual_duration_s": 38.98,
    "build": {
     "status": "VIDEO",
     "src": "media/B05.mp4",
@@ -216,7 +218,7 @@
     }
    },
    "audio_file": "mp3/beat-BVDT.mp3",
-   "actual_duration_s": 32.3,
+   "actual_duration_s": 29.82,
    "build": {
     "status": "VIDEO",
     "src": "media/BVDT.mp4",
@@ -237,7 +239,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Your Turn",
-      "topic": "MCP BUILDER · HANDOFF",
+      "topic": "MUSINIQUE · MCP BUILDER · HANDOFF",
       "segment": "MCP SERVER",
       "command": "Build an MCP server for the OpenWeatherMap API. TypeScript + Zod. Cover current weather, forecasts, historical data. Follow the mcp-builder skill.",
       "runningText": "Watch: does Claude start with research (MCP spec + SDK) before coding?",
@@ -257,7 +259,7 @@
     }
    },
    "audio_file": "mp3/beat-BHTF.mp3",
-   "actual_duration_s": 36.65,
+   "actual_duration_s": 35.67,
    "build": {
     "status": "VIDEO",
     "src": "media/BHTF.mp4",
@@ -288,7 +290,7 @@
     }
    },
    "audio_file": "mp3/beat-BOUT.mp3",
-   "actual_duration_s": 2.97,
+   "actual_duration_s": 1.83,
    "build": {
     "status": "VIDEO",
     "src": "media/BOUT.mp4",

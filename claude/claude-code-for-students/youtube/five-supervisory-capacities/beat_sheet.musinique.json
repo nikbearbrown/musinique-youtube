@@ -3,7 +3,7 @@
   "slug": "five-supervisory-capacities",
   "title": "Label the Five Supervisory Capacities in a Build Session with Claude Code",
   "topic": "CLAUDE CODE FOR STUDENTS",
-  "voice": "am_onyx",
+  "voice": "am_puck",
   "voice_id": "TyW6NH39JcFb5M3xdIIk",
   "style": "cli",
   "palette": "claude",
@@ -13,38 +13,42 @@
   "ground": "#FFFFFF",
   "total_estimated_duration_seconds": 118.0,
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "register": "Baldwin",
   "folderLabel": "@Musinique",
   "engine": "kokoro",
-  "voice_kokoro": "am_onyx",
+  "voice_kokoro": "am_puck",
   "derived_from": "beat_sheet.json"
  },
  "beats": [
   {
    "beat_id": "B00",
    "act": "INTRO",
-   "narration_text": "This is Liam for Musinique. A forty-minute build session contains exactly five supervisory moves. Each one named, each one preventing a specific failure that shipped to the student without it.",
+   "narration_text": "This is Musinique. A forty-minute build session contains exactly five supervisory moves. Each one named, each one preventing a specific failure that shipped to the student without it.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOpen",
+     "pattern": "ClaudeComposerAsk",
      "props": {
-      "topic": "CLAUDE CODE FOR STUDENTS",
-      "lines": [
-       "Nik Bear Brown",
+      "command": "Label the Five Supervisory Capacities in a Build Session with Claude Code",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR STUDENTS",
+      "segment": "Label the Five Supervisory Capacities in a Build Session with Claude Code",
+      "greeting": "This is Musinique.",
+      "runningText": "working…",
+      "output": [
        "Five Supervisory Capacities, taken apart."
-      ],
-      "greeting": "Halo, Musinique"
+      ]
      }
     }
    },
    "estimated_duration_s": 8,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B00.mp3",
+   "actual_duration_s": 10.88
   },
   {
    "beat_id": "B01",
@@ -57,14 +61,16 @@
    },
    "estimated_duration_s": 12,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 13.06
   },
   {
    "beat_id": "B01B",
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "The same scaffolding principle that keeps a student from outsourcing their thinking protects a musician from outsourcing their voice. When Claude drafts, you judge. When Claude suggests a pitch angle, you decide if it's true. The tool that flags 'this is AI doing your creative work for you' is the tool that keeps your music yours.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -84,7 +90,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 17.28
   },
   {
    "beat_id": "B02",
@@ -95,10 +103,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"[PF] Write top_three_by_gpa with tie-breaking by last_name.\\n  Test set MUST include: at least one tie case (same GPA).\\n[PA] After output: run tie-case probe immediately.\\n[TO] If probe fails: re-prompt with exact failure description.\\n[IJ] Interpret any accuracy threshold before accepting.\\n[EI] Final: confirm all user needs from SDD are met.\"",
-      "topic": "CLAUDE CODE FOR STUDENTS",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR STUDENTS",
       "segment": "SUPERVISORY CAPACITIES",
       "runningText": "running labeled build session…"
      }
@@ -106,7 +114,9 @@
    },
    "estimated_duration_s": 12,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 6.02
   },
   {
    "beat_id": "B03",
@@ -117,18 +127,20 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownCodeBlock",
+     "pattern": "ClaudeCodeBeat",
      "props": {
-      "filename": "supervised_build.md",
       "topic": "CLAUDE CODE FOR STUDENTS",
       "segment": "SUPERVISORY CAPACITIES",
-      "code": "# Labeled Build Transcript — GPA Sort Session\n\n[PF] Before prompt: required tie case in test set\n  - test_tie: Bell 3.92, Adams 3.92 -> Adams first\n\n[PA] After output: probe with tie case IMMEDIATELY\n  - Result: Bell returned first (bug found)\n\n[TO] Re-prompt with exact failure:\n  'Bell and Adams tie at 3.92, Adams should rank\n   first (alphabetical), got Bell — fix sort key'\n\n[IJ] 85% accuracy threshold in context:\n  - 15% failure rate on tie cases = unacceptable\n  - threshold requires domain interpretation\n\n[EI] Final: all SDD needs confirmed satisfied"
+      "code": "# Labeled Build Transcript — GPA Sort Session\n\n[PF] Before prompt: required tie case in test set\n  - test_tie: Bell 3.92, Adams 3.92 -> Adams first\n\n[PA] After output: probe with tie case IMMEDIATELY\n  - Result: Bell returned first (bug found)\n\n[TO] Re-prompt with exact failure:\n  'Bell and Adams tie at 3.92, Adams should rank\n   first (alphabetical), got Bell — fix sort key'\n\n[IJ] 85% accuracy threshold in context:\n  - 15% failure rate on tie cases = unacceptable\n  - threshold requires domain interpretation\n\n[EI] Final: all SDD needs confirmed satisfied",
+      "title": "supervised_build.md"
      }
     }
    },
    "estimated_duration_s": 14,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 14.44
   },
   {
    "beat_id": "B04",
@@ -141,7 +153,9 @@
    },
    "estimated_duration_s": 20,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 19.56
   },
   {
    "beat_id": "B05",
@@ -152,10 +166,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Run the same GPA sort build WITHOUT supervisory labels.\\nAt which step would the tie-breaking bug have shipped?\\nShow the unlabeled decision point where the failure entered.\"",
-      "topic": "CLAUDE CODE FOR STUDENTS",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR STUDENTS",
       "segment": "SUPERVISORY CAPACITIES",
       "runningText": "running unlabeled session…"
      }
@@ -163,7 +177,9 @@
    },
    "estimated_duration_s": 10,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 7.06
   },
   {
    "beat_id": "B06",
@@ -176,7 +192,9 @@
    },
    "estimated_duration_s": 14,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 14.44
   },
   {
    "beat_id": "B07",
@@ -189,7 +207,9 @@
    },
    "estimated_duration_s": 12,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B07.mp3",
+   "actual_duration_s": 8.53
   },
   {
    "beat_id": "B08",
@@ -202,18 +222,20 @@
    },
    "estimated_duration_s": 8,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B08.mp3",
+   "actual_duration_s": 3.61
   },
   {
    "beat_id": "B09",
    "act": "OUTRO",
-   "narration_text": "Nik Bear Brown. Build it with a CLI. Then take it apart. At nikbearbrown.com.",
+   "narration_text": "Musinique. Build it with a CLI. Then take it apart. At nikbearbrown.com.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOutro",
+     "pattern": "ClaudeTitleOutro",
      "props": {
       "brand": "Nik Bear Brown",
       "tagline": "Brutalist + Educational AI",
@@ -224,7 +246,9 @@
    },
    "estimated_duration_s": 8,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B09.mp3",
+   "actual_duration_s": 5.38
   }
  ]
 }

@@ -13,7 +13,7 @@
   "note": "Exclusions: NO meeting-summary column template, NO contextual-integrity privacy theory, NO four-operations taxonomy, NO second artifact type, NO ICMJE authorship discussion.",
   "total_estimated_duration_seconds": 124.51,
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "register": "Baldwin",
   "palette": "claude",
@@ -38,7 +38,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Merhaba, Musinique",
-      "topic": "CLAUDE COWORK",
+      "topic": "MUSINIQUE · CLAUDE COWORK",
       "segment": "Why \"Maybe We Should\" Becomes \"Decision: We Will\"",
       "command": "Why \"Maybe We Should\" Becomes \"Decision: We Will\"",
       "runningText": "reading…",
@@ -50,7 +50,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B00.mp3",
+   "actual_duration_s": 3.88
   },
   {
    "beat_id": "B01",
@@ -84,7 +86,7 @@
    },
    "new_visual_element": "[TITLE] modal upgrade",
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 7.76,
+   "actual_duration_s": 7.64,
    "engine": "kokoro",
    "voice": "am_puck"
   },
@@ -112,7 +114,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 16.06
   },
   {
    "beat_id": "B02",
@@ -146,7 +150,7 @@
    ],
    "new_visual_element": "[PHOTO] rough meeting notes",
    "audio_file": "mp3/beat-B02.mp3",
-   "actual_duration_s": 7.47,
+   "actual_duration_s": 8.28,
    "engine": "kokoro",
    "voice": "am_puck"
   },
@@ -181,7 +185,7 @@
    },
    "new_visual_element": "[QUESTION] gap formula on screen",
    "audio_file": "mp3/beat-B03.mp3",
-   "actual_duration_s": 11.78,
+   "actual_duration_s": 9.49,
    "engine": "kokoro",
    "voice": "am_puck"
   },
@@ -214,7 +218,7 @@
    },
    "new_visual_element": "[GRAPHIC] original note (TEAL)",
    "audio_file": "mp3/beat-B04.mp3",
-   "actual_duration_s": 9.51,
+   "actual_duration_s": 8.77,
    "engine": "kokoro",
    "voice": "am_puck"
   },
@@ -251,7 +255,7 @@
    },
    "new_visual_element": "[GRAPHIC] summary: DECISION (CRIMSON)",
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 11.36,
+   "actual_duration_s": 9.51,
    "engine": "kokoro",
    "voice": "am_puck"
   },
@@ -282,7 +286,7 @@
    },
    "new_visual_element": "[SECTION] THE MECHANISM",
    "audio_file": "mp3/beat-B06.mp3",
-   "actual_duration_s": 1.02,
+   "actual_duration_s": 0.98,
    "engine": "kokoro",
    "voice": "am_puck"
   },
@@ -315,7 +319,7 @@
    },
    "new_visual_element": "[GRAPHIC] model pulls toward resolved prose",
    "audio_file": "mp3/beat-B07.mp3",
-   "actual_duration_s": 10.16,
+   "actual_duration_s": 10.73,
    "engine": "kokoro",
    "voice": "am_puck"
   },
@@ -352,7 +356,7 @@
    },
    "new_visual_element": "[GRAPHIC] modality spectrum with upgrade arrow",
    "audio_file": "mp3/beat-B08.mp3",
-   "actual_duration_s": 11.73,
+   "actual_duration_s": 11.56,
    "engine": "kokoro",
    "voice": "am_puck"
   },
@@ -383,7 +387,7 @@
    },
    "new_visual_element": "[QUOTE] the model produces decided-sounding prose",
    "audio_file": "mp3/beat-B09.mp3",
-   "actual_duration_s": 7.97,
+   "actual_duration_s": 8.41,
    "engine": "kokoro",
    "voice": "am_puck"
   },
@@ -420,7 +424,7 @@
    },
    "new_visual_element": "[GRAPHIC] question becomes action item",
    "audio_file": "mp3/beat-B10.mp3",
-   "actual_duration_s": 6.87,
+   "actual_duration_s": 7.0,
    "engine": "kokoro",
    "voice": "am_puck"
   },
@@ -456,7 +460,7 @@
    ],
    "new_visual_element": "[PHOTO] polished summary in inbox",
    "audio_file": "mp3/beat-B11.mp3",
-   "actual_duration_s": 9.43,
+   "actual_duration_s": 10.03,
    "engine": "kokoro",
    "voice": "am_puck"
   },
@@ -489,7 +493,7 @@
    },
    "new_visual_element": "[GRAPHIC] source vs summary Decisions (illustrative)",
    "audio_file": "mp3/beat-B12.mp3",
-   "actual_duration_s": 14.45,
+   "actual_duration_s": 12.65,
    "engine": "kokoro",
    "voice": "am_puck"
   },
@@ -522,7 +526,7 @@
    },
    "new_visual_element": "[GRAPHIC] question → owner (illustrative)",
    "audio_file": "mp3/beat-B13.mp3",
-   "actual_duration_s": 7.11,
+   "actual_duration_s": 7.94,
    "engine": "kokoro",
    "voice": "am_puck"
   },
@@ -553,7 +557,7 @@
    },
    "new_visual_element": "[ENDCARD] discussed is not agreed",
    "audio_file": "mp3/beat-B14.mp3",
-   "actual_duration_s": 4.41,
+   "actual_duration_s": 4.14,
    "engine": "kokoro",
    "voice": "am_puck"
   },
@@ -581,7 +585,7 @@
    },
    "estimated_duration_s": 6,
    "audio_file": "mp3/beat-B15.mp3",
-   "actual_duration_s": 1.99,
+   "actual_duration_s": 1.66,
    "engine": "kokoro",
    "voice": "am_puck"
   },
@@ -590,7 +594,7 @@
    "act": "OUTRO",
    "type": "GRAPHIC",
    "name": "OutroCTA",
-   "narration_text": "Like and subscribe for more.",
+   "narration_text": "Like and subscribe for more. From Musinique.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
@@ -609,7 +613,7 @@
    },
    "estimated_duration_s": 5,
    "audio_file": "mp3/beat-B16.mp3",
-   "actual_duration_s": 1.49,
+   "actual_duration_s": 1.58,
    "engine": "kokoro",
    "voice": "am_puck"
   }

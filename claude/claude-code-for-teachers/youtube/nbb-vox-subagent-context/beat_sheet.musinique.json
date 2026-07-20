@@ -27,7 +27,7 @@
   "old_outro_beats": [],
   "built_at": "2026-07-16T23:00:02.455384",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
   "voice_kokoro": "am_puck"
@@ -50,7 +50,7 @@
      "version": "1",
      "props": {
       "command": "What clicked is that a session has no way to unread a file, so my ten-minute policy lookup permanently cost 48% of the window. I want to route research away from my build session. For investigating the late-submission policy: (1) write the subagent call that reads the policy doc, LMS export, and revisions in its own window; (2) specify the three-paragraph summary it returns so my main session grows by only 300 words; (3) tell me the signal that a reading task is big enough to deserve a subagent instead of inline reading.",
-      "topic": "CLAUDE CODE FOR TEACHERS",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR TEACHERS",
       "segment": "Why One Subagent Query Saved 48%",
       "greeting": "Vanakkam, Musinique",
       "runningText": "explaining the mechanism…",
@@ -67,7 +67,7 @@
    },
    "estimated_duration_s": 9.0,
    "audio_file": "mp3/beat-NBB00.mp3",
-   "actual_duration_s": 4.992
+   "actual_duration_s": 32.3
   },
   {
    "beat_id": "B01",
@@ -85,8 +85,8 @@
     "eyebrow": "CLAUDE CODE FOR TEACHERS"
    },
    "new_visual_element": "[TITLE] subagent saves 48% of the context window",
-   "audio_file": "../vox-subagent-context/mp3/beat-B01.mp3",
-   "actual_duration_s": 18.47,
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 16.68,
    "locked": true,
    "source_clip": "../vox-subagent-context/clips/B01.mp4",
    "source_audio": "../vox-subagent-context/mp3/beat-B01.mp3",
@@ -118,7 +118,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 19.54
   },
   {
    "beat_id": "B02",
@@ -142,8 +144,8 @@
     }
    },
    "new_visual_element": "[GRAPHIC] context bar: 30% build + 48% research = 22% left",
-   "audio_file": "../vox-subagent-context/mp3/beat-B02.mp3",
-   "actual_duration_s": 21.68,
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 18.13,
    "locked": true,
    "source_clip": "../vox-subagent-context/clips/B02.mp4",
    "source_audio": "../vox-subagent-context/mp3/beat-B02.mp3",
@@ -165,8 +167,8 @@
     "copy": "10 minutes of research. 48% of the window gone. Why?"
    },
    "new_visual_element": "[CARD] the question on screen",
-   "audio_file": "../vox-subagent-context/mp3/beat-B03.mp3",
-   "actual_duration_s": 14.65,
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 15.02,
    "locked": true,
    "source_clip": "../vox-subagent-context/clips/B03.mp4",
    "source_audio": "../vox-subagent-context/mp3/beat-B03.mp3",
@@ -195,8 +197,8 @@
     }
    },
    "new_visual_element": "[GRAPHIC] files arriving into shared window",
-   "audio_file": "../vox-subagent-context/mp3/beat-B04.mp3",
-   "actual_duration_s": 24.01,
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 19.56,
    "locked": true,
    "source_clip": "../vox-subagent-context/clips/B04.mp4",
    "source_audio": "../vox-subagent-context/mp3/beat-B04.mp3",
@@ -225,8 +227,8 @@
     }
    },
    "new_visual_element": "[GRAPHIC] subagent context fills; main session receives only summary",
-   "audio_file": "../vox-subagent-context/mp3/beat-B05.mp3",
-   "actual_duration_s": 22.65,
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 19.54,
    "locked": true,
    "source_clip": "../vox-subagent-context/clips/B05.mp4",
    "source_audio": "../vox-subagent-context/mp3/beat-B05.mp3",
@@ -255,8 +257,8 @@
     }
    },
    "new_visual_element": "[GRAPHIC] two context bars: 78% used vs 32% used",
-   "audio_file": "../vox-subagent-context/mp3/beat-B06.mp3",
-   "actual_duration_s": 20.14,
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 17.94,
    "locked": true,
    "source_clip": "../vox-subagent-context/clips/B06.mp4",
    "source_audio": "../vox-subagent-context/mp3/beat-B06.mp3",
@@ -276,8 +278,8 @@
    "scene_description": "a stack of 25 student submission papers next to a short summary document, editorial collage, desaturated",
    "image_prompt": "B07, a thick stack of student submission papers on the left and a single short summary page on the right, the stack taller and messier, the summary page clean and small, both pinned to aged newsprint, editorial collage style, highly desaturated, cream and charcoal tones, no human faces",
    "new_visual_element": "[STILL ai] stack of submissions vs single summary page",
-   "audio_file": "../vox-subagent-context/mp3/beat-B07.mp3",
-   "actual_duration_s": 27.85,
+   "audio_file": "mp3/beat-B07.mp3",
+   "actual_duration_s": 20.95,
    "locked": true,
    "source_clip": "../vox-subagent-context/clips/B07.mp4",
    "source_audio": "../vox-subagent-context/mp3/beat-B07.mp3",
@@ -305,8 +307,8 @@
     }
    },
    "new_visual_element": "[GRAPHIC] heuristic card: reads more than session needs",
-   "audio_file": "../vox-subagent-context/mp3/beat-B08.mp3",
-   "actual_duration_s": 21.08,
+   "audio_file": "mp3/beat-B08.mp3",
+   "actual_duration_s": 19.35,
    "locked": true,
    "source_clip": "../vox-subagent-context/clips/B08.mp4",
    "source_audio": "../vox-subagent-context/mp3/beat-B08.mp3",
@@ -329,8 +331,8 @@
     "sub": "CLAUDE CODE FOR TEACHERS"
    },
    "new_visual_element": "[CARD] endcard — subagent takes the fill",
-   "audio_file": "../vox-subagent-context/mp3/beat-B09.mp3",
-   "actual_duration_s": 6.155,
+   "audio_file": "mp3/beat-B09.mp3",
+   "actual_duration_s": 5.42,
    "locked": true,
    "source_clip": "../vox-subagent-context/clips/B09.mp4",
    "source_audio": "../vox-subagent-context/mp3/beat-B09.mp3",
@@ -369,7 +371,7 @@
    },
    "estimated_duration_s": 30.0,
    "audio_file": "mp3/beat-NBB01.mp3",
-   "actual_duration_s": 25.024,
+   "actual_duration_s": 22.34,
    "lead_silence_s": 0.5
   },
   {
@@ -389,7 +391,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Why One Subagent Query Saved 48% of the Context Window] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "CLAUDE CODE FOR TEACHERS",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR TEACHERS",
       "segment": "Why One Subagent Query Saved 48%",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -406,7 +408,7 @@
    },
    "estimated_duration_s": 8.0,
    "audio_file": "mp3/beat-NBB02.mp3",
-   "actual_duration_s": 7.765
+   "actual_duration_s": 8.3
   },
   {
    "beat_id": "NBB03",
@@ -435,10 +437,10 @@
    "estimated_duration_s": 6.0,
    "audio_file": "mp3/beat-NBB03.mp3",
    "silence_s": 6.0,
-   "actual_duration_s": 6.03,
+   "actual_duration_s": 4.48,
    "engine": "kokoro",
    "voice": "am_puck",
-   "narration_text": "Why One Subagent Query Saved 48% of the Context Window"
+   "narration_text": "Why One Subagent Query Saved 48% of the Context Window. From Musinique."
   }
  ]
 }

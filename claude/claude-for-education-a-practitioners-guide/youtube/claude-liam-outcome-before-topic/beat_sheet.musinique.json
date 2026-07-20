@@ -52,7 +52,7 @@
    ]
   },
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
   "voice": "am_puck"
@@ -72,7 +72,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Kumusta, Musinique",
-      "topic": "AI IN EDUCATION",
+      "topic": "MUSINIQUE · AI IN EDUCATION",
       "segment": "Why Telling Claude the Topic Is the Wrong First Step",
       "command": "Why Telling Claude the Topic Is the Wrong First Step",
       "runningText": "reading…",
@@ -84,7 +84,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B00.mp3",
+   "actual_duration_s": 4.12
   },
   {
    "beat_id": "B01",
@@ -103,7 +105,7 @@
    },
    "new_visual_element": "[TITLE] topic vs. outcome",
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 11.78,
+   "actual_duration_s": 11.86,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -140,7 +142,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 19.09
   },
   {
    "beat_id": "B02",
@@ -156,7 +160,7 @@
    "image_prompt": "B02, high school chemistry classroom, a teacher seated at a laptop typing a short text query visible on screen, students at desks in the background, warm classroom lighting, editorial documentary desaturated style, flat newsprint tone, no brand logos",
    "new_visual_element": "[STILL] teacher at laptop typing a short prompt",
    "audio_file": "mp3/beat-B02.mp3",
-   "actual_duration_s": 14.66,
+   "actual_duration_s": 15.77,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -184,7 +188,7 @@
    },
    "new_visual_element": "[CARD] THE QUESTION on screen",
    "audio_file": "mp3/beat-B03.mp3",
-   "actual_duration_s": 7.06,
+   "actual_duration_s": 7.4,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -219,7 +223,7 @@
    },
    "new_visual_element": "[GRAPHIC] naive chain: topic -> Claude -> lesson -> learning",
    "audio_file": "mp3/beat-B04.mp3",
-   "actual_duration_s": 10.67,
+   "actual_duration_s": 11.71,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -254,7 +258,7 @@
    },
    "new_visual_element": "[GRAPHIC] gap between LESSON and LEARNING opens in crimson",
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 9.62,
+   "actual_duration_s": 10.58,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -281,7 +285,7 @@
    },
    "new_visual_element": "[CARD] section — Claude generates what you ask for",
    "audio_file": "mp3/beat-B06.mp3",
-   "actual_duration_s": 11.31,
+   "actual_duration_s": 12.31,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -317,7 +321,7 @@
    },
    "new_visual_element": "[GRAPHIC] two prompt cards — short vs. outcome-anchored",
    "audio_file": "mp3/beat-B07.mp3",
-   "actual_duration_s": 14.46,
+   "actual_duration_s": 15.59,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -352,7 +356,7 @@
    },
    "new_visual_element": "[GRAPHIC] three CRIMSON activities vs. three TEAL aligned activities",
    "audio_file": "mp3/beat-B08.mp3",
-   "actual_duration_s": 12.16,
+   "actual_duration_s": 13.35,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -380,7 +384,7 @@
    },
    "new_visual_element": "[CARD] quote — he already knew it all",
    "audio_file": "mp3/beat-B09.mp3",
-   "actual_duration_s": 10.84,
+   "actual_duration_s": 11.84,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -415,7 +419,7 @@
    },
    "new_visual_element": "[GRAPHIC] repaired chain: named outcome -> transfer",
    "audio_file": "mp3/beat-B10.mp3",
-   "actual_duration_s": 15.13,
+   "actual_duration_s": 16.23,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -449,7 +453,7 @@
    },
    "new_visual_element": "[GRAPHIC] the one-sentence outcome written on a notepad",
    "audio_file": "mp3/beat-B11.mp3",
-   "actual_duration_s": 15.89,
+   "actual_duration_s": 17.05,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -484,7 +488,7 @@
    },
    "new_visual_element": "[GRAPHIC] two paths — topic first vs. outcome first",
    "audio_file": "mp3/beat-B12.mp3",
-   "actual_duration_s": 9.66,
+   "actual_duration_s": 10.45,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -499,7 +503,7 @@
    "beat_id": "B13",
    "t_start": 147.0,
    "estimated_duration_s": 11.0,
-   "narration_text": "Topic coverage is not learning design. Outcome before topic — every time.",
+   "narration_text": "Topic coverage is not learning design. Outcome before topic — every time. From Musinique.",
    "shot": {
     "type": "CARD",
     "source": "own",
@@ -512,7 +516,7 @@
    },
    "new_visual_element": "[CARD] endcard — topic is not learning design",
    "audio_file": "mp3/beat-B13.mp3",
-   "actual_duration_s": 5.14,
+   "actual_duration_s": 4.91,
    "build": {
     "status": "SLATE",
     "src": null,

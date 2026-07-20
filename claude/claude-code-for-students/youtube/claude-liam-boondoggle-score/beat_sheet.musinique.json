@@ -24,7 +24,7 @@
    "swap the outro to the Claude outro from AUTHOR.MD :: NikBearBrown",
    "then build audience-namespaced (audio in the new voice, scenes in the new palette)"
   ],
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "build": {
    "at": "2026-07-16T01:58:46",
    "cut": "master",
@@ -56,14 +56,16 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOpen",
+     "pattern": "ClaudeComposerAsk",
      "props": {
-      "topic": "CLAUDE CODE FOR STUDENTS",
-      "lines": [
-       "Nik Bear Brown",
+      "command": "Score a Build Plan Using the Boondoggle Score with Claude Code",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR STUDENTS",
+      "segment": "Score a Build Plan Using the Boondoggle Score with Claude Code",
+      "greeting": "This is Musinique.",
+      "runningText": "working…",
+      "output": [
        "Boondoggle Score, taken apart."
-      ],
-      "greeting": "Konnichiwa, Musinique"
+      ]
      },
      "rendered": {
       "out": "media/B00.mp4",
@@ -73,7 +75,7 @@
    },
    "estimated_duration_s": 8,
    "audio_file": "mp3/beat-B00.mp3",
-   "actual_duration_s": 8.38,
+   "actual_duration_s": 10.35,
    "build": {
     "status": "VIDEO",
     "src": "media/B00.mp4",
@@ -94,7 +96,7 @@
    },
    "estimated_duration_s": 12,
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 10.75,
+   "actual_duration_s": 11.95,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -131,7 +133,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 17.39
   },
   {
    "beat_id": "B02",
@@ -142,10 +146,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Generate Boondoggle Score table for app tracker Phase 1:\\n  columns: step#, phase, labor, supervisory capacity, handoff condition\\n  flag: critical path and highest-risk handoff\\n  rule: every handoff condition must be machine-checkable\"",
-      "topic": "CLAUDE CODE FOR STUDENTS",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR STUDENTS",
       "segment": "BOONDOGGLE SCORE",
       "runningText": "generating score table…"
      },
@@ -157,7 +161,7 @@
    },
    "estimated_duration_s": 12,
    "audio_file": "mp3/beat-B02.mp3",
-   "actual_duration_s": 5.65,
+   "actual_duration_s": 5.74,
    "build": {
     "status": "VIDEO",
     "src": "media/B02.mp4",
@@ -176,12 +180,12 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownCodeBlock",
+     "pattern": "ClaudeCodeBeat",
      "props": {
-      "filename": "boondoggle.md",
       "topic": "CLAUDE CODE FOR STUDENTS",
       "segment": "BOONDOGGLE SCORE",
-      "code": "# Boondoggle Score — App Tracker Phase 1\n\n| # | Phase        | Labor  | Capacity | Handoff Condition                        |\n|---|--------------|--------|----------|------------------------------------------|\n| 1 | Data model   | Claude | —        | pytest tests/test_models.py exits 0      |\n| 2 | Add form     | Claude | PA       | pytest tests/test_add.py -k happy        |\n| 3 | State pers.  | Claude | PA+IJ    | all 3 apps survive reload in browser     | <- HIGH RISK\n| 4 | Delete       | Human  | PF       | pytest tests/test_delete.py exits 0      |\n| 5 | UI polish    | Human  | IJ       | screenshot matches wireframe.png         |\n\nCritical path: step 1 -> 2 -> 3 (state persistence blocks all others)"
+      "code": "# Boondoggle Score — App Tracker Phase 1\n\n| # | Phase        | Labor  | Capacity | Handoff Condition                        |\n|---|--------------|--------|----------|------------------------------------------|\n| 1 | Data model   | Claude | —        | pytest tests/test_models.py exits 0      |\n| 2 | Add form     | Claude | PA       | pytest tests/test_add.py -k happy        |\n| 3 | State pers.  | Claude | PA+IJ    | all 3 apps survive reload in browser     | <- HIGH RISK\n| 4 | Delete       | Human  | PF       | pytest tests/test_delete.py exits 0      |\n| 5 | UI polish    | Human  | IJ       | screenshot matches wireframe.png         |\n\nCritical path: step 1 -> 2 -> 3 (state persistence blocks all others)",
+      "title": "boondoggle.md"
      },
      "rendered": {
       "out": "media/B03.mp4",
@@ -191,7 +195,7 @@
    },
    "estimated_duration_s": 14,
    "audio_file": "mp3/beat-B03.mp3",
-   "actual_duration_s": 15.66,
+   "actual_duration_s": 16.68,
    "build": {
     "status": "VIDEO",
     "src": "media/B03.mp4",
@@ -216,7 +220,7 @@
    },
    "estimated_duration_s": 20,
    "audio_file": "mp3/beat-B04.mp3",
-   "actual_duration_s": 9.56,
+   "actual_duration_s": 10.33,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -236,10 +240,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Set row 1 handoff condition to: 'Claude completes the data model'.\\nRe-run scorer. Does it flag this condition as invalid?\\nExplain why it fails the machine-checkable rule.\"",
-      "topic": "CLAUDE CODE FOR STUDENTS",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR STUDENTS",
       "segment": "BOONDOGGLE SCORE",
       "runningText": "validating handoff condition…"
      },
@@ -251,7 +255,7 @@
    },
    "estimated_duration_s": 10,
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 6.51,
+   "actual_duration_s": 6.76,
    "build": {
     "status": "VIDEO",
     "src": "media/B05.mp4",
@@ -276,7 +280,7 @@
    },
    "estimated_duration_s": 14,
    "audio_file": "mp3/beat-B06.mp3",
-   "actual_duration_s": 5.61,
+   "actual_duration_s": 5.48,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -298,7 +302,7 @@
    },
    "estimated_duration_s": 12,
    "audio_file": "mp3/beat-B07.mp3",
-   "actual_duration_s": 9.32,
+   "actual_duration_s": 9.9,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -321,7 +325,7 @@
    },
    "estimated_duration_s": 8,
    "audio_file": "mp3/beat-B08.mp3",
-   "actual_duration_s": 3.61,
+   "actual_duration_s": 2.92,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -336,13 +340,13 @@
   {
    "beat_id": "B09",
    "act": "OUTRO",
-   "narration_text": "Nik Bear Brown. Build it with a CLI. Then take it apart. At nikbearbrown.com.",
+   "narration_text": "Musinique. Build it with a CLI. Then take it apart. At nikbearbrown.com.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOutro",
+     "pattern": "ClaudeTitleOutro",
      "props": {
       "brand": "Nik Bear Brown",
       "tagline": "Brutalist + Educational AI",
@@ -357,7 +361,7 @@
    },
    "estimated_duration_s": 8,
    "audio_file": "mp3/beat-B09.mp3",
-   "actual_duration_s": 5.38,
+   "actual_duration_s": 5.27,
    "build": {
     "status": "VIDEO",
     "src": "media/B09.mp4",

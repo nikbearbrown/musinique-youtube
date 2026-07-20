@@ -27,7 +27,7 @@
    "slates": [],
    "skin_warnings": []
   },
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "derived_from": "beat_sheet.json"
  },
  "beats": [
@@ -44,7 +44,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Privet, Musinique",
-      "topic": "CANVAS DESIGN · ANTHROPIC SKILL",
+      "topic": "MUSINIQUE · CANVAS DESIGN · ANTHROPIC SKILL",
       "segment": "Claude, Canvas.",
       "command": "Create a poster for a jazz festival. Use the canvas-design skill.",
       "runningText": "reading canvas-design SKILL.md…",
@@ -64,7 +64,7 @@
     }
    },
    "audio_file": "mp3/beat-B00.mp3",
-   "actual_duration_s": 21.44,
+   "actual_duration_s": 19.26,
    "build": {
     "status": "VIDEO",
     "src": "media/B00.mp4",
@@ -93,7 +93,7 @@
     }
    },
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 25.75,
+   "actual_duration_s": 22.44,
    "build": {
     "status": "VIDEO",
     "src": "media/B01.mp4",
@@ -126,7 +126,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 19.52
   },
   {
    "beat_id": "B02",
@@ -149,7 +151,7 @@
     }
    },
    "audio_file": "mp3/beat-B02.mp3",
-   "actual_duration_s": 23.38,
+   "actual_duration_s": 20.39,
    "build": {
     "status": "VIDEO",
     "src": "media/B02.mp4",
@@ -178,7 +180,7 @@
     }
    },
    "audio_file": "mp3/beat-B03.mp3",
-   "actual_duration_s": 28.22,
+   "actual_duration_s": 24.32,
    "build": {
     "status": "VIDEO",
     "src": "media/B03.mp4",
@@ -207,7 +209,7 @@
     }
    },
    "audio_file": "mp3/beat-B04.mp3",
-   "actual_duration_s": 28.33,
+   "actual_duration_s": 24.55,
    "build": {
     "status": "VIDEO",
     "src": "media/B04.mp4",
@@ -236,7 +238,7 @@
     }
    },
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 35.93,
+   "actual_duration_s": 35.33,
    "build": {
     "status": "VIDEO",
     "src": "media/B05.mp4",
@@ -273,7 +275,7 @@
     }
    },
    "audio_file": "mp3/beat-BVDT.mp3",
-   "actual_duration_s": 16.32,
+   "actual_duration_s": 17.32,
    "build": {
     "status": "VIDEO",
     "src": "media/BVDT.mp4",
@@ -294,7 +296,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Your turn.",
-      "topic": "CANVAS DESIGN · ANTHROPIC SKILL",
+      "topic": "MUSINIQUE · CANVAS DESIGN · ANTHROPIC SKILL",
       "segment": "Claude, Canvas.",
       "command": "I have a concept for a poster — a meditation retreat in the mountains. Use the canvas-design skill. Before you write any code, show me the design philosophy — the movement name and its five visual dimensions — and tell me what the conceptual soul of the piece will be.",
       "runningText": "paste this into Claude…",
@@ -310,7 +312,7 @@
     }
    },
    "audio_file": "mp3/beat-BHTF.mp3",
-   "actual_duration_s": 26.24,
+   "actual_duration_s": 23.47,
    "build": {
     "status": "VIDEO",
     "src": "media/BHTF.mp4",
@@ -341,7 +343,7 @@
     }
    },
    "audio_file": "mp3/beat-BOUT.mp3",
-   "actual_duration_s": 2.73,
+   "actual_duration_s": 1.71,
    "build": {
     "status": "VIDEO",
     "src": "media/BOUT.mp4",

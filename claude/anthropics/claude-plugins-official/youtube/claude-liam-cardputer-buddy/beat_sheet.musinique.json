@@ -27,7 +27,7 @@
    "slates": [],
    "skin_warnings": []
   },
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "derived_from": "beat_sheet.json"
  },
  "beats": [
@@ -44,7 +44,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Talofa, Musinique",
-      "topic": "CARDPUTER BUDDY · CLAUDE PLUGIN",
+      "topic": "MUSINIQUE · CARDPUTER BUDDY · CLAUDE PLUGIN",
       "segment": "MAKERS",
       "command": "Add a timer app to the Cardputer that counts down from 60 seconds.",
       "runningText": "reading cardputer-buddy SKILL.md…",
@@ -64,7 +64,7 @@
     }
    },
    "audio_file": "mp3/beat-B00.mp3",
-   "actual_duration_s": 22.83,
+   "actual_duration_s": 20.1,
    "build": {
     "status": "VIDEO",
     "src": "media/B00.mp4",
@@ -93,7 +93,7 @@
     }
    },
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 38.51,
+   "actual_duration_s": 36.93,
    "build": {
     "status": "VIDEO",
     "src": "media/B01.mp4",
@@ -126,7 +126,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 19.09
   },
   {
    "beat_id": "B02",
@@ -149,7 +151,7 @@
     }
    },
    "audio_file": "mp3/beat-B02.mp3",
-   "actual_duration_s": 46.51,
+   "actual_duration_s": 40.81,
    "build": {
     "status": "VIDEO",
     "src": "media/B02.mp4",
@@ -178,7 +180,7 @@
     }
    },
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 66.01,
+   "actual_duration_s": 59.93,
    "build": {
     "status": "VIDEO",
     "src": "media/B05.mp4",
@@ -216,7 +218,7 @@
     }
    },
    "audio_file": "mp3/beat-BVDT.mp3",
-   "actual_duration_s": 30.95,
+   "actual_duration_s": 29.27,
    "build": {
     "status": "VIDEO",
     "src": "media/BVDT.mp4",
@@ -237,7 +239,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Your Turn",
-      "topic": "CARDPUTER BUDDY · HANDOFF",
+      "topic": "MUSINIQUE · CARDPUTER BUDDY · HANDOFF",
       "segment": "MAKERS",
       "command": "Add a 60-second countdown timer app that returns to the launcher when done.",
       "runningText": "Watch: buddy/device/apps/? push.py not install_apps? exit key? tail_serial?",
@@ -257,7 +259,7 @@
     }
    },
    "audio_file": "mp3/beat-BHTF.mp3",
-   "actual_duration_s": 34.52,
+   "actual_duration_s": 34.09,
    "build": {
     "status": "VIDEO",
     "src": "media/BHTF.mp4",
@@ -288,7 +290,7 @@
     }
    },
    "audio_file": "mp3/beat-BOUT.mp3",
-   "actual_duration_s": 2.79,
+   "actual_duration_s": 1.77,
    "build": {
     "status": "VIDEO",
     "src": "media/BOUT.mp4",

@@ -26,7 +26,7 @@
   ],
   "built_at": "2026-07-16T23:07:44.548751",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
   "voice_kokoro": "am_puck"
@@ -49,7 +49,7 @@
      "version": "1",
      "props": {
       "command": "The shift from 'can Cowork do this' to 'should Cowork do this' hit hardest with the FERPA accommodation files, where the exposure happened the moment the files entered the session and the risk categorization was professional judgment, not clerical work. I want to run my own tasks through the checklist. Help me: (1) test three of my planned tasks against the seven nondelegation categories; (2) for any that trip a category, name whether the problem is exposure, judgment, irreversibility, or obligation; (3) apply the redesign moves — reduce, anonymize, or restructure — to preserve the value while removing the harm.",
-      "topic": "DELEGATION LIMITS · COWORK",
+      "topic": "MUSINIQUE · DELEGATION LIMITS · COWORK",
       "segment": "Nondelegation Checklist: Can vs. Should",
       "greeting": "Olá, Musinique",
       "runningText": "explaining the mechanism…",
@@ -66,7 +66,7 @@
    },
    "estimated_duration_s": 9.0,
    "audio_file": "mp3/beat-NBB00.mp3",
-   "actual_duration_s": 5.355
+   "actual_duration_s": 30.83
   },
   {
    "beat_id": "B00",
@@ -90,8 +90,8 @@
     }
    },
    "estimated_duration_s": 16,
-   "audio_file": "../nondelegation-checklist/mp3/beat-B00.mp3",
-   "actual_duration_s": 25.43,
+   "audio_file": "mp3/beat-B00.mp3",
+   "actual_duration_s": 23.13,
    "locked": true,
    "source_clip": "../nondelegation-checklist/clips/B00.mp4",
    "source_audio": "../nondelegation-checklist/mp3/beat-B00.mp3",
@@ -110,8 +110,8 @@
    "new_visual_element": "Can vs. should — capability ≠ authorization / data exposure / professional judgment / irreversibility / obligation",
    "spark_line": "Capability is not authorization.",
    "estimated_duration_s": 13,
-   "audio_file": "../nondelegation-checklist/mp3/beat-B01.mp3",
-   "actual_duration_s": 22.81,
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 20.84,
    "locked": true,
    "source_clip": "../nondelegation-checklist/clips/B01.mp4",
    "source_audio": "../nondelegation-checklist/mp3/beat-B01.mp3",
@@ -143,7 +143,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 16.94
   },
   {
    "beat_id": "B02",
@@ -157,8 +159,8 @@
    "new_visual_element": "Seven categories — FERPA / health-legal-financial / risk categorization / irreversible / credentials / status decisions / exposure harm",
    "spark_line": "Seven stops. Hard stops.",
    "estimated_duration_s": 13,
-   "audio_file": "../nondelegation-checklist/mp3/beat-B02.mp3",
-   "actual_duration_s": 29.44,
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 27.35,
    "locked": true,
    "source_clip": "../nondelegation-checklist/clips/B02.mp4",
    "source_audio": "../nondelegation-checklist/mp3/beat-B02.mp3",
@@ -177,8 +179,8 @@
    "new_visual_element": "Redesign moves — reduce data: anonymized / reduce action: draft then human executes / reduce scope: aggregate not individual",
    "spark_line": "Redesign before you delegate.",
    "estimated_duration_s": 13,
-   "audio_file": "../nondelegation-checklist/mp3/beat-B03.mp3",
-   "actual_duration_s": 23.02,
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 20.44,
    "locked": true,
    "source_clip": "../nondelegation-checklist/clips/B03.mp4",
    "source_audio": "../nondelegation-checklist/mp3/beat-B03.mp3",
@@ -197,8 +199,8 @@
    "new_visual_element": "Artifact view — nondelegation checklist / run before task brief / exposure at entry not at output",
    "spark_line": "Run the checklist before the folder.",
    "estimated_duration_s": 13,
-   "audio_file": "../nondelegation-checklist/mp3/beat-B04.mp3",
-   "actual_duration_s": 18.99,
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 18.79,
    "locked": true,
    "source_clip": "../nondelegation-checklist/clips/B04.mp4",
    "source_audio": "../nondelegation-checklist/mp3/beat-B04.mp3",
@@ -227,8 +229,8 @@
     }
    },
    "estimated_duration_s": 9,
-   "audio_file": "../nondelegation-checklist/mp3/beat-B05.mp3",
-   "actual_duration_s": 4.78,
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 4.46,
    "locked": true,
    "source_clip": "../nondelegation-checklist/clips/B05.mp4",
    "source_audio": "../nondelegation-checklist/mp3/beat-B05.mp3",
@@ -267,7 +269,7 @@
    },
    "estimated_duration_s": 30.0,
    "audio_file": "mp3/beat-NBB01.mp3",
-   "actual_duration_s": 23.083,
+   "actual_duration_s": 23.3,
    "lead_silence_s": 0.5
   },
   {
@@ -287,7 +289,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Nondelegation Checklist: Can vs. Should] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "DELEGATION LIMITS · COWORK",
+      "topic": "MUSINIQUE · DELEGATION LIMITS · COWORK",
       "segment": "Nondelegation Checklist: Can vs. Should",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -304,7 +306,7 @@
    },
    "estimated_duration_s": 8.0,
    "audio_file": "mp3/beat-NBB02.mp3",
-   "actual_duration_s": 7.765
+   "actual_duration_s": 8.3
   },
   {
    "beat_id": "NBB03",
@@ -333,10 +335,10 @@
    "estimated_duration_s": 6.0,
    "audio_file": "mp3/beat-NBB03.mp3",
    "silence_s": 6.0,
-   "actual_duration_s": 6.03,
+   "actual_duration_s": 2.65,
    "engine": "kokoro",
    "voice": "am_puck",
-   "narration_text": "Nondelegation Checklist: Can vs. Should"
+   "narration_text": "Nondelegation Checklist: Can vs. Should. From Musinique."
   }
  ]
 }

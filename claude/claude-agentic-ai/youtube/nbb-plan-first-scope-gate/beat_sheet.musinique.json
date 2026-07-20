@@ -6,7 +6,7 @@
   "topic": "AGENTIC AI",
   "audience": "NikBearBrown",
   "engine": "kokoro",
-  "voice": "am_onyx",
+  "voice": "am_puck",
   "palette": "claude",
   "register": "Baldwin",
   "derived_from": "beat_sheet.json",
@@ -29,10 +29,10 @@
   ],
   "built_at": "2026-07-17T00:34:23.211919",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
-  "voice_kokoro": "am_onyx"
+  "voice_kokoro": "am_puck"
  },
  "beats": [
   {
@@ -40,8 +40,8 @@
    "act": "COLD OPEN",
    "title": "Liam cold open — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "This is Liam for Musinique. I want to make the eight-element plan checker a hard habit before any agent touches my files. Help me operationalize it. Specifically: (1) generate the full eight-element plan for a real folder-reorganization task I describe, keeping execution gated behind my approval, (2) run the present-missing-insufficient scoring and show me the red elements, and (3) rewrite my stop condition so it names a concrete trigger, like an exact file count or error state, instead of a vague 'if needed' phrase.",
+   "voice": "am_puck",
+   "narration_text": "This is Musinique. I want to make the eight-element plan checker a hard habit before any agent touches my files. Help me operationalize it. Specifically: (1) generate the full eight-element plan for a real folder-reorganization task I describe, keeping execution gated behind my approval, (2) run the present-missing-insufficient scoring and show me the red elements, and (3) rewrite my stop condition so it names a concrete trigger, like an exact file count or error state, instead of a vague 'if needed' phrase.",
    "shot": {
     "type": "CARD",
     "source": "remotion",
@@ -52,7 +52,7 @@
      "version": "1",
      "props": {
       "command": "I want to make the eight-element plan checker a hard habit before any agent touches my files. Help me operationalize it. Specifically: (1) generate the full eight-element plan for a real folder-reorganization task I describe, keeping execution gated behind my approval, (2) run the present-missing-insufficient scoring and show me the red elements, and (3) rewrite my stop condition so it names a concrete trigger, like an exact file count or error state, instead of a vague 'if needed' phrase.",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "Write a Plan-First Scope Statement and",
       "greeting": "Halo, Musinique",
       "runningText": "explaining the mechanism…",
@@ -69,25 +69,27 @@
    },
    "estimated_duration_s": 9.0,
    "audio_file": "mp3/beat-NBB00.mp3",
-   "actual_duration_s": 5.952
+   "actual_duration_s": 27.14
   },
   {
    "beat_id": "B00",
    "act": "INTRO",
-   "narration_text": "This is Musinique. Nik Bear Brown. Build it with a CLI, then take it apart.",
+   "narration_text": "This is Musinique. Musinique. Build it with a CLI, then take it apart.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOpen",
+     "pattern": "ClaudeComposerAsk",
      "props": {
-      "topic": "NIK BEAR BROWN",
-      "lines": [
-       "Nik Bear Brown",
+      "command": "Write a Plan-First Scope Statement and Approval Gate with Claude",
+      "topic": "MUSINIQUE · NIK BEAR BROWN",
+      "segment": "Write a Plan-First Scope Statement and Approval Gate with Claude",
+      "greeting": "This is Musinique.",
+      "runningText": "working…",
+      "output": [
        "Plan First. Gate Before Acting."
-      ],
-      "greeting": "Halo, Musinique"
+      ]
      },
      "rendered": {
       "out": "media/B00.mp4",
@@ -96,13 +98,13 @@
     }
    },
    "estimated_duration_s": 5,
-   "audio_file": "../plan-first-scope-gate/mp3/beat-B00.mp3",
-   "actual_duration_s": 3.53,
+   "audio_file": "mp3/beat-B00.mp3",
+   "actual_duration_s": 4.93,
    "locked": true,
    "source_clip": "../plan-first-scope-gate/clips/B00.mp4",
    "source_audio": "../plan-first-scope-gate/mp3/beat-B00.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01",
@@ -116,20 +118,20 @@
     "motion": "fade"
    },
    "estimated_duration_s": 15,
-   "audio_file": "../plan-first-scope-gate/mp3/beat-B01.mp3",
-   "actual_duration_s": 13.27,
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 12.82,
    "locked": true,
    "source_clip": "../plan-first-scope-gate/clips/B01.mp4",
    "source_audio": "../plan-first-scope-gate/mp3/beat-B01.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01B",
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "The indie musician who automates their Spotify stats check, their distributor ping, their playlist pitch — that musician gets time back that they would otherwise spend refreshing a dashboard. An agent is not a luxury for the label's data team; it is a tool you can run free, on your own machine, today. The same frontmatter that tells Claude when to fire a code-review agent tells it when to check your streaming anomalies. You just haven't pointed it yet.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -149,7 +151,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 22.06
   },
   {
    "beat_id": "B02",
@@ -161,10 +165,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Before acting, produce a full plan for: 'Compile quarterly financial highlights from /reports/Q3/.' Include: goal, inputs, excluded sources, tool sequence, permissions, stop conditions, verification evidence. Do not begin until I approve.\"",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "PLAN FIRST",
       "runningText": "generating..."
      },
@@ -175,13 +179,13 @@
     }
    },
    "estimated_duration_s": 14,
-   "audio_file": "../plan-first-scope-gate/mp3/beat-B02.mp3",
-   "actual_duration_s": 6.27,
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 6.46,
    "locked": true,
    "source_clip": "../plan-first-scope-gate/clips/B02.mp4",
    "source_audio": "../plan-first-scope-gate/mp3/beat-B02.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B03",
@@ -193,12 +197,12 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownCodeBlock",
+     "pattern": "ClaudeCodeBeat",
      "props": {
-      "filename": "plan_checker.py",
       "topic": "AGENTIC AI",
       "segment": "PLAN FIRST",
-      "code": "import json, sys\nELEMENTS = [\"goal\",\"inputs\",\"excluded_sources\",\n            \"tool_sequence\",\"permissions\",\n            \"stop_conditions\",\"verification_evidence\",\n            \"approval_gate\"]\nplan = json.load(open(sys.argv[1]))\nfor elem in ELEMENTS:\n    val = plan.get(elem, \"\")\n    status = \"PRESENT\" if val else \"MISSING\"\n    color = \"\\033[32m\" if status==\"PRESENT\" else \"\\033[31m\"\n    print(f\"{color}{status}\\033[0m  {elem}: {str(val)[:60]}\")"
+      "code": "import json, sys\nELEMENTS = [\"goal\",\"inputs\",\"excluded_sources\",\n            \"tool_sequence\",\"permissions\",\n            \"stop_conditions\",\"verification_evidence\",\n            \"approval_gate\"]\nplan = json.load(open(sys.argv[1]))\nfor elem in ELEMENTS:\n    val = plan.get(elem, \"\")\n    status = \"PRESENT\" if val else \"MISSING\"\n    color = \"\\033[32m\" if status==\"PRESENT\" else \"\\033[31m\"\n    print(f\"{color}{status}\\033[0m  {elem}: {str(val)[:60]}\")",
+      "title": "plan_checker.py"
      },
      "rendered": {
       "out": "media/B03.mp4",
@@ -207,13 +211,13 @@
     }
    },
    "estimated_duration_s": 14,
-   "audio_file": "../plan-first-scope-gate/mp3/beat-B03.mp3",
-   "actual_duration_s": 8.07,
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 8.75,
    "locked": true,
    "source_clip": "../plan-first-scope-gate/clips/B03.mp4",
    "source_audio": "../plan-first-scope-gate/mp3/beat-B03.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B04",
@@ -227,13 +231,13 @@
     "motion": "fade"
    },
    "estimated_duration_s": 12,
-   "audio_file": "../plan-first-scope-gate/mp3/beat-B04.mp3",
-   "actual_duration_s": 7.0,
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 6.38,
    "locked": true,
    "source_clip": "../plan-first-scope-gate/clips/B04.mp4",
    "source_audio": "../plan-first-scope-gate/mp3/beat-B04.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B05",
@@ -245,10 +249,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Re-score this plan: stop condition is 'if needed' -- is it sufficient as a concrete stop trigger?\"",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "PLAN FIRST",
       "runningText": "updating..."
      },
@@ -259,13 +263,13 @@
     }
    },
    "estimated_duration_s": 11,
-   "audio_file": "../plan-first-scope-gate/mp3/beat-B05.mp3",
-   "actual_duration_s": 5.28,
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 5.06,
    "locked": true,
    "source_clip": "../plan-first-scope-gate/clips/B05.mp4",
    "source_audio": "../plan-first-scope-gate/mp3/beat-B05.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B06",
@@ -279,13 +283,13 @@
     "motion": "fade"
    },
    "estimated_duration_s": 12,
-   "audio_file": "../plan-first-scope-gate/mp3/beat-B06.mp3",
-   "actual_duration_s": 9.87,
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 8.87,
    "locked": true,
    "source_clip": "../plan-first-scope-gate/clips/B06.mp4",
    "source_audio": "../plan-first-scope-gate/mp3/beat-B06.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B07",
@@ -299,13 +303,13 @@
     "motion": "fade"
    },
    "estimated_duration_s": 12,
-   "audio_file": "../plan-first-scope-gate/mp3/beat-B07.mp3",
-   "actual_duration_s": 10.76,
+   "audio_file": "mp3/beat-B07.mp3",
+   "actual_duration_s": 10.75,
    "locked": true,
    "source_clip": "../plan-first-scope-gate/clips/B07.mp4",
    "source_audio": "../plan-first-scope-gate/mp3/beat-B07.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B08",
@@ -319,20 +323,20 @@
     "motion": "fade"
    },
    "estimated_duration_s": 11,
-   "audio_file": "../plan-first-scope-gate/mp3/beat-B08.mp3",
-   "actual_duration_s": 8.62,
+   "audio_file": "mp3/beat-B08.mp3",
+   "actual_duration_s": 8.83,
    "locked": true,
    "source_clip": "../plan-first-scope-gate/clips/B08.mp4",
    "source_audio": "../plan-first-scope-gate/mp3/beat-B08.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "NBB01",
    "act": "VERDICT",
    "title": "Liam verdict — ClaudeVerdictArtifact",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": "Let's recap with Claude. Here's what the body just demonstrated. A plan is the first moment the agent's interpretation becomes visible. Two minutes of review beats twenty minutes of undo. The stop condition is where interpretation collapses into action. Apply the eight-element checklist to your next agentic task before approving any action. Flag any stop condition that does not name a concrete trigger.",
    "shot": {
     "type": "CARD",
@@ -359,7 +363,7 @@
    },
    "estimated_duration_s": 30.0,
    "audio_file": "mp3/beat-NBB01.mp3",
-   "actual_duration_s": 19.712,
+   "actual_duration_s": 20.46,
    "lead_silence_s": 0.5
   },
   {
@@ -367,7 +371,7 @@
    "act": "YOUR TURN",
    "title": "Your turn handoff — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": "Take this prompt, run it on your own — pick any cancer type or clinical scenario you know about and ask how this mechanism applies there.",
    "shot": {
     "type": "CARD",
@@ -379,7 +383,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Write a Plan-First Scope Statement and Approval Gate with Claude] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "Write a Plan-First Scope Statement and",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -396,7 +400,7 @@
    },
    "estimated_duration_s": 8.0,
    "audio_file": "mp3/beat-NBB02.mp3",
-   "actual_duration_s": 7.765
+   "actual_duration_s": 7.81
   },
   {
    "beat_id": "NBB03",
@@ -425,10 +429,10 @@
    "estimated_duration_s": 6.0,
    "audio_file": "mp3/beat-NBB03.mp3",
    "silence_s": 6.0,
-   "actual_duration_s": 6.03,
+   "actual_duration_s": 3.99,
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "Write a Plan-First Scope Statement and Approval Gate with Claude"
+   "voice": "am_puck",
+   "narration_text": "Write a Plan-First Scope Statement and Approval Gate with Claude. From Musinique."
   }
  ]
 }

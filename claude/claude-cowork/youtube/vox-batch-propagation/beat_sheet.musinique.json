@@ -13,23 +13,23 @@
   "note": "Exclusions: NO dry-run manifest template, NO seven-step safe sequence, NO duplicate detection, NO naming convention format, NO deletion rule discussion.",
   "total_estimated_duration_seconds": 116.84,
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "register": "Baldwin",
   "palette": "claude",
   "folderLabel": "@Musinique",
   "engine": "kokoro",
-  "voice": "am_onyx",
-  "voice_kokoro": "am_onyx",
+  "voice": "am_puck",
+  "voice_kokoro": "am_puck",
   "derived_from": "beat_sheet.json"
  },
  "beats": [
   {
    "beat_id": "B00",
    "act": "cold open",
-   "narration_text": "This is Liam for Musinique. Why 200 Tiny, Reversible Renames Add Up to One You Can't Undo.",
+   "narration_text": "This is Musinique. Why 200 Tiny, Reversible Renames Add Up to One You Can't Undo.",
    "tangent": false,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 8,
    "shot": {
@@ -38,7 +38,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Sawubona, Musinique",
-      "topic": "CLAUDE COWORK",
+      "topic": "MUSINIQUE · CLAUDE COWORK",
       "segment": "Why 200 Tiny, Reversible Renames Add Up to One You Can't Undo",
       "command": "Why 200 Tiny, Reversible Renames Add Up to One You Can't Undo",
       "runningText": "reading…",
@@ -50,7 +50,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B00.mp3",
+   "actual_duration_s": 6.25
   },
   {
    "beat_id": "B01",
@@ -70,16 +72,16 @@
    },
    "new_visual_element": "[TITLE] batch propagation",
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 9.22,
+   "actual_duration_s": 8.81,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01B",
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "The tools this video covers were built for enterprises with engineering teams and compliance budgets. The musician in the van at 1 a.m. has access to the exact same machinery, for free, through a browser. The gap between knowing this exists and knowing how to use it is what this channel closes — one working piece of your promotion deck at a time.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -99,7 +101,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 18.92
   },
   {
    "beat_id": "B02",
@@ -119,9 +123,9 @@
    ],
    "new_visual_element": "[PHOTO] messy research folder",
    "audio_file": "mp3/beat-B02.mp3",
-   "actual_duration_s": 8.59,
+   "actual_duration_s": 8.34,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B03",
@@ -140,9 +144,9 @@
    },
    "new_visual_element": "[QUESTION] gap formula on screen",
    "audio_file": "mp3/beat-B03.mp3",
-   "actual_duration_s": 9.8,
+   "actual_duration_s": 9.32,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B04",
@@ -163,9 +167,9 @@
    },
    "new_visual_element": "[GRAPHIC] one rename = reversible",
    "audio_file": "mp3/beat-B04.mp3",
-   "actual_duration_s": 6.4,
+   "actual_duration_s": 5.59,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B05",
@@ -186,9 +190,9 @@
    },
    "new_visual_element": "[GRAPHIC] batch = 200 simultaneous renames",
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 10.53,
+   "actual_duration_s": 8.36,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B06",
@@ -209,7 +213,7 @@
    "audio_file": "mp3/beat-B06.mp3",
    "actual_duration_s": 1.15,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B07",
@@ -230,9 +234,9 @@
    },
    "new_visual_element": "[GRAPHIC] mental map intact vs wiped",
    "audio_file": "mp3/beat-B07.mp3",
-   "actual_duration_s": 9.09,
+   "actual_duration_s": 8.9,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B08",
@@ -251,9 +255,9 @@
    },
    "new_visual_element": "[QUOTE] batch = irreversible event",
    "audio_file": "mp3/beat-B08.mp3",
-   "actual_duration_s": 9.87,
+   "actual_duration_s": 9.47,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B09",
@@ -274,9 +278,9 @@
    },
    "new_visual_element": "[GRAPHIC] correspondence broken",
    "audio_file": "mp3/beat-B09.mp3",
-   "actual_duration_s": 9.22,
+   "actual_duration_s": 9.17,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B10",
@@ -296,9 +300,9 @@
    ],
    "new_visual_element": "[PHOTO] clean organized folder",
    "audio_file": "mp3/beat-B10.mp3",
-   "actual_duration_s": 6.35,
+   "actual_duration_s": 5.91,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B11",
@@ -319,9 +323,9 @@
    },
    "new_visual_element": "[GRAPHIC] consent forms renamed and buried",
    "audio_file": "mp3/beat-B11.mp3",
-   "actual_duration_s": 14.34,
+   "actual_duration_s": 12.93,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B12",
@@ -342,9 +346,9 @@
    },
    "new_visual_element": "[GRAPHIC] search fails, 2 hours recovery",
    "audio_file": "mp3/beat-B12.mp3",
-   "actual_duration_s": 12.3,
+   "actual_duration_s": 11.22,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B13",
@@ -363,9 +367,9 @@
    },
    "new_visual_element": "[QUOTE] reversible becomes irreversible at scale",
    "audio_file": "mp3/beat-B13.mp3",
-   "actual_duration_s": 3.42,
+   "actual_duration_s": 4.29,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B14",
@@ -384,9 +388,9 @@
    },
    "new_visual_element": "[ENDCARD] sum is irreversible",
    "audio_file": "mp3/beat-B14.mp3",
-   "actual_duration_s": 3.16,
+   "actual_duration_s": 4.1,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B15",
@@ -416,16 +420,16 @@
    },
    "estimated_duration_s": 6,
    "audio_file": "mp3/beat-B15.mp3",
-   "actual_duration_s": 1.91,
+   "actual_duration_s": 2.52,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B16",
    "act": "OUTRO",
    "type": "GRAPHIC",
    "name": "OutroCTA",
-   "narration_text": "Like and subscribe for more.",
+   "narration_text": "Like and subscribe for more. From Musinique.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
@@ -448,9 +452,9 @@
    },
    "estimated_duration_s": 5,
    "audio_file": "mp3/beat-B16.mp3",
-   "actual_duration_s": 1.49,
+   "actual_duration_s": 2.37,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   }
  ]
 }

@@ -6,7 +6,7 @@
   "topic": "CLAUDE",
   "audience": "NikBearBrown",
   "engine": "kokoro",
-  "voice": "am_onyx",
+  "voice": "am_puck",
   "palette": "claude",
   "register": "Baldwin",
   "derived_from": "beat_sheet.json",
@@ -29,10 +29,10 @@
   ],
   "built_at": "2026-07-17T02:22:29.012423",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
-  "voice_kokoro": "am_onyx"
+  "voice_kokoro": "am_puck"
  },
  "beats": [
   {
@@ -40,8 +40,8 @@
    "act": "COLD OPEN",
    "title": "Liam cold open — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "This is Liam for Musinique. I want to actually feel why source material and evaluation criteria are the two components that make supervision possible. Let me take my own weak prompt — 'summarize this quarter's support tickets' — and run it through prompt_spec.py, then feed the output plus a deliberately flawed draft into diagnosis mode. Show me: (1) the full six-component spec with the before-and-after word-count table, (2) a diagnosis checklist that flags exactly which component the flawed draft violated, and (3) a one-line rule I can reuse for spotting a missing evaluation criterion before I ever read the artifact.",
+   "voice": "am_puck",
+   "narration_text": "This is Musinique. I want to actually feel why source material and evaluation criteria are the two components that make supervision possible. Let me take my own weak prompt — 'summarize this quarter's support tickets' — and run it through prompt_spec.py, then feed the output plus a deliberately flawed draft into diagnosis mode. Show me: (1) the full six-component spec with the before-and-after word-count table, (2) a diagnosis checklist that flags exactly which component the flawed draft violated, and (3) a one-line rule I can reuse for spotting a missing evaluation criterion before I ever read the artifact.",
    "shot": {
     "type": "CARD",
     "source": "remotion",
@@ -52,7 +52,7 @@
      "version": "1",
      "props": {
       "command": "I want to actually feel why source material and evaluation criteria are the two components that make supervision possible. Let me take my own weak prompt — 'summarize this quarter's support tickets' — and run it through prompt_spec.py, then feed the output plus a deliberately flawed draft into diagnosis mode. Show me: (1) the full six-component spec with the before-and-after word-count table, (2) a diagnosis checklist that flags exactly which component the flawed draft violated, and (3) a one-line rule I can reuse for spotting a missing evaluation criterion before I ever read the artifact.",
-      "topic": "CLAUDE",
+      "topic": "MUSINIQUE · CLAUDE",
       "segment": "Turn a Vague Claude Prompt into",
       "greeting": "Yassou, Musinique",
       "runningText": "explaining the mechanism…",
@@ -74,24 +74,26 @@
   {
    "beat_id": "B00",
    "act": "INTRO",
-   "narration_text": "This is Musinique. Nik Bear Brown. Build it with a CLI, then take it apart.",
+   "narration_text": "This is Musinique. Musinique. Build it with a CLI, then take it apart.",
    "estimated_duration_s": 10.0,
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOpen",
+     "pattern": "ClaudeComposerAsk",
      "props": {
-      "topic": "CLAUDE",
-      "lines": [
-       "Nik Bear Brown",
+      "command": "Turn a Vague Claude Prompt into a Six-Component Specification",
+      "topic": "MUSINIQUE · CLAUDE",
+      "segment": "Turn a Vague Claude Prompt into a Six-Component Specification",
+      "greeting": "This is Musinique.",
+      "runningText": "working…",
+      "output": [
        "Brutalist + Educational AI",
        "Six-Component",
        "Prompt Specification",
        "Two Minutes to One Right Artifact"
-      ],
-      "greeting": "Yassou, Musinique"
+      ]
      }
     }
    },
@@ -100,7 +102,7 @@
    "source_audio": "../six-component-spec/mp3/beat-B00.mp3",
    "audio_file": "../six-component-spec/mp3/beat-B00.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01",
@@ -117,14 +119,14 @@
    "source_audio": "../six-component-spec/mp3/beat-B01.mp3",
    "audio_file": "../six-component-spec/mp3/beat-B01.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01B",
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "Prompt design is the skill the platform doesn't want you to have, because a musician who can write a precise prompt is a musician who doesn't need to buy someone else's pre-packaged workflow. Every prompt in this video is a template you can adapt — paste it, swap the specifics, run it on your own catalog. The instruction is the tool.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -156,10 +158,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Write prompt_spec.py:\n  takes weak_prompt and domain as args\n  outputs six components:\n    1. task (one sentence)\n    2. context (who/what/why)\n    3. source material\n    4. constraints (what NOT to do)\n    5. output format (exact structure)\n    6. evaluation criteria (measurable)\n  Include before/after word-count table.\"",
-      "topic": "CLAUDE",
+      "topic": "MUSINIQUE · CLAUDE",
       "segment": "PROMPT SPEC",
       "runningText": "running analysis…"
      }
@@ -170,7 +172,7 @@
    "source_audio": "../six-component-spec/mp3/beat-B02.mp3",
    "audio_file": "../six-component-spec/mp3/beat-B02.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B03",
@@ -182,12 +184,12 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownCodeBlock",
+     "pattern": "ClaudeCodeBeat",
      "props": {
-      "filename": "prompt_spec.py",
       "segment": "PROMPT SPEC",
       "topic": "CLAUDE",
-      "code": "# prompt_spec.py — Claude Code output\nimport argparse, textwrap\n\ndef specify(prompt, domain):\n    return {\n      'task':       f'[one sentence from: {prompt[:40]}]',\n      'context':    f'[who/what/why in {domain}]',\n      'source':     '[data/docs Claude should use]',\n      'constraints':'[what it must NOT do]',\n      'format':     '[exact output structure]',\n      'criteria':   '[measurable pass/fail check]'\n    }\n\nif __name__ == '__main__':\n    p = argparse.ArgumentParser()\n    p.add_argument('prompt'); p.add_argument('domain')\n    args = p.parse_args()\n    spec = specify(args.prompt, args.domain)\n    for k, v in spec.items(): print(f'{k:12}: {v}')"
+      "code": "# prompt_spec.py — Claude Code output\nimport argparse, textwrap\n\ndef specify(prompt, domain):\n    return {\n      'task':       f'[one sentence from: {prompt[:40]}]',\n      'context':    f'[who/what/why in {domain}]',\n      'source':     '[data/docs Claude should use]',\n      'constraints':'[what it must NOT do]',\n      'format':     '[exact output structure]',\n      'criteria':   '[measurable pass/fail check]'\n    }\n\nif __name__ == '__main__':\n    p = argparse.ArgumentParser()\n    p.add_argument('prompt'); p.add_argument('domain')\n    args = p.parse_args()\n    spec = specify(args.prompt, args.domain)\n    for k, v in spec.items(): print(f'{k:12}: {v}')",
+      "title": "prompt_spec.py"
      }
     }
    },
@@ -196,7 +198,7 @@
    "source_audio": "../six-component-spec/mp3/beat-B03.mp3",
    "audio_file": "../six-component-spec/mp3/beat-B03.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B04",
@@ -213,7 +215,7 @@
    "source_audio": "../six-component-spec/mp3/beat-B04.mp3",
    "audio_file": "../six-component-spec/mp3/beat-B04.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B05",
@@ -225,10 +227,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"update prompt_spec.py:\n  add --diagnose mode\n  takes existing Claude output + spec file\n  identifies which of 6 components was violated\n  render as pass/fail checklist\"",
-      "topic": "CLAUDE",
+      "topic": "MUSINIQUE · CLAUDE",
       "segment": "PROMPT SPEC",
       "runningText": "updating specification tool…"
      }
@@ -239,7 +241,7 @@
    "source_audio": "../six-component-spec/mp3/beat-B05.mp3",
    "audio_file": "../six-component-spec/mp3/beat-B05.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B06",
@@ -256,7 +258,7 @@
    "source_audio": "../six-component-spec/mp3/beat-B06.mp3",
    "audio_file": "../six-component-spec/mp3/beat-B06.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B07",
@@ -273,7 +275,7 @@
    "source_audio": "../six-component-spec/mp3/beat-B07.mp3",
    "audio_file": "../six-component-spec/mp3/beat-B07.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B08",
@@ -290,14 +292,14 @@
    "source_audio": "../six-component-spec/mp3/beat-B08.mp3",
    "audio_file": "../six-component-spec/mp3/beat-B08.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "NBB01",
    "act": "VERDICT",
    "title": "Liam verdict — ClaudeVerdictArtifact",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": "Let's recap with Claude. Here's what the body just demonstrated. Prompting as specification is not about longer prompts. It is about making the evaluation criteria legible before the artifact is produced. The criteria you cannot write are the ones you cannot supervise. Your move: run your last three Claude prompts through prompt_spec.py and check which component is missing. Next reel: the engineering partner loop — where Claude fixes code and the oracle verifies the fix.",
    "shot": {
     "type": "CARD",
@@ -332,7 +334,7 @@
    "act": "YOUR TURN",
    "title": "Your turn handoff — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": "Take this prompt, run it on your own — pick any cancer type or clinical scenario you know about and ask how this mechanism applies there.",
    "shot": {
     "type": "CARD",
@@ -344,7 +346,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Turn a Vague Claude Prompt into a Six-Component Specification] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "CLAUDE",
+      "topic": "MUSINIQUE · CLAUDE",
       "segment": "Turn a Vague Claude Prompt into",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -392,8 +394,8 @@
    "silence_s": 6.0,
    "actual_duration_s": 6.03,
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "Turn a Vague Claude Prompt into a Six-Component Specification"
+   "voice": "am_puck",
+   "narration_text": "Turn a Vague Claude Prompt into a Six-Component Specification. From Musinique."
   }
  ]
 }

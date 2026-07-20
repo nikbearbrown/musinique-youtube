@@ -6,7 +6,7 @@
   "topic": "OUTPUT VERIFICATION · CAPS",
   "audience": "NikBearBrown",
   "engine": "kokoro",
-  "voice": "am_onyx",
+  "voice": "am_puck",
   "palette": "claude",
   "register": "Baldwin",
   "derived_from": "beat_sheet.json",
@@ -26,10 +26,10 @@
   ],
   "built_at": "2026-07-17T02:24:54.512291",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
-  "voice_kokoro": "am_onyx"
+  "voice_kokoro": "am_puck"
  },
  "beats": [
   {
@@ -37,8 +37,8 @@
    "act": "COLD OPEN",
    "title": "Liam cold open — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "This is Liam for Musinique. The two fabricated citations that passed a proofread but failed an audit are my nightmare, and I want the matrix to catch them. Take a summary of five papers with citations: (1) write out the exact audit steps for the citation output type — open the source, confirm title and author, verify it says what Claude claims — versus the recompute-and-check-denominator steps for numbers; (2) explain why fluency and format never enter the check; (3) assign one of my real tasks to light, moderate, or strict and justify the gate depth by its consequence.",
+   "voice": "am_puck",
+   "narration_text": "This is Musinique. The two fabricated citations that passed a proofread but failed an audit are my nightmare, and I want the matrix to catch them. Take a summary of five papers with citations: (1) write out the exact audit steps for the citation output type — open the source, confirm title and author, verify it says what Claude claims — versus the recompute-and-check-denominator steps for numbers; (2) explain why fluency and format never enter the check; (3) assign one of my real tasks to light, moderate, or strict and justify the gate depth by its consequence.",
    "shot": {
     "type": "CARD",
     "source": "remotion",
@@ -49,7 +49,7 @@
      "version": "1",
      "props": {
       "command": "The two fabricated citations that passed a proofread but failed an audit are my nightmare, and I want the matrix to catch them. Take a summary of five papers with citations: (1) write out the exact audit steps for the citation output type — open the source, confirm title and author, verify it says what Claude claims — versus the recompute-and-check-denominator steps for numbers; (2) explain why fluency and format never enter the check; (3) assign one of my real tasks to light, moderate, or strict and justify the gate depth by its consequence.",
-      "topic": "OUTPUT VERIFICATION · CAPS",
+      "topic": "MUSINIQUE · OUTPUT VERIFICATION · CAPS",
       "segment": "Verification Matrix: Match the Check to",
       "greeting": "Jambo, Musinique",
       "runningText": "explaining the mechanism…",
@@ -96,7 +96,7 @@
    "source_clip": "../verification-matrix/clips/B00.mp4",
    "source_audio": "../verification-matrix/mp3/beat-B00.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01",
@@ -116,14 +116,14 @@
    "source_clip": "../verification-matrix/clips/B01.mp4",
    "source_audio": "../verification-matrix/mp3/beat-B01.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01B",
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "The playlist curator who emails you 'guaranteed placement for $300' is betting you won't check. You can check in sixty seconds: paste the pitch into Claude with the right prompt, and ask it to cross-reference the playlist's follower-to-stream ratio. The scam doesn't survive the audit. You just have to run it.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -163,7 +163,7 @@
    "source_clip": "../verification-matrix/clips/B02.mp4",
    "source_audio": "../verification-matrix/mp3/beat-B02.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B03",
@@ -183,7 +183,7 @@
    "source_clip": "../verification-matrix/clips/B03.mp4",
    "source_audio": "../verification-matrix/mp3/beat-B03.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B04",
@@ -203,7 +203,7 @@
    "source_clip": "../verification-matrix/clips/B04.mp4",
    "source_audio": "../verification-matrix/mp3/beat-B04.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B05",
@@ -233,14 +233,14 @@
    "source_clip": "../verification-matrix/clips/B05.mp4",
    "source_audio": "../verification-matrix/mp3/beat-B05.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "NBB01",
    "act": "VERDICT",
    "title": "Liam verdict — ClaudeVerdictArtifact",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": "Let's recap with Claude. Here's what the body just demonstrated. The rule is one sentence: no verification path, no delegation. If you cannot describe how you would check the output before you delegate the task, you are outsourcing your judgment, not your labor. The verification matrix makes this concrete — it lists, by output type, the evidence you need before the output leaves your hands. That list does not change because the prose sounds confident. Before your next delegation, build your verification path. Paste this.",
    "shot": {
     "type": "CARD",
@@ -275,7 +275,7 @@
    "act": "YOUR TURN",
    "title": "Your turn handoff — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": "Take this prompt, run it on your own — pick any cancer type or clinical scenario you know about and ask how this mechanism applies there.",
    "shot": {
     "type": "CARD",
@@ -287,7 +287,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Verification Matrix: Match the Check to the Output] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "OUTPUT VERIFICATION · CAPS",
+      "topic": "MUSINIQUE · OUTPUT VERIFICATION · CAPS",
       "segment": "Verification Matrix: Match the Check to",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -335,8 +335,8 @@
    "silence_s": 6.0,
    "actual_duration_s": 6.03,
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "Verification Matrix: Match the Check to the Output"
+   "voice": "am_puck",
+   "narration_text": "Verification Matrix: Match the Check to the Output. From Musinique."
   }
  ]
 }

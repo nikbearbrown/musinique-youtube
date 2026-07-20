@@ -4,13 +4,13 @@
   "title": "Claude Wrote a C Compiler",
   "topic": "CLAUDE CODE · Long-Horizon Coding",
   "source": "anthropics/claudes-c-compiler (anthropic.com/engineering/building-c-compiler)",
-  "voice_kokoro": "am_onyx",
+  "voice_kokoro": "am_puck",
   "engine": "kokoro",
   "style_preset": "teardown",
   "palette": "claude",
   "register": "Baldwin",
   "aspect_ratio": "16:9",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "folderLabel": "@Musinique",
   "build": {
    "at": "2026-07-16T23:53:47",
@@ -47,14 +47,14 @@
   ],
   "brand": "claude-musinique",
   "persona": "Musinique",
-  "voice": "am_onyx",
+  "voice": "am_puck",
   "derived_from": "beat_sheet.json"
  },
  "beats": [
   {
    "beat_id": "B00",
    "beat_type": "cold_open",
-   "narration_text": "This is Liam for Musinique. A model writing a working C compiler over a long horizon fascinates me, because compilers fail loudly on the smallest mistake. I want to understand how the agent stayed on track across so many steps. Help me: (1) list the checkpoints a coding agent could use to verify each compiler stage — lexer, parser, codegen — before moving on; (2) explain how passing test suites acts as reward without a human grader; (3) design a small C program whose miscompilation would expose whether the parser or the code generator is broken.",
+   "narration_text": "This is Musinique. A model writing a working C compiler over a long horizon fascinates me, because compilers fail loudly on the smallest mistake. I want to understand how the agent stayed on track across so many steps. Help me: (1) list the checkpoints a coding agent could use to verify each compiler stage — lexer, parser, codegen — before moving on; (2) explain how passing test suites acts as reward without a human grader; (3) design a small C program whose miscompilation would expose whether the parser or the code generator is broken.",
    "estimated_duration_s": 20,
    "shot": {
     "scene_type": "ClaudeComposerAsk",
@@ -63,7 +63,7 @@
      "props": {
       "greeting": "Bonjour, Musinique",
       "command": "A model writing a working C compiler over a long horizon fascinates me, because compilers fail loudly on the smallest mistake. I want to understand how the agent stayed on track across so many steps. Help me: (1) list the checkpoints a coding agent could use to verify each compiler stage — lexer, parser, codegen — before moving on; (2) explain how passing test suites acts as reward without a human grader; (3) design a small C program whose miscompilation would expose whether the parser or the code generator is broken.",
-      "topic": "CLAUDE CODE · Long-Horizon Coding",
+      "topic": "MUSINIQUE · CLAUDE CODE · Long-Horizon Coding",
       "segment": "Cold Open",
       "runningText": "Analyzing: anthropic.com/engineering/building-c-compiler",
       "output": [
@@ -84,7 +84,7 @@
     }
    },
    "audio_file": "mp3/beat-B00.mp3",
-   "actual_duration_s": 17.43,
+   "actual_duration_s": 30.36,
    "build": {
     "status": "VIDEO",
     "src": "media/B00.mp4",
@@ -92,7 +92,7 @@
     "at": "2026-07-16T23:53:47"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01",
@@ -121,7 +121,7 @@
     }
    },
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 25.73,
+   "actual_duration_s": 26.07,
    "build": {
     "status": "VIDEO",
     "src": "media/B01.mp4",
@@ -129,7 +129,7 @@
     "at": "2026-07-16T23:53:47"
    },
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "lead_silence_s": 0.5
   },
   {
@@ -137,7 +137,7 @@
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "You don't need to become a developer. You need to become someone who can read the output of a development conversation — who knows when Claude built the thing correctly, and who knows when it built the wrong thing confidently. That is a learnable skill, and it is the difference between owning your digital infrastructure and renting it from someone who charges a platform fee.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -157,7 +157,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 18.41
   },
   {
    "beat_id": "B02",
@@ -194,7 +196,7 @@
     "at": "2026-07-16T23:53:47"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B03",
@@ -231,7 +233,7 @@
     "at": "2026-07-16T23:53:47"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B04",
@@ -268,7 +270,7 @@
     "at": "2026-07-16T23:53:47"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B05",
@@ -282,7 +284,7 @@
      "props": {
       "greeting": "Your turn.",
       "command": "Here is a test suite with no other context: [paste your tests]. Do not ask me to clarify the requirements. Implement the function that makes these tests pass. When you are done, tell me which tests you are least confident about and why.",
-      "topic": "TRY THIS NOW",
+      "topic": "MUSINIQUE · TRY THIS NOW",
       "segment": "Handoff",
       "runningText": "paste this into Claude…",
       "output": [
@@ -302,7 +304,7 @@
     }
    },
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 19.54,
+   "actual_duration_s": 19.14,
    "build": {
     "status": "VIDEO",
     "src": "media/B05.mp4",
@@ -310,12 +312,12 @@
     "at": "2026-07-16T23:53:47"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B06",
    "beat_type": "outro",
-   "narration_text": "Claude Wrote a C Compiler",
+   "narration_text": "Claude Wrote a C Compiler. From Musinique.",
    "estimated_duration_s": 6,
    "shot": {
     "scene_type": "ClaudeTitleOutro",
@@ -323,7 +325,7 @@
      "pattern": "ClaudeTitleOutro",
      "props": {
       "title": "Claude Wrote a C Compiler",
-      "handle": "@NikBearBrown",
+      "handle": "@Musinique",
       "subline": "anthropic.com/engineering/building-c-compiler"
      },
      "rendered": {
@@ -340,7 +342,8 @@
     "at": "2026-07-16T23:53:47"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 2.24
   }
  ]
 }

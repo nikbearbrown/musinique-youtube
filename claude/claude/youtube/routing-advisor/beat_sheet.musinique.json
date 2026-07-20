@@ -3,7 +3,7 @@
   "slug": "routing-advisor",
   "title": "Route Any Task to the Right Claude Surface in Thirty Seconds",
   "topic": "CLAUDE",
-  "voice": "am_onyx",
+  "voice": "am_puck",
   "voice_id": "TyW6NH39JcFb5M3xdIIk",
   "style": "cli",
   "palette": "claude",
@@ -14,41 +14,43 @@
   "total_estimated_duration_seconds": 113.0,
   "note": "CLI video: 10-beat spine B00–B09. B04 is slate. No audio — narration text present for reference only.",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "register": "Baldwin",
   "folderLabel": "@Musinique",
   "engine": "kokoro",
-  "voice_kokoro": "am_onyx",
+  "voice_kokoro": "am_puck",
   "derived_from": "beat_sheet.json"
  },
  "beats": [
   {
    "beat_id": "B00",
    "act": "INTRO",
-   "narration_text": "This is Liam for Musinique. Nik Bear Brown. Build it with a CLI, then take it apart.",
+   "narration_text": "This is Musinique. Musinique. Build it with a CLI, then take it apart.",
    "estimated_duration_s": 10.0,
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOpen",
+     "pattern": "ClaudeComposerAsk",
      "props": {
-      "topic": "CLAUDE",
-      "lines": [
-       "Nik Bear Brown",
+      "command": "Route Any Task to the Right Claude Surface in Thirty Seconds",
+      "topic": "MUSINIQUE · CLAUDE",
+      "segment": "Route Any Task to the Right Claude Surface in Thirty Seconds",
+      "greeting": "This is Musinique.",
+      "runningText": "working…",
+      "output": [
        "Brutalist + Educational AI",
        "Route Any Task",
        "to the Right Claude Surface",
        "in Thirty Seconds"
-      ],
-      "greeting": "Yassou, Musinique"
+      ]
      }
     }
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01",
@@ -61,14 +63,14 @@
     "notes": "title card: 'Five questions. Thirty seconds. Never open the wrong Claude surface again.' — hook on dark ground, CRIMSON accent on 'wrong'"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01B",
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "The tools this video covers were built for enterprises with engineering teams and compliance budgets. The musician in the van at 1 a.m. has access to the exact same machinery, for free, through a browser. The gap between knowing this exists and knowing how to use it is what this channel closes — one working piece of your promotion deck at a time.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -100,17 +102,17 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Build routing_advisor.py: reads a task description\nfrom stdin, evaluates five dimensions:\n  output_type (text/code/file)\n  context_source (conversation/repo/filesystem)\n  risk_level (low/medium/high)\n  reversibility (reversible/irreversible)\n  verification_path (domain-check/tests/manual)\nPrint recommended surface and determining factor.\"",
-      "topic": "CLAUDE",
+      "topic": "MUSINIQUE · CLAUDE",
       "segment": "TASK ROUTING",
       "runningText": "running analysis…"
      }
     }
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B03",
@@ -122,17 +124,17 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownCodeBlock",
+     "pattern": "ClaudeCodeBeat",
      "props": {
-      "filename": "routing_advisor.py",
       "segment": "TASK ROUTING",
       "topic": "CLAUDE",
-      "code": "# routing_advisor.py — Claude Code output\nimport sys\n\ndef route(desc):\n    d = desc.lower()\n    if 'delete' in d or 'deploy' in d:\n        return 'human-only', 'irreversible action'\n    if 'repo' in d or 'code' in d:\n        return 'claude-code', 'context_source=repo'\n    if 'folder' in d or 'file' in d:\n        return 'claude-cowork', 'context_source=filesystem'\n    return 'claude-ai', 'context_source=conversation'\n\nif __name__ == '__main__':\n    desc = sys.stdin.read()\n    surface, factor = route(desc)\n    print(f'Surface: {surface}\\nFactor:  {factor}')"
+      "code": "# routing_advisor.py — Claude Code output\nimport sys\n\ndef route(desc):\n    d = desc.lower()\n    if 'delete' in d or 'deploy' in d:\n        return 'human-only', 'irreversible action'\n    if 'repo' in d or 'code' in d:\n        return 'claude-code', 'context_source=repo'\n    if 'folder' in d or 'file' in d:\n        return 'claude-cowork', 'context_source=filesystem'\n    return 'claude-ai', 'context_source=conversation'\n\nif __name__ == '__main__':\n    desc = sys.stdin.read()\n    surface, factor = route(desc)\n    print(f'Surface: {surface}\\nFactor:  {factor}')",
+      "title": "routing_advisor.py"
      }
     }
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B04",
@@ -145,7 +147,7 @@
     "notes": "three-row terminal output: task 1 -> claude-ai / context_source=conversation; task 2 -> claude-code / context_source=repo; task 3 -> claude-cowork / context_source=filesystem — color-coded rows"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B05",
@@ -157,17 +159,17 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"update routing_advisor.py:\n  add --risk-override flag\n  irreversible + high-risk -> human-only\n  regardless of all other dimensions\n  verify with: delete production database\"",
-      "topic": "CLAUDE",
+      "topic": "MUSINIQUE · CLAUDE",
       "segment": "TASK ROUTING",
       "runningText": "updating routing logic…"
      }
     }
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B06",
@@ -180,7 +182,7 @@
     "notes": "terminal: echo 'delete the production database' | python3 routing_advisor.py --risk-override — output: Surface: human-only / Factor: risk override triggered — CRIMSON highlight on 'human-only'"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B07",
@@ -193,7 +195,7 @@
     "notes": "teardown card: 'Routing by habit → context mismatch → unverifiable output' (CRIMSON) vs 'Five-question filter → right surface → trustworthy output' (teal #2A7A2A)"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B08",
@@ -206,19 +208,19 @@
     "notes": "next-reel teaser card: 'Next: Six-Component Prompt Specification' — segment 02 of the CLAUDE series"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B09",
    "act": "OUTRO",
-   "narration_text": "Nik Bear Brown. Build it with a CLI. Then take it apart. At Nik Bear Brown, nikbearbrown dot com.",
+   "narration_text": "Musinique. Build it with a CLI. Then take it apart. At Musinique, nikbearbrown dot com.",
    "estimated_duration_s": 8.0,
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOutro",
+     "pattern": "ClaudeTitleOutro",
      "props": {
       "brand": "Nik Bear Brown",
       "tagline": "Brutalist + Educational AI",
@@ -228,7 +230,7 @@
     }
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   }
  ]
 }

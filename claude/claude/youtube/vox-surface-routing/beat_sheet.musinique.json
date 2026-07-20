@@ -14,7 +14,7 @@
   "note": "Exclusions honored: NO deep feature comparison of Claude products, NO technical internals of how each surface works, NO extended automation research citations.",
   "total_estimated_duration_seconds": 194.76,
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "register": "Baldwin",
   "palette": "claude",
@@ -39,7 +39,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Konnichiwa, Musinique",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "Why the Wrong AI Surface Costs More Than the Wrong Prompt",
       "command": "Why the Wrong AI Surface Costs More Than the Wrong Prompt",
       "runningText": "reading…",
@@ -413,7 +413,7 @@
    "beat_id": "B15",
    "t_start": 141.0,
    "estimated_duration_s": 10.0,
-   "narration_text": "The routing decision is not about Claude. It is about context access. Choose the surface that can see what your task requires — or the output will be fluent and wrong.",
+   "narration_text": "The routing decision is not about Claude. It is about context access. Choose the surface that can see what your task requires — or the output will be fluent and wrong. From Musinique.",
    "shot": {
     "type": "CARD",
     "source": "own",

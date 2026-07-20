@@ -3,7 +3,7 @@
   "slug": "privacy-classification-scanner",
   "title": "Build a Privacy Classification Scanner for Cowork Folders",
   "topic": "CLAUDE",
-  "voice": "am_onyx",
+  "voice": "am_puck",
   "voice_id": "TyW6NH39JcFb5M3xdIIk",
   "style": "cli",
   "palette": "claude",
@@ -14,41 +14,43 @@
   "total_estimated_duration_seconds": 113.0,
   "note": "CLI video: 10-beat spine B00–B09. B04 is slate. No audio.",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "register": "Baldwin",
   "folderLabel": "@Musinique",
   "engine": "kokoro",
-  "voice_kokoro": "am_onyx",
+  "voice_kokoro": "am_puck",
   "derived_from": "beat_sheet.json"
  },
  "beats": [
   {
    "beat_id": "B00",
    "act": "INTRO",
-   "narration_text": "This is Liam for Musinique. Nik Bear Brown. Build it with a CLI, then take it apart.",
+   "narration_text": "This is Musinique. Musinique. Build it with a CLI, then take it apart.",
    "estimated_duration_s": 10.0,
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOpen",
+     "pattern": "ClaudeComposerAsk",
      "props": {
-      "topic": "CLAUDE",
-      "lines": [
-       "Nik Bear Brown",
+      "command": "Build a Privacy Classification Scanner for Cowork Folders",
+      "topic": "MUSINIQUE · CLAUDE",
+      "segment": "Build a Privacy Classification Scanner for Cowork Folders",
+      "greeting": "This is Musinique.",
+      "runningText": "working…",
+      "output": [
        "Brutalist + Educational AI",
        "Privacy Classification Scanner",
        "Folder You Think Is Safe",
        "Three Files You Forgot to Redact"
-      ],
-      "greeting": "Hei, Musinique"
+      ]
      }
     }
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01",
@@ -61,14 +63,14 @@
     "notes": "hook card: 'I can access this file ≠ I should give Claude access to this file' — CRIMSON on the gap, teal on 'scanner makes difference visible'"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01B",
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "A release campaign is a build problem. You have a deadline, a set of deliverables — pitch email, social copy, playlist submissions, distributor forms — and a sequence that matters. The same approach that ships software on schedule ships music on schedule. The machine doesn't get tired on Friday before a Monday release.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -100,17 +102,17 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Write privacy_scanner.py:\n  takes a directory path\n  classifies each file by sensitivity:\n    Public (no PII, no credentials)\n    Internal (draft/memo/notes)\n    Confidential (contract/nda/client)\n    Personal (names/emails/SSN)\n    Regulated (HIPAA/FERPA keywords)\n    Credentials (password/api_key/token)\n  print grouped summary table\"",
-      "topic": "CLAUDE",
+      "topic": "MUSINIQUE · CLAUDE",
       "segment": "PRIVACY SCAN",
       "runningText": "running analysis…"
      }
     }
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B03",
@@ -122,17 +124,17 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownCodeBlock",
+     "pattern": "ClaudeCodeBeat",
      "props": {
-      "filename": "privacy_scanner.py",
       "segment": "PRIVACY SCAN",
       "topic": "CLAUDE",
-      "code": "# privacy_scanner.py — Claude Code output\nimport re, pathlib\n\nTAXONOMY = {\n  'Credentials': r'password|api.?key|token|secret',\n  'Regulated':   r'hipaa|ferpa|phi|tax|ssn|patient',\n  'Personal':    r'resume|name|email|dob|address',\n  'Confidential':r'contract|nda|client|agreement',\n  'Internal':    r'draft|memo|notes|internal',\n  'Public':      r'.*'   # fallthrough\n}\n\ndef classify(name):\n    n = name.lower()\n    for category, pat in TAXONOMY.items():\n        if re.search(pat, n):\n            return category\n    return 'Public'\n# filename-only — never reads file contents"
+      "code": "# privacy_scanner.py — Claude Code output\nimport re, pathlib\n\nTAXONOMY = {\n  'Credentials': r'password|api.?key|token|secret',\n  'Regulated':   r'hipaa|ferpa|phi|tax|ssn|patient',\n  'Personal':    r'resume|name|email|dob|address',\n  'Confidential':r'contract|nda|client|agreement',\n  'Internal':    r'draft|memo|notes|internal',\n  'Public':      r'.*'   # fallthrough\n}\n\ndef classify(name):\n    n = name.lower()\n    for category, pat in TAXONOMY.items():\n        if re.search(pat, n):\n            return category\n    return 'Public'\n# filename-only — never reads file contents",
+      "title": "privacy_scanner.py"
      }
     }
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B04",
@@ -145,7 +147,7 @@
     "notes": "terminal: privacy_scanner.py output — grouped summary table with category counts — Credentials and Regulated rows in CRIMSON, Public in teal"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B05",
@@ -157,17 +159,17 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"update privacy_scanner.py:\n  add --cowork-ready flag\n  output only files classified Public or Internal\n  exclude Personal/Regulated/Confidential/Credentials\n  print count: 'N of M files safe for Cowork'\"",
-      "topic": "CLAUDE",
+      "topic": "MUSINIQUE · CLAUDE",
       "segment": "PRIVACY SCAN",
       "runningText": "updating scanner…"
      }
     }
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B06",
@@ -180,7 +182,7 @@
     "notes": "terminal: --cowork-ready output — '9 of 15 files safe for Cowork' — list of safe filenames, excluded count in CRIMSON badge"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B07",
@@ -193,7 +195,7 @@
     "notes": "teardown card: 'Can access ≠ should access' (CRIMSON) vs 'Scanner runs → clean scope → auditable session' (teal)"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B08",
@@ -206,19 +208,19 @@
     "notes": "next-reel teaser: 'Next: Workflow Canvas' — segment 08 of the CLAUDE series"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B09",
    "act": "OUTRO",
-   "narration_text": "Nik Bear Brown. Build it with a CLI. Then take it apart. At Nik Bear Brown, nikbearbrown dot com.",
+   "narration_text": "Musinique. Build it with a CLI. Then take it apart. At Musinique, nikbearbrown dot com.",
    "estimated_duration_s": 8.0,
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOutro",
+     "pattern": "ClaudeTitleOutro",
      "props": {
       "brand": "Nik Bear Brown",
       "tagline": "Brutalist + Educational AI",
@@ -228,7 +230,7 @@
     }
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   }
  ]
 }

@@ -28,7 +28,7 @@
   "old_outro_beats": [],
   "built_at": "2026-07-16T23:09:11.745278",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
   "voice_kokoro": "am_puck"
@@ -51,7 +51,7 @@
      "version": "1",
      "props": {
       "command": "I want to try running that 5-question gate against a plan of my own instead of watching one clear on the second pass. I'm most shaky on question five, since 'when done' slipped through as non-binary until it got rewritten as 'output.md exists and wc -l under 100 returns true.' Take a plan I'll paste and (1) score each of the five questions pass or fail with one-sentence reasoning, (2) rewrite every failing item into a specific revision note the way Q5 was fixed, and (3) give the final verdict of approve, revise, or reject.",
-      "topic": "CLAUDE COWORK",
+      "topic": "MUSINIQUE · CLAUDE COWORK",
       "segment": "Plan Approval Gate: The 5-Question Review",
       "greeting": "Privet, Musinique",
       "runningText": "explaining the mechanism…",
@@ -68,7 +68,7 @@
    },
    "estimated_duration_s": 9.0,
    "audio_file": "mp3/beat-NBB00.mp3",
-   "actual_duration_s": 4.096
+   "actual_duration_s": 30.08
   },
   {
    "beat_id": "B00",
@@ -80,12 +80,13 @@
     "source": "own",
     "motion": "hold"
    },
-   "audio_file": "../plan-approval-gate/mp3/beat-B00.mp3",
+   "audio_file": "mp3/beat-B00.mp3",
    "locked": true,
    "source_clip": "../plan-approval-gate/clips/B00.mp4",
    "source_audio": "../plan-approval-gate/mp3/beat-B00.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 5.82
   },
   {
    "beat_id": "B01",
@@ -97,12 +98,13 @@
     "source": "own",
     "motion": "hold"
    },
-   "audio_file": "../plan-approval-gate/mp3/beat-B01.mp3",
+   "audio_file": "mp3/beat-B01.mp3",
    "locked": true,
    "source_clip": "../plan-approval-gate/clips/B01.mp4",
    "source_audio": "../plan-approval-gate/mp3/beat-B01.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 19.07
   },
   {
    "beat_id": "B01B",
@@ -129,7 +131,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 16.94
   },
   {
    "beat_id": "B02",
@@ -141,10 +145,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Review this proposed plan against these 5 questions: (1) Is scope correctly bounded? (2) Are allowed sources appropriate? (3) Are exclusions specific enough? (4) Is output artifact clearly defined? (5) Are stop conditions binary and testable? For each: pass/fail with one-sentence reasoning. Final verdict: approve, revise, or reject.\" < plan.md",
-      "topic": "CLAUDE COWORK",
+      "topic": "MUSINIQUE · CLAUDE COWORK",
       "segment": "PLAN APPROVAL GATE",
       "runningText": "running approval gate…"
      },
@@ -154,12 +158,13 @@
      }
     }
    },
-   "audio_file": "../plan-approval-gate/mp3/beat-B02.mp3",
+   "audio_file": "mp3/beat-B02.mp3",
    "locked": true,
    "source_clip": "../plan-approval-gate/clips/B02.mp4",
    "source_audio": "../plan-approval-gate/mp3/beat-B02.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 18.13
   },
   {
    "beat_id": "B03",
@@ -171,12 +176,12 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownCodeBlock",
+     "pattern": "ClaudeCodeBeat",
      "props": {
-      "filename": "plan_gate.py",
       "code": "QUESTIONS = [\n    (\"Q1\", \"Is scope correctly bounded?\",\n     lambda p: p.get(\"scope\") and \"all\" not in p[\"scope\"].lower()),\n    (\"Q2\", \"Are allowed sources appropriate?\",\n     lambda p: bool(p.get(\"allowed_sources\"))),\n    (\"Q3\", \"Are exclusions specific enough?\",\n     lambda p: p.get(\"exclusions\") and len(p[\"exclusions\"]) > 10),\n    (\"Q4\", \"Is output artifact clearly defined?\",\n     lambda p: p.get(\"output_artifact\") and \".\" in p[\"output_artifact\"]),\n    (\"Q5\", \"Are stop conditions binary and testable?\",\n     lambda p: p.get(\"stop_conditions\") and \"when done\" not in p[\"stop_conditions\"].lower()),\n]\n\ndef run_gate(plan: dict) -> dict:\n    results = []\n    for qid, question, test in QUESTIONS:\n        passed = test(plan)\n        results.append({\"id\": qid, \"question\": question, \"verdict\": \"PASS\" if passed else \"FAIL\"})\n    all_pass = all(r[\"verdict\"] == \"PASS\" for r in results)\n    final = \"APPROVE\" if all_pass else \"REVISE\"\n    return {\"results\": results, \"final_verdict\": final}",
       "topic": "CLAUDE COWORK",
-      "segment": "PLAN APPROVAL GATE"
+      "segment": "PLAN APPROVAL GATE",
+      "title": "plan_gate.py"
      },
      "rendered": {
       "out": "media/B03.mp4",
@@ -184,12 +189,13 @@
      }
     }
    },
-   "audio_file": "../plan-approval-gate/mp3/beat-B03.mp3",
+   "audio_file": "mp3/beat-B03.mp3",
    "locked": true,
    "source_clip": "../plan-approval-gate/clips/B03.mp4",
    "source_audio": "../plan-approval-gate/mp3/beat-B03.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 8.9
   },
   {
    "beat_id": "B04",
@@ -201,12 +207,13 @@
     "source": "own",
     "motion": "hold"
    },
-   "audio_file": "../plan-approval-gate/mp3/beat-B04.mp3",
+   "audio_file": "mp3/beat-B04.mp3",
    "locked": true,
    "source_clip": "../plan-approval-gate/clips/B04.mp4",
    "source_audio": "../plan-approval-gate/mp3/beat-B04.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 20.01
   },
   {
    "beat_id": "B05",
@@ -218,10 +225,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "python3 plan_gate.py --plan plan_revised.md",
-      "topic": "CLAUDE COWORK",
+      "topic": "MUSINIQUE · CLAUDE COWORK",
       "segment": "PLAN APPROVAL GATE",
       "runningText": "re-running gate after revision…"
      },
@@ -231,12 +238,13 @@
      }
     }
    },
-   "audio_file": "../plan-approval-gate/mp3/beat-B05.mp3",
+   "audio_file": "mp3/beat-B05.mp3",
    "locked": true,
    "source_clip": "../plan-approval-gate/clips/B05.mp4",
    "source_audio": "../plan-approval-gate/mp3/beat-B05.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 4.86
   },
   {
    "beat_id": "B06",
@@ -248,12 +256,13 @@
     "source": "own",
     "motion": "hold"
    },
-   "audio_file": "../plan-approval-gate/mp3/beat-B06.mp3",
+   "audio_file": "mp3/beat-B06.mp3",
    "locked": true,
    "source_clip": "../plan-approval-gate/clips/B06.mp4",
    "source_audio": "../plan-approval-gate/mp3/beat-B06.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 19.05
   },
   {
    "beat_id": "B07",
@@ -265,12 +274,13 @@
     "source": "own",
     "motion": "hold"
    },
-   "audio_file": "../plan-approval-gate/mp3/beat-B07.mp3",
+   "audio_file": "mp3/beat-B07.mp3",
    "locked": true,
    "source_clip": "../plan-approval-gate/clips/B07.mp4",
    "source_audio": "../plan-approval-gate/mp3/beat-B07.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 17.28
   },
   {
    "beat_id": "B08",
@@ -282,28 +292,29 @@
     "source": "own",
     "motion": "hold"
    },
-   "audio_file": "../plan-approval-gate/mp3/beat-B08.mp3",
+   "audio_file": "mp3/beat-B08.mp3",
    "locked": true,
    "source_clip": "../plan-approval-gate/clips/B08.mp4",
    "source_audio": "../plan-approval-gate/mp3/beat-B08.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 5.12
   },
   {
    "beat_id": "B09",
    "t_start": 110.0,
    "estimated_duration_s": 8.0,
-   "narration_text": "Nik Bear Brown. Brutalist and Educational AI. nikbearbrown.com.",
+   "narration_text": "Musinique. Brutalist and Educational AI. nikbearbrown.com.",
    "shot": {
     "type": "SLATE",
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOutro",
+     "pattern": "ClaudeTitleOutro",
      "props": {
       "brand": "Nik Bear Brown",
       "tagline": "Brutalist + Educational AI",
-      "handle": "@NikBearBrown",
+      "handle": "@Musinique",
       "url": "nikbearbrown.com"
      },
      "rendered": {
@@ -312,12 +323,13 @@
      }
     }
    },
-   "audio_file": "../plan-approval-gate/mp3/beat-B09.mp3",
+   "audio_file": "mp3/beat-B09.mp3",
    "locked": true,
    "source_clip": "../plan-approval-gate/clips/B09.mp4",
    "source_audio": "../plan-approval-gate/mp3/beat-B09.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 4.78
   },
   {
    "beat_id": "NBB01",
@@ -325,7 +337,7 @@
    "title": "Liam verdict — ClaudeVerdictArtifact",
    "engine": "kokoro",
    "voice": "am_puck",
-   "narration_text": "Let's recap with Claude. Here's what the body just demonstrated. That's the full CoWork series — ten tools for making AI delegation accountable. Nik Bear Brown. Brutalist and Educational AI. nikbearbrown.com.",
+   "narration_text": "Let's recap with Claude. Here's what the body just demonstrated. That's the full CoWork series — ten tools for making AI delegation accountable. Musinique. Brutalist and Educational AI. nikbearbrown.com.",
    "shot": {
     "type": "CARD",
     "source": "remotion",
@@ -351,7 +363,7 @@
    },
    "estimated_duration_s": 30.0,
    "audio_file": "mp3/beat-NBB01.mp3",
-   "actual_duration_s": 11.755,
+   "actual_duration_s": 14.27,
    "lead_silence_s": 0.5
   },
   {
@@ -371,7 +383,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Plan Approval Gate: The 5-Question Review Checklist] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "CLAUDE COWORK",
+      "topic": "MUSINIQUE · CLAUDE COWORK",
       "segment": "Plan Approval Gate: The 5-Question Review",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -388,7 +400,7 @@
    },
    "estimated_duration_s": 8.0,
    "audio_file": "mp3/beat-NBB02.mp3",
-   "actual_duration_s": 7.765
+   "actual_duration_s": 8.3
   },
   {
    "beat_id": "NBB03",
@@ -417,10 +429,10 @@
    "estimated_duration_s": 6.0,
    "audio_file": "mp3/beat-NBB03.mp3",
    "silence_s": 6.0,
-   "actual_duration_s": 6.03,
+   "actual_duration_s": 3.09,
    "engine": "kokoro",
    "voice": "am_puck",
-   "narration_text": "Plan Approval Gate: The 5-Question Review Checklist"
+   "narration_text": "Plan Approval Gate: The 5-Question Review Checklist. From Musinique."
   }
  ]
 }

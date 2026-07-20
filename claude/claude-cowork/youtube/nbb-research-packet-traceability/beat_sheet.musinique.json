@@ -28,7 +28,7 @@
   "old_outro_beats": [],
   "built_at": "2026-07-16T23:13:23.109943",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
   "voice_kokoro": "am_puck"
@@ -51,7 +51,7 @@
      "version": "1",
      "props": {
       "command": "What convinced me is that traceability turns a reading task into a verification task, and that removing competitor_b.md cleanly contracted the packet from 31 to 22 claims with zero orphans and a CONFLICTING SOURCES flag on the market-share disagreement. I want to stress-test that contract on my own docs. Help me: (1) assemble a packet from my sources with a source tag on every claim and a per-document claim-count index; (2) remove one source and confirm the packet contracts with no orphaned claims; (3) surface every place two sources contradict each other as an explicit conflict flag.",
-      "topic": "CLAUDE COWORK",
+      "topic": "MUSINIQUE · CLAUDE COWORK",
       "segment": "Assemble a Research Packet with Source",
       "greeting": "Selam, Musinique",
       "runningText": "explaining the mechanism…",
@@ -68,7 +68,7 @@
    },
    "estimated_duration_s": 9.0,
    "audio_file": "mp3/beat-NBB00.mp3",
-   "actual_duration_s": 8.597
+   "actual_duration_s": 35.52
   },
   {
    "beat_id": "B00",
@@ -80,12 +80,13 @@
     "source": "own",
     "motion": "hold"
    },
-   "audio_file": "../research-packet-traceability/mp3/beat-B00.mp3",
+   "audio_file": "mp3/beat-B00.mp3",
    "locked": true,
    "source_clip": "../research-packet-traceability/clips/B00.mp4",
    "source_audio": "../research-packet-traceability/mp3/beat-B00.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 6.98
   },
   {
    "beat_id": "B01",
@@ -97,12 +98,13 @@
     "source": "own",
     "motion": "hold"
    },
-   "audio_file": "../research-packet-traceability/mp3/beat-B01.mp3",
+   "audio_file": "mp3/beat-B01.mp3",
    "locked": true,
    "source_clip": "../research-packet-traceability/clips/B01.mp4",
    "source_audio": "../research-packet-traceability/mp3/beat-B01.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 17.15
   },
   {
    "beat_id": "B01B",
@@ -129,7 +131,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 19.09
   },
   {
    "beat_id": "B02",
@@ -141,10 +145,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Assemble a competitive analysis from these source documents. For every claim you include, append a [source: filename, section] tag. At the end, produce a source index showing how many claims came from each document.\" < sources/*.md",
-      "topic": "CLAUDE COWORK",
+      "topic": "MUSINIQUE · CLAUDE COWORK",
       "segment": "RESEARCH PACKET",
       "runningText": "assembling with traceability…"
      },
@@ -154,12 +158,13 @@
      }
     }
    },
-   "audio_file": "../research-packet-traceability/mp3/beat-B02.mp3",
+   "audio_file": "mp3/beat-B02.mp3",
    "locked": true,
    "source_clip": "../research-packet-traceability/clips/B02.mp4",
    "source_audio": "../research-packet-traceability/mp3/beat-B02.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 11.82
   },
   {
    "beat_id": "B03",
@@ -171,12 +176,12 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownCodeBlock",
+     "pattern": "ClaudeCodeBeat",
      "props": {
-      "filename": "research_packet.py",
       "code": "import re\nfrom pathlib import Path\nfrom collections import defaultdict\n\nSOURCES = [\n    \"competitor_a.md\", \"competitor_b.md\",\n    \"market_report.md\", \"press_releases.md\"\n]\n\nSOURCE_TAG = re.compile(r'\\[source: ([^,\\]]+)')\n\ndef assemble_packet(source_files: list[str]) -> dict:\n    all_claims = []\n    source_index = defaultdict(int)\n    conflicts = []\n    claim_map = {}  # key -> (value, source)\n\n    for src in source_files:\n        content = Path(src).read_text()\n        for line in content.splitlines():\n            tags = SOURCE_TAG.findall(line)\n            for tag in tags:\n                source_index[tag.strip()] += 1\n                # Conflict detection: same claim key, different value\n                key = line.split('[source:')[0].strip()[:60]\n                if key in claim_map and claim_map[key][1] != tag:\n                    conflicts.append({\"claim\": key, \"source1\": claim_map[key][1],\n                                      \"source2\": tag})\n                else:\n                    claim_map[key] = (line, tag)\n            all_claims.append(line)\n\n    return {\"claims\": all_claims, \"source_index\": dict(source_index),\n            \"conflicts\": conflicts}",
       "topic": "CLAUDE COWORK",
-      "segment": "RESEARCH PACKET"
+      "segment": "RESEARCH PACKET",
+      "title": "research_packet.py"
      },
      "rendered": {
       "out": "media/B03.mp4",
@@ -184,12 +189,13 @@
      }
     }
    },
-   "audio_file": "../research-packet-traceability/mp3/beat-B03.mp3",
+   "audio_file": "mp3/beat-B03.mp3",
    "locked": true,
    "source_clip": "../research-packet-traceability/clips/B03.mp4",
    "source_audio": "../research-packet-traceability/mp3/beat-B03.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 9.54
   },
   {
    "beat_id": "B04",
@@ -201,12 +207,13 @@
     "source": "own",
     "motion": "hold"
    },
-   "audio_file": "../research-packet-traceability/mp3/beat-B04.mp3",
+   "audio_file": "mp3/beat-B04.mp3",
    "locked": true,
    "source_clip": "../research-packet-traceability/clips/B04.mp4",
    "source_audio": "../research-packet-traceability/mp3/beat-B04.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 18.15
   },
   {
    "beat_id": "B05",
@@ -218,10 +225,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "python3 research_packet.py --sources competitor_a.md market_report.md press_releases.md --output packet_v2.md",
-      "topic": "CLAUDE COWORK",
+      "topic": "MUSINIQUE · CLAUDE COWORK",
       "segment": "RESEARCH PACKET",
       "runningText": "removing source, re-running…"
      },
@@ -231,12 +238,13 @@
      }
     }
    },
-   "audio_file": "../research-packet-traceability/mp3/beat-B05.mp3",
+   "audio_file": "mp3/beat-B05.mp3",
    "locked": true,
    "source_clip": "../research-packet-traceability/clips/B05.mp4",
    "source_audio": "../research-packet-traceability/mp3/beat-B05.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 6.36
   },
   {
    "beat_id": "B06",
@@ -248,12 +256,13 @@
     "source": "own",
     "motion": "hold"
    },
-   "audio_file": "../research-packet-traceability/mp3/beat-B06.mp3",
+   "audio_file": "mp3/beat-B06.mp3",
    "locked": true,
    "source_clip": "../research-packet-traceability/clips/B06.mp4",
    "source_audio": "../research-packet-traceability/mp3/beat-B06.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 19.03
   },
   {
    "beat_id": "B07",
@@ -265,12 +274,13 @@
     "source": "own",
     "motion": "hold"
    },
-   "audio_file": "../research-packet-traceability/mp3/beat-B07.mp3",
+   "audio_file": "mp3/beat-B07.mp3",
    "locked": true,
    "source_clip": "../research-packet-traceability/clips/B07.mp4",
    "source_audio": "../research-packet-traceability/mp3/beat-B07.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 16.19
   },
   {
    "beat_id": "B08",
@@ -282,28 +292,29 @@
     "source": "own",
     "motion": "hold"
    },
-   "audio_file": "../research-packet-traceability/mp3/beat-B08.mp3",
+   "audio_file": "mp3/beat-B08.mp3",
    "locked": true,
    "source_clip": "../research-packet-traceability/clips/B08.mp4",
    "source_audio": "../research-packet-traceability/mp3/beat-B08.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 5.46
   },
   {
    "beat_id": "B09",
    "t_start": 110.0,
    "estimated_duration_s": 8.0,
-   "narration_text": "Nik Bear Brown. Brutalist and Educational AI. nikbearbrown.com.",
+   "narration_text": "Musinique. Brutalist and Educational AI. nikbearbrown.com.",
    "shot": {
     "type": "SLATE",
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOutro",
+     "pattern": "ClaudeTitleOutro",
      "props": {
       "brand": "Nik Bear Brown",
       "tagline": "Brutalist + Educational AI",
-      "handle": "@NikBearBrown",
+      "handle": "@Musinique",
       "url": "nikbearbrown.com"
      },
      "rendered": {
@@ -312,12 +323,13 @@
      }
     }
    },
-   "audio_file": "../research-packet-traceability/mp3/beat-B09.mp3",
+   "audio_file": "mp3/beat-B09.mp3",
    "locked": true,
    "source_clip": "../research-packet-traceability/clips/B09.mp4",
    "source_audio": "../research-packet-traceability/mp3/beat-B09.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 4.78
   },
   {
    "beat_id": "NBB01",
@@ -325,7 +337,7 @@
    "title": "Liam verdict — ClaudeVerdictArtifact",
    "engine": "kokoro",
    "voice": "am_puck",
-   "narration_text": "Let's recap with Claude. Here's what the body just demonstrated. Next: the plan approval gate — five questions that separate delegation from abdication. Nik Bear Brown. Brutalist and Educational AI. nikbearbrown.com.",
+   "narration_text": "Let's recap with Claude. Here's what the body just demonstrated. Next: the plan approval gate — five questions that separate delegation from abdication. Musinique. Brutalist and Educational AI. nikbearbrown.com.",
    "shot": {
     "type": "CARD",
     "source": "remotion",
@@ -351,7 +363,7 @@
    },
    "estimated_duration_s": 30.0,
    "audio_file": "mp3/beat-NBB01.mp3",
-   "actual_duration_s": 11.968,
+   "actual_duration_s": 14.68,
    "lead_silence_s": 0.5
   },
   {
@@ -371,7 +383,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Assemble a Research Packet with Source Traceability] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "CLAUDE COWORK",
+      "topic": "MUSINIQUE · CLAUDE COWORK",
       "segment": "Assemble a Research Packet with Source",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -388,7 +400,7 @@
    },
    "estimated_duration_s": 8.0,
    "audio_file": "mp3/beat-NBB02.mp3",
-   "actual_duration_s": 7.765
+   "actual_duration_s": 8.3
   },
   {
    "beat_id": "NBB03",
@@ -417,10 +429,10 @@
    "estimated_duration_s": 6.0,
    "audio_file": "mp3/beat-NBB03.mp3",
    "silence_s": 6.0,
-   "actual_duration_s": 6.03,
+   "actual_duration_s": 2.94,
    "engine": "kokoro",
    "voice": "am_puck",
-   "narration_text": "Assemble a Research Packet with Source Traceability"
+   "narration_text": "Assemble a Research Packet with Source Traceability. From Musinique."
   }
  ]
 }

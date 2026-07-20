@@ -32,7 +32,7 @@
   "old_outro_beats": [],
   "built_at": "2026-07-16T21:49:55.487127",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
   "voice_kokoro": "am_puck"
@@ -55,7 +55,7 @@
      "version": "1",
      "props": {
       "command": "The Turkish study — 48 percent higher in practice, 17 points lower on the exam — genuinely rattled me, because comprehension felt like learning. I want to restructure how I use Claude on problem sets. Help me: (1) design a workflow where I generate and fix wrong code first before seeing any clean solution; (2) build a screen-closed self-quiz to detect Bjork's illusion of competence; (3) decide which parts of a six-function set I should struggle through by hand versus safely delegate.",
-      "topic": "CLAUDE CODE",
+      "topic": "MUSINIQUE · CLAUDE CODE",
       "segment": "Why Doing Homework With AI Makes",
       "greeting": "Merhaba, Musinique",
       "runningText": "explaining the mechanism…",
@@ -72,7 +72,7 @@
    },
    "estimated_duration_s": 9.0,
    "audio_file": "mp3/beat-NBB00.mp3",
-   "actual_duration_s": 6.933
+   "actual_duration_s": 25.05
   },
   {
    "beat_id": "B01",
@@ -90,8 +90,8 @@
     "sub": "same student. same material."
    },
    "new_visual_element": "[TITLE] 100 → 41",
-   "audio_file": "../ai-homework-fluency-trap/mp3/beat-B01.mp3",
-   "actual_duration_s": 12.67,
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 13.4,
    "locked": true,
    "source_clip": "../ai-homework-fluency-trap/clips/B01.mp4",
    "source_audio": "../ai-homework-fluency-trap/mp3/beat-B01.mp3",
@@ -123,7 +123,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 16.06
   },
   {
    "beat_id": "B02",
@@ -148,8 +150,8 @@
     }
    },
    "new_visual_element": "[GRAPHIC] bar chart: practice vs exam gap",
-   "audio_file": "../ai-homework-fluency-trap/mp3/beat-B02.mp3",
-   "actual_duration_s": 17.03,
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 16.81,
    "locked": true,
    "source_clip": "../ai-homework-fluency-trap/clips/B02.mp4",
    "source_audio": "../ai-homework-fluency-trap/mp3/beat-B02.mp3",
@@ -172,8 +174,8 @@
     "sub": "here it predicted the opposite — why?"
    },
    "new_visual_element": "[CARD] THE QUESTION",
-   "audio_file": "../ai-homework-fluency-trap/mp3/beat-B03.mp3",
-   "actual_duration_s": 10.03,
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 9.77,
    "locked": true,
    "source_clip": "../ai-homework-fluency-trap/clips/B03.mp4",
    "source_audio": "../ai-homework-fluency-trap/mp3/beat-B03.mp3",
@@ -202,8 +204,8 @@
     }
    },
    "new_visual_element": "[GRAPHIC] struggle cycle loop",
-   "audio_file": "../ai-homework-fluency-trap/mp3/beat-B04.mp3",
-   "actual_duration_s": 15.91,
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 13.78,
    "locked": true,
    "source_clip": "../ai-homework-fluency-trap/clips/B04.mp4",
    "source_audio": "../ai-homework-fluency-trap/mp3/beat-B04.mp3",
@@ -226,8 +228,8 @@
     "sub": "it is not."
    },
    "new_visual_element": "[CARD] comprehension vs encoding",
-   "audio_file": "../ai-homework-fluency-trap/mp3/beat-B05.mp3",
-   "actual_duration_s": 11.73,
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 11.26,
    "locked": true,
    "source_clip": "../ai-homework-fluency-trap/clips/B05.mp4",
    "source_audio": "../ai-homework-fluency-trap/mp3/beat-B05.mp3",
@@ -257,8 +259,8 @@
     }
    },
    "new_visual_element": "[GRAPHIC] two parallel paths",
-   "audio_file": "../ai-homework-fluency-trap/mp3/beat-B06.mp3",
-   "actual_duration_s": 20.19,
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 17.88,
    "locked": true,
    "source_clip": "../ai-homework-fluency-trap/clips/B06.mp4",
    "source_audio": "../ai-homework-fluency-trap/mp3/beat-B06.mp3",
@@ -278,8 +280,8 @@
    "scene_description": "a student at a desk, the AI chat window open and glowing, the student's expression calm and satisfied — the fluency trap moment; editorial flat treatment on newsprint ground",
    "image_prompt": "B07, student at a desk with a laptop screen showing a clean code solution, looking satisfied and nodding, pen idle on a blank notebook beside the keyboard, late evening lighting, editorial flat desaturated treatment",
    "new_visual_element": "[STILL ai] the fluency trap moment",
-   "audio_file": "../ai-homework-fluency-trap/mp3/beat-B07.mp3",
-   "actual_duration_s": 11.65,
+   "audio_file": "mp3/beat-B07.mp3",
+   "actual_duration_s": 12.52,
    "locked": true,
    "source_clip": "../ai-homework-fluency-trap/clips/B07.mp4",
    "source_audio": "../ai-homework-fluency-trap/mp3/beat-B07.mp3",
@@ -309,8 +311,8 @@
     }
    },
    "new_visual_element": "[GRAPHIC] Maya's timeline",
-   "audio_file": "../ai-homework-fluency-trap/mp3/beat-B08.mp3",
-   "actual_duration_s": 22.33,
+   "audio_file": "mp3/beat-B08.mp3",
+   "actual_duration_s": 18.41,
    "locked": true,
    "source_clip": "../ai-homework-fluency-trap/clips/B08.mp4",
    "source_audio": "../ai-homework-fluency-trap/mp3/beat-B08.mp3",
@@ -339,8 +341,8 @@
     }
    },
    "new_visual_element": "[GRAPHIC] three low-score patterns",
-   "audio_file": "../ai-homework-fluency-trap/mp3/beat-B09.mp3",
-   "actual_duration_s": 17.21,
+   "audio_file": "mp3/beat-B09.mp3",
+   "actual_duration_s": 16.02,
    "locked": true,
    "source_clip": "../ai-homework-fluency-trap/clips/B09.mp4",
    "source_audio": "../ai-homework-fluency-trap/mp3/beat-B09.mp3",
@@ -363,8 +365,8 @@
     "sub": "what the high scorers did differently"
    },
    "new_visual_element": "[CARD] conceptual inquiry pattern",
-   "audio_file": "../ai-homework-fluency-trap/mp3/beat-B10.mp3",
-   "actual_duration_s": 16.9,
+   "audio_file": "mp3/beat-B10.mp3",
+   "actual_duration_s": 15.72,
    "locked": true,
    "source_clip": "../ai-homework-fluency-trap/clips/B10.mp4",
    "source_audio": "../ai-homework-fluency-trap/mp3/beat-B10.mp3",
@@ -394,8 +396,8 @@
     }
    },
    "new_visual_element": "[GRAPHIC] production vs diagnostic gap",
-   "audio_file": "../ai-homework-fluency-trap/mp3/beat-B11.mp3",
-   "actual_duration_s": 21.58,
+   "audio_file": "mp3/beat-B11.mp3",
+   "actual_duration_s": 18.52,
    "locked": true,
    "source_clip": "../ai-homework-fluency-trap/clips/B11.mp4",
    "source_audio": "../ai-homework-fluency-trap/mp3/beat-B11.mp3",
@@ -425,8 +427,8 @@
     }
    },
    "new_visual_element": "[GRAPHIC] two students, same grade, different six weeks",
-   "audio_file": "../ai-homework-fluency-trap/mp3/beat-B12.mp3",
-   "actual_duration_s": 33.44,
+   "audio_file": "mp3/beat-B12.mp3",
+   "actual_duration_s": 22.78,
    "locked": true,
    "source_clip": "../ai-homework-fluency-trap/clips/B12.mp4",
    "source_audio": "../ai-homework-fluency-trap/mp3/beat-B12.mp3",
@@ -449,8 +451,8 @@
     "sub": "every time. even when you think you know."
    },
    "new_visual_element": "[CARD] THE PRACTICE — questions before code",
-   "audio_file": "../ai-homework-fluency-trap/mp3/beat-B13.mp3",
-   "actual_duration_s": 21.32,
+   "audio_file": "mp3/beat-B13.mp3",
+   "actual_duration_s": 17.62,
    "locked": true,
    "source_clip": "../ai-homework-fluency-trap/clips/B13.mp4",
    "source_audio": "../ai-homework-fluency-trap/mp3/beat-B13.mp3",
@@ -473,8 +475,8 @@
     "sub": "CLAUDE CODE"
    },
    "new_visual_element": "[CARD] endcard — the screen closes",
-   "audio_file": "../ai-homework-fluency-trap/mp3/beat-B14.mp3",
-   "actual_duration_s": 10.752,
+   "audio_file": "mp3/beat-B14.mp3",
+   "actual_duration_s": 8.92,
    "locked": true,
    "source_clip": "../ai-homework-fluency-trap/clips/B14.mp4",
    "source_audio": "../ai-homework-fluency-trap/mp3/beat-B14.mp3",
@@ -513,7 +515,7 @@
    },
    "estimated_duration_s": 30.0,
    "audio_file": "mp3/beat-NBB01.mp3",
-   "actual_duration_s": 26.176,
+   "actual_duration_s": 24.47,
    "lead_silence_s": 0.5
   },
   {
@@ -533,7 +535,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Why Doing Homework With AI Makes You Worse at the Test] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "CLAUDE CODE",
+      "topic": "MUSINIQUE · CLAUDE CODE",
       "segment": "Why Doing Homework With AI Makes",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -550,7 +552,7 @@
    },
    "estimated_duration_s": 8.0,
    "audio_file": "mp3/beat-NBB02.mp3",
-   "actual_duration_s": 7.765
+   "actual_duration_s": 8.3
   },
   {
    "beat_id": "NBB03",
@@ -579,10 +581,10 @@
    "estimated_duration_s": 6.0,
    "audio_file": "mp3/beat-NBB03.mp3",
    "silence_s": 6.0,
-   "actual_duration_s": 6.03,
+   "actual_duration_s": 2.71,
    "engine": "kokoro",
    "voice": "am_puck",
-   "narration_text": "Why Doing Homework With AI Makes You Worse at the Test"
+   "narration_text": "Why Doing Homework With AI Makes You Worse at the Test. From Musinique."
   }
  ]
 }

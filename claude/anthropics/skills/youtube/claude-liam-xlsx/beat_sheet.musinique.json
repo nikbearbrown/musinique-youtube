@@ -27,7 +27,7 @@
    "slates": [],
    "skin_warnings": []
   },
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "derived_from": "beat_sheet.json"
  },
  "beats": [
@@ -44,7 +44,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Habari, Musinique",
-      "topic": "XLSX · ANTHROPIC SKILL",
+      "topic": "MUSINIQUE · XLSX · ANTHROPIC SKILL",
       "segment": "DATA",
       "command": "Build a three-year SaaS revenue model with growth rate and margin assumptions — deliver as an xlsx file.",
       "runningText": "reading xlsx SKILL.md…",
@@ -64,7 +64,7 @@
     }
    },
    "audio_file": "mp3/beat-B00.mp3",
-   "actual_duration_s": 40.62,
+   "actual_duration_s": 37.42,
    "build": {
     "status": "VIDEO",
     "src": "media/B00.mp4",
@@ -93,7 +93,7 @@
     }
    },
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 55.91,
+   "actual_duration_s": 52.44,
    "build": {
     "status": "VIDEO",
     "src": "media/B01.mp4",
@@ -126,7 +126,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 19.52
   },
   {
    "beat_id": "B02",
@@ -149,7 +151,7 @@
     }
    },
    "audio_file": "mp3/beat-B02.mp3",
-   "actual_duration_s": 52.22,
+   "actual_duration_s": 47.34,
    "build": {
     "status": "VIDEO",
     "src": "media/B02.mp4",
@@ -178,7 +180,7 @@
     }
    },
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 65.05,
+   "actual_duration_s": 59.39,
    "build": {
     "status": "VIDEO",
     "src": "media/B05.mp4",
@@ -216,7 +218,7 @@
     }
    },
    "audio_file": "mp3/beat-BVDT.mp3",
-   "actual_duration_s": 37.21,
+   "actual_duration_s": 36.8,
    "build": {
     "status": "VIDEO",
     "src": "media/BVDT.mp4",
@@ -237,7 +239,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Your Turn",
-      "topic": "XLSX · HANDOFF",
+      "topic": "MUSINIQUE · XLSX · HANDOFF",
       "segment": "DATA",
       "command": "Build a 3-year SaaS revenue model: growth rate + gross margin assumptions, revenue/COGS/gross profit projections. Deliver as .xlsx.",
       "runningText": "Watch: openpyxl formulas not hardcodes? recalc.py run? color coding applied? errors fixed?",
@@ -257,7 +259,7 @@
     }
    },
    "audio_file": "mp3/beat-BHTF.mp3",
-   "actual_duration_s": 53.57,
+   "actual_duration_s": 48.55,
    "build": {
     "status": "VIDEO",
     "src": "media/BHTF.mp4",
@@ -288,7 +290,7 @@
     }
    },
    "audio_file": "mp3/beat-BOUT.mp3",
-   "actual_duration_s": 2.82,
+   "actual_duration_s": 1.6,
    "build": {
     "status": "VIDEO",
     "src": "media/BOUT.mp4",

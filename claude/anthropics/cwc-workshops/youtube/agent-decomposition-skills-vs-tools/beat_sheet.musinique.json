@@ -2,13 +2,13 @@
  "metadata": {
   "slug": "agent-decomposition-skills-vs-tools",
   "title": "The 402-Line Prompt: How Decomposition Makes Agents 5x Faster",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "brand": "claude-musinique",
   "audience": "Claude",
   "engine": "kokoro",
-  "voice": "am_onyx",
-  "voice_kokoro": "am_onyx",
+  "voice": "am_puck",
+  "voice_kokoro": "am_puck",
   "palette": "claude",
   "typography": {
    "serif": "Tiempos/EB Garamond",
@@ -36,8 +36,8 @@
   {
    "beat_id": "B00",
    "act": "cold-open",
-   "narration_text": "This is Liam for Musinique. A 402-line system prompt with 12 tools is slow and expensive. A 15-line prompt with the same knowledge split into skills runs faster — and gets better answers.",
-   "voice": "am_onyx",
+   "narration_text": "This is Musinique. A 402-line system prompt with 12 tools is slow and expensive. A 15-line prompt with the same knowledge split into skills runs faster — and gets better answers.",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 10,
    "shot": {
@@ -47,7 +47,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Cześć, Musinique",
-      "topic": "CLAUDE MANAGED AGENTS · DECOMPOSITION",
+      "topic": "MUSINIQUE · CLAUDE MANAGED AGENTS · DECOMPOSITION",
       "segment": "The 402-Line Prompt: How Decomposition Makes Agents 5x Faster",
       "command": "My agent has a 402-line system prompt and 12 tools. It takes 488 seconds per task. How do I decompose it so it runs in under 100 seconds?",
       "runningText": "decomposing prompt…",
@@ -67,7 +67,7 @@
     }
    },
    "audio_file": "mp3/beat-B00.mp3",
-   "actual_duration_s": 12.39,
+   "actual_duration_s": 12.5,
    "build": {
     "status": "VIDEO",
     "src": "media/B00.mp4",
@@ -79,7 +79,7 @@
    "beat_id": "B01",
    "act": "the-question",
    "narration_text": "The question: why does cutting the system prompt in half — while keeping all the knowledge — actually improve the agent's reasoning, and make it cheaper?",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 8,
    "shot": {
@@ -110,7 +110,7 @@
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "The indie musician who automates their Spotify stats check, their distributor ping, their playlist pitch — that musician gets time back that they would otherwise spend refreshing a dashboard. An agent is not a luxury for the label's data team; it is a tool you can run free, on your own machine, today. The same frontmatter that tells Claude when to fire a code-review agent tells it when to check your streaming anomalies. You just haven't pointed it yet.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -130,13 +130,15 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 22.06
   },
   {
    "beat_id": "B02",
    "act": "core-idea",
    "narration_text": "Three levers trade cost versus control. Tools: stateless function calls — the agent calls a function, gets a result, decides next. Skills: instructions loaded on-demand — the agent requests the relevant knowledge when it needs it, not all upfront. Subagents: separate agents with their own context — tasks that need full autonomy get their own window. A 402-line monolithic prompt forces all knowledge into one window at once. The decomposed version keeps context lean and decisions focused.",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 28,
    "shot": {
@@ -166,7 +168,7 @@
    "beat_id": "B03",
    "act": "visual-centerpiece",
    "narration_text": "Here is the decomposition tree. The original: 402 lines, 12 tools, every piece of business logic in one window. One task — daily low-stock sweep — made 102 tool calls over 488 seconds. Now split it. The core prompt shrinks to 15 lines: just the decision logic, the agent's role, the output format. Five skill modules go on-demand: reorder policy, forecasting rules, notification templates, vendor lookup, and audit logging. The original 12 tools stay — but the agent loads only the ones relevant to the current task. The same sweep now runs in 3 bash scripts in approximately 100 seconds. Same correctness. Approximately five times faster. Drastically fewer tokens per run.",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 42,
    "shot": {
@@ -196,7 +198,7 @@
    "beat_id": "B04",
    "act": "split-move",
    "narration_text": "The split is the mechanism. One monolith divides into a lean core plus skill modules. The reorder-policy skill — 200 lines of business rules — is uploaded separately. The core prompt becomes: 'use reorder-policy skill to decide stock levels.' The agent loads the skill only for reorder tasks. Its context budget stays free for detection and alerting.",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 18,
    "shot": {
@@ -226,7 +228,7 @@
    "beat_id": "B05",
    "act": "skill-call-mechanism",
    "narration_text": "Let's look at what actually happens when the agent calls a skill at runtime. The core agent — 15 lines — issues one call: run_skill, forecasting, context. That call crosses a boundary. On the other side, the forecasting skill loads its own 200-line sub-prompt, activates its three forecast-specific tools, runs its own reasoning loop, and returns a structured result: demand high, reorder 240 units. The core never touched those 200 lines. It received one object and moved on. The key insight is the boundary. Complexity doesn't vanish — it hides behind an interface. The core stays lean because the skill absorbs its own weight.",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 22,
    "shot": {
@@ -257,7 +259,7 @@
    "beat_id": "B06",
    "act": "tool-vs-skill",
    "narration_text": "Tools versus skills — when do you reach for each? A tool is stateless: one function signature, no memory, one call, one typed result. The context budget it consumes is negligible. You use it for: lookup, calculate, fetch. A skill is a sub-agent: it has its own context window, its own reasoning loop, its own multi-step plan. It costs context but earns it back in depth. You use it for: plan, execute, verify. The decision rule is simple. If the task is bounded and deterministic — reach for a tool. If it requires judgment across multiple steps — reach for a skill. Confuse the two and you either overload your core context or waste a skill on something a function call handles in milliseconds.",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 20,
    "shot": {
@@ -288,7 +290,7 @@
    "beat_id": "B07",
    "act": "cost-latency-gain",
    "narration_text": "The gains are not theoretical — they are measured. Latency: the monolith took 488 seconds per low-stock sweep. The decomposed version: approximately 100 seconds. That is a five-times reduction. The mechanism is simple — a leaner core makes fewer redundant tool calls because it only loads the knowledge relevant to the current sub-task. Tool call count fell from 102 to 3 bash scripts. Token cost follows directly: fewer tokens processed per run means a proportional reduction in cost. If you ran this sweep daily, the decomposition pays for its engineering time in the first week. The graph is the proof. Decompose once, pay less every call.",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 18,
    "shot": {
@@ -319,7 +321,7 @@
    "beat_id": "B08",
    "act": "verdict",
    "narration_text": "Let's recap with Claude. Three levers: tools for stateless calls, skills for on-demand instructions, subagents for autonomous context. A 402-line monolithic prompt became a 15-line core plus five skill modules. The same task: 102 tool calls and 488 seconds became 3 bash scripts and approximately 100 seconds. Same correctness. Five times faster. Context kept lean means decisions kept focused.",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 20,
    "shot": {
@@ -356,7 +358,7 @@
    "beat_id": "B09",
    "act": "your-turn",
    "narration_text": "Your turn. Here is the prompt: 'Here's my 400-line agent prompt — decompose it into a lean core plus skills, and show me the token and latency delta.' What you are looking for is the split point. Which lines are decision logic — the agent's role, its output format, its stopping conditions? Those stay in the core. Which lines are knowledge — business rules, domain-specific instructions, lookup tables? Those become skills. The token delta is the measurement that tells you if the decomposition worked: fewer tokens per task means the context is leaner, and a leaner context means faster, cheaper, more focused decisions. Take this prompt, run it on your own agent, and find the split. Musinique.",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 42,
    "shot": {
@@ -366,7 +368,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Your turn.",
-      "topic": "CLAUDE MANAGED AGENTS · DECOMPOSITION",
+      "topic": "MUSINIQUE · CLAUDE MANAGED AGENTS · DECOMPOSITION",
       "segment": "The 402-Line Prompt: How Decomposition Makes Agents 5x Faster",
       "command": "Here's my 400-line agent prompt — decompose it into a lean core plus skills, and show me the token and latency delta.",
       "runningText": "paste this into Claude…",
@@ -381,7 +383,7 @@
     }
    },
    "audio_file": "mp3/beat-B09.mp3",
-   "actual_duration_s": 36.46,
+   "actual_duration_s": 35.9,
    "build": {
     "status": "VIDEO",
     "src": "media/B09.mp4",
@@ -392,8 +394,8 @@
   {
    "beat_id": "B10",
    "act": "outro",
-   "narration_text": "The 402-Line Prompt: How Decomposition Makes Agents 5x Faster",
-   "voice": "am_onyx",
+   "narration_text": "The 402-Line Prompt: How Decomposition Makes Agents 5x Faster. From Musinique.",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 5,
    "shot": {

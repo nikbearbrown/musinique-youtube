@@ -48,7 +48,7 @@
     "B06: palette=claude but the outro is 'un-annotated' — OUTRO LAW wants ClaudeTitleOutro"
    ]
   },
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "voice": "am_puck"
  },
@@ -56,7 +56,7 @@
   {
    "beat_id": "B00",
    "act": "ASK",
-   "narration_text": "This is Musinique. She pasted her first memo as an example — the informal one from last year. Claude returned something equally informal: casual hedges, fragments, first-person asides. That is not what she wanted for the research memo. But it is exactly what she asked for. The example she chose taught Claude what informal looked like, and Claude learned the lesson she did not intend to teach. This is Molo, Liam — in for Bear.",
+   "narration_text": "This is Musinique. She pasted her first memo as an example — the informal one from last year. Claude returned something equally informal: casual hedges, fragments, first-person asides. That is not what she wanted for the research memo. But it is exactly what she asked for. The example she chose taught Claude what informal looked like, and Claude learned the lesson she did not intend to teach. This is Molo, Musinique —.",
    "shot": {
     "type": "REMOTION",
     "source": "own",
@@ -76,7 +76,7 @@
    },
    "estimated_duration_s": 15,
    "audio_file": "mp3/beat-B00.mp3",
-   "actual_duration_s": 20.52,
+   "actual_duration_s": 19.11,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -100,7 +100,7 @@
    "spark_line": "Example teaches everything.",
    "estimated_duration_s": 13,
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 23.87,
+   "actual_duration_s": 21.03,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -136,7 +136,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 19.09
   },
   {
    "beat_id": "B02",
@@ -151,7 +153,7 @@
    "spark_line": "Unannotated = teach everything.",
    "estimated_duration_s": 12,
    "audio_file": "mp3/beat-B02.mp3",
-   "actual_duration_s": 20.95,
+   "actual_duration_s": 19.48,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -175,7 +177,7 @@
    "spark_line": "Name it. Exclude the rest.",
    "estimated_duration_s": 12,
    "audio_file": "mp3/beat-B03.mp3",
-   "actual_duration_s": 20.86,
+   "actual_duration_s": 19.8,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -199,7 +201,7 @@
    "spark_line": "Narrate the demonstration.",
    "estimated_duration_s": 13,
    "audio_file": "mp3/beat-B04.mp3",
-   "actual_duration_s": 23.17,
+   "actual_duration_s": 20.8,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -233,7 +235,7 @@
    },
    "estimated_duration_s": 9,
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 4.03,
+   "actual_duration_s": 3.56,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -264,7 +266,7 @@
    },
    "estimated_duration_s": 5,
    "audio_file": "mp3/beat-B06.mp3",
-   "actual_duration_s": 6.21,
+   "actual_duration_s": 5.65,
    "build": {
     "status": "SLATE",
     "src": null,

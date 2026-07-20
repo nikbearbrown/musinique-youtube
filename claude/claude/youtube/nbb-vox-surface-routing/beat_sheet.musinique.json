@@ -33,7 +33,7 @@
   "old_outro_beats": [],
   "built_at": "2026-07-17T02:37:02.671871",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
   "voice_kokoro": "am_puck"
@@ -56,7 +56,7 @@
      "version": "1",
      "props": {
       "command": "The part that unsettles me is that Alex's chat paragraph and Sam's Cowork synthesis look equally polished even though only one saw the real files. I want to catch this in my own work. Take a task where I need Claude to analyze a folder of program data and show me: (1) how the same request routes differently through Chat, Code, and Cowork based on where the context actually lives, (2) a concrete tell in the output that would reveal Claude never accessed the files, and (3) a quick pre-flight check I can run to confirm the context is on the surface I chose.",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "Why the Wrong AI Surface Costs",
       "greeting": "Konnichiwa, Musinique",
       "runningText": "explaining the mechanism…",
@@ -549,7 +549,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Why the Wrong AI Surface Costs More Than the Wrong Prompt] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "Why the Wrong AI Surface Costs",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -598,7 +598,7 @@
    "actual_duration_s": 6.03,
    "engine": "kokoro",
    "voice": "am_puck",
-   "narration_text": "Why the Wrong AI Surface Costs More Than the Wrong Prompt"
+   "narration_text": "Why the Wrong AI Surface Costs More Than the Wrong Prompt. From Musinique."
   }
  ]
 }

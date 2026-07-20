@@ -13,7 +13,7 @@
   "ground": "#FFFFFF",
   "total_estimated_duration_seconds": 113.0,
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "register": "Baldwin",
   "folderLabel": "@Musinique",
@@ -25,29 +25,33 @@
   {
    "beat_id": "B00",
    "act": "INTRO",
-   "narration_text": "This is Musinique. Nik Bear Brown. Brutalist and Educational AI. Build it with Claude — then take it apart.",
+   "narration_text": "This is Musinique. Musinique. Brutalist and Educational AI. Build it with Claude — then take it apart.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOpen",
+     "pattern": "ClaudeComposerAsk",
      "props": {
-      "topic": "CLAUDE FOR EDUCATION",
-      "lines": [
-       "Nik Bear Brown",
+      "command": "Build a Rubric Adjective Detector with Claude",
+      "topic": "MUSINIQUE · CLAUDE FOR EDUCATION",
+      "segment": "Build a Rubric Adjective Detector with Claude",
+      "greeting": "This is Musinique.",
+      "runningText": "working…",
+      "output": [
        "Brutalist + Educational AI",
        "Rubric Adjective Detector",
        "Observable vs Vague Criteria",
        "Build with Claude CLI"
-      ],
-      "greeting": "Hej, Musinique"
+      ]
      }
     }
    },
    "estimated_duration_s": 10.0,
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B00.mp3",
+   "actual_duration_s": 7.1
   },
   {
    "beat_id": "B01",
@@ -61,7 +65,9 @@
    "visual_intent": "Slate: rubric cell showing 'Analysis: Good. Demonstrates strong analytical thinking.' Amber highlight on the quality adjective. No CLI yet — this is the problem.",
    "estimated_duration_s": 12.0,
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 17.26
   },
   {
    "beat_id": "B01B",
@@ -88,7 +94,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 16.06
   },
   {
    "beat_id": "B02",
@@ -99,10 +107,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Read this rubric and classify each criterion: observable (can be verified without evaluator judgment) or vague (requires taste/interpretation). For each vague criterion, rewrite it as a specific, observable behavior a student can demonstrate and an evaluator can check. Format: ORIGINAL | TYPE | REWRITTEN.\" < rubric.md",
-      "topic": "CLAUDE FOR EDUCATION",
+      "topic": "MUSINIQUE · CLAUDE FOR EDUCATION",
       "segment": "RUBRIC AUDIT",
       "runningText": "running rubric audit…"
      }
@@ -110,7 +118,9 @@
    },
    "estimated_duration_s": 15.0,
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 14.76
   },
   {
    "beat_id": "B03",
@@ -121,18 +131,20 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownCodeBlock",
+     "pattern": "ClaudeCodeBeat",
      "props": {
-      "filename": "rubric_audit.py",
       "segment": "RUBRIC AUDIT",
       "topic": "CLAUDE FOR EDUCATION",
-      "code": "import subprocess, sys\nfrom pathlib import Path\n\ndef audit_rubric(rubric_file):\n    prompt = (\n        \"Classify each criterion: observable or vague.\\n\"\n        \"For each vague, rewrite as observable behavior.\\n\"\n        \"Format: ORIGINAL | TYPE | REWRITTEN\"\n    )\n    text = Path(rubric_file).read_text()\n    result = subprocess.run(\n        [\"claude\", prompt],\n        input=text, capture_output=True, text=True\n    )\n    for line in result.stdout.splitlines():\n        parts = line.split(\" | \")\n        if len(parts) == 3:\n            orig, typ, rewrite = parts\n            tag = \"[VAGUE]\" if \"vague\" in typ.lower() else \"[OK]\"\n            print(f\"{tag} {orig}\\n  -> {rewrite}\\n\")"
+      "code": "import subprocess, sys\nfrom pathlib import Path\n\ndef audit_rubric(rubric_file):\n    prompt = (\n        \"Classify each criterion: observable or vague.\\n\"\n        \"For each vague, rewrite as observable behavior.\\n\"\n        \"Format: ORIGINAL | TYPE | REWRITTEN\"\n    )\n    text = Path(rubric_file).read_text()\n    result = subprocess.run(\n        [\"claude\", prompt],\n        input=text, capture_output=True, text=True\n    )\n    for line in result.stdout.splitlines():\n        parts = line.split(\" | \")\n        if len(parts) == 3:\n            orig, typ, rewrite = parts\n            tag = \"[VAGUE]\" if \"vague\" in typ.lower() else \"[OK]\"\n            print(f\"{tag} {orig}\\n  -> {rewrite}\\n\")",
+      "title": "rubric_audit.py"
      }
     }
    },
    "estimated_duration_s": 15.0,
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 14.98
   },
   {
    "beat_id": "B04",
@@ -146,7 +158,9 @@
    "visual_intent": "Slate: two-column before/after. Left: 'Demonstrates sophisticated analysis' in amber. Right: the observable rewrite in clean black text. Label below: 'can self-assess before submitting'.",
    "estimated_duration_s": 14.0,
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 17.9
   },
   {
    "beat_id": "B05",
@@ -157,10 +171,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Here is a rubric. Write a student essay that would score at the top performance level on every criterion. Be precise about which rubric language you are satisfying.\" < rewritten_rubric.md",
-      "topic": "CLAUDE FOR EDUCATION",
+      "topic": "MUSINIQUE · CLAUDE FOR EDUCATION",
       "segment": "RUBRIC AUDIT",
       "runningText": "generating top-score submission…"
      }
@@ -168,7 +182,9 @@
    },
    "estimated_duration_s": 15.0,
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 13.53
   },
   {
    "beat_id": "B06",
@@ -182,7 +198,9 @@
    "visual_intent": "Slate: side-by-side submissions. Vague rubric output: generic academic prose. Observable rubric output: specific structural elements highlighted — claim statement, two examples, non-restating interpretation.",
    "estimated_duration_s": 10.0,
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 20.61
   },
   {
    "beat_id": "B07",
@@ -196,7 +214,9 @@
    "visual_intent": "Slate: teardown summary. 'Vague = AI-gameable. Observable = verifiable.' The distinction stated once, clean.",
    "estimated_duration_s": 12.0,
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B07.mp3",
+   "actual_duration_s": 18.01
   },
   {
    "beat_id": "B08",
@@ -210,18 +230,20 @@
    "visual_intent": "Slate: next reel teaser. 'cognitive-labor-audit' slug. Brief description of the next topic.",
    "estimated_duration_s": 6.0,
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B08.mp3",
+   "actual_duration_s": 10.47
   },
   {
    "beat_id": "B09",
    "act": "OUTRO",
-   "narration_text": "Nik Bear Brown. Brutalist and Educational AI. At NikBearBrown, nikbearbrown dot com.",
+   "narration_text": "Musinique. Brutalist and Educational AI. At NikBearBrown, nikbearbrown dot com.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOutro",
+     "pattern": "ClaudeTitleOutro",
      "props": {
       "brand": "Nik Bear Brown",
       "tagline": "Brutalist + Educational AI",
@@ -232,7 +254,9 @@
    },
    "estimated_duration_s": 8.0,
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B09.mp3",
+   "actual_duration_s": 6.29
   }
  ]
 }

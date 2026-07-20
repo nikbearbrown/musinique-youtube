@@ -6,7 +6,7 @@
   "topic": "CLAUDE COWORK",
   "audience": "NikBearBrown",
   "engine": "kokoro",
-  "voice": "am_onyx",
+  "voice": "am_puck",
   "palette": "claude",
   "register": "Baldwin",
   "derived_from": "beat_sheet.json",
@@ -28,10 +28,10 @@
   "old_outro_beats": [],
   "built_at": "2026-07-16T23:06:26.646644",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
-  "voice_kokoro": "am_onyx"
+  "voice_kokoro": "am_puck"
  },
  "beats": [
   {
@@ -39,8 +39,8 @@
    "act": "COLD OPEN",
    "title": "Liam cold open — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "This is Liam for Musinique. The four tests plus the added fifth ground-truth test are what I want to run against my actual task list, since one borderline task flipped to DO NOT DELEGATE only once 'no external ground truth' was checked. I'll give you five tasks I'm considering handing to Claude. Please (1) route each through the four tests for sensitive data, irreversibility, human-only relationship context, and unverifiable output, (2) apply the fifth ground-truth test and give a verdict with a blocking reason per failure, and (3) tell me which category I'd have discovered the hard way.",
+   "voice": "am_puck",
+   "narration_text": "This is Musinique. The four tests plus the added fifth ground-truth test are what I want to run against my actual task list, since one borderline task flipped to DO NOT DELEGATE only once 'no external ground truth' was checked. I'll give you five tasks I'm considering handing to Claude. Please (1) route each through the four tests for sensitive data, irreversibility, human-only relationship context, and unverifiable output, (2) apply the fifth ground-truth test and give a verdict with a blocking reason per failure, and (3) tell me which category I'd have discovered the hard way.",
    "shot": {
     "type": "CARD",
     "source": "remotion",
@@ -51,7 +51,7 @@
      "version": "1",
      "props": {
       "command": "The four tests plus the added fifth ground-truth test are what I want to run against my actual task list, since one borderline task flipped to DO NOT DELEGATE only once 'no external ground truth' was checked. I'll give you five tasks I'm considering handing to Claude. Please (1) route each through the four tests for sensitive data, irreversibility, human-only relationship context, and unverifiable output, (2) apply the fifth ground-truth test and give a verdict with a blocking reason per failure, and (3) tell me which category I'd have discovered the hard way.",
-      "topic": "CLAUDE COWORK",
+      "topic": "MUSINIQUE · CLAUDE COWORK",
       "segment": "The Non-Delegation Audit: Four Tests for",
       "greeting": "Yassou, Musinique",
       "runningText": "explaining the mechanism…",
@@ -68,7 +68,7 @@
    },
    "estimated_duration_s": 9.0,
    "audio_file": "mp3/beat-NBB00.mp3",
-   "actual_duration_s": 8.235
+   "actual_duration_s": 31.45
   },
   {
    "beat_id": "B00",
@@ -80,12 +80,13 @@
     "source": "own",
     "motion": "hold"
    },
-   "audio_file": "../non-delegation-audit/mp3/beat-B00.mp3",
+   "audio_file": "mp3/beat-B00.mp3",
    "locked": true,
    "source_clip": "../non-delegation-audit/clips/B00.mp4",
    "source_audio": "../non-delegation-audit/mp3/beat-B00.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 6.44
   },
   {
    "beat_id": "B01",
@@ -97,19 +98,20 @@
     "source": "own",
     "motion": "hold"
    },
-   "audio_file": "../non-delegation-audit/mp3/beat-B01.mp3",
+   "audio_file": "mp3/beat-B01.mp3",
    "locked": true,
    "source_clip": "../non-delegation-audit/clips/B01.mp4",
    "source_audio": "../non-delegation-audit/mp3/beat-B01.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 20.8
   },
   {
    "beat_id": "B01B",
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "The same evaluation machinery that grades six variants of a customer-support agent grades six versions of your EPK pitch. You write the rubric — what counts as a strong pitch, what counts as a weak one — and the machine runs the comparison. The label has staff for that. You have Claude.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -129,7 +131,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 15.34
   },
   {
    "beat_id": "B02",
@@ -141,10 +145,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"For each of these tasks, determine if delegation is appropriate. Apply four tests: (1) involves regulated/sensitive data, (2) action is irreversible, (3) requires relationship context only the human has, (4) output cannot be verified without doing the work yourself. Return: task, verdict (delegate/do-not-delegate), blocking reason.\" < tasks.txt",
-      "topic": "CLAUDE COWORK",
+      "topic": "MUSINIQUE · CLAUDE COWORK",
       "segment": "NON-DELEGATION AUDIT",
       "runningText": "running non-delegation tests…"
      },
@@ -154,12 +158,13 @@
      }
     }
    },
-   "audio_file": "../non-delegation-audit/mp3/beat-B02.mp3",
+   "audio_file": "mp3/beat-B02.mp3",
    "locked": true,
    "source_clip": "../non-delegation-audit/clips/B02.mp4",
    "source_audio": "../non-delegation-audit/mp3/beat-B02.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 15.19
   },
   {
    "beat_id": "B03",
@@ -171,12 +176,12 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownCodeBlock",
+     "pattern": "ClaudeCodeBeat",
      "props": {
-      "filename": "delegation_audit.py",
       "code": "TESTS = [\n    (\"regulated\",    \"involves regulated or sensitive data (HIPAA, legal, financial)\"),\n    (\"irreversible\", \"action is irreversible (sends email, publishes, modifies production)\"),\n    (\"relationship\", \"requires relationship context only the human has\"),\n    (\"verifiable\",   \"output cannot be verified without doing the work yourself\"),\n]\n\ndef audit_task(task: str, signals: list[str]) -> dict:\n    for test_key, test_desc in TESTS:\n        if any(test_key in s.lower() for s in signals):\n            return {\n                \"task\": task,\n                \"verdict\": \"DO NOT DELEGATE\",\n                \"blocking_test\": test_desc,\n                \"reason\": f\"Task fails: {test_desc}\"\n            }\n    return {\n        \"task\": task,\n        \"verdict\": \"DELEGATE\",\n        \"blocking_test\": None,\n        \"reason\": \"All four tests passed\"\n    }",
       "topic": "CLAUDE COWORK",
-      "segment": "NON-DELEGATION AUDIT"
+      "segment": "NON-DELEGATION AUDIT",
+      "title": "delegation_audit.py"
      },
      "rendered": {
       "out": "media/B03.mp4",
@@ -184,12 +189,13 @@
      }
     }
    },
-   "audio_file": "../non-delegation-audit/mp3/beat-B03.mp3",
+   "audio_file": "mp3/beat-B03.mp3",
    "locked": true,
    "source_clip": "../non-delegation-audit/clips/B03.mp4",
    "source_audio": "../non-delegation-audit/mp3/beat-B03.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 6.78
   },
   {
    "beat_id": "B04",
@@ -204,12 +210,13 @@
      "manim": "B04_DelegationTree"
     }
    },
-   "audio_file": "../non-delegation-audit/mp3/beat-B04.mp3",
+   "audio_file": "mp3/beat-B04.mp3",
    "locked": true,
    "source_clip": "../non-delegation-audit/clips/B04.mp4",
    "source_audio": "../non-delegation-audit/mp3/beat-B04.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 14.04
   },
   {
    "beat_id": "B05",
@@ -221,10 +228,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Re-run the audit with a fifth test: is the output testable against an external ground truth? Tasks that cannot be externally verified should not be delegated.\" < tasks.txt",
-      "topic": "CLAUDE COWORK",
+      "topic": "MUSINIQUE · CLAUDE COWORK",
       "segment": "NON-DELEGATION AUDIT",
       "runningText": "adding fifth test…"
      },
@@ -234,12 +241,13 @@
      }
     }
    },
-   "audio_file": "../non-delegation-audit/mp3/beat-B05.mp3",
+   "audio_file": "mp3/beat-B05.mp3",
    "locked": true,
    "source_clip": "../non-delegation-audit/clips/B05.mp4",
    "source_audio": "../non-delegation-audit/mp3/beat-B05.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 4.76
   },
   {
    "beat_id": "B06",
@@ -254,12 +262,13 @@
      "manim": "B06_DelegationTreeFive"
     }
    },
-   "audio_file": "../non-delegation-audit/mp3/beat-B06.mp3",
+   "audio_file": "mp3/beat-B06.mp3",
    "locked": true,
    "source_clip": "../non-delegation-audit/clips/B06.mp4",
    "source_audio": "../non-delegation-audit/mp3/beat-B06.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 13.85
   },
   {
    "beat_id": "B07",
@@ -271,12 +280,13 @@
     "source": "own",
     "motion": "hold"
    },
-   "audio_file": "../non-delegation-audit/mp3/beat-B07.mp3",
+   "audio_file": "mp3/beat-B07.mp3",
    "locked": true,
    "source_clip": "../non-delegation-audit/clips/B07.mp4",
    "source_audio": "../non-delegation-audit/mp3/beat-B07.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 14.44
   },
   {
    "beat_id": "B08",
@@ -288,28 +298,29 @@
     "source": "own",
     "motion": "hold"
    },
-   "audio_file": "../non-delegation-audit/mp3/beat-B08.mp3",
+   "audio_file": "mp3/beat-B08.mp3",
    "locked": true,
    "source_clip": "../non-delegation-audit/clips/B08.mp4",
    "source_audio": "../non-delegation-audit/mp3/beat-B08.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 3.84
   },
   {
    "beat_id": "B09",
    "t_start": 110.0,
    "estimated_duration_s": 8.0,
-   "narration_text": "Nik Bear Brown. Brutalist and Educational AI. nikbearbrown.com.",
+   "narration_text": "Musinique. Brutalist and Educational AI. nikbearbrown.com.",
    "shot": {
     "type": "SLATE",
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOutro",
+     "pattern": "ClaudeTitleOutro",
      "props": {
       "brand": "Nik Bear Brown",
       "tagline": "Brutalist + Educational AI",
-      "handle": "@NikBearBrown",
+      "handle": "@Musinique",
       "url": "nikbearbrown.com"
      },
      "rendered": {
@@ -318,20 +329,21 @@
      }
     }
    },
-   "audio_file": "../non-delegation-audit/mp3/beat-B09.mp3",
+   "audio_file": "mp3/beat-B09.mp3",
    "locked": true,
    "source_clip": "../non-delegation-audit/clips/B09.mp4",
    "source_audio": "../non-delegation-audit/mp3/beat-B09.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 4.93
   },
   {
    "beat_id": "NBB01",
    "act": "VERDICT",
    "title": "Liam verdict — ClaudeVerdictArtifact",
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "Let's recap with Claude. Here's what the body just demonstrated. Next: assemble a research packet with source traceability. Nik Bear Brown. Brutalist and Educational AI. nikbearbrown.com.",
+   "voice": "am_puck",
+   "narration_text": "Let's recap with Claude. Here's what the body just demonstrated. Next: assemble a research packet with source traceability. Musinique. Brutalist and Educational AI. nikbearbrown.com.",
    "shot": {
     "type": "CARD",
     "source": "remotion",
@@ -357,7 +369,7 @@
    },
    "estimated_duration_s": 30.0,
    "audio_file": "mp3/beat-NBB01.mp3",
-   "actual_duration_s": 10.048,
+   "actual_duration_s": 11.14,
    "lead_silence_s": 0.5
   },
   {
@@ -365,7 +377,7 @@
    "act": "YOUR TURN",
    "title": "Your turn handoff — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": "Take this prompt, run it on your own — pick any cancer type or clinical scenario you know about and ask how this mechanism applies there.",
    "shot": {
     "type": "CARD",
@@ -377,7 +389,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [The Non-Delegation Audit: Four Tests for Tasks That Should Never Go to] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "CLAUDE COWORK",
+      "topic": "MUSINIQUE · CLAUDE COWORK",
       "segment": "The Non-Delegation Audit: Four Tests for",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -394,7 +406,7 @@
    },
    "estimated_duration_s": 8.0,
    "audio_file": "mp3/beat-NBB02.mp3",
-   "actual_duration_s": 7.765
+   "actual_duration_s": 7.81
   },
   {
    "beat_id": "NBB03",
@@ -423,10 +435,10 @@
    "estimated_duration_s": 6.0,
    "audio_file": "mp3/beat-NBB03.mp3",
    "silence_s": 6.0,
-   "actual_duration_s": 6.03,
+   "actual_duration_s": 4.74,
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "The Non-Delegation Audit: Four Tests for Tasks That Should Never Go to Claude"
+   "voice": "am_puck",
+   "narration_text": "The Non-Delegation Audit: Four Tests for Tasks That Should Never Go to Claude. From Musinique."
   }
  ]
 }

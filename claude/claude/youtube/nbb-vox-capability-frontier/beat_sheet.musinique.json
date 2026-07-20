@@ -34,7 +34,7 @@
   "old_outro_beats": [],
   "built_at": "2026-07-17T02:26:12.073442",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
   "voice_kokoro": "am_puck"
@@ -57,7 +57,7 @@
      "version": "1",
      "props": {
       "command": "The jagged frontier terrifies me because the output looks identical on both sides, and I want a way to locate the boundary before I trust the work. Take two of my real tasks — synthesizing existing industry data versus reasoning about a novel edge case. Help me: (1) explain why the model reliably helps inside the frontier and confidently fails just outside it; (2) show why the output surface gives me zero signal about which zone I'm in; (3) give me an external check I can run — not based on how the answer reads — to decide which side of the frontier a given task sits on.",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "Why AI Makes You Better At",
       "greeting": "Merhaba, Musinique",
       "runningText": "explaining the mechanism…",
@@ -587,7 +587,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Why AI Makes You Better At Exactly the Tasks It Makes You Dangerously ] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "Why AI Makes You Better At",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -636,7 +636,7 @@
    "actual_duration_s": 6.03,
    "engine": "kokoro",
    "voice": "am_puck",
-   "narration_text": "Why AI Makes You Better At Exactly the Tasks It Makes You Dangerously Worse At"
+   "narration_text": "Why AI Makes You Better At Exactly the Tasks It Makes You Dangerously Worse At. From Musinique."
   }
  ]
 }

@@ -55,7 +55,7 @@
    ]
   },
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
   "voice": "am_puck"
@@ -75,7 +75,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Kumusta, Musinique",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "Why the Same AI Tool Helps a Teacher and Harms a Student",
       "command": "Why the Same AI Tool Helps a Teacher and Harms a Student",
       "runningText": "reading…",
@@ -87,7 +87,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B00.mp3",
+   "actual_duration_s": 4.91
   },
   {
    "beat_id": "B01",
@@ -112,7 +114,7 @@
    },
    "new_visual_element": "[GRAPHIC] same tool — opposite outcomes",
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 10.5,
+   "actual_duration_s": 10.75,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -148,7 +150,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 19.54
   },
   {
    "beat_id": "B02",
@@ -164,7 +168,7 @@
    "image_prompt": "B02, teacher at a whiteboard presenting to a classroom, confident engaged posture, editorial desaturated newsprint treatment, flat print lighting, no text legible, collage aesthetic",
    "new_visual_element": "[PHOTO] teacher in action — building capability",
    "audio_file": "mp3/beat-B02.mp3",
-   "actual_duration_s": 8.28,
+   "actual_duration_s": 9.09,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -192,7 +196,7 @@
    },
    "new_visual_element": "[CARD] THE QUESTION on screen",
    "audio_file": "mp3/beat-B03.mp3",
-   "actual_duration_s": 8.26,
+   "actual_duration_s": 9.47,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -226,7 +230,7 @@
    },
    "new_visual_element": "[GRAPHIC] the naive model — AI always helps equally",
    "audio_file": "mp3/beat-B04.mp3",
-   "actual_duration_s": 11.86,
+   "actual_duration_s": 13.08,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -260,7 +264,7 @@
    },
    "new_visual_element": "[GRAPHIC] the phase gate concept",
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 13.44,
+   "actual_duration_s": 14.51,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -294,7 +298,7 @@
    },
    "new_visual_element": "[GRAPHIC] teacher phase gate — AI before, teaching after",
    "audio_file": "mp3/beat-B06.mp3",
-   "actual_duration_s": 17.73,
+   "actual_duration_s": 18.47,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -321,7 +325,7 @@
    },
    "new_visual_element": "[CARD] the substitution insight",
    "audio_file": "mp3/beat-B07.mp3",
-   "actual_duration_s": 14.78,
+   "actual_duration_s": 15.74,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -356,7 +360,7 @@
    },
    "new_visual_element": "[GRAPHIC] student phase gate — AI before, writing after",
    "audio_file": "mp3/beat-B08.mp3",
-   "actual_duration_s": 12.2,
+   "actual_duration_s": 13.35,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -390,7 +394,7 @@
    },
    "new_visual_element": "[GRAPHIC] Tariq and Priya — same grade, different outcome",
    "audio_file": "mp3/beat-B09.mp3",
-   "actual_duration_s": 16.36,
+   "actual_duration_s": 17.32,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -417,7 +421,7 @@
    },
    "new_visual_element": "[CARD] gate position determines the outcome",
    "audio_file": "mp3/beat-B10.mp3",
-   "actual_duration_s": 9.39,
+   "actual_duration_s": 10.13,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -452,7 +456,7 @@
    },
    "new_visual_element": "[GRAPHIC] extraneous vs germane load — what to delegate",
    "audio_file": "mp3/beat-B11.mp3",
-   "actual_duration_s": 17.49,
+   "actual_duration_s": 18.24,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -486,7 +490,7 @@
    },
    "new_visual_element": "[GRAPHIC] gate placement — where learning lives",
    "audio_file": "mp3/beat-B12.mp3",
-   "actual_duration_s": 11.37,
+   "actual_duration_s": 12.82,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -511,7 +515,7 @@
    "image_prompt": "B13, student writing by hand at a desk surrounded by open books and printed source materials, focused engaged expression, editorial desaturated newsprint treatment, flat print lighting, no text legible, collage aesthetic",
    "new_visual_element": "[PHOTO] student doing the germane cognitive work",
    "audio_file": "mp3/beat-B13.mp3",
-   "actual_duration_s": 16.51,
+   "actual_duration_s": 17.37,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -546,7 +550,7 @@
    },
    "new_visual_element": "[GRAPHIC] the capability check — decision diamond",
    "audio_file": "mp3/beat-B14.mp3",
-   "actual_duration_s": 13.74,
+   "actual_duration_s": 14.95,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -573,7 +577,7 @@
    },
    "new_visual_element": "[CARD] the core principle",
    "audio_file": "mp3/beat-B15.mp3",
-   "actual_duration_s": 13.82,
+   "actual_duration_s": 15.04,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -589,7 +593,7 @@
    "beat_id": "B16",
    "t_start": 171.0,
    "estimated_duration_s": 11.0,
-   "narration_text": "Same tool. Opposite outcome. Because the gate was in different places. The teacher who uses AI for preparation does more teaching. The student who lets AI do the writing does less learning.",
+   "narration_text": "Same tool. Opposite outcome. Because the gate was in different places. The teacher who uses AI for preparation does more teaching. The student who lets AI do the writing does less learning. From Musinique.",
    "shot": {
     "type": "CARD",
     "source": "own",
@@ -602,7 +606,7 @@
    },
    "new_visual_element": "[CARD] endcard",
    "audio_file": "mp3/beat-B16.mp3",
-   "actual_duration_s": 11.03,
+   "actual_duration_s": 11.95,
    "build": {
     "status": "SLATE",
     "src": null,

@@ -27,7 +27,7 @@
    "slates": [],
    "skin_warnings": []
   },
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "derived_from": "beat_sheet.json"
  },
  "beats": [
@@ -44,7 +44,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Habari, Musinique",
-      "topic": "CONFIGURE · DISCORD PLUGIN",
+      "topic": "MUSINIQUE · CONFIGURE · DISCORD PLUGIN",
       "segment": "DISCORD",
       "command": "Configure my Discord bot — I just reset the token.",
       "runningText": "reading configure SKILL.md…",
@@ -64,7 +64,7 @@
     }
    },
    "audio_file": "mp3/beat-B00.mp3",
-   "actual_duration_s": 31.45,
+   "actual_duration_s": 31.02,
    "build": {
     "status": "VIDEO",
     "src": "media/B00.mp4",
@@ -93,7 +93,7 @@
     }
    },
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 62.23,
+   "actual_duration_s": 57.51,
    "build": {
     "status": "VIDEO",
     "src": "media/B01.mp4",
@@ -126,7 +126,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 19.09
   },
   {
    "beat_id": "B02",
@@ -149,7 +151,7 @@
     }
    },
    "audio_file": "mp3/beat-B02.mp3",
-   "actual_duration_s": 59.01,
+   "actual_duration_s": 55.89,
    "build": {
     "status": "VIDEO",
     "src": "media/B02.mp4",
@@ -178,7 +180,7 @@
     }
    },
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 83.73,
+   "actual_duration_s": 77.74,
    "build": {
     "status": "VIDEO",
     "src": "media/B05.mp4",
@@ -216,7 +218,7 @@
     }
    },
    "audio_file": "mp3/beat-BVDT.mp3",
-   "actual_duration_s": 35.43,
+   "actual_duration_s": 34.11,
    "build": {
     "status": "VIDEO",
     "src": "media/BVDT.mp4",
@@ -237,7 +239,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Your Turn",
-      "topic": "CONFIGURE · HANDOFF",
+      "topic": "MUSINIQUE · CONFIGURE · HANDOFF",
       "segment": "DISCORD",
       "command": "Configure my Discord bot — here's my token: [paste a fake token string]",
       "runningText": "Watch: token validation? status masked? lockdown proactive? restart cmd?",
@@ -257,7 +259,7 @@
     }
    },
    "audio_file": "mp3/beat-BHTF.mp3",
-   "actual_duration_s": 43.63,
+   "actual_duration_s": 39.79,
    "build": {
     "status": "VIDEO",
     "src": "media/BHTF.mp4",
@@ -288,7 +290,7 @@
     }
    },
    "audio_file": "mp3/beat-BOUT.mp3",
-   "actual_duration_s": 2.54,
+   "actual_duration_s": 1.41,
    "build": {
     "status": "VIDEO",
     "src": "media/BOUT.mp4",

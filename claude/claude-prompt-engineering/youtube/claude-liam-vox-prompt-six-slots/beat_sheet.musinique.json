@@ -53,7 +53,7 @@
    ]
   },
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
   "voice": "am_puck"
@@ -76,7 +76,7 @@
     "sub": "six missing decisions, six generic guesses"
    },
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 14.02,
+   "actual_duration_s": 15.08,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -102,7 +102,7 @@
    "scene_description": "A researcher at a desk reading a document, looking puzzled at the output, editorial newsprint treatment",
    "image_prompt": "B02, academic researcher at a desk, looking puzzled at a printed document, stacks of papers and books around her, editorial documentary newsprint treatment, desaturated flat print collage",
    "audio_file": "mp3/beat-B02.mp3",
-   "actual_duration_s": 13.33,
+   "actual_duration_s": 15.51,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -131,7 +131,7 @@
     "sub": ""
    },
    "audio_file": "mp3/beat-B03.mp3",
-   "actual_duration_s": 8.83,
+   "actual_duration_s": 10.07,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -168,7 +168,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 17.34
   },
   {
    "beat_id": "B04",
@@ -185,7 +187,7 @@
     "manim": "B04_SixSlots"
    },
    "audio_file": "mp3/beat-B04.mp3",
-   "actual_duration_s": 14.57,
+   "actual_duration_s": 15.51,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -211,7 +213,7 @@
     "manim": "B05_GenericGuesses"
    },
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 15.23,
+   "actual_duration_s": 16.45,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -237,7 +239,7 @@
     "manim": "B06_ContextSlot"
    },
    "audio_file": "mp3/beat-B06.mp3",
-   "actual_duration_s": 11.69,
+   "actual_duration_s": 13.25,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -263,7 +265,7 @@
     "manim": "B07_TwoOutputs"
    },
    "audio_file": "mp3/beat-B07.mp3",
-   "actual_duration_s": 10.47,
+   "actual_duration_s": 11.18,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -291,7 +293,7 @@
     "sub": ""
    },
    "audio_file": "mp3/beat-B08.mp3",
-   "actual_duration_s": 9.86,
+   "actual_duration_s": 10.71,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -318,7 +320,7 @@
     "manim": "B09_FilledSlots"
    },
    "audio_file": "mp3/beat-B09.mp3",
-   "actual_duration_s": 17.07,
+   "actual_duration_s": 17.71,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -344,7 +346,7 @@
     "manim": "B10_AnyRequest"
    },
    "audio_file": "mp3/beat-B10.mp3",
-   "actual_duration_s": 11.93,
+   "actual_duration_s": 13.03,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -370,7 +372,7 @@
     "manim": "B11_JamieExample"
    },
    "audio_file": "mp3/beat-B11.mp3",
-   "actual_duration_s": 17.75,
+   "actual_duration_s": 18.09,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -396,7 +398,7 @@
     "manim": "B12_JamieFixed"
    },
    "audio_file": "mp3/beat-B12.mp3",
-   "actual_duration_s": 14.76,
+   "actual_duration_s": 16.17,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -422,7 +424,7 @@
     "manim": "B13_Practice"
    },
    "audio_file": "mp3/beat-B13.mp3",
-   "actual_duration_s": 14.1,
+   "actual_duration_s": 15.34,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -438,7 +440,7 @@
    "t_start": 140.0,
    "estimated_duration_s": 10.0,
    "act": "RECAP",
-   "narration_text": "A prompt is a specification covering six slots. Leave them empty and Claude guesses. Fill them and Claude has something to aim at.",
+   "narration_text": "A prompt is a specification covering six slots. Leave them empty and Claude guesses. Fill them and Claude has something to aim at. From Musinique.",
    "shot": {
     "type": "CARD",
     "source": "own",
@@ -450,7 +452,7 @@
     "sub": "Empty slots become generic guesses."
    },
    "audio_file": "mp3/beat-B14.mp3",
-   "actual_duration_s": 7.66,
+   "actual_duration_s": 8.38,
    "build": {
     "status": "SLATE",
     "src": null,

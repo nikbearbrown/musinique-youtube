@@ -6,7 +6,7 @@
   "topic": "AGENTIC AI",
   "audience": "NikBearBrown",
   "engine": "kokoro",
-  "voice": "am_onyx",
+  "voice": "am_puck",
   "palette": "claude",
   "register": "Baldwin",
   "derived_from": "beat_sheet.json",
@@ -33,10 +33,10 @@
   "old_outro_beats": [],
   "built_at": "2026-07-17T02:31:38.191660",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
-  "voice_kokoro": "am_onyx"
+  "voice_kokoro": "am_puck"
  },
  "beats": [
   {
@@ -44,8 +44,8 @@
    "act": "COLD OPEN",
    "title": "Liam cold open — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "This is Liam for Musinique. The nonprofit story reframed privacy for me: nothing malicious happened, yet the funder-report session's boundary covered client intake forms, salary sheets, and dispute emails because the grant covers what you included, not what you intended. Help me set my boundary before the session: (1) audit which of the three surfaces — Chat, Code, Cowork — reaches the most and why; (2) design a scoped folder that holds only the files a given task requires; (3) write the pre-session checklist of folder, files, apps, and forbidden actions so a grant never means everything inside it.",
+   "voice": "am_puck",
+   "narration_text": "This is Musinique. The nonprofit story reframed privacy for me: nothing malicious happened, yet the funder-report session's boundary covered client intake forms, salary sheets, and dispute emails because the grant covers what you included, not what you intended. Help me set my boundary before the session: (1) audit which of the three surfaces — Chat, Code, Cowork — reaches the most and why; (2) design a scoped folder that holds only the files a given task requires; (3) write the pre-session checklist of folder, files, apps, and forbidden actions so a grant never means everything inside it.",
    "shot": {
     "type": "CARD",
     "source": "remotion",
@@ -56,7 +56,7 @@
      "version": "1",
      "props": {
       "command": "The nonprofit story reframed privacy for me: nothing malicious happened, yet the funder-report session's boundary covered client intake forms, salary sheets, and dispute emails because the grant covers what you included, not what you intended. Help me set my boundary before the session: (1) audit which of the three surfaces — Chat, Code, Cowork — reaches the most and why; (2) design a scoped folder that holds only the files a given task requires; (3) write the pre-session checklist of folder, files, apps, and forbidden actions so a grant never means everything inside it.",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "Why 'Claude is Private' Is Not",
       "greeting": "Hallo, Musinique",
       "runningText": "explaining the mechanism…",
@@ -103,14 +103,14 @@
    "source_clip": "../vox-privacy-boundary/clips/B01.mp4",
    "source_audio": "../vox-privacy-boundary/mp3/beat-B01.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01B",
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "The indie musician who automates their Spotify stats check, their distributor ping, their playlist pitch — that musician gets time back that they would otherwise spend refreshing a dashboard. An agent is not a luxury for the label's data team; it is a tool you can run free, on your own machine, today. The same frontmatter that tells Claude when to fire a code-review agent tells it when to check your streaming anomalies. You just haven't pointed it yet.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -151,7 +151,7 @@
    "source_clip": "../vox-privacy-boundary/clips/B02.mp4",
    "source_audio": "../vox-privacy-boundary/mp3/beat-B02.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B03",
@@ -174,7 +174,7 @@
    "source_clip": "../vox-privacy-boundary/clips/B03.mp4",
    "source_audio": "../vox-privacy-boundary/mp3/beat-B03.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B04",
@@ -204,7 +204,7 @@
    "source_clip": "../vox-privacy-boundary/clips/B04.mp4",
    "source_audio": "../vox-privacy-boundary/mp3/beat-B04.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B05",
@@ -227,7 +227,7 @@
    "source_clip": "../vox-privacy-boundary/clips/B05.mp4",
    "source_audio": "../vox-privacy-boundary/mp3/beat-B05.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B06",
@@ -257,7 +257,7 @@
    "source_clip": "../vox-privacy-boundary/clips/B06.mp4",
    "source_audio": "../vox-privacy-boundary/mp3/beat-B06.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B07",
@@ -280,7 +280,7 @@
    "source_clip": "../vox-privacy-boundary/clips/B07.mp4",
    "source_audio": "../vox-privacy-boundary/mp3/beat-B07.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B08",
@@ -310,7 +310,7 @@
    "source_clip": "../vox-privacy-boundary/clips/B08.mp4",
    "source_audio": "../vox-privacy-boundary/mp3/beat-B08.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B09",
@@ -339,7 +339,7 @@
    "source_clip": "../vox-privacy-boundary/clips/B09.mp4",
    "source_audio": "../vox-privacy-boundary/mp3/beat-B09.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B10",
@@ -362,7 +362,7 @@
    "source_clip": "../vox-privacy-boundary/clips/B10.mp4",
    "source_audio": "../vox-privacy-boundary/mp3/beat-B10.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B11",
@@ -385,7 +385,7 @@
    "source_clip": "../vox-privacy-boundary/clips/B11.mp4",
    "source_audio": "../vox-privacy-boundary/mp3/beat-B11.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B12",
@@ -415,7 +415,7 @@
    "source_clip": "../vox-privacy-boundary/clips/B12.mp4",
    "source_audio": "../vox-privacy-boundary/mp3/beat-B12.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B13",
@@ -436,7 +436,7 @@
    "source_clip": "../vox-privacy-boundary/clips/B13.mp4",
    "source_audio": "../vox-privacy-boundary/mp3/beat-B13.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B14",
@@ -459,7 +459,7 @@
    "source_clip": "../vox-privacy-boundary/clips/B14.mp4",
    "source_audio": "../vox-privacy-boundary/mp3/beat-B14.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B15",
@@ -483,14 +483,14 @@
    "source_clip": "../vox-privacy-boundary/clips/B15.mp4",
    "source_audio": "../vox-privacy-boundary/mp3/beat-B15.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "NBB01",
    "act": "VERDICT",
    "title": "Liam verdict — ClaudeVerdictArtifact",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": "Let's recap with Claude. Here's what the body just demonstrated. Trusting the platform does not set the boundary. Trusting your own folder preparation does. The right question is not whether Claude is private. It is whether the folder, the files, and the actions you configured before the session are the ones that belong there. Privacy for agentic AI is a configuration question. Set the boundary before the session begins — what is in the folder is what Claude can see.",
    "shot": {
     "type": "CARD",
@@ -525,7 +525,7 @@
    "act": "YOUR TURN",
    "title": "Your turn handoff — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": "Take this prompt, run it on your own — pick any cancer type or clinical scenario you know about and ask how this mechanism applies there.",
    "shot": {
     "type": "CARD",
@@ -537,7 +537,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Why 'Claude is Private' Is Not the Privacy Question] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "Why 'Claude is Private' Is Not",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -585,8 +585,8 @@
    "silence_s": 6.0,
    "actual_duration_s": 6.03,
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "Why 'Claude is Private' Is Not the Privacy Question"
+   "voice": "am_puck",
+   "narration_text": "Why 'Claude is Private' Is Not the Privacy Question. From Musinique."
   }
  ]
 }

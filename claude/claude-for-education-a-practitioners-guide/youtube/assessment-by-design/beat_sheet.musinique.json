@@ -14,23 +14,23 @@
   "note": "Exclusions honored: NO specific AI detection tools by name, NO FERPA/legal detail, NO full five-pattern enumeration, NO equity surveillance section detail.",
   "total_estimated_duration_seconds": 177.97,
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "register": "Baldwin",
   "palette": "claude",
   "folderLabel": "@Musinique",
   "engine": "kokoro",
-  "voice": "am_onyx",
-  "voice_kokoro": "am_onyx",
+  "voice": "am_puck",
+  "voice_kokoro": "am_puck",
   "derived_from": "beat_sheet.json"
  },
  "beats": [
   {
    "beat_id": "B00",
    "act": "cold open",
-   "narration_text": "This is Liam for Musinique. Why AI Makes Assessment Cheat-Proof or Irrelevant — There Is No Middle Ground.",
+   "narration_text": "This is Musinique. Why AI Makes Assessment Cheat-Proof or Irrelevant — There Is No Middle Ground.",
    "tangent": false,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 8,
    "shot": {
@@ -39,7 +39,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Hei, Musinique",
-      "topic": "AI IN EDUCATION",
+      "topic": "MUSINIQUE · AI IN EDUCATION",
       "segment": "Why AI Makes Assessment Cheat-Proof or Irrelevant — There Is No Middle Ground",
       "command": "Why AI Makes Assessment Cheat-Proof or Irrelevant — There Is No Middle Ground",
       "runningText": "reading…",
@@ -51,7 +51,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B00.mp3",
+   "actual_duration_s": 6.55
   },
   {
    "beat_id": "B01",
@@ -70,16 +72,16 @@
    },
    "new_visual_element": "[TITLE] cheat-proof or irrelevant",
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 8.67,
+   "actual_duration_s": 9.15,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01B",
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "Your visual brand is your first handshake with a potential fan at a pitch meeting or on a playlist card. The same tools that auto-generate brand guidelines for a startup can generate yours — but only if you can read the output critically enough to know whether the result is your voice or a generic approximation of it. That critical read is not optional; it is the job.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -99,7 +101,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 19.41
   },
   {
    "beat_id": "B02",
@@ -115,9 +119,9 @@
    "image_prompt": "B02, university professor at a desk reviewing a tall stack of printed student essays, concerned expression, red pen in hand, one essay on top highlighted with a paper clip, warm desk lamp light, editorial documentary desaturated style, flat newsprint tone, no digital devices visible",
    "new_visual_element": "[STILL] professor reviewing essays with concern",
    "audio_file": "mp3/beat-B02.mp3",
-   "actual_duration_s": 19.64,
+   "actual_duration_s": 17.26,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B03",
@@ -135,9 +139,9 @@
    },
    "new_visual_element": "[CARD] THE QUESTION on screen",
    "audio_file": "mp3/beat-B03.mp3",
-   "actual_duration_s": 8.91,
+   "actual_duration_s": 9.0,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B04",
@@ -162,9 +166,9 @@
    },
    "new_visual_element": "[GRAPHIC] naive chain: AI ban -> detection -> valid assessment",
    "audio_file": "mp3/beat-B04.mp3",
-   "actual_duration_s": 11.31,
+   "actual_duration_s": 9.94,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B05",
@@ -190,9 +194,9 @@
    },
    "new_visual_element": "[GRAPHIC] gap opens — design never changed",
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 15.49,
+   "actual_duration_s": 13.76,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B06",
@@ -210,9 +214,9 @@
    },
    "new_visual_element": "[CARD] section — three design moves",
    "audio_file": "mp3/beat-B06.mp3",
-   "actual_duration_s": 16.67,
+   "actual_duration_s": 14.08,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B07",
@@ -237,9 +241,9 @@
    },
    "new_visual_element": "[GRAPHIC] three-stage timeline of design moves",
    "audio_file": "mp3/beat-B07.mp3",
-   "actual_duration_s": 16.07,
+   "actual_duration_s": 13.16,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B08",
@@ -265,9 +269,9 @@
    },
    "new_visual_element": "[GRAPHIC] general topic vs. novel case — contrast",
    "audio_file": "mp3/beat-B08.mp3",
-   "actual_duration_s": 11.7,
+   "actual_duration_s": 10.94,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B09",
@@ -293,9 +297,9 @@
    },
    "new_visual_element": "[GRAPHIC] oral check fork — engaged vs. substituted",
    "audio_file": "mp3/beat-B09.mp3",
-   "actual_duration_s": 16.9,
+   "actual_duration_s": 14.38,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B10",
@@ -314,9 +318,9 @@
    },
    "new_visual_element": "[CARD] quote — redesign vs. detection",
    "audio_file": "mp3/beat-B10.mp3",
-   "actual_duration_s": 12.67,
+   "actual_duration_s": 11.69,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B11",
@@ -341,9 +345,9 @@
    },
    "new_visual_element": "[GRAPHIC] the diagnostic question written on a notepad",
    "audio_file": "mp3/beat-B11.mp3",
-   "actual_duration_s": 21.68,
+   "actual_duration_s": 16.64,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B12",
@@ -368,15 +372,15 @@
    },
    "new_visual_element": "[GRAPHIC] repaired chain — design -> evidence -> validity",
    "audio_file": "mp3/beat-B12.mp3",
-   "actual_duration_s": 11.55,
+   "actual_duration_s": 10.79,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B13",
    "t_start": 143.0,
    "estimated_duration_s": 12.0,
-   "narration_text": "No middle ground: the assignment produces evidence of student thinking — or it doesn't. The design is the choice.",
+   "narration_text": "No middle ground: the assignment produces evidence of student thinking — or it doesn't. The design is the choice. From Musinique.",
    "shot": {
     "type": "CARD",
     "source": "own",
@@ -389,9 +393,9 @@
    },
    "new_visual_element": "[CARD] endcard — design produces evidence",
    "audio_file": "mp3/beat-B13.mp3",
-   "actual_duration_s": 7.687,
+   "actual_duration_s": 6.59,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   }
  ]
 }

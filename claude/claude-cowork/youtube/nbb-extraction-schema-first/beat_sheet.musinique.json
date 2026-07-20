@@ -26,7 +26,7 @@
   ],
   "built_at": "2026-07-16T23:03:59.711339",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
   "voice_kokoro": "am_puck"
@@ -49,7 +49,7 @@
      "version": "1",
      "props": {
       "command": "The 'CVS' versus 'CVS Pharmacy' split and the three totals that didn't match their receipts showed me a clean table can be confidently wrong, and that the schema has to fix vocabulary and missing-value rules up front. Before touching my own receipts I want the schema-first workflow. Take three sample receipts I'll paste and (1) propose column names with types and an exact fixed vocabulary for the category field, (2) define what to record when a value is missing, unreadable, or ambiguous, and (3) describe how you'll handle each field as a plan before extracting anything.",
-      "topic": "EXTRACTION SCHEMA · COWORK",
+      "topic": "MUSINIQUE · EXTRACTION SCHEMA · COWORK",
       "segment": "Extraction Schema First: Structure Confers Credibility",
       "greeting": "Hej, Musinique",
       "runningText": "explaining the mechanism…",
@@ -66,7 +66,7 @@
    },
    "estimated_duration_s": 9.0,
    "audio_file": "mp3/beat-NBB00.mp3",
-   "actual_duration_s": 5.355
+   "actual_duration_s": 30.55
   },
   {
    "beat_id": "B00",
@@ -90,8 +90,8 @@
     }
    },
    "estimated_duration_s": 17,
-   "audio_file": "../extraction-schema-first/mp3/beat-B00.mp3",
-   "actual_duration_s": 28.03,
+   "audio_file": "mp3/beat-B00.mp3",
+   "actual_duration_s": 27.61,
    "locked": true,
    "source_clip": "../extraction-schema-first/clips/B00.mp4",
    "source_audio": "../extraction-schema-first/mp3/beat-B00.mp3",
@@ -110,8 +110,8 @@
    "new_visual_element": "Structure credibility — clean table looks authoritative / wrong values pass review",
    "spark_line": "Clean table. Wrong values.",
    "estimated_duration_s": 12,
-   "audio_file": "../extraction-schema-first/mp3/beat-B01.mp3",
-   "actual_duration_s": 21.91,
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 20.22,
    "locked": true,
    "source_clip": "../extraction-schema-first/clips/B01.mp4",
    "source_audio": "../extraction-schema-first/mp3/beat-B01.mp3",
@@ -143,7 +143,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 19.09
   },
   {
    "beat_id": "B02",
@@ -157,8 +159,8 @@
    "new_visual_element": "Schema fields — column names / types / category vocabulary / missing value handling / ambiguity flag",
    "spark_line": "Define the schema first.",
    "estimated_duration_s": 13,
-   "audio_file": "../extraction-schema-first/mp3/beat-B02.mp3",
-   "actual_duration_s": 22.17,
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 19.84,
    "locked": true,
    "source_clip": "../extraction-schema-first/clips/B02.mp4",
    "source_audio": "../extraction-schema-first/mp3/beat-B02.mp3",
@@ -177,8 +179,8 @@
    "new_visual_element": "Plan-before-extract loop — schema + samples → extraction plan → approve → full run",
    "spark_line": "Plan on three. Run on forty.",
    "estimated_duration_s": 12,
-   "audio_file": "../extraction-schema-first/mp3/beat-B03.mp3",
-   "actual_duration_s": 20.57,
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 18.92,
    "locked": true,
    "source_clip": "../extraction-schema-first/clips/B03.mp4",
    "source_audio": "../extraction-schema-first/mp3/beat-B03.mp3",
@@ -197,8 +199,8 @@
    "new_visual_element": "Artifact view — schema first / plan on samples / reconcile sum vs. independent total",
    "spark_line": "Reconcile. Discrepancy is information.",
    "estimated_duration_s": 12,
-   "audio_file": "../extraction-schema-first/mp3/beat-B04.mp3",
-   "actual_duration_s": 25.92,
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 23.32,
    "locked": true,
    "source_clip": "../extraction-schema-first/clips/B04.mp4",
    "source_audio": "../extraction-schema-first/mp3/beat-B04.mp3",
@@ -227,8 +229,8 @@
     }
    },
    "estimated_duration_s": 9,
-   "audio_file": "../extraction-schema-first/mp3/beat-B05.mp3",
-   "actual_duration_s": 4.39,
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 4.12,
    "locked": true,
    "source_clip": "../extraction-schema-first/clips/B05.mp4",
    "source_audio": "../extraction-schema-first/mp3/beat-B05.mp3",
@@ -267,7 +269,7 @@
    },
    "estimated_duration_s": 30.0,
    "audio_file": "mp3/beat-NBB01.mp3",
-   "actual_duration_s": 30.827,
+   "actual_duration_s": 30.06,
    "lead_silence_s": 0.5
   },
   {
@@ -287,7 +289,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Extraction Schema First: Structure Confers Credibility] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "EXTRACTION SCHEMA · COWORK",
+      "topic": "MUSINIQUE · EXTRACTION SCHEMA · COWORK",
       "segment": "Extraction Schema First: Structure Confers Credibility",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -304,7 +306,7 @@
    },
    "estimated_duration_s": 8.0,
    "audio_file": "mp3/beat-NBB02.mp3",
-   "actual_duration_s": 7.765
+   "actual_duration_s": 8.3
   },
   {
    "beat_id": "NBB03",
@@ -333,10 +335,10 @@
    "estimated_duration_s": 6.0,
    "audio_file": "mp3/beat-NBB03.mp3",
    "silence_s": 6.0,
-   "actual_duration_s": 6.03,
+   "actual_duration_s": 3.52,
    "engine": "kokoro",
    "voice": "am_puck",
-   "narration_text": "Extraction Schema First: Structure Confers Credibility"
+   "narration_text": "Extraction Schema First: Structure Confers Credibility. From Musinique."
   }
  ]
 }

@@ -7,7 +7,7 @@
   "audience": "Claude",
   "brand": "claude-musinique",
   "engine": "kokoro",
-  "voice_kokoro": "am_onyx",
+  "voice_kokoro": "am_puck",
   "palette": "claude",
   "greeting": "Konnichiwa, Liam",
   "folderLabel": "@Musinique",
@@ -48,15 +48,15 @@
     "B06: palette=claude but the outro is 'un-annotated' — OUTRO LAW wants ClaudeTitleOutro"
    ]
   },
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
-  "voice": "am_onyx"
+  "voice": "am_puck"
  },
  "beats": [
   {
    "beat_id": "B00",
    "act": "ASK",
-   "narration_text": "This is Liam for Musinique. She asked Claude to draft a UDL choice board for her argument writing unit — three ways students could demonstrate understanding. Three options arrived: a written essay, a recorded presentation, and an annotated concept map. She published it. By week three, almost every student was choosing the concept map. The map was shorter and less demanding than the other two. The choice board had reproduced the problem it was supposed to solve.",
+   "narration_text": "This is Musinique. She asked Claude to draft a UDL choice board for her argument writing unit — three ways students could demonstrate understanding. Three options arrived: a written essay, a recorded presentation, and an annotated concept map. She published it. By week three, almost every student was choosing the concept map. The map was shorter and less demanding than the other two. The choice board had reproduced the problem it was supposed to solve.",
    "shot": {
     "type": "REMOTION",
     "source": "own",
@@ -76,7 +76,7 @@
    },
    "estimated_duration_s": 16,
    "audio_file": "mp3/beat-B00.mp3",
-   "actual_duration_s": 22.31,
+   "actual_duration_s": 22.36,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -85,7 +85,7 @@
     "needs": "PIPELINE → fill_slates/remotion_scenes for B00"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01",
@@ -109,14 +109,14 @@
     "needs": "PIPELINE → fill_slates/remotion_scenes for B01"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01B",
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "The playlist curator who emails you 'guaranteed placement for $300' is betting you won't check. You can check in sixty seconds: paste the pitch into Claude with the right prompt, and ask it to cross-reference the playlist's follower-to-stream ratio. The scam doesn't survive the audit. You just have to run it.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -136,7 +136,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 16.38
   },
   {
    "beat_id": "B02",
@@ -160,7 +162,7 @@
     "needs": "PIPELINE → fill_slates/remotion_scenes for B02"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B03",
@@ -184,7 +186,7 @@
     "needs": "PIPELINE → fill_slates/remotion_scenes for B03"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B04",
@@ -208,7 +210,7 @@
     "needs": "PIPELINE → fill_slates/remotion_scenes for B04"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B05",
@@ -242,7 +244,7 @@
     "needs": "PIPELINE → fill_slates/remotion_scenes for B05"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B06",
@@ -264,7 +266,7 @@
    },
    "estimated_duration_s": 5,
    "audio_file": "mp3/beat-B06.mp3",
-   "actual_duration_s": 5.82,
+   "actual_duration_s": 5.14,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -273,7 +275,7 @@
     "needs": "PIPELINE → fill_slates/remotion_scenes for B06"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   }
  ]
 }

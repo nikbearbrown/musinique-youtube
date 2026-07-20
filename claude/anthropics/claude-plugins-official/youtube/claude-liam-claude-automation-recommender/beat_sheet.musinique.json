@@ -27,7 +27,7 @@
    "slates": [],
    "skin_warnings": []
   },
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "derived_from": "beat_sheet.json"
  },
  "beats": [
@@ -44,7 +44,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Salaam, Musinique",
-      "topic": "CLAUDE AUTOMATION RECOMMENDER · CLAUDE PLUGIN",
+      "topic": "MUSINIQUE · CLAUDE AUTOMATION RECOMMENDER · CLAUDE PLUGIN",
       "segment": "CLAUDE CODE SETUP",
       "command": "Analyze my codebase and recommend Claude Code automations.",
       "runningText": "reading claude-automation-recommender SKILL.md…",
@@ -64,7 +64,7 @@
     }
    },
    "audio_file": "mp3/beat-B00.mp3",
-   "actual_duration_s": 32.34,
+   "actual_duration_s": 29.18,
    "build": {
     "status": "VIDEO",
     "src": "media/B00.mp4",
@@ -93,7 +93,7 @@
     }
    },
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 57.15,
+   "actual_duration_s": 52.46,
    "build": {
     "status": "VIDEO",
     "src": "media/B01.mp4",
@@ -126,7 +126,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 17.66
   },
   {
    "beat_id": "B02",
@@ -149,7 +151,7 @@
     }
    },
    "audio_file": "mp3/beat-B02.mp3",
-   "actual_duration_s": 57.77,
+   "actual_duration_s": 53.87,
    "build": {
     "status": "VIDEO",
     "src": "media/B02.mp4",
@@ -178,7 +180,7 @@
     }
    },
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 80.53,
+   "actual_duration_s": 75.97,
    "build": {
     "status": "VIDEO",
     "src": "media/B05.mp4",
@@ -216,7 +218,7 @@
     }
    },
    "audio_file": "mp3/beat-BVDT.mp3",
-   "actual_duration_s": 35.07,
+   "actual_duration_s": 33.58,
    "build": {
     "status": "VIDEO",
     "src": "media/BVDT.mp4",
@@ -237,7 +239,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Your Turn",
-      "topic": "CLAUDE AUTOMATION RECOMMENDER · HANDOFF",
+      "topic": "MUSINIQUE · CLAUDE AUTOMATION RECOMMENDER · HANDOFF",
       "segment": "CLAUDE CODE SETUP",
       "command": "Analyze this React TypeScript codebase and recommend Claude Code automations.",
       "runningText": "Watch: Phase 1 first? context7 for React? 1-2 per category? hook vs subagent?",
@@ -257,7 +259,7 @@
     }
    },
    "audio_file": "mp3/beat-BHTF.mp3",
-   "actual_duration_s": 39.53,
+   "actual_duration_s": 37.53,
    "build": {
     "status": "VIDEO",
     "src": "media/BHTF.mp4",
@@ -288,7 +290,7 @@
     }
    },
    "audio_file": "mp3/beat-BOUT.mp3",
-   "actual_duration_s": 3.69,
+   "actual_duration_s": 2.43,
    "build": {
     "status": "VIDEO",
     "src": "media/BOUT.mp4",

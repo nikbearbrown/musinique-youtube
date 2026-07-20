@@ -6,7 +6,7 @@
   "topic": "CLAUDE COWORK",
   "audience": "NikBearBrown",
   "engine": "kokoro",
-  "voice": "am_onyx",
+  "voice": "am_puck",
   "palette": "claude",
   "register": "Baldwin",
   "derived_from": "beat_sheet.json",
@@ -35,10 +35,10 @@
   ],
   "built_at": "2026-07-16T23:17:36.203609",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
-  "voice_kokoro": "am_onyx"
+  "voice_kokoro": "am_puck"
  },
  "beats": [
   {
@@ -46,8 +46,8 @@
    "act": "COLD OPEN",
    "title": "Liam cold open — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "This is Liam for Musinique. The split between form and safety landed hard: the six numbered steps read fluently, yet step four renamed everything with no backup and step five deleted 'duplicates' with no dry run. I want to test my own plans against that gap rather than trust clean prose. Take a plan I'll paste and (1) mark each step reversible or irreversible independent of how well it reads, (2) list the safety elements it's missing, like a backup before deletion or a dry run, and (3) rewrite the irreversible steps so the recovery path comes first.",
+   "voice": "am_puck",
+   "narration_text": "This is Musinique. The split between form and safety landed hard: the six numbered steps read fluently, yet step four renamed everything with no backup and step five deleted 'duplicates' with no dry run. I want to test my own plans against that gap rather than trust clean prose. Take a plan I'll paste and (1) mark each step reversible or irreversible independent of how well it reads, (2) list the safety elements it's missing, like a backup before deletion or a dry run, and (3) rewrite the irreversible steps so the recovery path comes first.",
    "shot": {
     "type": "CARD",
     "source": "remotion",
@@ -58,7 +58,7 @@
      "version": "1",
      "props": {
       "command": "The split between form and safety landed hard: the six numbered steps read fluently, yet step four renamed everything with no backup and step five deleted 'duplicates' with no dry run. I want to test my own plans against that gap rather than trust clean prose. Take a plan I'll paste and (1) mark each step reversible or irreversible independent of how well it reads, (2) list the safety elements it's missing, like a backup before deletion or a dry run, and (3) rewrite the irreversible steps so the recovery path comes first.",
-      "topic": "CLAUDE COWORK",
+      "topic": "MUSINIQUE · CLAUDE COWORK",
       "segment": "Why a Plan That Reads Perfectly",
       "greeting": "Halo, Musinique",
       "runningText": "explaining the mechanism…",
@@ -75,7 +75,7 @@
    },
    "estimated_duration_s": 9.0,
    "audio_file": "mp3/beat-NBB00.mp3",
-   "actual_duration_s": 6.485
+   "actual_duration_s": 30.06
   },
   {
    "beat_id": "B01",
@@ -94,20 +94,20 @@
     "sub": "coherence is not safety"
    },
    "new_visual_element": "[TITLE] coherent unsafe",
-   "audio_file": "../vox-coherent-unsafe/mp3/beat-B01.mp3",
-   "actual_duration_s": 8.49,
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 8.73,
    "locked": true,
    "source_clip": "../vox-coherent-unsafe/clips/B01.mp4",
    "source_audio": "../vox-coherent-unsafe/mp3/beat-B01.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01B",
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "The playlist curator who emails you 'guaranteed placement for $300' is betting you won't check. You can check in sixty seconds: paste the pitch into Claude with the right prompt, and ask it to cross-reference the playlist's follower-to-stream ratio. The scam doesn't survive the audit. You just have to run it.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -127,7 +127,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 16.38
   },
   {
    "beat_id": "B02",
@@ -146,13 +148,13 @@
     0.4
    ],
    "new_visual_element": "[PHOTO] clean numbered plan document",
-   "audio_file": "../vox-coherent-unsafe/mp3/beat-B02.mp3",
-   "actual_duration_s": 7.89,
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 7.83,
    "locked": true,
    "source_clip": "../vox-coherent-unsafe/clips/B02.mp4",
    "source_audio": "../vox-coherent-unsafe/mp3/beat-B02.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B03",
@@ -170,13 +172,13 @@
     "highlight_words": "Why?"
    },
    "new_visual_element": "[QUESTION] gap formula on screen",
-   "audio_file": "../vox-coherent-unsafe/mp3/beat-B03.mp3",
-   "actual_duration_s": 11.18,
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 9.9,
    "locked": true,
    "source_clip": "../vox-coherent-unsafe/clips/B03.mp4",
    "source_audio": "../vox-coherent-unsafe/mp3/beat-B03.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B04",
@@ -196,13 +198,13 @@
     "note": "the plan as it reads — looks clean"
    },
    "new_visual_element": "[GRAPHIC] six-step plan (clean)",
-   "audio_file": "../vox-coherent-unsafe/mp3/beat-B04.mp3",
-   "actual_duration_s": 5.69,
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 5.44,
    "locked": true,
    "source_clip": "../vox-coherent-unsafe/clips/B04.mp4",
    "source_audio": "../vox-coherent-unsafe/mp3/beat-B04.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B05",
@@ -222,13 +224,13 @@
     "note": "reveal: steps 4-5 are irreversible"
    },
    "new_visual_element": "[GRAPHIC] steps 4-5 revealed as irreversible",
-   "audio_file": "../vox-coherent-unsafe/mp3/beat-B05.mp3",
-   "actual_duration_s": 10.81,
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 9.51,
    "locked": true,
    "source_clip": "../vox-coherent-unsafe/clips/B05.mp4",
    "source_audio": "../vox-coherent-unsafe/mp3/beat-B05.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B06",
@@ -246,13 +248,13 @@
     "sub": "coherence is not safety"
    },
    "new_visual_element": "[SECTION] THE MECHANISM",
-   "audio_file": "../vox-coherent-unsafe/mp3/beat-B06.mp3",
-   "actual_duration_s": 1.07,
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 1.15,
    "locked": true,
    "source_clip": "../vox-coherent-unsafe/clips/B06.mp4",
    "source_audio": "../vox-coherent-unsafe/mp3/beat-B06.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B07",
@@ -272,13 +274,13 @@
     "note": "form and safety are orthogonal"
    },
    "new_visual_element": "[GRAPHIC] form vs safety — orthogonal",
-   "audio_file": "../vox-coherent-unsafe/mp3/beat-B07.mp3",
-   "actual_duration_s": 9.38,
+   "audio_file": "mp3/beat-B07.mp3",
+   "actual_duration_s": 8.81,
    "locked": true,
    "source_clip": "../vox-coherent-unsafe/clips/B07.mp4",
    "source_audio": "../vox-coherent-unsafe/mp3/beat-B07.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B08",
@@ -296,13 +298,13 @@
     "highlight_words": "cannot"
    },
    "new_visual_element": "[QUOTE] format cannot tell you",
-   "audio_file": "../vox-coherent-unsafe/mp3/beat-B08.mp3",
-   "actual_duration_s": 9.8,
+   "audio_file": "mp3/beat-B08.mp3",
+   "actual_duration_s": 9.62,
    "locked": true,
    "source_clip": "../vox-coherent-unsafe/clips/B08.mp4",
    "source_audio": "../vox-coherent-unsafe/mp3/beat-B08.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B09",
@@ -322,13 +324,13 @@
     "note": "the invisible missing step"
    },
    "new_visual_element": "[GRAPHIC] missing safety step invisible in format",
-   "audio_file": "../vox-coherent-unsafe/mp3/beat-B09.mp3",
-   "actual_duration_s": 12.72,
+   "audio_file": "mp3/beat-B09.mp3",
+   "actual_duration_s": 11.37,
    "locked": true,
    "source_clip": "../vox-coherent-unsafe/clips/B09.mp4",
    "source_audio": "../vox-coherent-unsafe/mp3/beat-B09.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B10",
@@ -347,13 +349,13 @@
     0.4
    ],
    "new_visual_element": "[PHOTO] clean folder hiding deleted files",
-   "audio_file": "../vox-coherent-unsafe/mp3/beat-B10.mp3",
-   "actual_duration_s": 3.34,
+   "audio_file": "mp3/beat-B10.mp3",
+   "actual_duration_s": 3.82,
    "locked": true,
    "source_clip": "../vox-coherent-unsafe/clips/B10.mp4",
    "source_audio": "../vox-coherent-unsafe/mp3/beat-B10.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B11",
@@ -373,13 +375,13 @@
     "note": "THE EXAMPLE — the deleted irreplaceable file"
    },
    "new_visual_element": "[GRAPHIC] deleted application version",
-   "audio_file": "../vox-coherent-unsafe/mp3/beat-B11.mp3",
-   "actual_duration_s": 14.24,
+   "audio_file": "mp3/beat-B11.mp3",
+   "actual_duration_s": 12.37,
    "locked": true,
    "source_clip": "../vox-coherent-unsafe/clips/B11.mp4",
    "source_audio": "../vox-coherent-unsafe/mp3/beat-B11.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B12",
@@ -399,13 +401,13 @@
     "note": "THE EXAMPLE continued — step 5 indistinguishable by format"
    },
    "new_visual_element": "[GRAPHIC] step 5 looks like all others",
-   "audio_file": "../vox-coherent-unsafe/mp3/beat-B12.mp3",
-   "actual_duration_s": 9.43,
+   "audio_file": "mp3/beat-B12.mp3",
+   "actual_duration_s": 8.17,
    "locked": true,
    "source_clip": "../vox-coherent-unsafe/clips/B12.mp4",
    "source_audio": "../vox-coherent-unsafe/mp3/beat-B12.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B13",
@@ -423,13 +425,13 @@
     "highlight_words": "safe"
    },
    "new_visual_element": "[QUOTE] coherent is not safe",
-   "audio_file": "../vox-coherent-unsafe/mp3/beat-B13.mp3",
-   "actual_duration_s": 4.6,
+   "audio_file": "mp3/beat-B13.mp3",
+   "actual_duration_s": 4.99,
    "locked": true,
    "source_clip": "../vox-coherent-unsafe/clips/B13.mp4",
    "source_audio": "../vox-coherent-unsafe/mp3/beat-B13.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B14",
@@ -447,20 +449,20 @@
     "sub": "CLAUDE COWORK"
    },
    "new_visual_element": "[ENDCARD] coherent is not safe",
-   "audio_file": "../vox-coherent-unsafe/mp3/beat-B14.mp3",
-   "actual_duration_s": 2.32,
+   "audio_file": "mp3/beat-B14.mp3",
+   "actual_duration_s": 2.88,
    "locked": true,
    "source_clip": "../vox-coherent-unsafe/clips/B14.mp4",
    "source_audio": "../vox-coherent-unsafe/mp3/beat-B14.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "NBB01",
    "act": "VERDICT",
    "title": "Liam verdict — ClaudeVerdictArtifact",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": "Let's recap with Claude. Here's what the body just demonstrated. A coherent plan is not a safe plan. The format does not know the difference. A coherent plan is not a safe plan.",
    "shot": {
     "type": "CARD",
@@ -487,7 +489,7 @@
    },
    "estimated_duration_s": 30.0,
    "audio_file": "mp3/beat-NBB01.mp3",
-   "actual_duration_s": 9.088,
+   "actual_duration_s": 10.15,
    "lead_silence_s": 0.5
   },
   {
@@ -495,7 +497,7 @@
    "act": "YOUR TURN",
    "title": "Your turn handoff — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": "Take this prompt, run it on your own — pick any cancer type or clinical scenario you know about and ask how this mechanism applies there.",
    "shot": {
     "type": "CARD",
@@ -507,7 +509,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Why a Plan That Reads Perfectly Can Still Delete Your Files] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "CLAUDE COWORK",
+      "topic": "MUSINIQUE · CLAUDE COWORK",
       "segment": "Why a Plan That Reads Perfectly",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -524,7 +526,7 @@
    },
    "estimated_duration_s": 8.0,
    "audio_file": "mp3/beat-NBB02.mp3",
-   "actual_duration_s": 7.765
+   "actual_duration_s": 7.81
   },
   {
    "beat_id": "NBB03",
@@ -553,10 +555,10 @@
    "estimated_duration_s": 6.0,
    "audio_file": "mp3/beat-NBB03.mp3",
    "silence_s": 6.0,
-   "actual_duration_s": 6.03,
+   "actual_duration_s": 3.93,
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "Why a Plan That Reads Perfectly Can Still Delete Your Files"
+   "voice": "am_puck",
+   "narration_text": "Why a Plan That Reads Perfectly Can Still Delete Your Files. From Musinique."
   }
  ]
 }

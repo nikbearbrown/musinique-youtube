@@ -31,7 +31,7 @@
   ],
   "built_at": "2026-07-16T23:26:37.890446",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
   "voice_kokoro": "am_puck"
@@ -54,7 +54,7 @@
      "version": "1",
      "props": {
       "command": "The part that unsettled me is that read-only still leaked a never-sent draft email, because the connector granted the whole Google Drive account while I only meant three PDFs. I want to actually see that gap for my own setup rather than trust it in the abstract. Help me (1) list every category of item a read-only Drive connection can reach beyond my three intended files, (2) describe a concrete way to narrow the granted scope down to just those files or their folder, and (3) write a check I can run to confirm the summary quoted nothing outside that intended scope.",
-      "topic": "CLAUDE COWORK",
+      "topic": "MUSINIQUE · CLAUDE COWORK",
       "segment": "Why Read-Only Access Still Leaks",
       "greeting": "Merhaba, Musinique",
       "runningText": "explaining the mechanism…",
@@ -71,7 +71,7 @@
    },
    "estimated_duration_s": 9.0,
    "audio_file": "mp3/beat-NBB00.mp3",
-   "actual_duration_s": 6.528
+   "actual_duration_s": 31.36
   },
   {
    "beat_id": "B01",
@@ -90,8 +90,8 @@
     "sub": "intended scope ≠ granted scope"
    },
    "new_visual_element": "[TITLE] scope gap",
-   "audio_file": "../vox-scope-gap/mp3/beat-B01.mp3",
-   "actual_duration_s": 6.53,
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 7.47,
    "locked": true,
    "source_clip": "../vox-scope-gap/clips/B01.mp4",
    "source_audio": "../vox-scope-gap/mp3/beat-B01.mp3",
@@ -123,7 +123,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 19.09
   },
   {
    "beat_id": "B02",
@@ -142,8 +144,8 @@
     0.4
    ],
    "new_visual_element": "[PHOTO] cloud drive — many files",
-   "audio_file": "../vox-scope-gap/mp3/beat-B02.mp3",
-   "actual_duration_s": 8.18,
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 8.68,
    "locked": true,
    "source_clip": "../vox-scope-gap/clips/B02.mp4",
    "source_audio": "../vox-scope-gap/mp3/beat-B02.mp3",
@@ -166,8 +168,8 @@
     "highlight_words": "Why?"
    },
    "new_visual_element": "[QUESTION] gap formula on screen",
-   "audio_file": "../vox-scope-gap/mp3/beat-B03.mp3",
-   "actual_duration_s": 8.96,
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 9.58,
    "locked": true,
    "source_clip": "../vox-scope-gap/clips/B03.mp4",
    "source_audio": "../vox-scope-gap/mp3/beat-B03.mp3",
@@ -192,8 +194,8 @@
     "note": "the scope gap — intended vs granted"
    },
    "new_visual_element": "[GRAPHIC] nested scope circles",
-   "audio_file": "../vox-scope-gap/mp3/beat-B04.mp3",
-   "actual_duration_s": 12.02,
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 11.84,
    "locked": true,
    "source_clip": "../vox-scope-gap/clips/B04.mp4",
    "source_audio": "../vox-scope-gap/mp3/beat-B04.mp3",
@@ -216,8 +218,8 @@
     "sub": "read access = read everything in scope"
    },
    "new_visual_element": "[SECTION] THE MECHANISM",
-   "audio_file": "../vox-scope-gap/mp3/beat-B05.mp3",
-   "actual_duration_s": 1.02,
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 0.98,
    "locked": true,
    "source_clip": "../vox-scope-gap/clips/B05.mp4",
    "source_audio": "../vox-scope-gap/mp3/beat-B05.mp3",
@@ -242,8 +244,8 @@
     "note": "the gap region feeds the leak"
    },
    "new_visual_element": "[GRAPHIC] gap feeds the leak",
-   "audio_file": "../vox-scope-gap/mp3/beat-B06.mp3",
-   "actual_duration_s": 15.12,
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 15.21,
    "locked": true,
    "source_clip": "../vox-scope-gap/clips/B06.mp4",
    "source_audio": "../vox-scope-gap/mp3/beat-B06.mp3",
@@ -266,8 +268,8 @@
     "highlight_words": "everything"
    },
    "new_visual_element": "[QUOTE] read everything in scope",
-   "audio_file": "../vox-scope-gap/mp3/beat-B07.mp3",
-   "actual_duration_s": 10.21,
+   "audio_file": "mp3/beat-B07.mp3",
+   "actual_duration_s": 11.33,
    "locked": true,
    "source_clip": "../vox-scope-gap/clips/B07.mp4",
    "source_audio": "../vox-scope-gap/mp3/beat-B07.mp3",
@@ -292,8 +294,8 @@
     "note": "THE EXAMPLE — draft email leaks into output"
    },
    "new_visual_element": "[GRAPHIC] draft email leaks",
-   "audio_file": "../vox-scope-gap/mp3/beat-B08.mp3",
-   "actual_duration_s": 18.1,
+   "audio_file": "mp3/beat-B08.mp3",
+   "actual_duration_s": 16.62,
    "locked": true,
    "source_clip": "../vox-scope-gap/clips/B08.mp4",
    "source_audio": "../vox-scope-gap/mp3/beat-B08.mp3",
@@ -316,8 +318,8 @@
     "highlight_words": "gap"
    },
    "new_visual_element": "[QUOTE] leak was the gap",
-   "audio_file": "../vox-scope-gap/mp3/beat-B09.mp3",
-   "actual_duration_s": 5.69,
+   "audio_file": "mp3/beat-B09.mp3",
+   "actual_duration_s": 5.44,
    "locked": true,
    "source_clip": "../vox-scope-gap/clips/B09.mp4",
    "source_audio": "../vox-scope-gap/mp3/beat-B09.mp3",
@@ -340,8 +342,8 @@
     "sub": "CLAUDE COWORK"
    },
    "new_visual_element": "[ENDCARD] safe for the right scope",
-   "audio_file": "../vox-scope-gap/mp3/beat-B10.mp3",
-   "actual_duration_s": 4.13,
+   "audio_file": "mp3/beat-B10.mp3",
+   "actual_duration_s": 4.71,
    "locked": true,
    "source_clip": "../vox-scope-gap/clips/B10.mp4",
    "source_audio": "../vox-scope-gap/mp3/beat-B10.mp3",
@@ -380,7 +382,7 @@
    },
    "estimated_duration_s": 30.0,
    "audio_file": "mp3/beat-NBB01.mp3",
-   "actual_duration_s": 11.669,
+   "actual_duration_s": 14.12,
    "lead_silence_s": 0.5
   },
   {
@@ -400,7 +402,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Why Read-Only Access Still Leaks] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "CLAUDE COWORK",
+      "topic": "MUSINIQUE · CLAUDE COWORK",
       "segment": "Why Read-Only Access Still Leaks",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -417,7 +419,7 @@
    },
    "estimated_duration_s": 8.0,
    "audio_file": "mp3/beat-NBB02.mp3",
-   "actual_duration_s": 7.765
+   "actual_duration_s": 8.3
   },
   {
    "beat_id": "NBB03",
@@ -446,10 +448,10 @@
    "estimated_duration_s": 6.0,
    "audio_file": "mp3/beat-NBB03.mp3",
    "silence_s": 6.0,
-   "actual_duration_s": 6.03,
+   "actual_duration_s": 1.92,
    "engine": "kokoro",
    "voice": "am_puck",
-   "narration_text": "Why Read-Only Access Still Leaks"
+   "narration_text": "Why Read-Only Access Still Leaks. From Musinique."
   }
  ]
 }

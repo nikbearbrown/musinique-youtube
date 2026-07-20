@@ -48,7 +48,7 @@
     "B06: palette=claude but the outro is 'un-annotated' — OUTRO LAW wants ClaudeTitleOutro"
    ]
   },
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "voice": "am_puck"
  },
@@ -76,7 +76,7 @@
    },
    "estimated_duration_s": 16,
    "audio_file": "mp3/beat-B00.mp3",
-   "actual_duration_s": 22.17,
+   "actual_duration_s": 19.2,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -100,7 +100,7 @@
    "spark_line": "Adversarial read first.",
    "estimated_duration_s": 13,
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 22.21,
+   "actual_duration_s": 20.03,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -136,7 +136,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 16.06
   },
   {
    "beat_id": "B02",
@@ -151,7 +153,7 @@
    "spark_line": "Honest adversarial reader.",
    "estimated_duration_s": 13,
    "audio_file": "mp3/beat-B02.mp3",
-   "actual_duration_s": 22.98,
+   "actual_duration_s": 19.93,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -175,7 +177,7 @@
    "spark_line": "Build in process evidence.",
    "estimated_duration_s": 13,
    "audio_file": "mp3/beat-B03.mp3",
-   "actual_duration_s": 25.0,
+   "actual_duration_s": 22.81,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -199,7 +201,7 @@
    "spark_line": "Remove the shortcut.",
    "estimated_duration_s": 13,
    "audio_file": "mp3/beat-B04.mp3",
-   "actual_duration_s": 21.74,
+   "actual_duration_s": 19.67,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -233,7 +235,7 @@
    },
    "estimated_duration_s": 9,
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 3.46,
+   "actual_duration_s": 2.69,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -264,7 +266,7 @@
    },
    "estimated_duration_s": 5,
    "audio_file": "mp3/beat-B06.mp3",
-   "actual_duration_s": 4.91,
+   "actual_duration_s": 4.14,
    "build": {
     "status": "SLATE",
     "src": null,

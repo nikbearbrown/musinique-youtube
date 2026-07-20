@@ -51,7 +51,7 @@
    ]
   },
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
   "voice": "am_puck"
@@ -71,7 +71,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Kumusta, Musinique",
-      "topic": "CLAUDE COWORK",
+      "topic": "MUSINIQUE · CLAUDE COWORK",
       "segment": "Why a Perfect-Looking Spreadsheet Can Be Off by a Factor of Ten",
       "command": "Why a Perfect-Looking Spreadsheet Can Be Off by a Factor of Ten",
       "runningText": "reading…",
@@ -83,7 +83,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B00.mp3",
+   "actual_duration_s": 4.74
   },
   {
    "beat_id": "B01",
@@ -103,7 +105,7 @@
    },
    "new_visual_element": "[TITLE] CLAUDE COWORK eyebrow, factor-of-ten title",
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 8.77,
+   "actual_duration_s": 8.62,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -139,7 +141,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 19.09
   },
   {
    "beat_id": "B02",
@@ -173,7 +177,7 @@
    ],
    "new_visual_element": "[PHOTO] the flawless spreadsheet",
    "audio_file": "mp3/beat-B02.mp3",
-   "actual_duration_s": 8.51,
+   "actual_duration_s": 9.0,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -202,7 +206,7 @@
    },
    "new_visual_element": "[QUESTION] gap formula on screen",
    "audio_file": "mp3/beat-B03.mp3",
-   "actual_duration_s": 8.09,
+   "actual_duration_s": 9.02,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -233,7 +237,7 @@
    },
    "new_visual_element": "[GRAPHIC] two cells same format, different values",
    "audio_file": "mp3/beat-B04.mp3",
-   "actual_duration_s": 9.71,
+   "actual_duration_s": 10.52,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -263,7 +267,7 @@
    },
    "new_visual_element": "[GRAPHIC] two-step pipeline",
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 8.51,
+   "actual_duration_s": 9.47,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -291,7 +295,7 @@
    },
    "new_visual_element": "[SECTION] THE MECHANISM",
    "audio_file": "mp3/beat-B06.mp3",
-   "actual_duration_s": 1.15,
+   "actual_duration_s": 0.98,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -322,7 +326,7 @@
    },
    "new_visual_element": "[GRAPHIC] read fails, format still produces clean cell",
    "audio_file": "mp3/beat-B07.mp3",
-   "actual_duration_s": 8.43,
+   "actual_duration_s": 9.05,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -352,7 +356,7 @@
    },
    "new_visual_element": "[GRAPHIC] Unknown Merchant cloned to 4 rows",
    "audio_file": "mp3/beat-B08.mp3",
-   "actual_duration_s": 9.71,
+   "actual_duration_s": 10.65,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -380,7 +384,7 @@
    },
    "new_visual_element": "[QUOTE] structure confers credibility",
    "audio_file": "mp3/beat-B09.mp3",
-   "actual_duration_s": 9.86,
+   "actual_duration_s": 11.03,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -424,7 +428,7 @@
    ],
    "new_visual_element": "[PHOTO] person trusting the format",
    "audio_file": "mp3/beat-B10.mp3",
-   "actual_duration_s": 8.79,
+   "actual_duration_s": 9.56,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -455,7 +459,7 @@
    },
    "new_visual_element": "[GRAPHIC] row 23 error vs source (illustrative)",
    "audio_file": "mp3/beat-B11.mp3",
-   "actual_duration_s": 11.65,
+   "actual_duration_s": 12.69,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -485,7 +489,7 @@
    },
    "new_visual_element": "[GRAPHIC] 47 rows, 5 checked, 2 errors, 42 unchecked",
    "audio_file": "mp3/beat-B12.mp3",
-   "actual_duration_s": 8.15,
+   "actual_duration_s": 8.9,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -513,7 +517,7 @@
    },
    "new_visual_element": "[ENDCARD] clean format does not mean correct data",
    "audio_file": "mp3/beat-B13.mp3",
-   "actual_duration_s": 6.78,
+   "actual_duration_s": 7.04,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -553,7 +557,7 @@
    },
    "estimated_duration_s": 6,
    "audio_file": "mp3/beat-B14.mp3",
-   "actual_duration_s": 2.52,
+   "actual_duration_s": 1.66,
    "build": {
     "status": "VIDEO",
     "src": "media/B14.mp4",
@@ -568,7 +572,7 @@
    "act": "OUTRO",
    "type": "GRAPHIC",
    "name": "OutroCTA",
-   "narration_text": "Like and subscribe for more.",
+   "narration_text": "Like and subscribe for more. From Musinique.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
@@ -591,7 +595,7 @@
    },
    "estimated_duration_s": 5,
    "audio_file": "mp3/beat-B15.mp3",
-   "actual_duration_s": 2.37,
+   "actual_duration_s": 1.58,
    "build": {
     "status": "VIDEO",
     "src": "media/B15.mp4",

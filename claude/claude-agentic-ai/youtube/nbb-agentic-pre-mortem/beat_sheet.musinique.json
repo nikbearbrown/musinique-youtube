@@ -6,7 +6,7 @@
   "topic": "AGENTIC AI",
   "audience": "NikBearBrown",
   "engine": "kokoro",
-  "voice": "am_onyx",
+  "voice": "am_puck",
   "palette": "claude",
   "register": "Baldwin",
   "derived_from": "beat_sheet.json",
@@ -29,10 +29,10 @@
   ],
   "built_at": "2026-07-17T00:15:42.207470",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
-  "voice_kokoro": "am_onyx"
+  "voice_kokoro": "am_puck"
  },
  "beats": [
   {
@@ -40,8 +40,8 @@
    "act": "COLD OPEN",
    "title": "Liam cold open — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "This is Liam for Musinique. The email-drafting example showed three modes going live at once, and swapping 'save to drafts' for 'send directly' escalated irreversible action to the highest risk. I want to run this on a real task of mine. Help me: (1) name all eight failure modes so I can score my calendar-invite agent; (2) mark which are live and explain why for each; (3) write one concrete prevention step per live mode that is stronger than 'be careful.'",
+   "voice": "am_puck",
+   "narration_text": "This is Musinique. The email-drafting example showed three modes going live at once, and swapping 'save to drafts' for 'send directly' escalated irreversible action to the highest risk. I want to run this on a real task of mine. Help me: (1) name all eight failure modes so I can score my calendar-invite agent; (2) mark which are live and explain why for each; (3) write one concrete prevention step per live mode that is stronger than 'be careful.'",
    "shot": {
     "type": "CARD",
     "source": "remotion",
@@ -52,7 +52,7 @@
      "version": "1",
      "props": {
       "command": "The email-drafting example showed three modes going live at once, and swapping 'save to drafts' for 'send directly' escalated irreversible action to the highest risk. I want to run this on a real task of mine. Help me: (1) name all eight failure modes so I can score my calendar-invite agent; (2) mark which are live and explain why for each; (3) write one concrete prevention step per live mode that is stronger than 'be careful.'",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "Run a Pre-Mortem on an Agentic",
       "greeting": "Halo, Musinique",
       "runningText": "explaining the mechanism…",
@@ -69,25 +69,27 @@
    },
    "estimated_duration_s": 9.0,
    "audio_file": "mp3/beat-NBB00.mp3",
-   "actual_duration_s": 6.123
+   "actual_duration_s": 25.39
   },
   {
    "beat_id": "B00",
    "act": "INTRO",
-   "narration_text": "This is Musinique. Nik Bear Brown. Build it with a CLI, then take it apart.",
+   "narration_text": "This is Musinique. Musinique. Build it with a CLI, then take it apart.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOpen",
+     "pattern": "ClaudeComposerAsk",
      "props": {
-      "topic": "NIK BEAR BROWN",
-      "lines": [
-       "Nik Bear Brown",
+      "command": "Run a Pre-Mortem on an Agentic Task with Claude",
+      "topic": "MUSINIQUE · NIK BEAR BROWN",
+      "segment": "Run a Pre-Mortem on an Agentic Task with Claude",
+      "greeting": "This is Musinique.",
+      "runningText": "working…",
+      "output": [
        "Pre-Mortem Before the Agent Runs."
-      ],
-      "greeting": "Halo, Musinique"
+      ]
      },
      "rendered": {
       "out": "media/B00.mp4",
@@ -96,13 +98,13 @@
     }
    },
    "estimated_duration_s": 5,
-   "audio_file": "../agentic-pre-mortem/mp3/beat-B00.mp3",
-   "actual_duration_s": 3.29,
+   "audio_file": "mp3/beat-B00.mp3",
+   "actual_duration_s": 4.93,
    "locked": true,
    "source_clip": "../agentic-pre-mortem/clips/B00.mp4",
    "source_audio": "../agentic-pre-mortem/mp3/beat-B00.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01",
@@ -116,20 +118,20 @@
     "motion": "fade"
    },
    "estimated_duration_s": 15,
-   "audio_file": "../agentic-pre-mortem/mp3/beat-B01.mp3",
-   "actual_duration_s": 19.67,
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 16.06,
    "locked": true,
    "source_clip": "../agentic-pre-mortem/clips/B01.mp4",
    "source_audio": "../agentic-pre-mortem/mp3/beat-B01.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01B",
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "The indie musician who automates their Spotify stats check, their distributor ping, their playlist pitch — that musician gets time back that they would otherwise spend refreshing a dashboard. An agent is not a luxury for the label's data team; it is a tool you can run free, on your own machine, today. The same frontmatter that tells Claude when to fire a code-review agent tells it when to check your streaming anomalies. You just haven't pointed it yet.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -149,7 +151,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 22.06
   },
   {
    "beat_id": "B02",
@@ -161,10 +165,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Run a pre-mortem on: 'Process 30 customer emails, extract complaints, draft a response for each, save to /drafts/.' For each of the eight failure modes [tool overreach, stale context, plausible summary, silent omission, prompt injection, fabricated completion, irreversible action, automation bias]: mark live or not-live, and for each live mode write one concrete prevention step.\"",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "PRE-MORTEM",
       "runningText": "generating..."
      },
@@ -175,13 +179,13 @@
     }
    },
    "estimated_duration_s": 14,
-   "audio_file": "../agentic-pre-mortem/mp3/beat-B02.mp3",
-   "actual_duration_s": 9.46,
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 8.98,
    "locked": true,
    "source_clip": "../agentic-pre-mortem/clips/B02.mp4",
    "source_audio": "../agentic-pre-mortem/mp3/beat-B02.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B03",
@@ -193,12 +197,12 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownCodeBlock",
+     "pattern": "ClaudeCodeBeat",
      "props": {
-      "filename": "premortem.py",
       "topic": "AGENTIC AI",
       "segment": "PRE-MORTEM",
-      "code": "MODES = [\n (\"tool overreach\",        \"not-live\", \"-\",    \"-\"),\n (\"stale context\",         \"not-live\", \"-\",    \"-\"),\n (\"plausible summary\",     \"live\",\"may omit complaints\",\"require count check\"),\n (\"silent omission\",       \"live\",\"emails skipped silently\",\"verify count\"),\n (\"prompt injection\",      \"live\",\"email body can instruct\",\"sanitize input\"),\n (\"fabricated completion\", \"live\",\"may hallucinate draft\",\"spot-check drafts\"),\n (\"irreversible action\",   \"live\",\"drafts saved permanently\",\"gate before save\"),\n (\"automation bias\",       \"live\",\"reviewer trusts output\",\"structured review\"),\n]\nfor m, live, why, prev in MODES:\n    tag = \"LIVE\" if live==\"live\" else \"ok\"\n    print(f\"[{tag}] {m}: {why} | Prevention: {prev}\")"
+      "code": "MODES = [\n (\"tool overreach\",        \"not-live\", \"-\",    \"-\"),\n (\"stale context\",         \"not-live\", \"-\",    \"-\"),\n (\"plausible summary\",     \"live\",\"may omit complaints\",\"require count check\"),\n (\"silent omission\",       \"live\",\"emails skipped silently\",\"verify count\"),\n (\"prompt injection\",      \"live\",\"email body can instruct\",\"sanitize input\"),\n (\"fabricated completion\", \"live\",\"may hallucinate draft\",\"spot-check drafts\"),\n (\"irreversible action\",   \"live\",\"drafts saved permanently\",\"gate before save\"),\n (\"automation bias\",       \"live\",\"reviewer trusts output\",\"structured review\"),\n]\nfor m, live, why, prev in MODES:\n    tag = \"LIVE\" if live==\"live\" else \"ok\"\n    print(f\"[{tag}] {m}: {why} | Prevention: {prev}\")",
+      "title": "premortem.py"
      },
      "rendered": {
       "out": "media/B03.mp4",
@@ -207,13 +211,13 @@
     }
    },
    "estimated_duration_s": 14,
-   "audio_file": "../agentic-pre-mortem/mp3/beat-B03.mp3",
-   "actual_duration_s": 8.2,
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 7.96,
    "locked": true,
    "source_clip": "../agentic-pre-mortem/clips/B03.mp4",
    "source_audio": "../agentic-pre-mortem/mp3/beat-B03.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B04",
@@ -227,13 +231,13 @@
     "motion": "fade"
    },
    "estimated_duration_s": 12,
-   "audio_file": "../agentic-pre-mortem/mp3/beat-B04.mp3",
-   "actual_duration_s": 11.23,
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 10.28,
    "locked": true,
    "source_clip": "../agentic-pre-mortem/clips/B04.mp4",
    "source_audio": "../agentic-pre-mortem/mp3/beat-B04.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B05",
@@ -245,10 +249,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Revise the pre-mortem: replace 'save to /drafts/' with 'send responses directly.' How does the irreversible action risk change?\"",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "PRE-MORTEM",
       "runningText": "updating..."
      },
@@ -259,13 +263,13 @@
     }
    },
    "estimated_duration_s": 11,
-   "audio_file": "../agentic-pre-mortem/mp3/beat-B05.mp3",
-   "actual_duration_s": 7.94,
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 7.49,
    "locked": true,
    "source_clip": "../agentic-pre-mortem/clips/B05.mp4",
    "source_audio": "../agentic-pre-mortem/mp3/beat-B05.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B06",
@@ -279,13 +283,13 @@
     "motion": "fade"
    },
    "estimated_duration_s": 12,
-   "audio_file": "../agentic-pre-mortem/mp3/beat-B06.mp3",
-   "actual_duration_s": 10.53,
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 9.28,
    "locked": true,
    "source_clip": "../agentic-pre-mortem/clips/B06.mp4",
    "source_audio": "../agentic-pre-mortem/mp3/beat-B06.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B07",
@@ -299,13 +303,13 @@
     "motion": "fade"
    },
    "estimated_duration_s": 12,
-   "audio_file": "../agentic-pre-mortem/mp3/beat-B07.mp3",
-   "actual_duration_s": 10.81,
+   "audio_file": "mp3/beat-B07.mp3",
+   "actual_duration_s": 9.88,
    "locked": true,
    "source_clip": "../agentic-pre-mortem/clips/B07.mp4",
    "source_audio": "../agentic-pre-mortem/mp3/beat-B07.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B08",
@@ -319,20 +323,20 @@
     "motion": "fade"
    },
    "estimated_duration_s": 11,
-   "audio_file": "../agentic-pre-mortem/mp3/beat-B08.mp3",
-   "actual_duration_s": 11.31,
+   "audio_file": "mp3/beat-B08.mp3",
+   "actual_duration_s": 10.9,
    "locked": true,
    "source_clip": "../agentic-pre-mortem/clips/B08.mp4",
    "source_audio": "../agentic-pre-mortem/mp3/beat-B08.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "NBB01",
    "act": "VERDICT",
    "title": "Liam verdict — ClaudeVerdictArtifact",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": "Let's recap with Claude. Here's what the body just demonstrated. Failure modes cluster by task type. Naming them before the task determines what you supervise -- and which modes escalate when one word in the task description changes. Before any task that reads external content or writes to external systems, run the eight-mode pre-mortem. Verify each live mode has a concrete prevention step -- not 'be careful.'",
    "shot": {
     "type": "CARD",
@@ -359,7 +363,7 @@
    },
    "estimated_duration_s": 30.0,
    "audio_file": "mp3/beat-NBB01.mp3",
-   "actual_duration_s": 20.203,
+   "actual_duration_s": 21.18,
    "lead_silence_s": 0.5
   },
   {
@@ -367,7 +371,7 @@
    "act": "YOUR TURN",
    "title": "Your turn handoff — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": "Take this prompt, run it on your own — pick any cancer type or clinical scenario you know about and ask how this mechanism applies there.",
    "shot": {
     "type": "CARD",
@@ -379,7 +383,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Run a Pre-Mortem on an Agentic Task with Claude] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "Run a Pre-Mortem on an Agentic",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -396,7 +400,7 @@
    },
    "estimated_duration_s": 8.0,
    "audio_file": "mp3/beat-NBB02.mp3",
-   "actual_duration_s": 7.765
+   "actual_duration_s": 7.81
   },
   {
    "beat_id": "NBB03",
@@ -425,10 +429,10 @@
    "estimated_duration_s": 6.0,
    "audio_file": "mp3/beat-NBB03.mp3",
    "silence_s": 6.0,
-   "actual_duration_s": 6.03,
+   "actual_duration_s": 3.37,
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "Run a Pre-Mortem on an Agentic Task with Claude"
+   "voice": "am_puck",
+   "narration_text": "Run a Pre-Mortem on an Agentic Task with Claude. From Musinique."
   }
  ]
 }

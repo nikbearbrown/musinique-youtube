@@ -6,7 +6,7 @@
   "topic": "CLAUDE CODE FOR TEACHERS",
   "audience": "NikBearBrown",
   "engine": "kokoro",
-  "voice": "am_onyx",
+  "voice": "am_puck",
   "palette": "claude",
   "register": "Baldwin",
   "derived_from": "beat_sheet.json",
@@ -27,10 +27,10 @@
   "old_outro_beats": [],
   "built_at": "2026-07-16T22:51:21.277555",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
-  "voice_kokoro": "am_onyx"
+  "voice_kokoro": "am_puck"
  },
  "beats": [
   {
@@ -38,8 +38,8 @@
    "act": "COLD OPEN",
    "title": "Liam cold open — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "This is Liam for Musinique. My CLAUDE.md just hit 220 lines and Claude started emitting Tailwind despite 'vanilla CSS only' on line twelve, so I want to perform the trim. Then: (1) help me identify what's diluting the file, the sprint goals, duplicate CSS rules, a colleague's phone number, and lessons-learned entries; (2) decide what moves to a Skill and what converts to a Hook; (3) show me how getting back to around ninety-five lines restores the prominence of my key rules under prompt pressure.",
+   "voice": "am_puck",
+   "narration_text": "This is Musinique. My CLAUDE.md just hit 220 lines and Claude started emitting Tailwind despite 'vanilla CSS only' on line twelve, so I want to perform the trim. Then: (1) help me identify what's diluting the file, the sprint goals, duplicate CSS rules, a colleague's phone number, and lessons-learned entries; (2) decide what moves to a Skill and what converts to a Hook; (3) show me how getting back to around ninety-five lines restores the prominence of my key rules under prompt pressure.",
    "shot": {
     "type": "CARD",
     "source": "remotion",
@@ -50,7 +50,7 @@
      "version": "1",
      "props": {
       "command": "My CLAUDE.md just hit 220 lines and Claude started emitting Tailwind despite 'vanilla CSS only' on line twelve, so I want to perform the trim. Then: (1) help me identify what's diluting the file, the sprint goals, duplicate CSS rules, a colleague's phone number, and lessons-learned entries; (2) decide what moves to a Skill and what converts to a Hook; (3) show me how getting back to around ninety-five lines restores the prominence of my key rules under prompt pressure.",
-      "topic": "CLAUDE CODE FOR TEACHERS",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR TEACHERS",
       "segment": "Why CLAUDE.md Breaks When It Gets",
       "greeting": "Namaste, Musinique",
       "runningText": "explaining the mechanism…",
@@ -67,7 +67,7 @@
    },
    "estimated_duration_s": 9.0,
    "audio_file": "mp3/beat-NBB00.mp3",
-   "actual_duration_s": 5.312
+   "actual_duration_s": 28.01
   },
   {
    "beat_id": "B01",
@@ -85,20 +85,20 @@
     "eyebrow": "CLAUDE CODE FOR TEACHERS"
    },
    "new_visual_element": "[TITLE] CLAUDE.md breaks when too long",
-   "audio_file": "../vox-claudemd-length/mp3/beat-B01.mp3",
-   "actual_duration_s": 14.24,
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 12.71,
    "locked": true,
    "source_clip": "../vox-claudemd-length/clips/B01.mp4",
    "source_audio": "../vox-claudemd-length/mp3/beat-B01.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01B",
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "The same scaffolding principle that keeps a student from outsourcing their thinking protects a musician from outsourcing their voice. When Claude drafts, you judge. When Claude suggests a pitch angle, you decide if it's true. The tool that flags 'this is AI doing your creative work for you' is the tool that keeps your music yours.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -118,7 +118,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 17.28
   },
   {
    "beat_id": "B02",
@@ -142,13 +144,13 @@
     }
    },
    "new_visual_element": "[GRAPHIC] growing document bar with compliance meter",
-   "audio_file": "../vox-claudemd-length/mp3/beat-B02.mp3",
-   "actual_duration_s": 30.96,
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 21.5,
    "locked": true,
    "source_clip": "../vox-claudemd-length/clips/B02.mp4",
    "source_audio": "../vox-claudemd-length/mp3/beat-B02.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B03",
@@ -165,13 +167,13 @@
     "copy": "More rules. Less compliance. Why?"
    },
    "new_visual_element": "[CARD] the question on screen",
-   "audio_file": "../vox-claudemd-length/mp3/beat-B03.mp3",
-   "actual_duration_s": 12.67,
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 10.92,
    "locked": true,
    "source_clip": "../vox-claudemd-length/clips/B03.mp4",
    "source_audio": "../vox-claudemd-length/mp3/beat-B03.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B04",
@@ -195,13 +197,13 @@
     }
    },
    "new_visual_element": "[GRAPHIC] rule receding as noise accumulates",
-   "audio_file": "../vox-claudemd-length/mp3/beat-B04.mp3",
-   "actual_duration_s": 27.95,
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 21.53,
    "locked": true,
    "source_clip": "../vox-claudemd-length/clips/B04.mp4",
    "source_audio": "../vox-claudemd-length/mp3/beat-B04.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B05",
@@ -216,13 +218,13 @@
    "scene_description": "a printed document page with line twelve highlighted and 'Vanilla CSS only' visible, many other lines visible below and above, editorial collage, desaturated",
    "image_prompt": "B05, printed CLAUDE.md document page with line twelve highlighted in faint teal — the text 'Vanilla CSS only' readable — surrounded by many other lines of text above and below, some text blurred, document pinned to aged newsprint, editorial collage style, highly desaturated, cream and charcoal tones",
    "new_visual_element": "[STILL ai] CLAUDE.md with rule on line 12 amid long document",
-   "audio_file": "../vox-claudemd-length/mp3/beat-B05.mp3",
-   "actual_duration_s": 21.73,
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 19.84,
    "locked": true,
    "source_clip": "../vox-claudemd-length/clips/B05.mp4",
    "source_audio": "../vox-claudemd-length/mp3/beat-B05.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B06",
@@ -245,13 +247,13 @@
     }
    },
    "new_visual_element": "[GRAPHIC] three-move fix: trim, Skills, Hooks",
-   "audio_file": "../vox-claudemd-length/mp3/beat-B06.mp3",
-   "actual_duration_s": 25.1,
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 20.5,
    "locked": true,
    "source_clip": "../vox-claudemd-length/clips/B06.mp4",
    "source_audio": "../vox-claudemd-length/mp3/beat-B06.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B07",
@@ -275,13 +277,13 @@
     }
    },
    "new_visual_element": "[GRAPHIC] compliance curve vs line count",
-   "audio_file": "../vox-claudemd-length/mp3/beat-B07.mp3",
-   "actual_duration_s": 22.0,
+   "audio_file": "mp3/beat-B07.mp3",
+   "actual_duration_s": 16.73,
    "locked": true,
    "source_clip": "../vox-claudemd-length/clips/B07.mp4",
    "source_audio": "../vox-claudemd-length/mp3/beat-B07.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B08",
@@ -305,13 +307,13 @@
     }
    },
    "new_visual_element": "[GRAPHIC] four-question audit table",
-   "audio_file": "../vox-claudemd-length/mp3/beat-B08.mp3",
-   "actual_duration_s": 21.32,
+   "audio_file": "mp3/beat-B08.mp3",
+   "actual_duration_s": 15.79,
    "locked": true,
    "source_clip": "../vox-claudemd-length/clips/B08.mp4",
    "source_audio": "../vox-claudemd-length/mp3/beat-B08.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B09",
@@ -329,20 +331,20 @@
     "sub": "CLAUDE CODE FOR TEACHERS"
    },
    "new_visual_element": "[CARD] endcard — short and specific",
-   "audio_file": "../vox-claudemd-length/mp3/beat-B09.mp3",
-   "actual_duration_s": 12.935,
+   "audio_file": "mp3/beat-B09.mp3",
+   "actual_duration_s": 11.69,
    "locked": true,
    "source_clip": "../vox-claudemd-length/clips/B09.mp4",
    "source_audio": "../vox-claudemd-length/mp3/beat-B09.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "NBB01",
    "act": "VERDICT",
    "title": "Liam verdict — ClaudeVerdictArtifact",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": "Let's recap with Claude. Here's what the body just demonstrated. The practical move: audit your CLAUDE.md now. For each entry: does Claude know this from the code already? Cut. Does this change session to session? Move it to TODO.md. Is it a workflow? Move it to a Skill. Must it hold every time without exception? Convert it to a Hook. What remains is what belongs. A maintained fifty-line CLAUDE.md beats an abandoned five-hundred-line one every time. The rule on line twelve works when it is the most specific thing on the page. It stops working when it is noise.",
    "shot": {
     "type": "CARD",
@@ -369,7 +371,7 @@
    },
    "estimated_duration_s": 30.0,
    "audio_file": "mp3/beat-NBB01.mp3",
-   "actual_duration_s": 27.371,
+   "actual_duration_s": 28.05,
    "lead_silence_s": 0.5
   },
   {
@@ -377,7 +379,7 @@
    "act": "YOUR TURN",
    "title": "Your turn handoff — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": "Take this prompt, run it on your own — pick any cancer type or clinical scenario you know about and ask how this mechanism applies there.",
    "shot": {
     "type": "CARD",
@@ -389,7 +391,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Why CLAUDE.md Breaks When It Gets Too Long] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "CLAUDE CODE FOR TEACHERS",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR TEACHERS",
       "segment": "Why CLAUDE.md Breaks When It Gets",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -406,7 +408,7 @@
    },
    "estimated_duration_s": 8.0,
    "audio_file": "mp3/beat-NBB02.mp3",
-   "actual_duration_s": 7.765
+   "actual_duration_s": 7.81
   },
   {
    "beat_id": "NBB03",
@@ -435,10 +437,10 @@
    "estimated_duration_s": 6.0,
    "audio_file": "mp3/beat-NBB03.mp3",
    "silence_s": 6.0,
-   "actual_duration_s": 6.03,
+   "actual_duration_s": 3.14,
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "Why CLAUDE.md Breaks When It Gets Too Long"
+   "voice": "am_puck",
+   "narration_text": "Why CLAUDE.md Breaks When It Gets Too Long. From Musinique."
   }
  ]
 }

@@ -6,7 +6,7 @@
   "topic": "AI IN EDUCATION",
   "audience": "NikBearBrown",
   "engine": "kokoro",
-  "voice": "am_onyx",
+  "voice": "am_puck",
   "palette": "claude",
   "register": "Baldwin",
   "derived_from": "beat_sheet.json",
@@ -31,10 +31,10 @@
   "old_outro_beats": [],
   "built_at": "2026-07-16T23:58:36.550393",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
-  "voice_kokoro": "am_onyx"
+  "voice_kokoro": "am_puck"
  },
  "beats": [
   {
@@ -42,8 +42,8 @@
    "act": "COLD OPEN",
    "title": "Liam cold open — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "This is Liam for Musinique. The WWI-thesis example nailed why Type Three feedback that rewrites the thesis leaves the student informed but no better at revising. Take a piece of student work I share and (1) produce all three feedback types for the same flaw so I can see the difference; (2) rewrite your default Type Three response into a Type Two question that makes the student close the gap themselves; (3) tell me which errors genuinely warrant a direct correction and which I should deliberately leave as productive struggle.",
+   "voice": "am_puck",
+   "narration_text": "This is Musinique. The WWI-thesis example nailed why Type Three feedback that rewrites the thesis leaves the student informed but no better at revising. Take a piece of student work I share and (1) produce all three feedback types for the same flaw so I can see the difference; (2) rewrite your default Type Three response into a Type Two question that makes the student close the gap themselves; (3) tell me which errors genuinely warrant a direct correction and which I should deliberately leave as productive struggle.",
    "shot": {
     "type": "CARD",
     "source": "remotion",
@@ -54,7 +54,7 @@
      "version": "1",
      "props": {
       "command": "The WWI-thesis example nailed why Type Three feedback that rewrites the thesis leaves the student informed but no better at revising. Take a piece of student work I share and (1) produce all three feedback types for the same flaw so I can see the difference; (2) rewrite your default Type Three response into a Type Two question that makes the student close the gap themselves; (3) tell me which errors genuinely warrant a direct correction and which I should deliberately leave as productive struggle.",
-      "topic": "AI IN EDUCATION",
+      "topic": "MUSINIQUE · AI IN EDUCATION",
       "segment": "Why Helpful Feedback Can Steal the",
       "greeting": "Bula, Musinique",
       "runningText": "explaining the mechanism…",
@@ -71,7 +71,7 @@
    },
    "estimated_duration_s": 9.0,
    "audio_file": "mp3/beat-NBB00.mp3",
-   "actual_duration_s": 11.883
+   "actual_duration_s": 28.67
   },
   {
    "beat_id": "B01",
@@ -89,20 +89,20 @@
     "sub": "the revision is the teaching"
    },
    "new_visual_element": "[TITLE] feedback that replaces",
-   "audio_file": "../feedback-that-replaces/mp3/beat-B01.mp3",
-   "actual_duration_s": 9.56,
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 9.11,
    "locked": true,
    "source_clip": "../feedback-that-replaces/clips/B01.mp4",
    "source_audio": "../feedback-that-replaces/mp3/beat-B01.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01B",
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "The same scaffolding principle that keeps a student from outsourcing their thinking protects a musician from outsourcing their voice. When Claude drafts, you judge. When Claude suggests a pitch angle, you decide if it's true. The tool that flags 'this is AI doing your creative work for you' is the tool that keeps your music yours.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -122,7 +122,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 17.28
   },
   {
    "beat_id": "B02",
@@ -137,13 +139,13 @@
    "scene_description": "Close-up of a handwritten student essay on a desk, with pencil edits and a red comment in the margin. The thesis is underlined. Desaturated documentary style, newsprint treatment.",
    "image_prompt": "B02, close-up of a handwritten student essay on a wooden desk, a thesis sentence underlined in pencil, red pen comments written in the margin, papers and a pencil on the desk, warm desk lamp light, editorial documentary desaturated style, flat newsprint tone, no digital devices visible",
    "new_visual_element": "[STILL] student essay with thesis underlined and feedback in margin",
-   "audio_file": "../feedback-that-replaces/mp3/beat-B02.mp3",
-   "actual_duration_s": 20.56,
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 17.41,
    "locked": true,
    "source_clip": "../feedback-that-replaces/clips/B02.mp4",
    "source_audio": "../feedback-that-replaces/mp3/beat-B02.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B03",
@@ -160,13 +162,13 @@
     "copy": "More specific feedback -> better essay. Same problem on the next one. Why?"
    },
    "new_visual_element": "[CARD] THE QUESTION on screen",
-   "audio_file": "../feedback-that-replaces/mp3/beat-B03.mp3",
-   "actual_duration_s": 10.68,
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 10.5,
    "locked": true,
    "source_clip": "../feedback-that-replaces/clips/B03.mp4",
    "source_audio": "../feedback-that-replaces/mp3/beat-B03.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B04",
@@ -190,13 +192,13 @@
     }
    },
    "new_visual_element": "[GRAPHIC] naive chain: feedback -> understanding -> skill",
-   "audio_file": "../feedback-that-replaces/mp3/beat-B04.mp3",
-   "actual_duration_s": 11.0,
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 9.77,
    "locked": true,
    "source_clip": "../feedback-that-replaces/clips/B04.mp4",
    "source_audio": "../feedback-that-replaces/mp3/beat-B04.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B05",
@@ -221,13 +223,13 @@
     }
    },
    "new_visual_element": "[GRAPHIC] CRIMSON bridge closes the gap from outside",
-   "audio_file": "../feedback-that-replaces/mp3/beat-B05.mp3",
-   "actual_duration_s": 14.45,
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 13.99,
    "locked": true,
    "source_clip": "../feedback-that-replaces/clips/B05.mp4",
    "source_audio": "../feedback-that-replaces/mp3/beat-B05.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B06",
@@ -244,13 +246,13 @@
     "copy": "Three types: describe, ask, or rewrite"
    },
    "new_visual_element": "[CARD] section — three feedback types",
-   "audio_file": "../feedback-that-replaces/mp3/beat-B06.mp3",
-   "actual_duration_s": 12.3,
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 11.05,
    "locked": true,
    "source_clip": "../feedback-that-replaces/clips/B06.mp4",
    "source_audio": "../feedback-that-replaces/mp3/beat-B06.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B07",
@@ -274,13 +276,13 @@
     }
    },
    "new_visual_element": "[GRAPHIC] Type 3 feedback card — directive rewrite",
-   "audio_file": "../feedback-that-replaces/mp3/beat-B07.mp3",
-   "actual_duration_s": 23.07,
+   "audio_file": "mp3/beat-B07.mp3",
+   "actual_duration_s": 18.67,
    "locked": true,
    "source_clip": "../feedback-that-replaces/clips/B07.mp4",
    "source_audio": "../feedback-that-replaces/mp3/beat-B07.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B08",
@@ -304,13 +306,13 @@
     }
    },
    "new_visual_element": "[GRAPHIC] Type 2 feedback card — coaching question",
-   "audio_file": "../feedback-that-replaces/mp3/beat-B08.mp3",
-   "actual_duration_s": 18.7,
+   "audio_file": "mp3/beat-B08.mp3",
+   "actual_duration_s": 14.42,
    "locked": true,
    "source_clip": "../feedback-that-replaces/clips/B08.mp4",
    "source_audio": "../feedback-that-replaces/mp3/beat-B08.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B09",
@@ -328,13 +330,13 @@
     "attribution": "— the distinction that determines who learns"
    },
    "new_visual_element": "[CARD] quote — draft vs. drafter",
-   "audio_file": "../feedback-that-replaces/mp3/beat-B09.mp3",
-   "actual_duration_s": 10.53,
+   "audio_file": "mp3/beat-B09.mp3",
+   "actual_duration_s": 9.47,
    "locked": true,
    "source_clip": "../feedback-that-replaces/clips/B09.mp4",
    "source_audio": "../feedback-that-replaces/mp3/beat-B09.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B10",
@@ -358,13 +360,13 @@
     }
    },
    "new_visual_element": "[GRAPHIC] prompt with two anti-overhelping constraints",
-   "audio_file": "../feedback-that-replaces/mp3/beat-B10.mp3",
-   "actual_duration_s": 16.8,
+   "audio_file": "mp3/beat-B10.mp3",
+   "actual_duration_s": 13.29,
    "locked": true,
    "source_clip": "../feedback-that-replaces/clips/B10.mp4",
    "source_audio": "../feedback-that-replaces/mp3/beat-B10.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B11",
@@ -388,13 +390,13 @@
     }
    },
    "new_visual_element": "[GRAPHIC] three coaching question options, one selected",
-   "audio_file": "../feedback-that-replaces/mp3/beat-B11.mp3",
-   "actual_duration_s": 14.99,
+   "audio_file": "mp3/beat-B11.mp3",
+   "actual_duration_s": 13.89,
    "locked": true,
    "source_clip": "../feedback-that-replaces/clips/B11.mp4",
    "source_audio": "../feedback-that-replaces/mp3/beat-B11.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B12",
@@ -418,13 +420,13 @@
     }
    },
    "new_visual_element": "[GRAPHIC] TEAL bridge from student side closes the gap",
-   "audio_file": "../feedback-that-replaces/mp3/beat-B12.mp3",
-   "actual_duration_s": 10.87,
+   "audio_file": "mp3/beat-B12.mp3",
+   "actual_duration_s": 10.45,
    "locked": true,
    "source_clip": "../feedback-that-replaces/clips/B12.mp4",
    "source_audio": "../feedback-that-replaces/mp3/beat-B12.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B13",
@@ -442,20 +444,20 @@
     "sub": "AI IN EDUCATION"
    },
    "new_visual_element": "[CARD] endcard — ask, don't rewrite",
-   "audio_file": "../feedback-that-replaces/mp3/beat-B13.mp3",
-   "actual_duration_s": 6.042,
+   "audio_file": "mp3/beat-B13.mp3",
+   "actual_duration_s": 3.26,
    "locked": true,
    "source_clip": "../feedback-that-replaces/clips/B13.mp4",
    "source_audio": "../feedback-that-replaces/mp3/beat-B13.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "NBB01",
    "act": "VERDICT",
    "title": "Liam verdict — ClaudeVerdictArtifact",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": "Let's recap with Claude. Here's what the body just demonstrated. Feedback teaches when it supports the student's revision thinking, not when it replaces it. Claude can draft the options. Only the teacher knows which question opens thinking for this student. The revision is the teaching. Ask, don't rewrite.",
    "shot": {
     "type": "CARD",
@@ -482,7 +484,7 @@
    },
    "estimated_duration_s": 30.0,
    "audio_file": "mp3/beat-NBB01.mp3",
-   "actual_duration_s": 14.891,
+   "actual_duration_s": 15.83,
    "lead_silence_s": 0.5
   },
   {
@@ -490,7 +492,7 @@
    "act": "YOUR TURN",
    "title": "Your turn handoff — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": "Take this prompt, run it on your own — pick any cancer type or clinical scenario you know about and ask how this mechanism applies there.",
    "shot": {
     "type": "CARD",
@@ -502,7 +504,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Why Helpful Feedback Can Steal the Student's Own Learning] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "AI IN EDUCATION",
+      "topic": "MUSINIQUE · AI IN EDUCATION",
       "segment": "Why Helpful Feedback Can Steal the",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -519,7 +521,7 @@
    },
    "estimated_duration_s": 8.0,
    "audio_file": "mp3/beat-NBB02.mp3",
-   "actual_duration_s": 7.765
+   "actual_duration_s": 7.81
   },
   {
    "beat_id": "NBB03",
@@ -548,10 +550,10 @@
    "estimated_duration_s": 6.0,
    "audio_file": "mp3/beat-NBB03.mp3",
    "silence_s": 6.0,
-   "actual_duration_s": 6.03,
+   "actual_duration_s": 3.75,
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "Why Helpful Feedback Can Steal the Student's Own Learning"
+   "voice": "am_puck",
+   "narration_text": "Why Helpful Feedback Can Steal the Student's Own Learning. From Musinique."
   }
  ]
 }

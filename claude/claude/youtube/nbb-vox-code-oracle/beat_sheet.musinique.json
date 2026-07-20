@@ -6,7 +6,7 @@
   "topic": "AGENTIC AI",
   "audience": "NikBearBrown",
   "engine": "kokoro",
-  "voice": "am_onyx",
+  "voice": "am_puck",
   "palette": "claude",
   "register": "Baldwin",
   "derived_from": "beat_sheet.json",
@@ -34,10 +34,10 @@
   "old_outro_beats": [],
   "built_at": "2026-07-17T02:27:33.395023",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
-  "voice_kokoro": "am_onyx"
+  "voice_kokoro": "am_puck"
  },
  "beats": [
   {
@@ -45,8 +45,8 @@
    "act": "COLD OPEN",
    "title": "Liam cold open — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "This is Liam for Musinique. The line I can't shake is that correctness is an outcome property, not a surface property — the AI produces the surface, only the oracle produces the verdict, which is why HumanEval had to exist. Help me build the oracle habit: (1) name the external verifiers — tests, builds, type-checkers, linters — I should route AI-generated code through before trusting it; (2) explain why the symptom-fix-three-files-away failure slips past a plausible-looking read; (3) show me how to tell whether a task even has a clear oracle, since the productivity gains shrink without one.",
+   "voice": "am_puck",
+   "narration_text": "This is Musinique. The line I can't shake is that correctness is an outcome property, not a surface property — the AI produces the surface, only the oracle produces the verdict, which is why HumanEval had to exist. Help me build the oracle habit: (1) name the external verifiers — tests, builds, type-checkers, linters — I should route AI-generated code through before trusting it; (2) explain why the symptom-fix-three-files-away failure slips past a plausible-looking read; (3) show me how to tell whether a task even has a clear oracle, since the productivity gains shrink without one.",
    "shot": {
     "type": "CARD",
     "source": "remotion",
@@ -57,7 +57,7 @@
      "version": "1",
      "props": {
       "command": "The line I can't shake is that correctness is an outcome property, not a surface property — the AI produces the surface, only the oracle produces the verdict, which is why HumanEval had to exist. Help me build the oracle habit: (1) name the external verifiers — tests, builds, type-checkers, linters — I should route AI-generated code through before trusting it; (2) explain why the symptom-fix-three-files-away failure slips past a plausible-looking read; (3) show me how to tell whether a task even has a clear oracle, since the productivity gains shrink without one.",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "Why Code That Looks Correct Can",
       "greeting": "Jambo, Musinique",
       "runningText": "explaining the mechanism…",
@@ -104,14 +104,14 @@
    "source_clip": "../vox-code-oracle/clips/B01.mp4",
    "source_audio": "../vox-code-oracle/mp3/beat-B01.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01B",
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "The indie musician who automates their Spotify stats check, their distributor ping, their playlist pitch — that musician gets time back that they would otherwise spend refreshing a dashboard. An agent is not a luxury for the label's data team; it is a tool you can run free, on your own machine, today. The same frontmatter that tells Claude when to fire a code-review agent tells it when to check your streaming anomalies. You just haven't pointed it yet.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -152,7 +152,7 @@
    "source_clip": "../vox-code-oracle/clips/B02.mp4",
    "source_audio": "../vox-code-oracle/mp3/beat-B02.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B03",
@@ -175,7 +175,7 @@
    "source_clip": "../vox-code-oracle/clips/B03.mp4",
    "source_audio": "../vox-code-oracle/mp3/beat-B03.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B04",
@@ -204,7 +204,7 @@
    "source_clip": "../vox-code-oracle/clips/B04.mp4",
    "source_audio": "../vox-code-oracle/mp3/beat-B04.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B05",
@@ -234,7 +234,7 @@
    "source_clip": "../vox-code-oracle/clips/B05.mp4",
    "source_audio": "../vox-code-oracle/mp3/beat-B05.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B06",
@@ -264,7 +264,7 @@
    "source_clip": "../vox-code-oracle/clips/B06.mp4",
    "source_audio": "../vox-code-oracle/mp3/beat-B06.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B07",
@@ -287,7 +287,7 @@
    "source_clip": "../vox-code-oracle/clips/B07.mp4",
    "source_audio": "../vox-code-oracle/mp3/beat-B07.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B08",
@@ -317,7 +317,7 @@
    "source_clip": "../vox-code-oracle/clips/B08.mp4",
    "source_audio": "../vox-code-oracle/mp3/beat-B08.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B09",
@@ -347,7 +347,7 @@
    "source_clip": "../vox-code-oracle/clips/B09.mp4",
    "source_audio": "../vox-code-oracle/mp3/beat-B09.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B10",
@@ -370,7 +370,7 @@
    "source_clip": "../vox-code-oracle/clips/B10.mp4",
    "source_audio": "../vox-code-oracle/mp3/beat-B10.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B11",
@@ -400,7 +400,7 @@
    "source_clip": "../vox-code-oracle/clips/B11.mp4",
    "source_audio": "../vox-code-oracle/mp3/beat-B11.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B12",
@@ -430,7 +430,7 @@
    "source_clip": "../vox-code-oracle/clips/B12.mp4",
    "source_audio": "../vox-code-oracle/mp3/beat-B12.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B13",
@@ -451,7 +451,7 @@
    "source_clip": "../vox-code-oracle/clips/B13.mp4",
    "source_audio": "../vox-code-oracle/mp3/beat-B13.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B14",
@@ -481,7 +481,7 @@
    "source_clip": "../vox-code-oracle/clips/B14.mp4",
    "source_audio": "../vox-code-oracle/mp3/beat-B14.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B15",
@@ -504,7 +504,7 @@
    "source_clip": "../vox-code-oracle/clips/B15.mp4",
    "source_audio": "../vox-code-oracle/mp3/beat-B15.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B16",
@@ -528,14 +528,14 @@
    "source_clip": "../vox-code-oracle/clips/B16.mp4",
    "source_audio": "../vox-code-oracle/mp3/beat-B16.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "NBB01",
    "act": "VERDICT",
    "title": "Liam verdict — ClaudeVerdictArtifact",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": "Let's recap with Claude. Here's what the body just demonstrated. Code correctness is not a surface property. It is an outcome established by running an oracle. AI optimizes for surface. Only the oracle verifies the outcome. Code that looks correct can still be wrong — because correctness is an oracle verdict, not a visual property. Name the oracle before you accept the fix.",
    "shot": {
     "type": "CARD",
@@ -570,7 +570,7 @@
    "act": "YOUR TURN",
    "title": "Your turn handoff — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": "Take this prompt, run it on your own — pick any cancer type or clinical scenario you know about and ask how this mechanism applies there.",
    "shot": {
     "type": "CARD",
@@ -582,7 +582,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Why Code That Looks Correct Can Still Be Wrong] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "Why Code That Looks Correct Can",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -630,8 +630,8 @@
    "silence_s": 6.0,
    "actual_duration_s": 6.03,
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "Why Code That Looks Correct Can Still Be Wrong"
+   "voice": "am_puck",
+   "narration_text": "Why Code That Looks Correct Can Still Be Wrong. From Musinique."
   }
  ]
 }

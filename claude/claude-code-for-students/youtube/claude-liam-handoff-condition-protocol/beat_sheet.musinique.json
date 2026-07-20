@@ -24,7 +24,7 @@
    "swap the outro to the Claude outro from AUTHOR.MD :: NikBearBrown",
    "then build audience-namespaced (audio in the new voice, scenes in the new palette)"
   ],
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "build": {
    "at": "2026-07-16T02:06:17",
    "cut": "master",
@@ -56,14 +56,16 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOpen",
+     "pattern": "ClaudeComposerAsk",
      "props": {
-      "topic": "CLAUDE CODE FOR STUDENTS",
-      "lines": [
-       "Nik Bear Brown",
+      "command": "Build and Test a Handoff Condition Protocol with Claude Code",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR STUDENTS",
+      "segment": "Build and Test a Handoff Condition Protocol with Claude Code",
+      "greeting": "This is Musinique.",
+      "runningText": "working…",
+      "output": [
        "Handoff Condition Protocol, taken apart."
-      ],
-      "greeting": "Ahoj, Musinique"
+      ]
      },
      "rendered": {
       "out": "media/B00.mp4",
@@ -73,7 +75,7 @@
    },
    "estimated_duration_s": 8,
    "audio_file": "mp3/beat-B00.mp3",
-   "actual_duration_s": 9.28,
+   "actual_duration_s": 11.01,
    "build": {
     "status": "VIDEO",
     "src": "media/B00.mp4",
@@ -94,7 +96,7 @@
    },
    "estimated_duration_s": 12,
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 9.37,
+   "actual_duration_s": 9.92,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -131,7 +133,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 17.43
   },
   {
    "beat_id": "B02",
@@ -142,10 +146,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Write handoff_validator.py:\\n  read Boondoggle Score JSON\\n  run each handoff condition as shell command\\n  require exit code 0 for PASS\\n  stop on first FAIL, name the blocking step\"",
-      "topic": "CLAUDE CODE FOR STUDENTS",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR STUDENTS",
       "segment": "HANDOFF CONDITIONS",
       "runningText": "generating validator…"
      },
@@ -157,7 +161,7 @@
    },
    "estimated_duration_s": 12,
    "audio_file": "mp3/beat-B02.mp3",
-   "actual_duration_s": 8.75,
+   "actual_duration_s": 9.54,
    "build": {
     "status": "VIDEO",
     "src": "media/B02.mp4",
@@ -176,12 +180,12 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownCodeBlock",
+     "pattern": "ClaudeCodeBeat",
      "props": {
-      "filename": "handoff_validator.py",
       "topic": "CLAUDE CODE FOR STUDENTS",
       "segment": "HANDOFF CONDITIONS",
-      "code": "# handoff_validator.py — Claude Code output\nimport json, subprocess, sys\n\ndef validate(score_path):\n    score = json.load(open(score_path))\n    for step in score['steps']:\n        condition = step['handoff_condition']\n        result = subprocess.run(\n            condition, shell=True, capture_output=True\n        )\n        status = 'PASS' if result.returncode == 0 else 'FAIL'\n        print(f\"Step {step['id']}: {status} -- {condition}\")\n        if result.returncode != 0:\n            print(f'BLOCKED: step {step[\"id\"]} must pass before continuing')\n            sys.exit(1)\n    print('All conditions PASS -- phase gate cleared')\n\nif __name__ == '__main__':\n    validate(sys.argv[1])"
+      "code": "# handoff_validator.py — Claude Code output\nimport json, subprocess, sys\n\ndef validate(score_path):\n    score = json.load(open(score_path))\n    for step in score['steps']:\n        condition = step['handoff_condition']\n        result = subprocess.run(\n            condition, shell=True, capture_output=True\n        )\n        status = 'PASS' if result.returncode == 0 else 'FAIL'\n        print(f\"Step {step['id']}: {status} -- {condition}\")\n        if result.returncode != 0:\n            print(f'BLOCKED: step {step[\"id\"]} must pass before continuing')\n            sys.exit(1)\n    print('All conditions PASS -- phase gate cleared')\n\nif __name__ == '__main__':\n    validate(sys.argv[1])",
+      "title": "handoff_validator.py"
      },
      "rendered": {
       "out": "media/B03.mp4",
@@ -191,7 +195,7 @@
    },
    "estimated_duration_s": 14,
    "audio_file": "mp3/beat-B03.mp3",
-   "actual_duration_s": 8.58,
+   "actual_duration_s": 9.22,
    "build": {
     "status": "VIDEO",
     "src": "media/B03.mp4",
@@ -212,7 +216,7 @@
    },
    "estimated_duration_s": 20,
    "audio_file": "mp3/beat-B04.mp3",
-   "actual_duration_s": 13.48,
+   "actual_duration_s": 15.04,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -233,10 +237,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Fix step 2 condition to match actual test count.\\nRe-run handoff_validator.py with all 3 conditions passing.\\nShow the clean success report.\"",
-      "topic": "CLAUDE CODE FOR STUDENTS",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR STUDENTS",
       "segment": "HANDOFF CONDITIONS",
       "runningText": "re-running validator…"
      },
@@ -248,7 +252,7 @@
    },
    "estimated_duration_s": 10,
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 5.38,
+   "actual_duration_s": 5.27,
    "build": {
     "status": "VIDEO",
     "src": "media/B05.mp4",
@@ -269,7 +273,7 @@
    },
    "estimated_duration_s": 14,
    "audio_file": "mp3/beat-B06.mp3",
-   "actual_duration_s": 12.76,
+   "actual_duration_s": 14.1,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -292,7 +296,7 @@
    },
    "estimated_duration_s": 12,
    "audio_file": "mp3/beat-B07.mp3",
-   "actual_duration_s": 10.62,
+   "actual_duration_s": 11.54,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -315,7 +319,7 @@
    },
    "estimated_duration_s": 8,
    "audio_file": "mp3/beat-B08.mp3",
-   "actual_duration_s": 4.35,
+   "actual_duration_s": 4.05,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -330,13 +334,13 @@
   {
    "beat_id": "B09",
    "act": "OUTRO",
-   "narration_text": "Nik Bear Brown. Build it with a CLI. Then take it apart. At nikbearbrown.com.",
+   "narration_text": "Musinique. Build it with a CLI. Then take it apart. At nikbearbrown.com.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOutro",
+     "pattern": "ClaudeTitleOutro",
      "props": {
       "brand": "Nik Bear Brown",
       "tagline": "Brutalist + Educational AI",
@@ -351,7 +355,7 @@
    },
    "estimated_duration_s": 8,
    "audio_file": "mp3/beat-B09.mp3",
-   "actual_duration_s": 5.38,
+   "actual_duration_s": 5.27,
    "build": {
     "status": "VIDEO",
     "src": "media/B09.mp4",

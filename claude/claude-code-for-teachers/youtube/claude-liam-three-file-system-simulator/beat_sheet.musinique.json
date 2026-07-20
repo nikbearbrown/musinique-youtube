@@ -43,7 +43,7 @@
    ]
   },
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique"
  },
@@ -60,7 +60,7 @@
    },
    "narration_text": "This is Musinique. ",
    "audio_file": "mp3/beat-B00.mp3",
-   "actual_duration_s": 2.41,
+   "actual_duration_s": 1.15,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -118,7 +118,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 17.39
   },
   {
    "beat_id": "B02",
@@ -130,10 +132,10 @@
     "source": null,
     "motion": "hold",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Using three files in context:\\n  CLAUDE.md: vanilla JS, single-file, no framework\\n  DESIGN.md: earth tones #8B7355 #6B8E6B,\\n    single-click stepping, 44px touch targets\\n  PROJECT.md: bubble/merge/quick sort,\\n    comparison + swap counts, ninth grade\\nGenerate index.html — single deployable file.\\nNo color not in DESIGN.md.\\nNo drag-and-drop.\"",
-      "topic": "CLAUDE CODE FOR TEACHERS",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR TEACHERS",
       "segment": "THREE-FILE SYSTEM",
       "runningText": "building simulator…"
      },
@@ -163,12 +165,12 @@
     "source": null,
     "motion": "hold",
     "remotion": {
-     "pattern": "NikBearBrownCodeBlock",
+     "pattern": "ClaudeCodeBeat",
      "props": {
-      "filename": "index.html (excerpt)",
       "segment": "THREE-FILE SYSTEM",
       "topic": "CLAUDE CODE FOR TEACHERS",
-      "code": "<!-- index.html — generated from three-file system -->\n<style>\n  :root {\n    --primary: #8B7355;  /* DESIGN.md earth tone */\n    --accent:  #6B8E6B;\n  }\n  .step-btn { min-height: 44px; }  /* touch target */\n  /* NO framework imports */\n</style>\n<!-- JS: vanilla only, comparison_count + swap_count -->\n<div id=\"stats\">\n  Comparisons: <span id=\"cmp\">0</span>\n  Swaps: <span id=\"swp\">0</span>\n</div>"
+      "code": "<!-- index.html — generated from three-file system -->\n<style>\n  :root {\n    --primary: #8B7355;  /* DESIGN.md earth tone */\n    --accent:  #6B8E6B;\n  }\n  .step-btn { min-height: 44px; }  /* touch target */\n  /* NO framework imports */\n</style>\n<!-- JS: vanilla only, comparison_count + swap_count -->\n<div id=\"stats\">\n  Comparisons: <span id=\"cmp\">0</span>\n  Swaps: <span id=\"swp\">0</span>\n</div>",
+      "title": "index.html (excerpt)"
      },
      "rendered": {
       "out": "media/B03.mp4",
@@ -217,10 +219,10 @@
     "source": null,
     "motion": "hold",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Modify DESIGN.md:\\n  add contrast requirement:\\n  all text must have 4.5:1 contrast ratio.\\nRe-run generation — which colors change?\"",
-      "topic": "CLAUDE CODE FOR TEACHERS",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR TEACHERS",
       "segment": "THREE-FILE SYSTEM",
       "runningText": "applying contrast constraint…"
      },
@@ -313,11 +315,11 @@
     "source": null,
     "motion": "hold",
     "remotion": {
-     "pattern": "NikBearBrownOutro",
+     "pattern": "ClaudeTitleOutro",
      "props": {
       "brand": "Nik Bear Brown",
       "tagline": "Brutalist + Educational AI",
-      "handle": "@NikBearBrown",
+      "handle": "@Musinique",
       "url": "nikbearbrown.com"
      },
      "rendered": {
@@ -334,7 +336,7 @@
    },
    "engine": "kokoro",
    "voice": "am_puck",
-   "narration_text": ""
+   "narration_text": "Like and subscribe for more Claude Code for Teachers. From Musinique."
   }
  ]
 }

@@ -14,23 +14,23 @@
   "note": "Exclusions honored: NO AI detection tools, NO history of ed-tech failures, NO comparison to other AI tools, NO enumeration of all ways AI can fail. One mechanism only: artifact quality vs. learning quality are orthogonal — polish does not predict transfer.",
   "total_estimated_duration_seconds": 144.08,
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "register": "Baldwin",
   "palette": "claude",
   "folderLabel": "@Musinique",
   "engine": "kokoro",
-  "voice": "am_onyx",
-  "voice_kokoro": "am_onyx",
+  "voice": "am_puck",
+  "voice_kokoro": "am_puck",
   "derived_from": "beat_sheet.json"
  },
  "beats": [
   {
    "beat_id": "B00",
    "act": "cold open",
-   "narration_text": "This is Liam for Musinique. Why a Polished Lesson Plan Can Fail Every Student in the Room.",
+   "narration_text": "This is Musinique. Why a Polished Lesson Plan Can Fail Every Student in the Room.",
    "tangent": false,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 8,
    "shot": {
@@ -39,7 +39,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Hola, Musinique",
-      "topic": "AI IN EDUCATION",
+      "topic": "MUSINIQUE · AI IN EDUCATION",
       "segment": "Why a Polished Lesson Plan Can Fail Every Student in the Room",
       "command": "Why a Polished Lesson Plan Can Fail Every Student in the Room",
       "runningText": "reading…",
@@ -51,7 +51,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B00.mp3",
+   "actual_duration_s": 5.65
   },
   {
    "beat_id": "B01",
@@ -70,16 +72,16 @@
    },
    "new_visual_element": "[TITLE] polished plan, no learning",
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 10.95,
+   "actual_duration_s": 9.62,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01B",
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "The same scaffolding principle that keeps a student from outsourcing their thinking protects a musician from outsourcing their voice. When Claude drafts, you judge. When Claude suggests a pitch angle, you decide if it's true. The tool that flags 'this is AI doing your creative work for you' is the tool that keeps your music yours.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -99,7 +101,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 17.28
   },
   {
    "beat_id": "B02",
@@ -115,9 +119,9 @@
    "image_prompt": "B02, biology classroom, high school students sitting at desks filling in a worksheet, one student has written 'ATP = adenosine triphosphate' neatly on paper but stares blankly ahead, warm classroom light, editorial documentary style, desaturated, flat",
    "new_visual_element": "[STILL] students complete work, blank look on the exit question",
    "audio_file": "mp3/beat-B02.mp3",
-   "actual_duration_s": 14.99,
+   "actual_duration_s": 13.53,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B03",
@@ -143,9 +147,9 @@
    },
    "new_visual_element": "[GRAPHIC] polished plan beside the blank exit ticket",
    "audio_file": "mp3/beat-B03.mp3",
-   "actual_duration_s": 5.62,
+   "actual_duration_s": 5.8,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B04",
@@ -163,9 +167,9 @@
    },
    "new_visual_element": "[CARD] THE QUESTION on screen",
    "audio_file": "mp3/beat-B04.mp3",
-   "actual_duration_s": 5.85,
+   "actual_duration_s": 5.72,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B05",
@@ -190,9 +194,9 @@
    },
    "new_visual_element": "[GRAPHIC] the naive chain: better plan -> student learning",
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 10.63,
+   "actual_duration_s": 9.62,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B06",
@@ -218,9 +222,9 @@
    },
    "new_visual_element": "[GRAPHIC] three things Claude cannot access",
    "audio_file": "mp3/beat-B06.mp3",
-   "actual_duration_s": 11.0,
+   "actual_duration_s": 10.15,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B07",
@@ -238,9 +242,9 @@
    },
    "new_visual_element": "[CARD] section — Claude optimizes for artifact quality",
    "audio_file": "mp3/beat-B07.mp3",
-   "actual_duration_s": 14.86,
+   "actual_duration_s": 13.1,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B08",
@@ -265,9 +269,9 @@
    },
    "new_visual_element": "[GRAPHIC] Park's plan with all activities ticked",
    "audio_file": "mp3/beat-B08.mp3",
-   "actual_duration_s": 13.45,
+   "actual_duration_s": 12.1,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B09",
@@ -293,9 +297,9 @@
    },
    "new_visual_element": "[GRAPHIC] 22 of 28 student squares blank",
    "audio_file": "mp3/beat-B09.mp3",
-   "actual_duration_s": 12.67,
+   "actual_duration_s": 10.35,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B10",
@@ -314,9 +318,9 @@
    },
    "new_visual_element": "[CARD] quote — proposal vs. learning",
    "audio_file": "mp3/beat-B10.mp3",
-   "actual_duration_s": 9.14,
+   "actual_duration_s": 9.39,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B11",
@@ -342,9 +346,9 @@
    },
    "new_visual_element": "[GRAPHIC] vague outcome vs. observable outcome",
    "audio_file": "mp3/beat-B11.mp3",
-   "actual_duration_s": 15.36,
+   "actual_duration_s": 12.03,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B12",
@@ -369,15 +373,15 @@
    },
    "new_visual_element": "[GRAPHIC] repaired chain with outcome first",
    "audio_file": "mp3/beat-B12.mp3",
-   "actual_duration_s": 12.38,
+   "actual_duration_s": 10.15,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B13",
    "t_start": 137.0,
    "estimated_duration_s": 11.0,
-   "narration_text": "The artifact and the learning are not the same thing. Claude can make one fast. Only you can ask whether it serves the other.",
+   "narration_text": "The artifact and the learning are not the same thing. Claude can make one fast. Only you can ask whether it serves the other. From Musinique.",
    "shot": {
     "type": "CARD",
     "source": "own",
@@ -390,9 +394,9 @@
    },
    "new_visual_element": "[CARD] endcard — artifact quality vs. learning",
    "audio_file": "mp3/beat-B13.mp3",
-   "actual_duration_s": 8.152,
+   "actual_duration_s": 7.02,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   }
  ]
 }

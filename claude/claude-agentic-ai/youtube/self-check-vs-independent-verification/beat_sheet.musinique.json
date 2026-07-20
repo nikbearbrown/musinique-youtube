@@ -5,7 +5,7 @@
   "topic": "AGENTIC AI",
   "source": "claude-agentic-ai/chapters/08-verification-is-the-control-system.md",
   "register": "Baldwin",
-  "voice": "am_onyx",
+  "voice": "am_puck",
   "voice_id": "TyW6NH39JcFb5M3xdIIk",
   "palette": "claude",
   "style_preset": "nikbearbrown",
@@ -13,39 +13,41 @@
   "note": "CLI video. Exclusions: second-model review architecture, automated fact-checking APIs, retrieval-augmented verification.",
   "total_estimated_duration_seconds": 99.4,
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
   "engine": "kokoro",
-  "voice_kokoro": "am_onyx",
+  "voice_kokoro": "am_puck",
   "derived_from": "beat_sheet.json"
  },
  "beats": [
   {
    "beat_id": "B00",
    "act": "INTRO",
-   "narration_text": "This is Liam for Musinique. Nik Bear Brown. Build it with a CLI, then take it apart.",
+   "narration_text": "This is Musinique. Musinique. Build it with a CLI, then take it apart.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOpen",
+     "pattern": "ClaudeComposerAsk",
      "props": {
-      "topic": "NIK BEAR BROWN",
-      "lines": [
-       "Nik Bear Brown",
+      "command": "Compare Self-Check vs. Independent Verification on an Agent Output with Claude",
+      "topic": "MUSINIQUE · NIK BEAR BROWN",
+      "segment": "Compare Self-Check vs. Independent Verification on an Agent Output with Claude",
+      "greeting": "This is Musinique.",
+      "runningText": "working…",
+      "output": [
        "Self-Check vs. Independent Verification."
-      ],
-      "greeting": "Jambo, Musinique"
+      ]
      }
     }
    },
    "estimated_duration_s": 5,
    "audio_file": "mp3/beat-B00.mp3",
-   "actual_duration_s": 3.47,
+   "actual_duration_s": 5.53,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01",
@@ -60,16 +62,16 @@
    },
    "estimated_duration_s": 15,
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 19.41,
+   "actual_duration_s": 16.21,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01B",
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "The indie musician who automates their Spotify stats check, their distributor ping, their playlist pitch — that musician gets time back that they would otherwise spend refreshing a dashboard. An agent is not a luxury for the label's data team; it is a tool you can run free, on your own machine, today. The same frontmatter that tells Claude when to fire a code-review agent tells it when to check your streaming anomalies. You just haven't pointed it yet.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -89,7 +91,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 22.06
   },
   {
    "beat_id": "B02",
@@ -101,10 +105,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Produce a five-claim summary of this research topic with one source citation per claim. Then, in a second pass, self-check each claim: is it supported by the source you cited? Rate each as verified / uncertain / unsupported.\"",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "SELF-CHECK",
       "runningText": "generating..."
      }
@@ -112,9 +116,9 @@
    },
    "estimated_duration_s": 14,
    "audio_file": "mp3/beat-B02.mp3",
-   "actual_duration_s": 7.89,
+   "actual_duration_s": 7.87,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B03",
@@ -126,20 +130,20 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownCodeBlock",
+     "pattern": "ClaudeCodeBeat",
      "props": {
-      "filename": "verify_compare.py",
       "topic": "AGENTIC AI",
       "segment": "SELF-CHECK",
-      "code": "RESULTS = [\n {\"claim\":1,\"self\":\"verified\",  \"human\":\"verified\",  \"self_caught\":\"Y\",\"human_caught\":\"Y\"},\n {\"claim\":2,\"self\":\"verified\",  \"human\":\"verified\",  \"self_caught\":\"Y\",\"human_caught\":\"Y\"},\n {\"claim\":3,\"self\":\"verified\",  \"human\":\"UNSUPPORTED\",\"self_caught\":\"N\",\"human_caught\":\"Y\"},\n {\"claim\":4,\"self\":\"uncertain\", \"human\":\"verified\",  \"self_caught\":\"Y\",\"human_caught\":\"Y\"},\n {\"claim\":5,\"self\":\"verified\",  \"human\":\"UNSUPPORTED\",\"self_caught\":\"N\",\"human_caught\":\"Y\"},\n]\nhdr = \"CLAIM  SELF-CHECK    HUMAN-CHECK   SELF-CAUGHT  HUMAN-CAUGHT\"\nprint(hdr); print(\"-\"*len(hdr))\nfor r in RESULTS:\n    print(f\"{r['claim']:<7}{r['self']:<14}{r['human']:<14}\"\n          f\"{r['self_caught']:<13}{r['human_caught']}\")"
+      "code": "RESULTS = [\n {\"claim\":1,\"self\":\"verified\",  \"human\":\"verified\",  \"self_caught\":\"Y\",\"human_caught\":\"Y\"},\n {\"claim\":2,\"self\":\"verified\",  \"human\":\"verified\",  \"self_caught\":\"Y\",\"human_caught\":\"Y\"},\n {\"claim\":3,\"self\":\"verified\",  \"human\":\"UNSUPPORTED\",\"self_caught\":\"N\",\"human_caught\":\"Y\"},\n {\"claim\":4,\"self\":\"uncertain\", \"human\":\"verified\",  \"self_caught\":\"Y\",\"human_caught\":\"Y\"},\n {\"claim\":5,\"self\":\"verified\",  \"human\":\"UNSUPPORTED\",\"self_caught\":\"N\",\"human_caught\":\"Y\"},\n]\nhdr = \"CLAIM  SELF-CHECK    HUMAN-CHECK   SELF-CAUGHT  HUMAN-CAUGHT\"\nprint(hdr); print(\"-\"*len(hdr))\nfor r in RESULTS:\n    print(f\"{r['claim']:<7}{r['self']:<14}{r['human']:<14}\"\n          f\"{r['self_caught']:<13}{r['human_caught']}\")",
+      "title": "verify_compare.py"
      }
     }
    },
    "estimated_duration_s": 14,
    "audio_file": "mp3/beat-B03.mp3",
-   "actual_duration_s": 9.2,
+   "actual_duration_s": 9.49,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B04",
@@ -154,9 +158,9 @@
    },
    "estimated_duration_s": 12,
    "audio_file": "mp3/beat-B04.mp3",
-   "actual_duration_s": 8.62,
+   "actual_duration_s": 8.13,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B05",
@@ -168,10 +172,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Replace claim 3's citation with a paper that does NOT support it. Re-run the self-check -- does it catch the wrong citation?\"",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "SELF-CHECK",
       "runningText": "updating..."
      },
@@ -183,9 +187,9 @@
    },
    "estimated_duration_s": 11,
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 7.89,
+   "actual_duration_s": 7.36,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B06",
@@ -200,9 +204,9 @@
    },
    "estimated_duration_s": 12,
    "audio_file": "mp3/beat-B06.mp3",
-   "actual_duration_s": 9.69,
+   "actual_duration_s": 9.43,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B07",
@@ -217,9 +221,9 @@
    },
    "estimated_duration_s": 12,
    "audio_file": "mp3/beat-B07.mp3",
-   "actual_duration_s": 13.79,
+   "actual_duration_s": 13.63,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B08",
@@ -234,20 +238,20 @@
    },
    "estimated_duration_s": 11,
    "audio_file": "mp3/beat-B08.mp3",
-   "actual_duration_s": 13.04,
+   "actual_duration_s": 11.95,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B09",
    "act": "OUTRO",
-   "narration_text": "Nik Bear Brown. Build it with a CLI. Then take it apart. At Nik Bear Brown, nikbearbrown dot com.",
+   "narration_text": "Musinique. Build it with a CLI. Then take it apart. At Musinique, nikbearbrown dot com.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOutro",
+     "pattern": "ClaudeTitleOutro",
      "props": {
       "brand": "Nik Bear Brown",
       "tagline": "Brutalist + Educational AI",
@@ -262,9 +266,9 @@
    },
    "estimated_duration_s": 8,
    "audio_file": "mp3/beat-B09.mp3",
-   "actual_duration_s": 6.4,
+   "actual_duration_s": 6.51,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   }
  ]
 }

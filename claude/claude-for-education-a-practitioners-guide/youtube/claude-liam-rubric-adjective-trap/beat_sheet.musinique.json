@@ -62,7 +62,7 @@
    ]
   },
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
   "voice": "am_puck"
@@ -80,7 +80,7 @@
    "card_text": "Analysis: Good.\nDemonstrates strong analytical thinking\nwith minor areas for development.",
    "notes": "CARD: the rubric cell in full. CRIMSON highlight on 'strong' and 'Good'. Narration continues past it.",
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 15.1,
+   "actual_duration_s": 16.09,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -103,7 +103,7 @@
    "estimated_duration_s": 11.5,
    "notes": "STILL: university student at a desk, rubric printout in hand, looking puzzled, warm desk light, editorial desaturated style.",
    "audio_file": "mp3/beat-B02.mp3",
-   "actual_duration_s": 10.33,
+   "actual_duration_s": 12.37,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -127,7 +127,7 @@
    "card_text": "A detailed rubric should reduce confusion.\nHere it didn't. Why?",
    "notes": "THE QUESTION beat — named on screen AND narration.",
    "audio_file": "mp3/beat-B03.mp3",
-   "actual_duration_s": 10.09,
+   "actual_duration_s": 11.52,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -164,7 +164,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 16.06
   },
   {
    "beat_id": "B04",
@@ -178,7 +180,7 @@
    "estimated_duration_s": 17.0,
    "notes": "Two rows: top row shows 'EXCELLENT' label → CRIMSON box: 'Demonstrates sophisticated analysis'. Arrow from 'sophisticated' loops back to 'EXCELLENT'. Label: 'defines quality with quality'. Bottom row shows TEAL replacement emerging.",
    "audio_file": "mp3/beat-B04.mp3",
-   "actual_duration_s": 17.19,
+   "actual_duration_s": 17.83,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -202,7 +204,7 @@
    "estimated_duration_s": 16.5,
    "notes": "Side-by-side: LEFT column (CRIMSON border): 'ADJECTIVE CHAIN' — 'sophisticated / strong / excellent / good'. RIGHT column (TEAL border): 'OBSERVABLE CRITERIA' — multi-line description with concrete verbs: connects, interprets, identifies, explains. TEAL label: 'can self-assess before submitting'.",
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 16.55,
+   "actual_duration_s": 17.13,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -226,7 +228,7 @@
    "estimated_duration_s": 22.5,
    "notes": "Animated morph: old CRIMSON rubric cell ('Demonstrates sophisticated analysis') rewrites line by line into the new TEAL observable description. Each old word fades; new observable sentence writes in.",
    "audio_file": "mp3/beat-B06.mp3",
-   "actual_duration_s": 22.21,
+   "actual_duration_s": 20.18,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -250,7 +252,7 @@
    "card_text": "Observable criteria describe\nwhat a reader would see.\nNot a verdict — a behavior.",
    "notes": "Quote card — the distinction that changes the problem.",
    "audio_file": "mp3/beat-B07.mp3",
-   "actual_duration_s": 12.33,
+   "actual_duration_s": 13.65,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -274,7 +276,7 @@
    "estimated_duration_s": 15.5,
    "notes": "Notepad card. Text writes in: the diagnostic prompt. TEAL bracket: 'the audit'. Serif instruction below: 'if it flags your whole rubric — you have the right rubric problem'.",
    "audio_file": "mp3/beat-B08.mp3",
-   "actual_duration_s": 15.23,
+   "actual_duration_s": 16.0,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -298,7 +300,7 @@
    "estimated_duration_s": 16.0,
    "notes": "Two TEAL cards stacked: Card 1 — 'OBSERVABLE: reviewer + reader can agree without interpretation'. Card 2 — 'HUMAN GATE: Claude drafts / teacher decides'. Both appear in sequence.",
    "audio_file": "mp3/beat-B09.mp3",
-   "actual_duration_s": 15.79,
+   "actual_duration_s": 16.66,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -317,12 +319,12 @@
     "type": "CARD",
     "source": "own"
    },
-   "narration_text": "The rubric that says 'good analysis' is describing quality with the word it was supposed to define. One audit prompt changes that. The teacher still decides what quality means in this course.",
+   "narration_text": "The rubric that says 'good analysis' is describing quality with the word it was supposed to define. One audit prompt changes that. The teacher still decides what quality means in this course. From Musinique.",
    "estimated_duration_s": 9.5,
    "card_text": "Describe what you'd see.\nNot how you feel about it.",
    "notes": "Recap endcard. AI IN EDUCATION topic kicker.",
    "audio_file": "mp3/beat-B10.mp3",
-   "actual_duration_s": 10.67,
+   "actual_duration_s": 11.67,
    "build": {
     "status": "SLATE",
     "src": null,

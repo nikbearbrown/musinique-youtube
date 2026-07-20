@@ -28,7 +28,7 @@
   "old_outro_beats": [],
   "built_at": "2026-07-16T23:28:04.860367",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
   "voice_kokoro": "am_puck"
@@ -51,7 +51,7 @@
      "version": "1",
      "props": {
       "command": "The conflict demo is what I want to reproduce: status.md said 'approved' and email_digest.md said 'pending' for the same decision, and only the source tags let the CONFLICTING SOURCES flag pause assembly. I'll give you two of my own source files that disagree. Please (1) assemble a status section with a source tag after every data point, (2) surface any item where two sources conflict with both tagged values shown, and (3) tell me which source I should treat as authoritative and the reasoning I'd use to resolve it.",
-      "topic": "CLAUDE COWORK",
+      "topic": "MUSINIQUE · CLAUDE COWORK",
       "segment": "Build the Weekly Operations Packet with",
       "greeting": "Olá, Musinique",
       "runningText": "explaining the mechanism…",
@@ -68,7 +68,7 @@
    },
    "estimated_duration_s": 9.0,
    "audio_file": "mp3/beat-NBB00.mp3",
-   "actual_duration_s": 9.259
+   "actual_duration_s": 26.22
   },
   {
    "beat_id": "B00",
@@ -80,12 +80,13 @@
     "source": "own",
     "motion": "hold"
    },
-   "audio_file": "../weekly-operations-packet/mp3/beat-B00.mp3",
+   "audio_file": "mp3/beat-B00.mp3",
    "locked": true,
    "source_clip": "../weekly-operations-packet/clips/B00.mp4",
    "source_audio": "../weekly-operations-packet/mp3/beat-B00.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 7.53
   },
   {
    "beat_id": "B01",
@@ -97,12 +98,13 @@
     "source": "own",
     "motion": "hold"
    },
-   "audio_file": "../weekly-operations-packet/mp3/beat-B01.mp3",
+   "audio_file": "mp3/beat-B01.mp3",
    "locked": true,
    "source_clip": "../weekly-operations-packet/clips/B01.mp4",
    "source_audio": "../weekly-operations-packet/mp3/beat-B01.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 16.55
   },
   {
    "beat_id": "B01B",
@@ -129,7 +131,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 17.71
   },
   {
    "beat_id": "B02",
@@ -141,10 +145,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Assemble the status section of the weekly operations packet from this project status file. Include: project name, current phase, key decisions since last week (with dates), blockers, and next actions. Add a source: tag after each data point.\" < status.md",
-      "topic": "CLAUDE COWORK",
+      "topic": "MUSINIQUE · CLAUDE COWORK",
       "segment": "WEEKLY OPS PACKET",
       "runningText": "assembling packet…"
      },
@@ -154,12 +158,13 @@
      }
     }
    },
-   "audio_file": "../weekly-operations-packet/mp3/beat-B02.mp3",
+   "audio_file": "mp3/beat-B02.mp3",
    "locked": true,
    "source_clip": "../weekly-operations-packet/clips/B02.mp4",
    "source_audio": "../weekly-operations-packet/mp3/beat-B02.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 14.85
   },
   {
    "beat_id": "B03",
@@ -171,12 +176,12 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownCodeBlock",
+     "pattern": "ClaudeCodeBeat",
      "props": {
-      "filename": "ops_packet.py",
       "code": "SOURCES = {\n    \"status\": \"status.md\",\n    \"metrics\": \"metrics.csv\",\n    \"calendar\": \"calendar.ics\",\n    \"email\": \"email_digest.md\"\n}\n\ndef assemble_section(section: str, source_path: str) -> dict:\n    \"\"\"Run one Claude pass per section; tag every claim with source.\"\"\"\n    content = open(source_path).read()\n    prompt = f\"Assemble the {section} section. After every claim, append [source: {source_path}].\"\n    # Claude call here returns tagged content\n    return {\"section\": section, \"source\": source_path, \"content\": \"...\"}\n\ndef detect_conflicts(sections: list[dict]) -> list[dict]:\n    \"\"\"Flag claims that appear in multiple sources with contradictory values.\"\"\"\n    conflicts = []\n    claim_map = {}\n    for s in sections:\n        for claim in s.get(\"claims\", []):\n            key = claim[\"key\"]\n            if key in claim_map and claim_map[key][\"value\"] != claim[\"value\"]:\n                conflicts.append({\"key\": key, \"sources\": [claim_map[key], claim]})\n            claim_map[key] = claim\n    return conflicts",
       "topic": "CLAUDE COWORK",
-      "segment": "WEEKLY OPS PACKET"
+      "segment": "WEEKLY OPS PACKET",
+      "title": "ops_packet.py"
      },
      "rendered": {
       "out": "media/B03.mp4",
@@ -184,12 +189,13 @@
      }
     }
    },
-   "audio_file": "../weekly-operations-packet/mp3/beat-B03.mp3",
+   "audio_file": "mp3/beat-B03.mp3",
    "locked": true,
    "source_clip": "../weekly-operations-packet/clips/B03.mp4",
    "source_audio": "../weekly-operations-packet/mp3/beat-B03.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 10.5
   },
   {
    "beat_id": "B04",
@@ -201,12 +207,13 @@
     "source": "own",
     "motion": "hold"
    },
-   "audio_file": "../weekly-operations-packet/mp3/beat-B04.mp3",
+   "audio_file": "mp3/beat-B04.mp3",
    "locked": true,
    "source_clip": "../weekly-operations-packet/clips/B04.mp4",
    "source_audio": "../weekly-operations-packet/mp3/beat-B04.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 17.94
   },
   {
    "beat_id": "B05",
@@ -218,10 +225,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "python3 ops_packet.py --sources status.md email_digest.md --detect-conflicts",
-      "topic": "CLAUDE COWORK",
+      "topic": "MUSINIQUE · CLAUDE COWORK",
       "segment": "WEEKLY OPS PACKET",
       "runningText": "testing conflict detection…"
      },
@@ -231,12 +238,13 @@
      }
     }
    },
-   "audio_file": "../weekly-operations-packet/mp3/beat-B05.mp3",
+   "audio_file": "mp3/beat-B05.mp3",
    "locked": true,
    "source_clip": "../weekly-operations-packet/clips/B05.mp4",
    "source_audio": "../weekly-operations-packet/mp3/beat-B05.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 8.34
   },
   {
    "beat_id": "B06",
@@ -248,12 +256,13 @@
     "source": "own",
     "motion": "hold"
    },
-   "audio_file": "../weekly-operations-packet/mp3/beat-B06.mp3",
+   "audio_file": "mp3/beat-B06.mp3",
    "locked": true,
    "source_clip": "../weekly-operations-packet/clips/B06.mp4",
    "source_audio": "../weekly-operations-packet/mp3/beat-B06.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 18.79
   },
   {
    "beat_id": "B07",
@@ -265,12 +274,13 @@
     "source": "own",
     "motion": "hold"
    },
-   "audio_file": "../weekly-operations-packet/mp3/beat-B07.mp3",
+   "audio_file": "mp3/beat-B07.mp3",
    "locked": true,
    "source_clip": "../weekly-operations-packet/clips/B07.mp4",
    "source_audio": "../weekly-operations-packet/mp3/beat-B07.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 17.66
   },
   {
    "beat_id": "B08",
@@ -282,28 +292,29 @@
     "source": "own",
     "motion": "hold"
    },
-   "audio_file": "../weekly-operations-packet/mp3/beat-B08.mp3",
+   "audio_file": "mp3/beat-B08.mp3",
    "locked": true,
    "source_clip": "../weekly-operations-packet/clips/B08.mp4",
    "source_audio": "../weekly-operations-packet/mp3/beat-B08.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 4.95
   },
   {
    "beat_id": "B09",
    "t_start": 110.0,
    "estimated_duration_s": 8.0,
-   "narration_text": "Nik Bear Brown. Brutalist and Educational AI. nikbearbrown.com.",
+   "narration_text": "Musinique. Brutalist and Educational AI. nikbearbrown.com.",
    "shot": {
     "type": "SLATE",
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOutro",
+     "pattern": "ClaudeTitleOutro",
      "props": {
       "brand": "Nik Bear Brown",
       "tagline": "Brutalist + Educational AI",
-      "handle": "@NikBearBrown",
+      "handle": "@Musinique",
       "url": "nikbearbrown.com"
      },
      "rendered": {
@@ -312,12 +323,13 @@
      }
     }
    },
-   "audio_file": "../weekly-operations-packet/mp3/beat-B09.mp3",
+   "audio_file": "mp3/beat-B09.mp3",
    "locked": true,
    "source_clip": "../weekly-operations-packet/clips/B09.mp4",
    "source_audio": "../weekly-operations-packet/mp3/beat-B09.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 4.78
   },
   {
    "beat_id": "NBB01",
@@ -325,7 +337,7 @@
    "title": "Liam verdict — ClaudeVerdictArtifact",
    "engine": "kokoro",
    "voice": "am_puck",
-   "narration_text": "Let's recap with Claude. Here's what the body just demonstrated. Next: classify which tasks should never be delegated — the non-delegation audit. Nik Bear Brown. Brutalist and Educational AI. nikbearbrown.com.",
+   "narration_text": "Let's recap with Claude. Here's what the body just demonstrated. Next: classify which tasks should never be delegated — the non-delegation audit. Musinique. Brutalist and Educational AI. nikbearbrown.com.",
    "shot": {
     "type": "CARD",
     "source": "remotion",
@@ -351,7 +363,7 @@
    },
    "estimated_duration_s": 30.0,
    "audio_file": "mp3/beat-NBB01.mp3",
-   "actual_duration_s": 11.2,
+   "actual_duration_s": 13.95,
    "lead_silence_s": 0.5
   },
   {
@@ -371,7 +383,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Build the Weekly Operations Packet with Claude: Capstone Demo] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "CLAUDE COWORK",
+      "topic": "MUSINIQUE · CLAUDE COWORK",
       "segment": "Build the Weekly Operations Packet with",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -388,7 +400,7 @@
    },
    "estimated_duration_s": 8.0,
    "audio_file": "mp3/beat-NBB02.mp3",
-   "actual_duration_s": 7.765
+   "actual_duration_s": 8.3
   },
   {
    "beat_id": "NBB03",
@@ -417,10 +429,10 @@
    "estimated_duration_s": 6.0,
    "audio_file": "mp3/beat-NBB03.mp3",
    "silence_s": 6.0,
-   "actual_duration_s": 6.03,
+   "actual_duration_s": 3.65,
    "engine": "kokoro",
    "voice": "am_puck",
-   "narration_text": "Build the Weekly Operations Packet with Claude: Capstone Demo"
+   "narration_text": "Build the Weekly Operations Packet with Claude: Capstone Demo. From Musinique."
   }
  ]
 }

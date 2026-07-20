@@ -47,7 +47,7 @@
    ]
   },
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
   "voice": "am_puck"
@@ -67,7 +67,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Konnichiwa, Musinique",
-      "topic": "CLAUDE CODE FOR TEACHERS",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR TEACHERS",
       "segment": "Why Your Students' CLAUDE.md Is the Best Evidence They Conducted the Build",
       "command": "Why Your Students' CLAUDE.md Is the Best Evidence They Conducted the Build",
       "runningText": "reading…",
@@ -79,7 +79,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B00.mp3",
+   "actual_duration_s": 5.87
   },
   {
    "beat_id": "B01",
@@ -98,7 +100,7 @@
    },
    "new_visual_element": "[TITLE] build log is the assessment you cannot fake",
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 12.1,
+   "actual_duration_s": 12.03,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -135,7 +137,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 17.39
   },
   {
    "beat_id": "B02",
@@ -160,7 +164,7 @@
    },
    "new_visual_element": "[GRAPHIC] two-column log comparison: conducting vs. bare prompts",
    "audio_file": "mp3/beat-B02.mp3",
-   "actual_duration_s": 21.42,
+   "actual_duration_s": 19.84,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -187,7 +191,7 @@
    },
    "new_visual_element": "[CARD] the question on screen",
    "audio_file": "mp3/beat-B03.mp3",
-   "actual_duration_s": 13.18,
+   "actual_duration_s": 14.83,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -222,7 +226,7 @@
    },
    "new_visual_element": "[GRAPHIC] two boxes: AI generates code vs. AI cannot generate decision record",
    "audio_file": "mp3/beat-B04.mp3",
-   "actual_duration_s": 26.84,
+   "actual_duration_s": 24.26,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -255,7 +259,7 @@
    },
    "new_visual_element": "[GRAPHIC] five-dimension rubric rows",
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 21.91,
+   "actual_duration_s": 19.95,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -290,7 +294,7 @@
    },
    "new_visual_element": "[GRAPHIC] score scale with two student markers",
    "audio_file": "mp3/beat-B06.mp3",
-   "actual_duration_s": 20.54,
+   "actual_duration_s": 19.33,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -315,7 +319,7 @@
    "image_prompt": "B07, a printed CLAUDE.md document spread open on aged newsprint, showing multiple sections of text including what appears to be a lessons learned section, the document looking well-used and annotated, editorial collage style, highly desaturated, cream and charcoal tones, no human faces, no readable text",
    "new_visual_element": "[STILL ai] CLAUDE.md document spread open with Lessons Learned section visible",
    "audio_file": "mp3/beat-B07.mp3",
-   "actual_duration_s": 22.31,
+   "actual_duration_s": 19.39,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -349,7 +353,7 @@
    },
    "new_visual_element": "[GRAPHIC] three-build assessment plan: formative to summative",
    "audio_file": "mp3/beat-B08.mp3",
-   "actual_duration_s": 23.08,
+   "actual_duration_s": 21.01,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -364,7 +368,7 @@
    "beat_id": "B09",
    "t_start": 95.0,
    "estimated_duration_s": 10.0,
-   "narration_text": "AI can generate the code. It cannot generate the build log. The build log is the assessment artifact that measures what is irreducibly human in a conducted build.",
+   "narration_text": "AI can generate the code. It cannot generate the build log. The build log is the assessment artifact that measures what is irreducibly human in a conducted build. From Musinique.",
    "shot": {
     "type": "CARD",
     "source": "own",
@@ -377,7 +381,7 @@
    },
    "new_visual_element": "[CARD] endcard — assess the build log",
    "audio_file": "mp3/beat-B09.mp3",
-   "actual_duration_s": 9.83,
+   "actual_duration_s": 10.67,
    "build": {
     "status": "SLATE",
     "src": null,

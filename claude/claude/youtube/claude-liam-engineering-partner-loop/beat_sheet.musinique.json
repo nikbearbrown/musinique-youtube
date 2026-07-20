@@ -43,7 +43,7 @@
    ]
   },
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique"
  },
@@ -51,24 +51,26 @@
   {
    "beat_id": "B00",
    "act": "INTRO",
-   "narration_text": "This is Musinique. Nik Bear Brown. Build it with a CLI, then take it apart.",
+   "narration_text": "This is Musinique. Musinique. Build it with a CLI, then take it apart.",
    "estimated_duration_s": 10.0,
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOpen",
+     "pattern": "ClaudeComposerAsk",
      "props": {
-      "topic": "CLAUDE",
-      "lines": [
-       "Nik Bear Brown",
+      "command": "Run the Engineering Partner Loop with Claude Code",
+      "topic": "MUSINIQUE · CLAUDE",
+      "segment": "Run the Engineering Partner Loop with Claude Code",
+      "greeting": "This is Musinique.",
+      "runningText": "working…",
+      "output": [
        "Brutalist + Educational AI",
        "Engineering Partner Loop",
        "Oracle First",
        "Then Claude Fixes the Code"
-      ],
-      "greeting": "Talofa, Musinique"
+      ]
      },
      "rendered": {
       "out": "media/B00.mp4",
@@ -77,7 +79,7 @@
     }
    },
    "audio_file": "mp3/beat-B00.mp3",
-   "actual_duration_s": 5.48,
+   "actual_duration_s": 4.8,
    "build": {
     "status": "VIDEO",
     "src": "media/B00.mp4",
@@ -98,7 +100,7 @@
     "notes": "hook card: 'Oracle first. Claude fixes. Oracle again. That is the diff you can trust.' — CRIMSON on 'unverifiable', teal on 'oracle'"
    },
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 14.27,
+   "actual_duration_s": 16.0,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -135,7 +137,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 17.62
   },
   {
    "beat_id": "B02",
@@ -147,10 +151,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"We have a failing test in test_auth.py:\ntest_empty_password_rejected.\nFollow the engineering partner loop:\n  1. confirm which file to edit\n  2. propose a plan before touching any code\n  3. after I approve, make the minimal edit\n  4. run the test suite and report exit code\n  5. show me the diff\nDo not touch any file outside auth/.\"",
-      "topic": "CLAUDE",
+      "topic": "MUSINIQUE · CLAUDE",
       "segment": "ENGINEERING PARTNER",
       "runningText": "running analysis…"
      },
@@ -161,7 +165,7 @@
     }
    },
    "audio_file": "mp3/beat-B02.mp3",
-   "actual_duration_s": 12.42,
+   "actual_duration_s": 13.78,
    "build": {
     "status": "VIDEO",
     "src": "media/B02.mp4",
@@ -181,12 +185,12 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownCodeBlock",
+     "pattern": "ClaudeCodeBeat",
      "props": {
-      "filename": "auth/auth.py",
       "segment": "ENGINEERING PARTNER",
       "topic": "CLAUDE",
-      "code": "# auth/auth.py — Claude Code diff (minimal)\n# BEFORE:\ndef validate_password(password):\n    if len(password) < 8:\n        return False\n    return True\n\n# AFTER (Claude's minimal edit):\ndef validate_password(password):\n    if not password:          # <- empty-string guard added\n        return False\n    if len(password) < 8:\n        return False\n    return True\n# No other files touched. Scope: auth/ only."
+      "code": "# auth/auth.py — Claude Code diff (minimal)\n# BEFORE:\ndef validate_password(password):\n    if len(password) < 8:\n        return False\n    return True\n\n# AFTER (Claude's minimal edit):\ndef validate_password(password):\n    if not password:          # <- empty-string guard added\n        return False\n    if len(password) < 8:\n        return False\n    return True\n# No other files touched. Scope: auth/ only.",
+      "title": "auth/auth.py"
      },
      "rendered": {
       "out": "media/B03.mp4",
@@ -195,7 +199,7 @@
     }
    },
    "audio_file": "mp3/beat-B03.mp3",
-   "actual_duration_s": 12.78,
+   "actual_duration_s": 14.17,
    "build": {
     "status": "VIDEO",
     "src": "media/B03.mp4",
@@ -216,7 +220,7 @@
     "notes": "terminal: pytest auth/ — output: test_empty_password_rejected PASSED, exit code 0 — teal PASSED badge, CRIMSON strike through 'FAILED' in before state"
    },
    "audio_file": "mp3/beat-B04.mp3",
-   "actual_duration_s": 9.28,
+   "actual_duration_s": 10.24,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -238,10 +242,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Now test_weak_password_blocked is also failing.\nFollow the same loop:\n  1. identify both fixes\n  2. plan without over-fixing\n  3. make minimal edits\n  4. run full suite — both must pass\n  5. diff must touch only auth/\"",
-      "topic": "CLAUDE",
+      "topic": "MUSINIQUE · CLAUDE",
       "segment": "ENGINEERING PARTNER",
       "runningText": "planning second fix…"
      },
@@ -252,7 +256,7 @@
     }
    },
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 8.83,
+   "actual_duration_s": 9.71,
    "build": {
     "status": "VIDEO",
     "src": "media/B05.mp4",
@@ -273,7 +277,7 @@
     "notes": "terminal: pytest auth/ — test_empty_password_rejected PASSED, test_weak_password_blocked PASSED — exit code 0 — both teal badges, files changed: auth/auth.py only"
    },
    "audio_file": "mp3/beat-B06.mp3",
-   "actual_duration_s": 13.63,
+   "actual_duration_s": 14.85,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -296,7 +300,7 @@
     "notes": "teardown card: 'No oracle → unverifiable claim' (CRIMSON) vs 'Oracle runs → scope is enforced → diff is trustworthy' (teal) — three-row table"
    },
    "audio_file": "mp3/beat-B07.mp3",
-   "actual_duration_s": 11.75,
+   "actual_duration_s": 13.25,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -319,7 +323,7 @@
     "notes": "next-reel teaser: 'Next: AI-Use Log' — segment 04 of the CLAUDE series"
    },
    "audio_file": "mp3/beat-B08.mp3",
-   "actual_duration_s": 11.01,
+   "actual_duration_s": 12.18,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -334,14 +338,14 @@
   {
    "beat_id": "B09",
    "act": "OUTRO",
-   "narration_text": "Nik Bear Brown. Build it with a CLI. Then take it apart. At Nik Bear Brown, nikbearbrown dot com.",
+   "narration_text": "Musinique. Build it with a CLI. Then take it apart. At Musinique, nikbearbrown dot com.",
    "estimated_duration_s": 8.0,
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOutro",
+     "pattern": "ClaudeTitleOutro",
      "props": {
       "brand": "Nik Bear Brown",
       "tagline": "Brutalist + Educational AI",
@@ -355,7 +359,7 @@
     }
    },
    "audio_file": "mp3/beat-B09.mp3",
-   "actual_duration_s": 6.51,
+   "actual_duration_s": 6.76,
    "build": {
     "status": "VIDEO",
     "src": "media/B09.mp4",

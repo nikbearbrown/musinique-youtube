@@ -6,7 +6,7 @@
   "topic": "CLAUDE COWORK",
   "audience": "NikBearBrown",
   "engine": "kokoro",
-  "voice": "am_onyx",
+  "voice": "am_puck",
   "palette": "claude",
   "register": "Baldwin",
   "derived_from": "beat_sheet.json",
@@ -28,10 +28,10 @@
   "old_outro_beats": [],
   "built_at": "2026-07-16T23:05:20.921537",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
-  "voice_kokoro": "am_onyx"
+  "voice_kokoro": "am_puck"
  },
  "beats": [
   {
@@ -39,8 +39,8 @@
    "act": "COLD OPEN",
    "title": "Liam cold open — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "This is Liam for Musinique. The gate holding when Q1_final.pdf and Q1_draft.pdf both resolved to q1-report.pdf is exactly the moment I want to force on my own files. I'll give you a list of messy filenames. Please (1) propose a consistent naming convention and generate a rename manifest without renaming anything, (2) show it as a diff and flag every collision where two files would map to the same target, and (3) tell me which conflicts and ambiguous cases I must resolve by hand before I could safely confirm execution.",
+   "voice": "am_puck",
+   "narration_text": "This is Musinique. The gate holding when Q1_final.pdf and Q1_draft.pdf both resolved to q1-report.pdf is exactly the moment I want to force on my own files. I'll give you a list of messy filenames. Please (1) propose a consistent naming convention and generate a rename manifest without renaming anything, (2) show it as a diff and flag every collision where two files would map to the same target, and (3) tell me which conflicts and ambiguous cases I must resolve by hand before I could safely confirm execution.",
    "shot": {
     "type": "CARD",
     "source": "remotion",
@@ -51,7 +51,7 @@
      "version": "1",
      "props": {
       "command": "The gate holding when Q1_final.pdf and Q1_draft.pdf both resolved to q1-report.pdf is exactly the moment I want to force on my own files. I'll give you a list of messy filenames. Please (1) propose a consistent naming convention and generate a rename manifest without renaming anything, (2) show it as a diff and flag every collision where two files would map to the same target, and (3) tell me which conflicts and ambiguous cases I must resolve by hand before I could safely confirm execution.",
-      "topic": "CLAUDE COWORK",
+      "topic": "MUSINIQUE · CLAUDE COWORK",
       "segment": "Build a File-Rename Dry-Run Tool with",
       "greeting": "Jambo, Musinique",
       "runningText": "explaining the mechanism…",
@@ -68,7 +68,7 @@
    },
    "estimated_duration_s": 9.0,
    "audio_file": "mp3/beat-NBB00.mp3",
-   "actual_duration_s": 8.32
+   "actual_duration_s": 30.12
   },
   {
    "beat_id": "B00",
@@ -80,12 +80,13 @@
     "source": "own",
     "motion": "hold"
    },
-   "audio_file": "../file-rename-dry-run/mp3/beat-B00.mp3",
+   "audio_file": "mp3/beat-B00.mp3",
    "locked": true,
    "source_clip": "../file-rename-dry-run/clips/B00.mp4",
    "source_audio": "../file-rename-dry-run/mp3/beat-B00.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 6.81
   },
   {
    "beat_id": "B01",
@@ -97,19 +98,20 @@
     "source": "own",
     "motion": "hold"
    },
-   "audio_file": "../file-rename-dry-run/mp3/beat-B01.mp3",
+   "audio_file": "mp3/beat-B01.mp3",
    "locked": true,
    "source_clip": "../file-rename-dry-run/clips/B01.mp4",
    "source_audio": "../file-rename-dry-run/mp3/beat-B01.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 15.85
   },
   {
    "beat_id": "B01B",
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "You don't need a 400-line system prompt to manage your release calendar. You need a 15-line core that knows what the job is, and skill modules it loads when the job gets specific — the release checklist, the pitch template, the playlist-scam detector. Decompose once, and the machine gets cheaper every run. That's the same arithmetic whether you're running inventory for a warehouse or release cycles for a back catalog.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -129,7 +131,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 21.16
   },
   {
    "beat_id": "B02",
@@ -141,10 +145,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Given these filenames, propose a consistent naming convention and generate a rename manifest in the format: OLD_NAME -> NEW_NAME [rationale]. Do not rename anything yet.\" < filelist.txt",
-      "topic": "CLAUDE COWORK",
+      "topic": "MUSINIQUE · CLAUDE COWORK",
       "segment": "FILE RENAME DRY RUN",
       "runningText": "generating manifest…"
      },
@@ -154,12 +158,13 @@
      }
     }
    },
-   "audio_file": "../file-rename-dry-run/mp3/beat-B02.mp3",
+   "audio_file": "mp3/beat-B02.mp3",
    "locked": true,
    "source_clip": "../file-rename-dry-run/clips/B02.mp4",
    "source_audio": "../file-rename-dry-run/mp3/beat-B02.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 7.81
   },
   {
    "beat_id": "B03",
@@ -171,12 +176,12 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownCodeBlock",
+     "pattern": "ClaudeCodeBeat",
      "props": {
-      "filename": "rename_tool.py",
       "code": "import sys\nfrom pathlib import Path\n\ndef generate_manifest(filenames: list[str]) -> list[dict]:\n    manifest = []\n    seen_targets = {}\n    for name in filenames:\n        new_name = name.lower().replace(\" \", \"-\").replace(\"_\", \"-\")\n        entry = {\"old\": name, \"new\": new_name, \"conflict\": False}\n        if new_name in seen_targets:\n            entry[\"conflict\"] = True\n            seen_targets[new_name][\"conflict\"] = True\n        seen_targets[new_name] = entry\n        manifest.append(entry)\n    return manifest\n\ndef show_diff(manifest):\n    for e in manifest:\n        status = \"[CONFLICT]\" if e[\"conflict\"] else \"\"\n        print(f\"\\033[31m{e['old']}\\033[0m -> \\033[32m{e['new']}\\033[0m {status}\")\n\ndef execute(manifest):\n    confirm = input(\"Execute renames? [yes/no]: \")\n    if confirm.lower() != \"yes\":\n        print(\"Aborted. No files renamed.\"); sys.exit(0)\n    for e in manifest:\n        if not e[\"conflict\"]:\n            Path(e[\"old\"]).rename(e[\"new\"])",
       "topic": "CLAUDE COWORK",
-      "segment": "FILE RENAME DRY RUN"
+      "segment": "FILE RENAME DRY RUN",
+      "title": "rename_tool.py"
      },
      "rendered": {
       "out": "media/B03.mp4",
@@ -184,12 +189,13 @@
      }
     }
    },
-   "audio_file": "../file-rename-dry-run/mp3/beat-B03.mp3",
+   "audio_file": "mp3/beat-B03.mp3",
    "locked": true,
    "source_clip": "../file-rename-dry-run/clips/B03.mp4",
    "source_audio": "../file-rename-dry-run/mp3/beat-B03.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 13.29
   },
   {
    "beat_id": "B04",
@@ -201,12 +207,13 @@
     "source": "own",
     "motion": "hold"
    },
-   "audio_file": "../file-rename-dry-run/mp3/beat-B04.mp3",
+   "audio_file": "mp3/beat-B04.mp3",
    "locked": true,
    "source_clip": "../file-rename-dry-run/clips/B04.mp4",
    "source_audio": "../file-rename-dry-run/mp3/beat-B04.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 16.02
   },
   {
    "beat_id": "B05",
@@ -218,10 +225,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "python3 rename_tool.py --dry-run --input Q1_final.pdf Q1_draft.pdf",
-      "topic": "CLAUDE COWORK",
+      "topic": "MUSINIQUE · CLAUDE COWORK",
       "segment": "FILE RENAME DRY RUN",
       "runningText": "testing conflict detection…"
      },
@@ -231,12 +238,13 @@
      }
     }
    },
-   "audio_file": "../file-rename-dry-run/mp3/beat-B05.mp3",
+   "audio_file": "mp3/beat-B05.mp3",
    "locked": true,
    "source_clip": "../file-rename-dry-run/clips/B05.mp4",
    "source_audio": "../file-rename-dry-run/mp3/beat-B05.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 7.08
   },
   {
    "beat_id": "B06",
@@ -248,12 +256,13 @@
     "source": "own",
     "motion": "hold"
    },
-   "audio_file": "../file-rename-dry-run/mp3/beat-B06.mp3",
+   "audio_file": "mp3/beat-B06.mp3",
    "locked": true,
    "source_clip": "../file-rename-dry-run/clips/B06.mp4",
    "source_audio": "../file-rename-dry-run/mp3/beat-B06.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 14.66
   },
   {
    "beat_id": "B07",
@@ -265,12 +274,13 @@
     "source": "own",
     "motion": "hold"
    },
-   "audio_file": "../file-rename-dry-run/mp3/beat-B07.mp3",
+   "audio_file": "mp3/beat-B07.mp3",
    "locked": true,
    "source_clip": "../file-rename-dry-run/clips/B07.mp4",
    "source_audio": "../file-rename-dry-run/mp3/beat-B07.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 14.61
   },
   {
    "beat_id": "B08",
@@ -282,28 +292,29 @@
     "source": "own",
     "motion": "hold"
    },
-   "audio_file": "../file-rename-dry-run/mp3/beat-B08.mp3",
+   "audio_file": "mp3/beat-B08.mp3",
    "locked": true,
    "source_clip": "../file-rename-dry-run/clips/B08.mp4",
    "source_audio": "../file-rename-dry-run/mp3/beat-B08.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 4.63
   },
   {
    "beat_id": "B09",
    "t_start": 110.0,
    "estimated_duration_s": 8.0,
-   "narration_text": "Nik Bear Brown. Brutalist and Educational AI. nikbearbrown.com.",
+   "narration_text": "Musinique. Brutalist and Educational AI. nikbearbrown.com.",
    "shot": {
     "type": "SLATE",
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOutro",
+     "pattern": "ClaudeTitleOutro",
      "props": {
       "brand": "Nik Bear Brown",
       "tagline": "Brutalist + Educational AI",
-      "handle": "@NikBearBrown",
+      "handle": "@Musinique",
       "url": "nikbearbrown.com"
      },
      "rendered": {
@@ -312,20 +323,21 @@
      }
     }
    },
-   "audio_file": "../file-rename-dry-run/mp3/beat-B09.mp3",
+   "audio_file": "mp3/beat-B09.mp3",
    "locked": true,
    "source_clip": "../file-rename-dry-run/clips/B09.mp4",
    "source_audio": "../file-rename-dry-run/mp3/beat-B09.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 4.93
   },
   {
    "beat_id": "NBB01",
    "act": "VERDICT",
    "title": "Liam verdict — ClaudeVerdictArtifact",
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "Let's recap with Claude. Here's what the body just demonstrated. Next: extract structured data from receipts — and show why schema matters. Nik Bear Brown. Brutalist and Educational AI. nikbearbrown.com.",
+   "voice": "am_puck",
+   "narration_text": "Let's recap with Claude. Here's what the body just demonstrated. Next: extract structured data from receipts — and show why schema matters. Musinique. Brutalist and Educational AI. nikbearbrown.com.",
    "shot": {
     "type": "CARD",
     "source": "remotion",
@@ -351,7 +363,7 @@
    },
    "estimated_duration_s": 30.0,
    "audio_file": "mp3/beat-NBB01.mp3",
-   "actual_duration_s": 10.987,
+   "actual_duration_s": 11.95,
    "lead_silence_s": 0.5
   },
   {
@@ -359,7 +371,7 @@
    "act": "YOUR TURN",
    "title": "Your turn handoff — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": "Take this prompt, run it on your own — pick any cancer type or clinical scenario you know about and ask how this mechanism applies there.",
    "shot": {
     "type": "CARD",
@@ -371,7 +383,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Build a File-Rename Dry-Run Tool with Claude] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "CLAUDE COWORK",
+      "topic": "MUSINIQUE · CLAUDE COWORK",
       "segment": "Build a File-Rename Dry-Run Tool with",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -388,7 +400,7 @@
    },
    "estimated_duration_s": 8.0,
    "audio_file": "mp3/beat-NBB02.mp3",
-   "actual_duration_s": 7.765
+   "actual_duration_s": 7.81
   },
   {
    "beat_id": "NBB03",
@@ -417,10 +429,10 @@
    "estimated_duration_s": 6.0,
    "audio_file": "mp3/beat-NBB03.mp3",
    "silence_s": 6.0,
-   "actual_duration_s": 6.03,
+   "actual_duration_s": 3.14,
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "Build a File-Rename Dry-Run Tool with Claude"
+   "voice": "am_puck",
+   "narration_text": "Build a File-Rename Dry-Run Tool with Claude. From Musinique."
   }
  ]
 }

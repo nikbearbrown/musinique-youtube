@@ -9,7 +9,7 @@
   "palette": "claude",
   "register": "Baldwin",
   "aspect_ratio": "16:9",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "folderLabel": "@Musinique",
   "audience": "claude-liam",
   "sources": [
@@ -41,7 +41,7 @@
      "props": {
       "greeting": "Merhaba, Musinique",
       "command": "The claim that assigning Claude a role changes everything makes me curious whether the effect is real reasoning or just tone. I want to test that. Help me: (1) design an experiment comparing the same math problem answered with no role versus 'you are a logic professor,' and say what output difference I should look for; (2) explain mechanistically why a role in the system prompt shifts the response distribution; (3) give me one task where role prompting backfires because the persona introduces a bias the plain prompt avoids.",
-      "topic": "ROLE PROMPTING",
+      "topic": "MUSINIQUE · ROLE PROMPTING",
       "segment": "Cold Open",
       "runningText": "Analyzing: Anthropic Prompt Tutorial Ch. 3",
       "output": [
@@ -62,7 +62,7 @@
     }
    },
    "audio_file": "mp3/beat-B00.mp3",
-   "actual_duration_s": 16.98,
+   "actual_duration_s": 26.75,
    "build": {
     "status": "VIDEO",
     "src": "media/B00.mp4",
@@ -99,7 +99,7 @@
     }
    },
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 17.71,
+   "actual_duration_s": 18.01,
    "build": {
     "status": "VIDEO",
     "src": "media/B01.mp4",
@@ -135,7 +135,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 17.34
   },
   {
    "beat_id": "B02",
@@ -164,7 +166,7 @@
     }
    },
    "audio_file": "mp3/beat-B02.mp3",
-   "actual_duration_s": 21.89,
+   "actual_duration_s": 19.84,
    "build": {
     "status": "VIDEO",
     "src": "media/B02.mp4",
@@ -201,7 +203,7 @@
     }
    },
    "audio_file": "mp3/beat-B03.mp3",
-   "actual_duration_s": 18.13,
+   "actual_duration_s": 18.5,
    "build": {
     "status": "VIDEO",
     "src": "media/B03.mp4",
@@ -238,7 +240,7 @@
     }
    },
    "audio_file": "mp3/beat-B04.mp3",
-   "actual_duration_s": 20.05,
+   "actual_duration_s": 19.07,
    "build": {
     "status": "VIDEO",
     "src": "media/B04.mp4",
@@ -260,7 +262,7 @@
      "props": {
       "greeting": "Your turn.",
       "command": "You are a skeptical senior engineer reviewing junior code. Look at this function and tell me what will break in production.",
-      "topic": "TRY THIS NOW",
+      "topic": "MUSINIQUE · TRY THIS NOW",
       "segment": "Role Prompting Changes Everything",
       "runningText": "paste this into Claude…",
       "output": [
@@ -280,7 +282,7 @@
     }
    },
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 22.87,
+   "actual_duration_s": 19.52,
    "build": {
     "status": "VIDEO",
     "src": "media/B05.mp4",
@@ -293,7 +295,7 @@
   {
    "beat_id": "B06",
    "beat_type": "outro",
-   "narration_text": "Role Prompting Changes Everything",
+   "narration_text": "Role Prompting Changes Everything. From Musinique.",
    "estimated_duration_s": 6,
    "shot": {
     "scene_type": "ClaudeTitleOutro",
@@ -301,7 +303,7 @@
      "pattern": "ClaudeTitleOutro",
      "props": {
       "title": "Role Prompting Changes Everything",
-      "handle": "@NikBearBrown",
+      "handle": "@Musinique",
       "subline": "Anthropic Prompt Tutorial · Lesson 3"
      },
      "rendered": {
@@ -318,7 +320,8 @@
     "at": "2026-07-16T23:59:25"
    },
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 1.98
   }
  ]
 }

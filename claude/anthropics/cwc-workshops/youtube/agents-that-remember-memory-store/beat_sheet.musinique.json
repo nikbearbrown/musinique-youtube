@@ -2,7 +2,7 @@
  "metadata": {
   "slug": "agents-that-remember-memory-store",
   "title": "Why Agents Forget — And the Memory Store That Fixes It",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "brand": "claude-musinique",
   "audience": "Claude",
@@ -47,7 +47,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Privet, Musinique",
-      "topic": "CLAUDE MANAGED AGENTS · MEMORY",
+      "topic": "MUSINIQUE · CLAUDE MANAGED AGENTS · MEMORY",
       "segment": "Why Agents Forget — And the Memory Store That Fixes It",
       "command": "My agent forgets what I told it. Same agent, new session — blank slate every time. How do I give it a memory?",
       "runningText": "searching memory store…",
@@ -67,7 +67,7 @@
     }
    },
    "audio_file": "mp3/beat-B00.mp3",
-   "actual_duration_s": 10.22,
+   "actual_duration_s": 11.09,
    "build": {
     "status": "VIDEO",
     "src": "media/B00.mp4",
@@ -97,7 +97,7 @@
     }
    },
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 7.85,
+   "actual_duration_s": 7.91,
    "build": {
     "status": "VIDEO",
     "src": "media/B01.mp4",
@@ -130,7 +130,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 19.54
   },
   {
    "beat_id": "B02",
@@ -154,7 +156,7 @@
     }
    },
    "audio_file": "mp3/beat-B02.mp3",
-   "actual_duration_s": 12.78,
+   "actual_duration_s": 13.93,
    "build": {
     "status": "VIDEO",
     "src": "media/B02.mp4",
@@ -184,7 +186,7 @@
     }
    },
    "audio_file": "mp3/beat-B03.mp3",
-   "actual_duration_s": 26.58,
+   "actual_duration_s": 22.93,
    "build": {
     "status": "VIDEO",
     "src": "media/B03.mp4",
@@ -214,7 +216,7 @@
     }
    },
    "audio_file": "mp3/beat-B04.mp3",
-   "actual_duration_s": 16.38,
+   "actual_duration_s": 16.94,
    "build": {
     "status": "VIDEO",
     "src": "media/B04.mp4",
@@ -245,7 +247,7 @@
     }
    },
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 37.1,
+   "actual_duration_s": 35.84,
    "build": {
     "status": "VIDEO",
     "src": "media/B05.mp4",
@@ -276,7 +278,7 @@
     }
    },
    "audio_file": "mp3/beat-B06.mp3",
-   "actual_duration_s": 30.14,
+   "actual_duration_s": 27.99,
    "build": {
     "status": "VIDEO",
     "src": "media/B06.mp4",
@@ -307,7 +309,7 @@
     }
    },
    "audio_file": "mp3/beat-B07.mp3",
-   "actual_duration_s": 31.3,
+   "actual_duration_s": 28.91,
    "build": {
     "status": "VIDEO",
     "src": "media/B07.mp4",
@@ -344,7 +346,7 @@
     }
    },
    "audio_file": "mp3/beat-B08.mp3",
-   "actual_duration_s": 17.05,
+   "actual_duration_s": 18.05,
    "build": {
     "status": "VIDEO",
     "src": "media/B08.mp4",
@@ -366,7 +368,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Your turn.",
-      "topic": "CLAUDE MANAGED AGENTS · MEMORY",
+      "topic": "MUSINIQUE · CLAUDE MANAGED AGENTS · MEMORY",
       "segment": "Why Agents Forget — And the Memory Store That Fixes It",
       "command": "Attach a memory store to my agent and show me what it writes after this session — then prove it recalls it in the next one.",
       "runningText": "paste this into Claude…",
@@ -381,7 +383,7 @@
     }
    },
    "audio_file": "mp3/beat-B09.mp3",
-   "actual_duration_s": 32.32,
+   "actual_duration_s": 31.49,
    "build": {
     "status": "VIDEO",
     "src": "media/B09.mp4",
@@ -392,7 +394,7 @@
   {
    "beat_id": "B10",
    "act": "outro",
-   "narration_text": "Why Agents Forget — And the Memory Store That Fixes It",
+   "narration_text": "Why Agents Forget — And the Memory Store That Fixes It. From Musinique.",
    "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 5,
@@ -413,7 +415,7 @@
     }
    },
    "audio_file": "mp3/beat-B10.mp3",
-   "actual_duration_s": 3.63,
+   "actual_duration_s": 3.07,
    "build": {
     "status": "VIDEO",
     "src": "media/B10.mp4",

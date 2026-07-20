@@ -6,7 +6,7 @@
   "topic": "CLAUDE COWORK",
   "audience": "NikBearBrown",
   "engine": "kokoro",
-  "voice": "am_onyx",
+  "voice": "am_puck",
   "palette": "claude",
   "register": "Baldwin",
   "derived_from": "beat_sheet.json",
@@ -28,10 +28,10 @@
   "old_outro_beats": [],
   "built_at": "2026-07-16T23:30:40.664235",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
-  "voice_kokoro": "am_onyx"
+  "voice_kokoro": "am_puck"
  },
  "beats": [
   {
@@ -39,8 +39,8 @@
    "act": "COLD OPEN",
    "title": "Liam cold open — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "This is Liam for Musinique. I love that the NEEDS HUMAN REVIEW flags are treated as valuable as the filled fields, and that merging two runs took the more specific stop conditions and the shorter prompt template. I want to run the full capture loop on my own recurring task. Walk me through (1) extracting all 15 fields from one completed brief and listing exactly which ones flag as gaps, (2) running a second instance and diffing the two cards field by field, and (3) writing the merge rule that resolves conflicts into one canonical card.",
+   "voice": "am_puck",
+   "narration_text": "This is Musinique. I love that the NEEDS HUMAN REVIEW flags are treated as valuable as the filled fields, and that merging two runs took the more specific stop conditions and the shorter prompt template. I want to run the full capture loop on my own recurring task. Walk me through (1) extracting all 15 fields from one completed brief and listing exactly which ones flag as gaps, (2) running a second instance and diffing the two cards field by field, and (3) writing the merge rule that resolves conflicts into one canonical card.",
    "shot": {
     "type": "CARD",
     "source": "remotion",
@@ -51,7 +51,7 @@
      "version": "1",
      "props": {
       "command": "I love that the NEEDS HUMAN REVIEW flags are treated as valuable as the filled fields, and that merging two runs took the more specific stop conditions and the shorter prompt template. I want to run the full capture loop on my own recurring task. Walk me through (1) extracting all 15 fields from one completed brief and listing exactly which ones flag as gaps, (2) running a second instance and diffing the two cards field by field, and (3) writing the merge rule that resolves conflicts into one canonical card.",
-      "topic": "CLAUDE COWORK",
+      "topic": "MUSINIQUE · CLAUDE COWORK",
       "segment": "Generate a Reusable Workflow Card from",
       "greeting": "Hola, Musinique",
       "runningText": "explaining the mechanism…",
@@ -68,7 +68,7 @@
    },
    "estimated_duration_s": 9.0,
    "audio_file": "mp3/beat-NBB00.mp3",
-   "actual_duration_s": 9.408
+   "actual_duration_s": 29.33
   },
   {
    "beat_id": "B00",
@@ -80,12 +80,13 @@
     "source": "own",
     "motion": "hold"
    },
-   "audio_file": "../workflow-card-generator/mp3/beat-B00.mp3",
+   "audio_file": "mp3/beat-B00.mp3",
    "locked": true,
    "source_clip": "../workflow-card-generator/clips/B00.mp4",
    "source_audio": "../workflow-card-generator/mp3/beat-B00.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 7.34
   },
   {
    "beat_id": "B01",
@@ -97,19 +98,20 @@
     "source": "own",
     "motion": "hold"
    },
-   "audio_file": "../workflow-card-generator/mp3/beat-B01.mp3",
+   "audio_file": "mp3/beat-B01.mp3",
    "locked": true,
    "source_clip": "../workflow-card-generator/clips/B01.mp4",
    "source_audio": "../workflow-card-generator/mp3/beat-B01.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 16.11
   },
   {
    "beat_id": "B01B",
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "The tools this video covers were built for enterprises with engineering teams and compliance budgets. The musician in the van at 1 a.m. has access to the exact same machinery, for free, through a browser. The gap between knowing this exists and knowing how to use it is what this channel closes — one working piece of your promotion deck at a time.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -129,7 +131,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 18.92
   },
   {
    "beat_id": "B02",
@@ -141,10 +145,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"From this completed task brief and output, extract a reusable workflow card. Fill all 15 fields: Task Type, Trigger, Input Format, Prompt Template, Allowed Sources, Exclusions, Output Artifact, Review Checklist, Stop Conditions, Frequency, Owner, Quality Gate, Archive Destination, Version, Notes. Where information is missing, flag as [NEEDS HUMAN REVIEW].\" < completed_task.md",
-      "topic": "CLAUDE COWORK",
+      "topic": "MUSINIQUE · CLAUDE COWORK",
       "segment": "WORKFLOW CARD GENERATOR",
       "runningText": "extracting workflow card…"
      },
@@ -154,12 +158,13 @@
      }
     }
    },
-   "audio_file": "../workflow-card-generator/mp3/beat-B02.mp3",
+   "audio_file": "mp3/beat-B02.mp3",
    "locked": true,
    "source_clip": "../workflow-card-generator/clips/B02.mp4",
    "source_audio": "../workflow-card-generator/mp3/beat-B02.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 9.58
   },
   {
    "beat_id": "B03",
@@ -171,12 +176,12 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownCodeBlock",
+     "pattern": "ClaudeCodeBeat",
      "props": {
-      "filename": "workflow_card.py",
       "code": "CARD_FIELDS = [\n    \"Task Type\", \"Trigger\", \"Input Format\", \"Prompt Template\",\n    \"Allowed Sources\", \"Exclusions\", \"Output Artifact\", \"Review Checklist\",\n    \"Stop Conditions\", \"Frequency\", \"Owner\", \"Quality Gate\",\n    \"Archive Destination\", \"Version\", \"Notes\"\n]\n\ndef extract_card(task_brief: dict, task_output: dict) -> dict:\n    card = {}\n    for field in CARD_FIELDS:\n        value = task_brief.get(field) or task_output.get(field)\n        card[field] = value if value else \"[NEEDS HUMAN REVIEW]\"\n    return card\n\ndef write_card(card: dict, output_path: str):\n    lines = [\"# Workflow Card\\n\"]\n    for field, value in card.items():\n        flag = \" ⚠\" if value == \"[NEEDS HUMAN REVIEW]\" else \"\"\n        lines.append(f\"## {field}{flag}\\n{value}\\n\")\n    with open(output_path, \"w\") as f:\n        f.write(\"\\n\".join(lines))\n    needs_review = sum(1 for v in card.values() if v == \"[NEEDS HUMAN REVIEW]\")\n    print(f\"Card written. {needs_review} fields need human review.\")",
       "topic": "CLAUDE COWORK",
-      "segment": "WORKFLOW CARD GENERATOR"
+      "segment": "WORKFLOW CARD GENERATOR",
+      "title": "workflow_card.py"
      },
      "rendered": {
       "out": "media/B03.mp4",
@@ -184,12 +189,13 @@
      }
     }
    },
-   "audio_file": "../workflow-card-generator/mp3/beat-B03.mp3",
+   "audio_file": "mp3/beat-B03.mp3",
    "locked": true,
    "source_clip": "../workflow-card-generator/clips/B03.mp4",
    "source_audio": "../workflow-card-generator/mp3/beat-B03.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 9.02
   },
   {
    "beat_id": "B04",
@@ -201,12 +207,13 @@
     "source": "own",
     "motion": "hold"
    },
-   "audio_file": "../workflow-card-generator/mp3/beat-B04.mp3",
+   "audio_file": "mp3/beat-B04.mp3",
    "locked": true,
    "source_clip": "../workflow-card-generator/clips/B04.mp4",
    "source_audio": "../workflow-card-generator/mp3/beat-B04.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 20.31
   },
   {
    "beat_id": "B05",
@@ -218,10 +225,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "python3 workflow_card.py --merge card_instance1.md card_instance2.md --output canonical_card.md",
-      "topic": "CLAUDE COWORK",
+      "topic": "MUSINIQUE · CLAUDE COWORK",
       "segment": "WORKFLOW CARD GENERATOR",
       "runningText": "merging two instances…"
      },
@@ -231,12 +238,13 @@
      }
     }
    },
-   "audio_file": "../workflow-card-generator/mp3/beat-B05.mp3",
+   "audio_file": "mp3/beat-B05.mp3",
    "locked": true,
    "source_clip": "../workflow-card-generator/clips/B05.mp4",
    "source_audio": "../workflow-card-generator/mp3/beat-B05.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 6.25
   },
   {
    "beat_id": "B06",
@@ -248,12 +256,13 @@
     "source": "own",
     "motion": "hold"
    },
-   "audio_file": "../workflow-card-generator/mp3/beat-B06.mp3",
+   "audio_file": "mp3/beat-B06.mp3",
    "locked": true,
    "source_clip": "../workflow-card-generator/clips/B06.mp4",
    "source_audio": "../workflow-card-generator/mp3/beat-B06.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 19.33
   },
   {
    "beat_id": "B07",
@@ -265,12 +274,13 @@
     "source": "own",
     "motion": "hold"
    },
-   "audio_file": "../workflow-card-generator/mp3/beat-B07.mp3",
+   "audio_file": "mp3/beat-B07.mp3",
    "locked": true,
    "source_clip": "../workflow-card-generator/clips/B07.mp4",
    "source_audio": "../workflow-card-generator/mp3/beat-B07.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 14.89
   },
   {
    "beat_id": "B08",
@@ -282,28 +292,29 @@
     "source": "own",
     "motion": "hold"
    },
-   "audio_file": "../workflow-card-generator/mp3/beat-B08.mp3",
+   "audio_file": "mp3/beat-B08.mp3",
    "locked": true,
    "source_clip": "../workflow-card-generator/clips/B08.mp4",
    "source_audio": "../workflow-card-generator/mp3/beat-B08.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 4.99
   },
   {
    "beat_id": "B09",
    "t_start": 110.0,
    "estimated_duration_s": 8.0,
-   "narration_text": "Nik Bear Brown. Brutalist and Educational AI. nikbearbrown.com.",
+   "narration_text": "Musinique. Brutalist and Educational AI. nikbearbrown.com.",
    "shot": {
     "type": "SLATE",
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOutro",
+     "pattern": "ClaudeTitleOutro",
      "props": {
       "brand": "Nik Bear Brown",
       "tagline": "Brutalist + Educational AI",
-      "handle": "@NikBearBrown",
+      "handle": "@Musinique",
       "url": "nikbearbrown.com"
      },
      "rendered": {
@@ -312,20 +323,21 @@
      }
     }
    },
-   "audio_file": "../workflow-card-generator/mp3/beat-B09.mp3",
+   "audio_file": "mp3/beat-B09.mp3",
    "locked": true,
    "source_clip": "../workflow-card-generator/clips/B09.mp4",
    "source_audio": "../workflow-card-generator/mp3/beat-B09.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 4.93
   },
   {
    "beat_id": "NBB01",
    "act": "VERDICT",
    "title": "Liam verdict — ClaudeVerdictArtifact",
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "Let's recap with Claude. Here's what the body just demonstrated. Next: build the weekly operations packet — the capstone CoWork demonstration. Nik Bear Brown. Brutalist and Educational AI. nikbearbrown.com.",
+   "voice": "am_puck",
+   "narration_text": "Let's recap with Claude. Here's what the body just demonstrated. Next: build the weekly operations packet — the capstone CoWork demonstration. Musinique. Brutalist and Educational AI. nikbearbrown.com.",
    "shot": {
     "type": "CARD",
     "source": "remotion",
@@ -351,7 +363,7 @@
    },
    "estimated_duration_s": 30.0,
    "audio_file": "mp3/beat-NBB01.mp3",
-   "actual_duration_s": 11.221,
+   "actual_duration_s": 12.46,
    "lead_silence_s": 0.5
   },
   {
@@ -359,7 +371,7 @@
    "act": "YOUR TURN",
    "title": "Your turn handoff — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": "Take this prompt, run it on your own — pick any cancer type or clinical scenario you know about and ask how this mechanism applies there.",
    "shot": {
     "type": "CARD",
@@ -371,7 +383,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Generate a Reusable Workflow Card from a Successful Task] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "CLAUDE COWORK",
+      "topic": "MUSINIQUE · CLAUDE COWORK",
       "segment": "Generate a Reusable Workflow Card from",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -388,7 +400,7 @@
    },
    "estimated_duration_s": 8.0,
    "audio_file": "mp3/beat-NBB02.mp3",
-   "actual_duration_s": 7.765
+   "actual_duration_s": 7.81
   },
   {
    "beat_id": "NBB03",
@@ -417,10 +429,10 @@
    "estimated_duration_s": 6.0,
    "audio_file": "mp3/beat-NBB03.mp3",
    "silence_s": 6.0,
-   "actual_duration_s": 6.03,
+   "actual_duration_s": 3.88,
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "Generate a Reusable Workflow Card from a Successful Task"
+   "voice": "am_puck",
+   "narration_text": "Generate a Reusable Workflow Card from a Successful Task. From Musinique."
   }
  ]
 }

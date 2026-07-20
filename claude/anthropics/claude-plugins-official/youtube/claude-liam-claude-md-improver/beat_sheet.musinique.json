@@ -27,7 +27,7 @@
    "slates": [],
    "skin_warnings": []
   },
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "derived_from": "beat_sheet.json"
  },
  "beats": [
@@ -44,7 +44,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Ahoj, Musinique",
-      "topic": "CLAUDE MD IMPROVER · CLAUDE PLUGIN",
+      "topic": "MUSINIQUE · CLAUDE MD IMPROVER · CLAUDE PLUGIN",
       "segment": "CLAUDE MD MANAGEMENT",
       "command": "Check and improve all CLAUDE.md files in this repository.",
       "runningText": "reading claude-md-improver SKILL.md…",
@@ -64,7 +64,7 @@
     }
    },
    "audio_file": "mp3/beat-B00.mp3",
-   "actual_duration_s": 28.59,
+   "actual_duration_s": 24.49,
    "build": {
     "status": "VIDEO",
     "src": "media/B00.mp4",
@@ -93,7 +93,7 @@
     }
    },
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 53.35,
+   "actual_duration_s": 49.77,
    "build": {
     "status": "VIDEO",
     "src": "media/B01.mp4",
@@ -126,7 +126,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 19.09
   },
   {
    "beat_id": "B02",
@@ -149,7 +151,7 @@
     }
    },
    "audio_file": "mp3/beat-B02.mp3",
-   "actual_duration_s": 63.59,
+   "actual_duration_s": 59.11,
    "build": {
     "status": "VIDEO",
     "src": "media/B02.mp4",
@@ -178,7 +180,7 @@
     }
    },
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 73.64,
+   "actual_duration_s": 64.53,
    "build": {
     "status": "VIDEO",
     "src": "media/B05.mp4",
@@ -216,7 +218,7 @@
     }
    },
    "audio_file": "mp3/beat-BVDT.mp3",
-   "actual_duration_s": 34.56,
+   "actual_duration_s": 33.02,
    "build": {
     "status": "VIDEO",
     "src": "media/BVDT.mp4",
@@ -237,7 +239,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Your Turn",
-      "topic": "CLAUDE MD IMPROVER · HANDOFF",
+      "topic": "MUSINIQUE · CLAUDE MD IMPROVER · HANDOFF",
       "segment": "CLAUDE MD MANAGEMENT",
       "command": "Check and improve my CLAUDE.md files.",
       "runningText": "Watch: find first? report before edits? diff-with-why? # shortcut tip?",
@@ -257,7 +259,7 @@
     }
    },
    "audio_file": "mp3/beat-BHTF.mp3",
-   "actual_duration_s": 35.2,
+   "actual_duration_s": 34.33,
    "build": {
     "status": "VIDEO",
     "src": "media/BHTF.mp4",
@@ -288,7 +290,7 @@
     }
    },
    "audio_file": "mp3/beat-BOUT.mp3",
-   "actual_duration_s": 3.31,
+   "actual_duration_s": 2.09,
    "build": {
     "status": "VIDEO",
     "src": "media/BOUT.mp4",

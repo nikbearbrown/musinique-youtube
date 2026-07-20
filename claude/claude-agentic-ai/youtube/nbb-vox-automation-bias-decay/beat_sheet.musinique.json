@@ -25,7 +25,7 @@
   "old_outro_beats": [],
   "built_at": "2026-07-17T00:42:36.612685",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
   "voice_kokoro": "am_puck"
@@ -48,7 +48,7 @@
      "version": "1",
      "props": {
       "command": "Priya approving refactor twelve in eight seconds after eleven clean ones is precisely the decay I'm worried about in myself. I want a fixed review budget instead of a variable one. Help me: (1) define exactly what I'll check on a diff before I ever see the output; (2) run a streak of correct refactors followed by one that quietly removes a relied-on null-check, so I can test whether I still actually look; (3) show me how to hold that review constant no matter how long the streak runs.",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "Why Automation Bias Gets Worse After",
       "greeting": "Selam, Musinique",
       "runningText": "explaining the mechanism…",
@@ -65,7 +65,7 @@
    },
    "estimated_duration_s": 9.0,
    "audio_file": "mp3/beat-NBB00.mp3",
-   "actual_duration_s": 5.227
+   "actual_duration_s": 24.04
   },
   {
    "beat_id": "B01",
@@ -80,8 +80,8 @@
    "scene_description": "a developer screen showing a green test suite output and a code diff — editorial collage, newsprint texture, no faces",
    "chosen_media": null,
    "new_visual_element": "[PHOTO] developer screen with green tests",
-   "audio_file": "../vox-automation-bias-decay/mp3/beat-B01.mp3",
-   "actual_duration_s": 15.28,
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 14.29,
    "locked": true,
    "source_clip": "../vox-automation-bias-decay/clips/B01.mp4",
    "source_audio": "../vox-automation-bias-decay/mp3/beat-B01.mp3",
@@ -113,7 +113,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 19.54
   },
   {
    "beat_id": "B02",
@@ -128,8 +130,8 @@
    "scene_description": "question card — CARD copy: Why does a reliable agent make the failure harder to catch?",
    "chosen_media": null,
    "new_visual_element": "[CARD] question beat",
-   "audio_file": "../vox-automation-bias-decay/mp3/beat-B02.mp3",
-   "actual_duration_s": 10.76,
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 11.63,
    "locked": true,
    "source_clip": "../vox-automation-bias-decay/clips/B02.mp4",
    "source_audio": "../vox-automation-bias-decay/mp3/beat-B02.mp3",
@@ -149,8 +151,8 @@
    "scene_description": "review-effort gauge starting at HIGH (TEAL) drifting toward LOW over a timeline of green checkmarks — then a CRIMSON failure appears at the point of minimum vigilance.",
    "chosen_media": "B03_VigDecay",
    "new_visual_element": "[MANIM] vigilance decay gauge with streak checkmarks",
-   "audio_file": "../vox-automation-bias-decay/mp3/beat-B03.mp3",
-   "actual_duration_s": 20.09,
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 18.71,
    "locked": true,
    "source_clip": "../vox-automation-bias-decay/clips/B03.mp4",
    "source_audio": "../vox-automation-bias-decay/mp3/beat-B03.mp3",
@@ -170,8 +172,8 @@
    "scene_description": "mechanism card — CARD copy: The streak substitutes for the review.",
    "chosen_media": null,
    "new_visual_element": "[CARD] mechanism card",
-   "audio_file": "../vox-automation-bias-decay/mp3/beat-B04.mp3",
-   "actual_duration_s": 3.11,
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 2.99,
    "locked": true,
    "source_clip": "../vox-automation-bias-decay/clips/B04.mp4",
    "source_audio": "../vox-automation-bias-decay/mp3/beat-B04.mp3",
@@ -191,8 +193,8 @@
    "scene_description": "timeline of 11 green checkmarks, then refactor 12 with CRIMSON null-check removed — Priya approves in 8s. CRIMSON production failure 4 days later.",
    "chosen_media": "B05_PriyaStreak",
    "new_visual_element": "[MANIM] Priya 11-streak then failure",
-   "audio_file": "../vox-automation-bias-decay/mp3/beat-B05.mp3",
-   "actual_duration_s": 16.8,
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 16.49,
    "locked": true,
    "source_clip": "../vox-automation-bias-decay/clips/B05.mp4",
    "source_audio": "../vox-automation-bias-decay/mp3/beat-B05.mp3",
@@ -212,8 +214,8 @@
    "scene_description": "two columns: CRIMSON variable review (shrinks with streak) vs TEAL fixed review (constant checklist regardless of streak). TEAL column: checkmarks stay the same size across the timeline.",
    "chosen_media": "B06_FixedReview",
    "new_visual_element": "[MANIM] variable vs fixed review budget",
-   "audio_file": "../vox-automation-bias-decay/mp3/beat-B06.mp3",
-   "actual_duration_s": 11.89,
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 11.39,
    "locked": true,
    "source_clip": "../vox-automation-bias-decay/clips/B06.mp4",
    "source_audio": "../vox-automation-bias-decay/mp3/beat-B06.mp3",
@@ -233,8 +235,8 @@
    "scene_description": "endcard — CARD copy: Vigilance decays under success. The review must not. / sub: AGENTIC AI",
    "chosen_media": null,
    "new_visual_element": "[CARD] endcard",
-   "audio_file": "../vox-automation-bias-decay/mp3/beat-B07.mp3",
-   "actual_duration_s": 6.042,
+   "audio_file": "mp3/beat-B07.mp3",
+   "actual_duration_s": 3.14,
    "locked": true,
    "source_clip": "../vox-automation-bias-decay/clips/B07.mp4",
    "source_audio": "../vox-automation-bias-decay/mp3/beat-B07.mp3",
@@ -273,7 +275,7 @@
    },
    "estimated_duration_s": 30.0,
    "audio_file": "mp3/beat-NBB01.mp3",
-   "actual_duration_s": 14.72,
+   "actual_duration_s": 16.9,
    "lead_silence_s": 0.5
   },
   {
@@ -293,7 +295,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Why Automation Bias Gets Worse After a Run of Successes] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "Why Automation Bias Gets Worse After",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -310,7 +312,7 @@
    },
    "estimated_duration_s": 8.0,
    "audio_file": "mp3/beat-NBB02.mp3",
-   "actual_duration_s": 7.765
+   "actual_duration_s": 8.3
   },
   {
    "beat_id": "NBB03",
@@ -339,10 +341,10 @@
    "estimated_duration_s": 6.0,
    "audio_file": "mp3/beat-NBB03.mp3",
    "silence_s": 6.0,
-   "actual_duration_s": 6.03,
+   "actual_duration_s": 3.5,
    "engine": "kokoro",
    "voice": "am_puck",
-   "narration_text": "Why Automation Bias Gets Worse After a Run of Successes"
+   "narration_text": "Why Automation Bias Gets Worse After a Run of Successes. From Musinique."
   }
  ]
 }

@@ -26,7 +26,7 @@
   ],
   "built_at": "2026-07-17T00:26:11.244913",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
   "voice_kokoro": "am_puck"
@@ -49,7 +49,7 @@
      "version": "1",
      "props": {
       "command": "I want to build the before-not-after gate into my agent tasks so I never repeat the 847-email mistake. Help me design the gate. Concretely: (1) scan a task description I give you and flag every action that crosses a system boundary, resists file-system undo, or touches systems I don't control, (2) classify each flagged action as send, submit, or delete, and (3) write the exact human-approval checkpoint that must fire before each one executes, not as an after-the-fact audit log.",
-      "topic": "AGENTIC SAFETY · CAPS",
+      "topic": "MUSINIQUE · AGENTIC SAFETY · CAPS",
       "segment": "Irreversible Action Gate: Before, Not After",
       "greeting": "Kumusta, Musinique",
       "runningText": "explaining the mechanism…",
@@ -66,7 +66,7 @@
    },
    "estimated_duration_s": 9.0,
    "audio_file": "mp3/beat-NBB00.mp3",
-   "actual_duration_s": 4.949
+   "actual_duration_s": 27.18
   },
   {
    "beat_id": "B00",
@@ -90,8 +90,8 @@
     }
    },
    "estimated_duration_s": 16,
-   "audio_file": "../irreversible-action-gate/mp3/beat-B00.mp3",
-   "actual_duration_s": 24.21,
+   "audio_file": "mp3/beat-B00.mp3",
+   "actual_duration_s": 20.78,
    "locked": true,
    "source_clip": "../irreversible-action-gate/clips/B00.mp4",
    "source_audio": "../irreversible-action-gate/mp3/beat-B00.mp3",
@@ -110,8 +110,8 @@
    "new_visual_element": "No auto-distinction — agent uses available tools / reversibility is human judgment / draft vs. send / delete vs. temp",
    "spark_line": "Reversibility is a human judgment.",
    "estimated_duration_s": 13,
-   "audio_file": "../irreversible-action-gate/mp3/beat-B01.mp3",
-   "actual_duration_s": 23.19,
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 20.74,
    "locked": true,
    "source_clip": "../irreversible-action-gate/clips/B01.mp4",
    "source_audio": "../irreversible-action-gate/mp3/beat-B01.mp3",
@@ -143,7 +143,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 19.54
   },
   {
    "beat_id": "B02",
@@ -157,8 +159,8 @@
    "new_visual_element": "Recognition sign — crosses system boundary / cannot undo / external system / send / submit / delete",
    "spark_line": "Crosses boundary. Cannot undo. Gate it.",
    "estimated_duration_s": 13,
-   "audio_file": "../irreversible-action-gate/mp3/beat-B02.mp3",
-   "actual_duration_s": 23.62,
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 21.06,
    "locked": true,
    "source_clip": "../irreversible-action-gate/clips/B02.mp4",
    "source_audio": "../irreversible-action-gate/mp3/beat-B02.mp3",
@@ -177,8 +179,8 @@
    "new_visual_element": "Gate placement — before = supervision / after = audit / human initiation not approval after / correct architecture",
    "spark_line": "Before is supervision. After is audit.",
    "estimated_duration_s": 13,
-   "audio_file": "../irreversible-action-gate/mp3/beat-B03.mp3",
-   "actual_duration_s": 21.82,
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 19.95,
    "locked": true,
    "source_clip": "../irreversible-action-gate/clips/B03.mp4",
    "source_audio": "../irreversible-action-gate/mp3/beat-B03.mp3",
@@ -197,8 +199,8 @@
    "new_visual_element": "Artifact view — task brief with irreversible gate clause / stop at send/submit/delete / recoverable vs. permanent",
    "spark_line": "One clause. Stops at the right moment.",
    "estimated_duration_s": 13,
-   "audio_file": "../irreversible-action-gate/mp3/beat-B04.mp3",
-   "actual_duration_s": 21.21,
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 19.67,
    "locked": true,
    "source_clip": "../irreversible-action-gate/clips/B04.mp4",
    "source_audio": "../irreversible-action-gate/mp3/beat-B04.mp3",
@@ -227,8 +229,8 @@
     }
    },
    "estimated_duration_s": 9,
-   "audio_file": "../irreversible-action-gate/mp3/beat-B05.mp3",
-   "actual_duration_s": 4.31,
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 3.99,
    "locked": true,
    "source_clip": "../irreversible-action-gate/clips/B05.mp4",
    "source_audio": "../irreversible-action-gate/mp3/beat-B05.mp3",
@@ -267,7 +269,7 @@
    },
    "estimated_duration_s": 30.0,
    "audio_file": "mp3/beat-NBB01.mp3",
-   "actual_duration_s": 27.029,
+   "actual_duration_s": 24.77,
    "lead_silence_s": 0.5
   },
   {
@@ -287,7 +289,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Irreversible Action Gate: Before, Not After] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "AGENTIC SAFETY · CAPS",
+      "topic": "MUSINIQUE · AGENTIC SAFETY · CAPS",
       "segment": "Irreversible Action Gate: Before, Not After",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -304,7 +306,7 @@
    },
    "estimated_duration_s": 8.0,
    "audio_file": "mp3/beat-NBB02.mp3",
-   "actual_duration_s": 7.765
+   "actual_duration_s": 8.3
   },
   {
    "beat_id": "NBB03",
@@ -333,10 +335,10 @@
    "estimated_duration_s": 6.0,
    "audio_file": "mp3/beat-NBB03.mp3",
    "silence_s": 6.0,
-   "actual_duration_s": 6.03,
+   "actual_duration_s": 2.73,
    "engine": "kokoro",
    "voice": "am_puck",
-   "narration_text": "Irreversible Action Gate: Before, Not After"
+   "narration_text": "Irreversible Action Gate: Before, Not After. From Musinique."
   }
  ]
 }

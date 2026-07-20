@@ -14,7 +14,7 @@
   "note": "Exclusions honored: NO deep XML tag syntax tutorial, NO prompting-framework literature comparison, NO extended chain-of-thought research.",
   "total_estimated_duration_seconds": 209.66,
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "register": "Baldwin",
   "palette": "claude",
@@ -39,7 +39,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Selam, Musinique",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "Why 'Make This Better' Is Not a Prompt",
       "command": "Why 'Make This Better' Is Not a Prompt",
       "runningText": "reading…",
@@ -406,7 +406,7 @@
    "beat_id": "B15",
    "t_start": 141.0,
    "estimated_duration_s": 10.0,
-   "narration_text": "A prompt is a specification. State what to do, what to use, what to avoid, and what success looks like. Then you can inspect the output — and know if it worked.",
+   "narration_text": "A prompt is a specification. State what to do, what to use, what to avoid, and what success looks like. Then you can inspect the output — and know if it worked. From Musinique.",
    "shot": {
     "type": "CARD",
     "source": "own",

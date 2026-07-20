@@ -43,7 +43,7 @@
    ]
   },
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique"
  },
@@ -59,7 +59,7 @@
     "motion": "hold"
    },
    "audio_file": "mp3/beat-B00.mp3",
-   "actual_duration_s": 7.1,
+   "actual_duration_s": 6.87,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -82,7 +82,7 @@
     "motion": "hold"
    },
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 16.41,
+   "actual_duration_s": 17.49,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -119,7 +119,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 16.94
   },
   {
    "beat_id": "B02",
@@ -131,10 +133,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Given this workspace configuration and these task types, produce an access audit: for each task type, list the minimum required permissions. For each granted permission, classify as: always-needed, task-specific, or never-used.\" < workspace_config.json",
-      "topic": "CLAUDE COWORK",
+      "topic": "MUSINIQUE · CLAUDE COWORK",
       "segment": "WORKSPACE ACCESS AUDIT",
       "runningText": "auditing permissions…"
      },
@@ -145,7 +147,7 @@
     }
    },
    "audio_file": "mp3/beat-B02.mp3",
-   "actual_duration_s": 12.89,
+   "actual_duration_s": 14.27,
    "build": {
     "status": "VIDEO",
     "src": "media/B02.mp4",
@@ -165,12 +167,12 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownCodeBlock",
+     "pattern": "ClaudeCodeBeat",
      "props": {
-      "filename": "access_audit.py",
       "code": "import json\nfrom pathlib import Path\n\nCLASSIFICATIONS = [\"always-needed\", \"task-specific\", \"never-used\"]\n\ndef audit_permissions(config_path: str, task_types: list[str]) -> dict:\n    config = json.loads(Path(config_path).read_text())\n    granted = config.get(\"permissions\", [])\n    required_by_task = {}\n    for task in task_types:\n        required_by_task[task] = config.get(\"task_permissions\", {}).get(task, [])\n\n    all_required = set(p for perms in required_by_task.values() for p in perms)\n    always_needed = [p for p in granted if all(p in required_by_task[t] for t in task_types)]\n    task_specific = [p for p in granted if p in all_required and p not in always_needed]\n    never_used = [p for p in granted if p not in all_required]\n\n    return {\n        \"granted\": len(granted),\n        \"always_needed\": always_needed,\n        \"task_specific\": task_specific,\n        \"never_used\": never_used\n    }",
       "topic": "CLAUDE COWORK",
-      "segment": "WORKSPACE ACCESS AUDIT"
+      "segment": "WORKSPACE ACCESS AUDIT",
+      "title": "access_audit.py"
      },
      "rendered": {
       "out": "media/B03.mp4",
@@ -179,7 +181,7 @@
     }
    },
    "audio_file": "mp3/beat-B03.mp3",
-   "actual_duration_s": 9.81,
+   "actual_duration_s": 10.56,
    "build": {
     "status": "VIDEO",
     "src": "media/B03.mp4",
@@ -200,7 +202,7 @@
     "motion": "hold"
    },
    "audio_file": "mp3/beat-B04.mp3",
-   "actual_duration_s": 18.05,
+   "actual_duration_s": 18.54,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -222,10 +224,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "python3 access_audit.py --remove-never-used --verify < workspace_config.json",
-      "topic": "CLAUDE COWORK",
+      "topic": "MUSINIQUE · CLAUDE COWORK",
       "segment": "WORKSPACE ACCESS AUDIT",
       "runningText": "verifying removal is safe…"
      },
@@ -236,7 +238,7 @@
     }
    },
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 5.95,
+   "actual_duration_s": 5.8,
    "build": {
     "status": "VIDEO",
     "src": "media/B05.mp4",
@@ -257,7 +259,7 @@
     "motion": "hold"
    },
    "audio_file": "mp3/beat-B06.mp3",
-   "actual_duration_s": 18.01,
+   "actual_duration_s": 19.16,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -280,7 +282,7 @@
     "motion": "hold"
    },
    "audio_file": "mp3/beat-B07.mp3",
-   "actual_duration_s": 15.3,
+   "actual_duration_s": 16.32,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -303,7 +305,7 @@
     "motion": "hold"
    },
    "audio_file": "mp3/beat-B08.mp3",
-   "actual_duration_s": 4.57,
+   "actual_duration_s": 4.12,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -319,17 +321,17 @@
    "beat_id": "B09",
    "t_start": 110.0,
    "estimated_duration_s": 8.0,
-   "narration_text": "Nik Bear Brown. Brutalist and Educational AI. nikbearbrown.com.",
+   "narration_text": "Musinique. Brutalist and Educational AI. nikbearbrown.com.",
    "shot": {
     "type": "SLATE",
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOutro",
+     "pattern": "ClaudeTitleOutro",
      "props": {
       "brand": "Nik Bear Brown",
       "tagline": "Brutalist + Educational AI",
-      "handle": "@NikBearBrown",
+      "handle": "@Musinique",
       "url": "nikbearbrown.com"
      },
      "rendered": {
@@ -339,7 +341,7 @@
     }
    },
    "audio_file": "mp3/beat-B09.mp3",
-   "actual_duration_s": 4.93,
+   "actual_duration_s": 4.78,
    "build": {
     "status": "VIDEO",
     "src": "media/B09.mp4",

@@ -13,7 +13,7 @@
   "ground": "#FFFFFF",
   "total_estimated_duration_seconds": 118.0,
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "register": "Baldwin",
   "folderLabel": "@Musinique",
@@ -31,20 +31,24 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOpen",
+     "pattern": "ClaudeComposerAsk",
      "props": {
-      "topic": "CLAUDE CODE FOR STUDENTS",
-      "lines": [
-       "Nik Bear Brown",
+      "command": "Catch a Package Hallucination Before It Becomes a Slopsquatting Attack",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR STUDENTS",
+      "segment": "Catch a Package Hallucination Before It Becomes a Slopsquatting Attack",
+      "greeting": "This is Musinique.",
+      "runningText": "working…",
+      "output": [
        "Package Hallucination Scanner, taken apart."
-      ],
-      "greeting": "Selam, Musinique"
+      ]
      }
     }
    },
    "estimated_duration_s": 8,
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B00.mp3",
+   "actual_duration_s": 10.62
   },
   {
    "beat_id": "B01",
@@ -57,7 +61,9 @@
    },
    "estimated_duration_s": 12,
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 14.06
   },
   {
    "beat_id": "B01B",
@@ -84,7 +90,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 17.39
   },
   {
    "beat_id": "B02",
@@ -95,10 +103,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Write package_auditor.py:\\n  read Python file -> extract imports\\n  query PyPI JSON API per package\\n  report EXISTS / HALLUCINATED\\n  flag 404 as slopsquatting risk\"",
-      "topic": "CLAUDE CODE FOR STUDENTS",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR STUDENTS",
       "segment": "PACKAGE AUDIT",
       "runningText": "generating auditor…"
      }
@@ -106,7 +114,9 @@
    },
    "estimated_duration_s": 12,
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 8.55
   },
   {
    "beat_id": "B03",
@@ -117,18 +127,20 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownCodeBlock",
+     "pattern": "ClaudeCodeBeat",
      "props": {
-      "filename": "package_auditor.py",
       "topic": "CLAUDE CODE FOR STUDENTS",
       "segment": "PACKAGE AUDIT",
-      "code": "# package_auditor.py — Claude Code output\nimport ast, sys, requests\n\ndef extract_imports(path):\n    tree = ast.parse(open(path).read())\n    pkgs = set()\n    for node in ast.walk(tree):\n        if isinstance(node, ast.Import):\n            for a in node.names: pkgs.add(a.name.split('.')[0])\n        elif isinstance(node, ast.ImportFrom):\n            if node.module: pkgs.add(node.module.split('.')[0])\n    return pkgs\n\ndef audit(path):\n    for pkg in extract_imports(path):\n        r = requests.get(f'https://pypi.org/pypi/{pkg}/json', timeout=5)\n        verdict = 'EXISTS' if r.status_code == 200 else 'HALLUCINATED'\n        risk = ' <- SLOPSQUATTING RISK' if r.status_code == 404 else ''\n        print(f'{pkg}: {verdict}{risk}')"
+      "code": "# package_auditor.py — Claude Code output\nimport ast, sys, requests\n\ndef extract_imports(path):\n    tree = ast.parse(open(path).read())\n    pkgs = set()\n    for node in ast.walk(tree):\n        if isinstance(node, ast.Import):\n            for a in node.names: pkgs.add(a.name.split('.')[0])\n        elif isinstance(node, ast.ImportFrom):\n            if node.module: pkgs.add(node.module.split('.')[0])\n    return pkgs\n\ndef audit(path):\n    for pkg in extract_imports(path):\n        r = requests.get(f'https://pypi.org/pypi/{pkg}/json', timeout=5)\n        verdict = 'EXISTS' if r.status_code == 200 else 'HALLUCINATED'\n        risk = ' <- SLOPSQUATTING RISK' if r.status_code == 404 else ''\n        print(f'{pkg}: {verdict}{risk}')",
+      "title": "package_auditor.py"
      }
     }
    },
    "estimated_duration_s": 14,
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 13.31
   },
   {
    "beat_id": "B04",
@@ -141,7 +153,9 @@
    },
    "estimated_duration_s": 20,
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 12.99
   },
   {
    "beat_id": "B05",
@@ -152,10 +166,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Add --npm flag:\\n  check npm registry API\\n  registry.npmjs.org/-/v1/search?text=<pkg>\\n  same EXISTS/HALLUCINATED output\"",
-      "topic": "CLAUDE CODE FOR STUDENTS",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR STUDENTS",
       "segment": "PACKAGE AUDIT",
       "runningText": "extending auditor…"
      }
@@ -163,7 +177,9 @@
    },
    "estimated_duration_s": 10,
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 7.21
   },
   {
    "beat_id": "B06",
@@ -176,7 +192,9 @@
    },
    "estimated_duration_s": 14,
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 14.36
   },
   {
    "beat_id": "B07",
@@ -189,7 +207,9 @@
    },
    "estimated_duration_s": 12,
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B07.mp3",
+   "actual_duration_s": 11.01
   },
   {
    "beat_id": "B08",
@@ -202,18 +222,20 @@
    },
    "estimated_duration_s": 8,
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B08.mp3",
+   "actual_duration_s": 4.29
   },
   {
    "beat_id": "B09",
    "act": "OUTRO",
-   "narration_text": "Nik Bear Brown. Build it with a CLI. Then take it apart. At nikbearbrown.com.",
+   "narration_text": "Musinique. Build it with a CLI. Then take it apart. At nikbearbrown.com.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOutro",
+     "pattern": "ClaudeTitleOutro",
      "props": {
       "brand": "Nik Bear Brown",
       "tagline": "Brutalist + Educational AI",
@@ -224,7 +246,9 @@
    },
    "estimated_duration_s": 8,
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B09.mp3",
+   "actual_duration_s": 5.27
   }
  ]
 }

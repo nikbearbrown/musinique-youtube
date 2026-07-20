@@ -5,7 +5,7 @@
   "topic": "AGENTIC AI",
   "source": "claude-agentic-ai/chapters/09-failure-modes-of-agentic-work.md",
   "register": "Baldwin",
-  "voice": "am_onyx",
+  "voice": "am_puck",
   "voice_id": "TyW6NH39JcFb5M3xdIIk",
   "palette": "claude",
   "style_preset": "nikbearbrown",
@@ -13,31 +13,33 @@
   "note": "CLI video. Exclusions: formal agent red-teaming, AgentDojo benchmark walkthrough, full OWASP LLM Top 10.",
   "total_estimated_duration_seconds": 98.42,
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
   "engine": "kokoro",
-  "voice_kokoro": "am_onyx",
+  "voice_kokoro": "am_puck",
   "derived_from": "beat_sheet.json"
  },
  "beats": [
   {
    "beat_id": "B00",
    "act": "INTRO",
-   "narration_text": "This is Liam for Musinique. Nik Bear Brown. Build it with a CLI, then take it apart.",
+   "narration_text": "This is Musinique. Musinique. Build it with a CLI, then take it apart.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOpen",
+     "pattern": "ClaudeComposerAsk",
      "props": {
-      "topic": "NIK BEAR BROWN",
-      "lines": [
-       "Nik Bear Brown",
+      "command": "Run a Pre-Mortem on an Agentic Task with Claude",
+      "topic": "MUSINIQUE · NIK BEAR BROWN",
+      "segment": "Run a Pre-Mortem on an Agentic Task with Claude",
+      "greeting": "This is Musinique.",
+      "runningText": "working…",
+      "output": [
        "Pre-Mortem Before the Agent Runs."
-      ],
-      "greeting": "Halo, Musinique"
+      ]
      },
      "rendered": {
       "out": "media/B00.mp4",
@@ -47,9 +49,9 @@
    },
    "estimated_duration_s": 5,
    "audio_file": "mp3/beat-B00.mp3",
-   "actual_duration_s": 3.29,
+   "actual_duration_s": 5.53,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01",
@@ -64,16 +66,16 @@
    },
    "estimated_duration_s": 15,
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 19.67,
+   "actual_duration_s": 16.06,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01B",
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "The indie musician who automates their Spotify stats check, their distributor ping, their playlist pitch — that musician gets time back that they would otherwise spend refreshing a dashboard. An agent is not a luxury for the label's data team; it is a tool you can run free, on your own machine, today. The same frontmatter that tells Claude when to fire a code-review agent tells it when to check your streaming anomalies. You just haven't pointed it yet.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -93,7 +95,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 22.06
   },
   {
    "beat_id": "B02",
@@ -105,10 +109,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Run a pre-mortem on: 'Process 30 customer emails, extract complaints, draft a response for each, save to /drafts/.' For each of the eight failure modes [tool overreach, stale context, plausible summary, silent omission, prompt injection, fabricated completion, irreversible action, automation bias]: mark live or not-live, and for each live mode write one concrete prevention step.\"",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "PRE-MORTEM",
       "runningText": "generating..."
      },
@@ -120,9 +124,9 @@
    },
    "estimated_duration_s": 14,
    "audio_file": "mp3/beat-B02.mp3",
-   "actual_duration_s": 9.46,
+   "actual_duration_s": 8.98,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B03",
@@ -134,12 +138,12 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownCodeBlock",
+     "pattern": "ClaudeCodeBeat",
      "props": {
-      "filename": "premortem.py",
       "topic": "AGENTIC AI",
       "segment": "PRE-MORTEM",
-      "code": "MODES = [\n (\"tool overreach\",        \"not-live\", \"-\",    \"-\"),\n (\"stale context\",         \"not-live\", \"-\",    \"-\"),\n (\"plausible summary\",     \"live\",\"may omit complaints\",\"require count check\"),\n (\"silent omission\",       \"live\",\"emails skipped silently\",\"verify count\"),\n (\"prompt injection\",      \"live\",\"email body can instruct\",\"sanitize input\"),\n (\"fabricated completion\", \"live\",\"may hallucinate draft\",\"spot-check drafts\"),\n (\"irreversible action\",   \"live\",\"drafts saved permanently\",\"gate before save\"),\n (\"automation bias\",       \"live\",\"reviewer trusts output\",\"structured review\"),\n]\nfor m, live, why, prev in MODES:\n    tag = \"LIVE\" if live==\"live\" else \"ok\"\n    print(f\"[{tag}] {m}: {why} | Prevention: {prev}\")"
+      "code": "MODES = [\n (\"tool overreach\",        \"not-live\", \"-\",    \"-\"),\n (\"stale context\",         \"not-live\", \"-\",    \"-\"),\n (\"plausible summary\",     \"live\",\"may omit complaints\",\"require count check\"),\n (\"silent omission\",       \"live\",\"emails skipped silently\",\"verify count\"),\n (\"prompt injection\",      \"live\",\"email body can instruct\",\"sanitize input\"),\n (\"fabricated completion\", \"live\",\"may hallucinate draft\",\"spot-check drafts\"),\n (\"irreversible action\",   \"live\",\"drafts saved permanently\",\"gate before save\"),\n (\"automation bias\",       \"live\",\"reviewer trusts output\",\"structured review\"),\n]\nfor m, live, why, prev in MODES:\n    tag = \"LIVE\" if live==\"live\" else \"ok\"\n    print(f\"[{tag}] {m}: {why} | Prevention: {prev}\")",
+      "title": "premortem.py"
      },
      "rendered": {
       "out": "media/B03.mp4",
@@ -149,9 +153,9 @@
    },
    "estimated_duration_s": 14,
    "audio_file": "mp3/beat-B03.mp3",
-   "actual_duration_s": 8.2,
+   "actual_duration_s": 7.96,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B04",
@@ -166,9 +170,9 @@
    },
    "estimated_duration_s": 12,
    "audio_file": "mp3/beat-B04.mp3",
-   "actual_duration_s": 11.23,
+   "actual_duration_s": 10.28,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B05",
@@ -180,10 +184,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Revise the pre-mortem: replace 'save to /drafts/' with 'send responses directly.' How does the irreversible action risk change?\"",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "PRE-MORTEM",
       "runningText": "updating..."
      },
@@ -195,9 +199,9 @@
    },
    "estimated_duration_s": 11,
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 7.94,
+   "actual_duration_s": 7.49,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B06",
@@ -212,9 +216,9 @@
    },
    "estimated_duration_s": 12,
    "audio_file": "mp3/beat-B06.mp3",
-   "actual_duration_s": 10.53,
+   "actual_duration_s": 9.28,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B07",
@@ -229,9 +233,9 @@
    },
    "estimated_duration_s": 12,
    "audio_file": "mp3/beat-B07.mp3",
-   "actual_duration_s": 10.81,
+   "actual_duration_s": 9.88,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B08",
@@ -246,20 +250,20 @@
    },
    "estimated_duration_s": 11,
    "audio_file": "mp3/beat-B08.mp3",
-   "actual_duration_s": 11.31,
+   "actual_duration_s": 10.9,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B09",
    "act": "OUTRO",
-   "narration_text": "Nik Bear Brown. Build it with a CLI. Then take it apart. At Nik Bear Brown, nikbearbrown dot com.",
+   "narration_text": "Musinique. Build it with a CLI. Then take it apart. At Musinique, nikbearbrown dot com.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOutro",
+     "pattern": "ClaudeTitleOutro",
      "props": {
       "brand": "Nik Bear Brown",
       "tagline": "Brutalist + Educational AI",
@@ -274,9 +278,9 @@
    },
    "estimated_duration_s": 8,
    "audio_file": "mp3/beat-B09.mp3",
-   "actual_duration_s": 5.98,
+   "actual_duration_s": 6.51,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   }
  ]
 }

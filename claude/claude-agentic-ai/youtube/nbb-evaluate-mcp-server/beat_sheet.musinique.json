@@ -6,7 +6,7 @@
   "topic": "AGENTIC AI",
   "audience": "NikBearBrown",
   "engine": "kokoro",
-  "voice": "am_onyx",
+  "voice": "am_puck",
   "palette": "claude",
   "register": "Baldwin",
   "derived_from": "beat_sheet.json",
@@ -29,10 +29,10 @@
   ],
   "built_at": "2026-07-17T00:20:55.148126",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
-  "voice_kokoro": "am_onyx"
+  "voice_kokoro": "am_puck"
  },
  "beats": [
   {
@@ -40,8 +40,8 @@
    "act": "COLD OPEN",
    "title": "Liam cold open — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "This is Liam for Musinique. Server A getting CONNECT while the read-write Server B got CONDITIONAL, and Server C's email capability flagging prompt injection, made the review feel concrete to me. I want to score servers before I connect them. Help me: (1) list what each candidate server lets the agent do; (2) rate every one on blast radius and reversibility; (3) decide connect, conditional, or no for each and name the human gate any write or send action must pass through.",
+   "voice": "am_puck",
+   "narration_text": "This is Musinique. Server A getting CONNECT while the read-write Server B got CONDITIONAL, and Server C's email capability flagging prompt injection, made the review feel concrete to me. I want to score servers before I connect them. Help me: (1) list what each candidate server lets the agent do; (2) rate every one on blast radius and reversibility; (3) decide connect, conditional, or no for each and name the human gate any write or send action must pass through.",
    "shot": {
     "type": "CARD",
     "source": "remotion",
@@ -52,7 +52,7 @@
      "version": "1",
      "props": {
       "command": "Server A getting CONNECT while the read-write Server B got CONDITIONAL, and Server C's email capability flagging prompt injection, made the review feel concrete to me. I want to score servers before I connect them. Help me: (1) list what each candidate server lets the agent do; (2) rate every one on blast radius and reversibility; (3) decide connect, conditional, or no for each and name the human gate any write or send action must pass through.",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "Evaluate an MCP Server Before Connecting",
       "greeting": "Sawubona, Musinique",
       "runningText": "explaining the mechanism…",
@@ -69,25 +69,27 @@
    },
    "estimated_duration_s": 9.0,
    "audio_file": "mp3/beat-NBB00.mp3",
-   "actual_duration_s": 5.952
+   "actual_duration_s": 25.75
   },
   {
    "beat_id": "B00",
    "act": "INTRO",
-   "narration_text": "This is Musinique. Nik Bear Brown. Build it with a CLI, then take it apart.",
+   "narration_text": "This is Musinique. Musinique. Build it with a CLI, then take it apart.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOpen",
+     "pattern": "ClaudeComposerAsk",
      "props": {
-      "topic": "NIK BEAR BROWN",
-      "lines": [
-       "Nik Bear Brown",
+      "command": "Evaluate an MCP Server Before Connecting It with Claude",
+      "topic": "MUSINIQUE · NIK BEAR BROWN",
+      "segment": "Evaluate an MCP Server Before Connecting It with Claude",
+      "greeting": "This is Musinique.",
+      "runningText": "working…",
+      "output": [
        "Evaluate Before You Connect."
-      ],
-      "greeting": "Sawubona, Musinique"
+      ]
      },
      "rendered": {
       "out": "media/B00.mp4",
@@ -96,13 +98,13 @@
     }
    },
    "estimated_duration_s": 5,
-   "audio_file": "../evaluate-mcp-server/mp3/beat-B00.mp3",
-   "actual_duration_s": 3.42,
+   "audio_file": "mp3/beat-B00.mp3",
+   "actual_duration_s": 4.93,
    "locked": true,
    "source_clip": "../evaluate-mcp-server/clips/B00.mp4",
    "source_audio": "../evaluate-mcp-server/mp3/beat-B00.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01",
@@ -116,20 +118,20 @@
     "motion": "fade"
    },
    "estimated_duration_s": 15,
-   "audio_file": "../evaluate-mcp-server/mp3/beat-B01.mp3",
-   "actual_duration_s": 17.03,
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 13.63,
    "locked": true,
    "source_clip": "../evaluate-mcp-server/clips/B01.mp4",
    "source_audio": "../evaluate-mcp-server/mp3/beat-B01.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01B",
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "The indie musician who automates their Spotify stats check, their distributor ping, their playlist pitch — that musician gets time back that they would otherwise spend refreshing a dashboard. An agent is not a luxury for the label's data team; it is a tool you can run free, on your own machine, today. The same frontmatter that tells Claude when to fire a code-review agent tells it when to check your streaming anomalies. You just haven't pointed it yet.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -149,7 +151,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 22.06
   },
   {
    "beat_id": "B02",
@@ -161,10 +165,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Evaluate two MCP servers for a 'weekly status report from open tickets' task. Server A: read-only ticket resources. Server B: ticket resources plus tools to update status and post comments. For each: what can the agent do, blast radius on error, one required approval gate, recommend connect or do-not-connect.\"",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "MCP SERVER",
       "runningText": "generating..."
      },
@@ -175,13 +179,13 @@
     }
    },
    "estimated_duration_s": 14,
-   "audio_file": "../evaluate-mcp-server/mp3/beat-B02.mp3",
-   "actual_duration_s": 10.29,
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 9.43,
    "locked": true,
    "source_clip": "../evaluate-mcp-server/clips/B02.mp4",
    "source_audio": "../evaluate-mcp-server/mp3/beat-B02.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B03",
@@ -193,12 +197,12 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownCodeBlock",
+     "pattern": "ClaudeCodeBeat",
      "props": {
-      "filename": "mcp_eval.py",
       "topic": "AGENTIC AI",
       "segment": "MCP SERVER",
-      "code": "SERVERS = [\n {\"name\":\"Server A\",\"can_do\":\"read tickets\",\n  \"blast\":\"low\",\"gate\":\"none required\",\n  \"rec\":\"CONNECT\"},\n {\"name\":\"Server B\",\"can_do\":\"read+write tickets,post comments\",\n  \"blast\":\"high\",\"gate\":\"human approval before write\",\n  \"rec\":\"CONDITIONAL\"},\n]\nhdr = \"SERVER    CAN-DO              BLAST  GATE            REC\"\nprint(hdr); print(\"-\"*len(hdr))\nfor s in SERVERS:\n    print(f\"{s['name']:<10}{s['can_do']:<20}{s['blast']:<7}\"\n          f\"{s['gate']:<16}{s['rec']}\")"
+      "code": "SERVERS = [\n {\"name\":\"Server A\",\"can_do\":\"read tickets\",\n  \"blast\":\"low\",\"gate\":\"none required\",\n  \"rec\":\"CONNECT\"},\n {\"name\":\"Server B\",\"can_do\":\"read+write tickets,post comments\",\n  \"blast\":\"high\",\"gate\":\"human approval before write\",\n  \"rec\":\"CONDITIONAL\"},\n]\nhdr = \"SERVER    CAN-DO              BLAST  GATE            REC\"\nprint(hdr); print(\"-\"*len(hdr))\nfor s in SERVERS:\n    print(f\"{s['name']:<10}{s['can_do']:<20}{s['blast']:<7}\"\n          f\"{s['gate']:<16}{s['rec']}\")",
+      "title": "mcp_eval.py"
      },
      "rendered": {
       "out": "media/B03.mp4",
@@ -207,13 +211,13 @@
     }
    },
    "estimated_duration_s": 14,
-   "audio_file": "../evaluate-mcp-server/mp3/beat-B03.mp3",
-   "actual_duration_s": 9.98,
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 10.28,
    "locked": true,
    "source_clip": "../evaluate-mcp-server/clips/B03.mp4",
    "source_audio": "../evaluate-mcp-server/mp3/beat-B03.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B04",
@@ -227,13 +231,13 @@
     "motion": "fade"
    },
    "estimated_duration_s": 12,
-   "audio_file": "../evaluate-mcp-server/mp3/beat-B04.mp3",
-   "actual_duration_s": 10.21,
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 9.0,
    "locked": true,
    "source_clip": "../evaluate-mcp-server/clips/B04.mp4",
    "source_audio": "../evaluate-mcp-server/mp3/beat-B04.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B05",
@@ -245,10 +249,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Add Server C: reads tickets plus sends external email. What is the highest concern for this server in an agentic context?\"",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "MCP SERVER",
       "runningText": "updating..."
      },
@@ -259,13 +263,13 @@
     }
    },
    "estimated_duration_s": 11,
-   "audio_file": "../evaluate-mcp-server/mp3/beat-B05.mp3",
-   "actual_duration_s": 8.44,
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 8.43,
    "locked": true,
    "source_clip": "../evaluate-mcp-server/clips/B05.mp4",
    "source_audio": "../evaluate-mcp-server/mp3/beat-B05.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B06",
@@ -279,13 +283,13 @@
     "motion": "fade"
    },
    "estimated_duration_s": 12,
-   "audio_file": "../evaluate-mcp-server/mp3/beat-B06.mp3",
-   "actual_duration_s": 9.38,
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 10.03,
    "locked": true,
    "source_clip": "../evaluate-mcp-server/clips/B06.mp4",
    "source_audio": "../evaluate-mcp-server/mp3/beat-B06.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B07",
@@ -299,13 +303,13 @@
     "motion": "fade"
    },
    "estimated_duration_s": 12,
-   "audio_file": "../evaluate-mcp-server/mp3/beat-B07.mp3",
-   "actual_duration_s": 13.37,
+   "audio_file": "mp3/beat-B07.mp3",
+   "actual_duration_s": 13.23,
    "locked": true,
    "source_clip": "../evaluate-mcp-server/clips/B07.mp4",
    "source_audio": "../evaluate-mcp-server/mp3/beat-B07.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B08",
@@ -319,20 +323,20 @@
     "motion": "fade"
    },
    "estimated_duration_s": 11,
-   "audio_file": "../evaluate-mcp-server/mp3/beat-B08.mp3",
-   "actual_duration_s": 9.69,
+   "audio_file": "mp3/beat-B08.mp3",
+   "actual_duration_s": 10.03,
    "locked": true,
    "source_clip": "../evaluate-mcp-server/clips/B08.mp4",
    "source_audio": "../evaluate-mcp-server/mp3/beat-B08.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "NBB01",
    "act": "VERDICT",
    "title": "Liam verdict — ClaudeVerdictArtifact",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": "Let's recap with Claude. Here's what the body just demonstrated. Connecting an MCP server is an approval gate. The capabilities you grant at connection are the capabilities the agent can misuse. Blast radius and reversibility are the two columns that determine whether a gate is required. Before connecting any MCP server, score it on blast radius and reversibility. If either is high, require a human approval gate before any write or send action.",
    "shot": {
     "type": "CARD",
@@ -359,7 +363,7 @@
    },
    "estimated_duration_s": 30.0,
    "audio_file": "mp3/beat-NBB01.mp3",
-   "actual_duration_s": 22.208,
+   "actual_duration_s": 22.93,
    "lead_silence_s": 0.5
   },
   {
@@ -367,7 +371,7 @@
    "act": "YOUR TURN",
    "title": "Your turn handoff — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": "Take this prompt, run it on your own — pick any cancer type or clinical scenario you know about and ask how this mechanism applies there.",
    "shot": {
     "type": "CARD",
@@ -379,7 +383,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Evaluate an MCP Server Before Connecting It with Claude] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "Evaluate an MCP Server Before Connecting",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -396,7 +400,7 @@
    },
    "estimated_duration_s": 8.0,
    "audio_file": "mp3/beat-NBB02.mp3",
-   "actual_duration_s": 7.765
+   "actual_duration_s": 7.81
   },
   {
    "beat_id": "NBB03",
@@ -425,10 +429,10 @@
    "estimated_duration_s": 6.0,
    "audio_file": "mp3/beat-NBB03.mp3",
    "silence_s": 6.0,
-   "actual_duration_s": 6.03,
+   "actual_duration_s": 3.86,
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "Evaluate an MCP Server Before Connecting It with Claude"
+   "voice": "am_puck",
+   "narration_text": "Evaluate an MCP Server Before Connecting It with Claude. From Musinique."
   }
  ]
 }

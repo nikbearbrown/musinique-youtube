@@ -4,13 +4,13 @@
   "title": "Grounding: The Fix for Hallucinations",
   "topic": "PROMPT ENGINEERING · Avoiding Hallucinations",
   "source": "Anthropic Prompt Engineering Tutorial Lesson 8",
-  "voice_kokoro": "am_onyx",
+  "voice_kokoro": "am_puck",
   "engine": "kokoro",
   "style_preset": "teardown",
   "palette": "claude",
   "register": "Baldwin",
   "aspect_ratio": "16:9",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "folderLabel": "@Musinique",
   "audience": "claude-liam",
   "build": {
@@ -48,14 +48,14 @@
   ],
   "brand": "claude-musinique",
   "persona": "Musinique",
-  "voice": "am_onyx",
+  "voice": "am_puck",
   "derived_from": "beat_sheet.json"
  },
  "beats": [
   {
    "beat_id": "B00",
    "beat_type": "cold_open",
-   "narration_text": "This is Liam for Musinique. Grounding as the fix for hallucinations makes intuitive sense, but I want to understand exactly how supplying source text changes what the model does. Walk me through: (1) why giving Claude a document to quote from reduces fabrication compared to relying on parametric memory; (2) how I'd instruct it to say 'not found in the source' instead of inventing an answer; (3) a test case where a poorly grounded prompt still hallucinates because the retrieved passage was almost-but-not-quite relevant, and how I'd catch it.",
+   "narration_text": "This is Musinique. Grounding as the fix for hallucinations makes intuitive sense, but I want to understand exactly how supplying source text changes what the model does. Walk me through: (1) why giving Claude a document to quote from reduces fabrication compared to relying on parametric memory; (2) how I'd instruct it to say 'not found in the source' instead of inventing an answer; (3) a test case where a poorly grounded prompt still hallucinates because the retrieved passage was almost-but-not-quite relevant, and how I'd catch it.",
    "estimated_duration_s": 20,
    "shot": {
     "scene_type": "ClaudeComposerAsk",
@@ -64,7 +64,7 @@
      "props": {
       "greeting": "Halo, Musinique",
       "command": "Grounding as the fix for hallucinations makes intuitive sense, but I want to understand exactly how supplying source text changes what the model does. Walk me through: (1) why giving Claude a document to quote from reduces fabrication compared to relying on parametric memory; (2) how I'd instruct it to say 'not found in the source' instead of inventing an answer; (3) a test case where a poorly grounded prompt still hallucinates because the retrieved passage was almost-but-not-quite relevant, and how I'd catch it.",
-      "topic": "PROMPT ENGINEERING · Avoiding Hallucinations",
+      "topic": "MUSINIQUE · PROMPT ENGINEERING · Avoiding Hallucinations",
       "segment": "Cold Open",
       "runningText": "Analyzing: Anthropic Prompt Engineering Tutorial · Lesson 8",
       "output": [
@@ -85,7 +85,7 @@
     }
    },
    "audio_file": "mp3/beat-B00.mp3",
-   "actual_duration_s": 16.0,
+   "actual_duration_s": 29.74,
    "build": {
     "status": "VIDEO",
     "src": "media/B00.mp4",
@@ -93,7 +93,7 @@
     "at": "2026-07-16T23:54:24"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01",
@@ -122,7 +122,7 @@
     }
    },
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 23.68,
+   "actual_duration_s": 25.43,
    "build": {
     "status": "VIDEO",
     "src": "media/B01.mp4",
@@ -130,7 +130,7 @@
     "at": "2026-07-16T23:54:24"
    },
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "lead_silence_s": 0.5
   },
   {
@@ -138,7 +138,7 @@
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "Prompt design is the skill the platform doesn't want you to have, because a musician who can write a precise prompt is a musician who doesn't need to buy someone else's pre-packaged workflow. Every prompt in this video is a template you can adapt — paste it, swap the specifics, run it on your own catalog. The instruction is the tool.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -158,7 +158,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 17.15
   },
   {
    "beat_id": "B02",
@@ -195,7 +197,7 @@
     "at": "2026-07-16T23:54:24"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B03",
@@ -232,7 +234,7 @@
     "at": "2026-07-16T23:54:24"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B04",
@@ -269,7 +271,7 @@
     "at": "2026-07-16T23:54:24"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B05",
@@ -283,7 +285,7 @@
      "props": {
       "greeting": "Your turn.",
       "command": "Here is a document: [paste any document — a contract section, paper abstract, or policy page]. Answer only from this document. If the answer is not in the document, say 'I don't know based on this document.' Questions: [1] [ask something whose answer IS in the document] [2] [ask something whose answer is NOT in the document]",
-      "topic": "TRY THIS NOW",
+      "topic": "MUSINIQUE · TRY THIS NOW",
       "segment": "Handoff",
       "runningText": "paste this into Claude…",
       "output": [
@@ -303,7 +305,7 @@
     }
    },
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 43.22,
+   "actual_duration_s": 42.94,
    "build": {
     "status": "VIDEO",
     "src": "media/B05.mp4",
@@ -311,12 +313,12 @@
     "at": "2026-07-16T23:54:24"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B06",
    "beat_type": "outro",
-   "narration_text": "Grounding: The Fix for Hallucinations",
+   "narration_text": "Grounding: The Fix for Hallucinations. From Musinique.",
    "estimated_duration_s": 6,
    "shot": {
     "scene_type": "ClaudeTitleOutro",
@@ -324,7 +326,7 @@
      "pattern": "ClaudeTitleOutro",
      "props": {
       "title": "Grounding: The Fix for Hallucinations",
-      "handle": "@NikBearBrown",
+      "handle": "@Musinique",
       "subline": "Anthropic Prompt Engineering Tutorial · Lesson 8"
      },
      "rendered": {
@@ -341,7 +343,8 @@
     "at": "2026-07-16T23:54:24"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 2.75
   }
  ]
 }

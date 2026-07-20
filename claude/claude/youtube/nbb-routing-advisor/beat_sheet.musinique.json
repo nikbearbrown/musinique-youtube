@@ -6,7 +6,7 @@
   "topic": "CLAUDE",
   "audience": "NikBearBrown",
   "engine": "kokoro",
-  "voice": "am_onyx",
+  "voice": "am_puck",
   "palette": "claude",
   "register": "Baldwin",
   "derived_from": "beat_sheet.json",
@@ -29,10 +29,10 @@
   ],
   "built_at": "2026-07-17T02:18:44.012315",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
-  "voice_kokoro": "am_onyx"
+  "voice_kokoro": "am_puck"
  },
  "beats": [
   {
@@ -40,8 +40,8 @@
    "act": "COLD OPEN",
    "title": "Liam cold open — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "This is Liam for Musinique. I want to build the routing advisor CLI so I stop defaulting every task to chat. Code it with me: (1) write the scorer that reads a task description and evaluates all five dimensions — output type, context source, risk, reversibility, verification path — printing a surface plus a one-line rationale; (2) show how output type and context source set the surface axis while risk and reversibility gate it; (3) add the override so any task tagged irreversible AND high-risk routes to human-only and prints 'risk override triggered,' then test it on 'delete the production database.'",
+   "voice": "am_puck",
+   "narration_text": "This is Musinique. I want to build the routing advisor CLI so I stop defaulting every task to chat. Code it with me: (1) write the scorer that reads a task description and evaluates all five dimensions — output type, context source, risk, reversibility, verification path — printing a surface plus a one-line rationale; (2) show how output type and context source set the surface axis while risk and reversibility gate it; (3) add the override so any task tagged irreversible AND high-risk routes to human-only and prints 'risk override triggered,' then test it on 'delete the production database.'",
    "shot": {
     "type": "CARD",
     "source": "remotion",
@@ -52,7 +52,7 @@
      "version": "1",
      "props": {
       "command": "I want to build the routing advisor CLI so I stop defaulting every task to chat. Code it with me: (1) write the scorer that reads a task description and evaluates all five dimensions — output type, context source, risk, reversibility, verification path — printing a surface plus a one-line rationale; (2) show how output type and context source set the surface axis while risk and reversibility gate it; (3) add the override so any task tagged irreversible AND high-risk routes to human-only and prints 'risk override triggered,' then test it on 'delete the production database.'",
-      "topic": "CLAUDE",
+      "topic": "MUSINIQUE · CLAUDE",
       "segment": "Route Any Task to the Right",
       "greeting": "Yassou, Musinique",
       "runningText": "explaining the mechanism…",
@@ -69,38 +69,41 @@
    },
    "estimated_duration_s": 9.0,
    "audio_file": "mp3/beat-NBB00.mp3",
-   "actual_duration_s": 5.952
+   "actual_duration_s": 32.79
   },
   {
    "beat_id": "B00",
    "act": "INTRO",
-   "narration_text": "This is Musinique. Nik Bear Brown. Build it with a CLI, then take it apart.",
+   "narration_text": "This is Musinique. Musinique. Build it with a CLI, then take it apart.",
    "estimated_duration_s": 10.0,
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOpen",
+     "pattern": "ClaudeComposerAsk",
      "props": {
-      "topic": "CLAUDE",
-      "lines": [
-       "Nik Bear Brown",
+      "command": "Route Any Task to the Right Claude Surface in Thirty Seconds",
+      "topic": "MUSINIQUE · CLAUDE",
+      "segment": "Route Any Task to the Right Claude Surface in Thirty Seconds",
+      "greeting": "This is Musinique.",
+      "runningText": "working…",
+      "output": [
        "Brutalist + Educational AI",
        "Route Any Task",
        "to the Right Claude Surface",
        "in Thirty Seconds"
-      ],
-      "greeting": "Yassou, Musinique"
+      ]
      }
     }
    },
    "locked": true,
    "source_clip": "../routing-advisor/clips/B00.mp4",
    "source_audio": "../routing-advisor/mp3/beat-B00.mp3",
-   "audio_file": "../routing-advisor/mp3/beat-B00.mp3",
+   "audio_file": "mp3/beat-B00.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 4.93
   },
   {
    "beat_id": "B01",
@@ -115,16 +118,17 @@
    "locked": true,
    "source_clip": "../routing-advisor/clips/B01.mp4",
    "source_audio": "../routing-advisor/mp3/beat-B01.mp3",
-   "audio_file": "../routing-advisor/mp3/beat-B01.mp3",
+   "audio_file": "mp3/beat-B01.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 13.93
   },
   {
    "beat_id": "B01B",
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "The tools this video covers were built for enterprises with engineering teams and compliance budgets. The musician in the van at 1 a.m. has access to the exact same machinery, for free, through a browser. The gap between knowing this exists and knowing how to use it is what this channel closes — one working piece of your promotion deck at a time.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -144,7 +148,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 18.92
   },
   {
    "beat_id": "B02",
@@ -156,10 +162,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Build routing_advisor.py: reads a task description\nfrom stdin, evaluates five dimensions:\n  output_type (text/code/file)\n  context_source (conversation/repo/filesystem)\n  risk_level (low/medium/high)\n  reversibility (reversible/irreversible)\n  verification_path (domain-check/tests/manual)\nPrint recommended surface and determining factor.\"",
-      "topic": "CLAUDE",
+      "topic": "MUSINIQUE · CLAUDE",
       "segment": "TASK ROUTING",
       "runningText": "running analysis…"
      }
@@ -168,9 +174,10 @@
    "locked": true,
    "source_clip": "../routing-advisor/clips/B02.mp4",
    "source_audio": "../routing-advisor/mp3/beat-B02.mp3",
-   "audio_file": "../routing-advisor/mp3/beat-B02.mp3",
+   "audio_file": "mp3/beat-B02.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 15.23
   },
   {
    "beat_id": "B03",
@@ -182,21 +189,22 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownCodeBlock",
+     "pattern": "ClaudeCodeBeat",
      "props": {
-      "filename": "routing_advisor.py",
       "segment": "TASK ROUTING",
       "topic": "CLAUDE",
-      "code": "# routing_advisor.py — Claude Code output\nimport sys\n\ndef route(desc):\n    d = desc.lower()\n    if 'delete' in d or 'deploy' in d:\n        return 'human-only', 'irreversible action'\n    if 'repo' in d or 'code' in d:\n        return 'claude-code', 'context_source=repo'\n    if 'folder' in d or 'file' in d:\n        return 'claude-cowork', 'context_source=filesystem'\n    return 'claude-ai', 'context_source=conversation'\n\nif __name__ == '__main__':\n    desc = sys.stdin.read()\n    surface, factor = route(desc)\n    print(f'Surface: {surface}\\nFactor:  {factor}')"
+      "code": "# routing_advisor.py — Claude Code output\nimport sys\n\ndef route(desc):\n    d = desc.lower()\n    if 'delete' in d or 'deploy' in d:\n        return 'human-only', 'irreversible action'\n    if 'repo' in d or 'code' in d:\n        return 'claude-code', 'context_source=repo'\n    if 'folder' in d or 'file' in d:\n        return 'claude-cowork', 'context_source=filesystem'\n    return 'claude-ai', 'context_source=conversation'\n\nif __name__ == '__main__':\n    desc = sys.stdin.read()\n    surface, factor = route(desc)\n    print(f'Surface: {surface}\\nFactor:  {factor}')",
+      "title": "routing_advisor.py"
      }
     }
    },
    "locked": true,
    "source_clip": "../routing-advisor/clips/B03.mp4",
    "source_audio": "../routing-advisor/mp3/beat-B03.mp3",
-   "audio_file": "../routing-advisor/mp3/beat-B03.mp3",
+   "audio_file": "mp3/beat-B03.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 14.4
   },
   {
    "beat_id": "B04",
@@ -211,9 +219,10 @@
    "locked": true,
    "source_clip": "../routing-advisor/clips/B04.mp4",
    "source_audio": "../routing-advisor/mp3/beat-B04.mp3",
-   "audio_file": "../routing-advisor/mp3/beat-B04.mp3",
+   "audio_file": "mp3/beat-B04.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 12.46
   },
   {
    "beat_id": "B05",
@@ -225,10 +234,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"update routing_advisor.py:\n  add --risk-override flag\n  irreversible + high-risk -> human-only\n  regardless of all other dimensions\n  verify with: delete production database\"",
-      "topic": "CLAUDE",
+      "topic": "MUSINIQUE · CLAUDE",
       "segment": "TASK ROUTING",
       "runningText": "updating routing logic…"
      }
@@ -237,9 +246,10 @@
    "locked": true,
    "source_clip": "../routing-advisor/clips/B05.mp4",
    "source_audio": "../routing-advisor/mp3/beat-B05.mp3",
-   "audio_file": "../routing-advisor/mp3/beat-B05.mp3",
+   "audio_file": "mp3/beat-B05.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 9.45
   },
   {
    "beat_id": "B06",
@@ -254,9 +264,10 @@
    "locked": true,
    "source_clip": "../routing-advisor/clips/B06.mp4",
    "source_audio": "../routing-advisor/mp3/beat-B06.mp3",
-   "audio_file": "../routing-advisor/mp3/beat-B06.mp3",
+   "audio_file": "mp3/beat-B06.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 11.63
   },
   {
    "beat_id": "B07",
@@ -271,9 +282,10 @@
    "locked": true,
    "source_clip": "../routing-advisor/clips/B07.mp4",
    "source_audio": "../routing-advisor/mp3/beat-B07.mp3",
-   "audio_file": "../routing-advisor/mp3/beat-B07.mp3",
+   "audio_file": "mp3/beat-B07.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 12.82
   },
   {
    "beat_id": "B08",
@@ -288,16 +300,17 @@
    "locked": true,
    "source_clip": "../routing-advisor/clips/B08.mp4",
    "source_audio": "../routing-advisor/mp3/beat-B08.mp3",
-   "audio_file": "../routing-advisor/mp3/beat-B08.mp3",
+   "audio_file": "mp3/beat-B08.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 11.75
   },
   {
    "beat_id": "NBB01",
    "act": "VERDICT",
    "title": "Liam verdict — ClaudeVerdictArtifact",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": "Let's recap with Claude. Here's what the body just demonstrated. Routing by habit is the most common Claude failure mode. Everything to chat, regardless of where the context lives. The five-question filter takes under a minute — it prevents hours of underpowered or dangerous delegation. Your move: extend the five dimensions into a YAML config and run your last ten Claude tasks through it. Next reel: the six-component specification that turns weak prompts into auditable artifacts.",
    "shot": {
     "type": "CARD",
@@ -324,7 +337,7 @@
    },
    "estimated_duration_s": 30.0,
    "audio_file": "mp3/beat-NBB01.mp3",
-   "actual_duration_s": 23.232,
+   "actual_duration_s": 25.9,
    "lead_silence_s": 0.5
   },
   {
@@ -332,7 +345,7 @@
    "act": "YOUR TURN",
    "title": "Your turn handoff — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": "Take this prompt, run it on your own — pick any cancer type or clinical scenario you know about and ask how this mechanism applies there.",
    "shot": {
     "type": "CARD",
@@ -344,7 +357,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Route Any Task to the Right Claude Surface in Thirty Seconds] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "CLAUDE",
+      "topic": "MUSINIQUE · CLAUDE",
       "segment": "Route Any Task to the Right",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -361,7 +374,7 @@
    },
    "estimated_duration_s": 8.0,
    "audio_file": "mp3/beat-NBB02.mp3",
-   "actual_duration_s": 7.765
+   "actual_duration_s": 7.81
   },
   {
    "beat_id": "NBB03",
@@ -390,10 +403,10 @@
    "estimated_duration_s": 6.0,
    "audio_file": "mp3/beat-NBB03.mp3",
    "silence_s": 6.0,
-   "actual_duration_s": 6.03,
+   "actual_duration_s": 3.97,
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "Route Any Task to the Right Claude Surface in Thirty Seconds"
+   "voice": "am_puck",
+   "narration_text": "Route Any Task to the Right Claude Surface in Thirty Seconds. From Musinique."
   }
  ]
 }

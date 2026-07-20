@@ -49,7 +49,7 @@
    ]
   },
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
   "voice": "am_puck"
@@ -69,7 +69,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Ciao, Musinique",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "Why a Connected MCP Server Changes the Risk Profile of Every Task",
       "command": "Why a Connected MCP Server Changes the Risk Profile of Every Task",
       "runningText": "reading…",
@@ -81,7 +81,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B00.mp3",
+   "actual_duration_s": 6.19
   },
   {
    "beat_id": "B01",
@@ -97,7 +99,7 @@
    "chosen_media": null,
    "new_visual_element": "[PHOTO] project management dashboard",
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 11.18,
+   "actual_duration_s": 11.09,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -134,7 +136,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 19.54
   },
   {
    "beat_id": "B02",
@@ -150,7 +154,7 @@
    "chosen_media": "B02_ServerStreams",
    "new_visual_element": "[MANIM] server read vs write streams",
    "audio_file": "mp3/beat-B02.mp3",
-   "actual_duration_s": 10.45,
+   "actual_duration_s": 11.41,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -176,7 +180,7 @@
    "chosen_media": null,
    "new_visual_element": "[CARD] question beat",
    "audio_file": "mp3/beat-B03.mp3",
-   "actual_duration_s": 5.31,
+   "actual_duration_s": 5.42,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -202,7 +206,7 @@
    "chosen_media": "B04_ResourceVsTool",
    "new_visual_element": "[MANIM] resource vs tool split diagram",
    "audio_file": "mp3/beat-B04.mp3",
-   "actual_duration_s": 20.1,
+   "actual_duration_s": 19.39,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -228,7 +232,7 @@
    "chosen_media": null,
    "new_visual_element": "[CARD] mechanism card",
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 5.21,
+   "actual_duration_s": 5.08,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -254,7 +258,7 @@
    "chosen_media": "B06_CalendarExample",
    "new_visual_element": "[MANIM] calendar server example",
    "audio_file": "mp3/beat-B06.mp3",
-   "actual_duration_s": 17.51,
+   "actual_duration_s": 17.75,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -280,7 +284,7 @@
    "chosen_media": "B07_EvalColumns",
    "new_visual_element": "[MANIM] description-only vs tool-list evaluation",
    "audio_file": "mp3/beat-B07.mp3",
-   "actual_duration_s": 15.66,
+   "actual_duration_s": 16.62,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -306,7 +310,7 @@
    "chosen_media": "B08_McpChecklist",
    "new_visual_element": "[MANIM] MCP evaluation checklist",
    "audio_file": "mp3/beat-B08.mp3",
-   "actual_duration_s": 9.37,
+   "actual_duration_s": 10.28,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -322,7 +326,7 @@
    "beat_id": "B09",
    "t_start": 123.0,
    "estimated_duration_s": 14,
-   "narration_text": "The surface is not the description. It is the full list of what can change.",
+   "narration_text": "The surface is not the description. It is the full list of what can change. From Musinique.",
    "shot": {
     "type": "CARD",
     "source": "own",
@@ -332,7 +336,7 @@
    "chosen_media": null,
    "new_visual_element": "[CARD] endcard",
    "audio_file": "mp3/beat-B09.mp3",
-   "actual_duration_s": 4.74,
+   "actual_duration_s": 4.42,
    "build": {
     "status": "SLATE",
     "src": null,

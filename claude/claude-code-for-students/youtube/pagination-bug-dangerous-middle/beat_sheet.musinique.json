@@ -14,13 +14,13 @@
   "note": "Exclusions honored: no formal Hoare-triple proof notation; no security vulnerability taxonomy (slopsquatting covered in candidate 08); no property-based testing frameworks.",
   "total_estimated_duration_seconds": 247.59,
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "register": "Baldwin",
   "folderLabel": "@Musinique",
   "engine": "kokoro",
-  "voice": "am_onyx",
-  "voice_kokoro": "am_onyx",
+  "voice": "am_puck",
+  "voice_kokoro": "am_puck",
   "derived_from": "beat_sheet.json"
  },
  "beats": [
@@ -35,12 +35,12 @@
     "Six days later: Avery's flashlight",
     "doesn't exist."
    ],
-   "narration_text": "This is Liam for Musinique. Seth writes a pagination function for the networked inventory. Page 1 of 50 items: correct. Page 2 of 100 items: correct. 247 items across 5 pages: correct. He commits. Six days later, a player named Avery joins a session with 251 items. Page 5 returns 50 items. Page 6 returns an empty array. The 251st item — a flashlight someone dropped just before Avery joined — is on no page. From Avery's client, that flashlight does not exist.",
+   "narration_text": "This is Musinique. Seth writes a pagination function for the networked inventory. Page 1 of 50 items: correct. Page 2 of 100 items: correct. 247 items across 5 pages: correct. He commits. Six days later, a player named Avery joins a session with 251 items. Page 5 returns 50 items. Page 6 returns an empty array. The 251st item — a flashlight someone dropped just before Avery joined — is on no page. From Avery's client, that flashlight does not exist.",
    "estimated_duration": 20,
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 34.3,
+   "actual_duration_s": 29.65,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B02",
@@ -55,16 +55,16 @@
    "narration_text": "Every test Seth wrote passed. The function compiled. The code was clean. Why did it fail the moment the inventory had 251 items?",
    "estimated_duration": 10,
    "audio_file": "mp3/beat-B02.mp3",
-   "actual_duration_s": 8.86,
+   "actual_duration_s": 8.75,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01B",
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "The same evaluation machinery that grades six variants of a customer-support agent grades six versions of your EPK pitch. You write the rubric — what counts as a strong pitch, what counts as a weak one — and the machine runs the comparison. The label has staff for that. You have Claude.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -84,7 +84,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 15.34
   },
   {
    "beat_id": "B03",
@@ -99,9 +101,9 @@
    "narration_text": "The function itself is fine. The calling loop used a termination condition: stop when the page returns exactly 50 items. For 247 items, page 5 comes back with 47 — the loop stops correctly. For 250 items, the loop stops at page 5 and is correct. For 251 items, page 5 returns 50 — the loop stops one page too early. The 251st item is never fetched. Every test Seth thought to write was sized to a multiple of 50. He didn't know to write the other case.",
    "estimated_duration": 22,
    "audio_file": "mp3/beat-B03.mp3",
-   "actual_duration_s": 32.13,
+   "actual_duration_s": 28.22,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B04",
@@ -117,9 +119,9 @@
    "narration_text": "The bug lives in exactly one place on the number line: any inventory whose size is a multiple of 50 plus one. Everything else works. The test set covered the obvious cases. The non-obvious case — total equals page size times n plus one — was never written. The dangerous middle is the region where code compiles, passes, looks right, and is wrong in a way you weren't equipped to see.",
    "estimated_duration": 20,
    "audio_file": "mp3/beat-B04.mp3",
-   "actual_duration_s": 26.36,
+   "actual_duration_s": 19.9,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B05",
@@ -131,9 +133,9 @@
    "narration_text": "The failure was not in the function. The function was fine. The failure was at the joint between the function and the calling loop — the handoff. The function's contract said: given a start and a size, return that slice. It said nothing about what the caller should do when the last slice is exactly full. The calling loop assumed that a full last slice meant there was nothing more. That assumption was not in the contract. It was in the caller's head.",
    "estimated_duration": 22,
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 26.93,
+   "actual_duration_s": 20.37,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B06",
@@ -149,9 +151,9 @@
    "narration_text": "A handoff condition is a falsifiable claim, written before the next step begins, about what must be true once the current step ends. It is specific, testable, and binary. The condition Seth needed: given total items equals page size times three plus one, the calling loop terminates after the final one-item page is returned. That is the non-obvious case. It takes one sentence to write. It was never written.",
    "estimated_duration": 22,
    "audio_file": "mp3/beat-B06.mp3",
-   "actual_duration_s": 28.26,
+   "actual_duration_s": 21.35,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B07",
@@ -167,9 +169,9 @@
    "narration_text": "The handoff condition lives in the prompt, before Claude runs the step. Not in the code review afterward. The condition you write before is the condition that constrains what Claude builds. The condition you write after documents what Claude already built. Those are not the same thing. Pre-condition shapes the artifact. Post-hoc condition rationalizes it.",
    "estimated_duration": 18,
    "audio_file": "mp3/beat-B07.mp3",
-   "actual_duration_s": 20.74,
+   "actual_duration_s": 18.05,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B08",
@@ -185,9 +187,9 @@
    "narration_text": "Priya builds a paginated leaderboard for her school's quiz app. She tests page 1 of 20, page 2 of 40. All pass. She deploys. A tournament ends with 41 players. The 41st player — ranked last — never appears on any page. Her test set was all multiples of 20. The handoff condition she needed: given total equals page size times two plus one, the final page returns exactly one entry and the loop terminates.",
    "estimated_duration": 20,
    "audio_file": "mp3/beat-B08.mp3",
-   "actual_duration_s": 26.88,
+   "actual_duration_s": 22.14,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B09",
@@ -203,9 +205,9 @@
    "narration_text": "Before you ship any paginated output — or any function with a termination condition — write the non-obvious case. Not the round number. The round number plus one. Ask: what is the smallest input where this could be wrong in a way that doesn't show up at the obvious test? Write the handoff condition for that input. Run it. If it fails, you found the dangerous middle before it shipped.",
    "estimated_duration": 20,
    "audio_file": "mp3/beat-B09.mp3",
-   "actual_duration_s": 25.08,
+   "actual_duration_s": 18.77,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B10",
@@ -218,12 +220,12 @@
     "is the one that passes every test",
     "you thought to write."
    ],
-   "narration_text": "The dangerous middle is not the easy bug that fails on first run, and not the impossible bug nobody would think of. It is the bug that lives inside what looks like correct work — the one you could have caught with one more test, written before the step ran. The handoff condition is the sentence that makes that test mandatory.",
+   "narration_text": "The dangerous middle is not the easy bug that fails on first run, and not the impossible bug nobody would think of. It is the bug that lives inside what looks like correct work — the one you could have caught with one more test, written before the step ran. The handoff condition is the sentence that makes that test mandatory. From Musinique.",
    "estimated_duration": 16,
    "audio_file": "mp3/beat-B10.mp3",
-   "actual_duration_s": 18.05,
+   "actual_duration_s": 17.28,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   }
  ],
  "estimated_total_duration": 210

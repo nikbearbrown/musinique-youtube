@@ -6,7 +6,7 @@
   "topic": "CLAUDE CODE FOR STUDENTS",
   "audience": "NikBearBrown",
   "engine": "kokoro",
-  "voice": "am_onyx",
+  "voice": "am_puck",
   "palette": "claude",
   "register": "Baldwin",
   "derived_from": "beat_sheet.json",
@@ -29,10 +29,10 @@
   ],
   "built_at": "2026-07-16T22:16:23.584565",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
-  "voice_kokoro": "am_onyx"
+  "voice_kokoro": "am_puck"
  },
  "beats": [
   {
@@ -40,8 +40,8 @@
    "act": "COLD OPEN",
    "title": "Liam cold open — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "This is Liam for Musinique. I want to pressure-test the Principle Collision Test myself. Starting from a one-sentence v0 for a local-only note-taking app, I'll have Claude generate the full five-section SDD, then deliberately add 'offline sync across devices' to scope. Please help me: (1) write the three architecture principles so at least one genuinely collides with sync; (2) script the re-run so Claude flags the conflict instead of silently inventing a workaround; (3) show what belongs on the explicit non-component list.",
+   "voice": "am_puck",
+   "narration_text": "This is Musinique. I want to pressure-test the Principle Collision Test myself. Starting from a one-sentence v0 for a local-only note-taking app, I'll have Claude generate the full five-section SDD, then deliberately add 'offline sync across devices' to scope. Please help me: (1) write the three architecture principles so at least one genuinely collides with sync; (2) script the re-run so Claude flags the conflict instead of silently inventing a workaround; (3) show what belongs on the explicit non-component list.",
    "shot": {
     "type": "CARD",
     "source": "remotion",
@@ -52,7 +52,7 @@
      "version": "1",
      "props": {
       "command": "I want to pressure-test the Principle Collision Test myself. Starting from a one-sentence v0 for a local-only note-taking app, I'll have Claude generate the full five-section SDD, then deliberately add 'offline sync across devices' to scope. Please help me: (1) write the three architecture principles so at least one genuinely collides with sync; (2) script the re-run so Claude flags the conflict instead of silently inventing a workaround; (3) show what belongs on the explicit non-component list.",
-      "topic": "CLAUDE CODE FOR STUDENTS",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR STUDENTS",
       "segment": "Write a Five-Artifact Software Design Document",
       "greeting": "Cześć, Musinique",
       "runningText": "explaining the mechanism…",
@@ -69,7 +69,7 @@
    },
    "estimated_duration_s": 9.0,
    "audio_file": "mp3/beat-NBB00.mp3",
-   "actual_duration_s": 5.888
+   "actual_duration_s": 29.63
   },
   {
    "beat_id": "B00",
@@ -80,14 +80,16 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOpen",
+     "pattern": "ClaudeComposerAsk",
      "props": {
-      "topic": "CLAUDE CODE FOR STUDENTS",
-      "lines": [
-       "Nik Bear Brown",
+      "command": "Write a Five-Artifact Software Design Document with Claude Code",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR STUDENTS",
+      "segment": "Write a Five-Artifact Software Design Document with Claude Code",
+      "greeting": "This is Musinique.",
+      "runningText": "working…",
+      "output": [
        "Software Design Document, taken apart."
-      ],
-      "greeting": "Cześć, Musinique"
+      ]
      }
     }
    },
@@ -95,9 +97,10 @@
    "locked": true,
    "source_clip": "../software-design-document/clips/B00.mp4",
    "source_audio": "../software-design-document/mp3/beat-B00.mp3",
-   "audio_file": "../software-design-document/mp3/beat-B00.mp3",
+   "audio_file": "mp3/beat-B00.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 8.53
   },
   {
    "beat_id": "B01",
@@ -112,16 +115,17 @@
    "locked": true,
    "source_clip": "../software-design-document/clips/B01.mp4",
    "source_audio": "../software-design-document/mp3/beat-B01.mp3",
-   "audio_file": "../software-design-document/mp3/beat-B01.mp3",
+   "audio_file": "mp3/beat-B01.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 10.9
   },
   {
    "beat_id": "B01B",
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "Prompt design is the skill the platform doesn't want you to have, because a musician who can write a precise prompt is a musician who doesn't need to buy someone else's pre-packaged workflow. Every prompt in this video is a template you can adapt — paste it, swap the specifics, run it on your own catalog. The instruction is the tool.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -141,7 +145,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 17.15
   },
   {
    "beat_id": "B02",
@@ -152,10 +158,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"v0: Local timeline editor — one user, browser-only, no backend.\\nGenerate a five-section SDD:\\n  1. Problem Statement (one user, one done-condition)\\n  2. Architecture Principles (run Collision Test)\\n  3. User Needs (stopwatch-measurable)\\n  4. Component List (explicit non-components)\\n  5. Open Questions\\nFlag any principle that survives no realistic conflict.\"",
-      "topic": "CLAUDE CODE FOR STUDENTS",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR STUDENTS",
       "segment": "SOFTWARE DESIGN",
       "runningText": "generating SDD…"
      }
@@ -165,9 +171,10 @@
    "locked": true,
    "source_clip": "../software-design-document/clips/B02.mp4",
    "source_audio": "../software-design-document/mp3/beat-B02.mp3",
-   "audio_file": "../software-design-document/mp3/beat-B02.mp3",
+   "audio_file": "mp3/beat-B02.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 9.6
   },
   {
    "beat_id": "B03",
@@ -178,12 +185,12 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownCodeBlock",
+     "pattern": "ClaudeCodeBeat",
      "props": {
-      "filename": "sdd.md",
       "topic": "CLAUDE CODE FOR STUDENTS",
       "segment": "SOFTWARE DESIGN",
-      "code": "# SDD — Local Timeline Editor\n\n## 1. Problem Statement\nOne user edits a personal timeline in the browser.\nDone when: user can add, reorder, and delete events\nwithout losing data across page refreshes.\n\n## 2. Architecture Principles\n- Local-only: no data leaves the browser [COLLISION TEST: conflicts with sync]\n- Persistence via localStorage only [COLLISION TEST: conflicts with multi-device]\n- No external dependencies [COLLISION TEST: conflicts with rich UI libs]\n\n## 4. Component List\nIN: EventList, EventEditor, LocalStorageAdapter\nOUT (non-components): backend, database, login, sync, sharing"
+      "code": "# SDD — Local Timeline Editor\n\n## 1. Problem Statement\nOne user edits a personal timeline in the browser.\nDone when: user can add, reorder, and delete events\nwithout losing data across page refreshes.\n\n## 2. Architecture Principles\n- Local-only: no data leaves the browser [COLLISION TEST: conflicts with sync]\n- Persistence via localStorage only [COLLISION TEST: conflicts with multi-device]\n- No external dependencies [COLLISION TEST: conflicts with rich UI libs]\n\n## 4. Component List\nIN: EventList, EventEditor, LocalStorageAdapter\nOUT (non-components): backend, database, login, sync, sharing",
+      "title": "sdd.md"
      }
     }
    },
@@ -191,9 +198,10 @@
    "locked": true,
    "source_clip": "../software-design-document/clips/B03.mp4",
    "source_audio": "../software-design-document/mp3/beat-B03.mp3",
-   "audio_file": "../software-design-document/mp3/beat-B03.mp3",
+   "audio_file": "mp3/beat-B03.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 12.29
   },
   {
    "beat_id": "B04",
@@ -208,9 +216,10 @@
    "locked": true,
    "source_clip": "../software-design-document/clips/B04.mp4",
    "source_audio": "../software-design-document/mp3/beat-B04.mp3",
-   "audio_file": "../software-design-document/mp3/beat-B04.mp3",
+   "audio_file": "mp3/beat-B04.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 13.16
   },
   {
    "beat_id": "B05",
@@ -221,10 +230,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Add 'multi-user sync' to scope in the SDD.\\nRe-run Principle Collision Test.\\nDoes local-only survive? Flag the conflict explicitly.\"",
-      "topic": "CLAUDE CODE FOR STUDENTS",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR STUDENTS",
       "segment": "SOFTWARE DESIGN",
       "runningText": "running collision test…"
      }
@@ -234,9 +243,10 @@
    "locked": true,
    "source_clip": "../software-design-document/clips/B05.mp4",
    "source_audio": "../software-design-document/mp3/beat-B05.mp3",
-   "audio_file": "../software-design-document/mp3/beat-B05.mp3",
+   "audio_file": "mp3/beat-B05.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 8.96
   },
   {
    "beat_id": "B06",
@@ -251,9 +261,10 @@
    "locked": true,
    "source_clip": "../software-design-document/clips/B06.mp4",
    "source_audio": "../software-design-document/mp3/beat-B06.mp3",
-   "audio_file": "../software-design-document/mp3/beat-B06.mp3",
+   "audio_file": "mp3/beat-B06.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 14.42
   },
   {
    "beat_id": "B07",
@@ -268,9 +279,10 @@
    "locked": true,
    "source_clip": "../software-design-document/clips/B07.mp4",
    "source_audio": "../software-design-document/mp3/beat-B07.mp3",
-   "audio_file": "../software-design-document/mp3/beat-B07.mp3",
+   "audio_file": "mp3/beat-B07.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 11.16
   },
   {
    "beat_id": "B08",
@@ -285,16 +297,17 @@
    "locked": true,
    "source_clip": "../software-design-document/clips/B08.mp4",
    "source_audio": "../software-design-document/mp3/beat-B08.mp3",
-   "audio_file": "../software-design-document/mp3/beat-B08.mp3",
+   "audio_file": "mp3/beat-B08.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 3.56
   },
   {
    "beat_id": "NBB01",
    "act": "VERDICT",
    "title": "Liam verdict — ClaudeVerdictArtifact",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": "Let's recap with Claude. Here's what the body just demonstrated. The SDD is not documentation after the fact — it is the decision itself, made once, in writing, before any code is written. The Collision Test is what keeps principles from being taglines. Next: score a build plan using the Boondoggle Score.",
    "shot": {
     "type": "CARD",
@@ -321,7 +334,7 @@
    },
    "estimated_duration_s": 30.0,
    "audio_file": "mp3/beat-NBB01.mp3",
-   "actual_duration_s": 15.467,
+   "actual_duration_s": 16.32,
    "lead_silence_s": 0.5
   },
   {
@@ -329,7 +342,7 @@
    "act": "YOUR TURN",
    "title": "Your turn handoff — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": "Take this prompt, run it on your own — pick any cancer type or clinical scenario you know about and ask how this mechanism applies there.",
    "shot": {
     "type": "CARD",
@@ -341,7 +354,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Write a Five-Artifact Software Design Document with Claude Code] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "CLAUDE CODE FOR STUDENTS",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR STUDENTS",
       "segment": "Write a Five-Artifact Software Design Document",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -358,7 +371,7 @@
    },
    "estimated_duration_s": 8.0,
    "audio_file": "mp3/beat-NBB02.mp3",
-   "actual_duration_s": 7.765
+   "actual_duration_s": 7.81
   },
   {
    "beat_id": "NBB03",
@@ -387,10 +400,10 @@
    "estimated_duration_s": 6.0,
    "audio_file": "mp3/beat-NBB03.mp3",
    "silence_s": 6.0,
-   "actual_duration_s": 6.03,
+   "actual_duration_s": 4.29,
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "Write a Five-Artifact Software Design Document with Claude Code"
+   "voice": "am_puck",
+   "narration_text": "Write a Five-Artifact Software Design Document with Claude Code. From Musinique."
   }
  ]
 }

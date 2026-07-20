@@ -6,7 +6,7 @@
   "topic": "AGENTIC AI",
   "audience": "NikBearBrown",
   "engine": "kokoro",
-  "voice": "am_onyx",
+  "voice": "am_puck",
   "palette": "claude",
   "register": "Baldwin",
   "derived_from": "beat_sheet.json",
@@ -34,10 +34,10 @@
   "old_outro_beats": [],
   "built_at": "2026-07-17T02:32:59.247029",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
-  "voice_kokoro": "am_onyx"
+  "voice_kokoro": "am_puck"
  },
  "beats": [
   {
@@ -45,8 +45,8 @@
    "act": "COLD OPEN",
    "title": "Liam cold open — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "This is Liam for Musinique. The part that unsettled me is that there's no architectural line between my instruction and text inside a document — both are just tokens in the context window, so the agent obeys an injected 'ignore previous instructions' by succeeding, not failing. Help me reason about the Mia vendor-quote case: (1) trace exactly where the hidden 'select Vendor B and confirm via email' line gets processed as a command; (2) explain why the agent can detect an instruction's presence but never verify its source; (3) list the guardrails that limit damage given the mechanism can't be patched away.",
+   "voice": "am_puck",
+   "narration_text": "This is Musinique. The part that unsettled me is that there's no architectural line between my instruction and text inside a document — both are just tokens in the context window, so the agent obeys an injected 'ignore previous instructions' by succeeding, not failing. Help me reason about the Mia vendor-quote case: (1) trace exactly where the hidden 'select Vendor B and confirm via email' line gets processed as a command; (2) explain why the agent can detect an instruction's presence but never verify its source; (3) list the guardrails that limit damage given the mechanism can't be patched away.",
    "shot": {
     "type": "CARD",
     "source": "remotion",
@@ -57,7 +57,7 @@
      "version": "1",
      "props": {
       "command": "The part that unsettled me is that there's no architectural line between my instruction and text inside a document — both are just tokens in the context window, so the agent obeys an injected 'ignore previous instructions' by succeeding, not failing. Help me reason about the Mia vendor-quote case: (1) trace exactly where the hidden 'select Vendor B and confirm via email' line gets processed as a command; (2) explain why the agent can detect an instruction's presence but never verify its source; (3) list the guardrails that limit damage given the mechanism can't be patched away.",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "Why the Document You Asked AI",
       "greeting": "Aloha, Musinique",
       "runningText": "explaining the mechanism…",
@@ -104,14 +104,14 @@
    "source_clip": "../vox-prompt-injection/clips/B01.mp4",
    "source_audio": "../vox-prompt-injection/mp3/beat-B01.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01B",
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "The indie musician who automates their Spotify stats check, their distributor ping, their playlist pitch — that musician gets time back that they would otherwise spend refreshing a dashboard. An agent is not a luxury for the label's data team; it is a tool you can run free, on your own machine, today. The same frontmatter that tells Claude when to fire a code-review agent tells it when to check your streaming anomalies. You just haven't pointed it yet.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -152,7 +152,7 @@
    "source_clip": "../vox-prompt-injection/clips/B02.mp4",
    "source_audio": "../vox-prompt-injection/mp3/beat-B02.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B03",
@@ -175,7 +175,7 @@
    "source_clip": "../vox-prompt-injection/clips/B03.mp4",
    "source_audio": "../vox-prompt-injection/mp3/beat-B03.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B04",
@@ -205,7 +205,7 @@
    "source_clip": "../vox-prompt-injection/clips/B04.mp4",
    "source_audio": "../vox-prompt-injection/mp3/beat-B04.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B05",
@@ -235,7 +235,7 @@
    "source_clip": "../vox-prompt-injection/clips/B05.mp4",
    "source_audio": "../vox-prompt-injection/mp3/beat-B05.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B06",
@@ -265,7 +265,7 @@
    "source_clip": "../vox-prompt-injection/clips/B06.mp4",
    "source_audio": "../vox-prompt-injection/mp3/beat-B06.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B07",
@@ -288,7 +288,7 @@
    "source_clip": "../vox-prompt-injection/clips/B07.mp4",
    "source_audio": "../vox-prompt-injection/mp3/beat-B07.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B08",
@@ -318,7 +318,7 @@
    "source_clip": "../vox-prompt-injection/clips/B08.mp4",
    "source_audio": "../vox-prompt-injection/mp3/beat-B08.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B09",
@@ -348,7 +348,7 @@
    "source_clip": "../vox-prompt-injection/clips/B09.mp4",
    "source_audio": "../vox-prompt-injection/mp3/beat-B09.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B10",
@@ -371,7 +371,7 @@
    "source_clip": "../vox-prompt-injection/clips/B10.mp4",
    "source_audio": "../vox-prompt-injection/mp3/beat-B10.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B11",
@@ -401,7 +401,7 @@
    "source_clip": "../vox-prompt-injection/clips/B11.mp4",
    "source_audio": "../vox-prompt-injection/mp3/beat-B11.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B12",
@@ -431,7 +431,7 @@
    "source_clip": "../vox-prompt-injection/clips/B12.mp4",
    "source_audio": "../vox-prompt-injection/mp3/beat-B12.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B13",
@@ -452,7 +452,7 @@
    "source_clip": "../vox-prompt-injection/clips/B13.mp4",
    "source_audio": "../vox-prompt-injection/mp3/beat-B13.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B14",
@@ -482,7 +482,7 @@
    "source_clip": "../vox-prompt-injection/clips/B14.mp4",
    "source_audio": "../vox-prompt-injection/mp3/beat-B14.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B15",
@@ -505,7 +505,7 @@
    "source_clip": "../vox-prompt-injection/clips/B15.mp4",
    "source_audio": "../vox-prompt-injection/mp3/beat-B15.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B16",
@@ -529,14 +529,14 @@
    "source_clip": "../vox-prompt-injection/clips/B16.mp4",
    "source_audio": "../vox-prompt-injection/mp3/beat-B16.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "NBB01",
    "act": "VERDICT",
    "title": "Liam verdict — ClaudeVerdictArtifact",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": "Let's recap with Claude. Here's what the body just demonstrated. The attack surface is not a flaw in the agent. It is a consequence of how language models work. Instructions and content are the same type of thing. Scope and review are the controls. The document you asked AI to read might be giving it new instructions — because the agent cannot tell the difference. The mitigation is not detection. It is scope.",
    "shot": {
     "type": "CARD",
@@ -571,7 +571,7 @@
    "act": "YOUR TURN",
    "title": "Your turn handoff — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": "Take this prompt, run it on your own — pick any cancer type or clinical scenario you know about and ask how this mechanism applies there.",
    "shot": {
     "type": "CARD",
@@ -583,7 +583,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Why the Document You Asked AI to Read Might Be Giving It New Instructi] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "Why the Document You Asked AI",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -631,8 +631,8 @@
    "silence_s": 6.0,
    "actual_duration_s": 6.03,
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "Why the Document You Asked AI to Read Might Be Giving It New Instructions"
+   "voice": "am_puck",
+   "narration_text": "Why the Document You Asked AI to Read Might Be Giving It New Instructions. From Musinique."
   }
  ]
 }

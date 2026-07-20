@@ -3,13 +3,13 @@
   "slug": "prompt-tutorial-lesson-06-precognition",
   "title": "Precognition: Make Claude Think Before It Speaks",
   "topic": "PROMPT ENGINEERING · Chain-of-Thought",
-  "voice_kokoro": "am_onyx",
+  "voice_kokoro": "am_puck",
   "engine": "kokoro",
   "style_preset": "teardown",
   "palette": "claude",
   "register": "Baldwin",
   "aspect_ratio": "16:9",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "folderLabel": "@Musinique",
   "audience": "claude-liam",
   "sources": [
@@ -25,14 +25,14 @@
   },
   "brand": "claude-musinique",
   "persona": "Musinique",
-  "voice": "am_onyx",
+  "voice": "am_puck",
   "derived_from": "beat_sheet.json"
  },
  "beats": [
   {
    "beat_id": "B00",
    "beat_type": "cold_open",
-   "narration_text": "This is Liam for Musinique. Making Claude think before it speaks sounds like magic until I ask why writing out reasoning first changes the final answer at all. Take a word problem where the naive answer is a tempting trap: (1) show me the model answering immediately and getting it wrong, (2) then force step-by-step reasoning before the conclusion and point to the exact step where the trap gets caught, (3) explain whether hiding that reasoning in tags versus showing it changes the accuracy or just the presentation.",
+   "narration_text": "This is Musinique. Making Claude think before it speaks sounds like magic until I ask why writing out reasoning first changes the final answer at all. Take a word problem where the naive answer is a tempting trap: (1) show me the model answering immediately and getting it wrong, (2) then force step-by-step reasoning before the conclusion and point to the exact step where the trap gets caught, (3) explain whether hiding that reasoning in tags versus showing it changes the accuracy or just the presentation.",
    "estimated_duration_s": 22,
    "shot": {
     "scene_type": "ClaudeComposerAsk",
@@ -41,7 +41,7 @@
      "props": {
       "greeting": "Sawubona, Musinique",
       "command": "Making Claude think before it speaks sounds like magic until I ask why writing out reasoning first changes the final answer at all. Take a word problem where the naive answer is a tempting trap: (1) show me the model answering immediately and getting it wrong, (2) then force step-by-step reasoning before the conclusion and point to the exact step where the trap gets caught, (3) explain whether hiding that reasoning in tags versus showing it changes the accuracy or just the presentation.",
-      "topic": "PROMPT ENGINEERING · Chain-of-Thought",
+      "topic": "MUSINIQUE · PROMPT ENGINEERING · Chain-of-Thought",
       "segment": "Cold Open",
       "runningText": "Analyzing: Lesson 06 — Precognition",
       "output": [
@@ -62,7 +62,7 @@
     }
    },
    "audio_file": "mp3/beat-B00.mp3",
-   "actual_duration_s": 17.64,
+   "actual_duration_s": 27.9,
    "build": {
     "status": "VIDEO",
     "src": "media/B00.mp4",
@@ -70,7 +70,7 @@
     "at": "2026-07-17T00:02:59"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01",
@@ -99,7 +99,7 @@
     }
    },
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 19.58,
+   "actual_duration_s": 20.31,
    "build": {
     "status": "VIDEO",
     "src": "media/B01.mp4",
@@ -107,7 +107,7 @@
     "at": "2026-07-17T00:02:59"
    },
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "lead_silence_s": 0.5
   },
   {
@@ -115,7 +115,7 @@
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "Prompt design is the skill the platform doesn't want you to have, because a musician who can write a precise prompt is a musician who doesn't need to buy someone else's pre-packaged workflow. Every prompt in this video is a template you can adapt — paste it, swap the specifics, run it on your own catalog. The instruction is the tool.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -135,7 +135,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 17.15
   },
   {
    "beat_id": "B02",
@@ -172,7 +174,7 @@
     "at": "2026-07-17T00:02:59"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B03",
@@ -209,7 +211,7 @@
     "at": "2026-07-17T00:02:59"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B04",
@@ -246,7 +248,7 @@
     "at": "2026-07-17T00:02:59"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B05",
@@ -260,7 +262,7 @@
      "props": {
       "greeting": "Your turn.",
       "command": "Before answering, write your reasoning in <scratchpad> tags. Is this argument logically valid, and what's the strongest objection? Argument: All successful startups have strong founders. This startup has strong founders. Therefore it will succeed.",
-      "topic": "TRY THIS NOW",
+      "topic": "MUSINIQUE · TRY THIS NOW",
       "segment": "Precognition: Make Claude Think Before It Speaks",
       "runningText": "paste this into Claude…",
       "output": [
@@ -280,7 +282,7 @@
     }
    },
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 22.68,
+   "actual_duration_s": 22.38,
    "build": {
     "status": "VIDEO",
     "src": "media/B05.mp4",
@@ -288,12 +290,12 @@
     "at": "2026-07-17T00:02:59"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B06",
    "beat_type": "outro",
-   "narration_text": "Precognition: Make Claude Think Before It Speaks",
+   "narration_text": "Precognition: Make Claude Think Before It Speaks. From Musinique.",
    "estimated_duration_s": 6,
    "shot": {
     "scene_type": "ClaudeTitleOutro",
@@ -301,7 +303,7 @@
      "pattern": "ClaudeTitleOutro",
      "props": {
       "title": "Precognition: Make Claude Think Before It Speaks",
-      "handle": "@NikBearBrown",
+      "handle": "@Musinique",
       "subline": "Source: Anthropic Prompt Engineering Tutorial — Lesson 6"
      },
      "rendered": {
@@ -318,7 +320,8 @@
     "at": "2026-07-17T00:02:59"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 3.35
   }
  ]
 }

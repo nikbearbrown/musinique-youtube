@@ -27,7 +27,7 @@
    "slates": [],
    "skin_warnings": []
   },
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "derived_from": "beat_sheet.json"
  },
  "beats": [
@@ -44,7 +44,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Talofa, Musinique",
-      "topic": "SKILL DEVELOPMENT · CLAUDE CODE SKILL",
+      "topic": "MUSINIQUE · SKILL DEVELOPMENT · CLAUDE CODE SKILL",
       "segment": "PLUGIN DEV",
       "command": "Create a skill for my plugin that handles PDF rotation tasks.",
       "runningText": "reading skill-development SKILL.md…",
@@ -239,7 +239,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Your Turn",
-      "topic": "SKILL DEVELOPMENT · HANDOFF",
+      "topic": "MUSINIQUE · SKILL DEVELOPMENT · HANDOFF",
       "segment": "PLUGIN DEV",
       "command": "Create a skill for my plugin called pdf-editor that handles rotating PDFs and converting pages to images.",
       "runningText": "Watch: third-person description? imperative body? lean SKILL.md? scripts/ referenced?",

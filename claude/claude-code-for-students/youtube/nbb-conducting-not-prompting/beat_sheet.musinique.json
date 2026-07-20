@@ -26,7 +26,7 @@
   ],
   "built_at": "2026-07-16T21:57:45.503882",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
   "voice_kokoro": "am_puck"
@@ -49,7 +49,7 @@
      "version": "1",
      "props": {
       "command": "I recognize Seth's four-hour session where the code passed every test and he couldn't explain it — that's me prompting instead of conducting. I want to hold the score on my next build. Help me: (1) separate the Minion work (typing, boilerplate, running tests) from the Gru work (spec, handoff condition, reading against the world); (2) write the data model in words before Claude generates anything; (3) set a rule for when I close the session uncommitted and re-decide rather than keep patching.",
-      "topic": "GRU DISCIPLINE · CAPS",
+      "topic": "MUSINIQUE · GRU DISCIPLINE · CAPS",
       "segment": "Conducting, Not Prompting: The Gru/Minion Split",
       "greeting": "Talofa, Musinique",
       "runningText": "explaining the mechanism…",
@@ -66,12 +66,12 @@
    },
    "estimated_duration_s": 9.0,
    "audio_file": "mp3/beat-NBB00.mp3",
-   "actual_duration_s": 5.44
+   "actual_duration_s": 24.21
   },
   {
    "beat_id": "B00",
    "act": "ASK",
-   "narration_text": "This is Musinique. Seth spent four hours in one session. He kept prompting — adding corrections, adding context, pasting outputs back. The login function grew more complex. The test suite grew to cover the corrections. By hour four the code passed all tests and did something Seth could not fully explain. He had been prompting. He had not been conducting. The difference is where the deciding happened. This is Chào, Liam — in for Bear.",
+   "narration_text": "This is Musinique. Seth spent four hours in one session. He kept prompting — adding corrections, adding context, pasting outputs back. The login function grew more complex. The test suite grew to cover the corrections. By hour four the code passed all tests and did something Seth could not fully explain. He had been prompting. He had not been conducting. The difference is where the deciding happened. This is Chào, Musinique —.",
    "shot": {
     "type": "REMOTION",
     "source": "own",
@@ -90,8 +90,8 @@
     }
    },
    "estimated_duration_s": 16,
-   "audio_file": "../conducting-not-prompting/mp3/beat-B00.mp3",
-   "actual_duration_s": 20.31,
+   "audio_file": "mp3/beat-B00.mp3",
+   "actual_duration_s": 19.33,
    "locked": true,
    "source_clip": "../conducting-not-prompting/clips/B00.mp4",
    "source_audio": "../conducting-not-prompting/mp3/beat-B00.mp3",
@@ -110,8 +110,8 @@
    "new_visual_element": "Conductor model — you hold the piece / Claude executes the parts / gap = what you specified vs. what Claude understood",
    "spark_line": "Hold the piece. Claude executes.",
    "estimated_duration_s": 14,
-   "audio_file": "../conducting-not-prompting/mp3/beat-B01.mp3",
-   "actual_duration_s": 21.42,
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 19.14,
    "locked": true,
    "source_clip": "../conducting-not-prompting/clips/B01.mp4",
    "source_audio": "../conducting-not-prompting/mp3/beat-B01.mp3",
@@ -143,7 +143,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 17.34
   },
   {
    "beat_id": "B02",
@@ -157,8 +159,8 @@
    "new_visual_element": "Gru/Minion table — Gru: deciding / spec / criteria. Minion: typing / pattern / tests",
    "spark_line": "You decide. Claude types.",
    "estimated_duration_s": 14,
-   "audio_file": "../conducting-not-prompting/mp3/beat-B02.mp3",
-   "actual_duration_s": 25.83,
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 22.44,
    "locked": true,
    "source_clip": "../conducting-not-prompting/clips/B02.mp4",
    "source_audio": "../conducting-not-prompting/mp3/beat-B02.mp3",
@@ -177,8 +179,8 @@
    "new_visual_element": "Before second attempt — data model / boundary / handoff condition all decided before first prompt",
    "spark_line": "Decide before prompting.",
    "estimated_duration_s": 13,
-   "audio_file": "../conducting-not-prompting/mp3/beat-B03.mp3",
-   "actual_duration_s": 22.17,
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 19.71,
    "locked": true,
    "source_clip": "../conducting-not-prompting/clips/B03.mp4",
    "source_audio": "../conducting-not-prompting/mp3/beat-B03.mp3",
@@ -197,8 +199,8 @@
    "new_visual_element": "Artifact view — conducting = Gru before session / boondoggling = Gru during session",
    "spark_line": "Gru before. Not during.",
    "estimated_duration_s": 12,
-   "audio_file": "../conducting-not-prompting/mp3/beat-B04.mp3",
-   "actual_duration_s": 21.76,
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 19.54,
    "locked": true,
    "source_clip": "../conducting-not-prompting/clips/B04.mp4",
    "source_audio": "../conducting-not-prompting/mp3/beat-B04.mp3",
@@ -227,8 +229,8 @@
     }
    },
    "estimated_duration_s": 9,
-   "audio_file": "../conducting-not-prompting/mp3/beat-B05.mp3",
-   "actual_duration_s": 3.82,
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 3.48,
    "locked": true,
    "source_clip": "../conducting-not-prompting/clips/B05.mp4",
    "source_audio": "../conducting-not-prompting/mp3/beat-B05.mp3",
@@ -267,7 +269,7 @@
    },
    "estimated_duration_s": 30.0,
    "audio_file": "mp3/beat-NBB01.mp3",
-   "actual_duration_s": 27.584,
+   "actual_duration_s": 25.49,
    "lead_silence_s": 0.5
   },
   {
@@ -287,7 +289,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Conducting, Not Prompting: The Gru/Minion Split] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "GRU DISCIPLINE · CAPS",
+      "topic": "MUSINIQUE · GRU DISCIPLINE · CAPS",
       "segment": "Conducting, Not Prompting: The Gru/Minion Split",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -304,7 +306,7 @@
    },
    "estimated_duration_s": 8.0,
    "audio_file": "mp3/beat-NBB02.mp3",
-   "actual_duration_s": 7.765
+   "actual_duration_s": 8.3
   },
   {
    "beat_id": "NBB03",
@@ -333,10 +335,10 @@
    "estimated_duration_s": 6.0,
    "audio_file": "mp3/beat-NBB03.mp3",
    "silence_s": 6.0,
-   "actual_duration_s": 6.03,
+   "actual_duration_s": 3.07,
    "engine": "kokoro",
    "voice": "am_puck",
-   "narration_text": "Conducting, Not Prompting: The Gru/Minion Split"
+   "narration_text": "Conducting, Not Prompting: The Gru/Minion Split. From Musinique."
   }
  ]
 }

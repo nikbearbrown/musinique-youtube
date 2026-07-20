@@ -43,7 +43,7 @@
    ]
   },
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique"
  },
@@ -60,7 +60,7 @@
    },
    "narration_text": "This is Musinique. ",
    "audio_file": "mp3/beat-B00.mp3",
-   "actual_duration_s": 2.41,
+   "actual_duration_s": 1.15,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -118,7 +118,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 17.43
   },
   {
    "beat_id": "B02",
@@ -130,10 +132,10 @@
     "source": null,
     "motion": "hold",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Generate deployment verification for sorting simulator:\\n  (1) Functional: 5 browser-console tests,\\n    375px and 1024px rendering, all 3 algorithms\\n  (2) Environment: list external resource deps,\\n    network-sensitive elements, CORS requests\\n  (3) Pedagogical: 5 questions a ninth-grader\\n    should answer after 10 min unsupervised\"",
-      "topic": "CLAUDE CODE FOR TEACHERS",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR TEACHERS",
       "segment": "DEPLOYMENT VERIFICATION",
       "runningText": "generating protocol…"
      },
@@ -163,12 +165,12 @@
     "source": null,
     "motion": "hold",
     "remotion": {
-     "pattern": "NikBearBrownCodeBlock",
+     "pattern": "ClaudeCodeBeat",
      "props": {
-      "filename": "deploy-check.md",
       "segment": "DEPLOYMENT VERIFICATION",
       "topic": "CLAUDE CODE FOR TEACHERS",
-      "code": "# Deployment Verification Protocol\n\n## Functional Check\n1. console.log(errors) → expect []\n2. window.innerWidth=375 → layout intact\n3. bubbleSort([5,3,1]) → swap_count correct\n4. mergeSort([5,3,1]) → comparison_count correct\n5. quickSort([5,3,1]) → pivot displayed\n\n## Environment Check\n- fonts.googleapis.com ← school may block CDN\n- No external API calls detected\n- All assets inline ← PASS\n\n## Pedagogical Check\n1. Which sort made fewer comparisons?\n2. What does a swap mean visually?"
+      "code": "# Deployment Verification Protocol\n\n## Functional Check\n1. console.log(errors) → expect []\n2. window.innerWidth=375 → layout intact\n3. bubbleSort([5,3,1]) → swap_count correct\n4. mergeSort([5,3,1]) → comparison_count correct\n5. quickSort([5,3,1]) → pivot displayed\n\n## Environment Check\n- fonts.googleapis.com ← school may block CDN\n- No external API calls detected\n- All assets inline ← PASS\n\n## Pedagogical Check\n1. Which sort made fewer comparisons?\n2. What does a swap mean visually?",
+      "title": "deploy-check.md"
      },
      "rendered": {
       "out": "media/B03.mp4",
@@ -217,10 +219,10 @@
     "source": null,
     "motion": "hold",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Add fourth check: accessibility.\\n  Run axe-core in browser devtools.\\n  What does it catch?\\n  Fix any critical issues.\"",
-      "topic": "CLAUDE CODE FOR TEACHERS",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR TEACHERS",
       "segment": "DEPLOYMENT VERIFICATION",
       "runningText": "running accessibility check…"
      },
@@ -313,11 +315,11 @@
     "source": null,
     "motion": "hold",
     "remotion": {
-     "pattern": "NikBearBrownOutro",
+     "pattern": "ClaudeTitleOutro",
      "props": {
       "brand": "Nik Bear Brown",
       "tagline": "Brutalist + Educational AI",
-      "handle": "@NikBearBrown",
+      "handle": "@Musinique",
       "url": "nikbearbrown.com"
      },
      "rendered": {
@@ -334,7 +336,7 @@
    },
    "engine": "kokoro",
    "voice": "am_puck",
-   "narration_text": ""
+   "narration_text": "Like and subscribe for more Claude Code for Teachers. From Musinique."
   }
  ]
 }

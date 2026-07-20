@@ -29,7 +29,7 @@
   ],
   "built_at": "2026-07-16T22:17:38.315595",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
   "voice_kokoro": "am_puck"
@@ -52,7 +52,7 @@
      "version": "1",
      "props": {
       "command": "The domain ratios stuck with me — legal at seventy-two thousand x, finance at ten thousand eight hundred, and the code-with-tests exception where verify time drops at or below produce time. I want to turn that exception into a design principle. Help me: (1) take one of my own AI-assisted tasks and estimate its solve and verify times honestly, (2) design an automated verification layer that runs in seconds the way a test suite does, and (3) have Claude tell me whether my task even ADMITS such a layer or is structurally verification-bound.",
-      "topic": "CLAUDE CODE FOR STUDENTS",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR STUDENTS",
       "segment": "Demonstrate the Solve-Verify Asymmetry with Claude",
       "greeting": "Kumusta, Musinique",
       "runningText": "explaining the mechanism…",
@@ -69,7 +69,7 @@
    },
    "estimated_duration_s": 9.0,
    "audio_file": "mp3/beat-NBB00.mp3",
-   "actual_duration_s": 8.0
+   "actual_duration_s": 31.66
   },
   {
    "beat_id": "B00",
@@ -80,14 +80,16 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOpen",
+     "pattern": "ClaudeComposerAsk",
      "props": {
-      "topic": "CLAUDE CODE FOR STUDENTS",
-      "lines": [
-       "Nik Bear Brown",
+      "command": "Demonstrate the Solve-Verify Asymmetry with Claude Code",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR STUDENTS",
+      "segment": "Demonstrate the Solve-Verify Asymmetry with Claude Code",
+      "greeting": "This is Musinique.",
+      "runningText": "working…",
+      "output": [
        "Solve-Verify Asymmetry, taken apart."
-      ],
-      "greeting": "Kumusta, Musinique"
+      ]
      }
     }
    },
@@ -95,9 +97,10 @@
    "locked": true,
    "source_clip": "../solve-verify-asymmetry/clips/B00.mp4",
    "source_audio": "../solve-verify-asymmetry/mp3/beat-B00.mp3",
-   "audio_file": "../solve-verify-asymmetry/mp3/beat-B00.mp3",
+   "audio_file": "mp3/beat-B00.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 13.01
   },
   {
    "beat_id": "B01",
@@ -112,9 +115,10 @@
    "locked": true,
    "source_clip": "../solve-verify-asymmetry/clips/B01.mp4",
    "source_audio": "../solve-verify-asymmetry/mp3/beat-B01.mp3",
-   "audio_file": "../solve-verify-asymmetry/mp3/beat-B01.mp3",
+   "audio_file": "mp3/beat-B01.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 12.99
   },
   {
    "beat_id": "B01B",
@@ -141,7 +145,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 17.39
   },
   {
    "beat_id": "B02",
@@ -152,10 +158,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Write top_three_by_gpa(students) -> list:\\n  sort by GPA descending\\n  tie-breaking: alphabetical by last_name ascending\\n  return top 3 students\"",
-      "topic": "CLAUDE CODE FOR STUDENTS",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR STUDENTS",
       "segment": "SOLVE-VERIFY GAP",
       "runningText": "generating function…"
      }
@@ -165,9 +171,10 @@
    "locked": true,
    "source_clip": "../solve-verify-asymmetry/clips/B02.mp4",
    "source_audio": "../solve-verify-asymmetry/mp3/beat-B02.mp3",
-   "audio_file": "../solve-verify-asymmetry/mp3/beat-B02.mp3",
+   "audio_file": "mp3/beat-B02.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 5.78
   },
   {
    "beat_id": "B03",
@@ -178,12 +185,12 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownCodeBlock",
+     "pattern": "ClaudeCodeBeat",
      "props": {
-      "filename": "gpa_sort.py",
       "topic": "CLAUDE CODE FOR STUDENTS",
       "segment": "SOLVE-VERIFY GAP",
-      "code": "# gpa_sort.py — Claude Code output (8 seconds)\ndef top_three_by_gpa(students):\n    \"\"\"Return top 3 students by GPA.\n    Tie-breaking: alphabetical by last_name ascending.\n    \"\"\"\n    sorted_students = sorted(\n        students,\n        key=lambda s: (-s['gpa'], s['last_name'])\n    )\n    return sorted_students[:3]\n\n# Looks correct. Clean sort key.\n# Bug: last_name tie-breaking only applies when GPAs are equal.\n# Test case needed: two students with identical GPA."
+      "code": "# gpa_sort.py — Claude Code output (8 seconds)\ndef top_three_by_gpa(students):\n    \"\"\"Return top 3 students by GPA.\n    Tie-breaking: alphabetical by last_name ascending.\n    \"\"\"\n    sorted_students = sorted(\n        students,\n        key=lambda s: (-s['gpa'], s['last_name'])\n    )\n    return sorted_students[:3]\n\n# Looks correct. Clean sort key.\n# Bug: last_name tie-breaking only applies when GPAs are equal.\n# Test case needed: two students with identical GPA.",
+      "title": "gpa_sort.py"
      }
     }
    },
@@ -191,9 +198,10 @@
    "locked": true,
    "source_clip": "../solve-verify-asymmetry/clips/B03.mp4",
    "source_audio": "../solve-verify-asymmetry/mp3/beat-B03.mp3",
-   "audio_file": "../solve-verify-asymmetry/mp3/beat-B03.mp3",
+   "audio_file": "mp3/beat-B03.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 9.64
   },
   {
    "beat_id": "B04",
@@ -212,9 +220,10 @@
    "locked": true,
    "source_clip": "../solve-verify-asymmetry/clips/B04.mp4",
    "source_audio": "../solve-verify-asymmetry/mp3/beat-B04.mp3",
-   "audio_file": "../solve-verify-asymmetry/mp3/beat-B04.mp3",
+   "audio_file": "mp3/beat-B04.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 11.29
   },
   {
    "beat_id": "B05",
@@ -225,10 +234,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Audit top_three_by_gpa for tie-breaking correctness.\\nDoes it correctly break ties alphabetically by last_name ascending?\"",
-      "topic": "CLAUDE CODE FOR STUDENTS",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR STUDENTS",
       "segment": "SOLVE-VERIFY GAP",
       "runningText": "auditing tie-breaking…"
      }
@@ -238,9 +247,10 @@
    "locked": true,
    "source_clip": "../solve-verify-asymmetry/clips/B05.mp4",
    "source_audio": "../solve-verify-asymmetry/mp3/beat-B05.mp3",
-   "audio_file": "../solve-verify-asymmetry/mp3/beat-B05.mp3",
+   "audio_file": "mp3/beat-B05.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 3.78
   },
   {
    "beat_id": "B06",
@@ -259,9 +269,10 @@
    "locked": true,
    "source_clip": "../solve-verify-asymmetry/clips/B06.mp4",
    "source_audio": "../solve-verify-asymmetry/mp3/beat-B06.mp3",
-   "audio_file": "../solve-verify-asymmetry/mp3/beat-B06.mp3",
+   "audio_file": "mp3/beat-B06.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 7.4
   },
   {
    "beat_id": "B07",
@@ -276,9 +287,10 @@
    "locked": true,
    "source_clip": "../solve-verify-asymmetry/clips/B07.mp4",
    "source_audio": "../solve-verify-asymmetry/mp3/beat-B07.mp3",
-   "audio_file": "../solve-verify-asymmetry/mp3/beat-B07.mp3",
+   "audio_file": "mp3/beat-B07.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 15.06
   },
   {
    "beat_id": "B08",
@@ -293,9 +305,10 @@
    "locked": true,
    "source_clip": "../solve-verify-asymmetry/clips/B08.mp4",
    "source_audio": "../solve-verify-asymmetry/mp3/beat-B08.mp3",
-   "audio_file": "../solve-verify-asymmetry/mp3/beat-B08.mp3",
+   "audio_file": "mp3/beat-B08.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 4.31
   },
   {
    "beat_id": "NBB01",
@@ -329,7 +342,7 @@
    },
    "estimated_duration_s": 30.0,
    "audio_file": "mp3/beat-NBB01.mp3",
-   "actual_duration_s": 18.624,
+   "actual_duration_s": 18.9,
    "lead_silence_s": 0.5
   },
   {
@@ -349,7 +362,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Demonstrate the Solve-Verify Asymmetry with Claude Code] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "CLAUDE CODE FOR STUDENTS",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR STUDENTS",
       "segment": "Demonstrate the Solve-Verify Asymmetry with Claude",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -366,7 +379,7 @@
    },
    "estimated_duration_s": 8.0,
    "audio_file": "mp3/beat-NBB02.mp3",
-   "actual_duration_s": 7.765
+   "actual_duration_s": 8.3
   },
   {
    "beat_id": "NBB03",
@@ -395,10 +408,10 @@
    "estimated_duration_s": 6.0,
    "audio_file": "mp3/beat-NBB03.mp3",
    "silence_s": 6.0,
-   "actual_duration_s": 6.03,
+   "actual_duration_s": 3.39,
    "engine": "kokoro",
    "voice": "am_puck",
-   "narration_text": "Demonstrate the Solve-Verify Asymmetry with Claude Code"
+   "narration_text": "Demonstrate the Solve-Verify Asymmetry with Claude Code. From Musinique."
   }
  ]
 }

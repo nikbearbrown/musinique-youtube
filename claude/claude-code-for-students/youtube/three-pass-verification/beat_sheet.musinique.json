@@ -3,7 +3,7 @@
   "slug": "three-pass-verification",
   "title": "Run the Three-Pass Verification Protocol with Claude Code",
   "topic": "CLAUDE CODE FOR STUDENTS",
-  "voice": "am_onyx",
+  "voice": "am_puck",
   "voice_id": "TyW6NH39JcFb5M3xdIIk",
   "style": "cli",
   "palette": "claude",
@@ -13,38 +13,42 @@
   "ground": "#FFFFFF",
   "total_estimated_duration_seconds": 118.0,
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "register": "Baldwin",
   "folderLabel": "@Musinique",
   "engine": "kokoro",
-  "voice_kokoro": "am_onyx",
+  "voice_kokoro": "am_puck",
   "derived_from": "beat_sheet.json"
  },
  "beats": [
   {
    "beat_id": "B00",
    "act": "INTRO",
-   "narration_text": "This is Liam for Musinique. The test suite passes — and the user can't see their most important data at a glance. Pass 3 catches what Pass 1 and Pass 2 miss.",
+   "narration_text": "This is Musinique. The test suite passes — and the user can't see their most important data at a glance. Pass 3 catches what Pass 1 and Pass 2 miss.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOpen",
+     "pattern": "ClaudeComposerAsk",
      "props": {
-      "topic": "CLAUDE CODE FOR STUDENTS",
-      "lines": [
-       "Nik Bear Brown",
+      "command": "Run the Three-Pass Verification Protocol with Claude Code",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR STUDENTS",
+      "segment": "Run the Three-Pass Verification Protocol with Claude Code",
+      "greeting": "This is Musinique.",
+      "runningText": "working…",
+      "output": [
        "Three-Pass Verification, taken apart."
-      ],
-      "greeting": "Cześć, Musinique"
+      ]
      }
     }
    },
    "estimated_duration_s": 8,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B00.mp3",
+   "actual_duration_s": 9.6
   },
   {
    "beat_id": "B01",
@@ -57,14 +61,16 @@
    },
    "estimated_duration_s": 12,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 11.61
   },
   {
    "beat_id": "B01B",
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "Every API your distributor exposes, every analytics endpoint your streaming service provides — these are connection points. The musicians who learn how to wire Claude into those endpoints stop reading dashboards and start running their own analysis. The platform built the server; you get to decide what you ask it.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -84,7 +90,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 16.77
   },
   {
    "beat_id": "B02",
@@ -95,10 +103,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Run three-pass verification on app tracker:\\n  Pass 1: happy path — does it run?\\n  Pass 2: edge cases — empty state, zero apps\\n  Pass 3: read SDD user needs aloud against running build\\n  Report: PASS/FAIL per pass with evidence\"",
-      "topic": "CLAUDE CODE FOR STUDENTS",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR STUDENTS",
       "segment": "VERIFICATION PROTOCOL",
       "runningText": "running three-pass protocol…"
      }
@@ -106,7 +114,9 @@
    },
    "estimated_duration_s": 12,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 9.05
   },
   {
    "beat_id": "B03",
@@ -117,18 +127,20 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownCodeBlock",
+     "pattern": "ClaudeCodeBeat",
      "props": {
-      "filename": "verification_report.md",
       "topic": "CLAUDE CODE FOR STUDENTS",
       "segment": "VERIFICATION PROTOCOL",
-      "code": "# Verification Report — App Tracker\n\n## Pass 1: Functional (happy path)\nResult: PASS\nEvidence: all 9 tests pass, app loads, CRUD works\n\n## Pass 2: Edge Cases\nResult: FAIL\nEvidence: empty state (0 apps) shows TypeError\n  instead of empty list message\n\n## Pass 3: SDD User Needs (read aloud)\nResult: FAIL\nSDD need: 'see all applications at a glance'\nCurrent UI: list is 2 clicks deep (Dashboard -> Apps -> List)\nThe need is not satisfied by the running build.\n\nRecommendation: loop back to Pass 1 after fixes."
+      "code": "# Verification Report — App Tracker\n\n## Pass 1: Functional (happy path)\nResult: PASS\nEvidence: all 9 tests pass, app loads, CRUD works\n\n## Pass 2: Edge Cases\nResult: FAIL\nEvidence: empty state (0 apps) shows TypeError\n  instead of empty list message\n\n## Pass 3: SDD User Needs (read aloud)\nResult: FAIL\nSDD need: 'see all applications at a glance'\nCurrent UI: list is 2 clicks deep (Dashboard -> Apps -> List)\nThe need is not satisfied by the running build.\n\nRecommendation: loop back to Pass 1 after fixes.",
+      "title": "verification_report.md"
      }
     }
    },
    "estimated_duration_s": 14,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 14.44
   },
   {
    "beat_id": "B04",
@@ -141,7 +153,9 @@
    },
    "estimated_duration_s": 20,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 13.61
   },
   {
    "beat_id": "B05",
@@ -152,10 +166,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Amend SDD: remove 'at a glance' user need.\\nRe-run Pass 3 against amended SDD.\\nDoes Pass 3 now pass? Show which needs remain.\"",
-      "topic": "CLAUDE CODE FOR STUDENTS",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR STUDENTS",
       "segment": "VERIFICATION PROTOCOL",
       "runningText": "re-running Pass 3…"
      }
@@ -163,7 +177,9 @@
    },
    "estimated_duration_s": 10,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 9.0
   },
   {
    "beat_id": "B06",
@@ -176,7 +192,9 @@
    },
    "estimated_duration_s": 14,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 14.49
   },
   {
    "beat_id": "B07",
@@ -189,7 +207,9 @@
    },
    "estimated_duration_s": 12,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B07.mp3",
+   "actual_duration_s": 12.48
   },
   {
    "beat_id": "B08",
@@ -202,18 +222,20 @@
    },
    "estimated_duration_s": 8,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B08.mp3",
+   "actual_duration_s": 3.5
   },
   {
    "beat_id": "B09",
    "act": "OUTRO",
-   "narration_text": "Nik Bear Brown. Build it with a CLI. Then take it apart. At nikbearbrown.com.",
+   "narration_text": "Musinique. Build it with a CLI. Then take it apart. At nikbearbrown.com.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOutro",
+     "pattern": "ClaudeTitleOutro",
      "props": {
       "brand": "Nik Bear Brown",
       "tagline": "Brutalist + Educational AI",
@@ -224,7 +246,9 @@
    },
    "estimated_duration_s": 8,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B09.mp3",
+   "actual_duration_s": 5.38
   }
  ]
 }

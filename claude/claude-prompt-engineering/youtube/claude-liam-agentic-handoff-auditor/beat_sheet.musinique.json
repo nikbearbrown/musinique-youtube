@@ -48,7 +48,7 @@
    ]
   },
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique"
  },
@@ -76,7 +76,7 @@
    ],
    "narration_text": "This is Musinique. ",
    "audio_file": "mp3/beat-B00.mp3",
-   "actual_duration_s": 2.41,
+   "actual_duration_s": 1.15,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -135,7 +135,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 19.54
   },
   {
    "beat_id": "B02",
@@ -335,7 +337,7 @@
    },
    "engine": "kokoro",
    "voice": "am_puck",
-   "narration_text": ""
+   "narration_text": "From Musinique."
   }
  ]
 }

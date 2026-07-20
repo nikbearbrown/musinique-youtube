@@ -28,7 +28,7 @@
   "old_outro_beats": [],
   "built_at": "2026-07-17T01:05:09.846058",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
   "voice_kokoro": "am_puck"
@@ -51,7 +51,7 @@
      "version": "1",
      "props": {
       "command": "A failure criterion generator appeals to me because I usually define success and forget to say what counts as broken. I want Claude to help me name failure before I start a task, not after. Help me: (1) take a concrete task and generate its explicit failure conditions — what output would mean this went wrong; (2) turn each condition into a testable check I can run on the result; (3) show how stating failure criteria up front changes the prompt itself so the model avoids the failure instead of me catching it late.",
-      "topic": "PROMPT ENGINEERING",
+      "topic": "MUSINIQUE · PROMPT ENGINEERING",
       "segment": "Build a Failure Criterion Generator with",
       "greeting": "Konnichiwa, Musinique",
       "runningText": "explaining the mechanism…",
@@ -68,7 +68,7 @@
    },
    "estimated_duration_s": 9.0,
    "audio_file": "mp3/beat-NBB00.mp3",
-   "actual_duration_s": 6.827
+   "actual_duration_s": 27.9
   },
   {
    "beat_id": "B00",
@@ -94,10 +94,11 @@
    "locked": true,
    "source_clip": "../failure-criterion-generator/clips/B00.mp4",
    "source_audio": "../failure-criterion-generator/mp3/beat-B00.mp3",
-   "audio_file": "../failure-criterion-generator/mp3/beat-B00.mp3",
+   "audio_file": "mp3/beat-B00.mp3",
    "engine": "kokoro",
    "voice": "am_puck",
-   "narration_text": "This is Musinique."
+   "narration_text": "This is Musinique.",
+   "actual_duration_s": 1.15
   },
   {
    "beat_id": "B01",
@@ -143,7 +144,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 17.34
   },
   {
    "beat_id": "B02",
@@ -353,7 +356,7 @@
    },
    "estimated_duration_s": 30.0,
    "audio_file": "mp3/beat-NBB01.mp3",
-   "actual_duration_s": 2.88,
+   "actual_duration_s": 3.61,
    "lead_silence_s": 0.5
   },
   {
@@ -373,7 +376,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Build a Failure Criterion Generator with Claude] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "PROMPT ENGINEERING",
+      "topic": "MUSINIQUE · PROMPT ENGINEERING",
       "segment": "Build a Failure Criterion Generator with",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -390,7 +393,7 @@
    },
    "estimated_duration_s": 8.0,
    "audio_file": "mp3/beat-NBB02.mp3",
-   "actual_duration_s": 7.765
+   "actual_duration_s": 8.3
   },
   {
    "beat_id": "NBB03",
@@ -419,10 +422,10 @@
    "estimated_duration_s": 6.0,
    "audio_file": "mp3/beat-NBB03.mp3",
    "silence_s": 6.0,
-   "actual_duration_s": 6.03,
+   "actual_duration_s": 2.84,
    "engine": "kokoro",
    "voice": "am_puck",
-   "narration_text": "Build a Failure Criterion Generator with Claude"
+   "narration_text": "Build a Failure Criterion Generator with Claude. From Musinique."
   }
  ]
 }

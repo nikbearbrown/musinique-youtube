@@ -14,7 +14,7 @@
   "note": "Exclusions honored: NO extended neuroscience of synaptic plasticity, NO specific curriculum reform proposals, NO comparison of particular educational AI platforms.",
   "total_estimated_duration_seconds": 235.37,
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "register": "Baldwin",
   "palette": "claude",
@@ -39,7 +39,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Kumusta, Musinique",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "Why the Same AI Tool Helps a Teacher and Harms a Student",
       "command": "Why the Same AI Tool Helps a Teacher and Harms a Student",
       "runningText": "reading…",
@@ -442,7 +442,7 @@
    "beat_id": "B16",
    "t_start": 171.0,
    "estimated_duration_s": 11.0,
-   "narration_text": "Same tool. Opposite outcome. Because the gate was in different places. The teacher who uses AI for preparation does more teaching. The student who lets AI do the writing does less learning.",
+   "narration_text": "Same tool. Opposite outcome. Because the gate was in different places. The teacher who uses AI for preparation does more teaching. The student who lets AI do the writing does less learning. From Musinique.",
    "shot": {
     "type": "CARD",
     "source": "own",

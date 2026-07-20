@@ -53,7 +53,7 @@
    ]
   },
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
   "voice": "am_puck"
@@ -76,7 +76,7 @@
     "sub": "the features you never meant to copy"
    },
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 9.96,
+   "actual_duration_s": 10.33,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -102,7 +102,7 @@
    "scene_description": "A professional woman at her desk, looking at two documents side by side on a laptop screen, newsprint editorial treatment",
    "image_prompt": "B02, professional woman at a modern office desk, two documents visible on laptop screen, focused expression, editorial newsprint treatment, desaturated flat print, collage style",
    "audio_file": "mp3/beat-B02.mp3",
-   "actual_duration_s": 11.46,
+   "actual_duration_s": 13.55,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -131,7 +131,7 @@
     "sub": ""
    },
    "audio_file": "mp3/beat-B03.mp3",
-   "actual_duration_s": 10.39,
+   "actual_duration_s": 11.43,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -168,7 +168,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 17.34
   },
   {
    "beat_id": "B04",
@@ -185,7 +187,7 @@
     "manim": "B04_InstructionVsExample"
    },
    "audio_file": "mp3/beat-B04.mp3",
-   "actual_duration_s": 12.16,
+   "actual_duration_s": 13.48,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -211,7 +213,7 @@
     "manim": "B05_FeatureDimensions"
    },
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 12.97,
+   "actual_duration_s": 14.31,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -237,7 +239,7 @@
     "manim": "B06_AllFeaturesEqual"
    },
    "audio_file": "mp3/beat-B06.mp3",
-   "actual_duration_s": 12.37,
+   "actual_duration_s": 13.16,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -263,7 +265,7 @@
     "manim": "B07_AllFeaturesCopied"
    },
    "audio_file": "mp3/beat-B07.mp3",
-   "actual_duration_s": 10.35,
+   "actual_duration_s": 11.24,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -291,7 +293,7 @@
     "sub": ""
    },
    "audio_file": "mp3/beat-B08.mp3",
-   "actual_duration_s": 8.09,
+   "actual_duration_s": 8.41,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -318,7 +320,7 @@
     "manim": "B09_AnnotatedExample"
    },
    "audio_file": "mp3/beat-B09.mp3",
-   "actual_duration_s": 10.43,
+   "actual_duration_s": 11.8,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -344,7 +346,7 @@
     "manim": "B10_AnyExample"
    },
    "audio_file": "mp3/beat-B10.mp3",
-   "actual_duration_s": 9.41,
+   "actual_duration_s": 10.65,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -370,7 +372,7 @@
     "manim": "B11_MarcoExample"
    },
    "audio_file": "mp3/beat-B11.mp3",
-   "actual_duration_s": 15.27,
+   "actual_duration_s": 16.15,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -396,7 +398,7 @@
     "manim": "B12_MarcoFixed"
    },
    "audio_file": "mp3/beat-B12.mp3",
-   "actual_duration_s": 11.78,
+   "actual_duration_s": 13.25,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -422,7 +424,7 @@
     "manim": "B13_Practice"
    },
    "audio_file": "mp3/beat-B13.mp3",
-   "actual_duration_s": 10.56,
+   "actual_duration_s": 11.78,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -438,7 +440,7 @@
    "t_start": 141.0,
    "estimated_duration_s": 10.0,
    "act": "RECAP",
-   "narration_text": "An unannotated example teaches every feature it contains. Label which to copy, which to skip — and your example becomes a precise instruction instead of a full transfer.",
+   "narration_text": "An unannotated example teaches every feature it contains. Label which to copy, which to skip — and your example becomes a precise instruction instead of a full transfer. From Musinique.",
    "shot": {
     "type": "CARD",
     "source": "own",
@@ -450,7 +452,7 @@
     "sub": "Annotation makes them precise."
    },
    "audio_file": "mp3/beat-B14.mp3",
-   "actual_duration_s": 10.2,
+   "actual_duration_s": 11.03,
    "build": {
     "status": "SLATE",
     "src": null,

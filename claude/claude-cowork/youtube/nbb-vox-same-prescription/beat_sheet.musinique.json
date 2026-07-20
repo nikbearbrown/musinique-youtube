@@ -35,7 +35,7 @@
   ],
   "built_at": "2026-07-16T23:25:15.744095",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
   "voice_kokoro": "am_puck"
@@ -58,7 +58,7 @@
      "version": "1",
      "props": {
       "command": "The blind-spot point is what I want to pressure-test: the same weights that misattributed the figure to the Q3 report re-read the output and confirmed it, because self-verification reuses the patterns that made the error. Help me design a check that lives outside the model. Please (1) explain why 'now verify your own citations' failed here in terms of shared weights, (2) propose an external verification setup that doesn't rely on the same model auditing itself, and (3) list what a domain human should independently confirm for a citation like the projection-slide-versus-Q3-report mix-up.",
-      "topic": "CLAUDE COWORK",
+      "topic": "MUSINIQUE · CLAUDE COWORK",
       "segment": "Why a Model Can't Catch Its",
       "greeting": "Merhaba, Musinique",
       "runningText": "explaining the mechanism…",
@@ -75,7 +75,7 @@
    },
    "estimated_duration_s": 9.0,
    "audio_file": "mp3/beat-NBB00.mp3",
-   "actual_duration_s": 4.949
+   "actual_duration_s": 33.15
   },
   {
    "beat_id": "B01",
@@ -94,8 +94,8 @@
     "sub": "same weights, same blind spots"
    },
    "new_visual_element": "[TITLE] same prescription",
-   "audio_file": "../vox-same-prescription/mp3/beat-B01.mp3",
-   "actual_duration_s": 8.8,
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 8.68,
    "locked": true,
    "source_clip": "../vox-same-prescription/clips/B01.mp4",
    "source_audio": "../vox-same-prescription/mp3/beat-B01.mp3",
@@ -127,7 +127,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 17.34
   },
   {
    "beat_id": "B02",
@@ -146,8 +148,8 @@
     0.4
    ],
    "new_visual_element": "[PHOTO] research report with citations",
-   "audio_file": "../vox-same-prescription/mp3/beat-B02.mp3",
-   "actual_duration_s": 9.74,
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 9.94,
    "locked": true,
    "source_clip": "../vox-same-prescription/clips/B02.mp4",
    "source_audio": "../vox-same-prescription/mp3/beat-B02.mp3",
@@ -170,8 +172,8 @@
     "highlight_words": "Why?"
    },
    "new_visual_element": "[QUESTION] gap formula on screen",
-   "audio_file": "../vox-same-prescription/mp3/beat-B03.mp3",
-   "actual_duration_s": 7.47,
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 7.74,
    "locked": true,
    "source_clip": "../vox-same-prescription/clips/B03.mp4",
    "source_audio": "../vox-same-prescription/mp3/beat-B03.mp3",
@@ -196,8 +198,8 @@
     "note": "first pass: error produced"
    },
    "new_visual_element": "[GRAPHIC] first pass — error produced",
-   "audio_file": "../vox-same-prescription/mp3/beat-B04.mp3",
-   "actual_duration_s": 10.58,
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 10.62,
    "locked": true,
    "source_clip": "../vox-same-prescription/clips/B04.mp4",
    "source_audio": "../vox-same-prescription/mp3/beat-B04.mp3",
@@ -222,8 +224,8 @@
     "note": "second pass: same pattern, error confirmed"
    },
    "new_visual_element": "[GRAPHIC] same reading — error confirmed",
-   "audio_file": "../vox-same-prescription/mp3/beat-B05.mp3",
-   "actual_duration_s": 8.8,
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 9.51,
    "locked": true,
    "source_clip": "../vox-same-prescription/clips/B05.mp4",
    "source_audio": "../vox-same-prescription/mp3/beat-B05.mp3",
@@ -246,8 +248,8 @@
     "sub": "same weights, same blind spots"
    },
    "new_visual_element": "[SECTION] THE MECHANISM",
-   "audio_file": "../vox-same-prescription/mp3/beat-B06.mp3",
-   "actual_duration_s": 1.07,
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 0.98,
    "locked": true,
    "source_clip": "../vox-same-prescription/clips/B06.mp4",
    "source_audio": "../vox-same-prescription/mp3/beat-B06.mp3",
@@ -272,8 +274,8 @@
     "note": "one source feeds both produce and audit"
    },
    "new_visual_element": "[GRAPHIC] same weights — two uses",
-   "audio_file": "../vox-same-prescription/mp3/beat-B07.mp3",
-   "actual_duration_s": 9.43,
+   "audio_file": "mp3/beat-B07.mp3",
+   "actual_duration_s": 10.39,
    "locked": true,
    "source_clip": "../vox-same-prescription/clips/B07.mp4",
    "source_audio": "../vox-same-prescription/mp3/beat-B07.mp3",
@@ -296,8 +298,8 @@
     "highlight_words": "cannot"
    },
    "new_visual_element": "[QUOTE] cannot step outside",
-   "audio_file": "../vox-same-prescription/mp3/beat-B08.mp3",
-   "actual_duration_s": 10.03,
+   "audio_file": "mp3/beat-B08.mp3",
+   "actual_duration_s": 10.84,
    "locked": true,
    "source_clip": "../vox-same-prescription/clips/B08.mp4",
    "source_audio": "../vox-same-prescription/mp3/beat-B08.mp3",
@@ -322,8 +324,8 @@
     "note": "blind spot: visible from outside, invisible from inside"
    },
    "new_visual_element": "[GRAPHIC] blind spot — visible only from outside",
-   "audio_file": "../vox-same-prescription/mp3/beat-B09.mp3",
-   "actual_duration_s": 10.48,
+   "audio_file": "mp3/beat-B09.mp3",
+   "actual_duration_s": 11.31,
    "locked": true,
    "source_clip": "../vox-same-prescription/clips/B09.mp4",
    "source_audio": "../vox-same-prescription/mp3/beat-B09.mp3",
@@ -347,8 +349,8 @@
     0.5
    ],
    "new_visual_element": "[PHOTO] human checking citation",
-   "audio_file": "../vox-same-prescription/mp3/beat-B10.mp3",
-   "actual_duration_s": 6.87,
+   "audio_file": "mp3/beat-B10.mp3",
+   "actual_duration_s": 6.23,
    "locked": true,
    "source_clip": "../vox-same-prescription/clips/B10.mp4",
    "source_audio": "../vox-same-prescription/mp3/beat-B10.mp3",
@@ -373,8 +375,8 @@
     "note": "THE EXAMPLE — self-verification confirms the error"
    },
    "new_visual_element": "[GRAPHIC] self-verification confirms error",
-   "audio_file": "../vox-same-prescription/mp3/beat-B11.mp3",
-   "actual_duration_s": 21.08,
+   "audio_file": "mp3/beat-B11.mp3",
+   "actual_duration_s": 17.56,
    "locked": true,
    "source_clip": "../vox-same-prescription/clips/B11.mp4",
    "source_audio": "../vox-same-prescription/mp3/beat-B11.mp3",
@@ -399,8 +401,8 @@
     "note": "human check breaks the loop"
    },
    "new_visual_element": "[GRAPHIC] human check outside the loop",
-   "audio_file": "../vox-same-prescription/mp3/beat-B12.mp3",
-   "actual_duration_s": 8.44,
+   "audio_file": "mp3/beat-B12.mp3",
+   "actual_duration_s": 9.24,
    "locked": true,
    "source_clip": "../vox-same-prescription/clips/B12.mp4",
    "source_audio": "../vox-same-prescription/mp3/beat-B12.mp3",
@@ -423,8 +425,8 @@
     "highlight_words": "outside"
    },
    "new_visual_element": "[QUOTE] must come from outside",
-   "audio_file": "../vox-same-prescription/mp3/beat-B13.mp3",
-   "actual_duration_s": 3.53,
+   "audio_file": "mp3/beat-B13.mp3",
+   "actual_duration_s": 3.67,
    "locked": true,
    "source_clip": "../vox-same-prescription/clips/B13.mp4",
    "source_audio": "../vox-same-prescription/mp3/beat-B13.mp3",
@@ -447,8 +449,8 @@
     "sub": "CLAUDE COWORK"
    },
    "new_visual_element": "[ENDCARD] must come from outside",
-   "audio_file": "../vox-same-prescription/mp3/beat-B14.mp3",
-   "actual_duration_s": 4.08,
+   "audio_file": "mp3/beat-B14.mp3",
+   "actual_duration_s": 3.95,
    "locked": true,
    "source_clip": "../vox-same-prescription/clips/B14.mp4",
    "source_audio": "../vox-same-prescription/mp3/beat-B14.mp3",
@@ -487,7 +489,7 @@
    },
    "estimated_duration_s": 30.0,
    "audio_file": "mp3/beat-NBB01.mp3",
-   "actual_duration_s": 9.643,
+   "actual_duration_s": 11.71,
    "lead_silence_s": 0.5
   },
   {
@@ -507,7 +509,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Why a Model Can't Catch Its Own Mistake] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "CLAUDE COWORK",
+      "topic": "MUSINIQUE · CLAUDE COWORK",
       "segment": "Why a Model Can't Catch Its",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -524,7 +526,7 @@
    },
    "estimated_duration_s": 8.0,
    "audio_file": "mp3/beat-NBB02.mp3",
-   "actual_duration_s": 7.765
+   "actual_duration_s": 8.3
   },
   {
    "beat_id": "NBB03",
@@ -553,10 +555,10 @@
    "estimated_duration_s": 6.0,
    "audio_file": "mp3/beat-NBB03.mp3",
    "silence_s": 6.0,
-   "actual_duration_s": 6.03,
+   "actual_duration_s": 1.98,
    "engine": "kokoro",
    "voice": "am_puck",
-   "narration_text": "Why a Model Can't Catch Its Own Mistake"
+   "narration_text": "Why a Model Can't Catch Its Own Mistake. From Musinique."
   }
  ]
 }

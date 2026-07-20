@@ -14,7 +14,7 @@
   "total_estimated_duration_seconds": 113.0,
   "note": "CLI video: 10-beat spine B00–B09. B04 is slate. No audio.",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "register": "Baldwin",
   "folderLabel": "@Musinique",
@@ -26,24 +26,26 @@
   {
    "beat_id": "B00",
    "act": "INTRO",
-   "narration_text": "This is Musinique. Nik Bear Brown. Build it with a CLI, then take it apart.",
+   "narration_text": "This is Musinique. Musinique. Build it with a CLI, then take it apart.",
    "estimated_duration_s": 10.0,
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOpen",
+     "pattern": "ClaudeComposerAsk",
      "props": {
-      "topic": "CLAUDE",
-      "lines": [
-       "Nik Bear Brown",
+      "command": "Build a Risk-Tiered Verification Checklist with Claude",
+      "topic": "MUSINIQUE · CLAUDE",
+      "segment": "Build a Risk-Tiered Verification Checklist with Claude",
+      "greeting": "This is Musinique.",
+      "runningText": "working…",
+      "output": [
        "Brutalist + Educational AI",
        "Risk-Tiered Verification",
        "Reading Is Not Reviewing",
        "The Checklist Protocol"
-      ],
-      "greeting": "Hej, Musinique"
+      ]
      }
     }
    },
@@ -100,10 +102,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Build verification_gate.py:\n  args: --output-type and --risk-level\n  output types: summary citation number\n               chart code recommendation\n  risk levels: light moderate strict\n  print 3-5 concrete checkable steps\n  for each combination\"",
-      "topic": "CLAUDE",
+      "topic": "MUSINIQUE · CLAUDE",
       "segment": "VERIFICATION GATE",
       "runningText": "running analysis…"
      }
@@ -122,12 +124,12 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownCodeBlock",
+     "pattern": "ClaudeCodeBeat",
      "props": {
-      "filename": "verification_gate.py",
       "segment": "VERIFICATION GATE",
       "topic": "CLAUDE",
-      "code": "# verification_gate.py — Claude Code output\nMATRIX = {\n  'citation': {\n    'light':  ['open the source','check author'],\n    'moderate':['open the source','verify quote',\n               'check publication year'],\n    'strict': ['open the source','verify exact quote',\n               'check methodology','trace to primary']\n  },\n  'number': {\n    'strict': ['independent recalculation',\n               'check denominator','verify sample size',\n               'confirm unit consistency']\n  },\n  'chart': {\n    'moderate':['check axis labels','verify denominator',\n               'read title against data']\n  }\n  # ... all 6 output types × 3 risk levels\n}"
+      "code": "# verification_gate.py — Claude Code output\nMATRIX = {\n  'citation': {\n    'light':  ['open the source','check author'],\n    'moderate':['open the source','verify quote',\n               'check publication year'],\n    'strict': ['open the source','verify exact quote',\n               'check methodology','trace to primary']\n  },\n  'number': {\n    'strict': ['independent recalculation',\n               'check denominator','verify sample size',\n               'confirm unit consistency']\n  },\n  'chart': {\n    'moderate':['check axis labels','verify denominator',\n               'read title against data']\n  }\n  # ... all 6 output types × 3 risk levels\n}",
+      "title": "verification_gate.py"
      }
     }
    },
@@ -157,10 +159,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"update verification_gate.py:\n  add --log flag\n  exports checklist with ISO timestamps\n  as markdown file: verification-log.md\n  for audit trail purposes\"",
-      "topic": "CLAUDE",
+      "topic": "MUSINIQUE · CLAUDE",
       "segment": "VERIFICATION GATE",
       "runningText": "updating verification tool…"
      }
@@ -211,14 +213,14 @@
   {
    "beat_id": "B09",
    "act": "OUTRO",
-   "narration_text": "Nik Bear Brown. Build it with a CLI. Then take it apart. At Nik Bear Brown, nikbearbrown dot com.",
+   "narration_text": "Musinique. Build it with a CLI. Then take it apart. At Musinique, nikbearbrown dot com.",
    "estimated_duration_s": 8.0,
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOutro",
+     "pattern": "ClaudeTitleOutro",
      "props": {
       "brand": "Nik Bear Brown",
       "tagline": "Brutalist + Educational AI",

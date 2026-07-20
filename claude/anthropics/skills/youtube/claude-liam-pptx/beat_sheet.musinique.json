@@ -27,7 +27,7 @@
    "slates": [],
    "skin_warnings": []
   },
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "derived_from": "beat_sheet.json"
  },
  "beats": [
@@ -44,7 +44,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Sawadee, Musinique",
-      "topic": "PPTX · ANTHROPIC SKILL",
+      "topic": "MUSINIQUE · PPTX · ANTHROPIC SKILL",
       "segment": "PRESENTATION",
       "command": "Create a 10-slide pitch deck for our SaaS product. Bold design, no boring templates. Use our brand colors: teal and gold.",
       "runningText": "reading pptx SKILL.md…",
@@ -64,7 +64,7 @@
     }
    },
    "audio_file": "mp3/beat-B00.mp3",
-   "actual_duration_s": 25.26,
+   "actual_duration_s": 22.31,
    "build": {
     "status": "VIDEO",
     "src": "media/B00.mp4",
@@ -93,7 +93,7 @@
     }
    },
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 41.92,
+   "actual_duration_s": 39.19,
    "build": {
     "status": "VIDEO",
     "src": "media/B01.mp4",
@@ -126,7 +126,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 19.52
   },
   {
    "beat_id": "B02",
@@ -149,7 +151,7 @@
     }
    },
    "audio_file": "mp3/beat-B02.mp3",
-   "actual_duration_s": 43.05,
+   "actual_duration_s": 38.55,
    "build": {
     "status": "VIDEO",
     "src": "media/B02.mp4",
@@ -178,7 +180,7 @@
     }
    },
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 49.24,
+   "actual_duration_s": 45.74,
    "build": {
     "status": "VIDEO",
     "src": "media/B05.mp4",
@@ -216,7 +218,7 @@
     }
    },
    "audio_file": "mp3/beat-BVDT.mp3",
-   "actual_duration_s": 29.06,
+   "actual_duration_s": 27.97,
    "build": {
     "status": "VIDEO",
     "src": "media/BVDT.mp4",
@@ -237,7 +239,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Your Turn",
-      "topic": "PPTX · HANDOFF",
+      "topic": "MUSINIQUE · PPTX · HANDOFF",
       "segment": "PRESENTATION",
       "command": "5-slide investor pitch for a climate tech startup (carbon-capture hardware). Bold design, topic-specific palette, dark-light sandwich, one visual motif. Use the PPTX skill.",
       "runningText": "Watch: does Claude read pptxgenjs.md first? Does it run visual QA with subagents after?",
@@ -257,7 +259,7 @@
     }
    },
    "audio_file": "mp3/beat-BHTF.mp3",
-   "actual_duration_s": 40.28,
+   "actual_duration_s": 37.61,
    "build": {
     "status": "VIDEO",
     "src": "media/BHTF.mp4",
@@ -288,7 +290,7 @@
     }
    },
    "audio_file": "mp3/beat-BOUT.mp3",
-   "actual_duration_s": 2.73,
+   "actual_duration_s": 1.66,
    "build": {
     "status": "VIDEO",
     "src": "media/BOUT.mp4",

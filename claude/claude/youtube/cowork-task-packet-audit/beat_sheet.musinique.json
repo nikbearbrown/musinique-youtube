@@ -3,7 +3,7 @@
   "slug": "cowork-task-packet-audit",
   "title": "Audit a Claude Cowork Task Packet in Sixty Seconds",
   "topic": "CLAUDE",
-  "voice": "am_onyx",
+  "voice": "am_puck",
   "voice_id": "TyW6NH39JcFb5M3xdIIk",
   "style": "cli",
   "palette": "claude",
@@ -14,41 +14,45 @@
   "total_estimated_duration_seconds": 113.0,
   "note": "CLI video: 10-beat spine B00–B09. B04 is slate. No audio.",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "register": "Baldwin",
   "folderLabel": "@Musinique",
   "engine": "kokoro",
-  "voice_kokoro": "am_onyx",
+  "voice_kokoro": "am_puck",
   "derived_from": "beat_sheet.json"
  },
  "beats": [
   {
    "beat_id": "B00",
    "act": "INTRO",
-   "narration_text": "This is Liam for Musinique. Nik Bear Brown. Build it with a CLI, then take it apart.",
+   "narration_text": "This is Musinique. Musinique. Build it with a CLI, then take it apart.",
    "estimated_duration_s": 10.0,
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOpen",
+     "pattern": "ClaudeComposerAsk",
      "props": {
-      "topic": "CLAUDE",
-      "lines": [
-       "Nik Bear Brown",
+      "command": "Audit a Claude Cowork Task Packet in Sixty Seconds",
+      "topic": "MUSINIQUE · CLAUDE",
+      "segment": "Audit a Claude Cowork Task Packet in Sixty Seconds",
+      "greeting": "This is Musinique.",
+      "runningText": "working…",
+      "output": [
        "Brutalist + Educational AI",
        "Cowork Task Packet Audit",
        "One Wrong Permission",
        "Three Years of Personnel Files"
-      ],
-      "greeting": "Cześć, Musinique"
+      ]
      }
     }
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B00.mp3",
+   "actual_duration_s": 5.53
   },
   {
    "beat_id": "B01",
@@ -61,14 +65,16 @@
     "notes": "hook card: 'One wrong permission. Three years of personnel files.' — CRIMSON on 'wrong permission', teal on 'sixty seconds' audit time"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 12.52
   },
   {
    "beat_id": "B01B",
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "The playlist curator who emails you 'guaranteed placement for $300' is betting you won't check. You can check in sixty seconds: paste the pitch into Claude with the right prompt, and ask it to cross-reference the playlist's follower-to-stream ratio. The scam doesn't survive the audit. You just have to run it.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -88,7 +94,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 16.38
   },
   {
    "beat_id": "B02",
@@ -100,17 +108,19 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Write task_packet_audit.py:\n  reads Cowork task packet from stdin\n  scores 6 dimensions with pass/fail:\n    inputs_named\n    forbidden_explicit\n    irreversibles_gated\n    output_format\n    verification_steps\n    no_sensitive_data\n  one-sentence explanation for each fail\"",
-      "topic": "CLAUDE",
+      "topic": "MUSINIQUE · CLAUDE",
       "segment": "COWORK AUDIT",
       "runningText": "running analysis…"
      }
     }
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 15.15
   },
   {
    "beat_id": "B03",
@@ -122,17 +132,19 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownCodeBlock",
+     "pattern": "ClaudeCodeBeat",
      "props": {
-      "filename": "task_packet_audit.py",
       "segment": "COWORK AUDIT",
       "topic": "CLAUDE",
-      "code": "# task_packet_audit.py — Claude Code output\nimport re, sys\n\nDIMS = {\n  'inputs_named':       r'input[s]?\\s*:',\n  'forbidden_explicit': r'forbidden|do not|must not',\n  'irreversibles_gated':r'stop if|confirm before|gate',\n  'output_format':      r'output[s]?\\s*:',\n  'verification_steps': r'verif|check|test',\n  'no_sensitive_data':  None  # inverted: flag if PII found\n}\nPII = re.compile(r'ssn|password|api.?key|credential',re.I)\n\ndef audit(text):\n    results = {}\n    for dim, pat in DIMS.items():\n        if dim == 'no_sensitive_data':\n            results[dim] = not bool(PII.search(text))\n        else:\n            results[dim] = bool(re.search(pat,text,re.I))\n    return results"
+      "code": "# task_packet_audit.py — Claude Code output\nimport re, sys\n\nDIMS = {\n  'inputs_named':       r'input[s]?\\s*:',\n  'forbidden_explicit': r'forbidden|do not|must not',\n  'irreversibles_gated':r'stop if|confirm before|gate',\n  'output_format':      r'output[s]?\\s*:',\n  'verification_steps': r'verif|check|test',\n  'no_sensitive_data':  None  # inverted: flag if PII found\n}\nPII = re.compile(r'ssn|password|api.?key|credential',re.I)\n\ndef audit(text):\n    results = {}\n    for dim, pat in DIMS.items():\n        if dim == 'no_sensitive_data':\n            results[dim] = not bool(PII.search(text))\n        else:\n            results[dim] = bool(re.search(pat,text,re.I))\n    return results",
+      "title": "task_packet_audit.py"
      }
     }
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 14.95
   },
   {
    "beat_id": "B04",
@@ -145,7 +157,9 @@
     "notes": "terminal: bad packet piped in -> six FAIL rows in CRIMSON, each with one-sentence explanation — bad packet text visible above"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 15.47
   },
   {
    "beat_id": "B05",
@@ -157,17 +171,19 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"update task_packet_audit.py:\n  add 7th dimension: stop_conditions_defined\n  pattern: 'stop when' or 'halt if'\n  retest on both bad and good packets\n  verify 7th catches opening-scene failure\"",
-      "topic": "CLAUDE",
+      "topic": "MUSINIQUE · CLAUDE",
       "segment": "COWORK AUDIT",
       "runningText": "updating audit tool…"
      }
     }
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 10.5
   },
   {
    "beat_id": "B06",
@@ -180,7 +196,9 @@
     "notes": "terminal: bad packet 7 FAIL (CRIMSON), good packet 7 PASS (teal) — seventh row 'stop_conditions_defined' highlighted"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 12.07
   },
   {
    "beat_id": "B07",
@@ -193,7 +211,9 @@
     "notes": "teardown card: 'Vague mandate + broad permissions = unsupervisable agent' (CRIMSON) vs 'Seven-dimension packet = auditable scope' (teal)"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B07.mp3",
+   "actual_duration_s": 13.35
   },
   {
    "beat_id": "B08",
@@ -206,19 +226,21 @@
     "notes": "next-reel teaser: 'Next: Risk-Tiered Verification' — segment 06 of the CLAUDE series"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B08.mp3",
+   "actual_duration_s": 11.14
   },
   {
    "beat_id": "B09",
    "act": "OUTRO",
-   "narration_text": "Nik Bear Brown. Build it with a CLI. Then take it apart. At Nik Bear Brown, nikbearbrown dot com.",
+   "narration_text": "Musinique. Build it with a CLI. Then take it apart. At Musinique, nikbearbrown dot com.",
    "estimated_duration_s": 8.0,
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOutro",
+     "pattern": "ClaudeTitleOutro",
      "props": {
       "brand": "Nik Bear Brown",
       "tagline": "Brutalist + Educational AI",
@@ -228,7 +250,9 @@
     }
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B09.mp3",
+   "actual_duration_s": 6.51
   }
  ]
 }

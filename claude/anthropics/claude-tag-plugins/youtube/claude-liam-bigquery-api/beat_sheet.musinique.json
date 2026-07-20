@@ -27,7 +27,7 @@
    "slates": [],
    "skin_warnings": []
   },
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "derived_from": "beat_sheet.json"
  },
  "beats": [
@@ -44,7 +44,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Talofa, Musinique",
-      "topic": "BIGQUERY API · CLAUDE TAG PLUGIN",
+      "topic": "MUSINIQUE · BIGQUERY API · CLAUDE TAG PLUGIN",
       "segment": "PLUGIN DEV",
       "command": "Query the top 10 names in the USA names public dataset for California.",
       "runningText": "reading bigquery-api SKILL.md…",
@@ -64,7 +64,7 @@
     }
    },
    "audio_file": "mp3/beat-B00.mp3",
-   "actual_duration_s": 35.58,
+   "actual_duration_s": 33.69,
    "build": {
     "status": "VIDEO",
     "src": "media/B00.mp4",
@@ -93,7 +93,7 @@
     }
    },
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 49.02,
+   "actual_duration_s": 43.63,
    "build": {
     "status": "VIDEO",
     "src": "media/B01.mp4",
@@ -126,7 +126,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 19.09
   },
   {
    "beat_id": "B02",
@@ -149,7 +151,7 @@
     }
    },
    "audio_file": "mp3/beat-B02.mp3",
-   "actual_duration_s": 60.42,
+   "actual_duration_s": 56.23,
    "build": {
     "status": "VIDEO",
     "src": "media/B02.mp4",
@@ -178,7 +180,7 @@
     }
    },
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 88.36,
+   "actual_duration_s": 80.83,
    "build": {
     "status": "VIDEO",
     "src": "media/B05.mp4",
@@ -216,7 +218,7 @@
     }
    },
    "audio_file": "mp3/beat-BVDT.mp3",
-   "actual_duration_s": 39.42,
+   "actual_duration_s": 38.61,
    "build": {
     "status": "VIDEO",
     "src": "media/BVDT.mp4",
@@ -237,7 +239,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Your Turn",
-      "topic": "BIGQUERY API · HANDOFF",
+      "topic": "MUSINIQUE · BIGQUERY API · HANDOFF",
       "segment": "PLUGIN DEV",
       "command": "Run a query against bigquery-public-data.usa_names.usa_1910_current — top 5 names for Texas.",
       "runningText": "Watch: bq_query.sh? location passed? DONE ≠ success checked?",
@@ -257,7 +259,7 @@
     }
    },
    "audio_file": "mp3/beat-BHTF.mp3",
-   "actual_duration_s": 35.16,
+   "actual_duration_s": 33.88,
    "build": {
     "status": "VIDEO",
     "src": "media/BHTF.mp4",
@@ -288,7 +290,7 @@
     }
    },
    "audio_file": "mp3/beat-BOUT.mp3",
-   "actual_duration_s": 3.26,
+   "actual_duration_s": 2.15,
    "build": {
     "status": "VIDEO",
     "src": "media/BOUT.mp4",

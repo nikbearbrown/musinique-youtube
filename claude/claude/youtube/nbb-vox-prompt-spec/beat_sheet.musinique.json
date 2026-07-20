@@ -33,7 +33,7 @@
   "old_outro_beats": [],
   "built_at": "2026-07-17T02:34:20.693003",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
   "voice_kokoro": "am_puck"
@@ -56,7 +56,7 @@
      "version": "1",
      "props": {
       "command": "The methods-section story landed hard — a clean rewrite that was wrong for the journal, the audience, and the argument, with no signal anything failed because 'better' was never defined. Help me stop shipping vague frames: (1) take my own 'improve my methods section' request and expand it into the six inspectable components; (2) pay special attention to the three usually missing — source material, constraints, and evaluation criteria; (3) show me a before-and-after so I can see how naming the venue and reviewer changes what the model completes.",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "Why 'Make This Better' Is Not",
       "greeting": "Selam, Musinique",
       "runningText": "explaining the mechanism…",
@@ -542,7 +542,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Why 'Make This Better' Is Not a Prompt] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "Why 'Make This Better' Is Not",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -591,7 +591,7 @@
    "actual_duration_s": 6.03,
    "engine": "kokoro",
    "voice": "am_puck",
-   "narration_text": "Why 'Make This Better' Is Not a Prompt"
+   "narration_text": "Why 'Make This Better' Is Not a Prompt. From Musinique."
   }
  ]
 }

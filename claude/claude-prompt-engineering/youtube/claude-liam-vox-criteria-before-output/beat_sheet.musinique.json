@@ -53,7 +53,7 @@
    ]
   },
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
   "voice": "am_puck"
@@ -76,7 +76,7 @@
     "sub": "output quality gives no signal about output correctness"
    },
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 13.08,
+   "actual_duration_s": 13.57,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -102,7 +102,7 @@
    "scene_description": "A grant writer at a desk reviewing a printed document, satisfied expression, editorial newsprint treatment, editorial collage",
    "image_prompt": "B02, professional woman reviewing a printed document at a desk, satisfied expression, coffee cup nearby, editorial documentary newsprint treatment, desaturated flat print collage",
    "audio_file": "mp3/beat-B02.mp3",
-   "actual_duration_s": 11.97,
+   "actual_duration_s": 14.27,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -131,7 +131,7 @@
     "sub": ""
    },
    "audio_file": "mp3/beat-B03.mp3",
-   "actual_duration_s": 12.86,
+   "actual_duration_s": 14.7,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -168,7 +168,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 16.06
   },
   {
    "beat_id": "B04",
@@ -185,7 +187,7 @@
     "manim": "B04_FluencyVsCorrectness"
    },
    "audio_file": "mp3/beat-B04.mp3",
-   "actual_duration_s": 15.47,
+   "actual_duration_s": 16.81,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -211,7 +213,7 @@
     "manim": "B05_MissingRubric"
    },
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 10.88,
+   "actual_duration_s": 11.86,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -237,7 +239,7 @@
     "manim": "B06_OptimizedForNothing"
    },
    "audio_file": "mp3/beat-B06.mp3",
-   "actual_duration_s": 13.5,
+   "actual_duration_s": 14.66,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -263,7 +265,7 @@
     "manim": "B07_CriteriaReveal"
    },
    "audio_file": "mp3/beat-B07.mp3",
-   "actual_duration_s": 14.25,
+   "actual_duration_s": 15.23,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -291,7 +293,7 @@
     "sub": ""
    },
    "audio_file": "mp3/beat-B08.mp3",
-   "actual_duration_s": 9.58,
+   "actual_duration_s": 10.5,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -318,7 +320,7 @@
     "manim": "B09_CriteriaAdded"
    },
    "audio_file": "mp3/beat-B09.mp3",
-   "actual_duration_s": 12.39,
+   "actual_duration_s": 13.67,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -344,7 +346,7 @@
     "manim": "B10_CriteriaTransfer"
    },
    "audio_file": "mp3/beat-B10.mp3",
-   "actual_duration_s": 14.89,
+   "actual_duration_s": 15.7,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -370,7 +372,7 @@
     "manim": "B11_LiExample"
    },
    "audio_file": "mp3/beat-B11.mp3",
-   "actual_duration_s": 14.34,
+   "actual_duration_s": 15.62,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -396,7 +398,7 @@
     "manim": "B12_LiFixed"
    },
    "audio_file": "mp3/beat-B12.mp3",
-   "actual_duration_s": 15.32,
+   "actual_duration_s": 16.23,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -422,7 +424,7 @@
     "manim": "B13_Practice"
    },
    "audio_file": "mp3/beat-B13.mp3",
-   "actual_duration_s": 12.29,
+   "actual_duration_s": 13.7,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -438,7 +440,7 @@
    "t_start": 143.0,
    "estimated_duration_s": 10.0,
    "act": "RECAP",
-   "narration_text": "Fluency and correctness are independent. Write what good looks like before you generate — and correctness has a target.",
+   "narration_text": "Fluency and correctness are independent. Write what good looks like before you generate — and correctness has a target. From Musinique.",
    "shot": {
     "type": "CARD",
     "source": "own",
@@ -450,7 +452,7 @@
     "sub": "Write the criteria. Then generate."
    },
    "audio_file": "mp3/beat-B14.mp3",
-   "actual_duration_s": 6.91,
+   "actual_duration_s": 7.17,
    "build": {
     "status": "SLATE",
     "src": null,

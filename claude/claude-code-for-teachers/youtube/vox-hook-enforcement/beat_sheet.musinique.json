@@ -13,23 +13,23 @@
   "note": "Exclusions honored: NO shell scripting tutorial, NO regex deep-dive, NO full settings.json walkthrough, NO history of enforcement systems. One mechanism only: CLAUDE.md advisory vs. Hook deterministic enforcement.",
   "total_estimated_duration_seconds": 199.58,
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "register": "Baldwin",
   "palette": "claude",
   "folderLabel": "@Musinique",
   "engine": "kokoro",
-  "voice": "am_onyx",
-  "voice_kokoro": "am_onyx",
+  "voice": "am_puck",
+  "voice_kokoro": "am_puck",
   "derived_from": "beat_sheet.json"
  },
  "beats": [
   {
    "beat_id": "B00",
    "act": "cold open",
-   "narration_text": "This is Liam for Musinique. Why 'Never Generate a Grade' Fails Until You Write a Hook.",
+   "narration_text": "This is Musinique. Why 'Never Generate a Grade' Fails Until You Write a Hook.",
    "tangent": false,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 8,
    "shot": {
@@ -38,7 +38,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Jambo, Musinique",
-      "topic": "CLAUDE CODE FOR TEACHERS",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR TEACHERS",
       "segment": "Why 'Never Generate a Grade' Fails Until You Write a Hook",
       "command": "Why 'Never Generate a Grade' Fails Until You Write a Hook",
       "runningText": "reading…",
@@ -50,7 +50,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B00.mp3",
+   "actual_duration_s": 5.23
   },
   {
    "beat_id": "B01",
@@ -69,16 +71,16 @@
    },
    "new_visual_element": "[TITLE] the rule that didn't hold",
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 6.4,
+   "actual_duration_s": 6.57,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01B",
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "The same evaluation machinery that grades six variants of a customer-support agent grades six versions of your EPK pitch. You write the rubric — what counts as a strong pitch, what counts as a weak one — and the machine runs the comparison. The label has staff for that. You have Claude.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -98,7 +100,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 15.34
   },
   {
    "beat_id": "B02",
@@ -122,9 +126,9 @@
    },
    "new_visual_element": "[GRAPHIC] the CLAUDE.md rule written once",
    "audio_file": "mp3/beat-B02.mp3",
-   "actual_duration_s": 10.87,
+   "actual_duration_s": 9.94,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B03",
@@ -149,9 +153,9 @@
    },
    "new_visual_element": "[GRAPHIC] probability dial showing the rule is weighted, not locked",
    "audio_file": "mp3/beat-B03.mp3",
-   "actual_duration_s": 9.8,
+   "actual_duration_s": 8.98,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B04",
@@ -176,9 +180,9 @@
    },
    "new_visual_element": "[GRAPHIC] the grade written despite the rule",
    "audio_file": "mp3/beat-B04.mp3",
-   "actual_duration_s": 10.68,
+   "actual_duration_s": 9.17,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B05",
@@ -196,9 +200,9 @@
    },
    "new_visual_element": "[CARD] the question on screen",
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 7.52,
+   "actual_duration_s": 7.27,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B06",
@@ -223,9 +227,9 @@
    },
    "new_visual_element": "[GRAPHIC] advisory path with degrading probability",
    "audio_file": "mp3/beat-B06.mp3",
-   "actual_duration_s": 15.91,
+   "actual_duration_s": 14.19,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B07",
@@ -250,9 +254,9 @@
    },
    "new_visual_element": "[GRAPHIC] two-lane comparison — advisory vs. enforcement gate",
    "audio_file": "mp3/beat-B07.mp3",
-   "actual_duration_s": 18.42,
+   "actual_duration_s": 14.72,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B08",
@@ -277,9 +281,9 @@
    },
    "new_visual_element": "[GRAPHIC] hook intercepts and blocks the grade write",
    "audio_file": "mp3/beat-B08.mp3",
-   "actual_duration_s": 16.9,
+   "actual_duration_s": 13.89,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B09",
@@ -295,9 +299,9 @@
    "image_prompt": "B09, printed terminal output showing a JSON configuration snippet and a bash script excerpt for a hook that blocks grade generation, pinned like a clipping to aged newsprint, desaturated editorial collage, flat print reproduction",
    "new_visual_element": "[STILL ai] the hook configuration as a printed document",
    "audio_file": "mp3/beat-B09.mp3",
-   "actual_duration_s": 19.96,
+   "actual_duration_s": 15.51,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B10",
@@ -322,9 +326,9 @@
    },
    "new_visual_element": "[GRAPHIC] stakes grid — high probability still means violations",
    "audio_file": "mp3/beat-B10.mp3",
-   "actual_duration_s": 18.81,
+   "actual_duration_s": 15.7,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B11",
@@ -348,9 +352,9 @@
    },
    "new_visual_element": "[GRAPHIC] three-step process: ask, review, test",
    "audio_file": "mp3/beat-B11.mp3",
-   "actual_duration_s": 20.32,
+   "actual_duration_s": 16.45,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B12",
@@ -375,9 +379,9 @@
    },
    "new_visual_element": "[GRAPHIC] two-column comparison — advisory vs. must-hold",
    "audio_file": "mp3/beat-B12.mp3",
-   "actual_duration_s": 16.3,
+   "actual_duration_s": 13.67,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B13",
@@ -395,15 +399,15 @@
    },
    "new_visual_element": "[CARD] the heuristic on screen",
    "audio_file": "mp3/beat-B13.mp3",
-   "actual_duration_s": 16.74,
+   "actual_duration_s": 14.91,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B14",
    "t_start": 138.0,
    "estimated_duration_s": 10.0,
-   "narration_text": "CLAUDE.md says do not. A Hook says cannot. The grading tool's grade-generation rule used to be a request. Now it is a gate. The session where it failed was the last one.",
+   "narration_text": "CLAUDE.md says do not. A Hook says cannot. The grading tool's grade-generation rule used to be a request. Now it is a gate. The session where it failed was the last one. From Musinique.",
    "shot": {
     "type": "CARD",
     "source": "own",
@@ -416,9 +420,9 @@
    },
    "new_visual_element": "[CARD] endcard — do not vs. cannot",
    "audio_file": "mp3/beat-B14.mp3",
-   "actual_duration_s": 11.913,
+   "actual_duration_s": 9.77,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   }
  ]
 }

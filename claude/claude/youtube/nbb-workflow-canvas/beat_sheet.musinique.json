@@ -29,7 +29,7 @@
   ],
   "built_at": "2026-07-17T02:38:23.442858",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
   "voice_kokoro": "am_puck"
@@ -52,7 +52,7 @@
      "version": "1",
      "props": {
       "command": "The self-auditing retrospective flag is what I want to internalize — that the canvas learns the human gate was too vague. Let me build workflow_canvas.py for my own weekly newsletter workstream and run it through three simulated uses. Show me: (1) the ten fields filled for the newsletter, with the save refused when I leave human_gate blank, (2) the markdown artifact it writes in consistent field order, and (3) the improvement note the retrospective appends after three runs, naming one structural fix to the allowed-inputs or human-gate field.",
-      "topic": "CLAUDE",
+      "topic": "MUSINIQUE · CLAUDE",
       "segment": "Design a Personal Workflow Canvas with",
       "greeting": "Selam, Musinique",
       "runningText": "explaining the mechanism…",
@@ -74,24 +74,26 @@
   {
    "beat_id": "B00",
    "act": "INTRO",
-   "narration_text": "This is Musinique. Nik Bear Brown. Build it with a CLI, then take it apart.",
+   "narration_text": "This is Musinique. Musinique. Build it with a CLI, then take it apart.",
    "estimated_duration_s": 10.0,
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOpen",
+     "pattern": "ClaudeComposerAsk",
      "props": {
-      "topic": "CLAUDE",
-      "lines": [
-       "Nik Bear Brown",
+      "command": "Design a Personal Workflow Canvas with Claude",
+      "topic": "MUSINIQUE · CLAUDE",
+      "segment": "Design a Personal Workflow Canvas with Claude",
+      "greeting": "This is Musinique.",
+      "runningText": "working…",
+      "output": [
        "Brutalist + Educational AI",
        "Workflow Canvas",
        "Fifteen Tasks",
        "Four Buckets — Two Surprises"
-      ],
-      "greeting": "Selam, Musinique"
+      ]
      }
     }
    },
@@ -156,10 +158,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Write workflow_canvas.py:\n  interactive CLI prompts for 10 fields:\n    workstream, surface, allowed_inputs,\n    forbidden_inputs, output_artifact,\n    constraints, human_gate, memory_scope,\n    failure_signal, improvement_note\n  validate: forbidden_inputs and human_gate\n  must be non-empty\n  write markdown: workflow-[name].md\n  REFUSE to save if human_gate is blank\"",
-      "topic": "CLAUDE",
+      "topic": "MUSINIQUE · CLAUDE",
       "segment": "WORKFLOW CANVAS",
       "runningText": "running analysis…"
      }
@@ -182,12 +184,12 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownCodeBlock",
+     "pattern": "ClaudeCodeBeat",
      "props": {
-      "filename": "workflow_canvas.py",
       "segment": "WORKFLOW CANVAS",
       "topic": "CLAUDE",
-      "code": "# workflow_canvas.py — Claude Code output\nFIELDS = ['workstream','surface','allowed_inputs',\n          'forbidden_inputs','output_artifact',\n          'constraints','human_gate','memory_scope',\n          'failure_signal','improvement_note']\nREQUIRED = {'forbidden_inputs','human_gate'}\n\ndef prompt_canvas():\n    data = {}\n    for field in FIELDS:\n        val = input(f'{field}: ').strip()\n        data[field] = val\n    for req in REQUIRED:\n        if not data.get(req):\n            raise ValueError(\n              f'REFUSED: {req} must not be blank')\n    return data\n\n# writes workflow-[name].md from template"
+      "code": "# workflow_canvas.py — Claude Code output\nFIELDS = ['workstream','surface','allowed_inputs',\n          'forbidden_inputs','output_artifact',\n          'constraints','human_gate','memory_scope',\n          'failure_signal','improvement_note']\nREQUIRED = {'forbidden_inputs','human_gate'}\n\ndef prompt_canvas():\n    data = {}\n    for field in FIELDS:\n        val = input(f'{field}: ').strip()\n        data[field] = val\n    for req in REQUIRED:\n        if not data.get(req):\n            raise ValueError(\n              f'REFUSED: {req} must not be blank')\n    return data\n\n# writes workflow-[name].md from template",
+      "title": "workflow_canvas.py"
      }
     }
    },
@@ -225,10 +227,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"update workflow_canvas.py:\n  add --retrospective flag\n  loads existing workflow-[name].md\n  prompts for improvement_note\n  after 3 runs on that workflow\n  appends retrospective section to markdown\"",
-      "topic": "CLAUDE",
+      "topic": "MUSINIQUE · CLAUDE",
       "segment": "WORKFLOW CANVAS",
       "runningText": "updating canvas tool…"
      }
@@ -344,7 +346,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Design a Personal Workflow Canvas with Claude] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "CLAUDE",
+      "topic": "MUSINIQUE · CLAUDE",
       "segment": "Design a Personal Workflow Canvas with",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -393,7 +395,7 @@
    "actual_duration_s": 6.03,
    "engine": "kokoro",
    "voice": "am_puck",
-   "narration_text": "Design a Personal Workflow Canvas with Claude"
+   "narration_text": "Design a Personal Workflow Canvas with Claude. From Musinique."
   }
  ]
 }

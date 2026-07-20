@@ -29,7 +29,7 @@
   ],
   "built_at": "2026-07-16T23:36:16.642188",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
   "voice_kokoro": "am_puck"
@@ -52,7 +52,7 @@
      "version": "1",
      "props": {
       "command": "The zoom-level point landed for me: adequate for surface revision, unproven for argumentation. I want to push the evidence review harder. Please (1) rebuild the domain comparison table for writing, math, and programming with sample sizes and one limitation each; (2) name which cited studies have corporate sponsorship and how that shifts my trust in their applicability rating; (3) specify the exact study design that would move 'adequate in narrow contexts' to 'robustly equivalent across domains,' including what outcome it would have to measure.",
-      "topic": "CLAUDE FOR EDUCATION",
+      "topic": "MUSINIQUE · CLAUDE FOR EDUCATION",
       "segment": "Research What Makes AI Feedback Effective:",
       "greeting": "Konnichiwa, Musinique",
       "runningText": "explaining the mechanism…",
@@ -69,28 +69,30 @@
    },
    "estimated_duration_s": 9.0,
    "audio_file": "mp3/beat-NBB00.mp3",
-   "actual_duration_s": 5.611
+   "actual_duration_s": 30.46
   },
   {
    "beat_id": "B00",
    "act": "INTRO",
-   "narration_text": "This is Musinique. Nik Bear Brown. Brutalist and Educational AI. Build it with Claude — then take it apart.",
+   "narration_text": "This is Musinique. Musinique. Brutalist and Educational AI. Build it with Claude — then take it apart.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOpen",
+     "pattern": "ClaudeComposerAsk",
      "props": {
-      "topic": "CLAUDE FOR EDUCATION",
-      "lines": [
-       "Nik Bear Brown",
+      "command": "Research What Makes AI Feedback Effective: Evidence Review",
+      "topic": "MUSINIQUE · CLAUDE FOR EDUCATION",
+      "segment": "Research What Makes AI Feedback Effective: Evidence Review",
+      "greeting": "This is Musinique.",
+      "runningText": "working…",
+      "output": [
        "Brutalist + Educational AI",
        "AI Feedback Evidence Review",
        "What Does the Research Show?",
        "Research with Claude CLI"
-      ],
-      "greeting": "Konnichiwa, Musinique"
+      ]
      }
     }
    },
@@ -98,9 +100,10 @@
    "locked": true,
    "source_clip": "../ai-feedback-evidence-review/clips/B00.mp4",
    "source_audio": "../ai-feedback-evidence-review/mp3/beat-B00.mp3",
-   "audio_file": "../ai-feedback-evidence-review/mp3/beat-B00.mp3",
+   "audio_file": "mp3/beat-B00.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 7.1
   },
   {
    "beat_id": "B01",
@@ -116,9 +119,10 @@
    "locked": true,
    "source_clip": "../ai-feedback-evidence-review/clips/B01.mp4",
    "source_audio": "../ai-feedback-evidence-review/mp3/beat-B01.mp3",
-   "audio_file": "../ai-feedback-evidence-review/mp3/beat-B01.mp3",
+   "audio_file": "mp3/beat-B01.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 16.02
   },
   {
    "beat_id": "B01B",
@@ -145,7 +149,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 19.09
   },
   {
    "beat_id": "B02",
@@ -156,10 +162,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Find and summarize the best available evidence on AI-generated feedback effectiveness vs. human feedback in K-12 and higher education. For each study you cite: state the domain, sample size, key finding, and one limitation. Cross-check any study that appears to have corporate sponsorship.\"",
-      "topic": "CLAUDE FOR EDUCATION",
+      "topic": "MUSINIQUE · CLAUDE FOR EDUCATION",
       "segment": "AI FEEDBACK",
       "runningText": "gathering evidence…"
      }
@@ -169,9 +175,10 @@
    "locked": true,
    "source_clip": "../ai-feedback-evidence-review/clips/B02.mp4",
    "source_audio": "../ai-feedback-evidence-review/mp3/beat-B02.mp3",
-   "audio_file": "../ai-feedback-evidence-review/mp3/beat-B02.mp3",
+   "audio_file": "mp3/beat-B02.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 17.22
   },
   {
    "beat_id": "B03",
@@ -182,12 +189,12 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownCodeBlock",
+     "pattern": "ClaudeCodeBeat",
      "props": {
-      "filename": "evidence_review.py",
       "segment": "AI FEEDBACK",
       "topic": "CLAUDE FOR EDUCATION",
-      "code": "import subprocess\n\ndef evidence_review():\n    # Step 1: gather\n    gather = subprocess.run(\n        [\"claude\",\n         \"Find 6 studies on AI feedback vs human feedback.\\n\"\n         \"For each: domain, N, finding, limitation, sponsorship.\"],\n        capture_output=True, text=True\n    ).stdout\n    # Step 2: cross-check\n    check = subprocess.run(\n        [\"claude\",\n         \"Cross-check these citations. Flag any you cannot\\n\"\n         \"verify or that have corporate funding conflicts.\"],\n        input=gather, capture_output=True, text=True\n    ).stdout\n    # Step 3: synthesize\n    synth = subprocess.run(\n        [\"claude\",\n         \"Synthesize into a comparison table:\\n\"\n         \"Domain | N | Finding | Limitation | Verified\"],\n        input=check, capture_output=True, text=True\n    )\n    print(synth.stdout)"
+      "code": "import subprocess\n\ndef evidence_review():\n    # Step 1: gather\n    gather = subprocess.run(\n        [\"claude\",\n         \"Find 6 studies on AI feedback vs human feedback.\\n\"\n         \"For each: domain, N, finding, limitation, sponsorship.\"],\n        capture_output=True, text=True\n    ).stdout\n    # Step 2: cross-check\n    check = subprocess.run(\n        [\"claude\",\n         \"Cross-check these citations. Flag any you cannot\\n\"\n         \"verify or that have corporate funding conflicts.\"],\n        input=gather, capture_output=True, text=True\n    ).stdout\n    # Step 3: synthesize\n    synth = subprocess.run(\n        [\"claude\",\n         \"Synthesize into a comparison table:\\n\"\n         \"Domain | N | Finding | Limitation | Verified\"],\n        input=check, capture_output=True, text=True\n    )\n    print(synth.stdout)",
+      "title": "evidence_review.py"
      }
     }
    },
@@ -195,9 +202,10 @@
    "locked": true,
    "source_clip": "../ai-feedback-evidence-review/clips/B03.mp4",
    "source_audio": "../ai-feedback-evidence-review/mp3/beat-B03.mp3",
-   "audio_file": "../ai-feedback-evidence-review/mp3/beat-B03.mp3",
+   "audio_file": "mp3/beat-B03.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 16.43
   },
   {
    "beat_id": "B04",
@@ -213,9 +221,10 @@
    "locked": true,
    "source_clip": "../ai-feedback-evidence-review/clips/B04.mp4",
    "source_audio": "../ai-feedback-evidence-review/mp3/beat-B04.mp3",
-   "audio_file": "../ai-feedback-evidence-review/mp3/beat-B04.mp3",
+   "audio_file": "mp3/beat-B04.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 20.82
   },
   {
    "beat_id": "B05",
@@ -226,10 +235,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Based on this evidence synthesis, what would a study need to show to change the conclusion from 'AI feedback adequate in narrow contexts' to 'AI feedback robustly equivalent to human feedback across domains'? State the required study design, minimum N, domains, and outcome measures.\"",
-      "topic": "CLAUDE FOR EDUCATION",
+      "topic": "MUSINIQUE · CLAUDE FOR EDUCATION",
       "segment": "AI FEEDBACK",
       "runningText": "identifying evidentiary gap…"
      }
@@ -239,9 +248,10 @@
    "locked": true,
    "source_clip": "../ai-feedback-evidence-review/clips/B05.mp4",
    "source_audio": "../ai-feedback-evidence-review/mp3/beat-B05.mp3",
-   "audio_file": "../ai-feedback-evidence-review/mp3/beat-B05.mp3",
+   "audio_file": "mp3/beat-B05.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 15.17
   },
   {
    "beat_id": "B06",
@@ -257,9 +267,10 @@
    "locked": true,
    "source_clip": "../ai-feedback-evidence-review/clips/B06.mp4",
    "source_audio": "../ai-feedback-evidence-review/mp3/beat-B06.mp3",
-   "audio_file": "../ai-feedback-evidence-review/mp3/beat-B06.mp3",
+   "audio_file": "mp3/beat-B06.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 24.47
   },
   {
    "beat_id": "B07",
@@ -275,9 +286,10 @@
    "locked": true,
    "source_clip": "../ai-feedback-evidence-review/clips/B07.mp4",
    "source_audio": "../ai-feedback-evidence-review/mp3/beat-B07.mp3",
-   "audio_file": "../ai-feedback-evidence-review/mp3/beat-B07.mp3",
+   "audio_file": "mp3/beat-B07.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 13.57
   },
   {
    "beat_id": "B08",
@@ -293,9 +305,10 @@
    "locked": true,
    "source_clip": "../ai-feedback-evidence-review/clips/B08.mp4",
    "source_audio": "../ai-feedback-evidence-review/mp3/beat-B08.mp3",
-   "audio_file": "../ai-feedback-evidence-review/mp3/beat-B08.mp3",
+   "audio_file": "mp3/beat-B08.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 9.0
   },
   {
    "beat_id": "NBB01",
@@ -329,7 +342,7 @@
    },
    "estimated_duration_s": 30.0,
    "audio_file": "mp3/beat-NBB01.mp3",
-   "actual_duration_s": 20.501,
+   "actual_duration_s": 18.92,
    "lead_silence_s": 0.5
   },
   {
@@ -349,7 +362,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Research What Makes AI Feedback Effective: Evidence Review] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "CLAUDE FOR EDUCATION",
+      "topic": "MUSINIQUE · CLAUDE FOR EDUCATION",
       "segment": "Research What Makes AI Feedback Effective:",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -366,7 +379,7 @@
    },
    "estimated_duration_s": 8.0,
    "audio_file": "mp3/beat-NBB02.mp3",
-   "actual_duration_s": 7.765
+   "actual_duration_s": 8.3
   },
   {
    "beat_id": "NBB03",
@@ -395,10 +408,10 @@
    "estimated_duration_s": 6.0,
    "audio_file": "mp3/beat-NBB03.mp3",
    "silence_s": 6.0,
-   "actual_duration_s": 6.03,
+   "actual_duration_s": 3.46,
    "engine": "kokoro",
    "voice": "am_puck",
-   "narration_text": "Research What Makes AI Feedback Effective: Evidence Review"
+   "narration_text": "Research What Makes AI Feedback Effective: Evidence Review. From Musinique."
   }
  ]
 }

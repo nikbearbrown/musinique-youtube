@@ -28,7 +28,7 @@
   "old_outro_beats": [],
   "built_at": "2026-07-16T23:32:01.189216",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
   "voice_kokoro": "am_puck"
@@ -51,7 +51,7 @@
      "version": "1",
      "props": {
       "command": "The classification of eight permissions into three always-needed, two task-specific, and three never-used made the never-used trio obvious to remove. I want to run that same audit on my own workspace and task list. Take the config and task types I'll give you and (1) list the minimum required permissions per task type, (2) classify every granted permission as always-needed, task-specific, or never-used with the task that justifies it, and (3) tell me the new blast radius once the never-used ones are removed.",
-      "topic": "CLAUDE COWORK",
+      "topic": "MUSINIQUE · CLAUDE COWORK",
       "segment": "Build a Workspace Access Audit with",
       "greeting": "Salaam, Musinique",
       "runningText": "explaining the mechanism…",
@@ -68,7 +68,7 @@
    },
    "estimated_duration_s": 9.0,
    "audio_file": "mp3/beat-NBB00.mp3",
-   "actual_duration_s": 5.248
+   "actual_duration_s": 25.0
   },
   {
    "beat_id": "B00",
@@ -80,12 +80,13 @@
     "source": "own",
     "motion": "hold"
    },
-   "audio_file": "../workspace-access-audit/mp3/beat-B00.mp3",
+   "audio_file": "mp3/beat-B00.mp3",
    "locked": true,
    "source_clip": "../workspace-access-audit/clips/B00.mp4",
    "source_audio": "../workspace-access-audit/mp3/beat-B00.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 6.87
   },
   {
    "beat_id": "B01",
@@ -97,12 +98,13 @@
     "source": "own",
     "motion": "hold"
    },
-   "audio_file": "../workspace-access-audit/mp3/beat-B01.mp3",
+   "audio_file": "mp3/beat-B01.mp3",
    "locked": true,
    "source_clip": "../workspace-access-audit/clips/B01.mp4",
    "source_audio": "../workspace-access-audit/mp3/beat-B01.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 17.49
   },
   {
    "beat_id": "B01B",
@@ -129,7 +131,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 16.94
   },
   {
    "beat_id": "B02",
@@ -141,10 +145,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Given this workspace configuration and these task types, produce an access audit: for each task type, list the minimum required permissions. For each granted permission, classify as: always-needed, task-specific, or never-used.\" < workspace_config.json",
-      "topic": "CLAUDE COWORK",
+      "topic": "MUSINIQUE · CLAUDE COWORK",
       "segment": "WORKSPACE ACCESS AUDIT",
       "runningText": "auditing permissions…"
      },
@@ -154,12 +158,13 @@
      }
     }
    },
-   "audio_file": "../workspace-access-audit/mp3/beat-B02.mp3",
+   "audio_file": "mp3/beat-B02.mp3",
    "locked": true,
    "source_clip": "../workspace-access-audit/clips/B02.mp4",
    "source_audio": "../workspace-access-audit/mp3/beat-B02.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 14.27
   },
   {
    "beat_id": "B03",
@@ -171,12 +176,12 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownCodeBlock",
+     "pattern": "ClaudeCodeBeat",
      "props": {
-      "filename": "access_audit.py",
       "code": "import json\nfrom pathlib import Path\n\nCLASSIFICATIONS = [\"always-needed\", \"task-specific\", \"never-used\"]\n\ndef audit_permissions(config_path: str, task_types: list[str]) -> dict:\n    config = json.loads(Path(config_path).read_text())\n    granted = config.get(\"permissions\", [])\n    required_by_task = {}\n    for task in task_types:\n        required_by_task[task] = config.get(\"task_permissions\", {}).get(task, [])\n\n    all_required = set(p for perms in required_by_task.values() for p in perms)\n    always_needed = [p for p in granted if all(p in required_by_task[t] for t in task_types)]\n    task_specific = [p for p in granted if p in all_required and p not in always_needed]\n    never_used = [p for p in granted if p not in all_required]\n\n    return {\n        \"granted\": len(granted),\n        \"always_needed\": always_needed,\n        \"task_specific\": task_specific,\n        \"never_used\": never_used\n    }",
       "topic": "CLAUDE COWORK",
-      "segment": "WORKSPACE ACCESS AUDIT"
+      "segment": "WORKSPACE ACCESS AUDIT",
+      "title": "access_audit.py"
      },
      "rendered": {
       "out": "media/B03.mp4",
@@ -184,12 +189,13 @@
      }
     }
    },
-   "audio_file": "../workspace-access-audit/mp3/beat-B03.mp3",
+   "audio_file": "mp3/beat-B03.mp3",
    "locked": true,
    "source_clip": "../workspace-access-audit/clips/B03.mp4",
    "source_audio": "../workspace-access-audit/mp3/beat-B03.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 10.56
   },
   {
    "beat_id": "B04",
@@ -201,12 +207,13 @@
     "source": "own",
     "motion": "hold"
    },
-   "audio_file": "../workspace-access-audit/mp3/beat-B04.mp3",
+   "audio_file": "mp3/beat-B04.mp3",
    "locked": true,
    "source_clip": "../workspace-access-audit/clips/B04.mp4",
    "source_audio": "../workspace-access-audit/mp3/beat-B04.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 18.54
   },
   {
    "beat_id": "B05",
@@ -218,10 +225,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "python3 access_audit.py --remove-never-used --verify < workspace_config.json",
-      "topic": "CLAUDE COWORK",
+      "topic": "MUSINIQUE · CLAUDE COWORK",
       "segment": "WORKSPACE ACCESS AUDIT",
       "runningText": "verifying removal is safe…"
      },
@@ -231,12 +238,13 @@
      }
     }
    },
-   "audio_file": "../workspace-access-audit/mp3/beat-B05.mp3",
+   "audio_file": "mp3/beat-B05.mp3",
    "locked": true,
    "source_clip": "../workspace-access-audit/clips/B05.mp4",
    "source_audio": "../workspace-access-audit/mp3/beat-B05.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 5.8
   },
   {
    "beat_id": "B06",
@@ -248,12 +256,13 @@
     "source": "own",
     "motion": "hold"
    },
-   "audio_file": "../workspace-access-audit/mp3/beat-B06.mp3",
+   "audio_file": "mp3/beat-B06.mp3",
    "locked": true,
    "source_clip": "../workspace-access-audit/clips/B06.mp4",
    "source_audio": "../workspace-access-audit/mp3/beat-B06.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 19.16
   },
   {
    "beat_id": "B07",
@@ -265,12 +274,13 @@
     "source": "own",
     "motion": "hold"
    },
-   "audio_file": "../workspace-access-audit/mp3/beat-B07.mp3",
+   "audio_file": "mp3/beat-B07.mp3",
    "locked": true,
    "source_clip": "../workspace-access-audit/clips/B07.mp4",
    "source_audio": "../workspace-access-audit/mp3/beat-B07.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 16.32
   },
   {
    "beat_id": "B08",
@@ -282,28 +292,29 @@
     "source": "own",
     "motion": "hold"
    },
-   "audio_file": "../workspace-access-audit/mp3/beat-B08.mp3",
+   "audio_file": "mp3/beat-B08.mp3",
    "locked": true,
    "source_clip": "../workspace-access-audit/clips/B08.mp4",
    "source_audio": "../workspace-access-audit/mp3/beat-B08.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 4.12
   },
   {
    "beat_id": "B09",
    "t_start": 110.0,
    "estimated_duration_s": 8.0,
-   "narration_text": "Nik Bear Brown. Brutalist and Educational AI. nikbearbrown.com.",
+   "narration_text": "Musinique. Brutalist and Educational AI. nikbearbrown.com.",
    "shot": {
     "type": "SLATE",
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOutro",
+     "pattern": "ClaudeTitleOutro",
      "props": {
       "brand": "Nik Bear Brown",
       "tagline": "Brutalist + Educational AI",
-      "handle": "@NikBearBrown",
+      "handle": "@Musinique",
       "url": "nikbearbrown.com"
      },
      "rendered": {
@@ -312,12 +323,13 @@
      }
     }
    },
-   "audio_file": "../workspace-access-audit/mp3/beat-B09.mp3",
+   "audio_file": "mp3/beat-B09.mp3",
    "locked": true,
    "source_clip": "../workspace-access-audit/clips/B09.mp4",
    "source_audio": "../workspace-access-audit/mp3/beat-B09.mp3",
    "engine": "kokoro",
-   "voice": "am_puck"
+   "voice": "am_puck",
+   "actual_duration_s": 4.78
   },
   {
    "beat_id": "NBB01",
@@ -325,7 +337,7 @@
    "title": "Liam verdict — ClaudeVerdictArtifact",
    "engine": "kokoro",
    "voice": "am_puck",
-   "narration_text": "Let's recap with Claude. Here's what the body just demonstrated. Next: capture a successful task as a reusable workflow card. Nik Bear Brown. Brutalist and Educational AI. nikbearbrown.com.",
+   "narration_text": "Let's recap with Claude. Here's what the body just demonstrated. Next: capture a successful task as a reusable workflow card. Musinique. Brutalist and Educational AI. nikbearbrown.com.",
    "shot": {
     "type": "CARD",
     "source": "remotion",
@@ -351,7 +363,7 @@
    },
    "estimated_duration_s": 30.0,
    "audio_file": "mp3/beat-NBB01.mp3",
-   "actual_duration_s": 10.752,
+   "actual_duration_s": 13.5,
    "lead_silence_s": 0.5
   },
   {
@@ -371,7 +383,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Build a Workspace Access Audit with Claude] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "CLAUDE COWORK",
+      "topic": "MUSINIQUE · CLAUDE COWORK",
       "segment": "Build a Workspace Access Audit with",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -388,7 +400,7 @@
    },
    "estimated_duration_s": 8.0,
    "audio_file": "mp3/beat-NBB02.mp3",
-   "actual_duration_s": 7.765
+   "actual_duration_s": 8.3
   },
   {
    "beat_id": "NBB03",
@@ -417,10 +429,10 @@
    "estimated_duration_s": 6.0,
    "audio_file": "mp3/beat-NBB03.mp3",
    "silence_s": 6.0,
-   "actual_duration_s": 6.03,
+   "actual_duration_s": 2.28,
    "engine": "kokoro",
    "voice": "am_puck",
-   "narration_text": "Build a Workspace Access Audit with Claude"
+   "narration_text": "Build a Workspace Access Audit with Claude. From Musinique."
   }
  ]
 }

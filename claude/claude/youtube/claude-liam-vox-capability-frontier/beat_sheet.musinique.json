@@ -55,7 +55,7 @@
    ]
   },
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
   "voice": "am_puck"
@@ -75,7 +75,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Merhaba, Musinique",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "Why AI Makes You Better At Exactly the Tasks It Makes You Dangerously Worse At",
       "command": "Why AI Makes You Better At Exactly the Tasks It Makes You Dangerously Worse At",
       "runningText": "reading…",
@@ -87,7 +87,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B00.mp3",
+   "actual_duration_s": 6.44
   },
   {
    "beat_id": "B01",
@@ -103,7 +105,7 @@
    "image_prompt": "B01, two professional consultants at adjacent desks reviewing documents, professional office setting, editorial desaturated newsprint treatment, flat print lighting, no text legible",
    "new_visual_element": "[PHOTO] two consultants at work",
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 9.9,
+   "actual_duration_s": 9.45,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -140,7 +142,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 19.54
   },
   {
    "beat_id": "B02",
@@ -165,7 +169,7 @@
    },
    "new_visual_element": "[GRAPHIC] two identical-looking deliverables",
    "audio_file": "mp3/beat-B02.mp3",
-   "actual_duration_s": 7.64,
+   "actual_duration_s": 8.06,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -192,7 +196,7 @@
    },
    "new_visual_element": "[CARD] THE QUESTION on screen",
    "audio_file": "mp3/beat-B03.mp3",
-   "actual_duration_s": 9.62,
+   "actual_duration_s": 10.69,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -226,7 +230,7 @@
    },
    "new_visual_element": "[GRAPHIC] the naive expectation: wrong feels different",
    "audio_file": "mp3/beat-B04.mp3",
-   "actual_duration_s": 8.19,
+   "actual_duration_s": 8.94,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -260,7 +264,7 @@
    },
    "new_visual_element": "[GRAPHIC] the jagged frontier divides reliable from failing",
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 12.25,
+   "actual_duration_s": 13.57,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -293,7 +297,7 @@
    },
    "new_visual_element": "[GRAPHIC] inside the frontier — reliable improvement",
    "audio_file": "mp3/beat-B06.mp3",
-   "actual_duration_s": 10.05,
+   "actual_duration_s": 10.99,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -326,7 +330,7 @@
    },
    "new_visual_element": "[GRAPHIC] outside the frontier — confident failure",
    "audio_file": "mp3/beat-B07.mp3",
-   "actual_duration_s": 11.65,
+   "actual_duration_s": 12.93,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -353,7 +357,7 @@
    },
    "new_visual_element": "[CARD] the structural insight",
    "audio_file": "mp3/beat-B08.mp3",
-   "actual_duration_s": 5.74,
+   "actual_duration_s": 5.78,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -388,7 +392,7 @@
    },
    "new_visual_element": "[GRAPHIC] two lanes, same-looking outputs",
    "audio_file": "mp3/beat-B09.mp3",
-   "actual_duration_s": 17.47,
+   "actual_duration_s": 18.69,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -422,7 +426,7 @@
    },
    "new_visual_element": "[GRAPHIC] same-looking outputs, opposite outcomes",
    "audio_file": "mp3/beat-B10.mp3",
-   "actual_duration_s": 12.29,
+   "actual_duration_s": 13.12,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -447,7 +451,7 @@
    "image_prompt": "B11, consultant reviewing a polished professional document with approval, pointing at the page, confident expression, editorial desaturated newsprint treatment, flat print lighting, no text legible",
    "new_visual_element": "[PHOTO] consultant approving the wrong output",
    "audio_file": "mp3/beat-B11.mp3",
-   "actual_duration_s": 11.78,
+   "actual_duration_s": 12.84,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -482,7 +486,7 @@
    },
    "new_visual_element": "[GRAPHIC] the diagnostic: which zone?",
    "audio_file": "mp3/beat-B12.mp3",
-   "actual_duration_s": 14.46,
+   "actual_duration_s": 15.87,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -516,7 +520,7 @@
    },
    "new_visual_element": "[GRAPHIC] two verification strategies for two zones",
    "audio_file": "mp3/beat-B13.mp3",
-   "actual_duration_s": 15.15,
+   "actual_duration_s": 16.21,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -550,7 +554,7 @@
    },
    "new_visual_element": "[GRAPHIC] worked example — same surface, different zones",
    "audio_file": "mp3/beat-B14.mp3",
-   "actual_duration_s": 18.18,
+   "actual_duration_s": 18.97,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -577,7 +581,7 @@
    },
    "new_visual_element": "[CARD] the practice rule",
    "audio_file": "mp3/beat-B15.mp3",
-   "actual_duration_s": 14.06,
+   "actual_duration_s": 15.36,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -593,7 +597,7 @@
    "beat_id": "B16",
    "t_start": 173.0,
    "estimated_duration_s": 11.0,
-   "narration_text": "AI did not make them worse by being broken. It made them worse by being trusted in the wrong zone. The capability frontier is real. The output never shows you where you are standing on it.",
+   "narration_text": "AI did not make them worse by being broken. It made them worse by being trusted in the wrong zone. The capability frontier is real. The output never shows you where you are standing on it. From Musinique.",
    "shot": {
     "type": "CARD",
     "source": "own",
@@ -606,7 +610,7 @@
    },
    "new_visual_element": "[CARD] endcard",
    "audio_file": "mp3/beat-B16.mp3",
-   "actual_duration_s": 10.28,
+   "actual_duration_s": 11.54,
    "build": {
     "status": "SLATE",
     "src": null,

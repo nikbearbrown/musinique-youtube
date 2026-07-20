@@ -26,7 +26,7 @@
   ],
   "built_at": "2026-07-16T22:39:07.624752",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
   "voice_kokoro": "am_puck"
@@ -49,7 +49,7 @@
      "version": "1",
      "props": {
       "command": "I keep re-typing my grading workflow every two weeks, so I want to freeze it into a SKILL.md instead of digging through old chat windows. Walk me through building one for lesson-plan generation that asks for objectives and grade level first. Then: (1) draft the frontmatter with a trigger and decide auto-invoke versus explicit slash command; (2) write the workflow block, Never section, and Verification block; (3) point out which of my Never rules, like never generate a final grade, actually belong in a hook instead.",
-      "topic": "SKILL FILE · CAPS",
+      "topic": "MUSINIQUE · SKILL FILE · CAPS",
       "segment": "Skill File Anatomy: Build Once, Invoke",
       "greeting": "Talofa, Musinique",
       "runningText": "explaining the mechanism…",
@@ -66,7 +66,7 @@
    },
    "estimated_duration_s": 9.0,
    "audio_file": "mp3/beat-NBB00.mp3",
-   "actual_duration_s": 5.355
+   "actual_duration_s": 26.28
   },
   {
    "beat_id": "B00",
@@ -90,8 +90,8 @@
     }
    },
    "estimated_duration_s": 14,
-   "audio_file": "../skill-build-once/mp3/beat-B00.mp3",
-   "actual_duration_s": 19.63,
+   "audio_file": "mp3/beat-B00.mp3",
+   "actual_duration_s": 18.75,
    "locked": true,
    "source_clip": "../skill-build-once/clips/B00.mp4",
    "source_audio": "../skill-build-once/mp3/beat-B00.mp3",
@@ -110,8 +110,8 @@
    "new_visual_element": "SKILL.md loads on invocation — 90 sec vs 18 min timer comparison",
    "spark_line": "Zero cost until called.",
    "estimated_duration_s": 13,
-   "audio_file": "../skill-build-once/mp3/beat-B01.mp3",
-   "actual_duration_s": 18.22,
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 18.86,
    "locked": true,
    "source_clip": "../skill-build-once/clips/B01.mp4",
    "source_audio": "../skill-build-once/mp3/beat-B01.mp3",
@@ -143,7 +143,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 19.52
   },
   {
    "beat_id": "B02",
@@ -157,8 +159,8 @@
    "new_visual_element": "SKILL.md file anatomy — frontmatter / workflow / Never / Verification",
    "spark_line": "Four sections. One file.",
    "estimated_duration_s": 12,
-   "audio_file": "../skill-build-once/mp3/beat-B02.mp3",
-   "actual_duration_s": 16.53,
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 17.71,
    "locked": true,
    "source_clip": "../skill-build-once/clips/B02.mp4",
    "source_audio": "../skill-build-once/mp3/beat-B02.mp3",
@@ -177,8 +179,8 @@
    "new_visual_element": "Never section in SKILL.md — advisory vs deterministic callout",
    "spark_line": "Never = advisory. Hook = law.",
    "estimated_duration_s": 12,
-   "audio_file": "../skill-build-once/mp3/beat-B03.mp3",
-   "actual_duration_s": 16.23,
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 17.15,
    "locked": true,
    "source_clip": "../skill-build-once/clips/B03.mp4",
    "source_audio": "../skill-build-once/mp3/beat-B03.mp3",
@@ -197,8 +199,8 @@
    "new_visual_element": "Artifact view — SKILL.md template + invocation economics",
    "spark_line": "Build once. Invoke forever.",
    "estimated_duration_s": 11,
-   "audio_file": "../skill-build-once/mp3/beat-B04.mp3",
-   "actual_duration_s": 13.7,
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 14.95,
    "locked": true,
    "source_clip": "../skill-build-once/clips/B04.mp4",
    "source_audio": "../skill-build-once/mp3/beat-B04.mp3",
@@ -227,8 +229,8 @@
     }
    },
    "estimated_duration_s": 9,
-   "audio_file": "../skill-build-once/mp3/beat-B05.mp3",
-   "actual_duration_s": 6.25,
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 6.36,
    "locked": true,
    "source_clip": "../skill-build-once/clips/B05.mp4",
    "source_audio": "../skill-build-once/mp3/beat-B05.mp3",
@@ -267,7 +269,7 @@
    },
    "estimated_duration_s": 30.0,
    "audio_file": "mp3/beat-NBB01.mp3",
-   "actual_duration_s": 19.307,
+   "actual_duration_s": 18.6,
    "lead_silence_s": 0.5
   },
   {
@@ -287,7 +289,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Skill File Anatomy: Build Once, Invoke Every Semester] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "SKILL FILE · CAPS",
+      "topic": "MUSINIQUE · SKILL FILE · CAPS",
       "segment": "Skill File Anatomy: Build Once, Invoke",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -304,7 +306,7 @@
    },
    "estimated_duration_s": 8.0,
    "audio_file": "mp3/beat-NBB02.mp3",
-   "actual_duration_s": 7.765
+   "actual_duration_s": 8.3
   },
   {
    "beat_id": "NBB03",
@@ -333,10 +335,10 @@
    "estimated_duration_s": 6.0,
    "audio_file": "mp3/beat-NBB03.mp3",
    "silence_s": 6.0,
-   "actual_duration_s": 6.03,
+   "actual_duration_s": 3.43,
    "engine": "kokoro",
    "voice": "am_puck",
-   "narration_text": "Skill File Anatomy: Build Once, Invoke Every Semester"
+   "narration_text": "Skill File Anatomy: Build Once, Invoke Every Semester. From Musinique."
   }
  ]
 }

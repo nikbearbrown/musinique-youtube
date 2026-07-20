@@ -29,7 +29,7 @@
   ],
   "built_at": "2026-07-17T00:27:34.245978",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
   "voice_kokoro": "am_puck"
@@ -52,7 +52,7 @@
      "version": "1",
      "props": {
       "command": "I liked that cowork_prep.py sorts files into needed, forbidden, or uncertain, and that the dot-env pattern fires before any task logic runs. I want to adapt it to my quarterly-reports cleanup. Help me: (1) write the needed-pattern list specific to that task; (2) expand the forbidden list beyond dot-env, credentials, and key files; (3) define how uncertain files get surfaced for my review before anything is copied into the working folder.",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "Simulate Least-Privilege Permission Design for a",
       "greeting": "Konnichiwa, Musinique",
       "runningText": "explaining the mechanism…",
@@ -69,25 +69,27 @@
    },
    "estimated_duration_s": 9.0,
    "audio_file": "mp3/beat-NBB00.mp3",
-   "actual_duration_s": 5.973
+   "actual_duration_s": 26.11
   },
   {
    "beat_id": "B00",
    "act": "INTRO",
-   "narration_text": "This is Musinique. Nik Bear Brown. Build it with a CLI, then take it apart.",
+   "narration_text": "This is Musinique. Musinique. Build it with a CLI, then take it apart.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOpen",
+     "pattern": "ClaudeComposerAsk",
      "props": {
-      "topic": "NIK BEAR BROWN",
-      "lines": [
-       "Nik Bear Brown",
+      "command": "Simulate Least-Privilege Permission Design for a File Agent with Claude",
+      "topic": "MUSINIQUE · NIK BEAR BROWN",
+      "segment": "Simulate Least-Privilege Permission Design for a File Agent with Claude",
+      "greeting": "This is Musinique.",
+      "runningText": "working…",
+      "output": [
        "Least Privilege Before the Agent Touches a File."
-      ],
-      "greeting": "Konnichiwa, Musinique"
+      ]
      },
      "rendered": {
       "out": "media/B00.mp4",
@@ -96,8 +98,8 @@
     }
    },
    "estimated_duration_s": 5,
-   "audio_file": "../least-privilege-file-agent/mp3/beat-B00.mp3",
-   "actual_duration_s": 3.29,
+   "audio_file": "mp3/beat-B00.mp3",
+   "actual_duration_s": 4.8,
    "locked": true,
    "source_clip": "../least-privilege-file-agent/clips/B00.mp4",
    "source_audio": "../least-privilege-file-agent/mp3/beat-B00.mp3",
@@ -116,8 +118,8 @@
     "motion": "fade"
    },
    "estimated_duration_s": 15,
-   "audio_file": "../least-privilege-file-agent/mp3/beat-B01.mp3",
-   "actual_duration_s": 13.74,
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 15.17,
    "locked": true,
    "source_clip": "../least-privilege-file-agent/clips/B01.mp4",
    "source_audio": "../least-privilege-file-agent/mp3/beat-B01.mp3",
@@ -149,7 +151,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 19.54
   },
   {
    "beat_id": "B02",
@@ -161,10 +165,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Write cowork_prep.py: given a source directory and task description, (1) list all files, (2) classify each as needed/forbidden/uncertain by filename pattern, (3) copy only needed files to /cowork-working/, (4) print a before/after manifest and flag uncertain files for human review.\"",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "LEAST PRIVILEGE",
       "runningText": "generating..."
      },
@@ -175,8 +179,8 @@
     }
    },
    "estimated_duration_s": 14,
-   "audio_file": "../least-privilege-file-agent/mp3/beat-B02.mp3",
-   "actual_duration_s": 12.85,
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 12.86,
    "locked": true,
    "source_clip": "../least-privilege-file-agent/clips/B02.mp4",
    "source_audio": "../least-privilege-file-agent/mp3/beat-B02.mp3",
@@ -193,12 +197,12 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownCodeBlock",
+     "pattern": "ClaudeCodeBeat",
      "props": {
-      "filename": "cowork_prep.py",
       "topic": "AGENTIC AI",
       "segment": "LEAST PRIVILEGE",
-      "code": "import os, shutil, pathlib\nFORBIDDEN = [\".env\",\"credentials\",\".key\",\"secret\",\"password\"]\nNEEDED = [\".csv\",\".xlsx\",\"report\",\"quarterly\"]\ndef classify(fname):\n    fl = fname.lower()\n    if any(p in fl for p in FORBIDDEN): return \"FORBIDDEN\"\n    if any(p in fl for p in NEEDED):   return \"NEEDED\"\n    return \"UNCERTAIN\"\ndef prep(src, dest=\"cowork-working\"):\n    pathlib.Path(dest).mkdir(exist_ok=True)\n    for f in os.listdir(src):\n        c = classify(f)\n        if c == \"NEEDED\": shutil.copy(f\"{src}/{f}\", dest)\n        print(f\"{c:<12} {f}\")\nprep(\"source/\")"
+      "code": "import os, shutil, pathlib\nFORBIDDEN = [\".env\",\"credentials\",\".key\",\"secret\",\"password\"]\nNEEDED = [\".csv\",\".xlsx\",\"report\",\"quarterly\"]\ndef classify(fname):\n    fl = fname.lower()\n    if any(p in fl for p in FORBIDDEN): return \"FORBIDDEN\"\n    if any(p in fl for p in NEEDED):   return \"NEEDED\"\n    return \"UNCERTAIN\"\ndef prep(src, dest=\"cowork-working\"):\n    pathlib.Path(dest).mkdir(exist_ok=True)\n    for f in os.listdir(src):\n        c = classify(f)\n        if c == \"NEEDED\": shutil.copy(f\"{src}/{f}\", dest)\n        print(f\"{c:<12} {f}\")\nprep(\"source/\")",
+      "title": "cowork_prep.py"
      },
      "rendered": {
       "out": "media/B03.mp4",
@@ -207,8 +211,8 @@
     }
    },
    "estimated_duration_s": 14,
-   "audio_file": "../least-privilege-file-agent/mp3/beat-B03.mp3",
-   "actual_duration_s": 12.72,
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 12.03,
    "locked": true,
    "source_clip": "../least-privilege-file-agent/clips/B03.mp4",
    "source_audio": "../least-privilege-file-agent/mp3/beat-B03.mp3",
@@ -227,8 +231,8 @@
     "motion": "fade"
    },
    "estimated_duration_s": 12,
-   "audio_file": "../least-privilege-file-agent/mp3/beat-B04.mp3",
-   "actual_duration_s": 9.09,
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 8.94,
    "locked": true,
    "source_clip": "../least-privilege-file-agent/clips/B04.mp4",
    "source_audio": "../least-privilege-file-agent/mp3/beat-B04.mp3",
@@ -245,10 +249,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Add .env pattern to the forbidden list regardless of task description -- verify it is flagged as FORBIDDEN CREDENTIALS in the manifest output.\"",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "LEAST PRIVILEGE",
       "runningText": "updating..."
      },
@@ -259,8 +263,8 @@
     }
    },
    "estimated_duration_s": 11,
-   "audio_file": "../least-privilege-file-agent/mp3/beat-B05.mp3",
-   "actual_duration_s": 7.97,
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 8.79,
    "locked": true,
    "source_clip": "../least-privilege-file-agent/clips/B05.mp4",
    "source_audio": "../least-privilege-file-agent/mp3/beat-B05.mp3",
@@ -279,8 +283,8 @@
     "motion": "fade"
    },
    "estimated_duration_s": 12,
-   "audio_file": "../least-privilege-file-agent/mp3/beat-B06.mp3",
-   "actual_duration_s": 10.53,
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 10.15,
    "locked": true,
    "source_clip": "../least-privilege-file-agent/clips/B06.mp4",
    "source_audio": "../least-privilege-file-agent/mp3/beat-B06.mp3",
@@ -299,8 +303,8 @@
     "motion": "fade"
    },
    "estimated_duration_s": 12,
-   "audio_file": "../least-privilege-file-agent/mp3/beat-B07.mp3",
-   "actual_duration_s": 9.2,
+   "audio_file": "mp3/beat-B07.mp3",
+   "actual_duration_s": 9.86,
    "locked": true,
    "source_clip": "../least-privilege-file-agent/clips/B07.mp4",
    "source_audio": "../least-privilege-file-agent/mp3/beat-B07.mp3",
@@ -319,8 +323,8 @@
     "motion": "fade"
    },
    "estimated_duration_s": 11,
-   "audio_file": "../least-privilege-file-agent/mp3/beat-B08.mp3",
-   "actual_duration_s": 9.85,
+   "audio_file": "mp3/beat-B08.mp3",
+   "actual_duration_s": 10.26,
    "locked": true,
    "source_clip": "../least-privilege-file-agent/clips/B08.mp4",
    "source_audio": "../least-privilege-file-agent/mp3/beat-B08.mp3",
@@ -359,7 +363,7 @@
    },
    "estimated_duration_s": 30.0,
    "audio_file": "mp3/beat-NBB01.mp3",
-   "actual_duration_s": 18.624,
+   "actual_duration_s": 18.65,
    "lead_silence_s": 0.5
   },
   {
@@ -379,7 +383,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Simulate Least-Privilege Permission Design for a File Agent with Claud] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "Simulate Least-Privilege Permission Design for a",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -396,7 +400,7 @@
    },
    "estimated_duration_s": 8.0,
    "audio_file": "mp3/beat-NBB02.mp3",
-   "actual_duration_s": 7.765
+   "actual_duration_s": 8.3
   },
   {
    "beat_id": "NBB03",
@@ -425,10 +429,10 @@
    "estimated_duration_s": 6.0,
    "audio_file": "mp3/beat-NBB03.mp3",
    "silence_s": 6.0,
-   "actual_duration_s": 6.03,
+   "actual_duration_s": 4.35,
    "engine": "kokoro",
    "voice": "am_puck",
-   "narration_text": "Simulate Least-Privilege Permission Design for a File Agent with Claude"
+   "narration_text": "Simulate Least-Privilege Permission Design for a File Agent with Claude. From Musinique."
   }
  ]
 }

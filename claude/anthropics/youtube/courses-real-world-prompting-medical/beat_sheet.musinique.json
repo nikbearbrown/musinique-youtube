@@ -3,13 +3,13 @@
   "slug": "courses-real-world-prompting-medical",
   "title": "The Medical Prompt: Four Guardrails That Can't Be Missing",
   "topic": "PROMPT ENGINEERING · High-Stakes AI",
-  "voice_kokoro": "am_onyx",
+  "voice_kokoro": "am_puck",
   "engine": "kokoro",
   "style_preset": "teardown",
   "palette": "claude",
   "register": "Baldwin",
   "aspect_ratio": "16:9",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "folderLabel": "@Musinique",
   "audience": "claude-liam",
   "sources": [
@@ -25,14 +25,14 @@
   },
   "brand": "claude-musinique",
   "persona": "Musinique",
-  "voice": "am_onyx",
+  "voice": "am_puck",
   "derived_from": "beat_sheet.json"
  },
  "beats": [
   {
    "beat_id": "B00",
    "beat_type": "cold_open",
-   "narration_text": "This is Liam for Musinique. The claim that a high-stakes medical prompt has four guardrails that cannot be missing really landed for me, because in that domain a confident wrong answer is dangerous. Help me build one properly: (1) name what those four guardrails likely are — scope limits, uncertainty flags, source grounding, and a defer-to-clinician clause; (2) write a prompt for a symptom-checker assistant that bakes all four in; (3) show me one adversarial user question that would slip past a prompt missing the uncertainty guardrail.",
+   "narration_text": "This is Musinique. The claim that a high-stakes medical prompt has four guardrails that cannot be missing really landed for me, because in that domain a confident wrong answer is dangerous. Help me build one properly: (1) name what those four guardrails likely are — scope limits, uncertainty flags, source grounding, and a defer-to-clinician clause; (2) write a prompt for a symptom-checker assistant that bakes all four in; (3) show me one adversarial user question that would slip past a prompt missing the uncertainty guardrail.",
    "estimated_duration_s": 26,
    "shot": {
     "scene_type": "ClaudeComposerAsk",
@@ -41,7 +41,7 @@
      "props": {
       "greeting": "Bula, Musinique",
       "command": "The claim that a high-stakes medical prompt has four guardrails that cannot be missing really landed for me, because in that domain a confident wrong answer is dangerous. Help me build one properly: (1) name what those four guardrails likely are — scope limits, uncertainty flags, source grounding, and a defer-to-clinician clause; (2) write a prompt for a symptom-checker assistant that bakes all four in; (3) show me one adversarial user question that would slip past a prompt missing the uncertainty guardrail.",
-      "topic": "PROMPT ENGINEERING · High-Stakes AI",
+      "topic": "MUSINIQUE · PROMPT ENGINEERING · High-Stakes AI",
       "segment": "Cold Open",
       "runningText": "Analyzing: courses/real_world_prompting/02_medical_prompt",
       "output": [
@@ -62,7 +62,7 @@
     }
    },
    "audio_file": "mp3/beat-B00.mp3",
-   "actual_duration_s": 20.67,
+   "actual_duration_s": 28.07,
    "build": {
     "status": "VIDEO",
     "src": "media/B00.mp4",
@@ -70,7 +70,7 @@
     "at": "2026-07-17T00:06:58"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01",
@@ -99,7 +99,7 @@
     }
    },
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 21.46,
+   "actual_duration_s": 22.53,
    "build": {
     "status": "VIDEO",
     "src": "media/B01.mp4",
@@ -107,7 +107,7 @@
     "at": "2026-07-17T00:06:58"
    },
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "lead_silence_s": 0.5
   },
   {
@@ -115,7 +115,7 @@
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "Prompt design is the skill the platform doesn't want you to have, because a musician who can write a precise prompt is a musician who doesn't need to buy someone else's pre-packaged workflow. Every prompt in this video is a template you can adapt — paste it, swap the specifics, run it on your own catalog. The instruction is the tool.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -135,7 +135,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 17.15
   },
   {
    "beat_id": "B02",
@@ -172,7 +174,7 @@
     "at": "2026-07-17T00:06:58"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B03",
@@ -209,7 +211,7 @@
     "at": "2026-07-17T00:06:58"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B04",
@@ -246,7 +248,7 @@
     "at": "2026-07-17T00:06:58"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B05",
@@ -260,7 +262,7 @@
      "props": {
       "greeting": "Your turn.",
       "command": "Write a system prompt for a medical record summarizer. Must include: role definition weighting clinical relevance, uncertainty language ladder, escalation trigger for emergencies, strict do-not-diagnose constraint. Output inside <summary> XML tags with five fixed sections.",
-      "topic": "TRY THIS NOW",
+      "topic": "MUSINIQUE · TRY THIS NOW",
       "segment": "The Medical Prompt: Four Guardrails That Can't Be Missing",
       "runningText": "paste this into Claude…",
       "output": [
@@ -280,7 +282,7 @@
     }
    },
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 29.53,
+   "actual_duration_s": 29.03,
    "build": {
     "status": "VIDEO",
     "src": "media/B05.mp4",
@@ -288,12 +290,12 @@
     "at": "2026-07-17T00:06:58"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B06",
    "beat_type": "outro",
-   "narration_text": "The Medical Prompt: Four Guardrails That Can't Be Missing",
+   "narration_text": "The Medical Prompt: Four Guardrails That Can't Be Missing. From Musinique.",
    "estimated_duration_s": 6,
    "shot": {
     "scene_type": "ClaudeTitleOutro",
@@ -301,7 +303,7 @@
      "pattern": "ClaudeTitleOutro",
      "props": {
       "title": "The Medical Prompt: Four Guardrails That Can't Be Missing",
-      "handle": "@NikBearBrown",
+      "handle": "@Musinique",
       "subline": "Source: Anthropic Courses — Real World Prompting, Lesson 2"
      },
      "rendered": {
@@ -318,7 +320,8 @@
     "at": "2026-07-17T00:06:58"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 3.61
   }
  ]
 }

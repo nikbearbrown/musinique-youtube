@@ -6,7 +6,7 @@
   "topic": "AGENTIC AI",
   "audience": "NikBearBrown",
   "engine": "kokoro",
-  "voice": "am_onyx",
+  "voice": "am_puck",
   "palette": "claude",
   "register": "Baldwin",
   "derived_from": "beat_sheet.json",
@@ -30,10 +30,10 @@
   "old_outro_beats": [],
   "built_at": "2026-07-17T00:51:00.775990",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
-  "voice_kokoro": "am_onyx"
+  "voice_kokoro": "am_puck"
  },
  "beats": [
   {
@@ -41,8 +41,8 @@
    "act": "COLD OPEN",
    "title": "Liam cold open — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "This is Liam for Musinique. The idea that a completion report only lists what succeeded — never what it couldn't reach — is exactly Maya's twelve-PDF trap, and I want to guard against it. Help me: (1) run an agent over a folder that contains a couple of unparseable scanned images and one locked file; (2) show me the confident completion report it produces and where the skipped items simply leave no entry; (3) design the inventory question that surfaces items-in-scope versus actually-processed versus failed-or-skipped.",
+   "voice": "am_puck",
+   "narration_text": "This is Musinique. The idea that a completion report only lists what succeeded — never what it couldn't reach — is exactly Maya's twelve-PDF trap, and I want to guard against it. Help me: (1) run an agent over a folder that contains a couple of unparseable scanned images and one locked file; (2) show me the confident completion report it produces and where the skipped items simply leave no entry; (3) design the inventory question that surfaces items-in-scope versus actually-processed versus failed-or-skipped.",
    "shot": {
     "type": "CARD",
     "source": "remotion",
@@ -53,7 +53,7 @@
      "version": "1",
      "props": {
       "command": "The idea that a completion report only lists what succeeded — never what it couldn't reach — is exactly Maya's twelve-PDF trap, and I want to guard against it. Help me: (1) run an agent over a folder that contains a couple of unparseable scanned images and one locked file; (2) show me the confident completion report it produces and where the skipped items simply leave no entry; (3) design the inventory question that surfaces items-in-scope versus actually-processed versus failed-or-skipped.",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "Why an Agent That Finishes First",
       "greeting": "Halo, Musinique",
       "runningText": "explaining the mechanism…",
@@ -70,7 +70,7 @@
    },
    "estimated_duration_s": 9.0,
    "audio_file": "mp3/beat-NBB00.mp3",
-   "actual_duration_s": 4.864
+   "actual_duration_s": 28.27
   },
   {
    "beat_id": "B01",
@@ -85,20 +85,20 @@
    "scene_description": "a clean executive brief document on newsprint ground — six crisp bullet points, a confident recommendation at the bottom; slow push-in from bottom-left toward the recommendation line",
    "chosen_media": null,
    "new_visual_element": "[PHOTO] the confident six-bullet brief",
-   "audio_file": "../vox-silent-omission/mp3/beat-B01.mp3",
-   "actual_duration_s": 5.04,
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 5.16,
    "locked": true,
    "source_clip": "../vox-silent-omission/clips/B01.mp4",
    "source_audio": "../vox-silent-omission/mp3/beat-B01.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01B",
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "The indie musician who automates their Spotify stats check, their distributor ping, their playlist pitch — that musician gets time back that they would otherwise spend refreshing a dashboard. An agent is not a luxury for the label's data team; it is a tool you can run free, on your own machine, today. The same frontmatter that tells Claude when to fire a code-review agent tells it when to check your streaming anomalies. You just haven't pointed it yet.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -118,7 +118,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 22.06
   },
   {
    "beat_id": "B02",
@@ -144,13 +146,13 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] folder tree: green summary, three crimson-unread nodes",
-   "audio_file": "../vox-silent-omission/mp3/beat-B02.mp3",
-   "actual_duration_s": 11.23,
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 10.99,
    "locked": true,
    "source_clip": "../vox-silent-omission/clips/B02.mp4",
    "source_audio": "../vox-silent-omission/mp3/beat-B02.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B03",
@@ -168,13 +170,13 @@
    },
    "chosen_media": null,
    "new_visual_element": "[CARD] THE QUESTION beat",
-   "audio_file": "../vox-silent-omission/mp3/beat-B03.mp3",
-   "actual_duration_s": 9.56,
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 9.22,
    "locked": true,
    "source_clip": "../vox-silent-omission/clips/B03.mp4",
    "source_audio": "../vox-silent-omission/mp3/beat-B03.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B04",
@@ -199,13 +201,13 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] per-operation success chain",
-   "audio_file": "../vox-silent-omission/mp3/beat-B04.mp3",
-   "actual_duration_s": 13.74,
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 10.84,
    "locked": true,
    "source_clip": "../vox-silent-omission/clips/B04.mp4",
    "source_audio": "../vox-silent-omission/mp3/beat-B04.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B05",
@@ -231,13 +233,13 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] the boundary between reached and unreached",
-   "audio_file": "../vox-silent-omission/mp3/beat-B05.mp3",
-   "actual_duration_s": 11.1,
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 10.09,
    "locked": true,
    "source_clip": "../vox-silent-omission/clips/B05.mp4",
    "source_audio": "../vox-silent-omission/mp3/beat-B05.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B06",
@@ -255,13 +257,13 @@
    },
    "chosen_media": null,
    "new_visual_element": "[CARD] section card — the mechanism",
-   "audio_file": "../vox-silent-omission/mp3/beat-B06.mp3",
-   "actual_duration_s": 7.37,
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 7.45,
    "locked": true,
    "source_clip": "../vox-silent-omission/clips/B06.mp4",
    "source_audio": "../vox-silent-omission/mp3/beat-B06.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B07",
@@ -287,13 +289,13 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] 23 in report vs 26 in folder — 3 never appear",
-   "audio_file": "../vox-silent-omission/mp3/beat-B07.mp3",
-   "actual_duration_s": 13.22,
+   "audio_file": "mp3/beat-B07.mp3",
+   "actual_duration_s": 11.95,
    "locked": true,
    "source_clip": "../vox-silent-omission/clips/B07.mp4",
    "source_audio": "../vox-silent-omission/mp3/beat-B07.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B08",
@@ -319,13 +321,13 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] Maya: 9/12 read, digest ships wrong targets",
-   "audio_file": "../vox-silent-omission/mp3/beat-B08.mp3",
-   "actual_duration_s": 17.82,
+   "audio_file": "mp3/beat-B08.mp3",
+   "actual_duration_s": 15.72,
    "locked": true,
    "source_clip": "../vox-silent-omission/clips/B08.mp4",
    "source_audio": "../vox-silent-omission/mp3/beat-B08.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B09",
@@ -351,13 +353,13 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] three inventory questions animate in sequence",
-   "audio_file": "../vox-silent-omission/mp3/beat-B09.mp3",
-   "actual_duration_s": 14.29,
+   "audio_file": "mp3/beat-B09.mp3",
+   "actual_duration_s": 11.9,
    "locked": true,
    "source_clip": "../vox-silent-omission/clips/B09.mp4",
    "source_audio": "../vox-silent-omission/mp3/beat-B09.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B10",
@@ -375,13 +377,13 @@
    },
    "chosen_media": null,
    "new_visual_element": "[CARD] the implication",
-   "audio_file": "../vox-silent-omission/mp3/beat-B10.mp3",
-   "actual_duration_s": 6.71,
+   "audio_file": "mp3/beat-B10.mp3",
+   "actual_duration_s": 7.38,
    "locked": true,
    "source_clip": "../vox-silent-omission/clips/B10.mp4",
    "source_audio": "../vox-silent-omission/mp3/beat-B10.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B11",
@@ -407,13 +409,13 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] crash vs silent omission comparison",
-   "audio_file": "../vox-silent-omission/mp3/beat-B11.mp3",
-   "actual_duration_s": 12.96,
+   "audio_file": "mp3/beat-B11.mp3",
+   "actual_duration_s": 11.65,
    "locked": true,
    "source_clip": "../vox-silent-omission/clips/B11.mp4",
    "source_audio": "../vox-silent-omission/mp3/beat-B11.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B12",
@@ -432,20 +434,20 @@
    },
    "chosen_media": null,
    "new_visual_element": "[CARD] RECAP endcard — question -> answer",
-   "audio_file": "../vox-silent-omission/mp3/beat-B12.mp3",
-   "actual_duration_s": 14.142,
+   "audio_file": "mp3/beat-B12.mp3",
+   "actual_duration_s": 12.33,
    "locked": true,
    "source_clip": "../vox-silent-omission/clips/B12.mp4",
    "source_audio": "../vox-silent-omission/mp3/beat-B12.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "NBB01",
    "act": "VERDICT",
    "title": "Liam verdict — ClaudeVerdictArtifact",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": "Let's recap with Claude. Here's what the body just demonstrated. A crash tells you something went wrong. A confident completion might not. The agent that stops and flags a parsing failure is giving you information. The one that silently skips it and reports done is not. A completion report should predict a complete scan. Here is why it does not: the report is built from successful operations, not from a census of everything that existed. Ask for the inventory, not just the result.",
    "shot": {
     "type": "CARD",
@@ -472,7 +474,7 @@
    },
    "estimated_duration_s": 30.0,
    "audio_file": "mp3/beat-NBB01.mp3",
-   "actual_duration_s": 22.656,
+   "actual_duration_s": 23.96,
    "lead_silence_s": 0.5
   },
   {
@@ -480,7 +482,7 @@
    "act": "YOUR TURN",
    "title": "Your turn handoff — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": "Take this prompt, run it on your own — pick any cancer type or clinical scenario you know about and ask how this mechanism applies there.",
    "shot": {
     "type": "CARD",
@@ -492,7 +494,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Why an Agent That Finishes First Can Be Worse Than One That Stops] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "Why an Agent That Finishes First",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -509,7 +511,7 @@
    },
    "estimated_duration_s": 8.0,
    "audio_file": "mp3/beat-NBB02.mp3",
-   "actual_duration_s": 7.765
+   "actual_duration_s": 7.81
   },
   {
    "beat_id": "NBB03",
@@ -538,10 +540,10 @@
    "estimated_duration_s": 6.0,
    "audio_file": "mp3/beat-NBB03.mp3",
    "silence_s": 6.0,
-   "actual_duration_s": 6.03,
+   "actual_duration_s": 4.07,
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "Why an Agent That Finishes First Can Be Worse Than One That Stops"
+   "voice": "am_puck",
+   "narration_text": "Why an Agent That Finishes First Can Be Worse Than One That Stops. From Musinique."
   }
  ]
 }

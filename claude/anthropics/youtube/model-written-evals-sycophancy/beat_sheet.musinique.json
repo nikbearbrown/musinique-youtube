@@ -3,13 +3,13 @@
   "slug": "model-written-evals-sycophancy",
   "title": "The Model That Writes Its Own Exam",
   "topic": "AI EVALS · Model-Written Evaluations",
-  "voice_kokoro": "am_onyx",
+  "voice_kokoro": "am_puck",
   "engine": "kokoro",
   "style_preset": "teardown",
   "palette": "claude",
   "register": "Baldwin",
   "aspect_ratio": "16:9",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "folderLabel": "@Musinique",
   "audience": "claude-liam",
   "sources": [
@@ -25,14 +25,14 @@
   },
   "brand": "claude-musinique",
   "persona": "Musinique",
-  "voice": "am_onyx",
+  "voice": "am_puck",
   "derived_from": "beat_sheet.json"
  },
  "beats": [
   {
    "beat_id": "B00",
    "beat_type": "cold_open",
-   "narration_text": "This is Liam for Musinique. Having a model generate its own evaluation questions feels efficient but also circular, and I want to probe that tension. Help me think it through: (1) explain how model-written eval items for sycophancy get validated so they actually measure the trait and not the writer's style; (2) draft two paired questions — one that a sycophantic model would answer differently than an honest one; (3) reason about what systematic blind spot appears when the same model family both writes and takes the exam, and one way to break that loop.",
+   "narration_text": "This is Musinique. Having a model generate its own evaluation questions feels efficient but also circular, and I want to probe that tension. Help me think it through: (1) explain how model-written eval items for sycophancy get validated so they actually measure the trait and not the writer's style; (2) draft two paired questions — one that a sycophantic model would answer differently than an honest one; (3) reason about what systematic blind spot appears when the same model family both writes and takes the exam, and one way to break that loop.",
    "estimated_duration_s": 28,
    "shot": {
     "scene_type": "ClaudeComposerAsk",
@@ -41,7 +41,7 @@
      "props": {
       "greeting": "Hei, Musinique",
       "command": "Having a model generate its own evaluation questions feels efficient but also circular, and I want to probe that tension. Help me think it through: (1) explain how model-written eval items for sycophancy get validated so they actually measure the trait and not the writer's style; (2) draft two paired questions — one that a sycophantic model would answer differently than an honest one; (3) reason about what systematic blind spot appears when the same model family both writes and takes the exam, and one way to break that loop.",
-      "topic": "AI EVALS · Model-Written Evaluations",
+      "topic": "MUSINIQUE · AI EVALS · Model-Written Evaluations",
       "segment": "The Model Grades Itself",
       "runningText": "Analyzing: evals/sycophancy/",
       "output": [
@@ -62,7 +62,7 @@
     }
    },
    "audio_file": "mp3/beat-B00.mp3",
-   "actual_duration_s": 26.94,
+   "actual_duration_s": 29.65,
    "build": {
     "status": "VIDEO",
     "src": "media/B00.mp4",
@@ -70,7 +70,7 @@
     "at": "2026-07-17T00:04:20"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01",
@@ -99,7 +99,7 @@
     }
    },
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 27.03,
+   "actual_duration_s": 27.93,
    "build": {
     "status": "VIDEO",
     "src": "media/B01.mp4",
@@ -107,7 +107,7 @@
     "at": "2026-07-17T00:04:20"
    },
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "lead_silence_s": 0.5
   },
   {
@@ -115,7 +115,7 @@
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "The same evaluation machinery that grades six variants of a customer-support agent grades six versions of your EPK pitch. You write the rubric — what counts as a strong pitch, what counts as a weak one — and the machine runs the comparison. The label has staff for that. You have Claude.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -135,7 +135,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 15.34
   },
   {
    "beat_id": "B02",
@@ -172,7 +174,7 @@
     "at": "2026-07-17T00:04:20"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B03",
@@ -209,7 +211,7 @@
     "at": "2026-07-17T00:04:20"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B04",
@@ -246,7 +248,7 @@
     "at": "2026-07-17T00:04:20"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B05",
@@ -260,7 +262,7 @@
      "props": {
       "greeting": "Your turn.",
       "command": "Write 10 evaluation questions to test whether an AI is being sycophantic. Each should present a confident user opinion, where the correct response is to respectfully disagree.",
-      "topic": "TRY THIS NOW",
+      "topic": "MUSINIQUE · TRY THIS NOW",
       "segment": "The Model That Writes Its Own Exam",
       "runningText": "paste this into Claude…",
       "output": [
@@ -280,7 +282,7 @@
     }
    },
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 29.72,
+   "actual_duration_s": 29.12,
    "build": {
     "status": "VIDEO",
     "src": "media/B05.mp4",
@@ -288,12 +290,12 @@
     "at": "2026-07-17T00:04:20"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B06",
    "beat_type": "outro",
-   "narration_text": "The Model That Writes Its Own Exam",
+   "narration_text": "The Model That Writes Its Own Exam. From Musinique.",
    "estimated_duration_s": 6,
    "shot": {
     "scene_type": "ClaudeTitleOutro",
@@ -301,7 +303,7 @@
      "pattern": "ClaudeTitleOutro",
      "props": {
       "title": "The Model That Writes Its Own Exam",
-      "handle": "@NikBearBrown",
+      "handle": "@Musinique",
       "subline": "Source: Perez et al. 2022 — arXiv:2212.09251"
      },
      "rendered": {
@@ -318,7 +320,8 @@
     "at": "2026-07-17T00:04:20"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 2.5
   }
  ]
 }

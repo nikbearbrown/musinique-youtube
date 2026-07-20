@@ -3,7 +3,7 @@
   "slug": "boondoggle-score",
   "title": "Score a Build Plan Using the Boondoggle Score with Claude Code",
   "topic": "CLAUDE CODE FOR STUDENTS",
-  "voice": "am_onyx",
+  "voice": "am_puck",
   "voice_id": "TyW6NH39JcFb5M3xdIIk",
   "style": "cli",
   "palette": "claude",
@@ -13,38 +13,42 @@
   "ground": "#FFFFFF",
   "total_estimated_duration_seconds": 118.0,
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "register": "Baldwin",
   "folderLabel": "@Musinique",
   "engine": "kokoro",
-  "voice_kokoro": "am_onyx",
+  "voice_kokoro": "am_puck",
   "derived_from": "beat_sheet.json"
  },
  "beats": [
   {
    "beat_id": "B00",
    "act": "INTRO",
-   "narration_text": "This is Liam for Musinique. Before Claude sees a single prompt, you know which step is highest-risk, which handoff is weakest, and which supervisory capacity you're most likely to skip.",
+   "narration_text": "This is Musinique. Before Claude sees a single prompt, you know which step is highest-risk, which handoff is weakest, and which supervisory capacity you're most likely to skip.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOpen",
+     "pattern": "ClaudeComposerAsk",
      "props": {
-      "topic": "CLAUDE CODE FOR STUDENTS",
-      "lines": [
-       "Nik Bear Brown",
+      "command": "Score a Build Plan Using the Boondoggle Score with Claude Code",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR STUDENTS",
+      "segment": "Score a Build Plan Using the Boondoggle Score with Claude Code",
+      "greeting": "This is Musinique.",
+      "runningText": "working…",
+      "output": [
        "Boondoggle Score, taken apart."
-      ],
-      "greeting": "Jambo, Musinique"
+      ]
      }
     }
    },
    "estimated_duration_s": 8,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B00.mp3",
+   "actual_duration_s": 9.88
   },
   {
    "beat_id": "B01",
@@ -57,14 +61,16 @@
    },
    "estimated_duration_s": 12,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 10.75
   },
   {
    "beat_id": "B01B",
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "The same scaffolding principle that keeps a student from outsourcing their thinking protects a musician from outsourcing their voice. When Claude drafts, you judge. When Claude suggests a pitch angle, you decide if it's true. The tool that flags 'this is AI doing your creative work for you' is the tool that keeps your music yours.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -84,7 +90,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 17.28
   },
   {
    "beat_id": "B02",
@@ -95,10 +103,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Generate Boondoggle Score table for app tracker Phase 1:\\n  columns: step#, phase, labor, supervisory capacity, handoff condition\\n  flag: critical path and highest-risk handoff\\n  rule: every handoff condition must be machine-checkable\"",
-      "topic": "CLAUDE CODE FOR STUDENTS",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR STUDENTS",
       "segment": "BOONDOGGLE SCORE",
       "runningText": "generating score table…"
      }
@@ -106,7 +114,9 @@
    },
    "estimated_duration_s": 12,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 5.65
   },
   {
    "beat_id": "B03",
@@ -117,18 +127,20 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownCodeBlock",
+     "pattern": "ClaudeCodeBeat",
      "props": {
-      "filename": "boondoggle.md",
       "topic": "CLAUDE CODE FOR STUDENTS",
       "segment": "BOONDOGGLE SCORE",
-      "code": "# Boondoggle Score — App Tracker Phase 1\n\n| # | Phase        | Labor  | Capacity | Handoff Condition                        |\n|---|--------------|--------|----------|------------------------------------------|\n| 1 | Data model   | Claude | —        | pytest tests/test_models.py exits 0      |\n| 2 | Add form     | Claude | PA       | pytest tests/test_add.py -k happy        |\n| 3 | State pers.  | Claude | PA+IJ    | all 3 apps survive reload in browser     | <- HIGH RISK\n| 4 | Delete       | Human  | PF       | pytest tests/test_delete.py exits 0      |\n| 5 | UI polish    | Human  | IJ       | screenshot matches wireframe.png         |\n\nCritical path: step 1 -> 2 -> 3 (state persistence blocks all others)"
+      "code": "# Boondoggle Score — App Tracker Phase 1\n\n| # | Phase        | Labor  | Capacity | Handoff Condition                        |\n|---|--------------|--------|----------|------------------------------------------|\n| 1 | Data model   | Claude | —        | pytest tests/test_models.py exits 0      |\n| 2 | Add form     | Claude | PA       | pytest tests/test_add.py -k happy        |\n| 3 | State pers.  | Claude | PA+IJ    | all 3 apps survive reload in browser     | <- HIGH RISK\n| 4 | Delete       | Human  | PF       | pytest tests/test_delete.py exits 0      |\n| 5 | UI polish    | Human  | IJ       | screenshot matches wireframe.png         |\n\nCritical path: step 1 -> 2 -> 3 (state persistence blocks all others)",
+      "title": "boondoggle.md"
      }
     }
    },
    "estimated_duration_s": 14,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 15.66
   },
   {
    "beat_id": "B04",
@@ -145,7 +157,9 @@
    },
    "estimated_duration_s": 20,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 9.56
   },
   {
    "beat_id": "B05",
@@ -156,10 +170,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Set row 1 handoff condition to: 'Claude completes the data model'.\\nRe-run scorer. Does it flag this condition as invalid?\\nExplain why it fails the machine-checkable rule.\"",
-      "topic": "CLAUDE CODE FOR STUDENTS",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR STUDENTS",
       "segment": "BOONDOGGLE SCORE",
       "runningText": "validating handoff condition…"
      }
@@ -167,7 +181,9 @@
    },
    "estimated_duration_s": 10,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 6.51
   },
   {
    "beat_id": "B06",
@@ -184,7 +200,9 @@
    },
    "estimated_duration_s": 14,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 5.61
   },
   {
    "beat_id": "B07",
@@ -197,7 +215,9 @@
    },
    "estimated_duration_s": 12,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B07.mp3",
+   "actual_duration_s": 9.32
   },
   {
    "beat_id": "B08",
@@ -210,18 +230,20 @@
    },
    "estimated_duration_s": 8,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B08.mp3",
+   "actual_duration_s": 3.61
   },
   {
    "beat_id": "B09",
    "act": "OUTRO",
-   "narration_text": "Nik Bear Brown. Build it with a CLI. Then take it apart. At nikbearbrown.com.",
+   "narration_text": "Musinique. Build it with a CLI. Then take it apart. At nikbearbrown.com.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOutro",
+     "pattern": "ClaudeTitleOutro",
      "props": {
       "brand": "Nik Bear Brown",
       "tagline": "Brutalist + Educational AI",
@@ -232,7 +254,9 @@
    },
    "estimated_duration_s": 8,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "audio_file": "mp3/beat-B09.mp3",
+   "actual_duration_s": 5.38
   }
  ]
 }

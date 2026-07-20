@@ -28,7 +28,7 @@
   "old_outro_beats": [],
   "built_at": "2026-07-17T01:06:21.643807",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
   "voice_kokoro": "am_puck"
@@ -51,7 +51,7 @@
      "version": "1",
      "props": {
       "command": "A prompt anatomy auditor makes me want to X-ray my own prompts, because I rarely know which parts are actually doing work. I want Claude to break a prompt into its structural components and grade each. Help me: (1) define the anatomy — role, context, task, constraints, output format, examples — and detect which are present or missing; (2) flag ambiguous or contradictory instructions that would degrade the output; (3) have the auditor rewrite the weakest component and show the before-and-after effect on the response.",
-      "topic": "PROMPT ENGINEERING",
+      "topic": "MUSINIQUE · PROMPT ENGINEERING",
       "segment": "Build a Prompt Anatomy Auditor with",
       "greeting": "Habari, Musinique",
       "runningText": "explaining the mechanism…",
@@ -68,7 +68,7 @@
    },
    "estimated_duration_s": 9.0,
    "audio_file": "mp3/beat-NBB00.mp3",
-   "actual_duration_s": 6.336
+   "actual_duration_s": 25.13
   },
   {
    "beat_id": "B00",
@@ -94,10 +94,11 @@
    "locked": true,
    "source_clip": "../prompt-anatomy-auditor/clips/B00.mp4",
    "source_audio": "../prompt-anatomy-auditor/mp3/beat-B00.mp3",
-   "audio_file": "../prompt-anatomy-auditor/mp3/beat-B00.mp3",
+   "audio_file": "mp3/beat-B00.mp3",
    "engine": "kokoro",
    "voice": "am_puck",
-   "narration_text": "This is Musinique."
+   "narration_text": "This is Musinique.",
+   "actual_duration_s": 1.15
   },
   {
    "beat_id": "B01",
@@ -143,7 +144,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 17.34
   },
   {
    "beat_id": "B02",
@@ -353,7 +356,7 @@
    },
    "estimated_duration_s": 30.0,
    "audio_file": "mp3/beat-NBB01.mp3",
-   "actual_duration_s": 2.88,
+   "actual_duration_s": 3.61,
    "lead_silence_s": 0.5
   },
   {
@@ -373,7 +376,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Build a Prompt Anatomy Auditor with Claude] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "PROMPT ENGINEERING",
+      "topic": "MUSINIQUE · PROMPT ENGINEERING",
       "segment": "Build a Prompt Anatomy Auditor with",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -390,7 +393,7 @@
    },
    "estimated_duration_s": 8.0,
    "audio_file": "mp3/beat-NBB02.mp3",
-   "actual_duration_s": 7.765
+   "actual_duration_s": 8.3
   },
   {
    "beat_id": "NBB03",
@@ -419,10 +422,10 @@
    "estimated_duration_s": 6.0,
    "audio_file": "mp3/beat-NBB03.mp3",
    "silence_s": 6.0,
-   "actual_duration_s": 6.03,
+   "actual_duration_s": 2.2,
    "engine": "kokoro",
    "voice": "am_puck",
-   "narration_text": "Build a Prompt Anatomy Auditor with Claude"
+   "narration_text": "Build a Prompt Anatomy Auditor with Claude. From Musinique."
   }
  ]
 }

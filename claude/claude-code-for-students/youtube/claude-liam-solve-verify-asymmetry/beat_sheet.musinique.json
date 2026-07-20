@@ -24,7 +24,7 @@
    "swap the outro to the Claude outro from AUTHOR.MD :: NikBearBrown",
    "then build audience-namespaced (audio in the new voice, scenes in the new palette)"
   ],
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "build": {
    "at": "2026-07-16T02:11:49",
    "cut": "master",
@@ -56,14 +56,16 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOpen",
+     "pattern": "ClaudeComposerAsk",
      "props": {
-      "topic": "CLAUDE CODE FOR STUDENTS",
-      "lines": [
-       "Nik Bear Brown",
+      "command": "Demonstrate the Solve-Verify Asymmetry with Claude Code",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR STUDENTS",
+      "segment": "Demonstrate the Solve-Verify Asymmetry with Claude Code",
+      "greeting": "This is Musinique.",
+      "runningText": "working…",
+      "output": [
        "Solve-Verify Asymmetry, taken apart."
-      ],
-      "greeting": "Ciao, Musinique"
+      ]
      },
      "rendered": {
       "out": "media/B00.mp4",
@@ -73,7 +75,7 @@
    },
    "estimated_duration_s": 8,
    "audio_file": "mp3/beat-B00.mp3",
-   "actual_duration_s": 11.01,
+   "actual_duration_s": 13.01,
    "build": {
     "status": "VIDEO",
     "src": "media/B00.mp4",
@@ -94,7 +96,7 @@
    },
    "estimated_duration_s": 12,
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 11.78,
+   "actual_duration_s": 12.99,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -131,7 +133,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 17.39
   },
   {
    "beat_id": "B02",
@@ -142,10 +146,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Write top_three_by_gpa(students) -> list:\\n  sort by GPA descending\\n  tie-breaking: alphabetical by last_name ascending\\n  return top 3 students\"",
-      "topic": "CLAUDE CODE FOR STUDENTS",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR STUDENTS",
       "segment": "SOLVE-VERIFY GAP",
       "runningText": "generating function…"
      },
@@ -157,7 +161,7 @@
    },
    "estimated_duration_s": 12,
    "audio_file": "mp3/beat-B02.mp3",
-   "actual_duration_s": 5.76,
+   "actual_duration_s": 5.78,
    "build": {
     "status": "VIDEO",
     "src": "media/B02.mp4",
@@ -176,12 +180,12 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownCodeBlock",
+     "pattern": "ClaudeCodeBeat",
      "props": {
-      "filename": "gpa_sort.py",
       "topic": "CLAUDE CODE FOR STUDENTS",
       "segment": "SOLVE-VERIFY GAP",
-      "code": "# gpa_sort.py — Claude Code output (8 seconds)\ndef top_three_by_gpa(students):\n    \"\"\"Return top 3 students by GPA.\n    Tie-breaking: alphabetical by last_name ascending.\n    \"\"\"\n    sorted_students = sorted(\n        students,\n        key=lambda s: (-s['gpa'], s['last_name'])\n    )\n    return sorted_students[:3]\n\n# Looks correct. Clean sort key.\n# Bug: last_name tie-breaking only applies when GPAs are equal.\n# Test case needed: two students with identical GPA."
+      "code": "# gpa_sort.py — Claude Code output (8 seconds)\ndef top_three_by_gpa(students):\n    \"\"\"Return top 3 students by GPA.\n    Tie-breaking: alphabetical by last_name ascending.\n    \"\"\"\n    sorted_students = sorted(\n        students,\n        key=lambda s: (-s['gpa'], s['last_name'])\n    )\n    return sorted_students[:3]\n\n# Looks correct. Clean sort key.\n# Bug: last_name tie-breaking only applies when GPAs are equal.\n# Test case needed: two students with identical GPA.",
+      "title": "gpa_sort.py"
      },
      "rendered": {
       "out": "media/B03.mp4",
@@ -191,7 +195,7 @@
    },
    "estimated_duration_s": 14,
    "audio_file": "mp3/beat-B03.mp3",
-   "actual_duration_s": 8.79,
+   "actual_duration_s": 9.64,
    "build": {
     "status": "VIDEO",
     "src": "media/B03.mp4",
@@ -216,7 +220,7 @@
    },
    "estimated_duration_s": 20,
    "audio_file": "mp3/beat-B04.mp3",
-   "actual_duration_s": 10.11,
+   "actual_duration_s": 11.29,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -236,10 +240,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Audit top_three_by_gpa for tie-breaking correctness.\\nDoes it correctly break ties alphabetically by last_name ascending?\"",
-      "topic": "CLAUDE CODE FOR STUDENTS",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR STUDENTS",
       "segment": "SOLVE-VERIFY GAP",
       "runningText": "auditing tie-breaking…"
      },
@@ -251,7 +255,7 @@
    },
    "estimated_duration_s": 10,
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 4.16,
+   "actual_duration_s": 3.78,
    "build": {
     "status": "VIDEO",
     "src": "media/B05.mp4",
@@ -276,7 +280,7 @@
    },
    "estimated_duration_s": 14,
    "audio_file": "mp3/beat-B06.mp3",
-   "actual_duration_s": 7.04,
+   "actual_duration_s": 7.4,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -298,7 +302,7 @@
    },
    "estimated_duration_s": 12,
    "audio_file": "mp3/beat-B07.mp3",
-   "actual_duration_s": 13.87,
+   "actual_duration_s": 15.06,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -321,7 +325,7 @@
    },
    "estimated_duration_s": 8,
    "audio_file": "mp3/beat-B08.mp3",
-   "actual_duration_s": 4.71,
+   "actual_duration_s": 4.31,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -336,13 +340,13 @@
   {
    "beat_id": "B09",
    "act": "OUTRO",
-   "narration_text": "Nik Bear Brown. Build it with a CLI. Then take it apart. At nikbearbrown.com.",
+   "narration_text": "Musinique. Build it with a CLI. Then take it apart. At nikbearbrown.com.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOutro",
+     "pattern": "ClaudeTitleOutro",
      "props": {
       "brand": "Nik Bear Brown",
       "tagline": "Brutalist + Educational AI",
@@ -357,7 +361,7 @@
    },
    "estimated_duration_s": 8,
    "audio_file": "mp3/beat-B09.mp3",
-   "actual_duration_s": 5.38,
+   "actual_duration_s": 5.27,
    "build": {
     "status": "VIDEO",
     "src": "media/B09.mp4",

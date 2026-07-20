@@ -52,7 +52,7 @@
    ]
   },
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
   "voice": "am_puck"
@@ -75,7 +75,7 @@
     "sub": "strengthening an argument often means inventing one"
    },
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 14.38,
+   "actual_duration_s": 15.08,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -101,7 +101,7 @@
    "scene_description": "Researcher at desk reading a manuscript printout, looking troubled, reviewer comment visible, editorial newsprint treatment, desaturated flat print collage",
    "image_prompt": "B02, academic researcher woman at a desk, looking troubled while reading a manuscript printout with reviewer comments, editorial documentary newsprint treatment, desaturated flat print collage, academic office environment",
    "audio_file": "mp3/beat-B02.mp3",
-   "actual_duration_s": 17.98,
+   "actual_duration_s": 18.71,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -130,7 +130,7 @@
     "sub": ""
    },
    "audio_file": "mp3/beat-B03.mp3",
-   "actual_duration_s": 10.9,
+   "actual_duration_s": 12.01,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -167,7 +167,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 17.34
   },
   {
    "beat_id": "B04",
@@ -184,7 +186,7 @@
     "manim": "B04_GapFilling"
    },
    "audio_file": "mp3/beat-B04.mp3",
-   "actual_duration_s": 15.59,
+   "actual_duration_s": 16.19,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -210,7 +212,7 @@
     "manim": "B05_NoVisibleSeam"
    },
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 13.63,
+   "actual_duration_s": 15.17,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -236,7 +238,7 @@
     "manim": "B06_InstructionPermits"
    },
    "audio_file": "mp3/beat-B06.mp3",
-   "actual_duration_s": 12.84,
+   "actual_duration_s": 14.42,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -264,7 +266,7 @@
     "sub": ""
    },
    "audio_file": "mp3/beat-B07.mp3",
-   "actual_duration_s": 14.08,
+   "actual_duration_s": 15.49,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -291,7 +293,7 @@
     "manim": "B08_OwnershipConstraint"
    },
    "audio_file": "mp3/beat-B08.mp3",
-   "actual_duration_s": 14.42,
+   "actual_duration_s": 15.83,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -317,7 +319,7 @@
     "manim": "B09_AnyImprovement"
    },
    "audio_file": "mp3/beat-B09.mp3",
-   "actual_duration_s": 11.99,
+   "actual_duration_s": 13.38,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -343,7 +345,7 @@
     "manim": "B10_PolicyExample"
    },
    "audio_file": "mp3/beat-B10.mp3",
-   "actual_duration_s": 17.45,
+   "actual_duration_s": 18.43,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -369,7 +371,7 @@
     "manim": "B11_PolicyFixed"
    },
    "audio_file": "mp3/beat-B11.mp3",
-   "actual_duration_s": 17.71,
+   "actual_duration_s": 18.24,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -395,7 +397,7 @@
     "manim": "B12_Practice"
    },
    "audio_file": "mp3/beat-B12.mp3",
-   "actual_duration_s": 13.7,
+   "actual_duration_s": 14.91,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -411,7 +413,7 @@
    "t_start": 132.0,
    "estimated_duration_s": 10.0,
    "act": "RECAP",
-   "narration_text": "Improvement without constraints means gap-filling from priors. Every claim in your document is your responsibility — regardless of who typed it. Name the ownership boundary before Claude starts.",
+   "narration_text": "Improvement without constraints means gap-filling from priors. Every claim in your document is your responsibility — regardless of who typed it. Name the ownership boundary before Claude starts. From Musinique.",
    "shot": {
     "type": "CARD",
     "source": "own",
@@ -423,7 +425,7 @@
     "sub": "Improvement without constraints means gap-filling from priors."
    },
    "audio_file": "mp3/beat-B13.mp3",
-   "actual_duration_s": 11.05,
+   "actual_duration_s": 12.01,
    "build": {
     "status": "SLATE",
     "src": null,

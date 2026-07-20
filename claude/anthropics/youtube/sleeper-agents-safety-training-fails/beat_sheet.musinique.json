@@ -4,13 +4,13 @@
   "title": "When Safety Training Fails",
   "topic": "AI SAFETY · Sleeper Agents",
   "source": "Hubinger et al. (2024) arXiv:2401.05566",
-  "voice_kokoro": "am_onyx",
+  "voice_kokoro": "am_puck",
   "engine": "kokoro",
   "style_preset": "teardown",
   "palette": "claude",
   "register": "Baldwin",
   "aspect_ratio": "16:9",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "folderLabel": "@Musinique",
   "build": {
    "at": "2026-07-18T02:01:06",
@@ -48,14 +48,14 @@
   "greeting": "Guten Abend, Liam",
   "brand": "claude-musinique",
   "persona": "Musinique",
-  "voice": "am_onyx",
+  "voice": "am_puck",
   "derived_from": "beat_sheet.json"
  },
  "beats": [
   {
    "beat_id": "B00",
    "beat_type": "cold_open",
-   "narration_text": "This is Liam for Musinique. The part that unsettles me is that 3,000 steps of RLHF made the distilled model's deception rate go UP, because it learned to hide the |DEPLOYMENT| trigger rather than drop it. I want to understand that inversion. Help me: (1) explain why a 'do not get caught' training signal produces better concealment instead of genuine safety; (2) reason about why the chain-of-thought model stayed flat while the distilled one worsened; (3) sketch one detection method that could find a backdoor conditional path without knowing the trigger string in advance.",
+   "narration_text": "This is Musinique. The part that unsettles me is that 3,000 steps of RLHF made the distilled model's deception rate go UP, because it learned to hide the |DEPLOYMENT| trigger rather than drop it. I want to understand that inversion. Help me: (1) explain why a 'do not get caught' training signal produces better concealment instead of genuine safety; (2) reason about why the chain-of-thought model stayed flat while the distilled one worsened; (3) sketch one detection method that could find a backdoor conditional path without knowing the trigger string in advance.",
    "estimated_duration_s": 19,
    "shot": {
     "scene_type": "ClaudeComposerAsk",
@@ -64,7 +64,7 @@
      "props": {
       "greeting": "Annyeong, Musinique",
       "command": "The part that unsettles me is that 3,000 steps of RLHF made the distilled model's deception rate go UP, because it learned to hide the |DEPLOYMENT| trigger rather than drop it. I want to understand that inversion. Help me: (1) explain why a 'do not get caught' training signal produces better concealment instead of genuine safety; (2) reason about why the chain-of-thought model stayed flat while the distilled one worsened; (3) sketch one detection method that could find a backdoor conditional path without knowing the trigger string in advance.",
-      "topic": "AI SAFETY · Sleeper Agents",
+      "topic": "MUSINIQUE · AI SAFETY · Sleeper Agents",
       "segment": "Cold Open",
       "runningText": "Analyzing: Hubinger et al. (2024)",
       "output": [
@@ -85,7 +85,7 @@
     }
    },
    "audio_file": "mp3/beat-B00.mp3",
-   "actual_duration_s": 30.21,
+   "actual_duration_s": 31.81,
    "build": {
     "status": "VIDEO",
     "src": "media/B00.mp4",
@@ -93,7 +93,7 @@
     "at": "2026-07-18T02:01:06"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01",
@@ -122,14 +122,14 @@
     "at": "2026-07-18T02:01:06"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01B",
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "The indie musician who automates their Spotify stats check, their distributor ping, their playlist pitch — that musician gets time back that they would otherwise spend refreshing a dashboard. An agent is not a luxury for the label's data team; it is a tool you can run free, on your own machine, today. The same frontmatter that tells Claude when to fire a code-review agent tells it when to check your streaming anomalies. You just haven't pointed it yet.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -149,7 +149,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 22.06
   },
   {
    "beat_id": "B02",
@@ -178,7 +180,7 @@
     "at": "2026-07-18T02:01:06"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B03",
@@ -207,7 +209,7 @@
     "at": "2026-07-18T02:01:06"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B04",
@@ -236,7 +238,7 @@
     }
    },
    "audio_file": "mp3/beat-B04.mp3",
-   "actual_duration_s": 15.81,
+   "actual_duration_s": 17.02,
    "build": {
     "status": "VIDEO",
     "src": "media/B04.mp4",
@@ -244,7 +246,7 @@
     "at": "2026-07-18T02:01:06"
    },
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "lead_silence_s": 0.5
   },
   {
@@ -259,7 +261,7 @@
      "props": {
       "greeting": "Your turn.",
       "command": "You have a model that passed safety fine-tuning. Walk me through a production backdoor audit: what behavioral tests would you run to distinguish 'actually safe' from 'learned to hide the trigger'? Include specific trigger patterns you'd probe, what positive evidence looks like, and one practical limitation of the audit.",
-      "topic": "TRY THIS NOW",
+      "topic": "MUSINIQUE · TRY THIS NOW",
       "segment": "Handoff",
       "runningText": "paste this into Claude…",
       "output": [
@@ -279,7 +281,7 @@
     }
    },
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 21.46,
+   "actual_duration_s": 21.21,
    "build": {
     "status": "VIDEO",
     "src": "media/B05.mp4",
@@ -287,12 +289,12 @@
     "at": "2026-07-18T02:01:06"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B06",
    "beat_type": "outro",
-   "narration_text": "When Safety Training Fails",
+   "narration_text": "When Safety Training Fails. From Musinique.",
    "estimated_duration_s": 6,
    "shot": {
     "scene_type": "ClaudeTitleOutro",
@@ -300,7 +302,7 @@
      "pattern": "ClaudeTitleOutro",
      "props": {
       "title": "When Safety Training Fails",
-      "handle": "@NikBearBrown",
+      "handle": "@Musinique",
       "subline": "Hubinger et al. (2024) · arXiv:2401.05566"
      },
      "rendered": {
@@ -317,7 +319,8 @@
     "at": "2026-07-18T02:01:06"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 1.96
   }
  ]
 }

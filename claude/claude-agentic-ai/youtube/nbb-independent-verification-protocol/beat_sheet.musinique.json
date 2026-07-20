@@ -29,7 +29,7 @@
   ],
   "built_at": "2026-07-17T00:24:45.935357",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
   "voice_kokoro": "am_puck"
@@ -52,7 +52,7 @@
      "version": "1",
      "props": {
       "command": "I want to design verification before the agent starts rather than admire an impressive output afterward. The four fields make sense to me. Help me: (1) generate a protocol for a literature summary — output type, independent evidence, key check, required artifact — where the artifact is a file-to-claim source map; (2) apply the same structure to a code-change task and show me what switches to tests and a diff; (3) confirm each artifact exists independently, without asking the agent to certify it.",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "Build an Independent Verification Protocol for",
       "greeting": "Olá, Musinique",
       "runningText": "explaining the mechanism…",
@@ -69,25 +69,27 @@
    },
    "estimated_duration_s": 9.0,
    "audio_file": "mp3/beat-NBB00.mp3",
-   "actual_duration_s": 5.867
+   "actual_duration_s": 24.92
   },
   {
    "beat_id": "B00",
    "act": "INTRO",
-   "narration_text": "This is Musinique. Nik Bear Brown. Build it with a CLI, then take it apart.",
+   "narration_text": "This is Musinique. Musinique. Build it with a CLI, then take it apart.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOpen",
+     "pattern": "ClaudeComposerAsk",
      "props": {
-      "topic": "NIK BEAR BROWN",
-      "lines": [
-       "Nik Bear Brown",
+      "command": "Build an Independent Verification Protocol for Agent Outputs with Claude",
+      "topic": "MUSINIQUE · NIK BEAR BROWN",
+      "segment": "Build an Independent Verification Protocol for Agent Outputs with Claude",
+      "greeting": "This is Musinique.",
+      "runningText": "working…",
+      "output": [
        "Verification is the Control System."
-      ],
-      "greeting": "Olá, Musinique"
+      ]
      },
      "rendered": {
       "out": "media/B00.mp4",
@@ -96,8 +98,8 @@
     }
    },
    "estimated_duration_s": 5,
-   "audio_file": "../independent-verification-protocol/mp3/beat-B00.mp3",
-   "actual_duration_s": 3.29,
+   "audio_file": "mp3/beat-B00.mp3",
+   "actual_duration_s": 4.8,
    "locked": true,
    "source_clip": "../independent-verification-protocol/clips/B00.mp4",
    "source_audio": "../independent-verification-protocol/mp3/beat-B00.mp3",
@@ -116,8 +118,8 @@
     "motion": "fade"
    },
    "estimated_duration_s": 15,
-   "audio_file": "../independent-verification-protocol/mp3/beat-B01.mp3",
-   "actual_duration_s": 18.57,
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 17.43,
    "locked": true,
    "source_clip": "../independent-verification-protocol/clips/B01.mp4",
    "source_audio": "../independent-verification-protocol/mp3/beat-B01.mp3",
@@ -149,7 +151,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 19.54
   },
   {
    "beat_id": "B02",
@@ -161,10 +165,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"For 'Summarize literature on treatment protocol X with source citations,' generate a verification protocol. State the output type. List: (1) what independent evidence confirms completion, (2) the specific check for the most likely failure mode, (3) the evidence artifact the agent must produce.\"",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "VERIFICATION",
       "runningText": "generating..."
      },
@@ -175,8 +179,8 @@
     }
    },
    "estimated_duration_s": 14,
-   "audio_file": "../independent-verification-protocol/mp3/beat-B02.mp3",
-   "actual_duration_s": 9.33,
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 10.09,
    "locked": true,
    "source_clip": "../independent-verification-protocol/clips/B02.mp4",
    "source_audio": "../independent-verification-protocol/mp3/beat-B02.mp3",
@@ -193,12 +197,12 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownCodeBlock",
+     "pattern": "ClaudeCodeBeat",
      "props": {
-      "filename": "verification_protocol.py",
       "topic": "AGENTIC AI",
       "segment": "VERIFICATION",
-      "code": "def gen_protocol(output_type):\n    PROTOCOLS = {\n     \"research\": {\n      \"evidence\":\"open the cited documents\",\n      \"key_check\":\"verify each citation exists and supports the claim\",\n      \"artifact\":\"source map: file -> claim mapping\"},\n     \"code\":{\"evidence\":\"run tests, inspect diff\",\n      \"key_check\":\"diff shows only intended changes\",\n      \"artifact\":\"test run output + diff\"},\n    }\n    p = PROTOCOLS.get(output_type, PROTOCOLS[\"research\"])\n    print(f\"Output type: {output_type}\")\n    for k, v in p.items():\n        print(f\"  {k}: {v}\")\ngen_protocol(\"research\")"
+      "code": "def gen_protocol(output_type):\n    PROTOCOLS = {\n     \"research\": {\n      \"evidence\":\"open the cited documents\",\n      \"key_check\":\"verify each citation exists and supports the claim\",\n      \"artifact\":\"source map: file -> claim mapping\"},\n     \"code\":{\"evidence\":\"run tests, inspect diff\",\n      \"key_check\":\"diff shows only intended changes\",\n      \"artifact\":\"test run output + diff\"},\n    }\n    p = PROTOCOLS.get(output_type, PROTOCOLS[\"research\"])\n    print(f\"Output type: {output_type}\")\n    for k, v in p.items():\n        print(f\"  {k}: {v}\")\ngen_protocol(\"research\")",
+      "title": "verification_protocol.py"
      },
      "rendered": {
       "out": "media/B03.mp4",
@@ -207,8 +211,8 @@
     }
    },
    "estimated_duration_s": 14,
-   "audio_file": "../independent-verification-protocol/mp3/beat-B03.mp3",
-   "actual_duration_s": 11.28,
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 11.67,
    "locked": true,
    "source_clip": "../independent-verification-protocol/clips/B03.mp4",
    "source_audio": "../independent-verification-protocol/mp3/beat-B03.mp3",
@@ -227,8 +231,8 @@
     "motion": "fade"
    },
    "estimated_duration_s": 12,
-   "audio_file": "../independent-verification-protocol/mp3/beat-B04.mp3",
-   "actual_duration_s": 10.11,
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 10.9,
    "locked": true,
    "source_clip": "../independent-verification-protocol/clips/B04.mp4",
    "source_audio": "../independent-verification-protocol/mp3/beat-B04.mp3",
@@ -245,10 +249,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Generate the verification protocol for a code-change task: 'Refactor the auth module.' Use the same four-field format.\"",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "VERIFICATION",
       "runningText": "updating..."
      },
@@ -259,8 +263,8 @@
     }
    },
    "estimated_duration_s": 11,
-   "audio_file": "../independent-verification-protocol/mp3/beat-B05.mp3",
-   "actual_duration_s": 6.69,
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 7.49,
    "locked": true,
    "source_clip": "../independent-verification-protocol/clips/B05.mp4",
    "source_audio": "../independent-verification-protocol/mp3/beat-B05.mp3",
@@ -279,8 +283,8 @@
     "motion": "fade"
    },
    "estimated_duration_s": 12,
-   "audio_file": "../independent-verification-protocol/mp3/beat-B06.mp3",
-   "actual_duration_s": 12.07,
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 12.1,
    "locked": true,
    "source_clip": "../independent-verification-protocol/clips/B06.mp4",
    "source_audio": "../independent-verification-protocol/mp3/beat-B06.mp3",
@@ -299,8 +303,8 @@
     "motion": "fade"
    },
    "estimated_duration_s": 12,
-   "audio_file": "../independent-verification-protocol/mp3/beat-B07.mp3",
-   "actual_duration_s": 11.1,
+   "audio_file": "mp3/beat-B07.mp3",
+   "actual_duration_s": 12.16,
    "locked": true,
    "source_clip": "../independent-verification-protocol/clips/B07.mp4",
    "source_audio": "../independent-verification-protocol/mp3/beat-B07.mp3",
@@ -319,8 +323,8 @@
     "motion": "fade"
    },
    "estimated_duration_s": 11,
-   "audio_file": "../independent-verification-protocol/mp3/beat-B08.mp3",
-   "actual_duration_s": 9.8,
+   "audio_file": "mp3/beat-B08.mp3",
+   "actual_duration_s": 10.56,
    "locked": true,
    "source_clip": "../independent-verification-protocol/clips/B08.mp4",
    "source_audio": "../independent-verification-protocol/mp3/beat-B08.mp3",
@@ -359,7 +363,7 @@
    },
    "estimated_duration_s": 30.0,
    "audio_file": "mp3/beat-NBB01.mp3",
-   "actual_duration_s": 20.587,
+   "actual_duration_s": 19.22,
    "lead_silence_s": 0.5
   },
   {
@@ -379,7 +383,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Build an Independent Verification Protocol for Agent Outputs with Clau] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "Build an Independent Verification Protocol for",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -396,7 +400,7 @@
    },
    "estimated_duration_s": 8.0,
    "audio_file": "mp3/beat-NBB02.mp3",
-   "actual_duration_s": 7.765
+   "actual_duration_s": 8.3
   },
   {
    "beat_id": "NBB03",
@@ -425,10 +429,10 @@
    "estimated_duration_s": 6.0,
    "audio_file": "mp3/beat-NBB03.mp3",
    "silence_s": 6.0,
-   "actual_duration_s": 6.03,
+   "actual_duration_s": 4.46,
    "engine": "kokoro",
    "voice": "am_puck",
-   "narration_text": "Build an Independent Verification Protocol for Agent Outputs with Claude"
+   "narration_text": "Build an Independent Verification Protocol for Agent Outputs with Claude. From Musinique."
   }
  ]
 }

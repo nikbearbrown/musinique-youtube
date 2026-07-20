@@ -26,7 +26,7 @@
   ],
   "built_at": "2026-07-16T23:49:15.080419",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
   "voice_kokoro": "am_puck"
@@ -49,7 +49,7 @@
      "version": "1",
      "props": {
       "command": "The line that Claude's flags are questions, not decisions, and that seven coherent components don't make a coherent unit is what I need to hold onto. I have a three-week argument unit with drafted outcomes and an assessment. I want to run the coherence test myself. Can you: (1) check whether my assessment actually measures each outcome or drifts to summarizing instead of evaluating, (2) name any outcome-to-assessment gap as a question I must answer, and (3) show me what process-evidence component would close the revision-as-outcome gap the way a revision memo did?",
-      "topic": "UNIT DESIGN · EDUCATION",
+      "topic": "MUSINIQUE · UNIT DESIGN · EDUCATION",
       "segment": "Capstone Unit Builder: Coherence Is the",
       "greeting": "Hej, Musinique",
       "runningText": "explaining the mechanism…",
@@ -66,7 +66,7 @@
    },
    "estimated_duration_s": 9.0,
    "audio_file": "mp3/beat-NBB00.mp3",
-   "actual_duration_s": 5.355
+   "actual_duration_s": 30.61
   },
   {
    "beat_id": "B00",
@@ -90,8 +90,8 @@
     }
    },
    "estimated_duration_s": 16,
-   "audio_file": "../capstone-unit-builder/mp3/beat-B00.mp3",
-   "actual_duration_s": 23.62,
+   "audio_file": "mp3/beat-B00.mp3",
+   "actual_duration_s": 21.01,
    "locked": true,
    "source_clip": "../capstone-unit-builder/clips/B00.mp4",
    "source_audio": "../capstone-unit-builder/mp3/beat-B00.mp3",
@@ -110,8 +110,8 @@
    "new_visual_element": "Seven components — outcomes / sequence / materials / feedback / assessment / AI policy / checklist / each draftable",
    "spark_line": "Each draftable. Coherence is yours.",
    "estimated_duration_s": 13,
-   "audio_file": "../capstone-unit-builder/mp3/beat-B01.mp3",
-   "actual_duration_s": 25.6,
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 22.95,
    "locked": true,
    "source_clip": "../capstone-unit-builder/clips/B01.mp4",
    "source_audio": "../capstone-unit-builder/mp3/beat-B01.mp3",
@@ -143,7 +143,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 17.71
   },
   {
    "beat_id": "B02",
@@ -157,8 +159,8 @@
    "new_visual_element": "Coherence test — does assessment measure outcome? / same cognitive task / Claude flags / teacher closes",
    "spark_line": "Does assessment measure outcome?",
    "estimated_duration_s": 13,
-   "audio_file": "../capstone-unit-builder/mp3/beat-B02.mp3",
-   "actual_duration_s": 22.29,
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 19.86,
    "locked": true,
    "source_clip": "../capstone-unit-builder/clips/B02.mp4",
    "source_audio": "../capstone-unit-builder/mp3/beat-B02.mp3",
@@ -177,8 +179,8 @@
    "new_visual_element": "Accepting flags — flag = question not decision / teacher supplies domain judgment / what revision means in this course",
    "spark_line": "Flag is a question. You supply the answer.",
    "estimated_duration_s": 13,
-   "audio_file": "../capstone-unit-builder/mp3/beat-B03.mp3",
-   "actual_duration_s": 21.72,
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 19.9,
    "locked": true,
    "source_clip": "../capstone-unit-builder/clips/B03.mp4",
    "source_audio": "../capstone-unit-builder/mp3/beat-B03.mp3",
@@ -197,8 +199,8 @@
    "new_visual_element": "Artifact view — verification checklist / where Claude drafted / where teacher decided / coherence check complete",
    "spark_line": "The checklist is where the boundary shows.",
    "estimated_duration_s": 13,
-   "audio_file": "../capstone-unit-builder/mp3/beat-B04.mp3",
-   "actual_duration_s": 18.07,
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 18.45,
    "locked": true,
    "source_clip": "../capstone-unit-builder/clips/B04.mp4",
    "source_audio": "../capstone-unit-builder/mp3/beat-B04.mp3",
@@ -227,8 +229,8 @@
     }
    },
    "estimated_duration_s": 9,
-   "audio_file": "../capstone-unit-builder/mp3/beat-B05.mp3",
-   "actual_duration_s": 4.63,
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 4.37,
    "locked": true,
    "source_clip": "../capstone-unit-builder/clips/B05.mp4",
    "source_audio": "../capstone-unit-builder/mp3/beat-B05.mp3",
@@ -267,7 +269,7 @@
    },
    "estimated_duration_s": 30.0,
    "audio_file": "mp3/beat-NBB01.mp3",
-   "actual_duration_s": 22.08,
+   "actual_duration_s": 20.71,
    "lead_silence_s": 0.5
   },
   {
@@ -287,7 +289,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Capstone Unit Builder: Coherence Is the Human's Job] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "UNIT DESIGN · EDUCATION",
+      "topic": "MUSINIQUE · UNIT DESIGN · EDUCATION",
       "segment": "Capstone Unit Builder: Coherence Is the",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -304,7 +306,7 @@
    },
    "estimated_duration_s": 8.0,
    "audio_file": "mp3/beat-NBB02.mp3",
-   "actual_duration_s": 7.765
+   "actual_duration_s": 8.3
   },
   {
    "beat_id": "NBB03",
@@ -333,10 +335,10 @@
    "estimated_duration_s": 6.0,
    "audio_file": "mp3/beat-NBB03.mp3",
    "silence_s": 6.0,
-   "actual_duration_s": 6.03,
+   "actual_duration_s": 3.26,
    "engine": "kokoro",
    "voice": "am_puck",
-   "narration_text": "Capstone Unit Builder: Coherence Is the Human's Job"
+   "narration_text": "Capstone Unit Builder: Coherence Is the Human's Job. From Musinique."
   }
  ]
 }

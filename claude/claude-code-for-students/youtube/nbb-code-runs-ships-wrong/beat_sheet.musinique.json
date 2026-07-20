@@ -6,7 +6,7 @@
   "topic": "CLAUDE CODE",
   "audience": "NikBearBrown",
   "engine": "kokoro",
-  "voice": "am_onyx",
+  "voice": "am_puck",
   "palette": "claude",
   "register": "Baldwin",
   "derived_from": "beat_sheet.json",
@@ -30,10 +30,10 @@
   "old_outro_beats": [],
   "built_at": "2026-07-16T21:56:24.260899",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
-  "voice_kokoro": "am_onyx"
+  "voice_kokoro": "am_puck"
  },
  "beats": [
   {
@@ -41,8 +41,8 @@
    "act": "COLD OPEN",
    "title": "Liam cold open — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "This is Liam for Musinique. The architectural point — the same weights that wrote the sort key are the only weights auditing it — reframed why 'looks good' means nothing. I want to build an audit that has access to something Claude can't see. For my leaderboard sorting by score descending, help me: (1) construct the tie-case rows Claude's unique-value tests never included; (2) define the independent oracle or hand-computed expected order I check against; (3) write a pre-commit rule that blocks shipping until a real tie is tested.",
+   "voice": "am_puck",
+   "narration_text": "This is Musinique. The architectural point — the same weights that wrote the sort key are the only weights auditing it — reframed why 'looks good' means nothing. I want to build an audit that has access to something Claude can't see. For my leaderboard sorting by score descending, help me: (1) construct the tie-case rows Claude's unique-value tests never included; (2) define the independent oracle or hand-computed expected order I check against; (3) write a pre-commit rule that blocks shipping until a real tie is tested.",
    "shot": {
     "type": "CARD",
     "source": "remotion",
@@ -53,7 +53,7 @@
      "version": "1",
      "props": {
       "command": "The architectural point — the same weights that wrote the sort key are the only weights auditing it — reframed why 'looks good' means nothing. I want to build an audit that has access to something Claude can't see. For my leaderboard sorting by score descending, help me: (1) construct the tie-case rows Claude's unique-value tests never included; (2) define the independent oracle or hand-computed expected order I check against; (3) write a pre-commit rule that blocks shipping until a real tie is tested.",
-      "topic": "CLAUDE CODE",
+      "topic": "MUSINIQUE · CLAUDE CODE",
       "segment": "Why the Code Runs Fine and",
       "greeting": "Shalom, Musinique",
       "runningText": "explaining the mechanism…",
@@ -70,7 +70,7 @@
    },
    "estimated_duration_s": 9.0,
    "audio_file": "mp3/beat-NBB00.mp3",
-   "actual_duration_s": 4.821
+   "actual_duration_s": 27.73
   },
   {
    "beat_id": "B01",
@@ -88,20 +88,20 @@
     "sub": "the gap Claude cannot see"
    },
    "new_visual_element": "[TITLE] compiled, passed, wrong",
-   "audio_file": "../code-runs-ships-wrong/mp3/beat-B01.mp3",
-   "actual_duration_s": 18.94,
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 14.66,
    "locked": true,
    "source_clip": "../code-runs-ships-wrong/clips/B01.mp4",
    "source_audio": "../code-runs-ships-wrong/mp3/beat-B01.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01B",
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "A release campaign is a build problem. You have a deadline, a set of deliverables — pitch email, social copy, playlist submissions, distributor forms — and a sequence that matters. The same approach that ships software on schedule ships music on schedule. The machine doesn't get tired on Friday before a Monday release.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -121,7 +121,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 17.0
   },
   {
    "beat_id": "B02",
@@ -139,13 +141,13 @@
     "sub": "why was it still wrong?"
    },
    "new_visual_element": "[CARD] THE QUESTION",
-   "audio_file": "../code-runs-ships-wrong/mp3/beat-B02.mp3",
-   "actual_duration_s": 12.77,
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 10.99,
    "locked": true,
    "source_clip": "../code-runs-ships-wrong/clips/B02.mp4",
    "source_audio": "../code-runs-ships-wrong/mp3/beat-B02.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B03",
@@ -169,13 +171,13 @@
     }
    },
    "new_visual_element": "[GRAPHIC] Claude's pattern-completion column",
-   "audio_file": "../code-runs-ships-wrong/mp3/beat-B03.mp3",
-   "actual_duration_s": 15.7,
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 13.76,
    "locked": true,
    "source_clip": "../code-runs-ships-wrong/clips/B03.mp4",
    "source_audio": "../code-runs-ships-wrong/mp3/beat-B03.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B04",
@@ -190,13 +192,13 @@
    "scene_description": "a developer at a monitor, a clean code block on screen, the developer nodding slightly — the plausibility-as-truth moment; editorial flat treatment",
    "image_prompt": "B04, a developer staring at a screen showing a clean sorting function in Python, leaning forward slightly, expression of confident recognition — they see the pattern and it looks right, editorial flat desaturated treatment, warm interior light, no text overlays",
    "new_visual_element": "[STILL ai] the plausibility-as-truth moment",
-   "audio_file": "../code-runs-ships-wrong/mp3/beat-B04.mp3",
-   "actual_duration_s": 13.82,
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 11.01,
    "locked": true,
    "source_clip": "../code-runs-ships-wrong/clips/B04.mp4",
    "source_audio": "../code-runs-ships-wrong/mp3/beat-B04.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B05",
@@ -221,13 +223,13 @@
     }
    },
    "new_visual_element": "[GRAPHIC] same weights: write = audit",
-   "audio_file": "../code-runs-ships-wrong/mp3/beat-B05.mp3",
-   "actual_duration_s": 17.63,
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 16.28,
    "locked": true,
    "source_clip": "../code-runs-ships-wrong/clips/B05.mp4",
    "source_audio": "../code-runs-ships-wrong/mp3/beat-B05.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B06",
@@ -245,13 +247,13 @@
     "sub": "the spec that lives in your head"
    },
    "new_visual_element": "[CARD] what an audit requires",
-   "audio_file": "../code-runs-ships-wrong/mp3/beat-B06.mp3",
-   "actual_duration_s": 17.45,
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 14.83,
    "locked": true,
    "source_clip": "../code-runs-ships-wrong/clips/B06.mp4",
    "source_audio": "../code-runs-ships-wrong/mp3/beat-B06.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B07",
@@ -276,13 +278,13 @@
     }
    },
    "new_visual_element": "[GRAPHIC] Priya's leaderboard timeline",
-   "audio_file": "../code-runs-ships-wrong/mp3/beat-B07.mp3",
-   "actual_duration_s": 20.3,
+   "audio_file": "mp3/beat-B07.mp3",
+   "actual_duration_s": 17.32,
    "locked": true,
    "source_clip": "../code-runs-ships-wrong/clips/B07.mp4",
    "source_audio": "../code-runs-ships-wrong/mp3/beat-B07.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B08",
@@ -307,13 +309,13 @@
     }
    },
    "new_visual_element": "[GRAPHIC] test set vs real data gap",
-   "audio_file": "../code-runs-ships-wrong/mp3/beat-B08.mp3",
-   "actual_duration_s": 15.46,
+   "audio_file": "mp3/beat-B08.mp3",
+   "actual_duration_s": 14.29,
    "locked": true,
    "source_clip": "../code-runs-ships-wrong/clips/B08.mp4",
    "source_audio": "../code-runs-ships-wrong/mp3/beat-B08.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B09",
@@ -338,13 +340,13 @@
     }
    },
    "new_visual_element": "[GRAPHIC] solve speed vs verification capacity",
-   "audio_file": "../code-runs-ships-wrong/mp3/beat-B09.mp3",
-   "actual_duration_s": 16.12,
+   "audio_file": "mp3/beat-B09.mp3",
+   "actual_duration_s": 13.82,
    "locked": true,
    "source_clip": "../code-runs-ships-wrong/clips/B09.mp4",
    "source_audio": "../code-runs-ships-wrong/mp3/beat-B09.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B10",
@@ -362,13 +364,13 @@
     "sub": "if you can name it, you'll exercise it"
    },
    "new_visual_element": "[CARD] name the supervisory move",
-   "audio_file": "../code-runs-ships-wrong/mp3/beat-B10.mp3",
-   "actual_duration_s": 17.14,
+   "audio_file": "mp3/beat-B10.mp3",
+   "actual_duration_s": 14.1,
    "locked": true,
    "source_clip": "../code-runs-ships-wrong/clips/B10.mp4",
    "source_audio": "../code-runs-ships-wrong/mp3/beat-B10.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B11",
@@ -392,13 +394,13 @@
     }
    },
    "new_visual_element": "[GRAPHIC] Run Two: four supervisory moves",
-   "audio_file": "../code-runs-ships-wrong/mp3/beat-B11.mp3",
-   "actual_duration_s": 30.77,
+   "audio_file": "mp3/beat-B11.mp3",
+   "actual_duration_s": 21.63,
    "locked": true,
    "source_clip": "../code-runs-ships-wrong/clips/B11.mp4",
    "source_audio": "../code-runs-ships-wrong/mp3/beat-B11.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B12",
@@ -416,20 +418,20 @@
     "sub": "CLAUDE CODE"
    },
    "new_visual_element": "[CARD] endcard — the model is fine",
-   "audio_file": "../code-runs-ships-wrong/mp3/beat-B12.mp3",
-   "actual_duration_s": 12.424,
+   "audio_file": "mp3/beat-B12.mp3",
+   "actual_duration_s": 11.33,
    "locked": true,
    "source_clip": "../code-runs-ships-wrong/clips/B12.mp4",
    "source_audio": "../code-runs-ships-wrong/mp3/beat-B12.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "NBB01",
    "act": "VERDICT",
    "title": "Liam verdict — ClaudeVerdictArtifact",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": "Let's recap with Claude. Here's what the body just demonstrated. Run two. Before pasting anything, Seth does problem formulation: the spec mentions ties, so the test set needs a tie. He adds one. Claude returns the tuple key. He does plausibility auditing: Bell before Adams — wrong. He names the failure specifically: Bell came back before Adams, spec requires Adams first on a GPA tie. Claude fixes it. Same Claude. Same starting output. One small supervisory move and the bug doesn't ship. The model is fine. The supervision is missing. The dangerous middle is the whole region where a task presents as pattern work and requires judgment instead. It is most of the bugs you will ever ship.",
    "shot": {
     "type": "CARD",
@@ -456,7 +458,7 @@
    },
    "estimated_duration_s": 30.0,
    "audio_file": "mp3/beat-NBB01.mp3",
-   "actual_duration_s": 34.88,
+   "actual_duration_s": 35.37,
    "lead_silence_s": 0.5
   },
   {
@@ -464,7 +466,7 @@
    "act": "YOUR TURN",
    "title": "Your turn handoff — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": "Take this prompt, run it on your own — pick any cancer type or clinical scenario you know about and ask how this mechanism applies there.",
    "shot": {
     "type": "CARD",
@@ -476,7 +478,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Why the Code Runs Fine and Still Ships Wrong] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "CLAUDE CODE",
+      "topic": "MUSINIQUE · CLAUDE CODE",
       "segment": "Why the Code Runs Fine and",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -493,7 +495,7 @@
    },
    "estimated_duration_s": 8.0,
    "audio_file": "mp3/beat-NBB02.mp3",
-   "actual_duration_s": 7.765
+   "actual_duration_s": 7.81
   },
   {
    "beat_id": "NBB03",
@@ -522,10 +524,10 @@
    "estimated_duration_s": 6.0,
    "audio_file": "mp3/beat-NBB03.mp3",
    "silence_s": 6.0,
-   "actual_duration_s": 6.03,
+   "actual_duration_s": 2.5,
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "Why the Code Runs Fine and Still Ships Wrong"
+   "voice": "am_puck",
+   "narration_text": "Why the Code Runs Fine and Still Ships Wrong. From Musinique."
   }
  ]
 }

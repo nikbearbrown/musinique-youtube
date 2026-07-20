@@ -24,7 +24,7 @@
    "swap the outro to the Claude outro from AUTHOR.MD :: NikBearBrown",
    "then build audience-namespaced (audio in the new voice, scenes in the new palette)"
   ],
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "build": {
    "at": "2026-07-16T02:15:34",
    "cut": "master",
@@ -56,14 +56,16 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOpen",
+     "pattern": "ClaudeComposerAsk",
      "props": {
-      "topic": "CLAUDE CODE FOR STUDENTS",
-      "lines": [
-       "Nik Bear Brown",
+      "command": "Run the Three-Pass Verification Protocol with Claude Code",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR STUDENTS",
+      "segment": "Run the Three-Pass Verification Protocol with Claude Code",
+      "greeting": "This is Musinique.",
+      "runningText": "working…",
+      "output": [
        "Three-Pass Verification, taken apart."
-      ],
-      "greeting": "Privet, Musinique"
+      ]
      },
      "rendered": {
       "out": "media/B00.mp4",
@@ -73,7 +75,7 @@
    },
    "estimated_duration_s": 8,
    "audio_file": "mp3/beat-B00.mp3",
-   "actual_duration_s": 8.11,
+   "actual_duration_s": 10.15,
    "build": {
     "status": "VIDEO",
     "src": "media/B00.mp4",
@@ -94,7 +96,7 @@
    },
    "estimated_duration_s": 12,
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 11.61,
+   "actual_duration_s": 13.06,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -131,7 +133,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 17.43
   },
   {
    "beat_id": "B02",
@@ -142,10 +146,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Run three-pass verification on app tracker:\\n  Pass 1: happy path — does it run?\\n  Pass 2: edge cases — empty state, zero apps\\n  Pass 3: read SDD user needs aloud against running build\\n  Report: PASS/FAIL per pass with evidence\"",
-      "topic": "CLAUDE CODE FOR STUDENTS",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR STUDENTS",
       "segment": "VERIFICATION PROTOCOL",
       "runningText": "running three-pass protocol…"
      },
@@ -157,7 +161,7 @@
    },
    "estimated_duration_s": 12,
    "audio_file": "mp3/beat-B02.mp3",
-   "actual_duration_s": 9.05,
+   "actual_duration_s": 10.01,
    "build": {
     "status": "VIDEO",
     "src": "media/B02.mp4",
@@ -176,12 +180,12 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownCodeBlock",
+     "pattern": "ClaudeCodeBeat",
      "props": {
-      "filename": "verification_report.md",
       "topic": "CLAUDE CODE FOR STUDENTS",
       "segment": "VERIFICATION PROTOCOL",
-      "code": "# Verification Report — App Tracker\n\n## Pass 1: Functional (happy path)\nResult: PASS\nEvidence: all 9 tests pass, app loads, CRUD works\n\n## Pass 2: Edge Cases\nResult: FAIL\nEvidence: empty state (0 apps) shows TypeError\n  instead of empty list message\n\n## Pass 3: SDD User Needs (read aloud)\nResult: FAIL\nSDD need: 'see all applications at a glance'\nCurrent UI: list is 2 clicks deep (Dashboard -> Apps -> List)\nThe need is not satisfied by the running build.\n\nRecommendation: loop back to Pass 1 after fixes."
+      "code": "# Verification Report — App Tracker\n\n## Pass 1: Functional (happy path)\nResult: PASS\nEvidence: all 9 tests pass, app loads, CRUD works\n\n## Pass 2: Edge Cases\nResult: FAIL\nEvidence: empty state (0 apps) shows TypeError\n  instead of empty list message\n\n## Pass 3: SDD User Needs (read aloud)\nResult: FAIL\nSDD need: 'see all applications at a glance'\nCurrent UI: list is 2 clicks deep (Dashboard -> Apps -> List)\nThe need is not satisfied by the running build.\n\nRecommendation: loop back to Pass 1 after fixes.",
+      "title": "verification_report.md"
      },
      "rendered": {
       "out": "media/B03.mp4",
@@ -191,7 +195,7 @@
    },
    "estimated_duration_s": 14,
    "audio_file": "mp3/beat-B03.mp3",
-   "actual_duration_s": 14.44,
+   "actual_duration_s": 15.87,
    "build": {
     "status": "VIDEO",
     "src": "media/B03.mp4",
@@ -212,7 +216,7 @@
    },
    "estimated_duration_s": 20,
    "audio_file": "mp3/beat-B04.mp3",
-   "actual_duration_s": 13.61,
+   "actual_duration_s": 15.17,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -233,10 +237,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Amend SDD: remove 'at a glance' user need.\\nRe-run Pass 3 against amended SDD.\\nDoes Pass 3 now pass? Show which needs remain.\"",
-      "topic": "CLAUDE CODE FOR STUDENTS",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR STUDENTS",
       "segment": "VERIFICATION PROTOCOL",
       "runningText": "re-running Pass 3…"
      },
@@ -248,7 +252,7 @@
    },
    "estimated_duration_s": 10,
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 9.0,
+   "actual_duration_s": 10.18,
    "build": {
     "status": "VIDEO",
     "src": "media/B05.mp4",
@@ -269,7 +273,7 @@
    },
    "estimated_duration_s": 14,
    "audio_file": "mp3/beat-B06.mp3",
-   "actual_duration_s": 14.49,
+   "actual_duration_s": 16.09,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -292,7 +296,7 @@
    },
    "estimated_duration_s": 12,
    "audio_file": "mp3/beat-B07.mp3",
-   "actual_duration_s": 12.48,
+   "actual_duration_s": 13.93,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -315,7 +319,7 @@
    },
    "estimated_duration_s": 8,
    "audio_file": "mp3/beat-B08.mp3",
-   "actual_duration_s": 3.5,
+   "actual_duration_s": 2.82,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -330,13 +334,13 @@
   {
    "beat_id": "B09",
    "act": "OUTRO",
-   "narration_text": "Nik Bear Brown. Build it with a CLI. Then take it apart. At nikbearbrown.com.",
+   "narration_text": "Musinique. Build it with a CLI. Then take it apart. At nikbearbrown.com.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOutro",
+     "pattern": "ClaudeTitleOutro",
      "props": {
       "brand": "Nik Bear Brown",
       "tagline": "Brutalist + Educational AI",
@@ -351,7 +355,7 @@
    },
    "estimated_duration_s": 8,
    "audio_file": "mp3/beat-B09.mp3",
-   "actual_duration_s": 5.38,
+   "actual_duration_s": 5.27,
    "build": {
     "status": "VIDEO",
     "src": "media/B09.mp4",

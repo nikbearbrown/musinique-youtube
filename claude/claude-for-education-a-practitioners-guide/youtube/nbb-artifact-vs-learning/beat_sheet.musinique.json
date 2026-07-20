@@ -6,7 +6,7 @@
   "topic": "AI IN EDUCATION",
   "audience": "NikBearBrown",
   "engine": "kokoro",
-  "voice": "am_onyx",
+  "voice": "am_puck",
   "palette": "claude",
   "register": "Baldwin",
   "derived_from": "beat_sheet.json",
@@ -31,10 +31,10 @@
   "old_outro_beats": [],
   "built_at": "2026-07-16T23:39:21.506091",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
-  "voice_kokoro": "am_onyx"
+  "voice_kokoro": "am_puck"
  },
  "beats": [
   {
@@ -42,8 +42,8 @@
    "act": "COLD OPEN",
    "title": "Liam cold open — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "This is Liam for Musinique. The Ms. Park water-cycle case, where twenty-two of twenty-eight students left the 'why rain falls as liquid' question blank, is exactly my fear for my cellular-respiration plan. The artifact covered the topic but never named the outcome. Can you: (1) state the specific understanding my ATP lesson should produce, phrased as something a student must explain, not recite, (2) identify which of my activities only produce recitation, and (3) add one exit-ticket question that would reveal whether the real understanding happened before I discover it on a test?",
+   "voice": "am_puck",
+   "narration_text": "This is Musinique. The Ms. Park water-cycle case, where twenty-two of twenty-eight students left the 'why rain falls as liquid' question blank, is exactly my fear for my cellular-respiration plan. The artifact covered the topic but never named the outcome. Can you: (1) state the specific understanding my ATP lesson should produce, phrased as something a student must explain, not recite, (2) identify which of my activities only produce recitation, and (3) add one exit-ticket question that would reveal whether the real understanding happened before I discover it on a test?",
    "shot": {
     "type": "CARD",
     "source": "remotion",
@@ -54,7 +54,7 @@
      "version": "1",
      "props": {
       "command": "The Ms. Park water-cycle case, where twenty-two of twenty-eight students left the 'why rain falls as liquid' question blank, is exactly my fear for my cellular-respiration plan. The artifact covered the topic but never named the outcome. Can you: (1) state the specific understanding my ATP lesson should produce, phrased as something a student must explain, not recite, (2) identify which of my activities only produce recitation, and (3) add one exit-ticket question that would reveal whether the real understanding happened before I discover it on a test?",
-      "topic": "AI IN EDUCATION",
+      "topic": "MUSINIQUE · AI IN EDUCATION",
       "segment": "Why a Polished Lesson Plan Can",
       "greeting": "Hola, Musinique",
       "runningText": "explaining the mechanism…",
@@ -71,7 +71,7 @@
    },
    "estimated_duration_s": 9.0,
    "audio_file": "mp3/beat-NBB00.mp3",
-   "actual_duration_s": 8.0
+   "actual_duration_s": 32.53
   },
   {
    "beat_id": "B01",
@@ -89,20 +89,20 @@
     "sub": "the artifact is not the learning"
    },
    "new_visual_element": "[TITLE] polished plan, no learning",
-   "audio_file": "../artifact-vs-learning/mp3/beat-B01.mp3",
-   "actual_duration_s": 10.95,
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 9.62,
    "locked": true,
    "source_clip": "../artifact-vs-learning/clips/B01.mp4",
    "source_audio": "../artifact-vs-learning/mp3/beat-B01.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01B",
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "The same scaffolding principle that keeps a student from outsourcing their thinking protects a musician from outsourcing their voice. When Claude drafts, you judge. When Claude suggests a pitch angle, you decide if it's true. The tool that flags 'this is AI doing your creative work for you' is the tool that keeps your music yours.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -122,7 +122,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 17.28
   },
   {
    "beat_id": "B02",
@@ -137,13 +139,13 @@
    "scene_description": "A biology classroom, students at desks completing a worksheet; one student's paper has 'ATP = adenosine triphosphate' written neatly but the student stares blankly ahead; editorial newsprint treatment",
    "image_prompt": "B02, biology classroom, high school students sitting at desks filling in a worksheet, one student has written 'ATP = adenosine triphosphate' neatly on paper but stares blankly ahead, warm classroom light, editorial documentary style, desaturated, flat",
    "new_visual_element": "[STILL] students complete work, blank look on the exit question",
-   "audio_file": "../artifact-vs-learning/mp3/beat-B02.mp3",
-   "actual_duration_s": 14.99,
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 13.53,
    "locked": true,
    "source_clip": "../artifact-vs-learning/clips/B02.mp4",
    "source_audio": "../artifact-vs-learning/mp3/beat-B02.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B03",
@@ -168,13 +170,13 @@
     }
    },
    "new_visual_element": "[GRAPHIC] polished plan beside the blank exit ticket",
-   "audio_file": "../artifact-vs-learning/mp3/beat-B03.mp3",
-   "actual_duration_s": 5.62,
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 5.8,
    "locked": true,
    "source_clip": "../artifact-vs-learning/clips/B03.mp4",
    "source_audio": "../artifact-vs-learning/mp3/beat-B03.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B04",
@@ -191,13 +193,13 @@
     "copy": "A polished plan should predict understanding. Here it didn't. Why?"
    },
    "new_visual_element": "[CARD] THE QUESTION on screen",
-   "audio_file": "../artifact-vs-learning/mp3/beat-B04.mp3",
-   "actual_duration_s": 5.85,
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 5.72,
    "locked": true,
    "source_clip": "../artifact-vs-learning/clips/B04.mp4",
    "source_audio": "../artifact-vs-learning/mp3/beat-B04.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B05",
@@ -221,13 +223,13 @@
     }
    },
    "new_visual_element": "[GRAPHIC] the naive chain: better plan -> student learning",
-   "audio_file": "../artifact-vs-learning/mp3/beat-B05.mp3",
-   "actual_duration_s": 10.63,
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 9.62,
    "locked": true,
    "source_clip": "../artifact-vs-learning/clips/B05.mp4",
    "source_audio": "../artifact-vs-learning/mp3/beat-B05.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B06",
@@ -252,13 +254,13 @@
     }
    },
    "new_visual_element": "[GRAPHIC] three things Claude cannot access",
-   "audio_file": "../artifact-vs-learning/mp3/beat-B06.mp3",
-   "actual_duration_s": 11.0,
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 10.15,
    "locked": true,
    "source_clip": "../artifact-vs-learning/clips/B06.mp4",
    "source_audio": "../artifact-vs-learning/mp3/beat-B06.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B07",
@@ -275,13 +277,13 @@
     "copy": "Claude optimizes for artifact quality"
    },
    "new_visual_element": "[CARD] section — Claude optimizes for artifact quality",
-   "audio_file": "../artifact-vs-learning/mp3/beat-B07.mp3",
-   "actual_duration_s": 14.86,
+   "audio_file": "mp3/beat-B07.mp3",
+   "actual_duration_s": 13.1,
    "locked": true,
    "source_clip": "../artifact-vs-learning/clips/B07.mp4",
    "source_audio": "../artifact-vs-learning/mp3/beat-B07.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B08",
@@ -305,13 +307,13 @@
     }
    },
    "new_visual_element": "[GRAPHIC] Park's plan with all activities ticked",
-   "audio_file": "../artifact-vs-learning/mp3/beat-B08.mp3",
-   "actual_duration_s": 13.45,
+   "audio_file": "mp3/beat-B08.mp3",
+   "actual_duration_s": 12.1,
    "locked": true,
    "source_clip": "../artifact-vs-learning/clips/B08.mp4",
    "source_audio": "../artifact-vs-learning/mp3/beat-B08.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B09",
@@ -336,13 +338,13 @@
     }
    },
    "new_visual_element": "[GRAPHIC] 22 of 28 student squares blank",
-   "audio_file": "../artifact-vs-learning/mp3/beat-B09.mp3",
-   "actual_duration_s": 12.67,
+   "audio_file": "mp3/beat-B09.mp3",
+   "actual_duration_s": 10.35,
    "locked": true,
    "source_clip": "../artifact-vs-learning/clips/B09.mp4",
    "source_audio": "../artifact-vs-learning/mp3/beat-B09.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B10",
@@ -360,13 +362,13 @@
     "attribution": "— the artifact vs. learning distinction"
    },
    "new_visual_element": "[CARD] quote — proposal vs. learning",
-   "audio_file": "../artifact-vs-learning/mp3/beat-B10.mp3",
-   "actual_duration_s": 9.14,
+   "audio_file": "mp3/beat-B10.mp3",
+   "actual_duration_s": 9.39,
    "locked": true,
    "source_clip": "../artifact-vs-learning/clips/B10.mp4",
    "source_audio": "../artifact-vs-learning/mp3/beat-B10.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B11",
@@ -391,13 +393,13 @@
     }
    },
    "new_visual_element": "[GRAPHIC] vague outcome vs. observable outcome",
-   "audio_file": "../artifact-vs-learning/mp3/beat-B11.mp3",
-   "actual_duration_s": 15.36,
+   "audio_file": "mp3/beat-B11.mp3",
+   "actual_duration_s": 12.03,
    "locked": true,
    "source_clip": "../artifact-vs-learning/clips/B11.mp4",
    "source_audio": "../artifact-vs-learning/mp3/beat-B11.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B12",
@@ -421,13 +423,13 @@
     }
    },
    "new_visual_element": "[GRAPHIC] repaired chain with outcome first",
-   "audio_file": "../artifact-vs-learning/mp3/beat-B12.mp3",
-   "actual_duration_s": 12.38,
+   "audio_file": "mp3/beat-B12.mp3",
+   "actual_duration_s": 10.15,
    "locked": true,
    "source_clip": "../artifact-vs-learning/clips/B12.mp4",
    "source_audio": "../artifact-vs-learning/mp3/beat-B12.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B13",
@@ -445,20 +447,20 @@
     "sub": "Name the outcome first. AI IN EDUCATION"
    },
    "new_visual_element": "[CARD] endcard — artifact quality vs. learning",
-   "audio_file": "../artifact-vs-learning/mp3/beat-B13.mp3",
-   "actual_duration_s": 8.152,
+   "audio_file": "mp3/beat-B13.mp3",
+   "actual_duration_s": 7.02,
    "locked": true,
    "source_clip": "../artifact-vs-learning/clips/B13.mp4",
    "source_audio": "../artifact-vs-learning/mp3/beat-B13.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "NBB01",
    "act": "VERDICT",
    "title": "Liam verdict — ClaudeVerdictArtifact",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": "Let's recap with Claude. Here's what the body just demonstrated. When you bring that outcome to Claude, it becomes a backward-design partner. When you skip it, you get coverage without transfer. The artifact looks the same either way. The learning does not. The artifact and the learning are not the same thing. Claude can make one fast. Only you can ask whether it serves the other.",
    "shot": {
     "type": "CARD",
@@ -485,7 +487,7 @@
    },
    "estimated_duration_s": 30.0,
    "audio_file": "mp3/beat-NBB01.mp3",
-   "actual_duration_s": 17.365,
+   "actual_duration_s": 18.33,
    "lead_silence_s": 0.5
   },
   {
@@ -493,7 +495,7 @@
    "act": "YOUR TURN",
    "title": "Your turn handoff — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": "Take this prompt, run it on your own — pick any cancer type or clinical scenario you know about and ask how this mechanism applies there.",
    "shot": {
     "type": "CARD",
@@ -505,7 +507,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Why a Polished Lesson Plan Can Fail Every Student in the Room] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "AI IN EDUCATION",
+      "topic": "MUSINIQUE · AI IN EDUCATION",
       "segment": "Why a Polished Lesson Plan Can",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -522,7 +524,7 @@
    },
    "estimated_duration_s": 8.0,
    "audio_file": "mp3/beat-NBB02.mp3",
-   "actual_duration_s": 7.765
+   "actual_duration_s": 7.81
   },
   {
    "beat_id": "NBB03",
@@ -551,10 +553,10 @@
    "estimated_duration_s": 6.0,
    "audio_file": "mp3/beat-NBB03.mp3",
    "silence_s": 6.0,
-   "actual_duration_s": 6.03,
+   "actual_duration_s": 4.1,
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "Why a Polished Lesson Plan Can Fail Every Student in the Room"
+   "voice": "am_puck",
+   "narration_text": "Why a Polished Lesson Plan Can Fail Every Student in the Room. From Musinique."
   }
  ]
 }

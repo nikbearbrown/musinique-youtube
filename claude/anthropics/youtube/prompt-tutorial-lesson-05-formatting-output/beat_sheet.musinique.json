@@ -3,13 +3,13 @@
   "slug": "prompt-tutorial-lesson-05-formatting-output",
   "title": "Prefill: Control Claude's Output Format",
   "topic": "PROMPT ENGINEERING · LESSON 5",
-  "voice_kokoro": "am_onyx",
+  "voice_kokoro": "am_puck",
   "engine": "kokoro",
   "style_preset": "teardown",
   "palette": "claude",
   "register": "Baldwin",
   "aspect_ratio": "16:9",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "folderLabel": "@Musinique",
   "audience": "claude-liam",
   "sources": [
@@ -25,14 +25,14 @@
   },
   "brand": "claude-musinique",
   "persona": "Musinique",
-  "voice": "am_onyx",
+  "voice": "am_puck",
   "derived_from": "beat_sheet.json"
  },
  "beats": [
   {
    "beat_id": "B00",
    "beat_type": "cold_open",
-   "narration_text": "This is Liam for Musinique. Prefilling Claude's response to lock its output format is a trick I want to actually master, not just admire. Help me: (1) explain how starting the assistant turn with an opening brace or a tag forces structured output and suppresses preamble; (2) write a prompt-plus-prefill pair that guarantees valid JSON with three named keys; (3) show me one case where a prefill backfires — the model breaks format anyway or the prefill contradicts the instruction — and how I'd repair it.",
+   "narration_text": "This is Musinique. Prefilling Claude's response to lock its output format is a trick I want to actually master, not just admire. Help me: (1) explain how starting the assistant turn with an opening brace or a tag forces structured output and suppresses preamble; (2) write a prompt-plus-prefill pair that guarantees valid JSON with three named keys; (3) show me one case where a prefill backfires — the model breaks format anyway or the prefill contradicts the instruction — and how I'd repair it.",
    "estimated_duration_s": 22,
    "shot": {
     "scene_type": "ClaudeComposerAsk",
@@ -41,7 +41,7 @@
      "props": {
       "greeting": "Namaste, Musinique",
       "command": "Prefilling Claude's response to lock its output format is a trick I want to actually master, not just admire. Help me: (1) explain how starting the assistant turn with an opening brace or a tag forces structured output and suppresses preamble; (2) write a prompt-plus-prefill pair that guarantees valid JSON with three named keys; (3) show me one case where a prefill backfires — the model breaks format anyway or the prefill contradicts the instruction — and how I'd repair it.",
-      "topic": "PREFILL OUTPUT CONTROL",
+      "topic": "MUSINIQUE · PREFILL OUTPUT CONTROL",
       "segment": "Cold Open",
       "runningText": "Analyzing: Anthropic Prompt Tutorial Ch. 5",
       "output": [
@@ -62,7 +62,7 @@
     }
    },
    "audio_file": "mp3/beat-B00.mp3",
-   "actual_duration_s": 17.9,
+   "actual_duration_s": 27.16,
    "build": {
     "status": "VIDEO",
     "src": "media/B00.mp4",
@@ -70,7 +70,7 @@
     "at": "2026-07-17T00:03:32"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01",
@@ -99,7 +99,7 @@
     }
    },
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 17.77,
+   "actual_duration_s": 18.54,
    "build": {
     "status": "VIDEO",
     "src": "media/B01.mp4",
@@ -107,7 +107,7 @@
     "at": "2026-07-17T00:03:32"
    },
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "lead_silence_s": 0.5
   },
   {
@@ -115,7 +115,7 @@
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "Prompt design is the skill the platform doesn't want you to have, because a musician who can write a precise prompt is a musician who doesn't need to buy someone else's pre-packaged workflow. Every prompt in this video is a template you can adapt — paste it, swap the specifics, run it on your own catalog. The instruction is the tool.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -135,7 +135,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 17.15
   },
   {
    "beat_id": "B02",
@@ -172,7 +174,7 @@
     "at": "2026-07-17T00:03:32"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B03",
@@ -209,7 +211,7 @@
     "at": "2026-07-17T00:03:32"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B04",
@@ -246,7 +248,7 @@
     "at": "2026-07-17T00:03:32"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B05",
@@ -260,7 +262,7 @@
      "props": {
       "greeting": "Your turn.",
       "command": "Write a JSON object with keys title, summary, and tags for this article: [paste text]. Prefill with {",
-      "topic": "TRY THIS NOW",
+      "topic": "MUSINIQUE · TRY THIS NOW",
       "segment": "Prefill: Control Claude's Output Format",
       "runningText": "paste this into Claude…",
       "output": [
@@ -280,7 +282,7 @@
     }
    },
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 27.58,
+   "actual_duration_s": 26.79,
    "build": {
     "status": "VIDEO",
     "src": "media/B05.mp4",
@@ -288,12 +290,12 @@
     "at": "2026-07-17T00:03:32"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B06",
    "beat_type": "outro",
-   "narration_text": "Prefill: Control Claude's Output Format",
+   "narration_text": "Prefill: Control Claude's Output Format. From Musinique.",
    "estimated_duration_s": 6,
    "shot": {
     "scene_type": "ClaudeTitleOutro",
@@ -301,7 +303,7 @@
      "pattern": "ClaudeTitleOutro",
      "props": {
       "title": "Prefill: Control Claude's Output Format",
-      "handle": "@NikBearBrown",
+      "handle": "@Musinique",
       "subline": "Anthropic Prompt Tutorial · Lesson 5"
      },
      "rendered": {
@@ -318,7 +320,8 @@
     "at": "2026-07-17T00:03:32"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 2.86
   }
  ]
 }

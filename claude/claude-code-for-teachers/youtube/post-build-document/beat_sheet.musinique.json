@@ -13,7 +13,7 @@
   "ground": "#FFFFFF",
   "total_estimated_duration_seconds": 118.0,
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "register": "Baldwin",
   "folderLabel": "@Musinique",
@@ -34,7 +34,9 @@
    },
    "engine": "kokoro",
    "voice": "am_puck",
-   "narration_text": "This is Musinique. "
+   "narration_text": "This is Musinique. ",
+   "audio_file": "mp3/beat-B00.mp3",
+   "actual_duration_s": 1.15
   },
   {
    "beat_id": "B01",
@@ -75,7 +77,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 19.52
   },
   {
    "beat_id": "B02",
@@ -87,10 +91,10 @@
     "source": null,
     "motion": "hold",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Generate post-build document for sorting simulator.\\n  Five sections:\\n  (1) What was built (artifact + deployed path)\\n  (2) Surface-routing (Claude tasks vs human-only)\\n  (3) Delegation log (gate checks run, errors caught)\\n  (4) Verification evidence (checks passed, fixes)\\n  (5) Reflection (one concrete change next build)\"",
-      "topic": "CLAUDE CODE FOR TEACHERS",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR TEACHERS",
       "segment": "POST-BUILD DOCUMENT",
       "runningText": "generating document…"
      }
@@ -110,12 +114,12 @@
     "source": null,
     "motion": "hold",
     "remotion": {
-     "pattern": "NikBearBrownCodeBlock",
+     "pattern": "ClaudeCodeBeat",
      "props": {
-      "filename": "post-build.md",
       "segment": "POST-BUILD DOCUMENT",
       "topic": "CLAUDE CODE FOR TEACHERS",
-      "code": "# Post-Build Document — Sorting Simulator\n\n## 1. What Was Built\nindex.html — single-file sorting simulator\nDeployed: rsync → school.edu/cs/sorting/\n\n## 2. Surface-Routing\nClaude: HTML/CSS/JS generation, color application\nHuman-only: DESIGN.md palette decisions,\n  pedagogical annotation content, final QA\n\n## 3. Delegation Log\nGate check: lint-html exit 0 ✓\nError caught: Google Fonts CDN blocked → inlined\n\n## 4. Verification Evidence\nFunctional: all 5 checks passed\nEnvironment: 1 failure caught and fixed pre-deploy\n\n## 5. Reflection\nNext build: write DESIGN.md contrast requirement\nbefore generation, not after."
+      "code": "# Post-Build Document — Sorting Simulator\n\n## 1. What Was Built\nindex.html — single-file sorting simulator\nDeployed: rsync → school.edu/cs/sorting/\n\n## 2. Surface-Routing\nClaude: HTML/CSS/JS generation, color application\nHuman-only: DESIGN.md palette decisions,\n  pedagogical annotation content, final QA\n\n## 3. Delegation Log\nGate check: lint-html exit 0 ✓\nError caught: Google Fonts CDN blocked → inlined\n\n## 4. Verification Evidence\nFunctional: all 5 checks passed\nEnvironment: 1 failure caught and fixed pre-deploy\n\n## 5. Reflection\nNext build: write DESIGN.md contrast requirement\nbefore generation, not after.",
+      "title": "post-build.md"
      }
     }
    },
@@ -147,10 +151,10 @@
     "source": null,
     "motion": "hold",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Score the delegation log on four dimensions:\\n  task routed, gate check run,\\n  error corrected, verification evidence.\\n  Does the log score all four?\"",
-      "topic": "CLAUDE CODE FOR TEACHERS",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR TEACHERS",
       "segment": "POST-BUILD DOCUMENT",
       "runningText": "scoring log…"
      }
@@ -212,18 +216,18 @@
     "source": null,
     "motion": "hold",
     "remotion": {
-     "pattern": "NikBearBrownOutro",
+     "pattern": "ClaudeTitleOutro",
      "props": {
       "brand": "Nik Bear Brown",
       "tagline": "Brutalist + Educational AI",
-      "handle": "@NikBearBrown",
+      "handle": "@Musinique",
       "url": "nikbearbrown.com"
      }
     }
    },
    "engine": "kokoro",
    "voice": "am_puck",
-   "narration_text": ""
+   "narration_text": "Like and subscribe for more Claude Code for Teachers. From Musinique."
   }
  ]
 }

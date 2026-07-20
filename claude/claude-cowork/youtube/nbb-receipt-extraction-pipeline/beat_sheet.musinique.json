@@ -6,7 +6,7 @@
   "topic": "CLAUDE COWORK",
   "audience": "NikBearBrown",
   "engine": "kokoro",
-  "voice": "am_onyx",
+  "voice": "am_puck",
   "palette": "claude",
   "register": "Baldwin",
   "derived_from": "beat_sheet.json",
@@ -28,10 +28,10 @@
   "old_outro_beats": [],
   "built_at": "2026-07-16T23:10:49.441129",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
-  "voice_kokoro": "am_onyx"
+  "voice_kokoro": "am_puck"
  },
  "beats": [
   {
@@ -39,8 +39,8 @@
    "act": "COLD OPEN",
    "title": "Liam cold open — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "This is Liam for Musinique. The side-by-side sold me: the no-schema pass raised zero exception flags while the schema-driven pass surfaced a foreign currency, a handwritten total, and an ambiguous line item, and the over-500-dollar rule routed high-value receipts to a human. I want that on my own receipts. Take a batch I'll paste and (1) extract with a strict schema, setting missing or ambiguous fields to null and listing them in exception flags, (2) add an exception rule that flags any total over a threshold I set for human review, and (3) show which receipts the pipeline stops on instead of silently deciding.",
+   "voice": "am_puck",
+   "narration_text": "This is Musinique. The side-by-side sold me: the no-schema pass raised zero exception flags while the schema-driven pass surfaced a foreign currency, a handwritten total, and an ambiguous line item, and the over-500-dollar rule routed high-value receipts to a human. I want that on my own receipts. Take a batch I'll paste and (1) extract with a strict schema, setting missing or ambiguous fields to null and listing them in exception flags, (2) add an exception rule that flags any total over a threshold I set for human review, and (3) show which receipts the pipeline stops on instead of silently deciding.",
    "shot": {
     "type": "CARD",
     "source": "remotion",
@@ -51,7 +51,7 @@
      "version": "1",
      "props": {
       "command": "The side-by-side sold me: the no-schema pass raised zero exception flags while the schema-driven pass surfaced a foreign currency, a handwritten total, and an ambiguous line item, and the over-500-dollar rule routed high-value receipts to a human. I want that on my own receipts. Take a batch I'll paste and (1) extract with a strict schema, setting missing or ambiguous fields to null and listing them in exception flags, (2) add an exception rule that flags any total over a threshold I set for human review, and (3) show which receipts the pipeline stops on instead of silently deciding.",
-      "topic": "CLAUDE COWORK",
+      "topic": "MUSINIQUE · CLAUDE COWORK",
       "segment": "Receipt Extraction Pipeline: Schema-First vs. No-Schema",
       "greeting": "Namaste, Musinique",
       "runningText": "explaining the mechanism…",
@@ -68,7 +68,7 @@
    },
    "estimated_duration_s": 9.0,
    "audio_file": "mp3/beat-NBB00.mp3",
-   "actual_duration_s": 7.509
+   "actual_duration_s": 33.69
   },
   {
    "beat_id": "B00",
@@ -80,12 +80,13 @@
     "source": "own",
     "motion": "hold"
    },
-   "audio_file": "../receipt-extraction-pipeline/mp3/beat-B00.mp3",
+   "audio_file": "mp3/beat-B00.mp3",
    "locked": true,
    "source_clip": "../receipt-extraction-pipeline/clips/B00.mp4",
    "source_audio": "../receipt-extraction-pipeline/mp3/beat-B00.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 5.65
   },
   {
    "beat_id": "B01",
@@ -97,19 +98,20 @@
     "source": "own",
     "motion": "hold"
    },
-   "audio_file": "../receipt-extraction-pipeline/mp3/beat-B01.mp3",
+   "audio_file": "mp3/beat-B01.mp3",
    "locked": true,
    "source_clip": "../receipt-extraction-pipeline/clips/B01.mp4",
    "source_audio": "../receipt-extraction-pipeline/mp3/beat-B01.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 17.24
   },
   {
    "beat_id": "B01B",
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "The tools this video covers were built for enterprises with engineering teams and compliance budgets. The musician in the van at 1 a.m. has access to the exact same machinery, for free, through a browser. The gap between knowing this exists and knowing how to use it is what this channel closes — one working piece of your promotion deck at a time.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -129,7 +131,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 18.92
   },
   {
    "beat_id": "B02",
@@ -141,10 +145,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Extract from this receipt: vendor (string), date (ISO 8601), total_amount (float), line_items (list of {description, quantity, unit_price}), currency (3-letter code). If any field is ambiguous or missing, set it to null and add to exception_flags list.\" < receipt.txt",
-      "topic": "CLAUDE COWORK",
+      "topic": "MUSINIQUE · CLAUDE COWORK",
       "segment": "RECEIPT EXTRACTION",
       "runningText": "extracting with schema…"
      },
@@ -154,12 +158,13 @@
      }
     }
    },
-   "audio_file": "../receipt-extraction-pipeline/mp3/beat-B02.mp3",
+   "audio_file": "mp3/beat-B02.mp3",
    "locked": true,
    "source_clip": "../receipt-extraction-pipeline/clips/B02.mp4",
    "source_audio": "../receipt-extraction-pipeline/mp3/beat-B02.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 14.31
   },
   {
    "beat_id": "B03",
@@ -171,12 +176,12 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownCodeBlock",
+     "pattern": "ClaudeCodeBeat",
      "props": {
-      "filename": "extract_receipts.py",
       "code": "import json\n\nSCHEMA = {\n    \"vendor\": str,\n    \"date\": \"ISO 8601\",\n    \"total_amount\": float,\n    \"line_items\": list,\n    \"currency\": \"3-letter code\"\n}\n\ndef extract_with_schema(receipt_text: str) -> dict:\n    \"\"\"Schema-driven extraction with exception flagging.\"\"\"\n    result = {field: None for field in SCHEMA}\n    exception_flags = []\n    # Claude extraction call would populate result here\n    # Validate types and flag ambiguities\n    for field, expected_type in SCHEMA.items():\n        val = result.get(field)\n        if val is None:\n            exception_flags.append({\"field\": field, \"reason\": \"missing or ambiguous\"})\n    result[\"exception_flags\"] = exception_flags\n    return result\n\ndef compare_passes(no_schema: dict, with_schema: dict) -> list:\n    \"\"\"Return list of fields where outputs diverge.\"\"\"\n    return [k for k in with_schema if with_schema.get(k) != no_schema.get(k)]",
       "topic": "CLAUDE COWORK",
-      "segment": "RECEIPT EXTRACTION"
+      "segment": "RECEIPT EXTRACTION",
+      "title": "extract_receipts.py"
      },
      "rendered": {
       "out": "media/B03.mp4",
@@ -184,12 +189,13 @@
      }
     }
    },
-   "audio_file": "../receipt-extraction-pipeline/mp3/beat-B03.mp3",
+   "audio_file": "mp3/beat-B03.mp3",
    "locked": true,
    "source_clip": "../receipt-extraction-pipeline/clips/B03.mp4",
    "source_audio": "../receipt-extraction-pipeline/mp3/beat-B03.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 8.66
   },
   {
    "beat_id": "B04",
@@ -201,12 +207,13 @@
     "source": "own",
     "motion": "hold"
    },
-   "audio_file": "../receipt-extraction-pipeline/mp3/beat-B04.mp3",
+   "audio_file": "mp3/beat-B04.mp3",
    "locked": true,
    "source_clip": "../receipt-extraction-pipeline/clips/B04.mp4",
    "source_audio": "../receipt-extraction-pipeline/mp3/beat-B04.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 22.17
   },
   {
    "beat_id": "B05",
@@ -218,10 +225,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Re-extract with this additional rule: if total_amount > 500, add high_value_flag: true to the output.\" < receipts_batch.txt",
-      "topic": "CLAUDE COWORK",
+      "topic": "MUSINIQUE · CLAUDE COWORK",
       "segment": "RECEIPT EXTRACTION",
       "runningText": "adding threshold rule…"
      },
@@ -231,12 +238,13 @@
      }
     }
    },
-   "audio_file": "../receipt-extraction-pipeline/mp3/beat-B05.mp3",
+   "audio_file": "mp3/beat-B05.mp3",
    "locked": true,
    "source_clip": "../receipt-extraction-pipeline/clips/B05.mp4",
    "source_audio": "../receipt-extraction-pipeline/mp3/beat-B05.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 5.38
   },
   {
    "beat_id": "B06",
@@ -248,12 +256,13 @@
     "source": "own",
     "motion": "hold"
    },
-   "audio_file": "../receipt-extraction-pipeline/mp3/beat-B06.mp3",
+   "audio_file": "mp3/beat-B06.mp3",
    "locked": true,
    "source_clip": "../receipt-extraction-pipeline/clips/B06.mp4",
    "source_audio": "../receipt-extraction-pipeline/mp3/beat-B06.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 16.41
   },
   {
    "beat_id": "B07",
@@ -265,12 +274,13 @@
     "source": "own",
     "motion": "hold"
    },
-   "audio_file": "../receipt-extraction-pipeline/mp3/beat-B07.mp3",
+   "audio_file": "mp3/beat-B07.mp3",
    "locked": true,
    "source_clip": "../receipt-extraction-pipeline/clips/B07.mp4",
    "source_audio": "../receipt-extraction-pipeline/mp3/beat-B07.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 13.99
   },
   {
    "beat_id": "B08",
@@ -282,28 +292,29 @@
     "source": "own",
     "motion": "hold"
    },
-   "audio_file": "../receipt-extraction-pipeline/mp3/beat-B08.mp3",
+   "audio_file": "mp3/beat-B08.mp3",
    "locked": true,
    "source_clip": "../receipt-extraction-pipeline/clips/B08.mp4",
    "source_audio": "../receipt-extraction-pipeline/mp3/beat-B08.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 5.03
   },
   {
    "beat_id": "B09",
    "t_start": 110.0,
    "estimated_duration_s": 8.0,
-   "narration_text": "Nik Bear Brown. Brutalist and Educational AI. nikbearbrown.com.",
+   "narration_text": "Musinique. Brutalist and Educational AI. nikbearbrown.com.",
    "shot": {
     "type": "SLATE",
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOutro",
+     "pattern": "ClaudeTitleOutro",
      "props": {
       "brand": "Nik Bear Brown",
       "tagline": "Brutalist + Educational AI",
-      "handle": "@NikBearBrown",
+      "handle": "@Musinique",
       "url": "nikbearbrown.com"
      },
      "rendered": {
@@ -312,20 +323,21 @@
      }
     }
    },
-   "audio_file": "../receipt-extraction-pipeline/mp3/beat-B09.mp3",
+   "audio_file": "mp3/beat-B09.mp3",
    "locked": true,
    "source_clip": "../receipt-extraction-pipeline/clips/B09.mp4",
    "source_audio": "../receipt-extraction-pipeline/mp3/beat-B09.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 4.93
   },
   {
    "beat_id": "NBB01",
    "act": "VERDICT",
    "title": "Liam verdict — ClaudeVerdictArtifact",
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "Let's recap with Claude. Here's what the body just demonstrated. Next: audit your workspace permissions — which access does each task actually need? Nik Bear Brown. Brutalist and Educational AI. nikbearbrown.com.",
+   "voice": "am_puck",
+   "narration_text": "Let's recap with Claude. Here's what the body just demonstrated. Next: audit your workspace permissions — which access does each task actually need? Musinique. Brutalist and Educational AI. nikbearbrown.com.",
    "shot": {
     "type": "CARD",
     "source": "remotion",
@@ -351,7 +363,7 @@
    },
    "estimated_duration_s": 30.0,
    "audio_file": "mp3/beat-NBB01.mp3",
-   "actual_duration_s": 11.008,
+   "actual_duration_s": 12.16,
    "lead_silence_s": 0.5
   },
   {
@@ -359,7 +371,7 @@
    "act": "YOUR TURN",
    "title": "Your turn handoff — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": "Take this prompt, run it on your own — pick any cancer type or clinical scenario you know about and ask how this mechanism applies there.",
    "shot": {
     "type": "CARD",
@@ -371,7 +383,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Receipt Extraction Pipeline: Schema-First vs. No-Schema] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "CLAUDE COWORK",
+      "topic": "MUSINIQUE · CLAUDE COWORK",
       "segment": "Receipt Extraction Pipeline: Schema-First vs. No-Schema",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -388,7 +400,7 @@
    },
    "estimated_duration_s": 8.0,
    "audio_file": "mp3/beat-NBB02.mp3",
-   "actual_duration_s": 7.765
+   "actual_duration_s": 7.81
   },
   {
    "beat_id": "NBB03",
@@ -417,10 +429,10 @@
    "estimated_duration_s": 6.0,
    "audio_file": "mp3/beat-NBB03.mp3",
    "silence_s": 6.0,
-   "actual_duration_s": 6.03,
+   "actual_duration_s": 4.18,
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "Receipt Extraction Pipeline: Schema-First vs. No-Schema"
+   "voice": "am_puck",
+   "narration_text": "Receipt Extraction Pipeline: Schema-First vs. No-Schema. From Musinique."
   }
  ]
 }

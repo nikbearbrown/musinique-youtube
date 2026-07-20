@@ -6,7 +6,7 @@
   "topic": "SPEC IS CS ED · CAPS",
   "audience": "NikBearBrown",
   "engine": "kokoro",
-  "voice": "am_onyx",
+  "voice": "am_puck",
   "palette": "claude",
   "register": "Baldwin",
   "derived_from": "beat_sheet.json",
@@ -26,10 +26,10 @@
   ],
   "built_at": "2026-07-16T22:43:10.083033",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
-  "voice_kokoro": "am_onyx"
+  "voice_kokoro": "am_puck"
  },
  "beats": [
   {
@@ -37,8 +37,8 @@
    "act": "COLD OPEN",
    "title": "Liam cold open — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "This is Liam for Musinique. The Bell-versus-Adams GPA-tie example convinced me that specs are where the real judgment lives. I want to feel that skill under my own hands. Can you (1) take a vague prompt like 'build a class roster sorter' and rewrite it as the five-element specification, marking which element carries the tie-break invariant, (2) show me one framing decision and one invariant decision that Claude cannot make for me, and (3) sketch how each of the five build-log rubric dimensions would score my spec?",
+   "voice": "am_puck",
+   "narration_text": "This is Musinique. The Bell-versus-Adams GPA-tie example convinced me that specs are where the real judgment lives. I want to feel that skill under my own hands. Can you (1) take a vague prompt like 'build a class roster sorter' and rewrite it as the five-element specification, marking which element carries the tie-break invariant, (2) show me one framing decision and one invariant decision that Claude cannot make for me, and (3) sketch how each of the five build-log rubric dimensions would score my spec?",
    "shot": {
     "type": "CARD",
     "source": "remotion",
@@ -49,7 +49,7 @@
      "version": "1",
      "props": {
       "command": "The Bell-versus-Adams GPA-tie example convinced me that specs are where the real judgment lives. I want to feel that skill under my own hands. Can you (1) take a vague prompt like 'build a class roster sorter' and rewrite it as the five-element specification, marking which element carries the tie-break invariant, (2) show me one framing decision and one invariant decision that Claude cannot make for me, and (3) sketch how each of the five build-log rubric dimensions would score my spec?",
-      "topic": "SPEC IS CS ED · CAPS",
+      "topic": "MUSINIQUE · SPEC IS CS ED · CAPS",
       "segment": "Spec Writing IS CS Education: What",
       "greeting": "Annyeong, Musinique",
       "runningText": "explaining the mechanism…",
@@ -66,7 +66,7 @@
    },
    "estimated_duration_s": 9.0,
    "audio_file": "mp3/beat-NBB00.mp3",
-   "actual_duration_s": 5.099
+   "actual_duration_s": 27.37
   },
   {
    "beat_id": "B00",
@@ -90,13 +90,13 @@
     }
    },
    "estimated_duration_s": 16,
-   "audio_file": "../spec-writing-is-cs-ed/mp3/beat-B00.mp3",
-   "actual_duration_s": 25.09,
+   "audio_file": "mp3/beat-B00.mp3",
+   "actual_duration_s": 24.77,
    "locked": true,
    "source_clip": "../spec-writing-is-cs-ed/clips/B00.mp4",
    "source_audio": "../spec-writing-is-cs-ed/mp3/beat-B00.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01",
@@ -110,20 +110,20 @@
    "new_visual_element": "Challen 2026 — 'turning specs into code: AI does that' / 'getting ideas into specs: humans' / visible not eliminated",
    "spark_line": "Getting ideas into specs is still human.",
    "estimated_duration_s": 14,
-   "audio_file": "../spec-writing-is-cs-ed/mp3/beat-B01.mp3",
+   "audio_file": "mp3/beat-B01.mp3",
    "actual_duration_s": 25.45,
    "locked": true,
    "source_clip": "../spec-writing-is-cs-ed/clips/B01.mp4",
    "source_audio": "../spec-writing-is-cs-ed/mp3/beat-B01.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01B",
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "You don't need to become a developer. You need to become someone who can read the output of a development conversation — who knows when Claude built the thing correctly, and who knows when it built the wrong thing confidently. That is a learnable skill, and it is the difference between owning your digital infrastructure and renting it from someone who charges a platform fee.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -143,7 +143,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 18.41
   },
   {
    "beat_id": "B02",
@@ -157,13 +159,13 @@
    "new_visual_element": "Spec requires — problem framing / invariant judgment / not syntax / domain judgment is human",
    "spark_line": "Framing and invariants. Not syntax.",
    "estimated_duration_s": 13,
-   "audio_file": "../spec-writing-is-cs-ed/mp3/beat-B02.mp3",
+   "audio_file": "mp3/beat-B02.mp3",
    "actual_duration_s": 26.01,
    "locked": true,
    "source_clip": "../spec-writing-is-cs-ed/clips/B02.mp4",
    "source_audio": "../spec-writing-is-cs-ed/mp3/beat-B02.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B03",
@@ -177,13 +179,13 @@
    "new_visual_element": "Build log rubric — spec quality / handoff conditions / capacity labeling / artifact verify / log — none require reading code",
    "spark_line": "Grade the log, not the code.",
    "estimated_duration_s": 13,
-   "audio_file": "../spec-writing-is-cs-ed/mp3/beat-B03.mp3",
+   "audio_file": "mp3/beat-B03.mp3",
    "actual_duration_s": 21.03,
    "locked": true,
    "source_clip": "../spec-writing-is-cs-ed/clips/B03.mp4",
    "source_audio": "../spec-writing-is-cs-ed/mp3/beat-B03.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B04",
@@ -197,13 +199,13 @@
    "new_visual_element": "Artifact view — spec review before code / peer checks invariants / vague spec = future bug / checkable done condition",
    "spark_line": "Spec review before code runs.",
    "estimated_duration_s": 13,
-   "audio_file": "../spec-writing-is-cs-ed/mp3/beat-B04.mp3",
+   "audio_file": "mp3/beat-B04.mp3",
    "actual_duration_s": 20.76,
    "locked": true,
    "source_clip": "../spec-writing-is-cs-ed/clips/B04.mp4",
    "source_audio": "../spec-writing-is-cs-ed/mp3/beat-B04.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B05",
@@ -227,20 +229,20 @@
     }
    },
    "estimated_duration_s": 9,
-   "audio_file": "../spec-writing-is-cs-ed/mp3/beat-B05.mp3",
+   "audio_file": "mp3/beat-B05.mp3",
    "actual_duration_s": 4.46,
    "locked": true,
    "source_clip": "../spec-writing-is-cs-ed/clips/B05.mp4",
    "source_audio": "../spec-writing-is-cs-ed/mp3/beat-B05.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "NBB01",
    "act": "VERDICT",
    "title": "Liam verdict — ClaudeVerdictArtifact",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": "Let's recap with Claude. Here's what the body just demonstrated. The classroom move is concrete: spec review before any code runs. Students submit their specification. Peers review it: is the operation clear? Are the invariants named? Is there a negative constraint? Is the done condition checkable? The review happens before Claude sees the project. What the peer review surfaces — vague invariants, missing constraints, unbounded output — is exactly what the code would have gotten wrong. Run the spec review exercise before any code this week. Paste this.",
    "shot": {
     "type": "CARD",
@@ -267,7 +269,7 @@
    },
    "estimated_duration_s": 30.0,
    "audio_file": "mp3/beat-NBB01.mp3",
-   "actual_duration_s": 26.859,
+   "actual_duration_s": 27.56,
    "lead_silence_s": 0.5
   },
   {
@@ -275,7 +277,7 @@
    "act": "YOUR TURN",
    "title": "Your turn handoff — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": "Take this prompt, run it on your own — pick any cancer type or clinical scenario you know about and ask how this mechanism applies there.",
    "shot": {
     "type": "CARD",
@@ -287,7 +289,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Spec Writing IS CS Education: What Changes When AI Codes] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "SPEC IS CS ED · CAPS",
+      "topic": "MUSINIQUE · SPEC IS CS ED · CAPS",
       "segment": "Spec Writing IS CS Education: What",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -304,7 +306,7 @@
    },
    "estimated_duration_s": 8.0,
    "audio_file": "mp3/beat-NBB02.mp3",
-   "actual_duration_s": 7.765
+   "actual_duration_s": 7.81
   },
   {
    "beat_id": "NBB03",
@@ -333,10 +335,10 @@
    "estimated_duration_s": 6.0,
    "audio_file": "mp3/beat-NBB03.mp3",
    "silence_s": 6.0,
-   "actual_duration_s": 6.03,
+   "actual_duration_s": 4.74,
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "Spec Writing IS CS Education: What Changes When AI Codes"
+   "voice": "am_puck",
+   "narration_text": "Spec Writing IS CS Education: What Changes When AI Codes. From Musinique."
   }
  ]
 }

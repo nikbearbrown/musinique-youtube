@@ -6,7 +6,7 @@
   "topic": "CLAUDE FOR EDUCATION",
   "audience": "NikBearBrown",
   "engine": "kokoro",
-  "voice": "am_onyx",
+  "voice": "am_puck",
   "palette": "claude",
   "register": "Baldwin",
   "derived_from": "beat_sheet.json",
@@ -29,10 +29,10 @@
   ],
   "built_at": "2026-07-17T00:03:27.477379",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
-  "voice_kokoro": "am_onyx"
+  "voice_kokoro": "am_puck"
  },
  "beats": [
   {
@@ -40,8 +40,8 @@
    "act": "COLD OPEN",
    "title": "Liam cold open — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "This is Liam for Musinique. I get why the eight-field brief beats a bare topic prompt, but I want to see the misconception field doing real work. Using my subject, please (1) generate a tutoring prompt from a three-field brief and one from a full eight-field brief so I can see the divergence; (2) show me exactly where the stated misconception surfaces in the full-brief prompt and how the constraint line changes its behavior; (3) tell me which single field, if I dropped it, would most degrade the tutoring, and why.",
+   "voice": "am_puck",
+   "narration_text": "This is Musinique. I get why the eight-field brief beats a bare topic prompt, but I want to see the misconception field doing real work. Using my subject, please (1) generate a tutoring prompt from a three-field brief and one from a full eight-field brief so I can see the divergence; (2) show me exactly where the stated misconception surfaces in the full-brief prompt and how the constraint line changes its behavior; (3) tell me which single field, if I dropped it, would most degrade the tutoring, and why.",
    "shot": {
     "type": "CARD",
     "source": "remotion",
@@ -52,7 +52,7 @@
      "version": "1",
      "props": {
       "command": "I get why the eight-field brief beats a bare topic prompt, but I want to see the misconception field doing real work. Using my subject, please (1) generate a tutoring prompt from a three-field brief and one from a full eight-field brief so I can see the divergence; (2) show me exactly where the stated misconception surfaces in the full-brief prompt and how the constraint line changes its behavior; (3) tell me which single field, if I dropped it, would most degrade the tutoring, and why.",
-      "topic": "CLAUDE FOR EDUCATION",
+      "topic": "MUSINIQUE · CLAUDE FOR EDUCATION",
       "segment": "Build an Instructional Brief Generator with",
       "greeting": "Halo, Musinique",
       "runningText": "explaining the mechanism…",
@@ -69,28 +69,30 @@
    },
    "estimated_duration_s": 9.0,
    "audio_file": "mp3/beat-NBB00.mp3",
-   "actual_duration_s": 5.824
+   "actual_duration_s": 27.31
   },
   {
    "beat_id": "B00",
    "act": "INTRO",
-   "narration_text": "This is Musinique. Nik Bear Brown. Brutalist and Educational AI. Build it with Claude — then take it apart.",
+   "narration_text": "This is Musinique. Musinique. Brutalist and Educational AI. Build it with Claude — then take it apart.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOpen",
+     "pattern": "ClaudeComposerAsk",
      "props": {
-      "topic": "CLAUDE FOR EDUCATION",
-      "lines": [
-       "Nik Bear Brown",
+      "command": "Build an Instructional Brief Generator with Claude",
+      "topic": "MUSINIQUE · CLAUDE FOR EDUCATION",
+      "segment": "Build an Instructional Brief Generator with Claude",
+      "greeting": "This is Musinique.",
+      "runningText": "working…",
+      "output": [
        "Brutalist + Educational AI",
        "Instructional Brief Generator",
        "Specificity Upstream",
        "Build with Claude CLI"
-      ],
-      "greeting": "Halo, Musinique"
+      ]
      }
     }
    },
@@ -98,9 +100,10 @@
    "locked": true,
    "source_clip": "../instructional-brief-generator/clips/B00.mp4",
    "source_audio": "../instructional-brief-generator/mp3/beat-B00.mp3",
-   "audio_file": "../instructional-brief-generator/mp3/beat-B00.mp3",
+   "audio_file": "mp3/beat-B00.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 6.7
   },
   {
    "beat_id": "B01",
@@ -116,16 +119,17 @@
    "locked": true,
    "source_clip": "../instructional-brief-generator/clips/B01.mp4",
    "source_audio": "../instructional-brief-generator/mp3/beat-B01.mp3",
-   "audio_file": "../instructional-brief-generator/mp3/beat-B01.mp3",
+   "audio_file": "mp3/beat-B01.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 17.28
   },
   {
    "beat_id": "B01B",
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "A release campaign is a build problem. You have a deadline, a set of deliverables — pitch email, social copy, playlist submissions, distributor forms — and a sequence that matters. The same approach that ships software on schedule ships music on schedule. The machine doesn't get tired on Friday before a Monday release.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -145,7 +149,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 17.0
   },
   {
    "beat_id": "B02",
@@ -156,10 +162,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Generate an instructional prompt for Claude to tutor a student, based on this 8-field brief. The prompt must address the stated misconception explicitly, stay within the constraints, and produce an output that could serve as the stated assessment evidence. Do not generate a generic tutoring prompt — every element of the brief must appear in the generated prompt.\" < brief.md",
-      "topic": "CLAUDE FOR EDUCATION",
+      "topic": "MUSINIQUE · CLAUDE FOR EDUCATION",
       "segment": "INSTRUCTIONAL BRIEF",
       "runningText": "generating from brief…"
      }
@@ -169,9 +175,10 @@
    "locked": true,
    "source_clip": "../instructional-brief-generator/clips/B02.mp4",
    "source_audio": "../instructional-brief-generator/mp3/beat-B02.mp3",
-   "audio_file": "../instructional-brief-generator/mp3/beat-B02.mp3",
+   "audio_file": "mp3/beat-B02.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 18.05
   },
   {
    "beat_id": "B03",
@@ -182,12 +189,12 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownCodeBlock",
+     "pattern": "ClaudeCodeBeat",
      "props": {
-      "filename": "brief_generator.py",
       "segment": "INSTRUCTIONAL BRIEF",
       "topic": "CLAUDE FOR EDUCATION",
-      "code": "import subprocess\nfrom pathlib import Path\n\nFIELDS = [\n    \"Learner Profile\", \"Prior Knowledge\",\n    \"Misconception\", \"Outcome\",\n    \"Constraints\", \"Modality\",\n    \"Assessment Evidence\", \"Review Criteria\",\n]\n\ndef generate_brief(output_file=\"brief.md\"):\n    lines = []\n    for field in FIELDS:\n        val = input(f\"{field}: \")\n        lines.append(f\"**{field}**: {val}\")\n    Path(output_file).write_text('\\n'.join(lines))\n    result = subprocess.run(\n        [\"claude\",\n         \"Generate a targeted tutoring prompt from this brief.\\n\"\n         \"Every field must appear in the generated prompt.\\n\"\n         \"Address the misconception explicitly.\"],\n        input=Path(output_file).read_text(),\n        capture_output=True, text=True\n    )\n    print(result.stdout)"
+      "code": "import subprocess\nfrom pathlib import Path\n\nFIELDS = [\n    \"Learner Profile\", \"Prior Knowledge\",\n    \"Misconception\", \"Outcome\",\n    \"Constraints\", \"Modality\",\n    \"Assessment Evidence\", \"Review Criteria\",\n]\n\ndef generate_brief(output_file=\"brief.md\"):\n    lines = []\n    for field in FIELDS:\n        val = input(f\"{field}: \")\n        lines.append(f\"**{field}**: {val}\")\n    Path(output_file).write_text('\\n'.join(lines))\n    result = subprocess.run(\n        [\"claude\",\n         \"Generate a targeted tutoring prompt from this brief.\\n\"\n         \"Every field must appear in the generated prompt.\\n\"\n         \"Address the misconception explicitly.\"],\n        input=Path(output_file).read_text(),\n        capture_output=True, text=True\n    )\n    print(result.stdout)",
+      "title": "brief_generator.py"
      }
     }
    },
@@ -195,9 +202,10 @@
    "locked": true,
    "source_clip": "../instructional-brief-generator/clips/B03.mp4",
    "source_audio": "../instructional-brief-generator/mp3/beat-B03.mp3",
-   "audio_file": "../instructional-brief-generator/mp3/beat-B03.mp3",
+   "audio_file": "mp3/beat-B03.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 14.1
   },
   {
    "beat_id": "B04",
@@ -213,9 +221,10 @@
    "locked": true,
    "source_clip": "../instructional-brief-generator/clips/B04.mp4",
    "source_audio": "../instructional-brief-generator/mp3/beat-B04.mp3",
-   "audio_file": "../instructional-brief-generator/mp3/beat-B04.mp3",
+   "audio_file": "mp3/beat-B04.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 22.51
   },
   {
    "beat_id": "B05",
@@ -226,10 +235,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Generate two tutoring prompts from these two briefs: a 3-field brief (topic, grade level, outcome only) and an 8-field brief (all fields). Show a diff highlighting which lines change between the minimal and complete brief. The diff should make the specificity gap visible.\" < briefs_comparison.md",
-      "topic": "CLAUDE FOR EDUCATION",
+      "topic": "MUSINIQUE · CLAUDE FOR EDUCATION",
       "segment": "INSTRUCTIONAL BRIEF",
       "runningText": "comparing 3-field vs 8-field…"
      }
@@ -239,9 +248,10 @@
    "locked": true,
    "source_clip": "../instructional-brief-generator/clips/B05.mp4",
    "source_audio": "../instructional-brief-generator/mp3/beat-B05.mp3",
-   "audio_file": "../instructional-brief-generator/mp3/beat-B05.mp3",
+   "audio_file": "mp3/beat-B05.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 12.86
   },
   {
    "beat_id": "B06",
@@ -257,9 +267,10 @@
    "locked": true,
    "source_clip": "../instructional-brief-generator/clips/B06.mp4",
    "source_audio": "../instructional-brief-generator/mp3/beat-B06.mp3",
-   "audio_file": "../instructional-brief-generator/mp3/beat-B06.mp3",
+   "audio_file": "mp3/beat-B06.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 26.18
   },
   {
    "beat_id": "B07",
@@ -275,9 +286,10 @@
    "locked": true,
    "source_clip": "../instructional-brief-generator/clips/B07.mp4",
    "source_audio": "../instructional-brief-generator/mp3/beat-B07.mp3",
-   "audio_file": "../instructional-brief-generator/mp3/beat-B07.mp3",
+   "audio_file": "mp3/beat-B07.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 17.0
   },
   {
    "beat_id": "B08",
@@ -293,16 +305,17 @@
    "locked": true,
    "source_clip": "../instructional-brief-generator/clips/B08.mp4",
    "source_audio": "../instructional-brief-generator/mp3/beat-B08.mp3",
-   "audio_file": "../instructional-brief-generator/mp3/beat-B08.mp3",
+   "audio_file": "mp3/beat-B08.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck",
+   "actual_duration_s": 12.29
   },
   {
    "beat_id": "NBB01",
    "act": "VERDICT",
    "title": "Liam verdict — ClaudeVerdictArtifact",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": "Let's recap with Claude. Here's what the body just demonstrated. The instructional brief forces specificity upstream. Instead of discovering the AI doesn't know your students' prior knowledge at the end of a lesson, you state it at the beginning. The diff shows exactly what each field is worth in terms of prompt specificity — and what the missing fields let Claude decide on its own. That completes the nine CLI explainer reels for Claude for Education: A Practitioner's Guide. Build the tools, run the audits — then decide what the AI is doing in your classroom and whether it is serving the learning.",
    "shot": {
     "type": "CARD",
@@ -329,7 +342,7 @@
    },
    "estimated_duration_s": 30.0,
    "audio_file": "mp3/beat-NBB01.mp3",
-   "actual_duration_s": 28.928,
+   "actual_duration_s": 29.87,
    "lead_silence_s": 0.5
   },
   {
@@ -337,7 +350,7 @@
    "act": "YOUR TURN",
    "title": "Your turn handoff — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": "Take this prompt, run it on your own — pick any cancer type or clinical scenario you know about and ask how this mechanism applies there.",
    "shot": {
     "type": "CARD",
@@ -349,7 +362,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Build an Instructional Brief Generator with Claude] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "CLAUDE FOR EDUCATION",
+      "topic": "MUSINIQUE · CLAUDE FOR EDUCATION",
       "segment": "Build an Instructional Brief Generator with",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -366,7 +379,7 @@
    },
    "estimated_duration_s": 8.0,
    "audio_file": "mp3/beat-NBB02.mp3",
-   "actual_duration_s": 7.765
+   "actual_duration_s": 7.81
   },
   {
    "beat_id": "NBB03",
@@ -395,10 +408,10 @@
    "estimated_duration_s": 6.0,
    "audio_file": "mp3/beat-NBB03.mp3",
    "silence_s": 6.0,
-   "actual_duration_s": 6.03,
+   "actual_duration_s": 3.24,
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "Build an Instructional Brief Generator with Claude"
+   "voice": "am_puck",
+   "narration_text": "Build an Instructional Brief Generator with Claude. From Musinique."
   }
  ]
 }

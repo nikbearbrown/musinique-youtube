@@ -24,7 +24,7 @@
    "swap the outro to the Claude outro from AUTHOR.MD :: NikBearBrown",
    "then build audience-namespaced (audio in the new voice, scenes in the new palette)"
   ],
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "build": {
    "at": "2026-07-16T02:13:38",
    "cut": "master",
@@ -56,14 +56,16 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOpen",
+     "pattern": "ClaudeComposerAsk",
      "props": {
-      "topic": "CLAUDE CODE FOR STUDENTS",
-      "lines": [
-       "Nik Bear Brown",
+      "command": "Build and Audit a Specification Prompt with Claude Code",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR STUDENTS",
+      "segment": "Build and Audit a Specification Prompt with Claude Code",
+      "greeting": "This is Musinique.",
+      "runningText": "working…",
+      "output": [
        "Specification Prompts, taken apart."
-      ],
-      "greeting": "Kumusta, Musinique"
+      ]
      },
      "rendered": {
       "out": "media/B00.mp4",
@@ -73,7 +75,7 @@
    },
    "estimated_duration_s": 8,
    "audio_file": "mp3/beat-B00.mp3",
-   "actual_duration_s": 10.03,
+   "actual_duration_s": 11.75,
    "build": {
     "status": "VIDEO",
     "src": "media/B00.mp4",
@@ -94,7 +96,7 @@
    },
    "estimated_duration_s": 12,
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 7.77,
+   "actual_duration_s": 8.19,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -131,7 +133,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 17.34
   },
   {
    "beat_id": "B02",
@@ -142,10 +146,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Write parse_grades(path) -> list[Grade]\\n  invariants: stdlib only, no pandas\\n  UTF-8 BOM tolerated\\n  empty cells -> None not ''\\n  run: python -m pytest tests/ -q\\n  do not modify models/grade.py\"",
-      "topic": "CLAUDE CODE FOR STUDENTS",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR STUDENTS",
       "segment": "SPECIFICATION PROMPTS",
       "runningText": "generating specification output…"
      },
@@ -157,7 +161,7 @@
    },
    "estimated_duration_s": 12,
    "audio_file": "mp3/beat-B02.mp3",
-   "actual_duration_s": 8.83,
+   "actual_duration_s": 9.45,
    "build": {
     "status": "VIDEO",
     "src": "media/B02.mp4",
@@ -176,12 +180,12 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownCodeBlock",
+     "pattern": "ClaudeCodeBeat",
      "props": {
-      "filename": "parse_grades.py",
       "topic": "CLAUDE CODE FOR STUDENTS",
       "segment": "SPECIFICATION PROMPTS",
-      "code": "# parse_grades.py — specification-prompt output\nimport csv, pathlib\nfrom models.grade import Grade\n\ndef parse_grades(path) -> list:\n    result = []\n    with open(path, encoding='utf-8-sig', newline='') as f:\n        reader = csv.DictReader(f)\n        for row in reader:\n            score = row.get('score') or None\n            result.append(Grade(\n                name=row['name'],\n                score=float(score) if score else None\n            ))\n    return result"
+      "code": "# parse_grades.py — specification-prompt output\nimport csv, pathlib\nfrom models.grade import Grade\n\ndef parse_grades(path) -> list:\n    result = []\n    with open(path, encoding='utf-8-sig', newline='') as f:\n        reader = csv.DictReader(f)\n        for row in reader:\n            score = row.get('score') or None\n            result.append(Grade(\n                name=row['name'],\n                score=float(score) if score else None\n            ))\n    return result",
+      "title": "parse_grades.py"
      },
      "rendered": {
       "out": "media/B03.mp4",
@@ -191,7 +195,7 @@
    },
    "estimated_duration_s": 14,
    "audio_file": "mp3/beat-B03.mp3",
-   "actual_duration_s": 12.25,
+   "actual_duration_s": 13.48,
    "build": {
     "status": "VIDEO",
     "src": "media/B03.mp4",
@@ -212,7 +216,7 @@
    },
    "estimated_duration_s": 20,
    "audio_file": "mp3/beat-B04.mp3",
-   "actual_duration_s": 15.59,
+   "actual_duration_s": 16.9,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -233,10 +237,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Run parse_grades prompt twice.\\nAre outputs functionally equivalent?\\nCompare: lib choices, empty-cell handling,\\nBOM handling across both runs.\"",
-      "topic": "CLAUDE CODE FOR STUDENTS",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR STUDENTS",
       "segment": "SPECIFICATION PROMPTS",
       "runningText": "comparing outputs…"
      },
@@ -248,7 +252,7 @@
    },
    "estimated_duration_s": 10,
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 8.36,
+   "actual_duration_s": 8.62,
    "build": {
     "status": "VIDEO",
     "src": "media/B05.mp4",
@@ -269,7 +273,7 @@
    },
    "estimated_duration_s": 14,
    "audio_file": "mp3/beat-B06.mp3",
-   "actual_duration_s": 15.25,
+   "actual_duration_s": 16.53,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -292,7 +296,7 @@
    },
    "estimated_duration_s": 12,
    "audio_file": "mp3/beat-B07.mp3",
-   "actual_duration_s": 10.65,
+   "actual_duration_s": 11.54,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -315,7 +319,7 @@
    },
    "estimated_duration_s": 8,
    "audio_file": "mp3/beat-B08.mp3",
-   "actual_duration_s": 4.84,
+   "actual_duration_s": 4.65,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -330,13 +334,13 @@
   {
    "beat_id": "B09",
    "act": "OUTRO",
-   "narration_text": "Nik Bear Brown. Build it with a CLI. Then take it apart. At nikbearbrown.com.",
+   "narration_text": "Musinique. Build it with a CLI. Then take it apart. At nikbearbrown.com.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOutro",
+     "pattern": "ClaudeTitleOutro",
      "props": {
       "brand": "Nik Bear Brown",
       "tagline": "Brutalist + Educational AI",
@@ -351,7 +355,7 @@
    },
    "estimated_duration_s": 8,
    "audio_file": "mp3/beat-B09.mp3",
-   "actual_duration_s": 5.38,
+   "actual_duration_s": 5.27,
    "build": {
     "status": "VIDEO",
     "src": "media/B09.mp4",

@@ -26,7 +26,7 @@
   ],
   "built_at": "2026-07-16T22:32:54.135316",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
   "voice_kokoro": "am_puck"
@@ -49,7 +49,7 @@
      "version": "1",
      "props": {
       "command": "I finally see why my capital-letter NEVER lost to 'summarize student performance,' and I want to build the deterministic layer. For blocking any 'Overall performance: B-plus' line: (1) describe exactly what JSON the PreToolUse hook receives on stdin before a Write; (2) have Claude draft the shell script that matches a grade letter with a plus or minus and exits nonzero; (3) show me the ten-minute test I'd run to confirm the write is actually blocked, not just warned.",
-      "topic": "HOOK ENFORCEMENT · CAPS",
+      "topic": "MUSINIQUE · HOOK ENFORCEMENT · CAPS",
       "segment": "Hook vs. CLAUDE.md: Cannot, Not Do",
       "greeting": "Ahoj, Musinique",
       "runningText": "explaining the mechanism…",
@@ -66,7 +66,7 @@
    },
    "estimated_duration_s": 9.0,
    "audio_file": "mp3/beat-NBB00.mp3",
-   "actual_duration_s": 4.949
+   "actual_duration_s": 24.96
   },
   {
    "beat_id": "B00",
@@ -90,8 +90,8 @@
     }
    },
    "estimated_duration_s": 16,
-   "audio_file": "../hook-advisory-vs-deterministic/mp3/beat-B00.mp3",
-   "actual_duration_s": 19.35,
+   "audio_file": "mp3/beat-B00.mp3",
+   "actual_duration_s": 18.33,
    "locked": true,
    "source_clip": "../hook-advisory-vs-deterministic/clips/B00.mp4",
    "source_audio": "../hook-advisory-vs-deterministic/mp3/beat-B00.mp3",
@@ -110,8 +110,8 @@
    "new_visual_element": "NEVER ignored — advisory vs deterministic table",
    "spark_line": "Advisory fails. Hook holds.",
    "estimated_duration_s": 13,
-   "audio_file": "../hook-advisory-vs-deterministic/mp3/beat-B01.mp3",
-   "actual_duration_s": 16.79,
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 17.39,
    "locked": true,
    "source_clip": "../hook-advisory-vs-deterministic/clips/B01.mp4",
    "source_audio": "../hook-advisory-vs-deterministic/mp3/beat-B01.mp3",
@@ -143,7 +143,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 19.09
   },
   {
    "beat_id": "B02",
@@ -157,8 +159,8 @@
    "new_visual_element": "Hook anatomy — PreToolUse / stdin JSON / exit 1 = blocked",
    "spark_line": "Exit 1 = blocked.",
    "estimated_duration_s": 14,
-   "audio_file": "../hook-advisory-vs-deterministic/mp3/beat-B02.mp3",
-   "actual_duration_s": 19.43,
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 18.56,
    "locked": true,
    "source_clip": "../hook-advisory-vs-deterministic/clips/B02.mp4",
    "source_audio": "../hook-advisory-vs-deterministic/mp3/beat-B02.mp3",
@@ -177,8 +179,8 @@
    "new_visual_element": "Ask Claude to write the hook — teacher reviews and commits",
    "spark_line": "Claude writes. You review.",
    "estimated_duration_s": 13,
-   "audio_file": "../hook-advisory-vs-deterministic/mp3/beat-B03.mp3",
-   "actual_duration_s": 15.64,
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 16.64,
    "locked": true,
    "source_clip": "../hook-advisory-vs-deterministic/clips/B03.mp4",
    "source_audio": "../hook-advisory-vs-deterministic/mp3/beat-B03.mp3",
@@ -197,8 +199,8 @@
    "new_visual_element": "Artifact view — CLAUDE.md layer + hook layer, two distinct enforcement levels",
    "spark_line": "Two layers. Different laws.",
    "estimated_duration_s": 12,
-   "audio_file": "../hook-advisory-vs-deterministic/mp3/beat-B04.mp3",
-   "actual_duration_s": 16.53,
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 17.62,
    "locked": true,
    "source_clip": "../hook-advisory-vs-deterministic/clips/B04.mp4",
    "source_audio": "../hook-advisory-vs-deterministic/mp3/beat-B04.mp3",
@@ -227,8 +229,8 @@
     }
    },
    "estimated_duration_s": 9,
-   "audio_file": "../hook-advisory-vs-deterministic/mp3/beat-B05.mp3",
-   "actual_duration_s": 6.23,
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 6.29,
    "locked": true,
    "source_clip": "../hook-advisory-vs-deterministic/clips/B05.mp4",
    "source_audio": "../hook-advisory-vs-deterministic/mp3/beat-B05.mp3",
@@ -267,7 +269,7 @@
    },
    "estimated_duration_s": 30.0,
    "audio_file": "mp3/beat-NBB01.mp3",
-   "actual_duration_s": 21.931,
+   "actual_duration_s": 20.01,
    "lead_silence_s": 0.5
   },
   {
@@ -287,7 +289,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Hook vs. CLAUDE.md: Cannot, Not Do Not] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "HOOK ENFORCEMENT · CAPS",
+      "topic": "MUSINIQUE · HOOK ENFORCEMENT · CAPS",
       "segment": "Hook vs. CLAUDE.md: Cannot, Not Do",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -304,7 +306,7 @@
    },
    "estimated_duration_s": 8.0,
    "audio_file": "mp3/beat-NBB02.mp3",
-   "actual_duration_s": 7.765
+   "actual_duration_s": 8.3
   },
   {
    "beat_id": "NBB03",
@@ -333,10 +335,10 @@
    "estimated_duration_s": 6.0,
    "audio_file": "mp3/beat-NBB03.mp3",
    "silence_s": 6.0,
-   "actual_duration_s": 6.03,
+   "actual_duration_s": 2.69,
    "engine": "kokoro",
    "voice": "am_puck",
-   "narration_text": "Hook vs. CLAUDE.md: Cannot, Not Do Not"
+   "narration_text": "Hook vs. CLAUDE.md: Cannot, Not Do Not. From Musinique."
   }
  ]
 }

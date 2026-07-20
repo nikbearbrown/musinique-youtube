@@ -27,7 +27,7 @@
    "slates": [],
    "skin_warnings": []
   },
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "derived_from": "beat_sheet.json"
  },
  "beats": [
@@ -44,7 +44,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Konnichiwa, Musinique",
-      "topic": "COMMAND DEVELOPMENT · CLAUDE CODE SKILL",
+      "topic": "MUSINIQUE · COMMAND DEVELOPMENT · CLAUDE CODE SKILL",
       "segment": "PLUGIN DEV",
       "command": "Create a slash command for my plugin that reviews a pull request and posts a summary.",
       "runningText": "reading command-development SKILL.md…",
@@ -239,7 +239,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Your Turn",
-      "topic": "COMMAND DEVELOPMENT · HANDOFF",
+      "topic": "MUSINIQUE · COMMAND DEVELOPMENT · HANDOFF",
       "segment": "PLUGIN DEV",
       "command": "Create a slash command for my plugin that reviews a pull request and posts a summary.",
       "runningText": "Watch: body = Claude instructions? allowed-tools scoped? argument-hint set? bash inline?",

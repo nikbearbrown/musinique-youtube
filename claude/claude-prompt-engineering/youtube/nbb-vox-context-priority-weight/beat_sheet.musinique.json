@@ -6,7 +6,7 @@
   "topic": "PROMPT ENGINEERING",
   "audience": "NikBearBrown",
   "engine": "kokoro",
-  "voice": "am_onyx",
+  "voice": "am_puck",
   "palette": "claude",
   "register": "Baldwin",
   "derived_from": "beat_sheet.json",
@@ -32,10 +32,10 @@
   "old_outro_beats": [],
   "built_at": "2026-07-17T01:18:08.745343",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
-  "voice_kokoro": "am_onyx"
+  "voice_kokoro": "am_puck"
  },
  "beats": [
   {
@@ -43,8 +43,8 @@
    "act": "COLD OPEN",
    "title": "Liam cold open — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "This is Liam for Musinique. Keiko's 'nothing blue' constraint got one-fifteenth the weight of her brand guide purely because it was short and informal, and the campaign came back blue. I paste multi-document sets like hers constantly. Help me stop length from deciding authority: (1) label each of my sources as authoritative, current, or background so Claude stops weighting by page count; (2) prune the set down to only what changes the output; (3) surface any hard constraint buried in a short FYI doc so it can't get diluted.",
+   "voice": "am_puck",
+   "narration_text": "This is Musinique. Keiko's 'nothing blue' constraint got one-fifteenth the weight of her brand guide purely because it was short and informal, and the campaign came back blue. I paste multi-document sets like hers constantly. Help me stop length from deciding authority: (1) label each of my sources as authoritative, current, or background so Claude stops weighting by page count; (2) prune the set down to only what changes the output; (3) surface any hard constraint buried in a short FYI doc so it can't get diluted.",
    "shot": {
     "type": "CARD",
     "source": "remotion",
@@ -55,7 +55,7 @@
      "version": "1",
      "props": {
       "command": "Keiko's 'nothing blue' constraint got one-fifteenth the weight of her brand guide purely because it was short and informal, and the campaign came back blue. I paste multi-document sets like hers constantly. Help me stop length from deciding authority: (1) label each of my sources as authoritative, current, or background so Claude stops weighting by page count; (2) prune the set down to only what changes the output; (3) surface any hard constraint buried in a short FYI doc so it can't get diluted.",
-      "topic": "PROMPT ENGINEERING",
+      "topic": "MUSINIQUE · PROMPT ENGINEERING",
       "segment": "Why More Context Can Make the",
       "greeting": "Namaste, Musinique",
       "runningText": "explaining the mechanism…",
@@ -72,7 +72,7 @@
    },
    "estimated_duration_s": 9.0,
    "audio_file": "mp3/beat-NBB00.mp3",
-   "actual_duration_s": 5.845
+   "actual_duration_s": 28.74
   },
   {
    "beat_id": "B01",
@@ -90,13 +90,13 @@
     "copy": "Why more context can make the output worse",
     "sub": "unlabeled documents create false priority orders"
    },
-   "audio_file": "../vox-context-priority-weight/mp3/beat-B01.mp3",
-   "actual_duration_s": 13.51,
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 13.31,
    "locked": true,
    "source_clip": "../vox-context-priority-weight/clips/B01.mp4",
    "source_audio": "../vox-context-priority-weight/mp3/beat-B01.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B02",
@@ -111,13 +111,13 @@
    },
    "scene_description": "Marketing professional at a desk with multiple printed documents spread out, looking at screen, editorial newsprint treatment",
    "image_prompt": "B02, marketing manager at a desk with multiple stacked documents spread out, focused at a laptop screen, editorial documentary newsprint treatment, desaturated flat print collage",
-   "audio_file": "../vox-context-priority-weight/mp3/beat-B02.mp3",
-   "actual_duration_s": 16.2,
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 15.59,
    "locked": true,
    "source_clip": "../vox-context-priority-weight/clips/B02.mp4",
    "source_audio": "../vox-context-priority-weight/mp3/beat-B02.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B03",
@@ -135,20 +135,20 @@
     "copy": "Why did more context produce worse output?",
     "sub": ""
    },
-   "audio_file": "../vox-context-priority-weight/mp3/beat-B03.mp3",
-   "actual_duration_s": 12.36,
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 10.99,
    "locked": true,
    "source_clip": "../vox-context-priority-weight/clips/B03.mp4",
    "source_audio": "../vox-context-priority-weight/mp3/beat-B03.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01B",
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "A musician who loses the thread of their release campaign every time they open a new chat window is rebuilding from scratch — every single conversation. Persistent context means your promotion strategy accumulates instead of evaporating. The session that remembers what you said last week is the session that actually helps you run next week.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -168,7 +168,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 18.39
   },
   {
    "beat_id": "B04",
@@ -184,13 +186,13 @@
    "graphic": {
     "manim": "B04_DocumentStack"
    },
-   "audio_file": "../vox-context-priority-weight/mp3/beat-B04.mp3",
-   "actual_duration_s": 15.91,
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 13.38,
    "locked": true,
    "source_clip": "../vox-context-priority-weight/clips/B04.mp4",
    "source_audio": "../vox-context-priority-weight/mp3/beat-B04.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B05",
@@ -206,13 +208,13 @@
    "graphic": {
     "manim": "B05_WeightByLength"
    },
-   "audio_file": "../vox-context-priority-weight/mp3/beat-B05.mp3",
-   "actual_duration_s": 15.78,
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 14.36,
    "locked": true,
    "source_clip": "../vox-context-priority-weight/clips/B05.mp4",
    "source_audio": "../vox-context-priority-weight/mp3/beat-B05.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B06",
@@ -228,13 +230,13 @@
    "graphic": {
     "manim": "B06_PriorityOrder"
    },
-   "audio_file": "../vox-context-priority-weight/mp3/beat-B06.mp3",
-   "actual_duration_s": 15.78,
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 13.65,
    "locked": true,
    "source_clip": "../vox-context-priority-weight/clips/B06.mp4",
    "source_audio": "../vox-context-priority-weight/mp3/beat-B06.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B07",
@@ -252,13 +254,13 @@
     "copy": "More unlabeled context = more false priority",
     "sub": ""
    },
-   "audio_file": "../vox-context-priority-weight/mp3/beat-B07.mp3",
-   "actual_duration_s": 12.3,
+   "audio_file": "mp3/beat-B07.mp3",
+   "actual_duration_s": 10.97,
    "locked": true,
    "source_clip": "../vox-context-priority-weight/clips/B07.mp4",
    "source_audio": "../vox-context-priority-weight/mp3/beat-B07.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B08",
@@ -274,13 +276,13 @@
    "graphic": {
     "manim": "B08_LabeledSources"
    },
-   "audio_file": "../vox-context-priority-weight/mp3/beat-B08.mp3",
-   "actual_duration_s": 17.14,
+   "audio_file": "mp3/beat-B08.mp3",
+   "actual_duration_s": 13.59,
    "locked": true,
    "source_clip": "../vox-context-priority-weight/clips/B08.mp4",
    "source_audio": "../vox-context-priority-weight/mp3/beat-B08.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B09",
@@ -296,13 +298,13 @@
    "graphic": {
     "manim": "B09_CorrectPriority"
    },
-   "audio_file": "../vox-context-priority-weight/mp3/beat-B09.mp3",
-   "actual_duration_s": 11.96,
+   "audio_file": "mp3/beat-B09.mp3",
+   "actual_duration_s": 11.31,
    "locked": true,
    "source_clip": "../vox-context-priority-weight/clips/B09.mp4",
    "source_audio": "../vox-context-priority-weight/mp3/beat-B09.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B10",
@@ -318,13 +320,13 @@
    "graphic": {
     "manim": "B10_AnyMultiDoc"
    },
-   "audio_file": "../vox-context-priority-weight/mp3/beat-B10.mp3",
-   "actual_duration_s": 17.37,
+   "audio_file": "mp3/beat-B10.mp3",
+   "actual_duration_s": 15.06,
    "locked": true,
    "source_clip": "../vox-context-priority-weight/clips/B10.mp4",
    "source_audio": "../vox-context-priority-weight/mp3/beat-B10.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B11",
@@ -340,13 +342,13 @@
    "graphic": {
     "manim": "B11_SchoolExample"
    },
-   "audio_file": "../vox-context-priority-weight/mp3/beat-B11.mp3",
-   "actual_duration_s": 18.42,
+   "audio_file": "mp3/beat-B11.mp3",
+   "actual_duration_s": 16.7,
    "locked": true,
    "source_clip": "../vox-context-priority-weight/clips/B11.mp4",
    "source_audio": "../vox-context-priority-weight/mp3/beat-B11.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B12",
@@ -362,13 +364,13 @@
    "graphic": {
     "manim": "B12_SchoolFixed"
    },
-   "audio_file": "../vox-context-priority-weight/mp3/beat-B12.mp3",
-   "actual_duration_s": 14.16,
+   "audio_file": "mp3/beat-B12.mp3",
+   "actual_duration_s": 12.59,
    "locked": true,
    "source_clip": "../vox-context-priority-weight/clips/B12.mp4",
    "source_audio": "../vox-context-priority-weight/mp3/beat-B12.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B13",
@@ -384,13 +386,13 @@
    "graphic": {
     "manim": "B13_Practice"
    },
-   "audio_file": "../vox-context-priority-weight/mp3/beat-B13.mp3",
-   "actual_duration_s": 20.56,
+   "audio_file": "mp3/beat-B13.mp3",
+   "actual_duration_s": 15.49,
    "locked": true,
    "source_clip": "../vox-context-priority-weight/clips/B13.mp4",
    "source_audio": "../vox-context-priority-weight/mp3/beat-B13.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B14",
@@ -408,20 +410,20 @@
     "copy": "Unlabeled context creates false priority orders.",
     "sub": "Label your sources. Assign the weight yourself."
    },
-   "audio_file": "../vox-context-priority-weight/mp3/beat-B14.mp3",
-   "actual_duration_s": 9.731,
+   "audio_file": "mp3/beat-B14.mp3",
+   "actual_duration_s": 8.55,
    "locked": true,
    "source_clip": "../vox-context-priority-weight/clips/B14.mp4",
    "source_audio": "../vox-context-priority-weight/mp3/beat-B14.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "NBB01",
    "act": "VERDICT",
    "title": "Liam verdict — ClaudeVerdictArtifact",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": "Let's recap with Claude. Here's what the body just demonstrated. This applies to any multi-document paste. Meeting notes plus a policy document plus an email thread: without labels, the formal policy dominates. With labels that say 'the email overrides the policy on the timeline,' the output reflects what you actually intended. A school administrator pastes a 20-page district handbook, a 3-page teacher memo, and a 2-sentence email from the principal saying the decision in the memo is overridden. She asks Claude to summarize the current policy. Claude summarizes the handbook. The override email is invisible in the noise.",
    "shot": {
     "type": "CARD",
@@ -449,7 +451,7 @@
    },
    "estimated_duration_s": 30.0,
    "audio_file": "mp3/beat-NBB01.mp3",
-   "actual_duration_s": 32.768,
+   "actual_duration_s": 33.45,
    "lead_silence_s": 0.5
   },
   {
@@ -457,7 +459,7 @@
    "act": "YOUR TURN",
    "title": "Your turn handoff — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": "Take this prompt, run it on your own — pick any cancer type or clinical scenario you know about and ask how this mechanism applies there.",
    "shot": {
     "type": "CARD",
@@ -469,7 +471,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Why More Context Can Make the Output Worse] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "PROMPT ENGINEERING",
+      "topic": "MUSINIQUE · PROMPT ENGINEERING",
       "segment": "Why More Context Can Make the",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -486,7 +488,7 @@
    },
    "estimated_duration_s": 8.0,
    "audio_file": "mp3/beat-NBB02.mp3",
-   "actual_duration_s": 7.765
+   "actual_duration_s": 7.81
   },
   {
    "beat_id": "NBB03",
@@ -515,10 +517,10 @@
    "estimated_duration_s": 6.0,
    "audio_file": "mp3/beat-NBB03.mp3",
    "silence_s": 6.0,
-   "actual_duration_s": 6.03,
+   "actual_duration_s": 2.94,
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "Why More Context Can Make the Output Worse"
+   "voice": "am_puck",
+   "narration_text": "Why More Context Can Make the Output Worse. From Musinique."
   }
  ]
 }

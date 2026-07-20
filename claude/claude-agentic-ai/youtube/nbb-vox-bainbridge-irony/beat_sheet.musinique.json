@@ -28,7 +28,7 @@
   "old_outro_beats": [],
   "built_at": "2026-07-17T00:44:08.674200",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
   "voice_kokoro": "am_puck"
@@ -51,7 +51,7 @@
      "version": "1",
      "props": {
       "command": "I want to measure the Bainbridge irony in my own workflow instead of just nodding at Priya's two-hundred-file example. Help me quantify where the work relocated. Concretely: (1) list the supervisory decisions an agent-driven version of one of my recurring tasks would demand, like scope statements, batch approvals, and spot-check audits, (2) compare that deliberate-decision count against doing the task manually, and (3) tell me at what task size the rising supervisory load outweighs the shrinking calendar time.",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "Why More Automation Creates More Supervision",
       "greeting": "Ciao, Musinique",
       "runningText": "explaining the mechanism…",
@@ -68,7 +68,7 @@
    },
    "estimated_duration_s": 9.0,
    "audio_file": "mp3/beat-NBB00.mp3",
-   "actual_duration_s": 4.693
+   "actual_duration_s": 25.6
   },
   {
    "beat_id": "B01",
@@ -83,8 +83,8 @@
    "scene_description": "a code editor screen on newsprint ground — green test results, a resolved status; editorial collage treatment, desaturated",
    "chosen_media": null,
    "new_visual_element": "[PHOTO] agent reports resolved",
-   "audio_file": "../vox-bainbridge-irony/mp3/beat-B01.mp3",
-   "actual_duration_s": 10.53,
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 10.84,
    "locked": true,
    "source_clip": "../vox-bainbridge-irony/clips/B01.mp4",
    "source_audio": "../vox-bainbridge-irony/mp3/beat-B01.mp3",
@@ -116,7 +116,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 19.54
   },
   {
    "beat_id": "B02",
@@ -142,8 +144,8 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] supervisory tasks accumulate",
-   "audio_file": "../vox-bainbridge-irony/mp3/beat-B02.mp3",
-   "actual_duration_s": 14.65,
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 14.55,
    "locked": true,
    "source_clip": "../vox-bainbridge-irony/clips/B02.mp4",
    "source_audio": "../vox-bainbridge-irony/mp3/beat-B02.mp3",
@@ -166,8 +168,8 @@
    },
    "chosen_media": null,
    "new_visual_element": "[CARD] THE QUESTION beat",
-   "audio_file": "../vox-bainbridge-irony/mp3/beat-B03.mp3",
-   "actual_duration_s": 12.12,
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 12.63,
    "locked": true,
    "source_clip": "../vox-bainbridge-irony/clips/B03.mp4",
    "source_audio": "../vox-bainbridge-irony/mp3/beat-B03.mp3",
@@ -198,8 +200,8 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] naive lever-scale: capability up, workload down",
-   "audio_file": "../vox-bainbridge-irony/mp3/beat-B04.mp3",
-   "actual_duration_s": 9.61,
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 8.68,
    "locked": true,
    "source_clip": "../vox-bainbridge-irony/clips/B04.mp4",
    "source_audio": "../vox-bainbridge-irony/mp3/beat-B04.mp3",
@@ -222,8 +224,8 @@
    },
    "chosen_media": null,
    "new_visual_element": "[CARD] section card — Bainbridge's core claim",
-   "audio_file": "../vox-bainbridge-irony/mp3/beat-B05.mp3",
-   "actual_duration_s": 18.16,
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 16.34,
    "locked": true,
    "source_clip": "../vox-bainbridge-irony/clips/B05.mp4",
    "source_audio": "../vox-bainbridge-irony/mp3/beat-B05.mp3",
@@ -254,8 +256,8 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] real scale: capability and supervisory load rise together",
-   "audio_file": "../vox-bainbridge-irony/mp3/beat-B06.mp3",
-   "actual_duration_s": 17.55,
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 16.34,
    "locked": true,
    "source_clip": "../vox-bainbridge-irony/clips/B06.mp4",
    "source_audio": "../vox-bainbridge-irony/mp3/beat-B06.mp3",
@@ -286,8 +288,8 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] Priya: without vs with agent decision count",
-   "audio_file": "../vox-bainbridge-irony/mp3/beat-B07.mp3",
-   "actual_duration_s": 20.38,
+   "audio_file": "mp3/beat-B07.mp3",
+   "actual_duration_s": 17.56,
    "locked": true,
    "source_clip": "../vox-bainbridge-irony/clips/B07.mp4",
    "source_audio": "../vox-bainbridge-irony/mp3/beat-B07.mp3",
@@ -310,8 +312,8 @@
    },
    "chosen_media": null,
    "new_visual_element": "[CARD] implication — scale of failure",
-   "audio_file": "../vox-bainbridge-irony/mp3/beat-B08.mp3",
-   "actual_duration_s": 14.47,
+   "audio_file": "mp3/beat-B08.mp3",
+   "actual_duration_s": 15.13,
    "locked": true,
    "source_clip": "../vox-bainbridge-irony/clips/B08.mp4",
    "source_audio": "../vox-bainbridge-irony/mp3/beat-B08.mp3",
@@ -342,8 +344,8 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] timeline: scope upstream, verify after",
-   "audio_file": "../vox-bainbridge-irony/mp3/beat-B09.mp3",
-   "actual_duration_s": 16.43,
+   "audio_file": "mp3/beat-B09.mp3",
+   "actual_duration_s": 14.27,
    "locked": true,
    "source_clip": "../vox-bainbridge-irony/clips/B09.mp4",
    "source_audio": "../vox-bainbridge-irony/mp3/beat-B09.mp3",
@@ -367,8 +369,8 @@
    },
    "chosen_media": null,
    "new_visual_element": "[CARD] RECAP endcard",
-   "audio_file": "../vox-bainbridge-irony/mp3/beat-B10.mp3",
-   "actual_duration_s": 14.514,
+   "audio_file": "mp3/beat-B10.mp3",
+   "actual_duration_s": 13.03,
    "locked": true,
    "source_clip": "../vox-bainbridge-irony/clips/B10.mp4",
    "source_audio": "../vox-bainbridge-irony/mp3/beat-B10.mp3",
@@ -407,7 +409,7 @@
    },
    "estimated_duration_s": 30.0,
    "audio_file": "mp3/beat-NBB01.mp3",
-   "actual_duration_s": 24.32,
+   "actual_duration_s": 22.72,
    "lead_silence_s": 0.5
   },
   {
@@ -427,7 +429,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Why More Automation Creates More Supervision Work, Not Less] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "Why More Automation Creates More Supervision",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -444,7 +446,7 @@
    },
    "estimated_duration_s": 8.0,
    "audio_file": "mp3/beat-NBB02.mp3",
-   "actual_duration_s": 7.765
+   "actual_duration_s": 8.3
   },
   {
    "beat_id": "NBB03",
@@ -473,10 +475,10 @@
    "estimated_duration_s": 6.0,
    "audio_file": "mp3/beat-NBB03.mp3",
    "silence_s": 6.0,
-   "actual_duration_s": 6.03,
+   "actual_duration_s": 3.71,
    "engine": "kokoro",
    "voice": "am_puck",
-   "narration_text": "Why More Automation Creates More Supervision Work, Not Less"
+   "narration_text": "Why More Automation Creates More Supervision Work, Not Less. From Musinique."
   }
  ]
 }

@@ -26,7 +26,7 @@
   ],
   "built_at": "2026-07-17T01:01:31.690390",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
   "voice_kokoro": "am_puck"
@@ -49,7 +49,7 @@
      "version": "1",
      "props": {
       "command": "I want to adopt the criteria-first habit, especially the failure criteria I keep skipping. I'm drafting something where a tone shift from neutral to advocate would sink it regardless of how clean the prose is. Help me: (1) write accuracy, completeness, and format criteria for my draft; (2) name two or three failure criteria — conditions that make it wrong no matter its other merits — like an untraceable statistic; (3) show how stating these before generating exposes a requirement I hadn't articulated.",
-      "topic": "CRITERIA FIRST · CAPS",
+      "topic": "MUSINIQUE · CRITERIA FIRST · CAPS",
       "segment": "Criteria Before Output: Know What Done",
       "greeting": "Ciao, Musinique",
       "runningText": "explaining the mechanism…",
@@ -66,7 +66,7 @@
    },
    "estimated_duration_s": 9.0,
    "audio_file": "mp3/beat-NBB00.mp3",
-   "actual_duration_s": 4.949
+   "actual_duration_s": 26.2
   },
   {
    "beat_id": "B00",
@@ -90,8 +90,8 @@
     }
    },
    "estimated_duration_s": 16,
-   "audio_file": "../criteria-first-habit/mp3/beat-B00.mp3",
-   "actual_duration_s": 21.57,
+   "audio_file": "mp3/beat-B00.mp3",
+   "actual_duration_s": 18.94,
    "locked": true,
    "source_clip": "../criteria-first-habit/clips/B00.mp4",
    "source_audio": "../criteria-first-habit/mp3/beat-B00.mp3",
@@ -110,8 +110,8 @@
    "new_visual_element": "Four criteria types — accuracy / completeness / format / failure, each with example",
    "spark_line": "Four types. Name each one.",
    "estimated_duration_s": 14,
-   "audio_file": "../criteria-first-habit/mp3/beat-B01.mp3",
-   "actual_duration_s": 27.82,
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 25.34,
    "locked": true,
    "source_clip": "../criteria-first-habit/clips/B01.mp4",
    "source_audio": "../criteria-first-habit/mp3/beat-B01.mp3",
@@ -143,7 +143,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 19.09
   },
   {
    "beat_id": "B02",
@@ -157,8 +159,8 @@
    "new_visual_element": "Failure criteria — define catastrophic before generation / output cannot accidentally pass them",
    "spark_line": "Name the failure first.",
    "estimated_duration_s": 13,
-   "audio_file": "../criteria-first-habit/mp3/beat-B02.mp3",
-   "actual_duration_s": 22.66,
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 19.99,
    "locked": true,
    "source_clip": "../criteria-first-habit/clips/B02.mp4",
    "source_audio": "../criteria-first-habit/mp3/beat-B02.mp3",
@@ -177,8 +179,8 @@
    "new_visual_element": "Criteria reveal requirements — writing criteria surfaces unstated assumptions before generation",
    "spark_line": "Criteria surface requirements.",
    "estimated_duration_s": 13,
-   "audio_file": "../criteria-first-habit/mp3/beat-B03.mp3",
-   "actual_duration_s": 24.3,
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 21.16,
    "locked": true,
    "source_clip": "../criteria-first-habit/clips/B03.mp4",
    "source_audio": "../criteria-first-habit/mp3/beat-B03.mp3",
@@ -197,8 +199,8 @@
    "new_visual_element": "Artifact view — criteria-first: auditable output / no criteria: interpretable output",
    "spark_line": "Auditable vs. interpretable.",
    "estimated_duration_s": 13,
-   "audio_file": "../criteria-first-habit/mp3/beat-B04.mp3",
-   "actual_duration_s": 25.49,
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 22.31,
    "locked": true,
    "source_clip": "../criteria-first-habit/clips/B04.mp4",
    "source_audio": "../criteria-first-habit/mp3/beat-B04.mp3",
@@ -227,8 +229,8 @@
     }
    },
    "estimated_duration_s": 9,
-   "audio_file": "../criteria-first-habit/mp3/beat-B05.mp3",
-   "actual_duration_s": 4.67,
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 4.59,
    "locked": true,
    "source_clip": "../criteria-first-habit/clips/B05.mp4",
    "source_audio": "../criteria-first-habit/mp3/beat-B05.mp3",
@@ -267,7 +269,7 @@
    },
    "estimated_duration_s": 30.0,
    "audio_file": "mp3/beat-NBB01.mp3",
-   "actual_duration_s": 31.701,
+   "actual_duration_s": 31.13,
    "lead_silence_s": 0.5
   },
   {
@@ -287,7 +289,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Criteria Before Output: Know What Done Looks Like] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "CRITERIA FIRST · CAPS",
+      "topic": "MUSINIQUE · CRITERIA FIRST · CAPS",
       "segment": "Criteria Before Output: Know What Done",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -304,7 +306,7 @@
    },
    "estimated_duration_s": 8.0,
    "audio_file": "mp3/beat-NBB02.mp3",
-   "actual_duration_s": 7.765
+   "actual_duration_s": 8.3
   },
   {
    "beat_id": "NBB03",
@@ -333,10 +335,10 @@
    "estimated_duration_s": 6.0,
    "audio_file": "mp3/beat-NBB03.mp3",
    "silence_s": 6.0,
-   "actual_duration_s": 6.03,
+   "actual_duration_s": 2.84,
    "engine": "kokoro",
    "voice": "am_puck",
-   "narration_text": "Criteria Before Output: Know What Done Looks Like"
+   "narration_text": "Criteria Before Output: Know What Done Looks Like. From Musinique."
   }
  ]
 }

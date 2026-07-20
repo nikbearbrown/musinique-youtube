@@ -3,7 +3,7 @@
   "slug": "spec-prompt-template",
   "title": "Build a Specification Prompt Template for Student Assignments with Claude Code",
   "topic": "CLAUDE CODE FOR TEACHERS",
-  "voice": "am_onyx",
+  "voice": "am_puck",
   "voice_id": "TyW6NH39JcFb5M3xdIIk",
   "style": "cli",
   "palette": "claude",
@@ -13,12 +13,12 @@
   "ground": "#FFFFFF",
   "total_estimated_duration_seconds": 118.0,
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "register": "Baldwin",
   "folderLabel": "@Musinique",
   "engine": "kokoro",
-  "voice_kokoro": "am_onyx",
+  "voice_kokoro": "am_puck",
   "derived_from": "beat_sheet.json"
  },
  "beats": [
@@ -33,8 +33,10 @@
     "motion": "hold"
    },
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "This is Liam for Musinique. "
+   "voice": "am_puck",
+   "narration_text": "This is Musinique.",
+   "audio_file": "mp3/beat-B00.mp3",
+   "actual_duration_s": 2.28
   },
   {
    "beat_id": "B01",
@@ -47,7 +49,7 @@
     "motion": "hold"
    },
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": ""
   },
   {
@@ -55,7 +57,7 @@
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "Prompt design is the skill the platform doesn't want you to have, because a musician who can write a precise prompt is a musician who doesn't need to buy someone else's pre-packaged workflow. Every prompt in this video is a template you can adapt — paste it, swap the specifics, run it on your own catalog. The instruction is the tool.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -75,7 +77,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 17.15
   },
   {
    "beat_id": "B02",
@@ -87,17 +91,17 @@
     "source": null,
     "motion": "hold",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Write spec_template.py:\\n  takes assignment description from stdin\\n  generates five-element specification template:\\n  (1) specific_task: function signature + types\\n  (2) invariants: constraints that must not change\\n  (3) context: file paths / SDD sections\\n  (4) output_format: what Claude produces then runs\\n  (5) negative_constraints: must NOT do or touch\\n  Output as markdown with fill-in placeholders.\"",
-      "topic": "CLAUDE CODE FOR TEACHERS",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR TEACHERS",
       "segment": "SPECIFICATION TEMPLATE",
       "runningText": "building template…"
      }
     }
    },
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": ""
   },
   {
@@ -110,17 +114,17 @@
     "source": null,
     "motion": "hold",
     "remotion": {
-     "pattern": "NikBearBrownCodeBlock",
+     "pattern": "ClaudeCodeBeat",
      "props": {
-      "filename": "spec_template.py",
       "segment": "SPECIFICATION TEMPLATE",
       "topic": "CLAUDE CODE FOR TEACHERS",
-      "code": "# spec_template.py — Claude Code output\nimport sys\n\nassignment = sys.stdin.read().strip()\n\ntemplate = f\"\"\"\n# Specification Prompt\n\n## specific_task\n[Function signature: def <name>(<params>: <types>) -> <type>]\nAssignment context: {assignment[:80]}...\n\n## invariants\n[List constraints that must hold regardless of implementation]\n- Example: stdlib only, no pandas\n- Example: empty input must return [], not raise\n\n## context\n[File paths / section references]\n- models.py defines the dataclasses\n- See SDD §1.4 for format spec\n\n## output_format\n[What Claude produces AND then runs]\n- Write to: parsers/<name>.py\n- Then run: python -m pytest tests/ -q\n\n## negative_constraints\n[What Claude must NOT do]\n- Do NOT modify models.py\n- Do NOT add new dependencies\n\"\"\"\nprint(template)"
+      "code": "# spec_template.py — Claude Code output\nimport sys\n\nassignment = sys.stdin.read().strip()\n\ntemplate = f\"\"\"\n# Specification Prompt\n\n## specific_task\n[Function signature: def <name>(<params>: <types>) -> <type>]\nAssignment context: {assignment[:80]}...\n\n## invariants\n[List constraints that must hold regardless of implementation]\n- Example: stdlib only, no pandas\n- Example: empty input must return [], not raise\n\n## context\n[File paths / section references]\n- models.py defines the dataclasses\n- See SDD §1.4 for format spec\n\n## output_format\n[What Claude produces AND then runs]\n- Write to: parsers/<name>.py\n- Then run: python -m pytest tests/ -q\n\n## negative_constraints\n[What Claude must NOT do]\n- Do NOT modify models.py\n- Do NOT add new dependencies\n\"\"\"\nprint(template)",
+      "title": "spec_template.py"
      }
     }
    },
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": ""
   },
   {
@@ -134,7 +138,7 @@
     "motion": "hold"
    },
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": ""
   },
   {
@@ -147,17 +151,17 @@
     "source": null,
     "motion": "hold",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Add validation step:\\n  refuse template if description doesn't name\\n  a specific function or artifact.\\n  Test on: 'help me with the CSV stuff'\"",
-      "topic": "CLAUDE CODE FOR TEACHERS",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR TEACHERS",
       "segment": "SPECIFICATION TEMPLATE",
       "runningText": "adding validation…"
      }
     }
    },
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": ""
   },
   {
@@ -171,7 +175,7 @@
     "motion": "hold"
    },
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": ""
   },
   {
@@ -185,7 +189,7 @@
     "motion": "hold"
    },
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": ""
   },
   {
@@ -199,7 +203,7 @@
     "motion": "hold"
    },
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": ""
   },
   {
@@ -212,18 +216,18 @@
     "source": null,
     "motion": "hold",
     "remotion": {
-     "pattern": "NikBearBrownOutro",
+     "pattern": "ClaudeTitleOutro",
      "props": {
       "brand": "Nik Bear Brown",
       "tagline": "Brutalist + Educational AI",
-      "handle": "@NikBearBrown",
+      "handle": "@Musinique",
       "url": "nikbearbrown.com"
      }
     }
    },
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": ""
+   "voice": "am_puck",
+   "narration_text": "Like and subscribe for more Claude Code for Teachers. From Musinique."
   }
  ]
 }

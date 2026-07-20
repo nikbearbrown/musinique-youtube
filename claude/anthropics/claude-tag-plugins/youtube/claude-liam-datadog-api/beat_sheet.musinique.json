@@ -27,7 +27,7 @@
    "slates": [],
    "skin_warnings": []
   },
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "derived_from": "beat_sheet.json"
  },
  "beats": [
@@ -44,7 +44,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Kumusta, Musinique",
-      "topic": "DATADOG API · CLAUDE TAG PLUGIN",
+      "topic": "MUSINIQUE · DATADOG API · CLAUDE TAG PLUGIN",
       "segment": "DATADOG",
       "command": "Search Datadog logs for service:web errors in the last hour and check which monitors are alerting.",
       "runningText": "reading datadog-api SKILL.md…",
@@ -64,7 +64,7 @@
     }
    },
    "audio_file": "mp3/beat-B00.mp3",
-   "actual_duration_s": 36.14,
+   "actual_duration_s": 32.98,
    "build": {
     "status": "VIDEO",
     "src": "media/B00.mp4",
@@ -93,7 +93,7 @@
     }
    },
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 76.59,
+   "actual_duration_s": 69.4,
    "build": {
     "status": "VIDEO",
     "src": "media/B01.mp4",
@@ -126,7 +126,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 17.3
   },
   {
    "beat_id": "B02",
@@ -149,7 +151,7 @@
     }
    },
    "audio_file": "mp3/beat-B02.mp3",
-   "actual_duration_s": 84.16,
+   "actual_duration_s": 78.55,
    "build": {
     "status": "VIDEO",
     "src": "media/B02.mp4",
@@ -178,7 +180,7 @@
     }
    },
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 82.28,
+   "actual_duration_s": 75.31,
    "build": {
     "status": "VIDEO",
     "src": "media/B05.mp4",
@@ -216,7 +218,7 @@
     }
    },
    "audio_file": "mp3/beat-BVDT.mp3",
-   "actual_duration_s": 39.83,
+   "actual_duration_s": 38.31,
    "build": {
     "status": "VIDEO",
     "src": "media/BVDT.mp4",
@@ -237,7 +239,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Your Turn",
-      "topic": "DATADOG API · HANDOFF",
+      "topic": "MUSINIQUE · DATADOG API · HANDOFF",
       "segment": "DATADOG",
       "command": "Search service:web error logs from the last hour, then check if any monitors for that service are alerting.",
       "runningText": "Watch: validate first? dd_logs.sh? cursor pagination? v2 downtime for mute?",
@@ -257,7 +259,7 @@
     }
    },
    "audio_file": "mp3/beat-BHTF.mp3",
-   "actual_duration_s": 41.96,
+   "actual_duration_s": 37.91,
    "build": {
     "status": "VIDEO",
     "src": "media/BHTF.mp4",
@@ -288,7 +290,7 @@
     }
    },
    "audio_file": "mp3/beat-BOUT.mp3",
-   "actual_duration_s": 3.14,
+   "actual_duration_s": 2.01,
    "build": {
     "status": "VIDEO",
     "src": "media/BOUT.mp4",

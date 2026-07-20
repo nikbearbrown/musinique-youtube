@@ -26,7 +26,7 @@
   ],
   "built_at": "2026-07-17T01:07:30.237805",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
   "voice_kokoro": "am_puck"
@@ -49,7 +49,7 @@
      "version": "1",
      "props": {
       "command": "I want to convert my own biweekly action-item prompt into a real card, and the review-criteria field is where I keep hand-waving. I can name a purpose and inputs easily, but I don't trust myself to write checkable review conditions or an honest failure mode I actually tested. Walk me through one card for my meeting-notes prompt: (1) draft three review criteria phrased as pass/fail gates, not glances; (2) write one failure mode discovered on messy paraphrased notes, not a clean example; (3) show how the revision-history field should record what each edit fixed.",
-      "topic": "PROMPT LIBRARY · CAPS",
+      "topic": "MUSINIQUE · PROMPT LIBRARY · CAPS",
       "segment": "Prompt Card Builder: Save the Standard,",
       "greeting": "Sawadee, Musinique",
       "runningText": "explaining the mechanism…",
@@ -66,7 +66,7 @@
    },
    "estimated_duration_s": 9.0,
    "audio_file": "mp3/beat-NBB00.mp3",
-   "actual_duration_s": 5.355
+   "actual_duration_s": 30.21
   },
   {
    "beat_id": "B00",
@@ -90,8 +90,8 @@
     }
    },
    "estimated_duration_s": 16,
-   "audio_file": "../prompt-card-builder/mp3/beat-B00.mp3",
-   "actual_duration_s": 22.17,
+   "audio_file": "mp3/beat-B00.mp3",
+   "actual_duration_s": 19.61,
    "locked": true,
    "source_clip": "../prompt-card-builder/clips/B00.mp4",
    "source_audio": "../prompt-card-builder/mp3/beat-B00.mp3",
@@ -110,8 +110,8 @@
    "new_visual_element": "Card vs. chat — text vs. text + standard / eight fields / review criteria transfers the standard not just the prompt",
    "spark_line": "Transfer the standard, not just the text.",
    "estimated_duration_s": 13,
-   "audio_file": "../prompt-card-builder/mp3/beat-B01.mp3",
-   "actual_duration_s": 22.93,
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 20.29,
    "locked": true,
    "source_clip": "../prompt-card-builder/clips/B01.mp4",
    "source_audio": "../prompt-card-builder/mp3/beat-B01.mp3",
@@ -143,7 +143,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 17.34
   },
   {
    "beat_id": "B02",
@@ -157,8 +159,8 @@
    "new_visual_element": "Review criteria field — most skipped / most important / three checkable conditions / glance to gate",
    "spark_line": "Checkable conditions convert a glance to a gate.",
    "estimated_duration_s": 13,
-   "audio_file": "../prompt-card-builder/mp3/beat-B02.mp3",
-   "actual_duration_s": 22.21,
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 20.12,
    "locked": true,
    "source_clip": "../prompt-card-builder/clips/B02.mp4",
    "source_audio": "../prompt-card-builder/mp3/beat-B02.mp3",
@@ -177,8 +179,8 @@
    "new_visual_element": "Failure modes honest — specific not generic / tested on edge case / tested flag / untested = false confidence",
    "spark_line": "Honest failure modes. Tested flag.",
    "estimated_duration_s": 13,
-   "audio_file": "../prompt-card-builder/mp3/beat-B03.mp3",
-   "actual_duration_s": 21.55,
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 20.12,
    "locked": true,
    "source_clip": "../prompt-card-builder/clips/B03.mp4",
    "source_audio": "../prompt-card-builder/mp3/beat-B03.mp3",
@@ -197,8 +199,8 @@
    "new_visual_element": "Artifact view — completed prompt card / eight fields / review criteria / failure modes / tested flag / index entry",
    "spark_line": "Don't start from zero next time.",
    "estimated_duration_s": 13,
-   "audio_file": "../prompt-card-builder/mp3/beat-B04.mp3",
-   "actual_duration_s": 19.39,
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 18.24,
    "locked": true,
    "source_clip": "../prompt-card-builder/clips/B04.mp4",
    "source_audio": "../prompt-card-builder/mp3/beat-B04.mp3",
@@ -227,8 +229,8 @@
     }
    },
    "estimated_duration_s": 9,
-   "audio_file": "../prompt-card-builder/mp3/beat-B05.mp3",
-   "actual_duration_s": 3.88,
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 3.35,
    "locked": true,
    "source_clip": "../prompt-card-builder/clips/B05.mp4",
    "source_audio": "../prompt-card-builder/mp3/beat-B05.mp3",
@@ -267,7 +269,7 @@
    },
    "estimated_duration_s": 30.0,
    "audio_file": "mp3/beat-NBB01.mp3",
-   "actual_duration_s": 24.576,
+   "actual_duration_s": 22.38,
    "lead_silence_s": 0.5
   },
   {
@@ -287,7 +289,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Prompt Card Builder: Save the Standard, Not Just the Text] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "PROMPT LIBRARY · CAPS",
+      "topic": "MUSINIQUE · PROMPT LIBRARY · CAPS",
       "segment": "Prompt Card Builder: Save the Standard,",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -304,7 +306,7 @@
    },
    "estimated_duration_s": 8.0,
    "audio_file": "mp3/beat-NBB02.mp3",
-   "actual_duration_s": 7.765
+   "actual_duration_s": 8.3
   },
   {
    "beat_id": "NBB03",
@@ -333,10 +335,10 @@
    "estimated_duration_s": 6.0,
    "audio_file": "mp3/beat-NBB03.mp3",
    "silence_s": 6.0,
-   "actual_duration_s": 6.03,
+   "actual_duration_s": 3.11,
    "engine": "kokoro",
    "voice": "am_puck",
-   "narration_text": "Prompt Card Builder: Save the Standard, Not Just the Text"
+   "narration_text": "Prompt Card Builder: Save the Standard, Not Just the Text. From Musinique."
   }
  ]
 }

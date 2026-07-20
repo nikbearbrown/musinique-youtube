@@ -49,7 +49,7 @@
    ]
   },
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
   "voice": "am_puck"
@@ -69,7 +69,7 @@
    "narration_text": "This is Musinique. Jason Allen iterated 624 times on a Midjourney prompt, post-processed in Photoshop, spent 80 hours — and won first prize at the Colorado State Fair's fine art competition. He filed for copyright. The U.S. Copyright Office Review Board ruled: the human authorship was de minimis. 80 hours of prompt iteration did not constitute authorship of the resulting image.",
    "estimated_duration": 20,
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 21.82,
+   "actual_duration_s": 19.86,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -94,7 +94,7 @@
    "narration_text": "80 hours of creative work should constitute authorship. Allen iterated hundreds of times, chose, refined, post-processed. The Copyright Office ruled he did not author the work. Why?",
    "estimated_duration": 10,
    "audio_file": "mp3/beat-B02.mp3",
-   "actual_duration_s": 10.67,
+   "actual_duration_s": 12.37,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -131,7 +131,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 17.62
   },
   {
    "beat_id": "B03",
@@ -147,7 +149,7 @@
    "narration_text": "AI tools have aesthetic defaults — a particular register, palette, rhythm drawn from their training distribution. When the human does not contest these defaults in writing, the model makes every micro-decision. The polished essay that opens with a striking sentence and closes with a satisfying one was not written by the student — it was inflected by the training distribution, invisibly, at every clause. When you don't write down what the work should look and sound like, the model decides. And the model's decision is not yours.",
    "estimated_duration": 22,
    "audio_file": "mp3/beat-B03.mp3",
-   "actual_duration_s": 26.92,
+   "actual_duration_s": 23.85,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -174,7 +176,7 @@
    "narration_text": "Marcus pastes a prompt into an AI image tool for his school's literary magazine cover. He picks from eight options, asks for variations, picks again. Two hours later he has a polished cover image. A classmate asks why the palette is blue. Marcus shrugs — the model picked it. Why is the layout centered? The model decided. The cover looks professional. It belongs to nobody in particular. There is no person inside it.",
    "estimated_duration": 18,
    "audio_file": "mp3/beat-B04.mp3",
-   "actual_duration_s": 21.46,
+   "actual_duration_s": 19.48,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -196,7 +198,7 @@
    "narration_text": "Nicholas, the creative contributor to this book, describes what he calls the void. The work is polished — uniformly, glossily more polished than what most students could make by hand. The fonts pair correctly. The chord progressions resolve. The essays open with a striking sentence and close with a satisfying one. Underneath the polish, he can feel the absence. When you ask the maker why the song is in D minor rather than A minor, or why the palette is cool blue rather than warm orange, the maker shrugs. They didn't decide. The model decided.",
    "estimated_duration": 22,
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 28.22,
+   "actual_duration_s": 27.07,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -221,7 +223,7 @@
    "narration_text": "Authorship requires decisions — not iterations on a model's proposals. The comma you kept against the rule. The brushstroke you left because you liked it more than the corrected one. The sentence structure that is technically awkward and exactly right. Those small load-bearing decisions are what distinguish a piece somebody made from a piece somebody received. When Claude makes every micro-decision because the spec is silent, the piece is Claude's. When you write down every decision before Claude touches the file, the piece is yours.",
    "estimated_duration": 20,
    "audio_file": "mp3/beat-B06.mp3",
-   "actual_duration_s": 26.82,
+   "actual_duration_s": 24.62,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -247,7 +249,7 @@
    "narration_text": "The fix is not less AI. The fix is writing down, before Claude touches the file, what the work is made of, what it looks like, and what it is for. The third one — what the work is for — is the one that cannot be delegated. Who is this for? What should the reader feel? What argument does it make? What does it explicitly refuse to do? Those questions are answered by the human, in the human's voice, before the build starts.",
    "estimated_duration": 20,
    "audio_file": "mp3/beat-B07.mp3",
-   "actual_duration_s": 19.56,
+   "actual_duration_s": 17.86,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -273,7 +275,7 @@
    "narration_text": "Seth built a game design agent two ways. Build one: one prompt, no files. Claude returned a polished agent with an encouraging tone and three commands. Seth almost shipped it. Nicholas asked when the agent ever refused. It didn't. Claude's defaults had inflected the persona. Build two: three files written before the prompt — technical constitution, design constitution, intent layer. Same Claude. Same render time. Different agent. Every decision traceable to a decision Seth had made, in writing, before Claude saw the request. The work was his.",
    "estimated_duration": 22,
    "audio_file": "mp3/beat-B08.mp3",
-   "actual_duration_s": 28.61,
+   "actual_duration_s": 26.71,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -300,7 +302,7 @@
    "narration_text": "Before you open Claude for any creative work, write three things. What is this made of — the stack, the materials, the constraints. What does it look like — the palette, the type, the rhythm. What is it for — the audience, the feeling, the argument, the refusal. The first two Claude can help you specify. The third one you write yourself. The decision you write down before Claude sees the file is the decision the work keeps. Every micro-decision you leave silent, Claude fills from its training distribution. Silence is delegation.",
    "estimated_duration": 22,
    "audio_file": "mp3/beat-B09.mp3",
-   "actual_duration_s": 24.96,
+   "actual_duration_s": 22.93,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -322,10 +324,10 @@
     "AI handles technical execution.",
     "You keep creative judgment."
    ],
-   "narration_text": "AI handles technical execution. You keep creative judgment. The line between technical and creative moves every year — Claude gets better at picking palettes, writing prose, choosing chord progressions. The answer is not to stop using it. The answer is to write down the judgment before Claude executes. The work is yours when the decisions are yours. The decisions are yours when they are written down before the build starts.",
+   "narration_text": "AI handles technical execution. You keep creative judgment. The line between technical and creative moves every year — Claude gets better at picking palettes, writing prose, choosing chord progressions. The answer is not to stop using it. The answer is to write down the judgment before Claude executes. The work is yours when the decisions are yours. The decisions are yours when they are written down before the build starts. From Musinique.",
    "estimated_duration": 19,
    "audio_file": "mp3/beat-B10.mp3",
-   "actual_duration_s": 20.33,
+   "actual_duration_s": 18.82,
    "build": {
     "status": "SLATE",
     "src": null,

@@ -7,9 +7,9 @@
   "audience": "Claude",
   "brand": "claude-musinique",
   "persona": "Musinique",
-  "voice": "am_onyx",
+  "voice": "am_puck",
   "engine": "kokoro",
-  "voice_kokoro": "am_onyx",
+  "voice_kokoro": "am_puck",
   "palette": "claude",
   "style_preset": "claude",
   "ground": "#FAF9F5",
@@ -29,7 +29,7 @@
    "slates": [],
    "skin_warnings": []
   },
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "derived_from": "beat_sheet.json"
  },
  "beats": [
@@ -37,8 +37,8 @@
    "beat_id": "B00",
    "act": "cold open",
    "scene": "ClaudeComposerAsk",
-   "narration_text": "This is Liam for Musinique. Your MacBook Pro has a 2560 by 1600 Retina display. The Claude API resizes that screenshot to 1456 by 819 before the model sees it. Claude clicks at 728, 410. Where does that click land on your actual screen — and how do you compute it?",
-   "voice": "am_onyx",
+   "narration_text": "This is Musinique. Your MacBook Pro has a 2560 by 1600 Retina display. The Claude API resizes that screenshot to 1456 by 819 before the model sees it. Claude clicks at 728, 410. Where does that click land on your actual screen — and how do you compute it?",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15.0,
    "shot": {
@@ -47,7 +47,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Bonjour, Musinique",
-      "topic": "COMPUTER USE · macOS · COORDINATE SCALING",
+      "topic": "MUSINIQUE · COMPUTER USE · macOS · COORDINATE SCALING",
       "segment": "Two Resolutions, One Click — The macOS Coordinate Roundtrip.",
       "command": "On macOS my screenshot gets resized to 1456x819 before Claude sees it — write the inverse transform so the click hits the native display.",
       "runningText": "computing inverse transform…",
@@ -68,7 +68,7 @@
     }
    },
    "audio_file": "mp3/beat-B00.mp3",
-   "actual_duration_s": 19.86,
+   "actual_duration_s": 20.01,
    "build": {
     "status": "VIDEO",
     "src": "media/B00.mp4",
@@ -80,7 +80,7 @@
    "beat_id": "B01",
    "act": "why macOS is different — Retina and target_image_size",
    "narration_text": "The API's vision encoder tiles images into 28 by 28 patches and caps both the long edge at 1568 pixels and the total tile count at 1568. Send a native Retina screenshot — 2560 by 1600 — and the server resizes it again, in a space you never observed. The result: click drift. The reference implementation ports the API's own resize algorithm as target underscore image underscore size, so you control the transform.",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 22.0,
    "shot": {
@@ -90,7 +90,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "The drift.",
-      "topic": "COMPUTER USE · macOS · COORDINATE SCALING",
+      "topic": "MUSINIQUE · COMPUTER USE · macOS · COORDINATE SCALING",
       "segment": "Two Resolutions, One Click — The macOS Coordinate Roundtrip.",
       "command": "# From computer_use/image.py\ndef target_image_size(width, height, ...):\n    # largest (w,h) preserving aspect ratio\n    # with long-edge ≤ max_edge_px (1568)\n    # and tile-count ≤ max_tokens (1568)",
       "runningText": "reading image.py…",
@@ -121,7 +121,7 @@
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "The tools this video covers were built for enterprises with engineering teams and compliance budgets. The musician in the van at 1 a.m. has access to the exact same machinery, for free, through a browser. The gap between knowing this exists and knowing how to use it is what this channel closes — one working piece of your promotion deck at a time.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -144,13 +144,15 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 18.92
   },
   {
    "beat_id": "B02",
    "act": "the forward transform — native to API",
    "narration_text": "The forward path: take the screenshot at native 2560 by 1600. Call target underscore image underscore size — it runs a binary search to find the largest dimensions that keep the long edge under 1568 pixels and the tile count under 1568. The result: 1456 by 819. Resize the image. Record those sent dimensions. They are the denominator of every future inverse.",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 19.0,
    "shot": {
@@ -160,7 +162,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Forward.",
-      "topic": "COMPUTER USE · macOS · COORDINATE SCALING",
+      "topic": "MUSINIQUE · COMPUTER USE · macOS · COORDINATE SCALING",
       "segment": "Two Resolutions, One Click — The macOS Coordinate Roundtrip.",
       "command": "original = (2560, 1600)\nsent_w, sent_h = target_image_size(*original)\n# → (1456, 819)\nimg = img.resize((sent_w, sent_h), LANCZOS)\n# record sent_w, sent_h for the inverse",
       "runningText": "forward transform…",
@@ -187,7 +189,7 @@
    "beat_id": "B03",
    "act": "centerpiece — the round-trip, formula, the hit",
    "narration_text": "Here is the full round-trip. Native display: 1920 by 1080. Button at 960, 540. API resizes to 1456 by 819. Claude sees the button at 728, 409. The inverse: 728 times 1920 over 1456 equals 960. 409 times 1080 over 819 equals 540. The click returns to the exact button. The formula: real equals model times original divided by sent. Source: Claude Quickstarts, Anthropic.",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 22.0,
    "shot": {
@@ -197,7 +199,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Round-trip.",
-      "topic": "COMPUTER USE · macOS · COORDINATE SCALING",
+      "topic": "MUSINIQUE · COMPUTER USE · macOS · COORDINATE SCALING",
       "segment": "Two Resolutions, One Click — The macOS Coordinate Roundtrip.",
       "command": "# Inverse transform\nreal_x = int(model_x * original_w / sent_w)\nreal_y = int(model_y * original_h / sent_h)\n# Example: (728 * 1920/1456, 409 * 1080/819) = (960, 540)",
       "runningText": "inverse transform…",
@@ -237,7 +239,7 @@
    "beat_id": "B04",
    "act": "honesty beat — what this does NOT cover",
    "narration_text": "What this does not cover: batched tool calls, trajectory recording, or other computer-use optimizations in the reference implementation. It also does not cover non-macOS platforms — this code targets macOS specifically. And it does not handle the case where the sent dimensions equal the original — no transform needed, target underscore image underscore size returns the input unchanged.",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 17.0,
    "shot": {
@@ -247,7 +249,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Scope.",
-      "topic": "COMPUTER USE · macOS · COORDINATE SCALING",
+      "topic": "MUSINIQUE · COMPUTER USE · macOS · COORDINATE SCALING",
       "segment": "Two Resolutions, One Click — The macOS Coordinate Roundtrip.",
       "command": "Exclusions: batched tool calls, trajectory recording, non-macOS platforms, no-op case (sent==original). This: the forward+inverse coordinate roundtrip only.",
       "runningText": "noting exclusions…",
@@ -274,7 +276,7 @@
    "beat_id": "B05",
    "act": "verdict",
    "narration_text": "Let's recap with Claude. macOS Retina screenshots are larger than the API's tile budget. Send them raw and the server resizes in a space you never observed — producing click drift. The reference implementation ports the API's own resize algorithm. You resize first, record the sent dimensions, and after Claude clicks, apply the inverse: model coordinate times original over sent. The click lands exactly.",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 21.0,
    "shot": {
@@ -312,7 +314,7 @@
    "act": "your turn",
    "scene": "ClaudeComposerAsk",
    "narration_text": "Your turn. The prompt: 'On macOS my screenshot gets resized to 1456 by 819 before Claude sees it — write the inverse transform so the click hits the native display.' That prompt asks Claude to write target underscore image underscore size plus the inverse. Does it handle non-16:9 Retina displays? Does it warn you when the image is too small to resize? Run it and find out. Musinique.",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 21.0,
    "shot": {
@@ -321,7 +323,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Your turn.",
-      "topic": "COMPUTER USE · macOS · COORDINATE SCALING",
+      "topic": "MUSINIQUE · COMPUTER USE · macOS · COORDINATE SCALING",
       "segment": "Two Resolutions, One Click — The macOS Coordinate Roundtrip.",
       "command": "On macOS my screenshot gets resized to 1456x819 before Claude sees it — write the inverse transform so the click hits the native display.",
       "runningText": "paste this into Claude…",
@@ -336,7 +338,7 @@
     }
    },
    "audio_file": "mp3/beat-B06.mp3",
-   "actual_duration_s": 22.17,
+   "actual_duration_s": 21.87,
    "build": {
     "status": "VIDEO",
     "src": "media/B06.mp4",
@@ -348,8 +350,8 @@
    "beat_id": "B07",
    "act": "outro",
    "scene": "ClaudeTitleOutro",
-   "narration_text": "Two Resolutions, One Click — The macOS Coordinate Roundtrip.",
-   "voice": "am_onyx",
+   "narration_text": "Two Resolutions, One Click — The macOS Coordinate Roundtrip. From Musinique.",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 6.0,
    "shot": {

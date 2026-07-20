@@ -6,7 +6,7 @@
   "topic": "CLAUDE CODE",
   "audience": "NikBearBrown",
   "engine": "kokoro",
-  "voice": "am_onyx",
+  "voice": "am_puck",
   "palette": "claude",
   "register": "Baldwin",
   "derived_from": "beat_sheet.json",
@@ -28,10 +28,10 @@
   "old_outro_beats": [],
   "built_at": "2026-07-16T22:10:57.765240",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
-  "voice_kokoro": "am_onyx"
+  "voice_kokoro": "am_puck"
  },
  "beats": [
   {
@@ -39,8 +39,8 @@
    "act": "COLD OPEN",
    "title": "Liam cold open — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "This is Liam for Musinique. The part that unsettles me is that the bug lived at exactly total equals page-size times n plus one, and every test Seth wrote was a multiple of fifty - so the loop's stop-when-a-page-returns-exactly-fifty rule silently ate the 251st item. I want to hunt this whole class of failure deliberately. Help me: (1) rewrite the termination condition so a full final page can never end the loop early, (2) generate the boundary test cases that would have exposed the off-by-one at 50, 51, 100, and 101, and (3) explain why the fault sat at the function-loop handoff and not inside the function itself.",
+   "voice": "am_puck",
+   "narration_text": "This is Musinique. The part that unsettles me is that the bug lived at exactly total equals page-size times n plus one, and every test Seth wrote was a multiple of fifty - so the loop's stop-when-a-page-returns-exactly-fifty rule silently ate the 251st item. I want to hunt this whole class of failure deliberately. Help me: (1) rewrite the termination condition so a full final page can never end the loop early, (2) generate the boundary test cases that would have exposed the off-by-one at 50, 51, 100, and 101, and (3) explain why the fault sat at the function-loop handoff and not inside the function itself.",
    "shot": {
     "type": "CARD",
     "source": "remotion",
@@ -51,7 +51,7 @@
      "version": "1",
      "props": {
       "command": "The part that unsettles me is that the bug lived at exactly total equals page-size times n plus one, and every test Seth wrote was a multiple of fifty - so the loop's stop-when-a-page-returns-exactly-fifty rule silently ate the 251st item. I want to hunt this whole class of failure deliberately. Help me: (1) rewrite the termination condition so a full final page can never end the loop early, (2) generate the boundary test cases that would have exposed the off-by-one at 50, 51, 100, and 101, and (3) explain why the fault sat at the function-loop handoff and not inside the function itself.",
-      "topic": "CLAUDE CODE",
+      "topic": "MUSINIQUE · CLAUDE CODE",
       "segment": "Why the Most Dangerous Claude Output",
       "greeting": "Sawubona, Musinique",
       "runningText": "explaining the mechanism…",
@@ -89,7 +89,7 @@
    "source_clip": "../pagination-bug-dangerous-middle/clips/B01.mp4",
    "source_audio": "../pagination-bug-dangerous-middle/mp3/beat-B01.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B02",
@@ -109,14 +109,14 @@
    "source_clip": "../pagination-bug-dangerous-middle/clips/B02.mp4",
    "source_audio": "../pagination-bug-dangerous-middle/mp3/beat-B02.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01B",
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "The same evaluation machinery that grades six variants of a customer-support agent grades six versions of your EPK pitch. You write the rubric — what counts as a strong pitch, what counts as a weak one — and the machine runs the comparison. The label has staff for that. You have Claude.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -156,7 +156,7 @@
    "source_clip": "../pagination-bug-dangerous-middle/clips/B03.mp4",
    "source_audio": "../pagination-bug-dangerous-middle/mp3/beat-B03.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B04",
@@ -177,7 +177,7 @@
    "source_clip": "../pagination-bug-dangerous-middle/clips/B04.mp4",
    "source_audio": "../pagination-bug-dangerous-middle/mp3/beat-B04.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B05",
@@ -194,7 +194,7 @@
    "source_clip": "../pagination-bug-dangerous-middle/clips/B05.mp4",
    "source_audio": "../pagination-bug-dangerous-middle/mp3/beat-B05.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B06",
@@ -215,7 +215,7 @@
    "source_clip": "../pagination-bug-dangerous-middle/clips/B06.mp4",
    "source_audio": "../pagination-bug-dangerous-middle/mp3/beat-B06.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B07",
@@ -236,7 +236,7 @@
    "source_clip": "../pagination-bug-dangerous-middle/clips/B07.mp4",
    "source_audio": "../pagination-bug-dangerous-middle/mp3/beat-B07.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B08",
@@ -257,7 +257,7 @@
    "source_clip": "../pagination-bug-dangerous-middle/clips/B08.mp4",
    "source_audio": "../pagination-bug-dangerous-middle/mp3/beat-B08.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B09",
@@ -278,7 +278,7 @@
    "source_clip": "../pagination-bug-dangerous-middle/clips/B09.mp4",
    "source_audio": "../pagination-bug-dangerous-middle/mp3/beat-B09.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B10",
@@ -299,14 +299,14 @@
    "source_clip": "../pagination-bug-dangerous-middle/clips/B10.mp4",
    "source_audio": "../pagination-bug-dangerous-middle/mp3/beat-B10.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "NBB01",
    "act": "VERDICT",
    "title": "Liam verdict — ClaudeVerdictArtifact",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": "Let's recap with Claude. Here's what the body just demonstrated. Priya builds a paginated leaderboard for her school's quiz app. She tests page 1 of 20, page 2 of 40. All pass. She deploys. A tournament ends with 41 players. The 41st player — ranked last — never appears on any page. Her test set was all multiples of 20. The handoff condition she needed: given total equals page size times two plus one, the final page returns exactly one entry and the loop terminates. The dangerous middle is not the easy bug that fails on first run, and not the impossible bug nobody would think of. It is the bug that lives inside what looks like correct work — the one you could have caught with one more test, written before the step ran. The handoff condition is the sentence that makes that test mandatory.",
    "shot": {
     "type": "CARD",
@@ -341,7 +341,7 @@
    "act": "YOUR TURN",
    "title": "Your turn handoff — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": "Take this prompt, run it on your own — pick any cancer type or clinical scenario you know about and ask how this mechanism applies there.",
    "shot": {
     "type": "CARD",
@@ -353,7 +353,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Why the Most Dangerous Claude Output Is the One That Passes Every Test] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "CLAUDE CODE",
+      "topic": "MUSINIQUE · CLAUDE CODE",
       "segment": "Why the Most Dangerous Claude Output",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -401,8 +401,8 @@
    "silence_s": 6.0,
    "actual_duration_s": 6.03,
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "Why the Most Dangerous Claude Output Is the One That Passes Every Test"
+   "voice": "am_puck",
+   "narration_text": "Why the Most Dangerous Claude Output Is the One That Passes Every Test. From Musinique."
   }
  ]
 }

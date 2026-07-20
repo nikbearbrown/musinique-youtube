@@ -15,7 +15,7 @@
   "note": "Card exclusions honored: NO hallucination research formalism, NO retrieval-augmented generation as a solution, NO comparison of model versions on citation accuracy. Mechanism only: unconstrained improvement = logical-gap filling from priors.",
   "total_estimated_duration_seconds": 219.72,
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "register": "Baldwin",
   "folderLabel": "@Musinique",
@@ -42,7 +42,7 @@
     "sub": "strengthening an argument often means inventing one"
    },
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 14.63,
+   "actual_duration_s": 15.08,
    "engine": "kokoro",
    "voice": "am_puck"
   },
@@ -60,7 +60,7 @@
    "scene_description": "Researcher at desk reading a manuscript printout, looking troubled, reviewer comment visible, editorial newsprint treatment, desaturated flat print collage",
    "image_prompt": "B02, academic researcher woman at a desk, looking troubled while reading a manuscript printout with reviewer comments, editorial documentary newsprint treatment, desaturated flat print collage, academic office environment",
    "audio_file": "mp3/beat-B02.mp3",
-   "actual_duration_s": 21.63,
+   "actual_duration_s": 18.71,
    "engine": "kokoro",
    "voice": "am_puck"
   },
@@ -81,7 +81,7 @@
     "sub": ""
    },
    "audio_file": "mp3/beat-B03.mp3",
-   "actual_duration_s": 12.07,
+   "actual_duration_s": 12.01,
    "engine": "kokoro",
    "voice": "am_puck"
   },
@@ -110,7 +110,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 17.34
   },
   {
    "beat_id": "B04",
@@ -127,7 +129,7 @@
     "manim": "B04_GapFilling"
    },
    "audio_file": "mp3/beat-B04.mp3",
-   "actual_duration_s": 18.76,
+   "actual_duration_s": 16.19,
    "engine": "kokoro",
    "voice": "am_puck"
   },
@@ -146,7 +148,7 @@
     "manim": "B05_NoVisibleSeam"
    },
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 15.65,
+   "actual_duration_s": 15.17,
    "engine": "kokoro",
    "voice": "am_puck"
   },
@@ -165,7 +167,7 @@
     "manim": "B06_InstructionPermits"
    },
    "audio_file": "mp3/beat-B06.mp3",
-   "actual_duration_s": 17.63,
+   "actual_duration_s": 14.42,
    "engine": "kokoro",
    "voice": "am_puck"
   },
@@ -186,7 +188,7 @@
     "sub": ""
    },
    "audio_file": "mp3/beat-B07.mp3",
-   "actual_duration_s": 18.34,
+   "actual_duration_s": 15.49,
    "engine": "kokoro",
    "voice": "am_puck"
   },
@@ -205,7 +207,7 @@
     "manim": "B08_OwnershipConstraint"
    },
    "audio_file": "mp3/beat-B08.mp3",
-   "actual_duration_s": 17.37,
+   "actual_duration_s": 15.83,
    "engine": "kokoro",
    "voice": "am_puck"
   },
@@ -224,7 +226,7 @@
     "manim": "B09_AnyImprovement"
    },
    "audio_file": "mp3/beat-B09.mp3",
-   "actual_duration_s": 15.12,
+   "actual_duration_s": 13.38,
    "engine": "kokoro",
    "voice": "am_puck"
   },
@@ -243,7 +245,7 @@
     "manim": "B10_PolicyExample"
    },
    "audio_file": "mp3/beat-B10.mp3",
-   "actual_duration_s": 20.01,
+   "actual_duration_s": 18.43,
    "engine": "kokoro",
    "voice": "am_puck"
   },
@@ -262,7 +264,7 @@
     "manim": "B11_PolicyFixed"
    },
    "audio_file": "mp3/beat-B11.mp3",
-   "actual_duration_s": 21.63,
+   "actual_duration_s": 18.24,
    "engine": "kokoro",
    "voice": "am_puck"
   },
@@ -281,7 +283,7 @@
     "manim": "B12_Practice"
    },
    "audio_file": "mp3/beat-B12.mp3",
-   "actual_duration_s": 15.6,
+   "actual_duration_s": 14.91,
    "engine": "kokoro",
    "voice": "am_puck"
   },
@@ -290,7 +292,7 @@
    "t_start": 132.0,
    "estimated_duration_s": 10.0,
    "act": "RECAP",
-   "narration_text": "Improvement without constraints means gap-filling from priors. Every claim in your document is your responsibility — regardless of who typed it. Name the ownership boundary before Claude starts.",
+   "narration_text": "Improvement without constraints means gap-filling from priors. Every claim in your document is your responsibility — regardless of who typed it. Name the ownership boundary before Claude starts. From Musinique.",
    "shot": {
     "type": "CARD",
     "source": "own",
@@ -302,7 +304,7 @@
     "sub": "Improvement without constraints means gap-filling from priors."
    },
    "audio_file": "mp3/beat-B13.mp3",
-   "actual_duration_s": 12.238,
+   "actual_duration_s": 12.01,
    "engine": "kokoro",
    "voice": "am_puck"
   }

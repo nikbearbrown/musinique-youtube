@@ -14,7 +14,7 @@
   "total_estimated_duration_seconds": 113.0,
   "note": "CLI video: 10-beat spine B00–B09. B04 is Manim B04_ProcessAuditBars. No audio.",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "register": "Baldwin",
   "folderLabel": "@Musinique",
@@ -26,24 +26,26 @@
   {
    "beat_id": "B00",
    "act": "INTRO",
-   "narration_text": "This is Musinique. Nik Bear Brown. Build it with a CLI, then take it apart.",
+   "narration_text": "This is Musinique. Musinique. Build it with a CLI, then take it apart.",
    "estimated_duration_s": 10.0,
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOpen",
+     "pattern": "ClaudeComposerAsk",
      "props": {
-      "topic": "CLAUDE",
-      "lines": [
-       "Nik Bear Brown",
+      "command": "Audit a Completed AI Task for Process Evidence with Claude",
+      "topic": "MUSINIQUE · CLAUDE",
+      "segment": "Audit a Completed AI Task for Process Evidence with Claude",
+      "greeting": "This is Musinique.",
+      "runningText": "working…",
+      "output": [
        "Brutalist + Educational AI",
        "Process Audit",
        "Polished Output Is Not",
        "Evidence of a Trustworthy Workflow"
-      ],
-      "greeting": "Ahoj, Musinique"
+      ]
      }
     }
    },
@@ -100,10 +102,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Write process_audit.py:\n  reads ai_use_log.csv\n  scores each session on 4 dimensions:\n    task_routed\n    gate_check\n    error_corrected\n    verification_evidence\n  by checking for non-empty values\n  print per-session summary table\n  overall process score out of 4\n  threshold: 3/4 = shareable output\"",
-      "topic": "CLAUDE",
+      "topic": "MUSINIQUE · CLAUDE",
       "segment": "PROCESS AUDIT",
       "runningText": "running analysis…"
      }
@@ -122,12 +124,12 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownCodeBlock",
+     "pattern": "ClaudeCodeBeat",
      "props": {
-      "filename": "process_audit.py",
       "segment": "PROCESS AUDIT",
       "topic": "CLAUDE",
-      "code": "# process_audit.py — Claude Code output\nimport csv\nfrom pathlib import Path\n\nDIMS = ['task_routed','gate_check',\n        'error_corrected','verification_evidence']\nTHRESHOLD = 3  # out of 4\n\ndef score_session(row):\n    return sum(1 for d in DIMS\n               if row.get(d,'').strip())\n\ndef audit(log_path):\n    rows = list(csv.DictReader(open(log_path)))\n    for row in rows:\n        s = score_session(row)\n        status = 'SHAREABLE' if s >= THRESHOLD \\\n                 else 'NOT READY'\n        print(f\"{row.get('date','?')[:10]}\"\n              f\" score={s}/4 {status}\")"
+      "code": "# process_audit.py — Claude Code output\nimport csv\nfrom pathlib import Path\n\nDIMS = ['task_routed','gate_check',\n        'error_corrected','verification_evidence']\nTHRESHOLD = 3  # out of 4\n\ndef score_session(row):\n    return sum(1 for d in DIMS\n               if row.get(d,'').strip())\n\ndef audit(log_path):\n    rows = list(csv.DictReader(open(log_path)))\n    for row in rows:\n        s = score_session(row)\n        status = 'SHAREABLE' if s >= THRESHOLD \\\n                 else 'NOT READY'\n        print(f\"{row.get('date','?')[:10]}\"\n              f\" score={s}/4 {status}\")",
+      "title": "process_audit.py"
      }
     }
    },
@@ -161,10 +163,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"update process_audit.py:\n  add --recommend flag\n  identifies lowest-scoring dimension\n  outputs one concrete improvement\n  for that dimension only\n  one sentence, actionable\"",
-      "topic": "CLAUDE",
+      "topic": "MUSINIQUE · CLAUDE",
       "segment": "PROCESS AUDIT",
       "runningText": "updating audit tool…"
      }
@@ -215,14 +217,14 @@
   {
    "beat_id": "B09",
    "act": "OUTRO",
-   "narration_text": "Nik Bear Brown. Build it with a CLI. Then take it apart. At Nik Bear Brown, nikbearbrown dot com.",
+   "narration_text": "Musinique. Build it with a CLI. Then take it apart. At Musinique, nikbearbrown dot com.",
    "estimated_duration_s": 8.0,
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOutro",
+     "pattern": "ClaudeTitleOutro",
      "props": {
       "brand": "Nik Bear Brown",
       "tagline": "Brutalist + Educational AI",

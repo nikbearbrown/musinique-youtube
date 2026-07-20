@@ -19,7 +19,7 @@
   "playlist": "Claude Taught",
   "modifier": "skill-teardown",
   "source_skill": "../anthropics/claude-tag-plugins/google-drive/skills/google-drive-api/SKILL.md",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "derived_from": "beat_sheet.json"
  },
  "beats": [
@@ -36,7 +36,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Hej, Musinique",
-      "topic": "GOOGLE DRIVE API · CLAUDE PLUGINS",
+      "topic": "MUSINIQUE · GOOGLE DRIVE API · CLAUDE PLUGINS",
       "segment": "PLUGINS",
       "command": "Search Drive for last quarter's reports and read the summary doc.",
       "runningText": "reading google-drive-api SKILL.md…",
@@ -56,7 +56,7 @@
     }
    },
    "audio_file": "mp3/beat-B00.mp3",
-   "actual_duration_s": 20.18
+   "actual_duration_s": 18.5
   },
   {
    "beat_id": "B01",
@@ -79,7 +79,7 @@
     }
    },
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 61.12
+   "actual_duration_s": 57.22
   },
   {
    "beat_id": "B01B",
@@ -106,7 +106,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 19.09
   },
   {
    "beat_id": "B02",
@@ -129,7 +131,7 @@
     }
    },
    "audio_file": "mp3/beat-B02.mp3",
-   "actual_duration_s": 61.42
+   "actual_duration_s": 57.37
   },
   {
    "beat_id": "B05",
@@ -152,7 +154,7 @@
     }
    },
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 102.08
+   "actual_duration_s": 93.61
   },
   {
    "beat_id": "BVDT",
@@ -184,7 +186,7 @@
     }
    },
    "audio_file": "mp3/beat-BVDT.mp3",
-   "actual_duration_s": 42.69
+   "actual_duration_s": 40.0
   },
   {
    "beat_id": "BHTF",
@@ -199,7 +201,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Your Turn",
-      "topic": "GOOGLE DRIVE API · HANDOFF",
+      "topic": "MUSINIQUE · GOOGLE DRIVE API · HANDOFF",
       "segment": "PLUGINS",
       "command": "Find all spreadsheets modified in the last 30 days on our shared drive and export the first one as CSV.",
       "runningText": "Watch: fields= nextPageToken? supportsAllDrives triple-param? mimeType branch? export fallback?",
@@ -219,7 +221,7 @@
     }
    },
    "audio_file": "mp3/beat-BHTF.mp3",
-   "actual_duration_s": 40.47
+   "actual_duration_s": 37.42
   },
   {
    "beat_id": "BOUT",
@@ -244,7 +246,7 @@
     }
    },
    "audio_file": "mp3/beat-BOUT.mp3",
-   "actual_duration_s": 3.09
+   "actual_duration_s": 2.03
   }
  ]
 }

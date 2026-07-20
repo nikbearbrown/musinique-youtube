@@ -3,7 +3,7 @@
   "slug": "three-pass-refinement-demo",
   "title": "Build a 3-Pass Prompt Refinement Demo with Claude",
   "topic": "PROMPT ENGINEERING",
-  "voice": "am_onyx",
+  "voice": "am_puck",
   "voice_id": "TyW6NH39JcFb5M3xdIIk",
   "style": "cli",
   "palette": "claude",
@@ -13,12 +13,12 @@
   "ground": "#FFFFFF",
   "total_estimated_duration_seconds": 113.0,
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "register": "Baldwin",
   "folderLabel": "@Musinique",
   "engine": "kokoro",
-  "voice_kokoro": "am_onyx",
+  "voice_kokoro": "am_puck",
   "derived_from": "beat_sheet.json"
  },
  "beats": [
@@ -44,8 +44,10 @@
     }
    ],
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "This is Liam for Musinique. "
+   "voice": "am_puck",
+   "narration_text": "This is Musinique.",
+   "audio_file": "mp3/beat-B00.mp3",
+   "actual_duration_s": 2.28
   },
   {
    "beat_id": "B01",
@@ -59,7 +61,7 @@
     }
    ],
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": ""
   },
   {
@@ -67,7 +69,7 @@
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "Prompt design is the skill the platform doesn't want you to have, because a musician who can write a precise prompt is a musician who doesn't need to buy someone else's pre-packaged workflow. Every prompt in this video is a template you can adapt — paste it, swap the specifics, run it on your own catalog. The instruction is the tool.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -87,7 +89,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 17.15
   },
   {
    "beat_id": "B02",
@@ -107,7 +111,7 @@
     }
    ],
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": ""
   },
   {
@@ -128,7 +132,7 @@
     }
    ],
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": ""
   },
   {
@@ -143,7 +147,7 @@
     }
    ],
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": ""
   },
   {
@@ -164,7 +168,7 @@
     }
    ],
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": ""
   },
   {
@@ -179,7 +183,7 @@
     }
    ],
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": ""
   },
   {
@@ -194,7 +198,7 @@
     }
    ],
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": ""
   },
   {
@@ -209,7 +213,7 @@
     }
    ],
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": ""
   },
   {
@@ -230,8 +234,8 @@
     }
    ],
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": ""
+   "voice": "am_puck",
+   "narration_text": "From Musinique."
   }
  ]
 }

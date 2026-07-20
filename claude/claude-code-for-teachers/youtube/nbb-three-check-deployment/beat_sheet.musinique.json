@@ -28,7 +28,7 @@
   "old_outro_beats": [],
   "built_at": "2026-07-16T22:44:25.225654",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
   "voice_kokoro": "am_puck"
@@ -51,7 +51,7 @@
      "version": "1",
      "props": {
       "command": "I keep pushing changes and finding breakage days later, so I want to run the three-check deployment verification protocol properly on my class website. Then: (1) walk me through what each of the three checks actually verifies before I deploy; (2) turn each one into a specific, testable, binary condition, like every link resolving on the live URL rather than local dev; (3) help me write the commands so 'looks good' never again stands in for a real gate.",
-      "topic": "CLAUDE CODE FOR TEACHERS",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR TEACHERS",
       "segment": "Run the Three-Check Deployment Verification Protocol",
       "greeting": "Sawadee, Musinique",
       "runningText": "explaining the mechanism…",
@@ -68,7 +68,7 @@
    },
    "estimated_duration_s": 9.0,
    "audio_file": "mp3/beat-NBB00.mp3",
-   "actual_duration_s": 7.957
+   "actual_duration_s": 23.98
   },
   {
    "beat_id": "B00",
@@ -83,10 +83,11 @@
    "locked": true,
    "source_clip": "../three-check-deployment/clips/B00.mp4",
    "source_audio": "../three-check-deployment/mp3/beat-B00.mp3",
-   "audio_file": "../three-check-deployment/mp3/beat-B00.mp3",
+   "audio_file": "mp3/beat-B00.mp3",
    "engine": "kokoro",
    "voice": "am_puck",
-   "narration_text": "This is Musinique."
+   "narration_text": "This is Musinique.",
+   "actual_duration_s": 1.15
   },
   {
    "beat_id": "B01",
@@ -131,7 +132,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 17.43
   },
   {
    "beat_id": "B02",
@@ -143,10 +146,10 @@
     "source": null,
     "motion": "hold",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Generate deployment verification for sorting simulator:\\n  (1) Functional: 5 browser-console tests,\\n    375px and 1024px rendering, all 3 algorithms\\n  (2) Environment: list external resource deps,\\n    network-sensitive elements, CORS requests\\n  (3) Pedagogical: 5 questions a ninth-grader\\n    should answer after 10 min unsupervised\"",
-      "topic": "CLAUDE CODE FOR TEACHERS",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR TEACHERS",
       "segment": "DEPLOYMENT VERIFICATION",
       "runningText": "generating protocol…"
      }
@@ -170,12 +173,12 @@
     "source": null,
     "motion": "hold",
     "remotion": {
-     "pattern": "NikBearBrownCodeBlock",
+     "pattern": "ClaudeCodeBeat",
      "props": {
-      "filename": "deploy-check.md",
       "segment": "DEPLOYMENT VERIFICATION",
       "topic": "CLAUDE CODE FOR TEACHERS",
-      "code": "# Deployment Verification Protocol\n\n## Functional Check\n1. console.log(errors) → expect []\n2. window.innerWidth=375 → layout intact\n3. bubbleSort([5,3,1]) → swap_count correct\n4. mergeSort([5,3,1]) → comparison_count correct\n5. quickSort([5,3,1]) → pivot displayed\n\n## Environment Check\n- fonts.googleapis.com ← school may block CDN\n- No external API calls detected\n- All assets inline ← PASS\n\n## Pedagogical Check\n1. Which sort made fewer comparisons?\n2. What does a swap mean visually?"
+      "code": "# Deployment Verification Protocol\n\n## Functional Check\n1. console.log(errors) → expect []\n2. window.innerWidth=375 → layout intact\n3. bubbleSort([5,3,1]) → swap_count correct\n4. mergeSort([5,3,1]) → comparison_count correct\n5. quickSort([5,3,1]) → pivot displayed\n\n## Environment Check\n- fonts.googleapis.com ← school may block CDN\n- No external API calls detected\n- All assets inline ← PASS\n\n## Pedagogical Check\n1. Which sort made fewer comparisons?\n2. What does a swap mean visually?",
+      "title": "deploy-check.md"
      }
     }
    },
@@ -215,10 +218,10 @@
     "source": null,
     "motion": "hold",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Add fourth check: accessibility.\\n  Run axe-core in browser devtools.\\n  What does it catch?\\n  Fix any critical issues.\"",
-      "topic": "CLAUDE CODE FOR TEACHERS",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR TEACHERS",
       "segment": "DEPLOYMENT VERIFICATION",
       "runningText": "running accessibility check…"
      }
@@ -296,11 +299,11 @@
     "source": null,
     "motion": "hold",
     "remotion": {
-     "pattern": "NikBearBrownOutro",
+     "pattern": "ClaudeTitleOutro",
      "props": {
       "brand": "Nik Bear Brown",
       "tagline": "Brutalist + Educational AI",
-      "handle": "@NikBearBrown",
+      "handle": "@Musinique",
       "url": "nikbearbrown.com"
      }
     }
@@ -345,7 +348,7 @@
    },
    "estimated_duration_s": 30.0,
    "audio_file": "mp3/beat-NBB01.mp3",
-   "actual_duration_s": 2.88,
+   "actual_duration_s": 3.61,
    "lead_silence_s": 0.5
   },
   {
@@ -365,7 +368,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Run the Three-Check Deployment Verification Protocol with Claude Code] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "CLAUDE CODE FOR TEACHERS",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR TEACHERS",
       "segment": "Run the Three-Check Deployment Verification Protocol",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -382,7 +385,7 @@
    },
    "estimated_duration_s": 8.0,
    "audio_file": "mp3/beat-NBB02.mp3",
-   "actual_duration_s": 7.765
+   "actual_duration_s": 8.3
   },
   {
    "beat_id": "NBB03",
@@ -411,10 +414,10 @@
    "estimated_duration_s": 6.0,
    "audio_file": "mp3/beat-NBB03.mp3",
    "silence_s": 6.0,
-   "actual_duration_s": 6.03,
+   "actual_duration_s": 4.25,
    "engine": "kokoro",
    "voice": "am_puck",
-   "narration_text": "Run the Three-Check Deployment Verification Protocol with Claude Code"
+   "narration_text": "Run the Three-Check Deployment Verification Protocol with Claude Code. From Musinique."
   }
  ]
 }

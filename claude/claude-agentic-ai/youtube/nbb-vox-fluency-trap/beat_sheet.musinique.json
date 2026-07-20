@@ -6,7 +6,7 @@
   "topic": "AGENTIC AI",
   "audience": "NikBearBrown",
   "engine": "kokoro",
-  "voice": "am_onyx",
+  "voice": "am_puck",
   "palette": "claude",
   "register": "Baldwin",
   "derived_from": "beat_sheet.json",
@@ -27,10 +27,10 @@
   "old_outro_beats": [],
   "built_at": "2026-07-17T00:45:36.302615",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
-  "voice_kokoro": "am_onyx"
+  "voice_kokoro": "am_puck"
  },
  "beats": [
   {
@@ -38,8 +38,8 @@
    "act": "COLD OPEN",
    "title": "Liam cold open — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "This is Liam for Musinique. The claim that fluent prose is structurally uncorrelated with correctness unsettles me, because I've been trusting well-formatted citations as evidence. I want to run Carlos's trap on myself. Help me: (1) generate a policy brief citing five sources where two are unreachable, so I watch plausible fabrication fill the gap; (2) show me how to pick one claim and trace it to the actual source, not the agent's cited text; (3) tell me exactly what to do when the source says the opposite of the summary.",
+   "voice": "am_puck",
+   "narration_text": "This is Musinique. The claim that fluent prose is structurally uncorrelated with correctness unsettles me, because I've been trusting well-formatted citations as evidence. I want to run Carlos's trap on myself. Help me: (1) generate a policy brief citing five sources where two are unreachable, so I watch plausible fabrication fill the gap; (2) show me how to pick one claim and trace it to the actual source, not the agent's cited text; (3) tell me exactly what to do when the source says the opposite of the summary.",
    "shot": {
     "type": "CARD",
     "source": "remotion",
@@ -50,7 +50,7 @@
      "version": "1",
      "props": {
       "command": "The claim that fluent prose is structurally uncorrelated with correctness unsettles me, because I've been trusting well-formatted citations as evidence. I want to run Carlos's trap on myself. Help me: (1) generate a policy brief citing five sources where two are unreachable, so I watch plausible fabrication fill the gap; (2) show me how to pick one claim and trace it to the actual source, not the agent's cited text; (3) tell me exactly what to do when the source says the opposite of the summary.",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "Why a Polished Output Is Not",
       "greeting": "Aloha, Musinique",
       "runningText": "explaining the mechanism…",
@@ -67,7 +67,7 @@
    },
    "estimated_duration_s": 9.0,
    "audio_file": "mp3/beat-NBB00.mp3",
-   "actual_duration_s": 5.568
+   "actual_duration_s": 27.33
   },
   {
    "beat_id": "B01",
@@ -82,20 +82,20 @@
    "scene_description": "a polished academic summary document — precise headings, parenthetical citations throughout; editorial collage on newsprint, slow push-in on a citation",
    "chosen_media": null,
    "new_visual_element": "[PHOTO] the polished citation-filled summary",
-   "audio_file": "../vox-fluency-trap/mp3/beat-B01.mp3",
-   "actual_duration_s": 7.13,
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 7.4,
    "locked": true,
    "source_clip": "../vox-fluency-trap/clips/B01.mp4",
    "source_audio": "../vox-fluency-trap/mp3/beat-B01.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01B",
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "The indie musician who automates their Spotify stats check, their distributor ping, their playlist pitch — that musician gets time back that they would otherwise spend refreshing a dashboard. An agent is not a luxury for the label's data team; it is a tool you can run free, on your own machine, today. The same frontmatter that tells Claude when to fire a code-review agent tells it when to check your streaming anomalies. You just haven't pointed it yet.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -115,7 +115,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 22.06
   },
   {
    "beat_id": "B02",
@@ -141,13 +143,13 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] three citation threads snap CRIMSON one by one",
-   "audio_file": "../vox-fluency-trap/mp3/beat-B02.mp3",
-   "actual_duration_s": 9.64,
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 9.54,
    "locked": true,
    "source_clip": "../vox-fluency-trap/clips/B02.mp4",
    "source_audio": "../vox-fluency-trap/mp3/beat-B02.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B03",
@@ -165,13 +167,13 @@
    },
    "chosen_media": null,
    "new_visual_element": "[CARD] THE QUESTION beat",
-   "audio_file": "../vox-fluency-trap/mp3/beat-B03.mp3",
-   "actual_duration_s": 12.12,
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 11.54,
    "locked": true,
    "source_clip": "../vox-fluency-trap/clips/B03.mp4",
    "source_audio": "../vox-fluency-trap/mp3/beat-B03.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B04",
@@ -197,13 +199,13 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] two bars: fluency trained (TEAL), accuracy not (CRIMSON)",
-   "audio_file": "../vox-fluency-trap/mp3/beat-B04.mp3",
-   "actual_duration_s": 13.61,
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 12.1,
    "locked": true,
    "source_clip": "../vox-fluency-trap/clips/B04.mp4",
    "source_audio": "../vox-fluency-trap/mp3/beat-B04.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B05",
@@ -221,13 +223,13 @@
    },
    "chosen_media": null,
    "new_visual_element": "[CARD] section card — mechanism statement",
-   "audio_file": "../vox-fluency-trap/mp3/beat-B05.mp3",
-   "actual_duration_s": 12.43,
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 12.27,
    "locked": true,
    "source_clip": "../vox-fluency-trap/clips/B05.mp4",
    "source_audio": "../vox-fluency-trap/mp3/beat-B05.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B06",
@@ -253,13 +255,13 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] report vs evidence — blocked arrow",
-   "audio_file": "../vox-fluency-trap/mp3/beat-B06.mp3",
-   "actual_duration_s": 17.5,
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 14.46,
    "locked": true,
    "source_clip": "../vox-fluency-trap/clips/B06.mp4",
    "source_audio": "../vox-fluency-trap/mp3/beat-B06.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B07",
@@ -285,13 +287,13 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] Carlos: 5 cited, 2 read, claim 2 is wrong",
-   "audio_file": "../vox-fluency-trap/mp3/beat-B07.mp3",
-   "actual_duration_s": 19.49,
+   "audio_file": "mp3/beat-B07.mp3",
+   "actual_duration_s": 17.47,
    "locked": true,
    "source_clip": "../vox-fluency-trap/clips/B07.mp4",
    "source_audio": "../vox-fluency-trap/mp3/beat-B07.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B08",
@@ -317,13 +319,13 @@
    },
    "chosen_media": null,
    "new_visual_element": "[GRAPHIC] two steps: claim then open source",
-   "audio_file": "../vox-fluency-trap/mp3/beat-B08.mp3",
-   "actual_duration_s": 19.49,
+   "audio_file": "mp3/beat-B08.mp3",
+   "actual_duration_s": 14.61,
    "locked": true,
    "source_clip": "../vox-fluency-trap/clips/B08.mp4",
    "source_audio": "../vox-fluency-trap/mp3/beat-B08.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B09",
@@ -342,20 +344,20 @@
    },
    "chosen_media": null,
    "new_visual_element": "[CARD] RECAP endcard",
-   "audio_file": "../vox-fluency-trap/mp3/beat-B09.mp3",
-   "actual_duration_s": 14.468,
+   "audio_file": "mp3/beat-B09.mp3",
+   "actual_duration_s": 13.1,
    "locked": true,
    "source_clip": "../vox-fluency-trap/clips/B09.mp4",
    "source_audio": "../vox-fluency-trap/mp3/beat-B09.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "NBB01",
    "act": "VERDICT",
    "title": "Liam verdict — ClaudeVerdictArtifact",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": "Let's recap with Claude. Here's what the body just demonstrated. The practice: for any research output, check at least one claim yourself — not the one the agent cited, but the actual source. Open the document. Find the passage. See if it says what the brief claims it says. That check cannot be delegated to the same system that produced the brief. A polished output is not evidence the work is correct. Fluency and accuracy are uncorrelated — they come from different parts of the training objective. The report tells you what was generated. Only checking the source tells you what is true.",
    "shot": {
     "type": "CARD",
@@ -382,7 +384,7 @@
    },
    "estimated_duration_s": 30.0,
    "audio_file": "mp3/beat-NBB01.mp3",
-   "actual_duration_s": 29.077,
+   "actual_duration_s": 28.74,
    "lead_silence_s": 0.5
   },
   {
@@ -390,7 +392,7 @@
    "act": "YOUR TURN",
    "title": "Your turn handoff — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": "Take this prompt, run it on your own — pick any cancer type or clinical scenario you know about and ask how this mechanism applies there.",
    "shot": {
     "type": "CARD",
@@ -402,7 +404,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Why a Polished Output Is Not Evidence the Work Is Correct] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "Why a Polished Output Is Not",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -419,7 +421,7 @@
    },
    "estimated_duration_s": 8.0,
    "audio_file": "mp3/beat-NBB02.mp3",
-   "actual_duration_s": 7.765
+   "actual_duration_s": 7.81
   },
   {
    "beat_id": "NBB03",
@@ -448,10 +450,10 @@
    "estimated_duration_s": 6.0,
    "audio_file": "mp3/beat-NBB03.mp3",
    "silence_s": 6.0,
-   "actual_duration_s": 6.03,
+   "actual_duration_s": 3.71,
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "Why a Polished Output Is Not Evidence the Work Is Correct"
+   "voice": "am_puck",
+   "narration_text": "Why a Polished Output Is Not Evidence the Work Is Correct. From Musinique."
   }
  ]
 }

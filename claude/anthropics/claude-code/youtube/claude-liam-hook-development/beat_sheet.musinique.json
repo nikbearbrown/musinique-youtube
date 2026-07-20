@@ -27,7 +27,7 @@
    "slates": [],
    "skin_warnings": []
   },
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "derived_from": "beat_sheet.json"
  },
  "beats": [
@@ -44,7 +44,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Privet, Musinique",
-      "topic": "HOOK DEVELOPMENT · CLAUDE CODE SKILL",
+      "topic": "MUSINIQUE · HOOK DEVELOPMENT · CLAUDE CODE SKILL",
       "segment": "PLUGIN DEV",
       "command": "Create a PreToolUse hook for my plugin that blocks writes to .env files and system paths.",
       "runningText": "reading hook-development SKILL.md…",
@@ -239,7 +239,7 @@
      "pattern": "ClaudeComposerAsk",
      "props": {
       "greeting": "Your Turn",
-      "topic": "HOOK DEVELOPMENT · HANDOFF",
+      "topic": "MUSINIQUE · HOOK DEVELOPMENT · HANDOFF",
       "segment": "PLUGIN DEV",
       "command": "Create a PreToolUse hook for my plugin that blocks writes to .env files and system paths.",
       "runningText": "Watch: plugin format? prompt-based? CLAUDE_PLUGIN_ROOT? timeout set?",

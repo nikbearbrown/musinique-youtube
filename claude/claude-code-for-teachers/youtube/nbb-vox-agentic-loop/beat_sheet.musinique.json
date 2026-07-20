@@ -6,7 +6,7 @@
   "topic": "CLAUDE CODE FOR TEACHERS",
   "audience": "NikBearBrown",
   "engine": "kokoro",
-  "voice": "am_onyx",
+  "voice": "am_puck",
   "palette": "claude",
   "register": "Baldwin",
   "derived_from": "beat_sheet.json",
@@ -30,10 +30,10 @@
   "old_outro_beats": [],
   "built_at": "2026-07-16T22:47:02.751594",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
-  "voice_kokoro": "am_onyx"
+  "voice_kokoro": "am_puck"
  },
  "beats": [
   {
@@ -41,8 +41,8 @@
    "act": "COLD OPEN",
    "title": "Liam cold open — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "This is Liam for Musinique. The unsettling part is that the explanation and the file changes happen inside the same loop, so a file is modified before I finish reading the plan. I want plan mode to be automatic before any build. For adding a contact page to ~/class-website: (1) show me exactly when to press Shift+Tab twice and what read-only mode still lets Claude do; (2) walk me through reviewing the proposed plan before Act begins; (3) tell me how I confirm nothing was edited or installed while I was reading.",
+   "voice": "am_puck",
+   "narration_text": "This is Musinique. The unsettling part is that the explanation and the file changes happen inside the same loop, so a file is modified before I finish reading the plan. I want plan mode to be automatic before any build. For adding a contact page to ~/class-website: (1) show me exactly when to press Shift+Tab twice and what read-only mode still lets Claude do; (2) walk me through reviewing the proposed plan before Act begins; (3) tell me how I confirm nothing was edited or installed while I was reading.",
    "shot": {
     "type": "CARD",
     "source": "remotion",
@@ -53,7 +53,7 @@
      "version": "1",
      "props": {
       "command": "The unsettling part is that the explanation and the file changes happen inside the same loop, so a file is modified before I finish reading the plan. I want plan mode to be automatic before any build. For adding a contact page to ~/class-website: (1) show me exactly when to press Shift+Tab twice and what read-only mode still lets Claude do; (2) walk me through reviewing the proposed plan before Act begins; (3) tell me how I confirm nothing was edited or installed while I was reading.",
-      "topic": "CLAUDE CODE FOR TEACHERS",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR TEACHERS",
       "segment": "Why the Agentic Loop Can Delete",
       "greeting": "Cześć, Musinique",
       "runningText": "explaining the mechanism…",
@@ -70,7 +70,7 @@
    },
    "estimated_duration_s": 9.0,
    "audio_file": "mp3/beat-NBB00.mp3",
-   "actual_duration_s": 8.171
+   "actual_duration_s": 28.46
   },
   {
    "beat_id": "B01",
@@ -88,20 +88,20 @@
     "eyebrow": "CLAUDE CODE FOR TEACHERS"
    },
    "new_visual_element": "[TITLE] the loop acts before you read",
-   "audio_file": "../vox-agentic-loop/mp3/beat-B01.mp3",
-   "actual_duration_s": 8.2,
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 7.87,
    "locked": true,
    "source_clip": "../vox-agentic-loop/clips/B01.mp4",
    "source_audio": "../vox-agentic-loop/mp3/beat-B01.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01B",
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "The indie musician who automates their Spotify stats check, their distributor ping, their playlist pitch — that musician gets time back that they would otherwise spend refreshing a dashboard. An agent is not a luxury for the label's data team; it is a tool you can run free, on your own machine, today. The same frontmatter that tells Claude when to fire a code-review agent tells it when to check your streaming anomalies. You just haven't pointed it yet.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -121,7 +121,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 22.06
   },
   {
    "beat_id": "B02",
@@ -145,13 +147,13 @@
     }
    },
    "new_visual_element": "[GRAPHIC] chatbot vs. agent loop comparison",
-   "audio_file": "../vox-agentic-loop/mp3/beat-B02.mp3",
-   "actual_duration_s": 9.93,
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 8.06,
    "locked": true,
    "source_clip": "../vox-agentic-loop/clips/B02.mp4",
    "source_audio": "../vox-agentic-loop/mp3/beat-B02.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B03",
@@ -175,13 +177,13 @@
     }
    },
    "new_visual_element": "[GRAPHIC] animated three-node gather-act-verify cycle",
-   "audio_file": "../vox-agentic-loop/mp3/beat-B03.mp3",
-   "actual_duration_s": 16.95,
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 14.17,
    "locked": true,
    "source_clip": "../vox-agentic-loop/clips/B03.mp4",
    "source_audio": "../vox-agentic-loop/mp3/beat-B03.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B04",
@@ -196,13 +198,13 @@
    "scene_description": "a terminal window pinned to newsprint showing Claude Code output with three file operations executing in sequence, editorial collage style, desaturated",
    "image_prompt": "B04, printed terminal output showing three file operations executing in sequence — contact.html written, nav modified, npm install running — before any review is possible, pinned to aged newsprint, editorial collage, highly desaturated, cream and charcoal tones",
    "new_visual_element": "[STILL ai] terminal showing loop executing before user reads",
-   "audio_file": "../vox-agentic-loop/mp3/beat-B04.mp3",
-   "actual_duration_s": 19.96,
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 17.05,
    "locked": true,
    "source_clip": "../vox-agentic-loop/clips/B04.mp4",
    "source_audio": "../vox-agentic-loop/mp3/beat-B04.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B05",
@@ -219,13 +221,13 @@
     "copy": "Files changed while the explanation was still scrolling. Why?"
    },
    "new_visual_element": "[CARD] the question on screen",
-   "audio_file": "../vox-agentic-loop/mp3/beat-B05.mp3",
-   "actual_duration_s": 11.47,
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 10.84,
    "locked": true,
    "source_clip": "../vox-agentic-loop/clips/B05.mp4",
    "source_audio": "../vox-agentic-loop/mp3/beat-B05.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B06",
@@ -249,13 +251,13 @@
     }
    },
    "new_visual_element": "[GRAPHIC] loop running async with output buffer",
-   "audio_file": "../vox-agentic-loop/mp3/beat-B06.mp3",
-   "actual_duration_s": 23.77,
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 19.31,
    "locked": true,
    "source_clip": "../vox-agentic-loop/clips/B06.mp4",
    "source_audio": "../vox-agentic-loop/mp3/beat-B06.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B07",
@@ -279,13 +281,13 @@
     }
    },
    "new_visual_element": "[GRAPHIC] plan mode gate between gather and act",
-   "audio_file": "../vox-agentic-loop/mp3/beat-B07.mp3",
-   "actual_duration_s": 19.12,
+   "audio_file": "mp3/beat-B07.mp3",
+   "actual_duration_s": 14.93,
    "locked": true,
    "source_clip": "../vox-agentic-loop/clips/B07.mp4",
    "source_audio": "../vox-agentic-loop/mp3/beat-B07.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B08",
@@ -309,13 +311,13 @@
     }
    },
    "new_visual_element": "[GRAPHIC] plan reviewed and edited before approval",
-   "audio_file": "../vox-agentic-loop/mp3/beat-B08.mp3",
-   "actual_duration_s": 20.56,
+   "audio_file": "mp3/beat-B08.mp3",
+   "actual_duration_s": 15.91,
    "locked": true,
    "source_clip": "../vox-agentic-loop/clips/B08.mp4",
    "source_audio": "../vox-agentic-loop/mp3/beat-B08.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B09",
@@ -339,13 +341,13 @@
     }
    },
    "new_visual_element": "[GRAPHIC] two outcomes: plan mode vs. no plan mode",
-   "audio_file": "../vox-agentic-loop/mp3/beat-B09.mp3",
-   "actual_duration_s": 26.23,
+   "audio_file": "mp3/beat-B09.mp3",
+   "actual_duration_s": 21.46,
    "locked": true,
    "source_clip": "../vox-agentic-loop/clips/B09.mp4",
    "source_audio": "../vox-agentic-loop/mp3/beat-B09.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B10",
@@ -368,13 +370,13 @@
     }
    },
    "new_visual_element": "[GRAPHIC] two-row heuristic table for when to use plan mode",
-   "audio_file": "../vox-agentic-loop/mp3/beat-B10.mp3",
-   "actual_duration_s": 20.01,
+   "audio_file": "mp3/beat-B10.mp3",
+   "actual_duration_s": 17.28,
    "locked": true,
    "source_clip": "../vox-agentic-loop/clips/B10.mp4",
    "source_audio": "../vox-agentic-loop/mp3/beat-B10.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B11",
@@ -398,13 +400,13 @@
     }
    },
    "new_visual_element": "[GRAPHIC] supervision dial showing plan mode as a toggle",
-   "audio_file": "../vox-agentic-loop/mp3/beat-B11.mp3",
-   "actual_duration_s": 19.88,
+   "audio_file": "mp3/beat-B11.mp3",
+   "actual_duration_s": 16.83,
    "locked": true,
    "source_clip": "../vox-agentic-loop/clips/B11.mp4",
    "source_audio": "../vox-agentic-loop/mp3/beat-B11.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B12",
@@ -422,20 +424,20 @@
     "sub": "CLAUDE CODE FOR TEACHERS"
    },
    "new_visual_element": "[CARD] endcard — loop acts; plan mode lets you read first",
-   "audio_file": "../vox-agentic-loop/mp3/beat-B12.mp3",
-   "actual_duration_s": 16.65,
+   "audio_file": "mp3/beat-B12.mp3",
+   "actual_duration_s": 13.06,
    "locked": true,
    "source_clip": "../vox-agentic-loop/clips/B12.mp4",
    "source_audio": "../vox-agentic-loop/mp3/beat-B12.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "NBB01",
    "act": "VERDICT",
    "title": "Liam verdict — ClaudeVerdictArtifact",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": "Let's recap with Claude. Here's what the body just demonstrated. The agentic loop is what makes Claude Code more than a better chatbot. The loop reads your project, executes a plan across many files, verifies the result — and does it without you managing each step. Plan mode is not overhead. It is the dial that lets you choose how much of the loop to supervise on any given task. The agentic loop acts before you finish reading because that is what makes it useful. Plan mode exists because useful is not the same as supervised. Shift+Tab twice, read the plan, edit what does not belong. Then let the loop run.",
    "shot": {
     "type": "CARD",
@@ -462,7 +464,7 @@
    },
    "estimated_duration_s": 30.0,
    "audio_file": "mp3/beat-NBB01.mp3",
-   "actual_duration_s": 30.187,
+   "actual_duration_s": 31.02,
    "lead_silence_s": 0.5
   },
   {
@@ -470,7 +472,7 @@
    "act": "YOUR TURN",
    "title": "Your turn handoff — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": "Take this prompt, run it on your own — pick any cancer type or clinical scenario you know about and ask how this mechanism applies there.",
    "shot": {
     "type": "CARD",
@@ -482,7 +484,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Why the Agentic Loop Can Delete Your Files Before You Finish Reading t] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "CLAUDE CODE FOR TEACHERS",
+      "topic": "MUSINIQUE · CLAUDE CODE FOR TEACHERS",
       "segment": "Why the Agentic Loop Can Delete",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -499,7 +501,7 @@
    },
    "estimated_duration_s": 8.0,
    "audio_file": "mp3/beat-NBB02.mp3",
-   "actual_duration_s": 7.765
+   "actual_duration_s": 7.81
   },
   {
    "beat_id": "NBB03",
@@ -528,10 +530,10 @@
    "estimated_duration_s": 6.0,
    "audio_file": "mp3/beat-NBB03.mp3",
    "silence_s": 6.0,
-   "actual_duration_s": 6.03,
+   "actual_duration_s": 4.63,
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "Why the Agentic Loop Can Delete Your Files Before You Finish Reading the Plan"
+   "voice": "am_puck",
+   "narration_text": "Why the Agentic Loop Can Delete Your Files Before You Finish Reading the Plan. From Musinique."
   }
  ]
 }

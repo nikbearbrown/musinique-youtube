@@ -6,7 +6,7 @@
   "topic": "PROMPT ENGINEERING",
   "audience": "NikBearBrown",
   "engine": "kokoro",
-  "voice": "am_onyx",
+  "voice": "am_puck",
   "palette": "claude",
   "register": "Baldwin",
   "derived_from": "beat_sheet.json",
@@ -31,10 +31,10 @@
   "old_outro_beats": [],
   "built_at": "2026-07-17T01:15:15.423677",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
-  "voice_kokoro": "am_onyx"
+  "voice_kokoro": "am_puck"
  },
  "beats": [
   {
@@ -42,8 +42,8 @@
    "act": "COLD OPEN",
    "title": "Liam cold open — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "This is Liam for Musinique. The line that stuck was that without a prohibition list, everything outside the authorization is implicitly available to the agent. Before I ever type 'clean up this folder' again, I want a safe handoff. For my folder of six months of draft reports: (1) draft the workspace, authorization, and explicit must-not-do lists the agent reads first; (2) write an approval gate that pauses before any delete or rename; (3) show how to require a dry-run manifest of proposed moves before a single file changes.",
+   "voice": "am_puck",
+   "narration_text": "This is Musinique. The line that stuck was that without a prohibition list, everything outside the authorization is implicitly available to the agent. Before I ever type 'clean up this folder' again, I want a safe handoff. For my folder of six months of draft reports: (1) draft the workspace, authorization, and explicit must-not-do lists the agent reads first; (2) write an approval gate that pauses before any delete or rename; (3) show how to require a dry-run manifest of proposed moves before a single file changes.",
    "shot": {
     "type": "CARD",
     "source": "remotion",
@@ -54,7 +54,7 @@
      "version": "1",
      "props": {
       "command": "The line that stuck was that without a prohibition list, everything outside the authorization is implicitly available to the agent. Before I ever type 'clean up this folder' again, I want a safe handoff. For my folder of six months of draft reports: (1) draft the workspace, authorization, and explicit must-not-do lists the agent reads first; (2) write an approval gate that pauses before any delete or rename; (3) show how to require a dry-run manifest of proposed moves before a single file changes.",
-      "topic": "PROMPT ENGINEERING",
+      "topic": "MUSINIQUE · PROMPT ENGINEERING",
       "segment": "Why 'Clean Up This Folder' Is",
       "greeting": "Cześć, Musinique",
       "runningText": "explaining the mechanism…",
@@ -71,7 +71,7 @@
    },
    "estimated_duration_s": 9.0,
    "audio_file": "mp3/beat-NBB00.mp3",
-   "actual_duration_s": 8.149
+   "actual_duration_s": 28.44
   },
   {
    "beat_id": "B01",
@@ -89,13 +89,13 @@
     "copy": "Why 'clean up this folder' is a dangerous instruction",
     "sub": "conversational request — agentic consequences"
    },
-   "audio_file": "../vox-agentic-irreversible/mp3/beat-B01.mp3",
-   "actual_duration_s": 14.99,
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 13.18,
    "locked": true,
    "source_clip": "../vox-agentic-irreversible/clips/B01.mp4",
    "source_audio": "../vox-agentic-irreversible/mp3/beat-B01.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B02",
@@ -110,13 +110,13 @@
    },
    "scene_description": "Professional woman at a desk staring at a computer screen showing an empty folder or file deletion log, looking alarmed, editorial newsprint treatment",
    "image_prompt": "B02, professional woman at a desk staring at a computer screen with an alarmed expression, editorial documentary newsprint treatment, desaturated flat print collage, professional office environment",
-   "audio_file": "../vox-agentic-irreversible/mp3/beat-B02.mp3",
-   "actual_duration_s": 20.51,
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 18.56,
    "locked": true,
    "source_clip": "../vox-agentic-irreversible/clips/B02.mp4",
    "source_audio": "../vox-agentic-irreversible/mp3/beat-B02.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B03",
@@ -134,20 +134,20 @@
     "copy": "Why did a familiar instruction cause irreversible harm?",
     "sub": ""
    },
-   "audio_file": "../vox-agentic-irreversible/mp3/beat-B03.mp3",
-   "actual_duration_s": 12.38,
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 11.95,
    "locked": true,
    "source_clip": "../vox-agentic-irreversible/clips/B03.mp4",
    "source_audio": "../vox-agentic-irreversible/mp3/beat-B03.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01B",
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "The indie musician who automates their Spotify stats check, their distributor ping, their playlist pitch — that musician gets time back that they would otherwise spend refreshing a dashboard. An agent is not a luxury for the label's data team; it is a tool you can run free, on your own machine, today. The same frontmatter that tells Claude when to fire a code-review agent tells it when to check your streaming anomalies. You just haven't pointed it yet.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -167,7 +167,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 22.06
   },
   {
    "beat_id": "B04",
@@ -183,13 +185,13 @@
    "graphic": {
     "manim": "B04_ChatVsAgentic"
    },
-   "audio_file": "../vox-agentic-irreversible/mp3/beat-B04.mp3",
-   "actual_duration_s": 17.21,
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 15.17,
    "locked": true,
    "source_clip": "../vox-agentic-irreversible/clips/B04.mp4",
    "source_audio": "../vox-agentic-irreversible/mp3/beat-B04.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B05",
@@ -205,13 +207,13 @@
    "graphic": {
     "manim": "B05_GoalVsSpec"
    },
-   "audio_file": "../vox-agentic-irreversible/mp3/beat-B05.mp3",
-   "actual_duration_s": 19.04,
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 15.62,
    "locked": true,
    "source_clip": "../vox-agentic-irreversible/clips/B05.mp4",
    "source_audio": "../vox-agentic-irreversible/mp3/beat-B05.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B06",
@@ -227,13 +229,13 @@
    "graphic": {
     "manim": "B06_ThreeQuestions"
    },
-   "audio_file": "../vox-agentic-irreversible/mp3/beat-B06.mp3",
-   "actual_duration_s": 16.85,
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 14.06,
    "locked": true,
    "source_clip": "../vox-agentic-irreversible/clips/B06.mp4",
    "source_audio": "../vox-agentic-irreversible/mp3/beat-B06.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B07",
@@ -251,13 +253,13 @@
     "copy": "Approval gates put the human review step back",
     "sub": ""
    },
-   "audio_file": "../vox-agentic-irreversible/mp3/beat-B07.mp3",
-   "actual_duration_s": 14.16,
+   "audio_file": "mp3/beat-B07.mp3",
+   "actual_duration_s": 12.69,
    "locked": true,
    "source_clip": "../vox-agentic-irreversible/clips/B07.mp4",
    "source_audio": "../vox-agentic-irreversible/mp3/beat-B07.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B08",
@@ -273,13 +275,13 @@
    "graphic": {
     "manim": "B08_SafeHandoff"
    },
-   "audio_file": "../vox-agentic-irreversible/mp3/beat-B08.mp3",
-   "actual_duration_s": 22.99,
+   "audio_file": "mp3/beat-B08.mp3",
+   "actual_duration_s": 16.66,
    "locked": true,
    "source_clip": "../vox-agentic-irreversible/clips/B08.mp4",
    "source_audio": "../vox-agentic-irreversible/mp3/beat-B08.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B09",
@@ -295,13 +297,13 @@
    "graphic": {
     "manim": "B09_AnyAgenticTask"
    },
-   "audio_file": "../vox-agentic-irreversible/mp3/beat-B09.mp3",
-   "actual_duration_s": 16.95,
+   "audio_file": "mp3/beat-B09.mp3",
+   "actual_duration_s": 14.7,
    "locked": true,
    "source_clip": "../vox-agentic-irreversible/clips/B09.mp4",
    "source_audio": "../vox-agentic-irreversible/mp3/beat-B09.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B10",
@@ -317,13 +319,13 @@
    "graphic": {
     "manim": "B10_BiologistExample"
    },
-   "audio_file": "../vox-agentic-irreversible/mp3/beat-B10.mp3",
-   "actual_duration_s": 24.42,
+   "audio_file": "mp3/beat-B10.mp3",
+   "actual_duration_s": 20.31,
    "locked": true,
    "source_clip": "../vox-agentic-irreversible/clips/B10.mp4",
    "source_audio": "../vox-agentic-irreversible/mp3/beat-B10.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B11",
@@ -339,13 +341,13 @@
    "graphic": {
     "manim": "B11_BiologistFixed"
    },
-   "audio_file": "../vox-agentic-irreversible/mp3/beat-B11.mp3",
-   "actual_duration_s": 24.66,
+   "audio_file": "mp3/beat-B11.mp3",
+   "actual_duration_s": 17.79,
    "locked": true,
    "source_clip": "../vox-agentic-irreversible/clips/B11.mp4",
    "source_audio": "../vox-agentic-irreversible/mp3/beat-B11.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B12",
@@ -361,13 +363,13 @@
    "graphic": {
     "manim": "B12_Practice"
    },
-   "audio_file": "../vox-agentic-irreversible/mp3/beat-B12.mp3",
-   "actual_duration_s": 19.12,
+   "audio_file": "mp3/beat-B12.mp3",
+   "actual_duration_s": 14.87,
    "locked": true,
    "source_clip": "../vox-agentic-irreversible/clips/B12.mp4",
    "source_audio": "../vox-agentic-irreversible/mp3/beat-B12.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B13",
@@ -385,20 +387,20 @@
     "copy": "The agent can only protect what you define.",
     "sub": "Specify before it acts — not after."
    },
-   "audio_file": "../vox-agentic-irreversible/mp3/beat-B13.mp3",
-   "actual_duration_s": 14.56,
+   "audio_file": "mp3/beat-B13.mp3",
+   "actual_duration_s": 11.35,
    "locked": true,
    "source_clip": "../vox-agentic-irreversible/clips/B13.mp4",
    "source_audio": "../vox-agentic-irreversible/mp3/beat-B13.mp3",
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "NBB01",
    "act": "VERDICT",
    "title": "Liam verdict — ClaudeVerdictArtifact",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": "Let's recap with Claude. Here's what the body just demonstrated. This applies to any agentic task. Organize a folder. Generate drafts. Extract data from files. Each one can modify, overwrite, or delete. The instruction that produces a plan in chat produces a change in the agent. Scale the specification to the stakes. A biologist says 'organize my sequencing outputs folder' to an agentic assistant. It creates subfolders, moves 47 files, and deletes 12 it flags as duplicates based on filename. Three deleted files had different content despite similar names. The March 14 sequencing run is gone. The log reads: 12 duplicates removed — no action needed.",
    "shot": {
     "type": "CARD",
@@ -426,7 +428,7 @@
    },
    "estimated_duration_s": 30.0,
    "audio_file": "mp3/beat-NBB01.mp3",
-   "actual_duration_s": 36.267,
+   "actual_duration_s": 36.95,
    "lead_silence_s": 0.5
   },
   {
@@ -434,7 +436,7 @@
    "act": "YOUR TURN",
    "title": "Your turn handoff — ClaudeComposerAsk",
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "narration_text": "Take this prompt, run it on your own — pick any cancer type or clinical scenario you know about and ask how this mechanism applies there.",
    "shot": {
     "type": "CARD",
@@ -446,7 +448,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Why 'Clean Up This Folder' Is a Dangerous Instruction] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "PROMPT ENGINEERING",
+      "topic": "MUSINIQUE · PROMPT ENGINEERING",
       "segment": "Why 'Clean Up This Folder' Is",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -463,7 +465,7 @@
    },
    "estimated_duration_s": 8.0,
    "audio_file": "mp3/beat-NBB02.mp3",
-   "actual_duration_s": 7.765
+   "actual_duration_s": 7.81
   },
   {
    "beat_id": "NBB03",
@@ -492,10 +494,10 @@
    "estimated_duration_s": 6.0,
    "audio_file": "mp3/beat-NBB03.mp3",
    "silence_s": 6.0,
-   "actual_duration_s": 6.03,
+   "actual_duration_s": 3.67,
    "engine": "kokoro",
-   "voice": "am_onyx",
-   "narration_text": "Why 'Clean Up This Folder' Is a Dangerous Instruction"
+   "voice": "am_puck",
+   "narration_text": "Why 'Clean Up This Folder' Is a Dangerous Instruction. From Musinique."
   }
  ]
 }

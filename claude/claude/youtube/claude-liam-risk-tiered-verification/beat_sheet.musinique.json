@@ -43,7 +43,7 @@
    ]
   },
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique"
  },
@@ -51,24 +51,26 @@
   {
    "beat_id": "B00",
    "act": "INTRO",
-   "narration_text": "This is Musinique. Nik Bear Brown. Build it with a CLI, then take it apart.",
+   "narration_text": "This is Musinique. Musinique. Build it with a CLI, then take it apart.",
    "estimated_duration_s": 10.0,
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOpen",
+     "pattern": "ClaudeComposerAsk",
      "props": {
-      "topic": "CLAUDE",
-      "lines": [
-       "Nik Bear Brown",
+      "command": "Build a Risk-Tiered Verification Checklist with Claude",
+      "topic": "MUSINIQUE · CLAUDE",
+      "segment": "Build a Risk-Tiered Verification Checklist with Claude",
+      "greeting": "This is Musinique.",
+      "runningText": "working…",
+      "output": [
        "Brutalist + Educational AI",
        "Risk-Tiered Verification",
        "Reading Is Not Reviewing",
        "The Checklist Protocol"
-      ],
-      "greeting": "Hej, Musinique"
+      ]
      },
      "rendered": {
       "out": "media/B00.mp4",
@@ -77,7 +79,7 @@
     }
    },
    "audio_file": "mp3/beat-B00.mp3",
-   "actual_duration_s": 5.48,
+   "actual_duration_s": 4.8,
    "build": {
     "status": "VIDEO",
     "src": "media/B00.mp4",
@@ -98,7 +100,7 @@
     "notes": "hook card: 'Reading is not reviewing.' — CRIMSON on 'reading', teal on 'verification protocol' — the gate framing"
    },
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 11.31,
+   "actual_duration_s": 11.75,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -135,7 +137,9 @@
       "at": ""
      }
     }
-   }
+   },
+   "audio_file": "mp3/beat-B01B.mp3",
+   "actual_duration_s": 16.94
   },
   {
    "beat_id": "B02",
@@ -147,10 +151,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"Build verification_gate.py:\n  args: --output-type and --risk-level\n  output types: summary citation number\n               chart code recommendation\n  risk levels: light moderate strict\n  print 3-5 concrete checkable steps\n  for each combination\"",
-      "topic": "CLAUDE",
+      "topic": "MUSINIQUE · CLAUDE",
       "segment": "VERIFICATION GATE",
       "runningText": "running analysis…"
      },
@@ -161,7 +165,7 @@
     }
    },
    "audio_file": "mp3/beat-B02.mp3",
-   "actual_duration_s": 10.39,
+   "actual_duration_s": 11.29,
    "build": {
     "status": "VIDEO",
     "src": "media/B02.mp4",
@@ -181,12 +185,12 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownCodeBlock",
+     "pattern": "ClaudeCodeBeat",
      "props": {
-      "filename": "verification_gate.py",
       "segment": "VERIFICATION GATE",
       "topic": "CLAUDE",
-      "code": "# verification_gate.py — Claude Code output\nMATRIX = {\n  'citation': {\n    'light':  ['open the source','check author'],\n    'moderate':['open the source','verify quote',\n               'check publication year'],\n    'strict': ['open the source','verify exact quote',\n               'check methodology','trace to primary']\n  },\n  'number': {\n    'strict': ['independent recalculation',\n               'check denominator','verify sample size',\n               'confirm unit consistency']\n  },\n  'chart': {\n    'moderate':['check axis labels','verify denominator',\n               'read title against data']\n  }\n  # ... all 6 output types × 3 risk levels\n}"
+      "code": "# verification_gate.py — Claude Code output\nMATRIX = {\n  'citation': {\n    'light':  ['open the source','check author'],\n    'moderate':['open the source','verify quote',\n               'check publication year'],\n    'strict': ['open the source','verify exact quote',\n               'check methodology','trace to primary']\n  },\n  'number': {\n    'strict': ['independent recalculation',\n               'check denominator','verify sample size',\n               'confirm unit consistency']\n  },\n  'chart': {\n    'moderate':['check axis labels','verify denominator',\n               'read title against data']\n  }\n  # ... all 6 output types × 3 risk levels\n}",
+      "title": "verification_gate.py"
      },
      "rendered": {
       "out": "media/B03.mp4",
@@ -195,7 +199,7 @@
     }
    },
    "audio_file": "mp3/beat-B03.mp3",
-   "actual_duration_s": 15.25,
+   "actual_duration_s": 16.6,
    "build": {
     "status": "VIDEO",
     "src": "media/B03.mp4",
@@ -216,7 +220,7 @@
     "notes": "terminal: three verification_gate.py runs — citation strict (4 steps), number moderate (3 steps), code light (2 steps) — each checklist printed cleanly"
    },
    "audio_file": "mp3/beat-B04.mp3",
-   "actual_duration_s": 12.76,
+   "actual_duration_s": 14.51,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -238,10 +242,10 @@
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownTerminalAsk",
+     "pattern": "ClaudeComposerAsk",
      "props": {
       "command": "claude \"update verification_gate.py:\n  add --log flag\n  exports checklist with ISO timestamps\n  as markdown file: verification-log.md\n  for audit trail purposes\"",
-      "topic": "CLAUDE",
+      "topic": "MUSINIQUE · CLAUDE",
       "segment": "VERIFICATION GATE",
       "runningText": "updating verification tool…"
      },
@@ -252,7 +256,7 @@
     }
    },
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 8.47,
+   "actual_duration_s": 8.94,
    "build": {
     "status": "VIDEO",
     "src": "media/B05.mp4",
@@ -273,7 +277,7 @@
     "notes": "terminal: --log flag run, then cat verification-log.md — markdown table with ISO timestamps, checkbox items, teal header"
    },
    "audio_file": "mp3/beat-B06.mp3",
-   "actual_duration_s": 12.82,
+   "actual_duration_s": 13.78,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -296,7 +300,7 @@
     "notes": "teardown card: 'Looks right → no protocol → unsupervisable' (CRIMSON) vs 'Checklist → automatic supervisory role → auditable' (teal)"
    },
    "audio_file": "mp3/beat-B07.mp3",
-   "actual_duration_s": 10.9,
+   "actual_duration_s": 11.78,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -319,7 +323,7 @@
     "notes": "next-reel teaser: 'Next: Privacy Classification Scanner' — segment 07 of the CLAUDE series"
    },
    "audio_file": "mp3/beat-B08.mp3",
-   "actual_duration_s": 9.88,
+   "actual_duration_s": 10.92,
    "build": {
     "status": "SLATE",
     "src": null,
@@ -334,14 +338,14 @@
   {
    "beat_id": "B09",
    "act": "OUTRO",
-   "narration_text": "Nik Bear Brown. Build it with a CLI. Then take it apart. At Nik Bear Brown, nikbearbrown dot com.",
+   "narration_text": "Musinique. Build it with a CLI. Then take it apart. At Musinique, nikbearbrown dot com.",
    "estimated_duration_s": 8.0,
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
     "motion": "fade",
     "remotion": {
-     "pattern": "NikBearBrownOutro",
+     "pattern": "ClaudeTitleOutro",
      "props": {
       "brand": "Nik Bear Brown",
       "tagline": "Brutalist + Educational AI",
@@ -355,7 +359,7 @@
     }
    },
    "audio_file": "mp3/beat-B09.mp3",
-   "actual_duration_s": 6.51,
+   "actual_duration_s": 6.76,
    "build": {
     "status": "VIDEO",
     "src": "media/B09.mp4",

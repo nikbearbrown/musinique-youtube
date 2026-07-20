@@ -34,7 +34,7 @@
   "old_outro_beats": [],
   "built_at": "2026-07-17T02:30:15.377753",
   "brand": "claude-musinique",
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
   "voice_kokoro": "am_puck"
@@ -57,7 +57,7 @@
      "version": "1",
      "props": {
       "command": "I get that the teacher's gate is at delivery and the student's is at the writing, and I want to place the gate for my own hybrid situation. I'm a grad student prepping a seminar I'll teach but also being graded on the reasoning behind it. Help me: (1) separate the cognitive work that IS my learning from the work AI can safely handle; (2) locate the exact point where AI must stop and I must start, written as 'AI handles X, I handle Y, gate at Z'; (3) explain how the same tool would flip from help to substitution if I moved that gate one step earlier.",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "Why the Same AI Tool Helps",
       "greeting": "Kumusta, Musinique",
       "runningText": "explaining the mechanism…",
@@ -582,7 +582,7 @@
      "version": "1",
      "props": {
       "command": "Explain how [Why the Same AI Tool Helps a Teacher and Harms a Student] applies to a specific cancer type or clinical case you're studying. What proteins are involved, what goes wrong at the molecular level, and what is the therapeutic or diagnostic significance?",
-      "topic": "AGENTIC AI",
+      "topic": "MUSINIQUE · AGENTIC AI",
       "segment": "Why the Same AI Tool Helps",
       "greeting": "Your turn.",
       "runningText": "paste this into Claude…",
@@ -631,7 +631,7 @@
    "actual_duration_s": 6.03,
    "engine": "kokoro",
    "voice": "am_puck",
-   "narration_text": "Why the Same AI Tool Helps a Teacher and Harms a Student"
+   "narration_text": "Why the Same AI Tool Helps a Teacher and Harms a Student. From Musinique."
   }
  ]
 }
