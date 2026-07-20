@@ -6,7 +6,7 @@
   "register": "Baldwin",
   "audience": "Claude",
   "brand": "claude-musinique",
-  "voice": "am_onyx",
+  "voice": "am_puck",
   "voice_env": "ELEVENLABS_VOICE_MUSINIQUE",
   "engine": "kokoro",
   "voice_default": "kokoro am_puck (override: ELEVENLABS_VOICE_MUSINIQUE)",
@@ -31,7 +31,7 @@
    "bot vs bot",
    "music promotion scams"
   ],
-  "voice_kokoro": "am_onyx",
+  "voice_kokoro": "am_puck",
   "derived_from": "beat_sheet.json",
   "outro_source": "AUTHOR.MD :: NikBearBrown",
   "_variant_todo": [
@@ -48,7 +48,7 @@
    "slates": [],
    "skin_warnings": []
   },
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique"
  },
@@ -56,7 +56,7 @@
   {
    "beat_id": "B00",
    "act": "ASK",
-   "narration_text": "This is Liam for Musinique. The finale says six prompts and zero subscriptions gave me a deck I own as text files in my own folder, and I don't want to lose that. Help me lock it in: (1) lay out the folder structure that holds all six prompts plus my voice and catalog files so no platform can sunset them; (2) write the one-line review-gate check that enforces the four things that never ride a schedule; (3) show me the honest ledger math comparing my minutes of review against the tabs and dead placement fees I stopped paying.",
+   "narration_text": "This is Musinique. The finale says six prompts and zero subscriptions gave me a deck I own as text files in my own folder, and I don't want to lose that. Help me lock it in: (1) lay out the folder structure that holds all six prompts plus my voice and catalog files so no platform can sunset them; (2) write the one-line review-gate check that enforces the four things that never ride a schedule; (3) show me the honest ledger math comparing my minutes of review against the tabs and dead placement fees I stopped paying.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
@@ -92,7 +92,7 @@
     "at": "2026-07-16T15:29:53"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01",
@@ -127,14 +127,14 @@
     "at": "2026-07-16T15:29:53"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01B",
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "The tools this video covers were built for enterprises with engineering teams and compliance budgets. The musician in the van at 1 a.m. has access to the exact same machinery, for free, through a browser. The gap between knowing this exists and knowing how to use it is what this channel closes — one working piece of your promotion deck at a time.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -189,7 +189,7 @@
     "at": "2026-07-16T15:29:53"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B03",
@@ -225,7 +225,7 @@
     "at": "2026-07-16T15:29:53"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B04",
@@ -260,7 +260,7 @@
     "at": "2026-07-16T15:29:53"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B05",
@@ -295,7 +295,7 @@
     "at": "2026-07-16T15:29:53"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B06",
@@ -333,7 +333,7 @@
     "at": "2026-07-16T15:29:53"
    },
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "lead_silence_s": 0.5
   },
   {
@@ -370,12 +370,12 @@
     "at": "2026-07-16T15:29:53"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B08",
    "act": "OUTRO",
-   "narration_text": "Claude, In Your Hands — bot vs bot, season one · 7/7",
+   "narration_text": "Claude, In Your Hands — bot vs bot, season one · 7/7. From Musinique.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
@@ -403,7 +403,7 @@
     "at": "2026-07-16T15:29:53"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   }
  ]
 }

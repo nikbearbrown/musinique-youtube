@@ -6,7 +6,7 @@
   "register": "Baldwin",
   "audience": "MUSINIQUE",
   "brand": "claude-musinique",
-  "voice": "am_onyx",
+  "voice": "am_puck",
   "voice_env": "ELEVENLABS_VOICE_MUSINIQUE",
   "engine": "kokoro",
   "voice_default": "kokoro am_puck (override: ELEVENLABS_VOICE_MUSINIQUE)",
@@ -31,8 +31,8 @@
    "bot vs bot",
    "music promotion scams"
   ],
-  "voice_kokoro": "am_onyx",
-  "channel": "claude-musinique",
+  "voice_kokoro": "am_puck",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
   "derived_from": "beat_sheet.json"
@@ -41,7 +41,7 @@
   {
    "beat_id": "B00",
    "act": "ASK",
-   "narration_text": "This is Liam for Musinique. I love that the overnight recipe wakes me to a target list with reasons instead of a bought email dump, but I'm scared of citing a placement that isn't real to the one person who'd know. Walk me through the safe version: (1) write the overnight supervisor-mapping prompt that names shows, recency, and lane-closeness; (2) show me how to run each placement claim through the episode-three source gate before the pitch goes out; (3) draft the bio at three lengths in my voice so I stop rewriting the booking email.",
+   "narration_text": "This is Musinique. I love that the overnight recipe wakes me to a target list with reasons instead of a bought email dump, but I'm scared of citing a placement that isn't real to the one person who'd know. Walk me through the safe version: (1) write the overnight supervisor-mapping prompt that names shows, recency, and lane-closeness; (2) show me how to run each placement claim through the episode-three source gate before the pitch goes out; (3) draft the bio at three lengths in my voice so I stop rewriting the booking email.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
@@ -71,7 +71,7 @@
    "audio_file": "mp3/beat-B00.mp3",
    "actual_duration_s": 15.66,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01",
@@ -100,14 +100,14 @@
    "audio_file": "mp3/beat-B01.mp3",
    "actual_duration_s": 17.11,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01B",
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "The tools this video covers were built for enterprises with engineering teams and compliance budgets. The musician in the van at 1 a.m. has access to the exact same machinery, for free, through a browser. The gap between knowing this exists and knowing how to use it is what this channel closes — one working piece of your promotion deck at a time.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -156,7 +156,7 @@
    "audio_file": "mp3/beat-B02.mp3",
    "actual_duration_s": 16.3,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B03",
@@ -185,7 +185,7 @@
    "audio_file": "mp3/beat-B03.mp3",
    "actual_duration_s": 17.54,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B04",
@@ -214,7 +214,7 @@
    "audio_file": "mp3/beat-B04.mp3",
    "actual_duration_s": 16.43,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B05",
@@ -243,7 +243,7 @@
    "audio_file": "mp3/beat-B05.mp3",
    "actual_duration_s": 16.79,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B06",
@@ -275,7 +275,7 @@
    "audio_file": "mp3/beat-B06.mp3",
    "actual_duration_s": 10.18,
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "lead_silence_s": 0.5
   },
   {
@@ -306,12 +306,12 @@
    "audio_file": "mp3/beat-B07.mp3",
    "actual_duration_s": 11.11,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B08",
    "act": "OUTRO",
-   "narration_text": "Claude, On the Pitch — bot vs bot, season one · 6/7",
+   "narration_text": "Claude, On the Pitch — bot vs bot, season one · 6/7. From Musinique.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
@@ -333,7 +333,7 @@
    "audio_file": "mp3/beat-B08.mp3",
    "actual_duration_s": 5.38,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   }
  ]
 }

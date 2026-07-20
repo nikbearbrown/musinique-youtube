@@ -6,10 +6,10 @@
   "register": "Baldwin",
   "audience": "MUSINIQUE",
   "brand": "claude-musinique",
-  "voice": "am_onyx",
+  "voice": "am_puck",
   "voice_env": "ELEVENLABS_VOICE_MUSINIQUE",
   "engine": "kokoro",
-  "voice_kokoro": "am_onyx",
+  "voice_kokoro": "am_puck",
   "voice_default": "kokoro am_puck (override: ELEVENLABS_VOICE_MUSINIQUE)",
   "palette": "claude",
   "style_preset": "claude",
@@ -32,7 +32,7 @@
    "bot vs bot",
    "music promotion scams"
   ],
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
   "derived_from": "beat_sheet.json"
@@ -41,7 +41,7 @@
   {
    "beat_id": "B00",
    "act": "ASK",
-   "narration_text": "This is Liam for Musinique. The tiering fix stuck with me — suspicious precision is the tell, and truth is the costume the lie wears, braided with real mechanics like waterfall releases and Release Radar's Friday cadence. Help me build the filter: (1) write the skill file that sorts sources into tier one cite-freely, tier two cite-with-name-flagged, tier three never-as-fact; (2) add the tripwire that flags a term belonging to a different platform instead of repeating it; (3) show me how my scheduled research bot applies this before it hands me a brief.",
+   "narration_text": "This is Musinique. The tiering fix stuck with me — suspicious precision is the tell, and truth is the costume the lie wears, braided with real mechanics like waterfall releases and Release Radar's Friday cadence. Help me build the filter: (1) write the skill file that sorts sources into tier one cite-freely, tier two cite-with-name-flagged, tier three never-as-fact; (2) add the tripwire that flags a term belonging to a different platform instead of repeating it; (3) show me how my scheduled research bot applies this before it hands me a brief.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
@@ -71,7 +71,7 @@
    "audio_file": "mp3/beat-B00.mp3",
    "actual_duration_s": 18.33,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01",
@@ -96,14 +96,14 @@
    "audio_file": "mp3/beat-B01.mp3",
    "actual_duration_s": 16.83,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01B",
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "The tools this video covers were built for enterprises with engineering teams and compliance budgets. The musician in the van at 1 a.m. has access to the exact same machinery, for free, through a browser. The gap between knowing this exists and knowing how to use it is what this channel closes — one working piece of your promotion deck at a time.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -148,7 +148,7 @@
    "audio_file": "mp3/beat-B02.mp3",
    "actual_duration_s": 17.86,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B03",
@@ -173,7 +173,7 @@
    "audio_file": "mp3/beat-B03.mp3",
    "actual_duration_s": 18.54,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B04",
@@ -198,7 +198,7 @@
    "audio_file": "mp3/beat-B04.mp3",
    "actual_duration_s": 20.5,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B05",
@@ -223,7 +223,7 @@
    "audio_file": "mp3/beat-B05.mp3",
    "actual_duration_s": 17.07,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B06",
@@ -255,7 +255,7 @@
    "audio_file": "mp3/beat-B06.mp3",
    "actual_duration_s": 15.21,
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "lead_silence_s": 0.5
   },
   {
@@ -286,12 +286,12 @@
    "audio_file": "mp3/beat-B07.mp3",
    "actual_duration_s": 10.24,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B08",
    "act": "OUTRO",
-   "narration_text": "Claude, Sourced — bot vs bot, season one · 3/7",
+   "narration_text": "Claude, Sourced — bot vs bot, season one · 3/7. From Musinique.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
@@ -313,7 +313,7 @@
    "audio_file": "mp3/beat-B08.mp3",
    "actual_duration_s": 4.61,
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   }
  ]
 }

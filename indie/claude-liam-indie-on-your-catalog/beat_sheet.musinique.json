@@ -6,7 +6,7 @@
   "register": "Baldwin",
   "audience": "Claude",
   "brand": "claude-musinique",
-  "voice": "am_onyx",
+  "voice": "am_puck",
   "voice_env": "ELEVENLABS_VOICE_MUSINIQUE",
   "engine": "kokoro",
   "voice_default": "kokoro am_puck (override: ELEVENLABS_VOICE_MUSINIQUE)",
@@ -31,7 +31,7 @@
    "bot vs bot",
    "music promotion scams"
   ],
-  "voice_kokoro": "am_onyx",
+  "voice_kokoro": "am_puck",
   "derived_from": "beat_sheet.json",
   "outro_source": "AUTHOR.MD :: NikBearBrown",
   "_variant_todo": [
@@ -48,7 +48,7 @@
    "slates": [],
    "skin_warnings": []
   },
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique"
  },
@@ -56,7 +56,7 @@
   {
    "beat_id": "B00",
    "act": "ASK",
-   "narration_text": "This is Liam for Musinique. The mirror-then-map move fascinates me: paste thirty songs and get cited patterns like a weather image recurring in seven songs, then pick three threads to mine on purpose. Help me actually run it: (1) write the prompt that surfaces my overused images and chorus resolutions, cited song by song so I can check each; (2) draft the follow-up that flips the mirror into a map of three strengths worth building the next release on; (3) tell me exactly what to keep out of the project folder so only lyrics, charts, and notes are in scope.",
+   "narration_text": "This is Musinique. The mirror-then-map move fascinates me: paste thirty songs and get cited patterns like a weather image recurring in seven songs, then pick three threads to mine on purpose. Help me actually run it: (1) write the prompt that surfaces my overused images and chorus resolutions, cited song by song so I can check each; (2) draft the follow-up that flips the mirror into a map of three strengths worth building the next release on; (3) tell me exactly what to keep out of the project folder so only lyrics, charts, and notes are in scope.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
@@ -92,7 +92,7 @@
     "at": "2026-07-16T15:45:02"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01",
@@ -127,14 +127,14 @@
     "at": "2026-07-16T15:45:02"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01B",
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "Recommendation systems don't care about your talent; they care about behavioral signals — saves, skips, repeat listens, playlist adds. A musician who understands the signal is a musician who can shape it deliberately instead of hoping the platform noticed. That knowledge used to live on the label side of the table. Now it fits in a prompt.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -189,7 +189,7 @@
     "at": "2026-07-16T15:45:02"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B03",
@@ -224,7 +224,7 @@
     "at": "2026-07-16T15:45:02"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B04",
@@ -260,7 +260,7 @@
     "at": "2026-07-16T15:45:02"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B05",
@@ -295,7 +295,7 @@
     "at": "2026-07-16T15:45:02"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B06",
@@ -333,7 +333,7 @@
     "at": "2026-07-16T15:45:02"
    },
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "lead_silence_s": 0.5
   },
   {
@@ -370,12 +370,12 @@
     "at": "2026-07-16T15:45:02"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B08",
    "act": "OUTRO",
-   "narration_text": "Claude, On Your Catalog — bot vs bot, season one · 5/7",
+   "narration_text": "Claude, On Your Catalog — bot vs bot, season one · 5/7. From Musinique.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
@@ -403,7 +403,7 @@
     "at": "2026-07-16T15:45:02"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   }
  ]
 }

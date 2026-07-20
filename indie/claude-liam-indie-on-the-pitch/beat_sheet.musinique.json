@@ -6,7 +6,7 @@
   "register": "Baldwin",
   "audience": "Claude",
   "brand": "claude-musinique",
-  "voice": "am_onyx",
+  "voice": "am_puck",
   "voice_env": "ELEVENLABS_VOICE_MUSINIQUE",
   "engine": "kokoro",
   "voice_default": "kokoro am_puck (override: ELEVENLABS_VOICE_MUSINIQUE)",
@@ -31,7 +31,7 @@
    "bot vs bot",
    "music promotion scams"
   ],
-  "voice_kokoro": "am_onyx",
+  "voice_kokoro": "am_puck",
   "derived_from": "beat_sheet.json",
   "outro_source": "AUTHOR.MD :: NikBearBrown",
   "_variant_todo": [
@@ -48,7 +48,7 @@
    "slates": [],
    "skin_warnings": []
   },
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique"
  },
@@ -56,7 +56,7 @@
   {
    "beat_id": "B00",
    "act": "ASK",
-   "narration_text": "This is Liam for Musinique. I love that the overnight recipe wakes me to a target list with reasons instead of a bought email dump, but I'm scared of citing a placement that isn't real to the one person who'd know. Walk me through the safe version: (1) write the overnight supervisor-mapping prompt that names shows, recency, and lane-closeness; (2) show me how to run each placement claim through the episode-three source gate before the pitch goes out; (3) draft the bio at three lengths in my voice so I stop rewriting the booking email.",
+   "narration_text": "This is Musinique. I love that the overnight recipe wakes me to a target list with reasons instead of a bought email dump, but I'm scared of citing a placement that isn't real to the one person who'd know. Walk me through the safe version: (1) write the overnight supervisor-mapping prompt that names shows, recency, and lane-closeness; (2) show me how to run each placement claim through the episode-three source gate before the pitch goes out; (3) draft the bio at three lengths in my voice so I stop rewriting the booking email.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
@@ -92,7 +92,7 @@
     "at": "2026-07-16T15:41:24"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01",
@@ -127,14 +127,14 @@
     "at": "2026-07-16T15:41:24"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01B",
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "The tools this video covers were built for enterprises with engineering teams and compliance budgets. The musician in the van at 1 a.m. has access to the exact same machinery, for free, through a browser. The gap between knowing this exists and knowing how to use it is what this channel closes — one working piece of your promotion deck at a time.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -189,7 +189,7 @@
     "at": "2026-07-16T15:41:24"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B03",
@@ -224,7 +224,7 @@
     "at": "2026-07-16T15:41:24"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B04",
@@ -259,7 +259,7 @@
     "at": "2026-07-16T15:41:24"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B05",
@@ -294,7 +294,7 @@
     "at": "2026-07-16T15:41:24"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B06",
@@ -332,7 +332,7 @@
     "at": "2026-07-16T15:41:24"
    },
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "lead_silence_s": 0.5
   },
   {
@@ -369,12 +369,12 @@
     "at": "2026-07-16T15:41:24"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B08",
    "act": "OUTRO",
-   "narration_text": "Claude, On the Pitch — bot vs bot, season one · 6/7",
+   "narration_text": "Claude, On the Pitch — bot vs bot, season one · 6/7. From Musinique.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
@@ -402,7 +402,7 @@
     "at": "2026-07-16T15:41:24"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   }
  ]
 }

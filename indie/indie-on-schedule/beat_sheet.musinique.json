@@ -32,7 +32,7 @@
    "bot vs bot",
    "music promotion scams"
   ],
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique",
   "derived_from": "beat_sheet.json"
@@ -291,7 +291,7 @@
   {
    "beat_id": "B08",
    "act": "OUTRO",
-   "narration_text": "Claude, On Schedule — bot vs bot, season one · 2/7",
+   "narration_text": "Claude, On Schedule — bot vs bot, season one · 2/7. From Musinique.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",

@@ -6,10 +6,10 @@
   "register": "Baldwin",
   "audience": "Claude",
   "brand": "claude-musinique",
-  "voice": "am_onyx",
+  "voice": "am_puck",
   "voice_env": "ELEVENLABS_VOICE_MUSINIQUE",
   "engine": "kokoro",
-  "voice_kokoro": "am_onyx",
+  "voice_kokoro": "am_puck",
   "voice_default": "kokoro am_puck (override: ELEVENLABS_VOICE_MUSINIQUE)",
   "palette": "claude",
   "style_preset": "claude",
@@ -48,7 +48,7 @@
    "slates": [],
    "skin_warnings": []
   },
-  "channel": "claude-musinique",
+  "channel": "musinique",
   "persona": "Musinique",
   "folderLabel": "@Musinique"
  },
@@ -56,7 +56,7 @@
   {
    "beat_id": "B00",
    "act": "ASK",
-   "narration_text": "This is Liam for Musinique. The tiering fix stuck with me — suspicious precision is the tell, and truth is the costume the lie wears, braided with real mechanics like waterfall releases and Release Radar's Friday cadence. Help me build the filter: (1) write the skill file that sorts sources into tier one cite-freely, tier two cite-with-name-flagged, tier three never-as-fact; (2) add the tripwire that flags a term belonging to a different platform instead of repeating it; (3) show me how my scheduled research bot applies this before it hands me a brief.",
+   "narration_text": "This is Musinique. The tiering fix stuck with me — suspicious precision is the tell, and truth is the costume the lie wears, braided with real mechanics like waterfall releases and Release Radar's Friday cadence. Help me build the filter: (1) write the skill file that sorts sources into tier one cite-freely, tier two cite-with-name-flagged, tier three never-as-fact; (2) add the tripwire that flags a term belonging to a different platform instead of repeating it; (3) show me how my scheduled research bot applies this before it hands me a brief.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
@@ -92,7 +92,7 @@
     "at": "2026-07-16T15:48:14"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01",
@@ -123,14 +123,14 @@
     "at": "2026-07-16T15:48:14"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B01B",
    "act": "indie-tangent — relevance to indie artists",
    "narration_text": "The tools this video covers were built for enterprises with engineering teams and compliance budgets. The musician in the van at 1 a.m. has access to the exact same machinery, for free, through a browser. The gap between knowing this exists and knowing how to use it is what this channel closes — one working piece of your promotion deck at a time.",
    "tangent": true,
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "engine": "kokoro",
    "estimated_duration_s": 15,
    "shot": {
@@ -181,7 +181,7 @@
     "at": "2026-07-16T15:48:14"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B03",
@@ -212,7 +212,7 @@
     "at": "2026-07-16T15:48:14"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B04",
@@ -243,7 +243,7 @@
     "at": "2026-07-16T15:48:14"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B05",
@@ -274,7 +274,7 @@
     "at": "2026-07-16T15:48:14"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B06",
@@ -312,7 +312,7 @@
     "at": "2026-07-16T15:48:14"
    },
    "engine": "kokoro",
-   "voice": "am_onyx",
+   "voice": "am_puck",
    "lead_silence_s": 0.5
   },
   {
@@ -349,12 +349,12 @@
     "at": "2026-07-16T15:48:14"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   },
   {
    "beat_id": "B08",
    "act": "OUTRO",
-   "narration_text": "Claude, Sourced — bot vs bot, season one · 3/7",
+   "narration_text": "Claude, Sourced — bot vs bot, season one · 3/7. From Musinique.",
    "shot": {
     "type": "GRAPHIC",
     "source": "remotion",
@@ -382,7 +382,7 @@
     "at": "2026-07-16T15:48:14"
    },
    "engine": "kokoro",
-   "voice": "am_onyx"
+   "voice": "am_puck"
   }
  ]
 }
