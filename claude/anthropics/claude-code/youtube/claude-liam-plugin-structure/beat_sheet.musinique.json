@@ -64,7 +64,7 @@
     }
    },
    "audio_file": "mp3/beat-B00.mp3",
-   "actual_duration_s": 39.94,
+   "actual_duration_s": 36.84,
    "build": {
     "status": "VIDEO",
     "src": "media/B00.mp4",
@@ -93,7 +93,7 @@
     }
    },
    "audio_file": "mp3/beat-B01.mp3",
-   "actual_duration_s": 60.76,
+   "actual_duration_s": 56.36,
    "build": {
     "status": "VIDEO",
     "src": "media/B01.mp4",
@@ -128,7 +128,7 @@
     }
    },
    "audio_file": "mp3/beat-B01B.mp3",
-   "actual_duration_s": 21.16
+   "actual_duration_s": 19.52
   },
   {
    "beat_id": "B02",
@@ -151,7 +151,7 @@
     }
    },
    "audio_file": "mp3/beat-B02.mp3",
-   "actual_duration_s": 63.62,
+   "actual_duration_s": 59.5,
    "build": {
     "status": "VIDEO",
     "src": "media/B02.mp4",
@@ -180,7 +180,7 @@
     }
    },
    "audio_file": "mp3/beat-B05.mp3",
-   "actual_duration_s": 74.47,
+   "actual_duration_s": 68.71,
    "build": {
     "status": "VIDEO",
     "src": "media/B05.mp4",
@@ -218,7 +218,7 @@
     }
    },
    "audio_file": "mp3/beat-BVDT.mp3",
-   "actual_duration_s": 43.5,
+   "actual_duration_s": 40.77,
    "build": {
     "status": "VIDEO",
     "src": "media/BVDT.mp4",
@@ -259,7 +259,7 @@
     }
    },
    "audio_file": "mp3/beat-BHTF.mp3",
-   "actual_duration_s": 47.57,
+   "actual_duration_s": 43.29,
    "build": {
     "status": "VIDEO",
     "src": "media/BHTF.mp4",
@@ -290,7 +290,7 @@
     }
    },
    "audio_file": "mp3/beat-BOUT.mp3",
-   "actual_duration_s": 2.39,
+   "actual_duration_s": 1.77,
    "build": {
     "status": "VIDEO",
     "src": "media/BOUT.mp4",
